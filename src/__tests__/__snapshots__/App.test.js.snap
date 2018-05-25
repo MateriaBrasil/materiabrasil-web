@@ -2,12 +2,260 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="App"
+  style={
+    Object {
+      "flexGrow": 1,
+    }
+  }
 >
-  <header>
-    <h1>
-      MateriaBrasil
-    </h1>
+  <header
+    className="MuiPaper-root-9 MuiPaper-elevation4-15 MuiAppBar-root-1 MuiAppBar-positionStatic-5 MuiAppBar-colorDefault-6"
+  >
+    <div
+      className="MuiToolbar-root-36 MuiToolbar-gutters-37"
+    >
+      <img
+        alt="logo"
+        src="images/logo-small.jpg"
+        style={
+          Object {
+            "marginRight": 10,
+          }
+        }
+      />
+      <h1
+        className="MuiTypography-root-38 MuiTypography-display1-42 MuiTypography-colorInherit-57"
+      >
+        MateriaBrasil
+      </h1>
+    </div>
   </header>
+  <div
+    className="MuiGrid-container-62 MuiGrid-justify-xs-center-79"
+    style={
+      Object {
+        "marginTop": 50,
+      }
+    }
+  >
+    <div
+      className="MuiGrid-item-63 MuiGrid-grid-xs-12-100 MuiGrid-grid-lg-6-133"
+    >
+      <div
+        className="MuiGrid-container-62 MuiGrid-spacing-xs-24-85 MuiGrid-justify-xs-center-79"
+      >
+        <div
+          className="MuiGrid-item-63"
+        >
+          <div
+            className="MuiPaper-root-9 MuiPaper-elevation2-13 MuiPaper-rounded-10 MuiCard-root-153"
+            style={
+              Object {
+                "height": 250,
+                "width": 300,
+              }
+            }
+          >
+            <div
+              className="MuiCardMedia-root-154"
+              src={undefined}
+              style={
+                Object {
+                  "backgroundImage": "url(\\"images/piso-fibonacci.jpg\\")",
+                  "height": 0,
+                  "paddingTop": "56.25%",
+                }
+              }
+              title="Material image"
+            />
+            <div
+              className="MuiCardContent-root-156"
+            >
+              <h3
+                className="MuiTypography-root-38 MuiTypography-subheading-45 MuiTypography-colorTextSecondary-60"
+              >
+                Piso Fibonacci
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-63"
+        >
+          <div
+            className="MuiPaper-root-9 MuiPaper-elevation2-13 MuiPaper-rounded-10 MuiCard-root-153"
+            style={
+              Object {
+                "height": 250,
+                "width": 300,
+              }
+            }
+          >
+            <div
+              className="MuiCardMedia-root-154"
+              src={undefined}
+              style={
+                Object {
+                  "backgroundImage": "url(\\"images/produtos-limpeza.jpeg\\")",
+                  "height": 0,
+                  "paddingTop": "56.25%",
+                }
+              }
+              title="Material image"
+            />
+            <div
+              className="MuiCardContent-root-156"
+            >
+              <h3
+                className="MuiTypography-root-38 MuiTypography-subheading-45 MuiTypography-colorTextSecondary-60"
+              >
+                Produtos de limpeza naturais e biodegradáveis
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-63"
+        >
+          <div
+            className="MuiPaper-root-9 MuiPaper-elevation2-13 MuiPaper-rounded-10 MuiCard-root-153"
+            style={
+              Object {
+                "height": 250,
+                "width": 300,
+              }
+            }
+          >
+            <div
+              className="MuiCardMedia-root-154"
+              src={undefined}
+              style={
+                Object {
+                  "backgroundImage": "url(\\"images/tecido.jpeg\\")",
+                  "height": 0,
+                  "paddingTop": "56.25%",
+                }
+              }
+              title="Material image"
+            />
+            <div
+              className="MuiCardContent-root-156"
+            >
+              <h3
+                className="MuiTypography-root-38 MuiTypography-subheading-45 MuiTypography-colorTextSecondary-60"
+              >
+                Tecido lona algodão reciclado
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-63"
+        >
+          <div
+            className="MuiPaper-root-9 MuiPaper-elevation2-13 MuiPaper-rounded-10 MuiCard-root-153"
+            style={
+              Object {
+                "height": 250,
+                "width": 300,
+              }
+            }
+          >
+            <div
+              className="MuiCardMedia-root-154"
+              src={undefined}
+              style={
+                Object {
+                  "backgroundImage": "url(\\"images/gravatas.jpg\\")",
+                  "height": 0,
+                  "paddingTop": "56.25%",
+                }
+              }
+              title="Material image"
+            />
+            <div
+              className="MuiCardContent-root-156"
+            >
+              <h3
+                className="MuiTypography-root-38 MuiTypography-subheading-45 MuiTypography-colorTextSecondary-60"
+              >
+                Gravatas e acessórios / Vintax
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-63"
+        >
+          <div
+            className="MuiPaper-root-9 MuiPaper-elevation2-13 MuiPaper-rounded-10 MuiCard-root-153"
+            style={
+              Object {
+                "height": 250,
+                "width": 300,
+              }
+            }
+          >
+            <div
+              className="MuiCardMedia-root-154"
+              src={undefined}
+              style={
+                Object {
+                  "backgroundImage": "url(\\"images/pastilhas-pet.jpg\\")",
+                  "height": 0,
+                  "paddingTop": "56.25%",
+                }
+              }
+              title="Material image"
+            />
+            <div
+              className="MuiCardContent-root-156"
+            >
+              <h3
+                className="MuiTypography-root-38 MuiTypography-subheading-45 MuiTypography-colorTextSecondary-60"
+              >
+                Pastilhas de PET reciclado
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-63"
+        >
+          <div
+            className="MuiPaper-root-9 MuiPaper-elevation2-13 MuiPaper-rounded-10 MuiCard-root-153"
+            style={
+              Object {
+                "height": 250,
+                "width": 300,
+              }
+            }
+          >
+            <div
+              className="MuiCardMedia-root-154"
+              src={undefined}
+              style={
+                Object {
+                  "backgroundImage": "url(\\"images/matu-quadrado.jpg\\")",
+                  "height": 0,
+                  "paddingTop": "56.25%",
+                }
+              }
+              title="Material image"
+            />
+            <div
+              className="MuiCardContent-root-156"
+            >
+              <h3
+                className="MuiTypography-root-38 MuiTypography-subheading-45 MuiTypography-colorTextSecondary-60"
+              >
+                Matü quadrado
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 `;
