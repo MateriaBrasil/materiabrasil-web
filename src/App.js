@@ -1,15 +1,17 @@
 import React, { Component } from 'react'
+import CssBaseline from '@material-ui/core/CssBaseline'
 
-class App extends Component {
+import NavBar from './NavBar'
+import List from './materials/List'
+
+export default class extends Component {
   render() {
     return (
-      <div className="App">
-        <header>
-          <h1>MateriaBrasil</h1>
-        </header>
+      <div style={{ flexGrow: 1 }}>
+        <CssBaseline />
+        <NavBar />
+        <List />
       </div>
     )
   }
 }
-
-export default App
