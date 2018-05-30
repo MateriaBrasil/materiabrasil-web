@@ -8,7 +8,7 @@ it('uses api action with correct configuration', () => {
 
   expect(apiAction).toHaveBeenCalledWith({
     prefix: '@materials/LIST',
-    path: 'materials/',
+    path: '/materials',
     method: 'GET',
     requestAttributes: {},
     processResponse: expect.anything(),

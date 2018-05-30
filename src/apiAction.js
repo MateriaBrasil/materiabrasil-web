@@ -21,10 +21,7 @@ const fetchOptions = ({ method, params, headers = {} }) => {
   return options
 }
 
-const url = ({ path }) => {
-  const baseUrl = 'http://0.0.0.0:3000/'
-  return `${baseUrl}${path}`
-}
+const url = ({ path }) => `${process.env.REACT_APP_API_URL}${path}`
 
 export const apiAction = options => dispatch =>
   dispatchAction(dispatch, options)
