@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="MuiGrid-container-1 MuiGrid-justify-xs-center-18"
+  style={
+    Object {
+      "marginTop": 50,
+    }
+  }
+>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-8-74"
+  >
+    <div
+      className="MuiGrid-container-1 MuiGrid-spacing-xs-24-24"
+    >
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-4-70"
+      >
+        <div
+          className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+          style={
+            Object {
+              "height": 250,
+            }
+          }
+        >
+          <div
+            className="MuiCardMedia-root-120"
+            src={undefined}
+            style={
+              Object {
+                "backgroundImage": "url(\\"bar\\")",
+                "height": 0,
+                "paddingTop": "56.25%",
+              }
+            }
+            title="foo"
+          />
+          <div
+            className="MuiCardContent-root-122"
+          >
+            <h3
+              className="MuiTypography-root-123 MuiTypography-subheading-130 MuiTypography-colorTextSecondary-145"
+            >
+              foo
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-4-70"
+      >
+        <div
+          className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+          style={
+            Object {
+              "height": 250,
+            }
+          }
+        >
+          <div
+            className="MuiCardMedia-root-120"
+            src={undefined}
+            style={
+              Object {
+                "backgroundImage": "url(\\"bar\\")",
+                "height": 0,
+                "paddingTop": "56.25%",
+              }
+            }
+            title="foo"
+          />
+          <div
+            className="MuiCardContent-root-122"
+          >
+            <h3
+              className="MuiTypography-root-123 MuiTypography-subheading-130 MuiTypography-colorTextSecondary-145"
+            >
+              foo
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-4-70"
+      >
+        <div
+          className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+          style={
+            Object {
+              "height": 250,
+            }
+          }
+        >
+          <div
+            className="MuiCardMedia-root-120"
+            src={undefined}
+            style={
+              Object {
+                "backgroundImage": "url(\\"bar\\")",
+                "height": 0,
+                "paddingTop": "56.25%",
+              }
+            }
+            title="foo"
+          />
+          <div
+            className="MuiCardContent-root-122"
+          >
+            <h3
+              className="MuiTypography-root-123 MuiTypography-subheading-130 MuiTypography-colorTextSecondary-145"
+            >
+              foo
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
