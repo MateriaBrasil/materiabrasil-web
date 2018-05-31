@@ -4,16 +4,16 @@ import CardMedia from '@material-ui/core/CardMedia'
 import CardContent from '@material-ui/core/CardContent'
 import Typography from '@material-ui/core/Typography'
 
-export default ({ image, heading }) => (
-  <Card style={{ width: 300, height: 250 }}>
+export default ({ imageUrl, name }) => (
+  <Card style={{ height: 250 }}>
     <CardMedia
       style={{ height: 0, paddingTop: '56.25%' }}
-      image={image}
-      title="Material image"
+      image={imageUrl}
+      title={name}
     />
     <CardContent>
       <Typography variant="subheading" color="textSecondary">
-        {heading}
+        {name}
       </Typography>
     </CardContent>
   </Card>

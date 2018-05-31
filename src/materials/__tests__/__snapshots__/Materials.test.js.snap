@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  List
+</div>
+`;
+
+exports[`renders correctly while loading 1`] = `
+<div
+  className="MuiLinearProgress-root-1 MuiLinearProgress-colorPrimary-2"
+  role="progressbar"
+>
+  <div
+    className="MuiLinearProgress-bar-9 MuiLinearProgress-barColorPrimary-10 MuiLinearProgress-bar1Indeterminate-12"
+    style={Object {}}
+  />
+  <div
+    className="MuiLinearProgress-bar-9 MuiLinearProgress-barColorPrimary-10 MuiLinearProgress-bar2Indeterminate-13"
+    style={Object {}}
+  />
+</div>
+`;
+
+exports[`renders correctly while starting up 1`] = `
+<div
+  className="MuiLinearProgress-root-1 MuiLinearProgress-colorPrimary-2"
+  role="progressbar"
+>
+  <div
+    className="MuiLinearProgress-bar-9 MuiLinearProgress-barColorPrimary-10 MuiLinearProgress-bar1Indeterminate-12"
+    style={Object {}}
+  />
+  <div
+    className="MuiLinearProgress-bar-9 MuiLinearProgress-barColorPrimary-10 MuiLinearProgress-bar2Indeterminate-13"
+    style={Object {}}
+  />
+</div>
+`;
+
+exports[`renders correctly whith errors 1`] = `
+<div
+  style={
+    Object {
+      "padding": 20,
+      "textAlign": "center",
+    }
+  }
+>
+  <h1
+    className="MuiTypography-root-17 MuiTypography-headline-22 MuiTypography-colorError-40"
+  >
+    foo
+  </h1>
+</div>
+`;
