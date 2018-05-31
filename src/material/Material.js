@@ -12,9 +12,9 @@ class Material extends Component {
   async componentWillMount() {
     const { actions, match } = this.props
     const { params } = match
-    const { materialId } = params
+    const { id } = params
     const { info, startUp } = actions
-    await info(materialId)
+    await info(id)
     startUp()
   }
 

@@ -8,6 +8,6 @@ import Material from './material/Material'
 export default () => (
   <Switch>
     <Route exact path="/" component={Materials} />
-    <Route exact path="/:materialId" component={Material} />
+    <Route path="/:id" component={Material} />
   </Switch>
 )
