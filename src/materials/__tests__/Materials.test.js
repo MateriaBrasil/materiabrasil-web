@@ -7,18 +7,15 @@ import createStore from '../../store/createStore'
 import Materials from '../Materials'
 
 jest.mock('../List', () => props => <div>List</div>)
+jest.mock('../actions', () => ({
+  startUp: () => ({ type: 'foo' }),
+  list: () => ({ type: 'foo' }),
+}))
 
 it('renders correctly', () => {
   const state = { materials: {} }
   const reducer = () => state
   const store = createStore(reducer)
-  const response = {
-    headers: { get: () => 'bar' },
-    ok: true,
-    text: () => '',
-  }
-
-  window.fetch = jest.fn(() => Promise.resolve(response))
 
   const tree = renderer
     .create(
@@ -34,13 +31,6 @@ it('renders correctly while starting up', () => {
   const state = { materials: { startingUp: true } }
   const reducer = () => state
   const store = createStore(reducer)
-  const response = {
-    headers: { get: () => 'bar' },
-    ok: true,
-    text: () => '',
-  }
-
-  window.fetch = jest.fn(() => Promise.resolve(response))
 
   const tree = renderer
     .create(
@@ -56,13 +46,6 @@ it('renders correctly while loading', () => {
   const state = { materials: { listing: true } }
   const reducer = () => state
   const store = createStore(reducer)
-  const response = {
-    headers: { get: () => 'bar' },
-    ok: true,
-    text: () => '',
-  }
-
-  window.fetch = jest.fn(() => Promise.resolve(response))
 
   const tree = renderer
     .create(
@@ -78,13 +61,6 @@ it('renders correctly with errors', () => {
   const state = { materials: { listError: 'foo' } }
   const reducer = () => state
   const store = createStore(reducer)
-  const response = {
-    headers: { get: () => 'bar' },
-    ok: true,
-    text: () => '',
-  }
-
-  window.fetch = jest.fn(() => Promise.resolve(response))
 
   const tree = renderer
     .create(
@@ -100,13 +76,6 @@ it('renders correctly with a list', () => {
   const state = { materials: { list: 'foo' } }
   const reducer = () => state
   const store = createStore(reducer)
-  const response = {
-    headers: { get: () => 'bar' },
-    ok: true,
-    text: () => '',
-  }
-
-  window.fetch = jest.fn(() => Promise.resolve(response))
 
   const tree = renderer
     .create(

@@ -6,18 +6,13 @@ import createStore from '../../store/createStore'
 
 import Material from '../Material'
 
+jest.mock('../actions', () => ({ info: () => ({ type: 'foo' }) }))
+
 it('renders correctly', () => {
   const state = { material: {} }
   const reducer = () => state
   const store = createStore(reducer)
-  const response = {
-    headers: { get: () => 'bar' },
-    ok: true,
-    text: () => '',
-  }
   const match = { params: { id: 1 } }
-
-  window.fetch = jest.fn(() => Promise.resolve(response))
 
   const tree = renderer
     .create(
@@ -33,14 +28,7 @@ it('renders correctly while starting up', () => {
   const state = { material: { startingUp: true } }
   const reducer = () => state
   const store = createStore(reducer)
-  const response = {
-    headers: { get: () => 'bar' },
-    ok: true,
-    text: () => '',
-  }
   const match = { params: { id: 1 } }
-
-  window.fetch = jest.fn(() => Promise.resolve(response))
 
   const tree = renderer
     .create(
@@ -60,14 +48,7 @@ it('renders correctly while loading', () => {
   const state = { material: { requestingInfo: true } }
   const reducer = () => state
   const store = createStore(reducer)
-  const response = {
-    headers: { get: () => 'bar' },
-    ok: true,
-    text: () => '',
-  }
   const match = { params: { id: 1 } }
-
-  window.fetch = jest.fn(() => Promise.resolve(response))
 
   const tree = renderer
     .create(
@@ -87,14 +68,7 @@ it('renders correctly with errors', () => {
   const state = { material: { infoError: 'foo' } }
   const reducer = () => state
   const store = createStore(reducer)
-  const response = {
-    headers: { get: () => 'bar' },
-    ok: true,
-    text: () => '',
-  }
   const match = { params: { id: 1 } }
-
-  window.fetch = jest.fn(() => Promise.resolve(response))
 
   const tree = renderer
     .create(
