@@ -3,6 +3,8 @@ import renderer from 'react-test-renderer'
 
 import List from '../List'
 
+jest.mock('react-router-dom/Link', () => props => <div {...props} />)
+
 it('renders correctly', () => {
   const list = [
     { name: 'foo', imageUrl: 'bar' },

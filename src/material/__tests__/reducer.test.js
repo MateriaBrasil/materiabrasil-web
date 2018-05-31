@@ -17,61 +17,50 @@ describe('with another prefix', () => {
 
 describe('with unknown action', () => {
   it('returns the initial state', () => {
-    const action = { type: '@materials/FOO_BAR' }
+    const action = { type: '@material/FOO_BAR' }
     expect(reducer(undefined, action)).toEqual(initialState)
   })
 })
 
-describe('with "startUp" action', () => {
+describe('with "info request" action', () => {
   it('returns the correct state', () => {
-    const action = { type: '@materials/START_UP' }
+    const action = { type: '@material/INFO_REQUEST' }
 
     expect(reducer(undefined, action)).toEqual({
       ...initialState,
-      startingUp: false,
+      infoError: null,
+      requestingInfo: true,
     })
   })
 })
 
-describe('with "list request" action', () => {
-  it('returns the correct state', () => {
-    const action = { type: '@materials/LIST_REQUEST' }
-
-    expect(reducer(undefined, action)).toEqual({
-      ...initialState,
-      listError: null,
-      listing: true,
-    })
-  })
-})
-
-describe('with "list failure" action', () => {
+describe('with "info failure" action', () => {
   it('returns the correct state', () => {
     const action = {
-      type: '@materials/LIST_FAILURE',
+      type: '@material/INFO_FAILURE',
       error: { message: 'foo' },
     }
 
     expect(reducer(undefined, action)).toEqual({
       ...initialState,
-      listing: false,
-      listError: action.error.message,
+      requestingInfo: false,
+      infoError: action.error.message,
       startingUp: false,
     })
   })
 })
 
-describe('with "list success" action', () => {
+describe('with "info success" action', () => {
   it('returns the correct state', () => {
     const action = {
-      type: '@materials/LIST_SUCCESS',
-      list: 'foo',
+      type: '@material/INFO_SUCCESS',
+      current: 'foo',
     }
 
     expect(reducer(undefined, action)).toEqual({
       ...initialState,
-      listing: false,
-      list: action.list,
+      requestingInfo: false,
+      current: action.current,
       startingUp: false,
     })
   })

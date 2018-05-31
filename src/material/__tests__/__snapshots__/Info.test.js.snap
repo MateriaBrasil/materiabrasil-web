@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="MuiGrid-container-1 MuiGrid-justify-xs-center-18"
+  style={
+    Object {
+      "marginTop": 50,
+    }
+  }
+>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-8-74"
+  >
+    <div
+      className="MuiGrid-container-1 MuiGrid-spacing-xs-24-24 MuiGrid-justify-xs-center-18"
+    >
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        <h1
+          className="MuiTypography-root-92 MuiTypography-display2-95"
+        >
+          foo
+        </h1>
+      </div>
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-8-74"
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        <img
+          alt="foo"
+          src="bar"
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-4-70"
+      >
+        <span
+          className="MuiTypography-root-92 MuiTypography-caption-102"
+          style={
+            Object {
+              "marginBottom": 15,
+            }
+          }
+        >
+          999
+        </span>
+        <h3
+          className="MuiTypography-root-92 MuiTypography-subheading-99"
+          style={
+            Object {
+              "marginBottom": 15,
+            }
+          }
+        >
+          info
+        </h3>
+        <h3
+          className="MuiTypography-root-92 MuiTypography-subheading-99"
+        >
+          100
+        </h3>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -4,23 +4,20 @@ import { Provider } from 'react-redux'
 
 import createStore from '../../store/createStore'
 
-import Materials from '../Materials'
+import Material from '../Material'
 
-jest.mock('../List', () => props => <div>List</div>)
-jest.mock('../actions', () => ({
-  startUp: () => ({ type: 'foo' }),
-  list: () => ({ type: 'foo' }),
-}))
+jest.mock('../actions', () => ({ info: () => ({ type: 'foo' }) }))
 
 it('renders correctly', () => {
-  const state = { materials: {} }
+  const state = { material: {} }
   const reducer = () => state
   const store = createStore(reducer)
+  const match = { params: { id: 1 } }
 
   const tree = renderer
     .create(
       <Provider store={store}>
-        <Materials />
+        <Material match={match} render={props => <div {...props} />} />
       </Provider>,
     )
     .toJSON()
@@ -28,14 +25,19 @@ it('renders correctly', () => {
 })
 
 it('renders correctly while starting up', () => {
-  const state = { materials: { startingUp: true } }
+  const state = { material: { startingUp: true } }
   const reducer = () => state
   const store = createStore(reducer)
+  const match = { params: { id: 1 } }
 
   const tree = renderer
     .create(
       <Provider store={store}>
-        <Materials {...state} />
+        <Material
+          match={match}
+          {...state}
+          render={props => <div {...props} />}
+        />
       </Provider>,
     )
     .toJSON()
@@ -43,14 +45,19 @@ it('renders correctly while starting up', () => {
 })
 
 it('renders correctly while loading', () => {
-  const state = { materials: { listing: true } }
+  const state = { material: { requestingInfo: true } }
   const reducer = () => state
   const store = createStore(reducer)
+  const match = { params: { id: 1 } }
 
   const tree = renderer
     .create(
       <Provider store={store}>
-        <Materials {...state} />
+        <Material
+          match={match}
+          {...state}
+          render={props => <div {...props} />}
+        />
       </Provider>,
     )
     .toJSON()
@@ -58,29 +65,15 @@ it('renders correctly while loading', () => {
 })
 
 it('renders correctly with errors', () => {
-  const state = { materials: { listError: 'foo' } }
+  const state = { material: { infoError: 'foo' } }
   const reducer = () => state
   const store = createStore(reducer)
+  const match = { params: { id: 1 } }
 
   const tree = renderer
     .create(
       <Provider store={store}>
-        <Materials {...state} />
-      </Provider>,
-    )
-    .toJSON()
-  expect(tree).toMatchSnapshot()
-})
-
-it('renders correctly with a list', () => {
-  const state = { materials: { list: 'foo' } }
-  const reducer = () => state
-  const store = createStore(reducer)
-
-  const tree = renderer
-    .create(
-      <Provider store={store}>
-        <Materials {...state} />
+        <Material match={match} {...state} />
       </Provider>,
     )
     .toJSON()

@@ -5,23 +5,23 @@ export default (state, action = {}) => {
     case 'REQUEST': {
       return {
         ...state,
-        listError: null,
-        listing: true,
+        infoError: null,
+        requestingInfo: true,
       }
     }
     case 'FAILURE': {
       return {
         ...state,
-        listing: false,
-        listError: action.error.message,
+        requestingInfo: false,
+        infoError: action.error.message,
         startingUp: false,
       }
     }
     case 'SUCCESS': {
       return {
         ...state,
-        listing: false,
-        list: action.list,
+        requestingInfo: false,
+        current: action.current,
         startingUp: false,
       }
     }

@@ -19,33 +19,37 @@ exports[`renders correctly 1`] = `
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-4-70"
       >
         <div
-          className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
-          style={
-            Object {
-              "height": 250,
-            }
-          }
+          to="/undefined"
         >
           <div
-            className="MuiCardMedia-root-120"
-            src={undefined}
+            className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
             style={
               Object {
-                "backgroundImage": "url(\\"bar\\")",
-                "height": 0,
-                "paddingTop": "56.25%",
+                "height": 250,
               }
             }
-            title="foo"
-          />
-          <div
-            className="MuiCardContent-root-122"
           >
-            <h3
-              className="MuiTypography-root-123 MuiTypography-subheading-130 MuiTypography-colorTextSecondary-145"
+            <div
+              className="MuiCardMedia-root-120"
+              src={undefined}
+              style={
+                Object {
+                  "backgroundImage": "url(\\"bar\\")",
+                  "height": 0,
+                  "paddingTop": "56.25%",
+                }
+              }
+              title="foo"
+            />
+            <div
+              className="MuiCardContent-root-122"
             >
-              foo
-            </h3>
+              <h3
+                className="MuiTypography-root-123 MuiTypography-subheading-130 MuiTypography-colorTextSecondary-145"
+              >
+                foo
+              </h3>
+            </div>
           </div>
         </div>
       </div>
@@ -53,33 +57,37 @@ exports[`renders correctly 1`] = `
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-4-70"
       >
         <div
-          className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
-          style={
-            Object {
-              "height": 250,
-            }
-          }
+          to="/undefined"
         >
           <div
-            className="MuiCardMedia-root-120"
-            src={undefined}
+            className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
             style={
               Object {
-                "backgroundImage": "url(\\"bar\\")",
-                "height": 0,
-                "paddingTop": "56.25%",
+                "height": 250,
               }
             }
-            title="foo"
-          />
-          <div
-            className="MuiCardContent-root-122"
           >
-            <h3
-              className="MuiTypography-root-123 MuiTypography-subheading-130 MuiTypography-colorTextSecondary-145"
+            <div
+              className="MuiCardMedia-root-120"
+              src={undefined}
+              style={
+                Object {
+                  "backgroundImage": "url(\\"bar\\")",
+                  "height": 0,
+                  "paddingTop": "56.25%",
+                }
+              }
+              title="foo"
+            />
+            <div
+              className="MuiCardContent-root-122"
             >
-              foo
-            </h3>
+              <h3
+                className="MuiTypography-root-123 MuiTypography-subheading-130 MuiTypography-colorTextSecondary-145"
+              >
+                foo
+              </h3>
+            </div>
           </div>
         </div>
       </div>
@@ -87,33 +95,37 @@ exports[`renders correctly 1`] = `
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-4-70"
       >
         <div
-          className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
-          style={
-            Object {
-              "height": 250,
-            }
-          }
+          to="/undefined"
         >
           <div
-            className="MuiCardMedia-root-120"
-            src={undefined}
+            className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
             style={
               Object {
-                "backgroundImage": "url(\\"bar\\")",
-                "height": 0,
-                "paddingTop": "56.25%",
+                "height": 250,
               }
             }
-            title="foo"
-          />
-          <div
-            className="MuiCardContent-root-122"
           >
-            <h3
-              className="MuiTypography-root-123 MuiTypography-subheading-130 MuiTypography-colorTextSecondary-145"
+            <div
+              className="MuiCardMedia-root-120"
+              src={undefined}
+              style={
+                Object {
+                  "backgroundImage": "url(\\"bar\\")",
+                  "height": 0,
+                  "paddingTop": "56.25%",
+                }
+              }
+              title="foo"
+            />
+            <div
+              className="MuiCardContent-root-122"
             >
-              foo
-            </h3>
+              <h3
+                className="MuiTypography-root-123 MuiTypography-subheading-130 MuiTypography-colorTextSecondary-145"
+              >
+                foo
+              </h3>
+            </div>
           </div>
         </div>
       </div>

@@ -1,9 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div>
-  List
-</div>
+<div
+  actions={
+    Object {
+      "info": [Function],
+    }
+  }
+  match={
+    Object {
+      "params": Object {
+        "id": 1,
+      },
+    }
+  }
+  render={[Function]}
+/>
 `;
 
 exports[`renders correctly while loading 1`] = `
@@ -35,12 +47,6 @@ exports[`renders correctly while starting up 1`] = `
     className="MuiLinearProgress-bar-9 MuiLinearProgress-barColorPrimary-10 MuiLinearProgress-bar2Indeterminate-13"
     style={Object {}}
   />
-</div>
-`;
-
-exports[`renders correctly with a list 1`] = `
-<div>
-  List
 </div>
 `;
 

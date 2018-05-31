@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import { Provider } from 'react-redux'
+import { BrowserRouter } from 'react-router-dom'
 import CssBaseline from '@material-ui/core/CssBaseline'
 
 import store from './store/store'
 
 import NavBar from './NavBar'
-import Materials from './materials/Materials'
+import Router from './Router'
 
 export default class extends Component {
   render() {
@@ -14,7 +15,9 @@ export default class extends Component {
         <div style={{ flexGrow: 1 }}>
           <CssBaseline />
           <NavBar />
-          <Materials />
+          <BrowserRouter>
+            <Router />
+          </BrowserRouter>
         </div>
       </Provider>
     )

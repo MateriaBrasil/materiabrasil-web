@@ -4,16 +4,19 @@ import { connect } from 'react-redux'
 import LinearProgress from '@material-ui/core/LinearProgress'
 
 import List from './List'
-import Error from './Error'
+import Error from '../Error'
 
 import * as actions from './actions'
 
 class Materials extends Component {
   async componentWillMount() {
-    const { actions } = this.props
-    const { list, startUp } = actions
-    await list()
-    startUp()
+    const { actions, list } = this.props
+
+    if (list) {
+      actions.startUp()
+    } else {
+      actions.list()
+    }
   }
 
   render() {
