@@ -14,6 +14,7 @@ export default (state, action = {}) => {
         ...state,
         listing: false,
         listError: action.error.message,
+        startingUp: false,
       }
     }
     case 'SUCCESS': {
@@ -21,6 +22,7 @@ export default (state, action = {}) => {
         ...state,
         listing: false,
         list: action.list,
+        startingUp: false,
       }
     }
     default:

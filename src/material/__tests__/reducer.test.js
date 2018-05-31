@@ -33,7 +33,7 @@ describe('with "startUp" action', () => {
   })
 })
 
-describe('with "list request" action', () => {
+describe('with "info request" action', () => {
   it('returns the correct state', () => {
     const action = { type: '@material/INFO_REQUEST' }
 
@@ -45,7 +45,7 @@ describe('with "list request" action', () => {
   })
 })
 
-describe('with "list failure" action', () => {
+describe('with "info failure" action', () => {
   it('returns the correct state', () => {
     const action = {
       type: '@material/INFO_FAILURE',
@@ -56,11 +56,12 @@ describe('with "list failure" action', () => {
       ...initialState,
       requestingInfo: false,
       infoError: action.error.message,
+      startingUp: false,
     })
   })
 })
 
-describe('with "list success" action', () => {
+describe('with "info success" action', () => {
   it('returns the correct state', () => {
     const action = {
       type: '@material/INFO_SUCCESS',
@@ -71,6 +72,7 @@ describe('with "list success" action', () => {
       ...initialState,
       requestingInfo: false,
       current: action.current,
+      startingUp: false,
     })
   })
 })

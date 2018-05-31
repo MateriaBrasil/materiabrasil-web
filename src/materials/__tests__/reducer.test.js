@@ -56,6 +56,7 @@ describe('with "list failure" action', () => {
       ...initialState,
       listing: false,
       listError: action.error.message,
+      startingUp: false,
     })
   })
 })
@@ -71,6 +72,7 @@ describe('with "list success" action', () => {
       ...initialState,
       listing: false,
       list: action.list,
+      startingUp: false,
     })
   })
 })

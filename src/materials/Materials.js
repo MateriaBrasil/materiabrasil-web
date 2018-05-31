@@ -10,10 +10,13 @@ import * as actions from './actions'
 
 class Materials extends Component {
   async componentWillMount() {
-    const { actions } = this.props
-    const { list, startUp } = actions
-    await list()
-    startUp()
+    const { actions, list } = this.props
+
+    if (list) {
+      actions.startUp()
+    } else {
+      actions.list()
+    }
   }
 
   render() {

@@ -6,8 +6,6 @@ import createStore from '../../store/createStore'
 
 import Material from '../Material'
 
-jest.mock('../Info', () => props => <div>Info</div>)
-
 it('renders correctly', () => {
   const state = { material: {} }
   const reducer = () => state
@@ -24,7 +22,7 @@ it('renders correctly', () => {
   const tree = renderer
     .create(
       <Provider store={store}>
-        <Material match={match} />
+        <Material match={match} render={props => <div {...props} />} />
       </Provider>,
     )
     .toJSON()
@@ -47,7 +45,11 @@ it('renders correctly while starting up', () => {
   const tree = renderer
     .create(
       <Provider store={store}>
-        <Material match={match} {...state} />
+        <Material
+          match={match}
+          {...state}
+          render={props => <div {...props} />}
+        />
       </Provider>,
     )
     .toJSON()
@@ -70,14 +72,18 @@ it('renders correctly while loading', () => {
   const tree = renderer
     .create(
       <Provider store={store}>
-        <Material match={match} {...state} />
+        <Material
+          match={match}
+          {...state}
+          render={props => <div {...props} />}
+        />
       </Provider>,
     )
     .toJSON()
   expect(tree).toMatchSnapshot()
 })
 
-it('renders correctly whith errors', () => {
+it('renders correctly with errors', () => {
   const state = { material: { infoError: 'foo' } }
   const reducer = () => state
   const store = createStore(reducer)

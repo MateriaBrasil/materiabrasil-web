@@ -38,7 +38,13 @@ exports[`renders correctly while starting up 1`] = `
 </div>
 `;
 
-exports[`renders correctly whith errors 1`] = `
+exports[`renders correctly with a list 1`] = `
+<div>
+  List
+</div>
+`;
+
+exports[`renders correctly with errors 1`] = `
 <div
   style={
     Object {

@@ -14,6 +14,7 @@ export default (state, action = {}) => {
         ...state,
         requestingInfo: false,
         infoError: action.error.message,
+        startingUp: false,
       }
     }
     case 'SUCCESS': {
@@ -21,6 +22,7 @@ export default (state, action = {}) => {
         ...state,
         requestingInfo: false,
         current: action.current,
+        startingUp: false,
       }
     }
     default:

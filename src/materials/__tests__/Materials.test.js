@@ -74,8 +74,30 @@ it('renders correctly while loading', () => {
   expect(tree).toMatchSnapshot()
 })
 
-it('renders correctly whith errors', () => {
+it('renders correctly with errors', () => {
   const state = { materials: { listError: 'foo' } }
+  const reducer = () => state
+  const store = createStore(reducer)
+  const response = {
+    headers: { get: () => 'bar' },
+    ok: true,
+    text: () => '',
+  }
+
+  window.fetch = jest.fn(() => Promise.resolve(response))
+
+  const tree = renderer
+    .create(
+      <Provider store={store}>
+        <Materials {...state} />
+      </Provider>,
+    )
+    .toJSON()
+  expect(tree).toMatchSnapshot()
+})
+
+it('renders correctly with a list', () => {
+  const state = { materials: { list: 'foo' } }
   const reducer = () => state
   const store = createStore(reducer)
   const response = {

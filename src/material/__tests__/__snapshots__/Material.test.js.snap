@@ -1,9 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div>
-  Info
-</div>
+<div
+  actions={
+    Object {
+      "info": [Function],
+    }
+  }
+  match={
+    Object {
+      "params": Object {
+        "id": 1,
+      },
+    }
+  }
+  render={[Function]}
+/>
 `;
 
 exports[`renders correctly while loading 1`] = `
@@ -38,7 +50,7 @@ exports[`renders correctly while starting up 1`] = `
 </div>
 `;
 
-exports[`renders correctly whith errors 1`] = `
+exports[`renders correctly with errors 1`] = `
 <div
   style={
     Object {
