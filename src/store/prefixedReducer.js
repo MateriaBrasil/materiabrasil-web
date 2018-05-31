@@ -1,7 +1,7 @@
 import { split, last } from 'lodash'
 
 export const parseType = type => split(type, '/')
-export const sufix = type => last(parseType(type))
+export const suffix = type => last(parseType(type))
 
 export default ({ prefix, reducer }) => (state, action) => {
   if (!action) {

@@ -6,7 +6,6 @@ import parseError from './parseError'
 const fetchOptions = ({ method, params, headers = {} }) => {
   const options = {
     method: method ? method : 'get',
-    credentials: 'same-origin',
     headers: {
       Accept: 'application/json',
       'Content-Type': 'application/json',

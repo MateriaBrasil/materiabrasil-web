@@ -1,11 +1,6 @@
 import reducer from '../reducer'
 
-const initialState = {
-  list: null,
-  listing: false,
-  listError: false,
-  startingUp: true,
-}
+import initialState from '../initialState'
 
 describe('with default values', () => {
   it('returns the initial state', () => {

@@ -1,17 +1,12 @@
 import apiReducer from '../store/apiReducer'
-import prefixedReducer, { sufix } from '../store/prefixedReducer'
+import prefixedReducer, { suffix } from '../store/prefixedReducer'
 
 import api from './reducer/api'
 
-const initialState = {
-  list: null,
-  listing: false,
-  listError: false,
-  startingUp: true,
-}
+import initialState from './initialState'
 
 const reducer = (state = initialState, action = {}) => {
-  switch (sufix(action.type)) {
+  switch (suffix(action.type)) {
     case 'START_UP': {
       return {
         ...state,

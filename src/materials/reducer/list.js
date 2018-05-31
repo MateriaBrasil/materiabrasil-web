@@ -1,7 +1,7 @@
-import { apiSufix } from '../../store/apiReducer'
+import { apiSuffix } from '../../store/apiReducer'
 
 export default (state, action = {}) => {
-  switch (apiSufix(action.type)) {
+  switch (apiSuffix(action.type)) {
     case 'REQUEST': {
       return {
         ...state,
