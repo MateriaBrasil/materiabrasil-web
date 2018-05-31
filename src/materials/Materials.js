@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import LinearProgress from '@material-ui/core/LinearProgress'
 
 import List from './List'
-import Error from './Error'
+import Error from '../Error'
 
 import * as actions from './actions'
 
