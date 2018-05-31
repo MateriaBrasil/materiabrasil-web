@@ -2,8 +2,7 @@ import apiReducer from '../store/apiReducer'
 import prefixedReducer, { suffix } from '../store/prefixedReducer'
 
 import api from './reducer/api'
-
-import initialState from './initialState'
+import initialState from './reducer/initialState'
 
 const reducer = (state = initialState, action = {}) => {
   switch (suffix(action.type)) {

@@ -1,6 +1,6 @@
 import reducer from '../reducer'
 
-import initialState from '../initialState'
+import initialState from '../reducer/initialState'
 
 describe('with default values', () => {
   it('returns the initial state', () => {
