@@ -22,17 +22,6 @@ describe('with unknown action', () => {
   })
 })
 
-describe('with "startUp" action', () => {
-  it('returns the correct state', () => {
-    const action = { type: '@material/START_UP' }
-
-    expect(reducer(undefined, action)).toEqual({
-      ...initialState,
-      startingUp: false,
-    })
-  })
-})
-
 describe('with "info request" action', () => {
   it('returns the correct state', () => {
     const action = { type: '@material/INFO_REQUEST' }
