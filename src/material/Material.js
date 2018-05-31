@@ -19,7 +19,6 @@ class Material extends Component {
   }
 
   render() {
-    console.log(this.props)
     const { startingUp, requestingInfo, infoError } = this.props
 
     if (startingUp || requestingInfo) {

@@ -1,9 +1,9 @@
-import list from '../list'
+import info from '../info'
 
 const state = { foo: 'bar' }
 
 describe('without action', () => {
   it('returns the state', () => {
-    expect(list(state)).toEqual(state)
+    expect(info(state)).toEqual(state)
   })
 })
