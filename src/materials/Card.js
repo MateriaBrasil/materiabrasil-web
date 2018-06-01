@@ -6,8 +6,8 @@ import CardContent from '@material-ui/core/CardContent'
 import Typography from '@material-ui/core/Typography'
 
 export default ({ imageUrl, name, id }) => (
-  <Link to={`/${id}`}>
-    <Card style={{ height: 250 }}>
+  <Link to={`/${id}`} style={{ textDecoration: 'none' }}>
+    <Card className="list-card">
       <CardMedia
         style={{ height: 0, paddingTop: '56.25%' }}
         image={imageUrl}

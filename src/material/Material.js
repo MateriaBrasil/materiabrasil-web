@@ -8,9 +8,7 @@ import * as actions from './actions'
 
 class Material extends Component {
   async componentWillMount() {
-    const { actions, match } = this.props
-    const { params } = match
-    const { id } = params
+    const { actions, id } = this.props
     const { info } = actions
     await info(id)
   }

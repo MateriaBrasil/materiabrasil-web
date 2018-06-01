@@ -10,15 +10,26 @@ exports[`renders correctly 1`] = `
   }
 >
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-8-74"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-10-50 MuiGrid-grid-md-10-63 MuiGrid-grid-lg-8-74"
+    style={
+      Object {
+        "paddingLeft": 10,
+        "paddingRight": 10,
+      }
+    }
   >
     <div
-      className="MuiGrid-container-1 MuiGrid-spacing-xs-24-24"
+      className="MuiGrid-container-1 MuiGrid-spacing-xs-24-24 MuiGrid-justify-xs-center-18"
     >
       <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-4-70"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57"
       >
         <div
+          style={
+            Object {
+              "textDecoration": "none",
+            }
+          }
           to="/undefined"
         >
           <div
@@ -26,6 +37,7 @@ exports[`renders correctly 1`] = `
             style={
               Object {
                 "height": 250,
+                "maxWidth": 340,
               }
             }
           >
@@ -54,9 +66,14 @@ exports[`renders correctly 1`] = `
         </div>
       </div>
       <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-4-70"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57"
       >
         <div
+          style={
+            Object {
+              "textDecoration": "none",
+            }
+          }
           to="/undefined"
         >
           <div
@@ -64,6 +81,7 @@ exports[`renders correctly 1`] = `
             style={
               Object {
                 "height": 250,
+                "maxWidth": 340,
               }
             }
           >
@@ -92,9 +110,14 @@ exports[`renders correctly 1`] = `
         </div>
       </div>
       <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-4-70"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57"
       >
         <div
+          style={
+            Object {
+              "textDecoration": "none",
+            }
+          }
           to="/undefined"
         >
           <div
@@ -102,6 +125,7 @@ exports[`renders correctly 1`] = `
             style={
               Object {
                 "height": 250,
+                "maxWidth": 340,
               }
             }
           >

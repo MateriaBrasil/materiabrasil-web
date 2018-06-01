@@ -7,13 +7,7 @@ exports[`renders correctly 1`] = `
       "info": [Function],
     }
   }
-  match={
-    Object {
-      "params": Object {
-        "id": 1,
-      },
-    }
-  }
+  id={1}
   render={[Function]}
 />
 `;
