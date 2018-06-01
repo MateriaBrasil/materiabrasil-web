@@ -1,9 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div
-  className="list-root"
->
+<div>
   <div
     className="MuiGrid-container-1 MuiGrid-spacing-xs-24-24"
   >

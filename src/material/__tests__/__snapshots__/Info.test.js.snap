@@ -6,14 +6,9 @@ exports[`renders correctly 1`] = `
 >
   <div
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
-    style={
-      Object {
-        "textAlign": "center",
-      }
-    }
   >
     <h1
-      className="MuiTypography-root-92 MuiTypography-display2-95"
+      className="MuiTypography-root-92 MuiTypography-display1-96"
     >
       foo
     </h1>
@@ -43,7 +38,7 @@ exports[`renders correctly 1`] = `
       className="MuiTypography-root-92 MuiTypography-caption-102"
       style={
         Object {
-          "marginBottom": 15,
+          "marginBottom": 16,
         }
       }
     >
@@ -53,12 +48,25 @@ exports[`renders correctly 1`] = `
       className="MuiTypography-root-92 MuiTypography-subheading-99"
       style={
         Object {
-          "marginBottom": 15,
+          "marginBottom": 24,
         }
       }
     >
       info
     </h3>
+    <hr
+      className="MuiDivider-root-116"
+      style={
+        Object {
+          "marginBottom": 24,
+        }
+      }
+    />
+    <span
+      className="MuiTypography-root-92 MuiTypography-caption-102"
+    >
+      Preço
+    </span>
     <h3
       className="MuiTypography-root-92 MuiTypography-subheading-99"
     >
