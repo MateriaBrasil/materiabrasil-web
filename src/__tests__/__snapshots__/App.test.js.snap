@@ -31,45 +31,49 @@ exports[`renders correctly 1`] = `
     </div>
   </header>
   <div
-    history={
-      Object {
-        "action": "POP",
-        "block": [Function],
-        "createHref": [Function],
-        "go": [Function],
-        "goBack": [Function],
-        "goForward": [Function],
-        "length": 1,
-        "listen": [Function],
-        "location": Object {
+    className="content"
+  >
+    <div
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+      location={
+        Object {
           "hash": "",
           "pathname": "/",
           "search": "",
           "state": undefined,
-        },
-        "push": [Function],
-        "replace": [Function],
+        }
       }
-    }
-    location={
-      Object {
-        "hash": "",
-        "pathname": "/",
-        "search": "",
-        "state": undefined,
+      match={
+        Object {
+          "isExact": true,
+          "params": Object {},
+          "path": "/",
+          "url": "/",
+        }
       }
-    }
-    match={
-      Object {
-        "isExact": true,
-        "params": Object {},
-        "path": "/",
-        "url": "/",
-      }
-    }
-    staticContext={undefined}
-  >
-    Materials
+      staticContext={undefined}
+    >
+      Materials
+    </div>
   </div>
 </div>
 `;

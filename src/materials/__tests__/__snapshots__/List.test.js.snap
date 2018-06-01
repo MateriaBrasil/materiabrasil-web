@@ -2,154 +2,121 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="MuiGrid-container-1 MuiGrid-justify-xs-center-18"
-  style={
-    Object {
-      "marginTop": 50,
-    }
-  }
+  className="list-root"
 >
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-10-50 MuiGrid-grid-md-10-63 MuiGrid-grid-lg-8-74"
-    style={
-      Object {
-        "paddingLeft": 10,
-        "paddingRight": 10,
-      }
-    }
+    className="MuiGrid-container-1 MuiGrid-spacing-xs-24-24"
   >
     <div
-      className="MuiGrid-container-1 MuiGrid-spacing-xs-24-24 MuiGrid-justify-xs-center-18"
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57"
     >
       <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57"
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
+        to="/undefined"
       >
         <div
-          style={
-            Object {
-              "textDecoration": "none",
-            }
-          }
-          to="/undefined"
+          className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92 list-card"
         >
           <div
-            className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+            className="MuiCardMedia-root-120"
+            src={undefined}
             style={
               Object {
-                "height": 250,
-                "maxWidth": 340,
+                "backgroundImage": "url(\\"bar\\")",
+                "height": 0,
+                "paddingTop": "56.25%",
               }
             }
+            title="foo"
+          />
+          <div
+            className="MuiCardContent-root-122"
           >
-            <div
-              className="MuiCardMedia-root-120"
-              src={undefined}
-              style={
-                Object {
-                  "backgroundImage": "url(\\"bar\\")",
-                  "height": 0,
-                  "paddingTop": "56.25%",
-                }
-              }
-              title="foo"
-            />
-            <div
-              className="MuiCardContent-root-122"
+            <h3
+              className="MuiTypography-root-123 MuiTypography-subheading-130 MuiTypography-colorTextSecondary-145"
             >
-              <h3
-                className="MuiTypography-root-123 MuiTypography-subheading-130 MuiTypography-colorTextSecondary-145"
-              >
-                foo
-              </h3>
-            </div>
+              foo
+            </h3>
           </div>
         </div>
       </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57"
+    >
       <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57"
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
+        to="/undefined"
       >
         <div
-          style={
-            Object {
-              "textDecoration": "none",
-            }
-          }
-          to="/undefined"
+          className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92 list-card"
         >
           <div
-            className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+            className="MuiCardMedia-root-120"
+            src={undefined}
             style={
               Object {
-                "height": 250,
-                "maxWidth": 340,
+                "backgroundImage": "url(\\"bar\\")",
+                "height": 0,
+                "paddingTop": "56.25%",
               }
             }
+            title="foo"
+          />
+          <div
+            className="MuiCardContent-root-122"
           >
-            <div
-              className="MuiCardMedia-root-120"
-              src={undefined}
-              style={
-                Object {
-                  "backgroundImage": "url(\\"bar\\")",
-                  "height": 0,
-                  "paddingTop": "56.25%",
-                }
-              }
-              title="foo"
-            />
-            <div
-              className="MuiCardContent-root-122"
+            <h3
+              className="MuiTypography-root-123 MuiTypography-subheading-130 MuiTypography-colorTextSecondary-145"
             >
-              <h3
-                className="MuiTypography-root-123 MuiTypography-subheading-130 MuiTypography-colorTextSecondary-145"
-              >
-                foo
-              </h3>
-            </div>
+              foo
+            </h3>
           </div>
         </div>
       </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57"
+    >
       <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57"
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
+        to="/undefined"
       >
         <div
-          style={
-            Object {
-              "textDecoration": "none",
-            }
-          }
-          to="/undefined"
+          className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92 list-card"
         >
           <div
-            className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+            className="MuiCardMedia-root-120"
+            src={undefined}
             style={
               Object {
-                "height": 250,
-                "maxWidth": 340,
+                "backgroundImage": "url(\\"bar\\")",
+                "height": 0,
+                "paddingTop": "56.25%",
               }
             }
+            title="foo"
+          />
+          <div
+            className="MuiCardContent-root-122"
           >
-            <div
-              className="MuiCardMedia-root-120"
-              src={undefined}
-              style={
-                Object {
-                  "backgroundImage": "url(\\"bar\\")",
-                  "height": 0,
-                  "paddingTop": "56.25%",
-                }
-              }
-              title="foo"
-            />
-            <div
-              className="MuiCardContent-root-122"
+            <h3
+              className="MuiTypography-root-123 MuiTypography-subheading-130 MuiTypography-colorTextSecondary-145"
             >
-              <h3
-                className="MuiTypography-root-123 MuiTypography-subheading-130 MuiTypography-colorTextSecondary-145"
-              >
-                foo
-              </h3>
-            </div>
+              foo
+            </h3>
           </div>
         </div>
       </div>
