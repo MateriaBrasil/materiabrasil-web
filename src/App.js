@@ -5,6 +5,7 @@ import CssBaseline from '@material-ui/core/CssBaseline'
 
 import store from './store/store'
 
+import Content from './Content'
 import NavBar from './NavBar'
 import Router from './Router'
 
@@ -15,9 +16,11 @@ export default class extends Component {
         <div style={{ flexGrow: 1 }}>
           <CssBaseline />
           <NavBar />
-          <BrowserRouter>
-            <Router />
-          </BrowserRouter>
+          <Content>
+            <BrowserRouter>
+              <Router />
+            </BrowserRouter>
+          </Content>
         </div>
       </Provider>
     )

@@ -4,10 +4,10 @@ import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
 
 export default () => (
-  <AppBar position="static" color="default">
+  <AppBar position="static" color="inherit">
     <Toolbar>
       <img src="images/logo-small.jpg" alt="logo" style={{ marginRight: 10 }} />
-      <Typography variant="display1" color="inherit">
+      <Typography variant="headline" color="inherit">
         MateriaBrasil
       </Typography>
     </Toolbar>

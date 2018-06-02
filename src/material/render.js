@@ -4,7 +4,7 @@ import Info from './Info'
 
 export default props => routeProps => (
   <Material
-    {...routeProps}
+    id={routeProps.match.params.id}
     render={materialProps => (
       <Info {...props} {...routeProps} {...materialProps} />
     )}
