@@ -39,6 +39,37 @@ exports[`renders correctly 1`] = `
             >
               foo
             </h3>
+            <div
+              style={
+                Object {
+                  "marginTop": 5,
+                }
+              }
+            >
+              <span
+                className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
+                style={
+                  Object {
+                    "float": "left",
+                  }
+                }
+              />
+              <span
+                className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
+                style={
+                  Object {
+                    "float": "right",
+                  }
+                }
+              />
+            </div>
+            <div
+              style={
+                Object {
+                  "clear": "both",
+                }
+              }
+            />
           </div>
         </div>
       </div>
@@ -77,6 +108,37 @@ exports[`renders correctly 1`] = `
             >
               foo
             </h3>
+            <div
+              style={
+                Object {
+                  "marginTop": 5,
+                }
+              }
+            >
+              <span
+                className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
+                style={
+                  Object {
+                    "float": "left",
+                  }
+                }
+              />
+              <span
+                className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
+                style={
+                  Object {
+                    "float": "right",
+                  }
+                }
+              />
+            </div>
+            <div
+              style={
+                Object {
+                  "clear": "both",
+                }
+              }
+            />
           </div>
         </div>
       </div>
@@ -115,6 +177,37 @@ exports[`renders correctly 1`] = `
             >
               foo
             </h3>
+            <div
+              style={
+                Object {
+                  "marginTop": 5,
+                }
+              }
+            >
+              <span
+                className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
+                style={
+                  Object {
+                    "float": "left",
+                  }
+                }
+              />
+              <span
+                className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
+                style={
+                  Object {
+                    "float": "right",
+                  }
+                }
+              />
+            </div>
+            <div
+              style={
+                Object {
+                  "clear": "both",
+                }
+              }
+            />
           </div>
         </div>
       </div>
