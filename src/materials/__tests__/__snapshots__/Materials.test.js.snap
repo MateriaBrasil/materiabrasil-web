@@ -8,33 +8,73 @@ exports[`renders correctly 1`] = `
 
 exports[`renders correctly while loading 1`] = `
 <div
-  className="MuiLinearProgress-root-1 MuiLinearProgress-colorPrimary-2"
-  role="progressbar"
+  style={
+    Object {
+      "textAlign": "center",
+    }
+  }
 >
   <div
-    className="MuiLinearProgress-bar-9 MuiLinearProgress-barColorPrimary-10 MuiLinearProgress-bar1Indeterminate-12"
-    style={Object {}}
-  />
-  <div
-    className="MuiLinearProgress-bar-9 MuiLinearProgress-barColorPrimary-10 MuiLinearProgress-bar2Indeterminate-13"
-    style={Object {}}
-  />
+    className="MuiCircularProgress-root-1 MuiCircularProgress-colorPrimary-4 MuiCircularProgress-indeterminate-3"
+    role="progressbar"
+    style={
+      Object {
+        "height": 40,
+        "width": 40,
+      }
+    }
+  >
+    <svg
+      className="MuiCircularProgress-svg-6"
+      viewBox="0 0 50 50"
+    >
+      <circle
+        className="MuiCircularProgress-circle-7 MuiCircularProgress-circleIndeterminate-9"
+        cx={25}
+        cy={25}
+        fill="none"
+        r={20}
+        strokeWidth={3.6}
+        style={Object {}}
+      />
+    </svg>
+  </div>
 </div>
 `;
 
 exports[`renders correctly while starting up 1`] = `
 <div
-  className="MuiLinearProgress-root-1 MuiLinearProgress-colorPrimary-2"
-  role="progressbar"
+  style={
+    Object {
+      "textAlign": "center",
+    }
+  }
 >
   <div
-    className="MuiLinearProgress-bar-9 MuiLinearProgress-barColorPrimary-10 MuiLinearProgress-bar1Indeterminate-12"
-    style={Object {}}
-  />
-  <div
-    className="MuiLinearProgress-bar-9 MuiLinearProgress-barColorPrimary-10 MuiLinearProgress-bar2Indeterminate-13"
-    style={Object {}}
-  />
+    className="MuiCircularProgress-root-1 MuiCircularProgress-colorPrimary-4 MuiCircularProgress-indeterminate-3"
+    role="progressbar"
+    style={
+      Object {
+        "height": 40,
+        "width": 40,
+      }
+    }
+  >
+    <svg
+      className="MuiCircularProgress-svg-6"
+      viewBox="0 0 50 50"
+    >
+      <circle
+        className="MuiCircularProgress-circle-7 MuiCircularProgress-circleIndeterminate-9"
+        cx={25}
+        cy={25}
+        fill="none"
+        r={20}
+        strokeWidth={3.6}
+        style={Object {}}
+      />
+    </svg>
+  </div>
 </div>
 `;
 
@@ -54,7 +94,7 @@ exports[`renders correctly with errors 1`] = `
   }
 >
   <h1
-    className="MuiTypography-root-17 MuiTypography-headline-22 MuiTypography-colorError-40"
+    className="MuiTypography-root-10 MuiTypography-headline-15 MuiTypography-colorError-33"
   >
     foo
   </h1>
