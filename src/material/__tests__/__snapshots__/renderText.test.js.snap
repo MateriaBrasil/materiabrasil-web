@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`breaks multinine text into lines 1`] = `
+Array [
+  <span>
+    foo
+    <br />
+</span>,
+  <span>
+    bar
+    <br />
+</span>,
+]
+`;
+
+exports[`renders correctly with text 1`] = `
+<span>
+  foo
+  <br />
+</span>
+`;

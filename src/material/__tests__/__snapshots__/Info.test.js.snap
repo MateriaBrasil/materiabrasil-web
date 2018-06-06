@@ -14,12 +14,7 @@ exports[`renders correctly 1`] = `
     </h1>
   </div>
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-lg-8-74"
-    style={
-      Object {
-        "textAlign": "center",
-      }
-    }
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-lg-7-73"
   >
     <img
       alt="foo"
@@ -30,9 +25,56 @@ exports[`renders correctly 1`] = `
         }
       }
     />
+    <div
+      className="MuiPaper-root-116 MuiPaper-elevation2-120 MuiPaper-rounded-117"
+      style={
+        Object {
+          "marginTop": 16,
+          "padding": 24,
+        }
+      }
+    >
+      <h3
+        className="MuiTypography-root-92 MuiTypography-subheading-99"
+      >
+        Propriedades do material
+      </h3>
+      <p
+        className="MuiTypography-root-92 MuiTypography-body1-101"
+      >
+        <span>
+          Foo properties
+          <br />
+        </span>
+      </p>
+    </div>
+    <div
+      className="MuiPaper-root-116 MuiPaper-elevation2-120 MuiPaper-rounded-117"
+      style={
+        Object {
+          "marginBottom": 24,
+          "marginTop": 16,
+          "padding": 24,
+        }
+      }
+    >
+      <h3
+        className="MuiTypography-root-92 MuiTypography-subheading-99"
+      >
+        Aplicações
+      </h3>
+      <p
+        className="MuiTypography-root-92 MuiTypography-body1-101"
+      >
+        <span>
+          Bar usage
+          <br />
+        </span>
+      </p>
+    </div>
   </div>
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-lg-4-70"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-lg-5-71"
   >
     <span
       className="MuiTypography-root-92 MuiTypography-caption-102"
@@ -55,23 +97,106 @@ exports[`renders correctly 1`] = `
       info
     </h3>
     <hr
-      className="MuiDivider-root-116"
+      className="MuiDivider-root-143"
       style={
         Object {
           "marginBottom": 24,
         }
       }
     />
-    <span
-      className="MuiTypography-root-92 MuiTypography-caption-102"
-    >
-      Preço
-    </span>
-    <h3
-      className="MuiTypography-root-92 MuiTypography-subheading-99"
-    >
-      100
-    </h3>
+    <div>
+      <div
+        style={
+          Object {
+            "marginBottom": 8,
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "width": "50%",
+            }
+          }
+        >
+          <span
+            className="MuiTypography-root-92 MuiTypography-caption-102"
+          >
+            Fornecedor
+          </span>
+          <h3
+            className="MuiTypography-root-92 MuiTypography-subheading-99"
+          >
+            Foo Supplier
+          </h3>
+        </div>
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+              "width": "50%",
+            }
+          }
+        >
+          <span
+            className="MuiTypography-root-92 MuiTypography-caption-102"
+          >
+            Local de produção
+          </span>
+          <h3
+            className="MuiTypography-root-92 MuiTypography-subheading-99"
+          >
+            Foo City/FO
+          </h3>
+        </div>
+      </div>
+      <span
+        className="MuiTypography-root-92 MuiTypography-caption-102"
+      >
+        Preço médio
+      </span>
+      <h3
+        className="MuiTypography-root-92 MuiTypography-subheading-99"
+      >
+        100
+      </h3>
+    </div>
+    <hr
+      className="MuiDivider-root-143"
+      style={
+        Object {
+          "marginBottom": 24,
+          "marginTop": 24,
+        }
+      }
+    />
+    <div>
+      <h3
+        className="MuiTypography-root-92 MuiTypography-subheading-99"
+        style={
+          Object {
+            "marginBottom": 10,
+          }
+        }
+      >
+        <a
+          href={undefined}
+          target="_blank"
+        >
+          Baixar especificações técnicas
+        </a>
+      </h3>
+      <h3
+        className="MuiTypography-root-92 MuiTypography-subheading-99"
+      >
+        <a
+          href="mailto:foo@bar.com"
+        >
+          Contatar fornecedor
+        </a>
+      </h3>
+    </div>
   </div>
 </div>
 `;
