@@ -151,16 +151,20 @@ exports[`renders correctly 1`] = `
           </h3>
         </div>
       </div>
-      <span
-        className="MuiTypography-root-92 MuiTypography-caption-102"
+      <div
+        style={undefined}
       >
-        Preço médio
-      </span>
-      <h3
-        className="MuiTypography-root-92 MuiTypography-subheading-99"
-      >
-        100
-      </h3>
+        <span
+          className="MuiTypography-root-92 MuiTypography-caption-102"
+        >
+          Preço médio
+        </span>
+        <h3
+          className="MuiTypography-root-92 MuiTypography-subheading-99"
+        >
+          100
+        </h3>
+      </div>
     </div>
     <hr
       className="MuiDivider-root-143"

@@ -1,19 +1,21 @@
 import React from 'react'
-import Typography from '@material-ui/core/Typography'
+
+import CaptionWithText from './CaptionWithText'
 
 export default ({ supplierName, manufacturingLocation, averagePrice }) => (
   <div>
     <div style={{ marginBottom: 8 }}>
-      <div style={{ display: 'inline-block', width: '50%' }}>
-        <Typography variant="caption">Fornecedor</Typography>
-        <Typography variant="subheading">{supplierName}</Typography>
-      </div>
-      <div style={{ display: 'inline-block', width: '50%' }}>
-        <Typography variant="caption">Local de produção</Typography>
-        <Typography variant="subheading">{manufacturingLocation}</Typography>
-      </div>
+      <CaptionWithText
+        style={{ display: 'inline-block', width: '50%' }}
+        caption="Fornecedor"
+        text={supplierName}
+      />
+      <CaptionWithText
+        style={{ display: 'inline-block', width: '50%' }}
+        caption="Local de produção"
+        text={manufacturingLocation}
+      />
     </div>
-    <Typography variant="caption">Preço médio</Typography>
-    <Typography variant="subheading">{averagePrice}</Typography>
+    <CaptionWithText caption="Preço médio" text={averagePrice} />
   </div>
 )
