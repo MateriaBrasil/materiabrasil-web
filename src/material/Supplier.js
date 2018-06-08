@@ -2,20 +2,19 @@ import React from 'react'
 
 import CaptionWithText from './CaptionWithText'
 
-export default ({ supplierName, manufacturingLocation, averagePrice }) => (
-  <div>
-    <div style={{ marginBottom: 8 }}>
+export default props => {
+  const { supplierName, manufacturingLocation, averagePrice } = props
+  const { supplierContact } = props
+
+  return (
+    <div>
+      <CaptionWithText caption="Fornecedor" text={supplierName} />
       <CaptionWithText
-        style={{ display: 'inline-block', width: '50%' }}
-        caption="Fornecedor"
-        text={supplierName}
-      />
-      <CaptionWithText
-        style={{ display: 'inline-block', width: '50%' }}
         caption="Local de produção"
         text={manufacturingLocation}
       />
+      <CaptionWithText caption="Preço médio" text={averagePrice} />
+      <CaptionWithText caption="Contato do fornecedor" text={supplierContact} />
     </div>
-    <CaptionWithText caption="Preço médio" text={averagePrice} />
-  </div>
-)
+  )
+}

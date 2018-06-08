@@ -11,7 +11,7 @@ it('renders correctly', () => {
     averagePrice: '100',
     code: '999',
     supplierName: 'Foo Supplier',
-    supplierEmail: 'foo@bar.com',
+    supplierContact: 'foo@bar.com',
     manufacturingLocation: 'Foo City/FO',
     salesLocation: 'Bar City/BR',
     technicalSpecification_url: 'http://foo',

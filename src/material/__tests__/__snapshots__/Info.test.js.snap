@@ -112,47 +112,41 @@ exports[`renders correctly 1`] = `
           }
         }
       >
-        <div
-          style={
-            Object {
-              "display": "inline-block",
-              "width": "50%",
-            }
-          }
+        <span
+          className="MuiTypography-root-92 MuiTypography-caption-102"
         >
-          <span
-            className="MuiTypography-root-92 MuiTypography-caption-102"
-          >
-            Fornecedor
-          </span>
-          <h3
-            className="MuiTypography-root-92 MuiTypography-subheading-99"
-          >
-            Foo Supplier
-          </h3>
-        </div>
-        <div
-          style={
-            Object {
-              "display": "inline-block",
-              "width": "50%",
-            }
-          }
+          Fornecedor
+        </span>
+        <h3
+          className="MuiTypography-root-92 MuiTypography-subheading-99"
         >
-          <span
-            className="MuiTypography-root-92 MuiTypography-caption-102"
-          >
-            Local de produção
-          </span>
-          <h3
-            className="MuiTypography-root-92 MuiTypography-subheading-99"
-          >
-            Foo City/FO
-          </h3>
-        </div>
+          Foo Supplier
+        </h3>
       </div>
       <div
-        style={undefined}
+        style={
+          Object {
+            "marginBottom": 8,
+          }
+        }
+      >
+        <span
+          className="MuiTypography-root-92 MuiTypography-caption-102"
+        >
+          Local de produção
+        </span>
+        <h3
+          className="MuiTypography-root-92 MuiTypography-subheading-99"
+        >
+          Foo City/FO
+        </h3>
+      </div>
+      <div
+        style={
+          Object {
+            "marginBottom": 8,
+          }
+        }
       >
         <span
           className="MuiTypography-root-92 MuiTypography-caption-102"
@@ -163,6 +157,24 @@ exports[`renders correctly 1`] = `
           className="MuiTypography-root-92 MuiTypography-subheading-99"
         >
           100
+        </h3>
+      </div>
+      <div
+        style={
+          Object {
+            "marginBottom": 8,
+          }
+        }
+      >
+        <span
+          className="MuiTypography-root-92 MuiTypography-caption-102"
+        >
+          Contato do fornecedor
+        </span>
+        <h3
+          className="MuiTypography-root-92 MuiTypography-subheading-99"
+        >
+          foo@bar.com
         </h3>
       </div>
     </div>
@@ -189,15 +201,6 @@ exports[`renders correctly 1`] = `
           target="_blank"
         >
           Baixar especificações técnicas
-        </a>
-      </h3>
-      <h3
-        className="MuiTypography-root-92 MuiTypography-subheading-99"
-      >
-        <a
-          href="mailto:foo@bar.com"
-        >
-          Contatar fornecedor
         </a>
       </h3>
     </div>
