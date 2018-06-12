@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
-import LinearProgress from '@material-ui/core/LinearProgress'
+
+import Loading from '../Loading'
+import Error from '../Error'
 
 import List from './List'
-import Error from '../Error'
 
 import * as actions from './actions'
 
@@ -23,7 +24,7 @@ class Materials extends Component {
     const { startingUp, listing, listError } = this.props
 
     if (startingUp || listing) {
-      return <LinearProgress />
+      return <Loading />
     }
 
     if (listError) {

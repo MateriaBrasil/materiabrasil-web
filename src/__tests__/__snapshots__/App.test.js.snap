@@ -14,20 +14,39 @@ exports[`renders correctly 1`] = `
     <div
       className="MuiToolbar-root-36 MuiToolbar-gutters-37"
     >
-      <img
-        alt="logo"
-        src="images/logo-small.jpg"
+      <a
+        href="/"
+        onClick={[Function]}
         style={
           Object {
-            "marginRight": 10,
+            "color": "black",
+            "textDecoration": "none",
           }
         }
-      />
-      <h1
-        className="MuiTypography-root-38 MuiTypography-headline-43 MuiTypography-colorInherit-57"
       >
-        MateriaBrasil
-      </h1>
+        <img
+          alt="logo"
+          src="images/logo-small.jpg"
+          style={
+            Object {
+              "display": "inline-block",
+              "marginRight": 10,
+              "verticalAlign": "middle",
+            }
+          }
+        />
+        <h1
+          className="MuiTypography-root-38 MuiTypography-headline-43 MuiTypography-colorInherit-57"
+          style={
+            Object {
+              "display": "inline-block",
+              "verticalAlign": "middle",
+            }
+          }
+        >
+          MateriaBrasil
+        </h1>
+      </a>
     </div>
   </header>
   <div

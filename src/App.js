@@ -13,15 +13,15 @@ export default class extends Component {
   render() {
     return (
       <Provider store={store}>
-        <div style={{ flexGrow: 1 }}>
-          <CssBaseline />
-          <NavBar />
-          <Content>
-            <BrowserRouter>
+        <BrowserRouter>
+          <div style={{ flexGrow: 1 }}>
+            <CssBaseline />
+            <NavBar />
+            <Content>
               <Router />
-            </BrowserRouter>
-          </Content>
-        </div>
+            </Content>
+          </div>
+        </BrowserRouter>
       </Provider>
     )
   }

@@ -39,6 +39,32 @@ exports[`renders correctly 1`] = `
             >
               foo
             </h3>
+            <div
+              style={
+                Object {
+                  "marginTop": 10,
+                }
+              }
+            >
+              <span
+                className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
+                style={
+                  Object {
+                    "marginBottom": 4,
+                  }
+                }
+              />
+              <span
+                className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
+              />
+            </div>
+            <div
+              style={
+                Object {
+                  "clear": "both",
+                }
+              }
+            />
           </div>
         </div>
       </div>
@@ -77,6 +103,32 @@ exports[`renders correctly 1`] = `
             >
               foo
             </h3>
+            <div
+              style={
+                Object {
+                  "marginTop": 10,
+                }
+              }
+            >
+              <span
+                className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
+                style={
+                  Object {
+                    "marginBottom": 4,
+                  }
+                }
+              />
+              <span
+                className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
+              />
+            </div>
+            <div
+              style={
+                Object {
+                  "clear": "both",
+                }
+              }
+            />
           </div>
         </div>
       </div>
@@ -115,6 +167,32 @@ exports[`renders correctly 1`] = `
             >
               foo
             </h3>
+            <div
+              style={
+                Object {
+                  "marginTop": 10,
+                }
+              }
+            >
+              <span
+                className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
+                style={
+                  Object {
+                    "marginBottom": 4,
+                  }
+                }
+              />
+              <span
+                className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
+              />
+            </div>
+            <div
+              style={
+                Object {
+                  "clear": "both",
+                }
+              }
+            />
           </div>
         </div>
       </div>
