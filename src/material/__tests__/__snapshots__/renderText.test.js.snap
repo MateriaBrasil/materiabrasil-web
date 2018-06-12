@@ -2,20 +2,31 @@
 
 exports[`breaks multinine text into lines 1`] = `
 Array [
-  <span>
+  <div>
     foo
-    <br />
-</span>,
-  <span>
+</div>,
+  <div>
     bar
-    <br />
-</span>,
+</div>,
 ]
 `;
 
 exports[`renders correctly with text 1`] = `
-<span>
+<div>
   foo
-  <br />
-</span>
+</div>
+`;
+
+exports[`skips empty lines 1`] = `
+Array [
+  "",
+  "",
+  <div>
+    foo
+</div>,
+  <div>
+    bar
+</div>,
+  "",
+]
 `;

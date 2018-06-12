@@ -16,61 +16,68 @@ exports[`renders correctly 1`] = `
   <div
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-lg-7-73"
   >
-    <img
-      alt="foo"
-      src="bar"
-      style={
-        Object {
-          "width": "100%",
-        }
-      }
-    />
     <div
-      className="MuiPaper-root-116 MuiPaper-elevation2-120 MuiPaper-rounded-117"
-      style={
-        Object {
-          "marginTop": 16,
-          "padding": 24,
-        }
-      }
+      className="MuiPaper-root-117 MuiPaper-elevation2-121 MuiPaper-rounded-118 MuiCard-root-116"
     >
-      <h3
-        className="MuiTypography-root-92 MuiTypography-subheading-99"
-      >
-        Propriedades do material
-      </h3>
-      <p
-        className="MuiTypography-root-92 MuiTypography-body1-101"
-      >
-        <span>
-          Foo properties
-          <br />
-        </span>
-      </p>
-    </div>
-    <div
-      className="MuiPaper-root-116 MuiPaper-elevation2-120 MuiPaper-rounded-117"
-      style={
-        Object {
-          "marginBottom": 24,
-          "marginTop": 16,
-          "padding": 24,
+      <div
+        className="MuiCardMedia-root-144"
+        src={undefined}
+        style={
+          Object {
+            "backgroundImage": "url(\\"bar\\")",
+            "height": 0,
+            "paddingTop": "56.25%",
+          }
         }
-      }
-    >
-      <h3
-        className="MuiTypography-root-92 MuiTypography-subheading-99"
+        title="foo"
+      />
+      <div
+        className="MuiCardContent-root-146"
       >
-        Aplicações
-      </h3>
-      <p
-        className="MuiTypography-root-92 MuiTypography-body1-101"
-      >
-        <span>
-          Bar usage
-          <br />
-        </span>
-      </p>
+        <h3
+          className="MuiTypography-root-92 MuiTypography-subheading-99"
+          style={
+            Object {
+              "marginBottom": 8,
+            }
+          }
+        >
+          Propriedades do material
+        </h3>
+        <p
+          className="MuiTypography-root-92 MuiTypography-body1-101"
+        >
+          <div>
+            Foo properties
+          </div>
+        </p>
+        <hr
+          className="MuiDivider-root-147"
+          style={
+            Object {
+              "marginBottom": 16,
+              "marginTop": 16,
+            }
+          }
+        />
+        <h3
+          className="MuiTypography-root-92 MuiTypography-subheading-99"
+          style={
+            Object {
+              "marginBottom": 8,
+            }
+          }
+        >
+          Aplicações
+        </h3>
+        <p
+          className="MuiTypography-root-92 MuiTypography-body1-101"
+        >
+          <div>
+            Bar usage
+          </div>
+        </p>
+      </div>
     </div>
   </div>
   <div
@@ -97,7 +104,7 @@ exports[`renders correctly 1`] = `
       info
     </h3>
     <hr
-      className="MuiDivider-root-143"
+      className="MuiDivider-root-147"
       style={
         Object {
           "marginBottom": 24,
@@ -179,7 +186,7 @@ exports[`renders correctly 1`] = `
       </div>
     </div>
     <hr
-      className="MuiDivider-root-143"
+      className="MuiDivider-root-147"
       style={
         Object {
           "marginBottom": 24,

@@ -5,10 +5,7 @@ export default text => {
     return ''
   }
 
-  return text.split('\n').map((item, key) => (
-    <span key={key}>
-      {item}
-      <br />
-    </span>
-  ))
+  return text
+    .split('\n')
+    .map((item, key) => item && item !== '' && <div key={key}>{item}</div>)
 }

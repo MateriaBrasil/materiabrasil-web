@@ -12,6 +12,11 @@ it('breaks multinine text into lines', () => {
   expect(tree).toMatchSnapshot()
 })
 
+it('skips empty lines', () => {
+  const tree = renderer.create(renderText('\n\nfoo\nbar\n')).toJSON()
+  expect(tree).toMatchSnapshot()
+})
+
 it('returns empty string without text', () => {
   expect(renderText()).toEqual('')
 })

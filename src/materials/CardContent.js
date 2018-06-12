@@ -7,19 +7,15 @@ export default ({ name, supplierName, manufacturingLocation }) => (
     <Typography variant="subheading" color="textSecondary">
       {name}
     </Typography>
-    <div style={{ marginTop: 5 }}>
+    <div style={{ marginTop: 10 }}>
       <Typography
         variant="caption"
         color="textSecondary"
-        style={{ float: 'left' }}
+        style={{ marginBottom: 4 }}
       >
         {supplierName}
       </Typography>
-      <Typography
-        variant="caption"
-        color="textSecondary"
-        style={{ float: 'right' }}
-      >
+      <Typography variant="caption" color="textSecondary">
         {manufacturingLocation}
       </Typography>
     </div>

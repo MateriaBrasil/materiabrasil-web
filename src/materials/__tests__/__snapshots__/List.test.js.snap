@@ -42,7 +42,7 @@ exports[`renders correctly 1`] = `
             <div
               style={
                 Object {
-                  "marginTop": 5,
+                  "marginTop": 10,
                 }
               }
             >
@@ -50,17 +50,12 @@ exports[`renders correctly 1`] = `
                 className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
                 style={
                   Object {
-                    "float": "left",
+                    "marginBottom": 4,
                   }
                 }
               />
               <span
                 className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
-                style={
-                  Object {
-                    "float": "right",
-                  }
-                }
               />
             </div>
             <div
@@ -111,7 +106,7 @@ exports[`renders correctly 1`] = `
             <div
               style={
                 Object {
-                  "marginTop": 5,
+                  "marginTop": 10,
                 }
               }
             >
@@ -119,17 +114,12 @@ exports[`renders correctly 1`] = `
                 className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
                 style={
                   Object {
-                    "float": "left",
+                    "marginBottom": 4,
                   }
                 }
               />
               <span
                 className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
-                style={
-                  Object {
-                    "float": "right",
-                  }
-                }
               />
             </div>
             <div
@@ -180,7 +170,7 @@ exports[`renders correctly 1`] = `
             <div
               style={
                 Object {
-                  "marginTop": 5,
+                  "marginTop": 10,
                 }
               }
             >
@@ -188,17 +178,12 @@ exports[`renders correctly 1`] = `
                 className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
                 style={
                   Object {
-                    "float": "left",
+                    "marginBottom": 4,
                   }
                 }
               />
               <span
                 className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
-                style={
-                  Object {
-                    "float": "right",
-                  }
-                }
               />
             </div>
             <div
