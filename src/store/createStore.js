@@ -3,7 +3,8 @@ import { createLogger } from 'redux-logger'
 import thunk from 'redux-thunk'
 import { composeWithDevTools } from 'redux-devtools-extension'
 
-const isDev = () => process.env.NODE_ENV === 'development'
+import isDev from './isDev'
+
 const logger = createLogger({ predicate: isDev })
 const enhancer = composeWithDevTools(applyMiddleware(thunk, logger))
 

@@ -1,10 +1,8 @@
 import { combineReducers } from 'redux'
 import { createReducer } from 'croods'
 
-import materials from '../materials/reducer'
-
 const reducers = {
-  materials,
+  materials: createReducer('materials'),
   material: createReducer('material'),
 }
 
