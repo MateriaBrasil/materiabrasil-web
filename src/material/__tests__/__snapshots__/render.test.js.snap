@@ -2,17 +2,18 @@
 
 exports[`renders correctly 1`] = `
 <div
-  foo="bar"
-  id={123}
-  match={
-    Object {
-      "params": Object {
-        "id": 123,
-      },
-    }
-  }
+  id={undefined}
+  name="material"
+  path="/materials/undefined"
   render={[Function]}
->
-  Info
-</div>
+/>
+`;
+
+exports[`renders correctly with id 1`] = `
+<div
+  id="123"
+  name="material"
+  path="/materials/123"
+  render={[Function]}
+/>
 `;

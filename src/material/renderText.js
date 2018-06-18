@@ -5,7 +5,13 @@ export default text => {
     return ''
   }
 
-  return text
-    .split('\n')
-    .map((item, key) => item && item !== '' && <div key={key}>{item}</div>)
+  return text.split('\n').map(
+    (item, key) =>
+      item &&
+      item !== '' && (
+        <span style={{ display: 'block' }} key={key}>
+          {item}
+        </span>
+      ),
+  )
 }

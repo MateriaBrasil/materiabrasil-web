@@ -47,9 +47,15 @@ exports[`renders correctly 1`] = `
         <p
           className="MuiTypography-root-92 MuiTypography-body1-101"
         >
-          <div>
+          <span
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+          >
             Foo properties
-          </div>
+          </span>
         </p>
         <hr
           className="MuiDivider-root-147"
@@ -73,9 +79,15 @@ exports[`renders correctly 1`] = `
         <p
           className="MuiTypography-root-92 MuiTypography-body1-101"
         >
-          <div>
+          <span
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+          >
             Bar usage
-          </div>
+          </span>
         </p>
       </div>
     </div>

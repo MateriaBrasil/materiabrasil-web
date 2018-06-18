@@ -1,12 +1,18 @@
 import React from 'react'
-import Material from './Material'
-import Info from './Info'
 
-export default props => routeProps => (
-  <Material
-    id={routeProps.match.params.id}
-    render={materialProps => (
-      <Info {...props} {...routeProps} {...materialProps} />
-    )}
-  />
-)
+import { Info } from 'croods'
+
+import renderInfo from './renderInfo'
+
+export default props => routeProps => {
+  const { id } = routeProps.match.params
+
+  return (
+    <Info
+      id={id}
+      name="material"
+      path={`/materials/${id}`}
+      render={renderInfo({ ...props, ...routeProps })}
+    />
+  )
+}
