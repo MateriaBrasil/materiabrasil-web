@@ -1,17 +1,17 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-import render from '../render'
+import list from '../list'
 
 jest.mock('croods', () => ({
   List: props => <div {...props}>{props.children}</div>,
 }))
 
-jest.mock('../renderList', () => props => list => <div>List</div>)
+jest.mock('../list/render', () => props => list => <div>List</div>)
 
 it('renders correctly', () => {
   const props = {}
   const routeProps = {}
-  const tree = renderer.create(render(props)(routeProps)).toJSON()
+  const tree = renderer.create(list(props)(routeProps)).toJSON()
   expect(tree).toMatchSnapshot()
 })

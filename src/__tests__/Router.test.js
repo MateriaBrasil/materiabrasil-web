@@ -4,12 +4,10 @@ import { MemoryRouter } from 'react-router-dom'
 
 import Router from '../Router'
 
-jest.mock('../materials/render', () => props => routeProps => (
+jest.mock('../materials/list', () => props => routeProps => (
   <div>Materials</div>
 ))
-jest.mock('../material/render', () => props => routeProps => (
-  <div>Material</div>
-))
+jest.mock('../materials/info', () => props => routeProps => <div>Material</div>)
 
 describe('with root route', () => {
   it('renders correctly', () => {

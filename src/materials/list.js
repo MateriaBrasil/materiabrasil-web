@@ -2,7 +2,7 @@ import React from 'react'
 
 import { List } from 'croods'
 
-import renderList from './renderList'
+import renderList from './list/render'
 
 export default props => routeProps => {
   return (

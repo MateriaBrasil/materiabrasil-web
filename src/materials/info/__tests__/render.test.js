@@ -1,12 +1,12 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-import renderList from '../renderList'
+import render from '../render'
 
-jest.mock('../List', () => props => <div {...props}>List</div>)
+jest.mock('../Info', () => props => <div {...props}>Info</div>)
 
 it('renders correctly', () => {
-  const Component = renderList({ foo: 'bar' })
+  const Component = render({ foo: 'bar' })
   const tree = renderer.create(<Component bar="foo" />).toJSON()
   expect(tree).toMatchSnapshot()
 })

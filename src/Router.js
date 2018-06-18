@@ -2,8 +2,8 @@ import React from 'react'
 import Route from 'react-router-dom/Route'
 import Switch from 'react-router-dom/Switch'
 
-import renderMaterials from './materials/render'
-import renderMaterial from './material/render'
+import renderMaterials from './materials/list'
+import renderMaterial from './materials/info'
 
 export default props => (
   <Switch>
