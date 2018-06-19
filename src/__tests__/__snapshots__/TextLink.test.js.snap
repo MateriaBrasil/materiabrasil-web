@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "marginTop": 16,
+      "textAlign": "center",
+    }
+  }
+>
+  <div
+    to="foo"
+  >
+    <p
+      className="MuiTypography-root-1 MuiTypography-body1-10"
+    >
+      bar
+    </p>
+  </div>
+</div>
+`;
