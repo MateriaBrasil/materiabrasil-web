@@ -10,8 +10,7 @@ export default props => routeProps => {
   return (
     <Info
       id={id}
-      name="material"
-      path={`/materials/${id}`}
+      name="materials"
       render={renderInfo({ ...props, ...routeProps })}
     />
   )

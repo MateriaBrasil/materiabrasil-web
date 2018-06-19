@@ -3,7 +3,6 @@
 exports[`renders correctly 1`] = `
 <div
   name="materials"
-  path="/materials"
   render={[Function]}
 />
 `;

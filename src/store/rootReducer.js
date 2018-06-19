@@ -3,7 +3,6 @@ import { createReducer } from 'croods'
 
 const reducers = {
   materials: createReducer('materials'),
-  material: createReducer('material'),
 }
 
 const rootReducer = combineReducers(reducers)

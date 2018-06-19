@@ -10,7 +10,7 @@ import Content from './Content'
 import NavBar from './NavBar'
 import Router from './Router'
 import Loading from './Loading'
-import Error from './Error'
+import renderError from './renderError'
 
 export default class extends Component {
   render() {
@@ -18,7 +18,7 @@ export default class extends Component {
       <Provider store={store}>
         <CroodsProvider
           renderLoading={Loading}
-          renderError={Error}
+          renderError={renderError}
           baseUrl={process.env.REACT_APP_API_URL}
         >
           <BrowserRouter>
