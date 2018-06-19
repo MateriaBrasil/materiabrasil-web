@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="MuiGrid-container-1 MuiGrid-spacing-xs-24-24 MuiGrid-justify-xs-center-18"
+>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
+  >
+    <h1
+      className="MuiTypography-root-92 MuiTypography-display1-96"
+    >
+      foo
+    </h1>
+  </div>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-lg-7-73"
+  >
+    <div
+      className="MuiPaper-root-117 MuiPaper-elevation2-121 MuiPaper-rounded-118 MuiCard-root-116"
+    >
+      <div
+        className="MuiCardMedia-root-144"
+        src={undefined}
+        style={
+          Object {
+            "backgroundImage": "url(\\"bar\\")",
+            "height": 0,
+            "paddingTop": "56.25%",
+          }
+        }
+        title="foo"
+      />
+      <div
+        className="MuiCardContent-root-146"
+      >
+        <h3
+          className="MuiTypography-root-92 MuiTypography-subheading-99"
+          style={
+            Object {
+              "marginBottom": 8,
+            }
+          }
+        >
+          Propriedades do material
+        </h3>
+        <p
+          className="MuiTypography-root-92 MuiTypography-body1-101"
+        >
+          <span
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            Foo properties
+          </span>
+        </p>
+        <hr
+          className="MuiDivider-root-147"
+          style={
+            Object {
+              "marginBottom": 16,
+              "marginTop": 16,
+            }
+          }
+        />
+        <h3
+          className="MuiTypography-root-92 MuiTypography-subheading-99"
+          style={
+            Object {
+              "marginBottom": 8,
+            }
+          }
+        >
+          Aplicações
+        </h3>
+        <p
+          className="MuiTypography-root-92 MuiTypography-body1-101"
+        >
+          <span
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            Bar usage
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-lg-5-71"
+  >
+    <span
+      className="MuiTypography-root-92 MuiTypography-caption-102"
+      style={
+        Object {
+          "marginBottom": 16,
+        }
+      }
+    >
+      999
+    </span>
+    <h3
+      className="MuiTypography-root-92 MuiTypography-subheading-99"
+      style={
+        Object {
+          "marginBottom": 24,
+        }
+      }
+    >
+      info
+    </h3>
+    <hr
+      className="MuiDivider-root-147"
+      style={
+        Object {
+          "marginBottom": 24,
+        }
+      }
+    />
+    <div>
+      <div
+        style={
+          Object {
+            "marginBottom": 8,
+          }
+        }
+      >
+        <span
+          className="MuiTypography-root-92 MuiTypography-caption-102"
+        >
+          Fornecedor
+        </span>
+        <h3
+          className="MuiTypography-root-92 MuiTypography-subheading-99"
+        >
+          Foo Supplier
+        </h3>
+      </div>
+      <div
+        style={
+          Object {
+            "marginBottom": 8,
+          }
+        }
+      >
+        <span
+          className="MuiTypography-root-92 MuiTypography-caption-102"
+        >
+          Local de produção
+        </span>
+        <h3
+          className="MuiTypography-root-92 MuiTypography-subheading-99"
+        >
+          Foo City/FO
+        </h3>
+      </div>
+      <div
+        style={
+          Object {
+            "marginBottom": 8,
+          }
+        }
+      >
+        <span
+          className="MuiTypography-root-92 MuiTypography-caption-102"
+        >
+          Preço médio
+        </span>
+        <h3
+          className="MuiTypography-root-92 MuiTypography-subheading-99"
+        >
+          100
+        </h3>
+      </div>
+      <div
+        style={
+          Object {
+            "marginBottom": 8,
+          }
+        }
+      >
+        <span
+          className="MuiTypography-root-92 MuiTypography-caption-102"
+        >
+          Contato do fornecedor
+        </span>
+        <h3
+          className="MuiTypography-root-92 MuiTypography-subheading-99"
+        >
+          foo@bar.com
+        </h3>
+      </div>
+    </div>
+    <hr
+      className="MuiDivider-root-147"
+      style={
+        Object {
+          "marginBottom": 24,
+          "marginTop": 24,
+        }
+      }
+    />
+    <div>
+      <h3
+        className="MuiTypography-root-92 MuiTypography-subheading-99"
+        style={
+          Object {
+            "marginBottom": 10,
+          }
+        }
+      >
+        <a
+          href={undefined}
+          target="_blank"
+        >
+          Baixar especificações técnicas
+        </a>
+      </h3>
+    </div>
+  </div>
+</div>
+`;

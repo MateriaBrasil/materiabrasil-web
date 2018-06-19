@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`breaks multinine text into lines 1`] = `
+Array [
+  <span
+    style={
+        Object {
+            "display": "block",
+          }
+    }
+>
+    foo
+</span>,
+  <span
+    style={
+        Object {
+            "display": "block",
+          }
+    }
+>
+    bar
+</span>,
+]
+`;
+
+exports[`renders correctly with text 1`] = `
+<span
+  style={
+    Object {
+      "display": "block",
+    }
+  }
+>
+  foo
+</span>
+`;
+
+exports[`skips empty lines 1`] = `
+Array [
+  "",
+  "",
+  <span
+    style={
+        Object {
+            "display": "block",
+          }
+    }
+>
+    foo
+</span>,
+  <span
+    style={
+        Object {
+            "display": "block",
+          }
+    }
+>
+    bar
+</span>,
+  "",
+]
+`;
