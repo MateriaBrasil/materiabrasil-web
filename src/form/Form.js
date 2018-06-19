@@ -5,27 +5,25 @@ import CardContent from '@material-ui/core/CardContent'
 import CardActions from '@material-ui/core/CardActions'
 import Button from '@material-ui/core/Button'
 
-import SingleColumn from '../SingleColumn'
+import './errorMessages'
 
 const Form = ({ children, onSubmit, title, callToAction, ...props }) => {
   return (
-    <SingleColumn>
-      <Card>
-        {title && <CardHeader title={title} />}
-        <CardContent>
-          <form onSubmit={onSubmit} {...props}>
-            {children}
-          </form>
-        </CardContent>
-        <CardActions
-          style={{ paddingLeft: 24, paddingRight: 24, paddingBottom: 16 }}
-        >
-          <Button variant="raised" color="primary" style={{ width: '100%' }}>
-            {callToAction}
-          </Button>
-        </CardActions>
-      </Card>
-    </SingleColumn>
+    <Card>
+      {title && <CardHeader title={title} />}
+      <CardContent>
+        <form onSubmit={onSubmit} {...props}>
+          {children}
+        </form>
+      </CardContent>
+      <CardActions
+        style={{ paddingLeft: 24, paddingRight: 24, paddingBottom: 16 }}
+      >
+        <Button variant="raised" color="primary" style={{ width: '100%' }}>
+          {callToAction}
+        </Button>
+      </CardActions>
+    </Card>
   )
 }
 
