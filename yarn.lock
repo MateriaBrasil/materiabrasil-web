@@ -6333,6 +6333,10 @@ redux-devtools-extension@^2.13.2:
   version "2.13.2"
   resolved "https://registry.yarnpkg.com/redux-devtools-extension/-/redux-devtools-extension-2.13.2.tgz#e0f9a8e8dfca7c17be92c7124958a3b94eb2911d"
 
+redux-form-validators@^2.7.1:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/redux-form-validators/-/redux-form-validators-2.7.1.tgz#b443b16d144fa5c20d72d52415b091da09b2cb29"
+
 redux-form@^7.4.2:
   version "7.4.2"
   resolved "https://registry.yarnpkg.com/redux-form/-/redux-form-7.4.2.tgz#d6061088fb682eb9fc5fb9749bd8b102f03154b0"
