@@ -7,7 +7,7 @@ import CssBaseline from '@material-ui/core/CssBaseline'
 import store from './store/store'
 
 import Content from './Content'
-import NavBar from './NavBar'
+import NavBar from './navBar/NavBar'
 import Router from './Router'
 import Loading from './Loading'
 import renderError from './renderError'

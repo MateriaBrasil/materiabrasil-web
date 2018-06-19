@@ -1,0 +1,14 @@
+import React from 'react'
+import Route from 'react-router-dom/Route'
+import Switch from 'react-router-dom/Switch'
+
+import renderSignIn from './renderSignIn'
+import renderSignUp from './renderSignUp'
+
+export default props => (
+  <Switch>
+    <Route exact path="/auth" render={renderSignIn(props)} />
+    <Route path="/auth/sign-in" render={renderSignIn(props)} />
+    <Route path="/auth/sign-up" render={renderSignUp(props)} />
+  </Switch>
+)
