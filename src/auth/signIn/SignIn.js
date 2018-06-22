@@ -1,13 +1,26 @@
 import React from 'react'
+import { New } from 'croods'
 
-import SingleColumn from '../../SingleColumn'
-import TextLink from '../../TextLink'
+import parseCreateResponse from '../parseCreateResponse'
+import renderCreated from '../renderCreated'
 
 import Form from './Form'
 
 export default props => (
-  <SingleColumn>
-    <Form {...props} />
-    <TextLink to={'/auth/sign-up'} text="Não possui uma conta? Registre-se" />
-  </SingleColumn>
+  <New
+    name="signIn"
+    path="/auth/sign_in"
+    parseCreateResponse={parseCreateResponse}
+    render={({ create, creating, error }) => (
+      <Form
+        onSubmit={create}
+        submitting={creating}
+        createError={error}
+        {...props}
+        linkTo="/auth/sign-up"
+        linkText="Não possui uma conta? Registre-se"
+      />
+    )}
+    renderCreated={renderCreated(props)}
+  />
 )

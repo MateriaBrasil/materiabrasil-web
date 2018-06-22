@@ -3,11 +3,9 @@ import renderer from 'react-test-renderer'
 
 import renderCreated from '../renderCreated'
 
-jest.mock('react-router-dom/Redirect', () => props => (
-  <div {...props}>Redirect</div>
-))
+jest.mock('../Created', () => props => <div {...props}>Created</div>)
 
 it('renders correctly', () => {
-  const tree = renderer.create(renderCreated()).toJSON()
+  const tree = renderer.create(renderCreated({})({})).toJSON()
   expect(tree).toMatchSnapshot()
 })

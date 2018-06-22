@@ -1,15 +1,27 @@
 import React from 'react'
 import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
+import Typography from '@material-ui/core/Typography'
 
 import Logo from './Logo'
 import SignIn from './SignIn'
 
-export default () => (
-  <AppBar position="static" color="inherit">
-    <Toolbar>
-      <Logo />
-      <SignIn />
-    </Toolbar>
-  </AppBar>
-)
+export default props => {
+  const { user } = props
+  const { current } = user
+
+  return (
+    <AppBar position="static" color="inherit">
+      <Toolbar>
+        <Logo />
+        {current ? (
+          <Typography variant="subheading" color="inherit">
+            {current.name}
+          </Typography>
+        ) : (
+          <SignIn />
+        )}
+      </Toolbar>
+    </AppBar>
+  )
+}

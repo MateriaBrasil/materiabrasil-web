@@ -12,6 +12,8 @@ import Router from './Router'
 import Loading from './Loading'
 import renderError from './renderError'
 
+import User from './user/User'
+
 export default class extends Component {
   render() {
     return (
@@ -21,15 +23,20 @@ export default class extends Component {
           renderError={renderError}
           baseUrl={process.env.REACT_APP_API_URL}
         >
-          <BrowserRouter>
-            <div style={{ flexGrow: 1 }}>
-              <CssBaseline />
-              <NavBar />
-              <Content>
-                <Router />
-              </Content>
-            </div>
-          </BrowserRouter>
+          <User
+            render={user => (
+              <BrowserRouter>
+                <div style={{ flexGrow: 1 }}>
+                  <CssBaseline />
+                  <NavBar user={user} />
+                  <Content>
+                    <Router user={user} />
+                  </Content>
+                </div>
+              </BrowserRouter>
+            )}
+          />
+          )}
         </CroodsProvider>
       </Provider>
     )
