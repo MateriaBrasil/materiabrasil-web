@@ -18,3 +18,14 @@ it('renders correctly without title', () => {
   const tree = renderer.create(<Form callToAction="foo">Bar</Form>).toJSON()
   expect(tree).toMatchSnapshot()
 })
+
+it('renders correctly with error', () => {
+  const tree = renderer
+    .create(
+      <Form error="foo" callToAction="bar">
+        Baz
+      </Form>,
+    )
+    .toJSON()
+  expect(tree).toMatchSnapshot()
+})

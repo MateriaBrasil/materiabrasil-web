@@ -5,24 +5,33 @@ import CardContent from '@material-ui/core/CardContent'
 import CardActions from '@material-ui/core/CardActions'
 import Button from '@material-ui/core/Button'
 
+import Error from '../Error'
+
 import './errorMessages'
 
-const Form = ({ children, onSubmit, title, callToAction, ...props }) => {
+const Form = props => {
+  const { children, onSubmit, title, callToAction, error, submitting } = props
+
   return (
     <Card>
       {title && <CardHeader title={title} />}
       <CardContent>
-        <form onSubmit={onSubmit} {...props}>
-          {children}
-        </form>
+        <form>{children}</form>
       </CardContent>
       <CardActions
         style={{ paddingLeft: 24, paddingRight: 24, paddingBottom: 16 }}
       >
-        <Button variant="raised" color="primary" style={{ width: '100%' }}>
+        <Button
+          variant="raised"
+          color="primary"
+          disabled={submitting}
+          style={{ width: '100%' }}
+          onClick={onSubmit}
+        >
           {callToAction}
         </Button>
       </CardActions>
+      {error && <Error>{error}</Error>}
     </Card>
   )
 }

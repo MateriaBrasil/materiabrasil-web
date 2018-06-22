@@ -1,5 +1,75 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`renders correctly with error 1`] = `
+<div
+  className="MuiPaper-root-2 MuiPaper-elevation2-6 MuiPaper-rounded-3 MuiCard-root-1"
+>
+  <div
+    className="MuiCardContent-root-59"
+  >
+    <form>
+      Baz
+    </form>
+  </div>
+  <div
+    className="MuiCardActions-root-60"
+    style={
+      Object {
+        "paddingBottom": 16,
+        "paddingLeft": 24,
+        "paddingRight": 24,
+      }
+    }
+  >
+    <button
+      className="MuiButtonBase-root-78 MuiButton-root-62 MuiButton-raised-68 MuiButton-raisedPrimary-69 MuiCardActions-action-61"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={undefined}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-63"
+      >
+        bar
+      </span>
+      <span
+        className="MuiTouchRipple-root-81"
+      />
+    </button>
+  </div>
+  <div
+    style={
+      Object {
+        "padding": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+    <h1
+      className="MuiTypography-root-35 MuiTypography-headline-40 MuiTypography-colorError-58"
+    >
+      foo
+    </h1>
+  </div>
+</div>
+`;
+
 exports[`renders correctly with title 1`] = `
 <div
   className="MuiPaper-root-2 MuiPaper-elevation2-6 MuiPaper-rounded-3 MuiCard-root-1"
@@ -20,9 +90,7 @@ exports[`renders correctly with title 1`] = `
   <div
     className="MuiCardContent-root-59"
   >
-    <form
-      onSubmit={undefined}
-    >
+    <form>
       Baz
     </form>
   </div>
@@ -40,6 +108,7 @@ exports[`renders correctly with title 1`] = `
       className="MuiButtonBase-root-78 MuiButton-root-62 MuiButton-raised-68 MuiButton-raisedPrimary-69 MuiCardActions-action-61"
       disabled={false}
       onBlur={[Function]}
+      onClick={undefined}
       onFocus={[Function]}
       onKeyDown={[Function]}
       onKeyUp={[Function]}
@@ -77,9 +146,7 @@ exports[`renders correctly without title 1`] = `
   <div
     className="MuiCardContent-root-59"
   >
-    <form
-      onSubmit={undefined}
-    >
+    <form>
       Bar
     </form>
   </div>
@@ -97,6 +164,7 @@ exports[`renders correctly without title 1`] = `
       className="MuiButtonBase-root-78 MuiButton-root-62 MuiButton-raised-68 MuiButton-raisedPrimary-69 MuiCardActions-action-61"
       disabled={false}
       onBlur={[Function]}
+      onClick={undefined}
       onFocus={[Function]}
       onKeyDown={[Function]}
       onKeyUp={[Function]}

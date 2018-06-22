@@ -5,6 +5,7 @@ import { createReducer } from 'croods'
 const reducers = {
   form,
   materials: createReducer('materials'),
+  auth: createReducer('auth'),
 }
 
 const rootReducer = combineReducers(reducers)

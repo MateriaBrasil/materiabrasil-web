@@ -4,8 +4,8 @@ import { MemoryRouter } from 'react-router-dom'
 
 import Router from '../Router'
 
-jest.mock('../renderSignIn', () => props => routeProps => <div>Sign In</div>)
-jest.mock('../renderSignUp', () => props => routeProps => <div>Sign up</div>)
+jest.mock('../signIn/render', () => props => routeProps => <div>Sign In</div>)
+jest.mock('../signUp/render', () => props => routeProps => <div>Sign up</div>)
 
 describe('with /auth route', () => {
   it('renders sign-in', () => {

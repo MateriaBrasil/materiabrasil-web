@@ -2,9 +2,9 @@ import React from 'react'
 import renderer from 'react-test-renderer'
 import { Provider } from 'react-redux'
 
-import createStore from '../../store/createStore'
+import createStore from '../../../store/createStore'
 
-import SignUp from '../SignUp'
+import SignIn from '../SignIn'
 
 jest.mock('react-router-dom/Link', () => props => (
   <div {...props}>{props.children}</div>
@@ -17,7 +17,7 @@ it('renders correctly', () => {
   const tree = renderer
     .create(
       <Provider store={store}>
-        <SignUp />
+        <SignIn />
       </Provider>,
     )
     .toJSON()
