@@ -8,7 +8,7 @@ export default class extends Component {
     const { actions } = currentUser
     const { set } = actions
 
-    set({ ...created })
+    set(created)
   }
 
   render() {
