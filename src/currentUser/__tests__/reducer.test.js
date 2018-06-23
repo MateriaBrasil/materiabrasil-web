@@ -16,7 +16,7 @@ describe('with another prefix', () => {
 
 describe('with unknown action', () => {
   it('returns the initial state', () => {
-    const action = { type: '@user/FOO_BAR' }
+    const action = { type: '@currentUser/FOO_BAR' }
     expect(reducer(undefined, action)).toEqual(initialState)
   })
 })
@@ -26,13 +26,10 @@ describe('with "set current" action', () => {
     const user = { id: 1, name: 'foo bar', email: 'foo@bar.com' }
 
     const action = {
-      type: '@user/SET_CURRENT',
+      type: '@currentUser/SET',
       user,
     }
 
-    expect(reducer(undefined, action)).toEqual({
-      ...initialState,
-      current: user,
-    })
+    expect(reducer(undefined, action)).toEqual(user)
   })
 })

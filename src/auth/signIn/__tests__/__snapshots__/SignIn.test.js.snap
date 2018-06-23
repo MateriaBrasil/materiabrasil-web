@@ -152,7 +152,7 @@ exports[`renders correctly 1`] = `
           <span
             className="MuiButton-label-155"
           >
-            Login
+            Entrar
           </span>
           <span
             className="MuiTouchRipple-root-173"
@@ -174,7 +174,7 @@ exports[`renders correctly 1`] = `
         <p
           className="MuiTypography-root-180 MuiTypography-body1-189"
         >
-          Não possui uma conta? Registre-se
+          Não possui uma conta? Cadastre-se
         </p>
       </div>
     </div>

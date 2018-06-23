@@ -4,7 +4,7 @@ import { bindActionCreators } from 'redux'
 
 import * as actions from './actions'
 
-class User extends Component {
+class CurrentUser extends Component {
   render() {
     const { render } = this.props
 
@@ -13,6 +13,6 @@ class User extends Component {
 }
 
 export default connect(
-  state => ({ ...state.user }),
+  state => ({ ...state.currentUser }),
   dispatch => ({ actions: bindActionCreators(actions, dispatch) }),
-)(User)
+)(CurrentUser)

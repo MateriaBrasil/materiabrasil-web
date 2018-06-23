@@ -5,7 +5,7 @@ import Typography from '@material-ui/core/Typography'
 export default () => (
   <Link to="/auth/sign-in" style={{ textDecoration: 'none', color: 'black' }}>
     <Typography variant="subheading" color="inherit">
-      Login
+      Entrar
     </Typography>
   </Link>
 )

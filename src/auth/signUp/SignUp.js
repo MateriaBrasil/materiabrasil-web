@@ -7,6 +7,9 @@ import Form from './Form'
 
 export default props => (
   <Auth name="signUp" path="/auth" form={Form} {...props}>
-    <TextLink to="/auth/sign-in" text="Possui uma conta? Faça login" />
+    <TextLink
+      to="/auth/sign-in"
+      text="Já possui cadastro? Clique aqui para entrar"
+    />
   </Auth>
 )

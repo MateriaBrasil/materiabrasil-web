@@ -115,7 +115,7 @@ exports[`without current user renders correctly 1`] = `
       <h3
         className="MuiTypography-root-38 MuiTypography-subheading-45 MuiTypography-colorInherit-57"
       >
-        Login
+        Entrar
       </h3>
     </div>
   </div>

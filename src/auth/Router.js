@@ -7,7 +7,6 @@ import renderSignUp from './signUp/render'
 
 export default props => (
   <Switch>
-    <Route exact path="/auth" render={renderSignIn(props)} />
     <Route exact path="/auth/sign-in" render={renderSignIn(props)} />
     <Route exact path="/auth/sign-up" render={renderSignUp(props)} />
   </Switch>

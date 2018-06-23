@@ -7,20 +7,6 @@ import Router from '../Router'
 jest.mock('../signIn/render', () => props => routeProps => <div>Sign In</div>)
 jest.mock('../signUp/render', () => props => routeProps => <div>Sign up</div>)
 
-describe('with /auth route', () => {
-  it('renders sign-in', () => {
-    const tree = renderer
-      .create(
-        <MemoryRouter initialEntries={['/auth']}>
-          <Router />
-        </MemoryRouter>,
-      )
-      .toJSON()
-
-    expect(tree).toMatchSnapshot()
-  })
-})
-
 describe('with /auth/sign-in route', () => {
   it('renders sign-in', () => {
     const tree = renderer

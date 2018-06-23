@@ -6,7 +6,7 @@ import AuthForm from '../Form'
 import fields from './fields'
 
 const Form = props => {
-  return <AuthForm callToAction="Login" fields={fields} {...props} />
+  return <AuthForm callToAction="Entrar" fields={fields} {...props} />
 }
 
 export default reduxForm({ form: 'signIn' })(Form)

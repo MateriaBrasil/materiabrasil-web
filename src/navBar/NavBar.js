@@ -7,16 +7,15 @@ import Logo from './Logo'
 import SignIn from './SignIn'
 
 export default props => {
-  const { user } = props
-  const { current } = user
+  const { currentUser } = props
 
   return (
     <AppBar position="static" color="inherit">
       <Toolbar>
         <Logo />
-        {current ? (
+        {currentUser.name ? (
           <Typography variant="subheading" color="inherit">
-            {current.name}
+            {currentUser.name}
           </Typography>
         ) : (
           <SignIn />

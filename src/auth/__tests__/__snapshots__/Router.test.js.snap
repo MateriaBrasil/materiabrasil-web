@@ -1,11 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`with /auth route renders sign-in 1`] = `
-<div>
-  Sign In
-</div>
-`;
-
 exports[`with /auth/sign-in route renders sign-in 1`] = `
 <div>
   Sign In

@@ -9,8 +9,8 @@ jest.mock('react-router-dom/Link', () => props => (
 
 describe('without current user', () => {
   it('renders correctly', () => {
-    const user = {}
-    const tree = renderer.create(<NavBar user={user} />).toJSON()
+    const currentUser = {}
+    const tree = renderer.create(<NavBar currentUser={currentUser} />).toJSON()
 
     expect(tree).toMatchSnapshot()
   })
@@ -18,8 +18,8 @@ describe('without current user', () => {
 
 describe('with current user', () => {
   it('renders correctly', () => {
-    const user = { current: { name: 'Foo Bar' } }
-    const tree = renderer.create(<NavBar user={user} />).toJSON()
+    const currentUser = { name: 'Foo Bar' }
+    const tree = renderer.create(<NavBar currentUser={currentUser} />).toJSON()
 
     expect(tree).toMatchSnapshot()
   })

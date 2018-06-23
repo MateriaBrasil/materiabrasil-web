@@ -1,97 +1,93 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-Array [
-  <div
-    style={
-        Object {
-            "flexGrow": 1,
-          }
+<div
+  style={
+    Object {
+      "flexGrow": 1,
     }
+  }
 >
-    <header
-        className="MuiPaper-root-9 MuiPaper-elevation4-15 MuiAppBar-root-1 MuiAppBar-positionStatic-5"
-    >
-        <div
-            className="MuiToolbar-root-36 MuiToolbar-gutters-37"
-        >
-            <div
-                style={
-                    Object {
-                        "flex": 1,
-                      }
-                }
-            >
-                <a
-                    href="/"
-                    onClick={[Function]}
-                    style={
-                        Object {
-                            "color": "black",
-                            "textDecoration": "none",
-                          }
-                    }
-                >
-                    <img
-                        alt="logo"
-                        src="/images/logo-small.jpg"
-                        style={
-                            Object {
-                                "display": "inline-block",
-                                "marginRight": 10,
-                                "verticalAlign": "middle",
-                              }
-                        }
-                    />
-                    <h1
-                        className="MuiTypography-root-38 MuiTypography-headline-43 MuiTypography-colorInherit-57"
-                        style={
-                            Object {
-                                "display": "inline-block",
-                                "verticalAlign": "middle",
-                              }
-                        }
-                    >
-                        MateriaBrasil
-                    </h1>
-                </a>
-            </div>
-            <a
-                href="/auth/sign-in"
-                onClick={[Function]}
-                style={
-                    Object {
-                        "color": "black",
-                        "textDecoration": "none",
-                      }
-                }
-            >
-                <h3
-                    className="MuiTypography-root-38 MuiTypography-subheading-45 MuiTypography-colorInherit-57"
-                >
-                    Login
-                </h3>
-            </a>
-        </div>
-    </header>
+  <header
+    className="MuiPaper-root-9 MuiPaper-elevation4-15 MuiAppBar-root-1 MuiAppBar-positionStatic-5"
+  >
     <div
-        className="content"
+      className="MuiToolbar-root-36 MuiToolbar-gutters-37"
     >
-        <div
-            user={
-                Object {
-                    "actions": Object {
-                      "setCurrent": [Function],
-                    },
-                    "current": null,
-                    "render": [Function],
-                  }
+      <div
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          style={
+            Object {
+              "color": "black",
+              "textDecoration": "none",
             }
+          }
         >
-            Router
-        </div>
+          <img
+            alt="logo"
+            src="/images/logo-small.jpg"
+            style={
+              Object {
+                "display": "inline-block",
+                "marginRight": 10,
+                "verticalAlign": "middle",
+              }
+            }
+          />
+          <h1
+            className="MuiTypography-root-38 MuiTypography-headline-43 MuiTypography-colorInherit-57"
+            style={
+              Object {
+                "display": "inline-block",
+                "verticalAlign": "middle",
+              }
+            }
+          >
+            MateriaBrasil
+          </h1>
+        </a>
+      </div>
+      <a
+        href="/auth/sign-in"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "black",
+            "textDecoration": "none",
+          }
+        }
+      >
+        <h3
+          className="MuiTypography-root-38 MuiTypography-subheading-45 MuiTypography-colorInherit-57"
+        >
+          Entrar
+        </h3>
+      </a>
     </div>
-</div>,
-  ")}",
-]
+  </header>
+  <div
+    className="content"
+  >
+    <div
+      currentUser={
+        Object {
+          "actions": Object {
+            "set": [Function],
+          },
+          "render": [Function],
+        }
+      }
+    >
+      Router
+    </div>
+  </div>
+</div>
 `;
