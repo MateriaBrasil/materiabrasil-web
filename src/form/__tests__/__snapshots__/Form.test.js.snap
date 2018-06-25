@@ -4,69 +4,70 @@ exports[`renders correctly with error 1`] = `
 <div
   className="MuiPaper-root-2 MuiPaper-elevation2-6 MuiPaper-rounded-3 MuiCard-root-1"
 >
-  <div
-    className="MuiCardContent-root-59"
+  <form
+    onSubmit={undefined}
   >
-    <form>
+    <div
+      className="MuiCardContent-root-59"
+    >
       Baz
-    </form>
-  </div>
-  <div
-    className="MuiCardActions-root-60"
-    style={
-      Object {
-        "paddingBottom": 16,
-        "paddingLeft": 24,
-        "paddingRight": 24,
-      }
-    }
-  >
-    <button
-      className="MuiButtonBase-root-78 MuiButton-root-62 MuiButton-raised-68 MuiButton-raisedPrimary-69 MuiCardActions-action-61"
-      disabled={false}
-      onBlur={[Function]}
-      onClick={undefined}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
+    </div>
+    <div
+      className="MuiCardActions-root-60"
       style={
         Object {
-          "width": "100%",
+          "paddingBottom": 16,
+          "paddingLeft": 24,
+          "paddingRight": 24,
         }
       }
-      tabIndex="0"
-      type="button"
     >
-      <span
-        className="MuiButton-label-63"
+      <button
+        className="MuiButtonBase-root-78 MuiButton-root-62 MuiButton-raised-68 MuiButton-raisedPrimary-69 MuiCardActions-action-61"
+        disabled={false}
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+        tabIndex="0"
+        type="submit"
       >
-        bar
-      </span>
-      <span
-        className="MuiTouchRipple-root-81"
-      />
-    </button>
-  </div>
-  <div
-    style={
-      Object {
-        "padding": 20,
-        "textAlign": "center",
+        <span
+          className="MuiButton-label-63"
+        >
+          bar
+        </span>
+        <span
+          className="MuiTouchRipple-root-81"
+        />
+      </button>
+    </div>
+    <div
+      style={
+        Object {
+          "padding": 20,
+          "textAlign": "center",
+        }
       }
-    }
-  >
-    <h1
-      className="MuiTypography-root-35 MuiTypography-headline-40 MuiTypography-colorError-58"
     >
-      foo
-    </h1>
-  </div>
+      <h1
+        className="MuiTypography-root-35 MuiTypography-headline-40 MuiTypography-colorError-58"
+      >
+        foo
+      </h1>
+    </div>
+  </form>
 </div>
 `;
 
@@ -74,68 +75,69 @@ exports[`renders correctly with title 1`] = `
 <div
   className="MuiPaper-root-2 MuiPaper-elevation2-6 MuiPaper-rounded-3 MuiCard-root-1"
 >
-  <div
-    className="MuiCardHeader-root-29"
+  <form
+    onSubmit={undefined}
   >
     <div
-      className="MuiCardHeader-content-32"
+      className="MuiCardHeader-root-29"
     >
-      <span
-        className="MuiTypography-root-35 MuiTypography-headline-40 MuiCardHeader-title-33"
+      <div
+        className="MuiCardHeader-content-32"
       >
-        foo
-      </span>
+        <span
+          className="MuiTypography-root-35 MuiTypography-headline-40 MuiCardHeader-title-33"
+        >
+          foo
+        </span>
+      </div>
     </div>
-  </div>
-  <div
-    className="MuiCardContent-root-59"
-  >
-    <form>
+    <div
+      className="MuiCardContent-root-59"
+    >
       Baz
-    </form>
-  </div>
-  <div
-    className="MuiCardActions-root-60"
-    style={
-      Object {
-        "paddingBottom": 16,
-        "paddingLeft": 24,
-        "paddingRight": 24,
-      }
-    }
-  >
-    <button
-      className="MuiButtonBase-root-78 MuiButton-root-62 MuiButton-raised-68 MuiButton-raisedPrimary-69 MuiCardActions-action-61"
-      disabled={false}
-      onBlur={[Function]}
-      onClick={undefined}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
+    </div>
+    <div
+      className="MuiCardActions-root-60"
       style={
         Object {
-          "width": "100%",
+          "paddingBottom": 16,
+          "paddingLeft": 24,
+          "paddingRight": 24,
         }
       }
-      tabIndex="0"
-      type="button"
     >
-      <span
-        className="MuiButton-label-63"
+      <button
+        className="MuiButtonBase-root-78 MuiButton-root-62 MuiButton-raised-68 MuiButton-raisedPrimary-69 MuiCardActions-action-61"
+        disabled={false}
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+        tabIndex="0"
+        type="submit"
       >
-        bar
-      </span>
-      <span
-        className="MuiTouchRipple-root-81"
-      />
-    </button>
-  </div>
+        <span
+          className="MuiButton-label-63"
+        >
+          bar
+        </span>
+        <span
+          className="MuiTouchRipple-root-81"
+        />
+      </button>
+    </div>
+  </form>
 </div>
 `;
 
@@ -143,54 +145,55 @@ exports[`renders correctly without title 1`] = `
 <div
   className="MuiPaper-root-2 MuiPaper-elevation2-6 MuiPaper-rounded-3 MuiCard-root-1"
 >
-  <div
-    className="MuiCardContent-root-59"
+  <form
+    onSubmit={undefined}
   >
-    <form>
+    <div
+      className="MuiCardContent-root-59"
+    >
       Bar
-    </form>
-  </div>
-  <div
-    className="MuiCardActions-root-60"
-    style={
-      Object {
-        "paddingBottom": 16,
-        "paddingLeft": 24,
-        "paddingRight": 24,
-      }
-    }
-  >
-    <button
-      className="MuiButtonBase-root-78 MuiButton-root-62 MuiButton-raised-68 MuiButton-raisedPrimary-69 MuiCardActions-action-61"
-      disabled={false}
-      onBlur={[Function]}
-      onClick={undefined}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
+    </div>
+    <div
+      className="MuiCardActions-root-60"
       style={
         Object {
-          "width": "100%",
+          "paddingBottom": 16,
+          "paddingLeft": 24,
+          "paddingRight": 24,
         }
       }
-      tabIndex="0"
-      type="button"
     >
-      <span
-        className="MuiButton-label-63"
+      <button
+        className="MuiButtonBase-root-78 MuiButton-root-62 MuiButton-raised-68 MuiButton-raisedPrimary-69 MuiCardActions-action-61"
+        disabled={false}
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+        tabIndex="0"
+        type="submit"
       >
-        foo
-      </span>
-      <span
-        className="MuiTouchRipple-root-81"
-      />
-    </button>
-  </div>
+        <span
+          className="MuiButton-label-63"
+        >
+          foo
+        </span>
+        <span
+          className="MuiTouchRipple-root-81"
+        />
+      </button>
+    </div>
+  </form>
 </div>
 `;

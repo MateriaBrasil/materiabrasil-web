@@ -14,24 +14,24 @@ const Form = props => {
 
   return (
     <Card>
-      {title && <CardHeader title={title} />}
-      <CardContent>
-        <form>{children}</form>
-      </CardContent>
-      <CardActions
-        style={{ paddingLeft: 24, paddingRight: 24, paddingBottom: 16 }}
-      >
-        <Button
-          variant="raised"
-          color="primary"
-          disabled={submitting}
-          style={{ width: '100%' }}
-          onClick={onSubmit}
+      <form onSubmit={onSubmit}>
+        {title && <CardHeader title={title} />}
+        <CardContent>{children}</CardContent>
+        <CardActions
+          style={{ paddingLeft: 24, paddingRight: 24, paddingBottom: 16 }}
         >
-          {callToAction}
-        </Button>
-      </CardActions>
-      {error && <Error>{error}</Error>}
+          <Button
+            variant="raised"
+            color="primary"
+            type="submit"
+            disabled={submitting}
+            style={{ width: '100%' }}
+          >
+            {callToAction}
+          </Button>
+        </CardActions>
+        {error && <Error>{error}</Error>}
+      </form>
     </Card>
   )
 }
