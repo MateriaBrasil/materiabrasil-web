@@ -4,11 +4,9 @@ import Redirect from 'react-router-dom/Redirect'
 export default class extends Component {
   constructor(props) {
     super(props)
-    const { created, currentUser } = props
-    const { actions } = currentUser
-    const { set } = actions
+    const { created, setCurrentUser } = props
 
-    set(created)
+    setCurrentUser(created)
   }
 
   render() {
