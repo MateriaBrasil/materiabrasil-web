@@ -12,7 +12,7 @@ import Router from './Router'
 import Loading from './Loading'
 import renderError from './renderError'
 
-import CurrentUser from './currentUser/CurrentUser'
+import CurrentUser from './auth/currentUser/CurrentUser'
 
 export default class extends Component {
   render() {
@@ -24,13 +24,19 @@ export default class extends Component {
           baseUrl={process.env.REACT_APP_API_URL}
         >
           <CurrentUser
-            render={user => (
+            render={(currentUser, { actions: { setInfo: setCurrentUser } }) => (
               <BrowserRouter>
                 <div style={{ flexGrow: 1 }}>
                   <CssBaseline />
-                  <NavBar currentUser={user} />
+                  <NavBar
+                    currentUser={currentUser}
+                    setCurrentUser={setCurrentUser}
+                  />
                   <Content>
-                    <Router currentUser={user} />
+                    <Router
+                      currentUser={currentUser}
+                      setCurrentUser={setCurrentUser}
+                    />
                   </Content>
                 </div>
               </BrowserRouter>

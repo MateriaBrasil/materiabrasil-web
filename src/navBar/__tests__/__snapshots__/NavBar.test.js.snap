@@ -103,21 +103,9 @@ exports[`without current user renders correctly 1`] = `
         </h1>
       </div>
     </div>
-    <div
-      style={
-        Object {
-          "color": "black",
-          "textDecoration": "none",
-        }
-      }
-      to="/auth/sign-in"
-    >
-      <h3
-        className="MuiTypography-root-38 MuiTypography-subheading-45 MuiTypography-colorInherit-57"
-      >
-        Entrar
-      </h3>
-    </div>
+    <h3
+      className="MuiTypography-root-38 MuiTypography-subheading-45 MuiTypography-colorInherit-57"
+    />
   </div>
 </header>
 `;
