@@ -26,3 +26,15 @@ describe('with fetchingInfo', () => {
     expect(tree).toMatchSnapshot()
   })
 })
+
+describe('with infoError', () => {
+  it('returns its internal render function', () => {
+    const renderProp = jest.fn()
+    const props = { infoError: 'foo' }
+    const currentUser = {}
+
+    render({ render: renderProp })(currentUser, props)
+
+    expect(renderProp).toHaveBeenCalledWith(undefined, props)
+  })
+})
