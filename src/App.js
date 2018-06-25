@@ -9,7 +9,7 @@ import afterSuccess from './auth/afterSuccess'
 
 import Loading from './Loading'
 import renderError from './renderError'
-import Screen from './Screen'
+import renderAuth from './renderAuth'
 
 export default class extends Component {
   render() {
@@ -22,7 +22,7 @@ export default class extends Component {
           renderLoading={Loading}
           renderError={renderError}
         >
-          <Auth render={authProps => <Screen {...authProps} />} />
+          <Auth render={renderAuth} />
         </CroodsProvider>
       </Provider>
     )
