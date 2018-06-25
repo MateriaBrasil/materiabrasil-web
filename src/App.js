@@ -7,10 +7,12 @@ import CssBaseline from '@material-ui/core/CssBaseline'
 import store from './store/store'
 
 import Content from './Content'
-import NavBar from './NavBar'
+import NavBar from './navBar/NavBar'
 import Router from './Router'
 import Loading from './Loading'
 import renderError from './renderError'
+
+import CurrentUser from './currentUser/CurrentUser'
 
 export default class extends Component {
   render() {
@@ -21,15 +23,19 @@ export default class extends Component {
           renderError={renderError}
           baseUrl={process.env.REACT_APP_API_URL}
         >
-          <BrowserRouter>
-            <div style={{ flexGrow: 1 }}>
-              <CssBaseline />
-              <NavBar />
-              <Content>
-                <Router />
-              </Content>
-            </div>
-          </BrowserRouter>
+          <CurrentUser
+            render={user => (
+              <BrowserRouter>
+                <div style={{ flexGrow: 1 }}>
+                  <CssBaseline />
+                  <NavBar currentUser={user} />
+                  <Content>
+                    <Router currentUser={user} />
+                  </Content>
+                </div>
+              </BrowserRouter>
+            )}
+          />
         </CroodsProvider>
       </Provider>
     )

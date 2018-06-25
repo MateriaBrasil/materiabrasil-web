@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="MuiGrid-container-1 MuiGrid-spacing-xs-24-24"
+>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-8-48 MuiGrid-grid-md-6-59"
+    style={
+      Object {
+        "margin": "0 auto",
+      }
+    }
+  >
+    <div
+      className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="MuiCardContent-root-120"
+        >
+          <div>
+            <div
+              aria-describedby="name-error-text"
+              className="MuiFormControl-root-121 MuiFormControl-fullWidth-124"
+              onBlur={[Function]}
+              onFocus={[Function]}
+            >
+              <label
+                className="MuiFormLabel-root-130 MuiInputLabel-root-125 MuiInputLabel-formControl-126 MuiInputLabel-animated-129"
+                data-shrink={false}
+                htmlFor="name-error"
+              >
+                E-mail
+              </label>
+              <div
+                className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-underline-139"
+                onDragStart={[Function]}
+                onDrop={[Function]}
+              >
+                <input
+                  aria-invalid={false}
+                  aria-required={false}
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-143 MuiInput-inputType-146"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id={undefined}
+                  name="email"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={undefined}
+                  onKeyUp={undefined}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="email"
+                  value=""
+                />
+              </div>
+              <p
+                className="MuiFormHelperText-root-148"
+                id="name-error-text"
+              />
+            </div>
+          </div>
+          <div>
+            <div
+              aria-describedby="name-error-text"
+              className="MuiFormControl-root-121 MuiFormControl-fullWidth-124"
+              onBlur={[Function]}
+              onFocus={[Function]}
+            >
+              <label
+                className="MuiFormLabel-root-130 MuiInputLabel-root-125 MuiInputLabel-formControl-126 MuiInputLabel-animated-129"
+                data-shrink={false}
+                htmlFor="name-error"
+              >
+                Senha
+              </label>
+              <div
+                className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-underline-139"
+                onDragStart={[Function]}
+                onDrop={[Function]}
+              >
+                <input
+                  aria-invalid={false}
+                  aria-required={false}
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-143 MuiInput-inputType-146"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id={undefined}
+                  name="password"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={undefined}
+                  onKeyUp={undefined}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="password"
+                  value=""
+                />
+              </div>
+              <p
+                className="MuiFormHelperText-root-148"
+                id="name-error-text"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiCardActions-root-152"
+          style={
+            Object {
+              "paddingBottom": 16,
+              "paddingLeft": 24,
+              "paddingRight": 24,
+            }
+          }
+        >
+          <button
+            className="MuiButtonBase-root-170 MuiButton-root-154 MuiButton-raised-160 MuiButton-raisedPrimary-161 MuiCardActions-action-153"
+            disabled={false}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+            tabIndex="0"
+            type="submit"
+          >
+            <span
+              className="MuiButton-label-155"
+            >
+              Entrar
+            </span>
+            <span
+              className="MuiTouchRipple-root-173"
+            />
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      style={
+        Object {
+          "marginTop": 16,
+          "textAlign": "center",
+        }
+      }
+    >
+      <div
+        to="/auth/sign-up"
+      >
+        <p
+          className="MuiTypography-root-180 MuiTypography-body1-189"
+        >
+          Não possui uma conta? Cadastre-se
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

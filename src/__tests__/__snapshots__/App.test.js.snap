@@ -14,8 +14,49 @@ exports[`renders correctly 1`] = `
     <div
       className="MuiToolbar-root-36 MuiToolbar-gutters-37"
     >
+      <div
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          style={
+            Object {
+              "color": "black",
+              "textDecoration": "none",
+            }
+          }
+        >
+          <img
+            alt="logo"
+            src="/images/logo-small.jpg"
+            style={
+              Object {
+                "display": "inline-block",
+                "marginRight": 10,
+                "verticalAlign": "middle",
+              }
+            }
+          />
+          <h1
+            className="MuiTypography-root-38 MuiTypography-headline-43 MuiTypography-colorInherit-57"
+            style={
+              Object {
+                "display": "inline-block",
+                "verticalAlign": "middle",
+              }
+            }
+          >
+            MateriaBrasil
+          </h1>
+        </a>
+      </div>
       <a
-        href="/"
+        href="/auth/sign-in"
         onClick={[Function]}
         style={
           Object {
@@ -24,35 +65,27 @@ exports[`renders correctly 1`] = `
           }
         }
       >
-        <img
-          alt="logo"
-          src="images/logo-small.jpg"
-          style={
-            Object {
-              "display": "inline-block",
-              "marginRight": 10,
-              "verticalAlign": "middle",
-            }
-          }
-        />
-        <h1
-          className="MuiTypography-root-38 MuiTypography-headline-43 MuiTypography-colorInherit-57"
-          style={
-            Object {
-              "display": "inline-block",
-              "verticalAlign": "middle",
-            }
-          }
+        <h3
+          className="MuiTypography-root-38 MuiTypography-subheading-45 MuiTypography-colorInherit-57"
         >
-          MateriaBrasil
-        </h1>
+          Entrar
+        </h3>
       </a>
     </div>
   </header>
   <div
     className="content"
   >
-    <div>
+    <div
+      currentUser={
+        Object {
+          "actions": Object {
+            "set": [Function],
+          },
+          "render": [Function],
+        }
+      }
+    >
       Router
     </div>
   </div>
