@@ -13,7 +13,7 @@ export default props => {
     <AppBar position="static" color="inherit">
       <Toolbar>
         <Logo />
-        {currentUser ? (
+        {currentUser && currentUser.name ? (
           <Typography variant="subheading" color="inherit">
             {currentUser.name}
           </Typography>
