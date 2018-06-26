@@ -8,6 +8,7 @@ const reducers = {
   materials: createReducer('materials'),
   signUp: createReducer('signUp'),
   signIn: createReducer('signIn'),
+  signOut: createReducer('signOut'),
 }
 
 const rootReducer = combineReducers(reducers)

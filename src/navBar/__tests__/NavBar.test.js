@@ -6,6 +6,9 @@ import NavBar from '../NavBar'
 jest.mock('react-router-dom/Link', () => props => (
   <div {...props}>{props.children}</div>
 ))
+jest.mock('../../auth/signOut/SignOut', () => props => (
+  <div {...props}>SignOut</div>
+))
 
 describe('without current user', () => {
   it('renders correctly', () => {

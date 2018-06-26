@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<a
+  href="#destroy"
+  onClick={[Function]}
+  style={
+    Object {
+      "color": "black",
+      "display": "inline-block",
+      "marginLeft": 10,
+      "textDecoration": "none",
+    }
+  }
+>
+  <h3
+    className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+  >
+    Sair
+  </h3>
+</a>
+`;
