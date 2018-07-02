@@ -7,6 +7,7 @@ const reducers = {
   currentUser: createReducer('currentUser'),
   materials: createReducer('materials'),
   comments: createReducer('comments', { addCreatedToTop: true }),
+  favorites: createReducer('favorites'),
   signUp: createReducer('signUp'),
   signIn: createReducer('signIn'),
   signOut: createReducer('signOut'),

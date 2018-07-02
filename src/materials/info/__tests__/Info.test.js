@@ -6,6 +6,9 @@ import Info from '../Info'
 jest.mock('../../../comments/Comments', () => props => (
   <div {...props}>Comments</div>
 ))
+jest.mock('../../../favorites/Favorites', () => props => (
+  <div {...props}>Favorites</div>
+))
 
 it('renders correctly', () => {
   const current = {

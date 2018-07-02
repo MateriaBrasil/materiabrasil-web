@@ -55,38 +55,25 @@ exports[`without current user renders correctly 1`] = `
     <div
       className="MuiCardContent-root-120"
     >
-      <div
-        className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
-        style={
-          Object {
-            "paddingTop": 8,
-          }
-        }
+      <p
+        className="MuiTypography-root-121 MuiTypography-body1-130 MuiTypography-colorInherit-140"
       >
         <div
-          className="MuiCardContent-root-120"
+          style={
+            Object {
+              "textDecoration": "none",
+            }
+          }
+          to="/auth/sign-up"
         >
-          <p
-            className="MuiTypography-root-121 MuiTypography-body1-130 MuiTypography-colorInherit-140"
-          >
-            <div
-              style={
-                Object {
-                  "textDecoration": "none",
-                }
-              }
-              to="/auth/sign-up"
-            >
-              Link - 
-              Cadastre-se
-            </div>
-             
-            <span>
-              para deixar comentários.
-            </span>
-          </p>
+          Link - 
+          Cadastre-se
         </div>
-      </div>
+         
+        <span>
+          para deixar comentários.
+        </span>
+      </p>
       <div>
         List - 
       </div>

@@ -3,6 +3,7 @@ import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
 
 import Comments from '../../comments/Comments'
+import Favorites from '../../favorites/Favorites'
 
 import Card from './Card'
 import Description from './Description'
@@ -13,8 +14,11 @@ export default props => {
 
   return (
     <Grid container spacing={24}>
-      <Grid item xs={12}>
-        <Typography variant="display1">{name}</Typography>
+      <Grid item xs={12} style={{ display: 'flex' }}>
+        <Typography variant="display1" style={{ flex: 1 }}>
+          {name}
+        </Typography>
+        <Favorites {...current} />
       </Grid>
       <Card {...current} />
       <Description {...current} />
