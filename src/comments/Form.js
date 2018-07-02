@@ -1,34 +1,36 @@
 import React from 'react'
 import { reduxForm } from 'redux-form'
-import omit from 'lodash/omit'
 import { required } from 'redux-form-validators'
+import Button from '@material-ui/core/Button'
 
-import DefaultForm from '../form/Form'
+import Error from '../Error'
 import TextField from '../form/TextField'
 
-const Form = props => {
+export default reduxForm({ form: 'comments' })(props => {
   const { handleSubmit, onSubmit, error: reduxFormError, createError } = props
+  const { submitting } = props
   const error = reduxFormError || createError
-  const formProps = omit(props, ['handleSubmit', 'onSubmit', 'error'])
 
   return (
-    <DefaultForm
-      callToAction="Enviar comentário"
-      onSubmit={handleSubmit(onSubmit)}
-      error={error}
-      buttonStyle={{ width: '40%' }}
-      {...formProps}
-    >
+    <form onSubmit={handleSubmit(onSubmit)}>
       <TextField
         name="text"
-        label="Comentar"
+        label="Deixe seu comentário"
         type="text"
         multiline
-        rows="5"
         validate={[required()]}
       />
-    </DefaultForm>
+      <div style={{ textAlign: 'right' }}>
+        <Button
+          variant="raised"
+          color="primary"
+          type="submit"
+          disabled={submitting}
+        >
+          Enviar comentário
+        </Button>
+      </div>
+      {error && <Error>{error}</Error>}
+    </form>
   )
-}
-
-export default reduxForm({ form: 'comments' })(Form)
+})

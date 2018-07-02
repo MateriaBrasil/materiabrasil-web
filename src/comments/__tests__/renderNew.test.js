@@ -1,7 +1,7 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-import render from '../render'
+import renderNew from '../renderNew'
 
 jest.mock('../Form', () => props => (
   <div {...props}>Form - {props.children}</div>
@@ -9,8 +9,8 @@ jest.mock('../Form', () => props => (
 
 it('renders correctly', () => {
   const createProps = { create: jest.fn() }
-  const props = { foo: 'bar', current: { id: 123 } }
+  const props = { foo: 'bar', id: 123 }
 
-  const tree = renderer.create(render(props)(createProps)).toJSON()
+  const tree = renderer.create(renderNew(props)(createProps)).toJSON()
   expect(tree).toMatchSnapshot()
 })
