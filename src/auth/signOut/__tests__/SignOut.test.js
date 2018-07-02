@@ -1,21 +1,11 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import { Provider } from 'react-redux'
-
-import createStore from '../../../store/createStore'
 
 import SignOut from '../SignOut'
 
-it('renders correctly', () => {
-  const reducer = () => ({})
-  const store = createStore(reducer)
+jest.mock('croods', () => ({ Destroy: props => <div {...props}>Destroy</div> }))
 
-  const tree = renderer
-    .create(
-      <Provider store={store}>
-        <SignOut />
-      </Provider>,
-    )
-    .toJSON()
+it('renders correctly', () => {
+  const tree = renderer.create(<SignOut foo="bar" />).toJSON()
   expect(tree).toMatchSnapshot()
 })

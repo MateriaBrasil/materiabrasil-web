@@ -2,7 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="MuiGrid-container-1 MuiGrid-spacing-xs-24-24 MuiGrid-justify-xs-center-18"
+  className="MuiGrid-container-1 MuiGrid-spacing-xs-24-24"
 >
   <div
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
@@ -223,6 +223,26 @@ exports[`renders correctly 1`] = `
         </a>
       </h3>
     </div>
+  </div>
+  <div
+    current={
+      Object {
+        "averagePrice": "100",
+        "code": "999",
+        "description": "info",
+        "imageUrl": "bar",
+        "manufacturingLocation": "Foo City/FO",
+        "name": "foo",
+        "properties": "Foo properties",
+        "salesLocation": "Bar City/BR",
+        "supplierContact": "foo@bar.com",
+        "supplierName": "Foo Supplier",
+        "technicalSpecification_url": "http://foo",
+        "usage": "Bar usage",
+      }
+    }
+  >
+    Comments
   </div>
 </div>
 `;

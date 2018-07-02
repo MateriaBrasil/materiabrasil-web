@@ -1,8 +1,5 @@
 import React from 'react'
 import { New } from 'croods'
-import Typography from '@material-ui/core/Typography'
-import Card from '@material-ui/core/Card'
-import CardContent from '@material-ui/core/CardContent'
 
 import Form from './Form'
 
@@ -19,7 +16,6 @@ export default props => {
   return (
     <New
       name="comments"
-      path="/comments"
       render={({ create, creating, error }) => (
         <Form
           onSubmit={createWithParams(create, current.id)}
@@ -28,7 +24,6 @@ export default props => {
           {...props}
         />
       )}
-      renderCreated={created => <div>Comentário criado com sucesso!</div>}
     />
   )
 }
