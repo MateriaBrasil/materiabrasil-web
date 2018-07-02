@@ -3,9 +3,9 @@ import React from 'react'
 import Loading from '../../Loading'
 
 export default ({ render }) => (currentUser, props) => {
-  const { fetchingInfo, info, infoError } = props
+  const { fetchingInfo, info } = props
 
-  if (fetchingInfo || (!info && !infoError)) {
+  if (fetchingInfo) {
     return <Loading />
   }
 
