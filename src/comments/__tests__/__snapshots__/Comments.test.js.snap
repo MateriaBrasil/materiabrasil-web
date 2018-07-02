@@ -2,24 +2,12 @@
 
 exports[`with current user renders correctly 1`] = `
 <div
-  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-lg-7-73"
->
-  <div
-    currentUser={
-      Object {
-        "email": "foo@bar.com",
-        "name": "foo",
-      }
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
+  style={
+    Object {
+      "marginBottom": 36,
     }
-  >
-    New - 
-  </div>
-</div>
-`;
-
-exports[`without current user renders correctly 1`] = `
-<div
-  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-lg-7-73"
+  }
 >
   <div
     className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
@@ -27,25 +15,81 @@ exports[`without current user renders correctly 1`] = `
     <div
       className="MuiCardContent-root-120"
     >
-      <p
-        className="MuiTypography-root-121 MuiTypography-body1-130 MuiTypography-colorInherit-140"
+      <div
+        currentUser={
+          Object {
+            "email": "foo@bar.com",
+            "name": "foo",
+          }
+        }
+      >
+        New - 
+      </div>
+      <div
+        currentUser={
+          Object {
+            "email": "foo@bar.com",
+            "name": "foo",
+          }
+        }
+      >
+        List - 
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`without current user renders correctly 1`] = `
+<div
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
+  style={
+    Object {
+      "marginBottom": 36,
+    }
+  }
+>
+  <div
+    className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+  >
+    <div
+      className="MuiCardContent-root-120"
+    >
+      <div
+        className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+        style={
+          Object {
+            "paddingTop": 8,
+          }
+        }
       >
         <div
-          style={
-            Object {
-              "textDecoration": "none",
-            }
-          }
-          to="/auth/sign-in"
+          className="MuiCardContent-root-120"
         >
-          Link - 
-          Entre
+          <p
+            className="MuiTypography-root-121 MuiTypography-body1-130 MuiTypography-colorInherit-140"
+          >
+            <div
+              style={
+                Object {
+                  "textDecoration": "none",
+                }
+              }
+              to="/auth/sign-up"
+            >
+              Link - 
+              Cadastre-se
+            </div>
+             
+            <span>
+              para deixar comentários.
+            </span>
+          </p>
         </div>
-         
-        <span>
-          para deixar comentários
-        </span>
-      </p>
+      </div>
+      <div>
+        List - 
+      </div>
     </div>
   </div>
 </div>
