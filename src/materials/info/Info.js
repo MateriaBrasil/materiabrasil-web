@@ -18,7 +18,7 @@ export default props => {
         <Typography variant="display1" style={{ flex: 1 }}>
           {name}
         </Typography>
-        <Favorites />
+        <Favorites {...current} />
       </Grid>
       <Card {...current} />
       <Description {...current} />

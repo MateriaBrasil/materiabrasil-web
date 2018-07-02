@@ -1,10 +1,6 @@
 import React from 'react'
-import BookmarkIcon from '@material-ui/icons/Bookmark'
-import Button from '@material-ui/core/Button'
+import { New } from 'croods'
 
-export default props => (
-  <Button variant="raised" color="secondary">
-    <BookmarkIcon />
-    Salvar
-  </Button>
-)
+import renderNew from './renderNew'
+
+export default ({ id }) => <New name="favorites" render={renderNew(id)} />
