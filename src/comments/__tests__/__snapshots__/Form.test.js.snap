@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="MuiPaper-root-2 MuiPaper-elevation2-6 MuiPaper-rounded-3 MuiCard-root-1"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="MuiCardContent-root-29"
+    >
+      <div>
+        <div
+          aria-describedby="name-error-text"
+          className="MuiFormControl-root-30 MuiFormControl-fullWidth-33"
+          onBlur={[Function]}
+          onFocus={[Function]}
+        >
+          <label
+            className="MuiFormLabel-root-39 MuiInputLabel-root-34 MuiInputLabel-formControl-35 MuiInputLabel-animated-38"
+            data-shrink={false}
+            htmlFor="name-error"
+          >
+            Comentar
+          </label>
+          <div
+            className="MuiInput-root-44 MuiInput-formControl-45 MuiInput-multiline-50 MuiInput-underline-48"
+            onDragStart={[Function]}
+            onDrop={[Function]}
+          >
+            <textarea
+              aria-invalid={false}
+              aria-required={false}
+              autoComplete={undefined}
+              autoFocus={undefined}
+              className="MuiInput-input-52 MuiInput-inputMultiline-54"
+              defaultValue={undefined}
+              disabled={false}
+              id={undefined}
+              name="text"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={undefined}
+              onKeyUp={undefined}
+              placeholder={undefined}
+              readOnly={undefined}
+              required={undefined}
+              rows="5"
+              type="text"
+              value=""
+            />
+          </div>
+          <p
+            className="MuiFormHelperText-root-57"
+            id="name-error-text"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiCardActions-root-61"
+      style={
+        Object {
+          "paddingBottom": 16,
+          "paddingLeft": 24,
+          "paddingRight": 24,
+        }
+      }
+    >
+      <button
+        className="MuiButtonBase-root-79 MuiButton-root-63 MuiButton-raised-69 MuiButton-raisedPrimary-70 MuiCardActions-action-62"
+        disabled={false}
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "width": "40%",
+          }
+        }
+        tabIndex="0"
+        type="submit"
+      >
+        <span
+          className="MuiButton-label-64"
+        >
+          Enviar comentário
+        </span>
+        <span
+          className="MuiTouchRipple-root-82"
+        />
+      </button>
+    </div>
+  </form>
+</div>
+`;
