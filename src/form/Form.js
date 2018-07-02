@@ -11,6 +11,7 @@ import './errorMessages'
 
 const Form = props => {
   const { children, onSubmit, title, callToAction, error, submitting } = props
+  const { buttonStyle } = props
 
   return (
     <Card>
@@ -25,7 +26,7 @@ const Form = props => {
             color="primary"
             type="submit"
             disabled={submitting}
-            style={{ width: '100%' }}
+            style={{ width: '100%', ...buttonStyle }}
           >
             {callToAction}
           </Button>

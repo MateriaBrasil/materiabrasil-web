@@ -3,6 +3,10 @@ import renderer from 'react-test-renderer'
 
 import Info from '../Info'
 
+jest.mock('../../../comments/Comments', () => props => (
+  <div {...props}>Comments</div>
+))
+
 it('renders correctly', () => {
   const current = {
     name: 'foo',
