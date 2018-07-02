@@ -6,21 +6,69 @@ exports[`renders correctly 1`] = `
 >
   <div
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
   >
     <h1
       className="MuiTypography-root-92 MuiTypography-display1-96"
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
     >
       foo
     </h1>
+    <button
+      className="MuiButtonBase-root-132 MuiButton-root-116 MuiButton-raised-122 MuiButton-raisedSecondary-124"
+      disabled={false}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-117"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-135"
+          color={undefined}
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <g>
+            <path
+              d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"
+            />
+          </g>
+        </svg>
+        Salvar
+      </span>
+      <span
+        className="MuiTouchRipple-root-141"
+      />
+    </button>
   </div>
   <div
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-lg-7-73"
   >
     <div
-      className="MuiPaper-root-117 MuiPaper-elevation2-121 MuiPaper-rounded-118 MuiCard-root-116"
+      className="MuiPaper-root-149 MuiPaper-elevation2-153 MuiPaper-rounded-150 MuiCard-root-148"
     >
       <div
-        className="MuiCardMedia-root-144"
+        className="MuiCardMedia-root-176"
         src={undefined}
         style={
           Object {
@@ -32,7 +80,7 @@ exports[`renders correctly 1`] = `
         title="foo"
       />
       <div
-        className="MuiCardContent-root-146"
+        className="MuiCardContent-root-178"
       >
         <h3
           className="MuiTypography-root-92 MuiTypography-subheading-99"
@@ -58,7 +106,7 @@ exports[`renders correctly 1`] = `
           </span>
         </p>
         <hr
-          className="MuiDivider-root-147"
+          className="MuiDivider-root-179"
           style={
             Object {
               "marginBottom": 16,
@@ -116,7 +164,7 @@ exports[`renders correctly 1`] = `
       info
     </h3>
     <hr
-      className="MuiDivider-root-147"
+      className="MuiDivider-root-179"
       style={
         Object {
           "marginBottom": 24,
@@ -198,7 +246,7 @@ exports[`renders correctly 1`] = `
       </div>
     </div>
     <hr
-      className="MuiDivider-root-147"
+      className="MuiDivider-root-179"
       style={
         Object {
           "marginBottom": 24,
