@@ -6,7 +6,7 @@ const reducers = {
   form,
   currentUser: createReducer('currentUser'),
   materials: createReducer('materials'),
-  comments: createReducer('comments'),
+  comments: createReducer('comments', { addCreatedToTop: true }),
   signUp: createReducer('signUp'),
   signIn: createReducer('signIn'),
   signOut: createReducer('signOut'),

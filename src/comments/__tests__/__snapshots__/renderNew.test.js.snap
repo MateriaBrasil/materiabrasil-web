@@ -3,12 +3,8 @@
 exports[`renders correctly 1`] = `
 <div
   createError={undefined}
-  current={
-    Object {
-      "id": 123,
-    }
-  }
   foo="bar"
+  id={123}
   onSubmit={[Function]}
   submitting={undefined}
 >

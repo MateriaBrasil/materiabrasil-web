@@ -123,8 +123,6 @@ exports[`renders correctly 1`] = `
           style={
             Object {
               "paddingBottom": 16,
-              "paddingLeft": 24,
-              "paddingRight": 24,
             }
           }
         >

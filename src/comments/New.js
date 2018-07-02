@@ -1,6 +1,6 @@
 import React from 'react'
 import { New } from 'croods'
 
-import render from './render'
+import renderNew from './renderNew'
 
-export default props => <New name="comments" render={render(props)} />
+export default props => <New name="comments" render={renderNew(props)} />

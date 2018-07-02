@@ -9,24 +9,21 @@ import Error from '../Error'
 
 import './errorMessages'
 
-const Form = props => {
+export default props => {
   const { children, onSubmit, title, callToAction, error, submitting } = props
-  const { buttonStyle } = props
 
   return (
     <Card>
       <form onSubmit={onSubmit}>
         {title && <CardHeader title={title} />}
         <CardContent>{children}</CardContent>
-        <CardActions
-          style={{ paddingLeft: 24, paddingRight: 24, paddingBottom: 16 }}
-        >
+        <CardActions style={{ paddingBottom: 16 }}>
           <Button
             variant="raised"
             color="primary"
             type="submit"
             disabled={submitting}
-            style={{ width: '100%', ...buttonStyle }}
+            style={{ width: '100%' }}
           >
             {callToAction}
           </Button>
@@ -36,5 +33,3 @@ const Form = props => {
     </Card>
   )
 }
-
-export default Form

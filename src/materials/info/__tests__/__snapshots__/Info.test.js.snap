@@ -241,6 +241,8 @@ exports[`renders correctly 1`] = `
         "usage": "Bar usage",
       }
     }
+    id={undefined}
+    type="materials"
   >
     Comments
   </div>

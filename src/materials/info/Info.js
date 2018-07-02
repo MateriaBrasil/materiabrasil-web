@@ -9,7 +9,7 @@ import Description from './Description'
 
 export default props => {
   const { current } = props
-  const { name } = current
+  const { id, name } = current
 
   return (
     <Grid container spacing={24}>
@@ -18,7 +18,7 @@ export default props => {
       </Grid>
       <Card {...current} />
       <Description {...current} />
-      <Comments {...props} />
+      <Comments id={id} type="materials" {...props} />
     </Grid>
   )
 }
