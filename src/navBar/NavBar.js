@@ -1,9 +1,9 @@
 import React from 'react'
 import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
-import Typography from '@material-ui/core/Typography'
 
 import SignOut from '../auth/signOut/SignOut'
+import User from '../users/Link'
 import Logo from './Logo'
 import SignIn from './SignIn'
 
@@ -16,13 +16,7 @@ export default props => {
         <Logo />
         {currentUser && currentUser.name ? (
           <div>
-            <Typography
-              variant="subheading"
-              color="inherit"
-              style={{ display: 'inline-block', marginRight: 10 }}
-            >
-              {currentUser.name}
-            </Typography>|
+            <User {...props} />
             <SignOut {...props} />
           </div>
         ) : (
