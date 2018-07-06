@@ -3,7 +3,7 @@ import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
 
 import Comments from '../../comments/Comments'
-import Favorites from '../../favorites/Favorites'
+import Favorites from '../../favorites/New'
 
 import Card from './Card'
 import Description from './Description'

@@ -5,15 +5,16 @@ import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 import CardMedia from '@material-ui/core/CardMedia'
 
-import Albums from './Albums'
+import Album from './Album'
 
 export default () => props => {
-  const { name } = props
+  const { name, albums } = props
+  const album = albums[0]
 
   return (
     <Grid container spacing={24}>
-      <Grid item xs={12} style={{ display: 'flex' }}>
-        <Card style={{ flex: 1 }}>
+      <Grid item xs={12}>
+        <Card>
           <CardContent>
             <CardMedia
               style={{
@@ -33,10 +34,10 @@ export default () => props => {
               {name}
             </Typography>
           </CardContent>
-          <CardContent>
-            <Albums {...props} />
-          </CardContent>
         </Card>
+      </Grid>
+      <Grid item xs={12}>
+        <Album {...album} />
       </Grid>
     </Grid>
   )
