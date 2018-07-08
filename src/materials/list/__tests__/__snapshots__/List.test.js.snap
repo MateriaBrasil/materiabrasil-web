@@ -67,16 +67,6 @@ exports[`renders correctly 1`] = `
             />
           </div>
         </div>
-        <div
-          className="MuiCardActions-root-147"
-        >
-          <div
-            className="MuiCardActions-action-148"
-            id={undefined}
-          >
-            Favorite
-          </div>
-        </div>
       </div>
     </div>
     <div
@@ -141,16 +131,6 @@ exports[`renders correctly 1`] = `
             />
           </div>
         </div>
-        <div
-          className="MuiCardActions-root-147"
-        >
-          <div
-            className="MuiCardActions-action-148"
-            id={undefined}
-          >
-            Favorite
-          </div>
-        </div>
       </div>
     </div>
     <div
@@ -213,16 +193,6 @@ exports[`renders correctly 1`] = `
                 }
               }
             />
-          </div>
-        </div>
-        <div
-          className="MuiCardActions-root-147"
-        >
-          <div
-            className="MuiCardActions-action-148"
-            id={undefined}
-          >
-            Favorite
           </div>
         </div>
       </div>
