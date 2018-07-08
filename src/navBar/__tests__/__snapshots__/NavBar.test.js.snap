@@ -48,18 +48,27 @@ exports[`with current user renders correctly 1`] = `
       </div>
     </div>
     <div>
-      <h3
-        className="MuiTypography-root-38 MuiTypography-subheading-45 MuiTypography-colorInherit-57"
+      <div
         style={
           Object {
-            "display": "inline-block",
-            "marginRight": 10,
+            "color": "black",
+            "textDecoration": "none",
           }
         }
+        to="/user/undefined"
       >
-        Foo Bar
-      </h3>
-      |
+        <h3
+          className="MuiTypography-root-38 MuiTypography-subheading-45 MuiTypography-colorInherit-57"
+          style={
+            Object {
+              "display": "inline-block",
+              "marginRight": 10,
+            }
+          }
+        >
+          Foo Bar
+        </h3>
+      </div>
       <div
         currentUser={
           Object {
