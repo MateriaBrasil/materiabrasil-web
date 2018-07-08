@@ -37,7 +37,7 @@ export default () => props => {
         </Card>
       </Grid>
       <Grid item xs={12}>
-        <Album {...album} />
+        {album && <Album {...album} />}
       </Grid>
     </Grid>
   )
