@@ -10,8 +10,8 @@ import PersonIcon from '@material-ui/icons/Person'
 export default props => list => (
   <List>
     {map(list, ({ id, user: { name }, text }) => (
-      <Link to={`/user/${id}`} style={{ textDecoration: 'none' }}>
-        <ListItem key={id} button>
+      <Link to={`/user/${id}`} style={{ textDecoration: 'none' }} key={id}>
+        <ListItem button>
           <Avatar>
             <PersonIcon />
           </Avatar>
