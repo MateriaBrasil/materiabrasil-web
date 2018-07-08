@@ -7,17 +7,25 @@ import ListItemText from '@material-ui/core/ListItemText'
 import Avatar from '@material-ui/core/Avatar'
 import PersonIcon from '@material-ui/icons/Person'
 
-export default props => list => (
-  <List>
-    {map(list, ({ id, user: { name }, text }) => (
-      <Link to={`/user/${id}`} style={{ textDecoration: 'none' }} key={id}>
-        <ListItem button>
-          <Avatar>
-            <PersonIcon />
-          </Avatar>
-          <ListItemText primary={name} secondary={text} />
-        </ListItem>
-      </Link>
-    ))}
-  </List>
-)
+export default props => list => {
+  console.log(props)
+  console.log(list)
+  return (
+    <List>
+      {map(list, ({ id, user: { name, id: userId }, text }) => (
+        <Link
+          to={`/user/${userId}`}
+          style={{ textDecoration: 'none' }}
+          key={id}
+        >
+          <ListItem button>
+            <Avatar>
+              <PersonIcon />
+            </Avatar>
+            <ListItemText primary={name} secondary={text} />
+          </ListItem>
+        </Link>
+      ))}
+    </List>
+  )
+}
