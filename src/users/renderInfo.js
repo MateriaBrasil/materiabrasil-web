@@ -24,7 +24,7 @@ export default () => props => {
                 marginRight: 16,
                 borderRadius: 2,
               }}
-              image="http://i.pravatar.cc/300"
+              image="/images/avatar.png"
               title={name}
             />
             <Typography
