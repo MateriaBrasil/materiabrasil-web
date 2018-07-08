@@ -7,8 +7,9 @@ import CardMedia from '@material-ui/core/CardMedia'
 
 import Album from './Album'
 
-export default () => props => {
-  const { name, albums } = props
+export default props => infoProps => {
+  const { currentUser } = props
+  const { id, name, albums } = infoProps
   const album = albums[0]
 
   return (
@@ -37,7 +38,7 @@ export default () => props => {
         </Card>
       </Grid>
       <Grid item xs={12}>
-        {album && <Album {...album} />}
+        {album && <Album {...album} showDestroy={currentUser.id === id} />}
       </Grid>
     </Grid>
   )
