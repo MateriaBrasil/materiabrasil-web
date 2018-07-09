@@ -4,11 +4,10 @@ import Button from '@material-ui/core/Button'
 
 import createWithParams from './createWithParams'
 
-export default id => ({ create, creating, error }) => (
+export default id => ({ create, error }) => (
   <Button
     variant="raised"
     color="secondary"
-    disabled={creating}
     onClick={createWithParams(create, id)}
   >
     <BookmarkIcon />
