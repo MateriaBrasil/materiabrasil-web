@@ -9,15 +9,15 @@ exports[`renders correctly 1`] = `
       className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57"
     >
       <div
-        style={
-          Object {
-            "textDecoration": "none",
-          }
-        }
-        to="/undefined"
+        className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92 list-card"
       >
         <div
-          className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92 list-card"
+          style={
+            Object {
+              "textDecoration": "none",
+            }
+          }
+          to="/undefined"
         >
           <div
             className="MuiCardMedia-root-120"
@@ -73,15 +73,15 @@ exports[`renders correctly 1`] = `
       className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57"
     >
       <div
-        style={
-          Object {
-            "textDecoration": "none",
-          }
-        }
-        to="/undefined"
+        className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92 list-card"
       >
         <div
-          className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92 list-card"
+          style={
+            Object {
+              "textDecoration": "none",
+            }
+          }
+          to="/undefined"
         >
           <div
             className="MuiCardMedia-root-120"
@@ -137,15 +137,15 @@ exports[`renders correctly 1`] = `
       className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57"
     >
       <div
-        style={
-          Object {
-            "textDecoration": "none",
-          }
-        }
-        to="/undefined"
+        className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92 list-card"
       >
         <div
-          className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92 list-card"
+          style={
+            Object {
+              "textDecoration": "none",
+            }
+          }
+          to="/undefined"
         >
           <div
             className="MuiCardMedia-root-120"

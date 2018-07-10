@@ -204,24 +204,24 @@ exports[`renders correctly 1`] = `
           100
         </h3>
       </div>
-      <div
-        style={
-          Object {
-            "marginBottom": 8,
-          }
-        }
+      <p
+        className="MuiTypography-root-92 MuiTypography-body1-101 MuiTypography-colorInherit-111"
       >
-        <span
-          className="MuiTypography-root-92 MuiTypography-caption-102"
+        <div
+          style={
+            Object {
+              "textDecoration": "none",
+            }
+          }
+          to="/auth/sign-up"
         >
-          Contato do fornecedor
+          Cadastre-se
+        </div>
+         
+        <span>
+          para ver o contato do fornecedor.
         </span>
-        <h3
-          className="MuiTypography-root-92 MuiTypography-subheading-99"
-        >
-          foo@bar.com
-        </h3>
-      </div>
+      </p>
     </div>
     <hr
       className="MuiDivider-root-147"

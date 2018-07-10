@@ -3,6 +3,9 @@ import renderer from 'react-test-renderer'
 
 import Info from '../Info'
 
+jest.mock('react-router-dom/Link', () => props => (
+  <div {...props}>{props.children}</div>
+))
 jest.mock('../../../comments/Comments', () => props => (
   <div {...props}>Comments</div>
 ))

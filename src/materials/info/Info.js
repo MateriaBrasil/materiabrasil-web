@@ -9,7 +9,7 @@ import Card from './Card'
 import Description from './Description'
 
 export default props => {
-  const { current } = props
+  const { current, currentUser } = props
   const { id, name } = current
 
   return (
@@ -21,7 +21,7 @@ export default props => {
         <Favorites {...current} />
       </Grid>
       <Card {...current} />
-      <Description {...current} />
+      <Description {...current} currentUser={currentUser} />
       <Comments id={id} type="materials" {...props} />
     </Grid>
   )

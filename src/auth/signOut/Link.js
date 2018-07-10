@@ -1,7 +1,7 @@
 import React from 'react'
 import Typography from '@material-ui/core/Typography'
 
-import onClick from './onClick'
+import onClick from '../../onClick'
 
 export default ({ destroy }) => (
   <a
