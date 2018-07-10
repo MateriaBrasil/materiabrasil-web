@@ -10,11 +10,13 @@ export default props => list => {
 
   return (
     <Grid container spacing={16}>
-      {map(list, ({ id, favoritable }) => (
+      {map(list, ({ id, favoritable, destroying }) => (
         <Grid item xs={6} sm={4} md={4} key={id}>
           <Card
             {...favoritable}
-            cardAction={showDestroy ? <Destroy id={id} /> : null}
+            cardAction={
+              showDestroy ? <Destroy id={id} destroying={destroying} /> : null
+            }
           />
         </Grid>
       ))}

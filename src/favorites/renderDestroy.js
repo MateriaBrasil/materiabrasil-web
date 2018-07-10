@@ -3,8 +3,8 @@ import Button from '@material-ui/core/Button'
 
 import onClick from '../onClick'
 
-export default ({ id }) => (destroy, { destroyed }) => (
-  <Button color="secondary" onClick={onClick(destroy)}>
+export default ({ id, destroying }) => (destroy, { destroyed }) => (
+  <Button color="secondary" disabled={destroying} onClick={onClick(destroy)}>
     Remover
   </Button>
 )
