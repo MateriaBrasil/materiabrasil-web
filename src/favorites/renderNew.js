@@ -1,16 +1,12 @@
 import React from 'react'
-import BookmarkIcon from '@material-ui/icons/Bookmark'
-import Button from '@material-ui/core/Button'
 
 import createWithParams from './createWithParams'
+import Button from './Button'
 
-export default id => ({ create, error }) => (
+export default ({ id, ...props }) => ({ create, creating }) => (
   <Button
-    variant="raised"
-    color="secondary"
     onClick={createWithParams(create, id)}
-  >
-    <BookmarkIcon />
-    Salvar
-  </Button>
+    creating={creating}
+    {...props}
+  />
 )

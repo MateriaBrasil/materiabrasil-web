@@ -11,7 +11,9 @@ export default ({ list, currentUser }) => (
         <Grid item xs={12} sm={6} md={4} key={index}>
           <Card
             {...material}
-            cardAction={currentUser ? <NewFavorite id={material.id} /> : null}
+            cardAction={
+              currentUser ? <NewFavorite id={material.id} type="icon" /> : null
+            }
           />
         </Grid>
       ))}
