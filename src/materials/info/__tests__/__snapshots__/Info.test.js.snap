@@ -277,7 +277,7 @@ exports[`renders correctly 1`] = `
         <span
           className="MuiButton-label-152"
         >
-          Avalie
+          Avaliar
         </span>
         <span
           className="MuiTouchRipple-root-170"
