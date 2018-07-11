@@ -7,6 +7,7 @@ import Button from '@material-ui/core/Button'
 
 import Links from './Links'
 import Supplier from './Supplier'
+import Rating from './Rating'
 
 export default props => {
   const { id, code, description } = props
@@ -23,6 +24,7 @@ export default props => {
       <Supplier {...props} />
       <Divider style={{ marginTop: 24, marginBottom: 24 }} />
       <Links {...props} />
+      <Rating {...props} />
       <Link
         to={`/${id}/reviews/new`}
         style={{ textDecoration: 'none', color: 'black' }}
