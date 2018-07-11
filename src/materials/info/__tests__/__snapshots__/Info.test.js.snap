@@ -249,40 +249,78 @@ exports[`renders correctly 1`] = `
         </a>
       </h3>
     </div>
-    <div
-      style={
-        Object {
-          "color": "black",
-          "textDecoration": "none",
+    <div>
+      <div />
+      <div
+        style={
+          Object {
+            "color": "black",
+            "textDecoration": "none",
+          }
         }
-      }
-      to="/undefined/reviews/new"
-    >
-      <button
-        className="MuiButtonBase-root-167 MuiButton-root-151"
-        disabled={false}
-        onBlur={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        onTouchStart={[Function]}
-        tabIndex="0"
-        type="button"
+        to="/undefined/reviews/new"
       >
-        <span
-          className="MuiButton-label-152"
+        <button
+          className="MuiButtonBase-root-167 MuiButton-root-151"
+          disabled={false}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="button"
         >
-          Avaliar
-        </span>
-        <span
-          className="MuiTouchRipple-root-170"
-        />
-      </button>
+          <span
+            className="MuiButton-label-152"
+          >
+            Avaliar
+          </span>
+          <span
+            className="MuiTouchRipple-root-170"
+          />
+        </button>
+      </div>
+      <div
+        style={
+          Object {
+            "color": "black",
+            "textDecoration": "none",
+          }
+        }
+        to="/undefined/reviews"
+      >
+        <button
+          className="MuiButtonBase-root-167 MuiButton-root-151"
+          disabled={false}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="button"
+        >
+          <span
+            className="MuiButton-label-152"
+          >
+            Ver avaliações
+          </span>
+          <span
+            className="MuiTouchRipple-root-170"
+          />
+        </button>
+      </div>
     </div>
   </div>
   <div
