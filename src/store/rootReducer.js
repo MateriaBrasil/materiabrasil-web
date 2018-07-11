@@ -12,6 +12,7 @@ const reducers = {
   signIn: createReducer('signIn'),
   signOut: createReducer('signOut'),
   users: createReducer('users'),
+  reviews: createReducer('reviews'),
 }
 
 const rootReducer = combineReducers(reducers)

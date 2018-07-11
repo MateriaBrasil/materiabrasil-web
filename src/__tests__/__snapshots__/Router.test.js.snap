@@ -2,12 +2,16 @@
 
 exports[`with /:id route renders correctly 1`] = `
 <div>
-  Material
+  <div>
+    Material
+  </div>
 </div>
 `;
 
 exports[`with root route renders correctly 1`] = `
 <div>
-  Materials
+  <div>
+    Materials
+  </div>
 </div>
 `;
