@@ -6,7 +6,7 @@ import withMobileDialog from '@material-ui/core/withMobileDialog'
 import Form from './Form'
 import createWithParams from './createWithParams'
 
-class NewReview extends Component {
+class New extends Component {
   render() {
     const { fullScreen, match, create, creating, error } = this.props
     const { params } = match
@@ -30,4 +30,4 @@ class NewReview extends Component {
   }
 }
 
-export default withMobileDialog()(NewReview)
+export default withMobileDialog()(New)
