@@ -6,16 +6,16 @@ import StarHalf from '@material-ui/icons/StarHalf'
 
 export default class extends Component {
   render() {
-    const { averageRating } = this.props
+    const { rating } = this.props
 
     return (
       <div>
-        {averageRating &&
+        {rating &&
           map([1, 2, 3, 4, 5], value => {
-            if (averageRating >= value || value - averageRating < 0.25) {
+            if (rating >= value || value - rating < 0.25) {
               return <Star color="primary" key={value} />
             }
-            if (value - averageRating >= 0.75) {
+            if (value - rating >= 0.75) {
               return <StarBorder color="primary" key={value} />
             }
             return <StarHalf color="primary" key={value} />
