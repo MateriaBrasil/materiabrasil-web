@@ -27,7 +27,7 @@ export default props => {
         to={`/${id}/reviews/new`}
         style={{ textDecoration: 'none', color: 'black' }}
       >
-        <Button>Avalie</Button>
+        <Button>Avaliar</Button>
       </Link>
     </Grid>
   )

@@ -18,7 +18,7 @@ class Review extends Component {
         open
         aria-labelledby="responsive-dialog-title"
       >
-        <DialogTitle id="responsive-dialog-title">Avalie</DialogTitle>
+        <DialogTitle id="responsive-dialog-title">Avaliar</DialogTitle>
         <Form
           id={id}
           onSubmit={createWithParams(create, id)}

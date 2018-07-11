@@ -25,7 +25,6 @@ class Form extends Component {
           <TextField
             name="text"
             label="Escreva sua avaliação"
-            type="text"
             multiline
             validate={[required()]}
           />
