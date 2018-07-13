@@ -13,11 +13,13 @@ export default ({ id, averageRating }) => (
     >
       <Button>Avaliar</Button>
     </Link>
-    <Link
-      to={`/${id}/reviews`}
-      style={{ textDecoration: 'none', color: 'black' }}
-    >
-      <Button>Ver avaliações</Button>
-    </Link>
+    {averageRating && (
+      <Link
+        to={`/${id}/reviews`}
+        style={{ textDecoration: 'none', color: 'black' }}
+      >
+        <Button>Ver avaliações</Button>
+      </Link>
+    )}
   </div>
 )
