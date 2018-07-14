@@ -4,15 +4,17 @@ import Button from '@material-ui/core/Button'
 
 import Rating from '../../reviews/Rating'
 
-export default ({ id, averageRating }) => (
+export default ({ id, averageRating, currentUser }) => (
   <div>
     <Rating rating={averageRating} />
-    <Link
-      to={`/${id}/reviews/new`}
-      style={{ textDecoration: 'none', color: 'black' }}
-    >
-      <Button>Avaliar</Button>
-    </Link>
+    {currentUser && (
+      <Link
+        to={`/${id}/reviews/new`}
+        style={{ textDecoration: 'none', color: 'black' }}
+      >
+        <Button>Avaliar</Button>
+      </Link>
+    )}
     {averageRating && (
       <Link
         to={`/${id}/reviews`}

@@ -6,7 +6,8 @@ import CaptionWithText from './CaptionWithText'
 
 export default props => {
   const { supplierName, manufacturingLocation, averagePrice } = props
-  const { supplierContact, currentUser } = props
+  const { supplierContact, currentUser, location } = props
+  const { pathname } = location
 
   return (
     <div>
@@ -23,7 +24,13 @@ export default props => {
         />
       ) : (
         <Typography variant="body1" color="inherit">
-          <Link to="/auth/sign-up" style={{ textDecoration: 'none' }}>
+          <Link
+            to={{
+              pathname: '/auth/sign-up',
+              state: { referrer: pathname },
+            }}
+            style={{ textDecoration: 'none' }}
+          >
             Cadastre-se
           </Link>{' '}
           <span>para ver o contato do fornecedor.</span>

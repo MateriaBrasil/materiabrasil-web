@@ -24,7 +24,7 @@ export default class extends Component {
   }
 
   render() {
-    const { current, currentUser } = this.props
+    const { current } = this.props
     const { id, name } = current
 
     return (
@@ -36,7 +36,7 @@ export default class extends Component {
           <Favorites {...current} />
         </Grid>
         <Card {...current} />
-        <Description {...current} currentUser={currentUser} />
+        <Description {...current} {...this.props} />
         <Comments id={id} type="materials" {...this.props} />
       </Grid>
     )
