@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
+import queryString from 'query-string'
 
 import Comments from '../../comments/Comments'
 import Favorites from '../../favorites/New'
@@ -12,11 +13,11 @@ export default class extends Component {
   componentDidUpdate(prevProps) {
     const { location, actions, current } = this.props
     const { id } = current
-    const { location: oldLocation } = prevProps
-    const { pathname } = location
-    const { pathname: oldPathName } = oldLocation
+    const { search } = location
+    const query = queryString.parse(search)
+    const { reload } = query
 
-    if (pathname !== oldPathName && oldPathName === `/${id}/reviews/new`) {
+    if (reload) {
       const { fetchInfo } = actions
       fetchInfo(id)
     }

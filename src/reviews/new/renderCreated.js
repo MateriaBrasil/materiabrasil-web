@@ -6,5 +6,5 @@ export default props => review => {
   const { params } = match
   const { id } = params
 
-  return <Redirect to={`/${id}`} />
+  return <Redirect to={`/${id}?reload=true`} />
 }

@@ -13,6 +13,7 @@ import Reviews from './Reviews'
 class List extends Component {
   render() {
     const { fullScreen, id, list } = this.props
+    const handleCloseModal = closeModal(this.props)
 
     return (
       <Dialog
@@ -21,7 +22,8 @@ class List extends Component {
         aria-labelledby="responsive-dialog-title"
         maxWidth="md"
         fullWidth
-        onBackdropClick={closeModal(this.props)}
+        onBackdropClick={handleCloseModal}
+        onEscapeKeyDown={handleCloseModal}
       >
         <DialogTitle id="responsive-dialog-title">Avaliações</DialogTitle>
         <DialogContent>

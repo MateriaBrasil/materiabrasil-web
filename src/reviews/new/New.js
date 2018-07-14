@@ -12,13 +12,15 @@ class New extends Component {
     const { fullScreen, match, history, create, creating, error } = this.props
     const { params } = match
     const { id } = params
+    const handleCloseModal = closeModal({ history, id })
 
     return (
       <Dialog
         fullScreen={fullScreen}
         open
         aria-labelledby="responsive-dialog-title"
-        onBackdropClick={closeModal({ history, id })}
+        onBackdropClick={handleCloseModal}
+        onEscapeKeyDown={handleCloseModal}
       >
         <DialogTitle id="responsive-dialog-title">Avaliar</DialogTitle>
         <Form
