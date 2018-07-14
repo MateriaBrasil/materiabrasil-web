@@ -10,7 +10,6 @@ export default class extends Component {
   }
 
   render() {
-    console.log(this.props)
     const { location } = this.props
     const { state } = location
     const path = (state && state.referrer) || '/'

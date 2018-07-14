@@ -264,7 +264,12 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        to="/auth/sign-in"
+        to={
+          Object {
+            "pathname": "/auth/sign-in",
+            "state": undefined,
+          }
+        }
       >
         <p
           className="MuiTypography-root-180 MuiTypography-body1-189"

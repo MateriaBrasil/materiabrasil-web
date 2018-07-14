@@ -213,7 +213,14 @@ exports[`renders correctly 1`] = `
               "textDecoration": "none",
             }
           }
-          to="/auth/sign-up"
+          to={
+            Object {
+              "pathname": "/auth/sign-up",
+              "state": Object {
+                "referrer": undefined,
+              },
+            }
+          }
         >
           Cadastre-se
         </div>
@@ -251,41 +258,6 @@ exports[`renders correctly 1`] = `
     </div>
     <div>
       <div />
-      <div
-        style={
-          Object {
-            "color": "black",
-            "textDecoration": "none",
-          }
-        }
-        to="/undefined/reviews/new"
-      >
-        <button
-          className="MuiButtonBase-root-167 MuiButton-root-151"
-          disabled={false}
-          onBlur={[Function]}
-          onFocus={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-          onMouseDown={[Function]}
-          onMouseLeave={[Function]}
-          onMouseUp={[Function]}
-          onTouchEnd={[Function]}
-          onTouchMove={[Function]}
-          onTouchStart={[Function]}
-          tabIndex="0"
-          type="button"
-        >
-          <span
-            className="MuiButton-label-152"
-          >
-            Avaliar
-          </span>
-          <span
-            className="MuiTouchRipple-root-170"
-          />
-        </button>
-      </div>
     </div>
   </div>
   <div
@@ -306,6 +278,7 @@ exports[`renders correctly 1`] = `
       }
     }
     id={undefined}
+    location={Object {}}
     type="materials"
   >
     Comments

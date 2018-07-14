@@ -168,7 +168,12 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        to="/auth/sign-up"
+        to={
+          Object {
+            "pathname": "/auth/sign-up",
+            "state": undefined,
+          }
+        }
       >
         <p
           className="MuiTypography-root-180 MuiTypography-body1-189"
