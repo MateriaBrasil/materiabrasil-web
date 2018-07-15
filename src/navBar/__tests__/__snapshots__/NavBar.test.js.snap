@@ -75,6 +75,53 @@ exports[`with current user renders correctly 1`] = `
             "name": "Foo Bar",
           }
         }
+        history={
+          Object {
+            "action": "POP",
+            "block": [Function],
+            "canGo": [Function],
+            "createHref": [Function],
+            "entries": Array [
+              Object {
+                "hash": "",
+                "key": "testKey",
+                "pathname": "/",
+                "search": "",
+              },
+            ],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "index": 0,
+            "length": 1,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "key": "testKey",
+              "pathname": "/",
+              "search": "",
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+        location={
+          Object {
+            "hash": "",
+            "key": "testKey",
+            "pathname": "/",
+            "search": "",
+          }
+        }
+        match={
+          Object {
+            "isExact": true,
+            "params": Object {},
+            "path": "/",
+            "url": "/",
+          }
+        }
+        staticContext={undefined}
       >
         SignOut
       </div>
@@ -137,7 +184,14 @@ exports[`without current user renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
-      to="/auth/sign-in"
+      to={
+        Object {
+          "pathname": "/auth/sign-in",
+          "state": Object {
+            "referrer": "/",
+          },
+        }
+      }
     >
       <h3
         className="MuiTypography-root-38 MuiTypography-subheading-45 MuiTypography-colorInherit-57"
