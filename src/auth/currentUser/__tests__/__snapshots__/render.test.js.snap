@@ -4,6 +4,7 @@ exports[`with fetchingInfo renders loading 1`] = `
 <div
   style={
     Object {
+      "padding": 40,
       "textAlign": "center",
     }
   }
