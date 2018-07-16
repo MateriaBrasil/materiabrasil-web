@@ -1,6 +1,5 @@
 .content {
   margin: 0 auto;
-  margin-top: 24px;
   width: 272px;
 }
 
@@ -12,13 +11,6 @@
 
 @media (min-width: 960px) {
   .content {
-    margin-top: 48px;
     width: 912px;
-  }
-}
-
-@media (min-width: 1920px) {
-  .content {
-    margin-top: 64px;
   }
 }
