@@ -4,24 +4,33 @@ import Button from '@material-ui/core/Button'
 
 import Rating from '../../reviews/Rating'
 
-export default ({ id, averageRating, currentUser }) => (
-  <div>
-    <Rating rating={averageRating} />
-    {currentUser && (
+export default ({ id, averageRating, currentUser }) => {
+  const newReviewPath = `/${id}/reviews/new`
+
+  return (
+    <div>
+      <Rating rating={averageRating} />
       <Link
-        to={`/${id}/reviews/new`}
+        to={
+          currentUser
+            ? newReviewPath
+            : {
+                pathname: '/auth/sign-up',
+                state: { referrer: newReviewPath },
+              }
+        }
         style={{ textDecoration: 'none', color: 'black' }}
       >
         <Button>Avaliar</Button>
       </Link>
-    )}
-    {averageRating && (
-      <Link
-        to={`/${id}/reviews`}
-        style={{ textDecoration: 'none', color: 'black' }}
-      >
-        <Button>Ver avaliações</Button>
-      </Link>
-    )}
-  </div>
-)
+      {averageRating && (
+        <Link
+          to={`/${id}/reviews`}
+          style={{ textDecoration: 'none', color: 'black' }}
+        >
+          <Button>Ver avaliações</Button>
+        </Link>
+      )}
+    </div>
+  )
+}
