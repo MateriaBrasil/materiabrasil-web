@@ -6,9 +6,9 @@ import NewFavorite from '../../favorites/New'
 
 export default ({ list, currentUser }) => (
   <div>
-    <Grid container spacing={24}>
+    <Grid container spacing={8}>
       {list.map((material, index) => (
-        <Grid item xs={12} sm={6} md={4} key={index}>
+        <Grid item xs={12} sm={6} key={index}>
           <Card
             {...material}
             cardAction={

@@ -3,10 +3,10 @@
 exports[`renders correctly 1`] = `
 <div>
   <div
-    className="MuiGrid-container-1 MuiGrid-spacing-xs-24-24"
+    className="MuiGrid-container-1 MuiGrid-spacing-xs-8-22"
   >
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57"
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46"
     >
       <div
         className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92 list-card"
@@ -26,51 +26,81 @@ exports[`renders correctly 1`] = `
               Object {
                 "backgroundImage": "url(\\"bar\\")",
                 "height": 0,
-                "paddingTop": "56.25%",
+                "paddingTop": "70%",
               }
             }
             title="foo"
           />
           <div
             className="MuiCardContent-root-122"
+            style={
+              Object {
+                "paddingBottom": 0,
+              }
+            }
           >
-            <h3
-              className="MuiTypography-root-123 MuiTypography-subheading-130 MuiTypography-colorTextSecondary-145"
+            <h2
+              className="MuiTypography-root-123 MuiTypography-title-129"
             >
               foo
-            </h3>
-            <div
+            </h2>
+          </div>
+        </div>
+        <div
+          className="MuiCardActions-root-147"
+          style={
+            Object {
+              "marginLeft": 6,
+            }
+          }
+        >
+          <a
+            className="MuiCardActions-action-148"
+            href={undefined}
+            style={
+              Object {
+                "marginRight": 24,
+                "textDecoration": "none",
+              }
+            }
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root-149 MuiSvgIcon-colorAction-152"
+              color={undefined}
+              focusable="false"
               style={
                 Object {
-                  "marginTop": 10,
+                  "marginRight": 8,
+                  "verticalAlign": "middle",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <g>
+                <path
+                  d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"
+                />
+              </g>
+            </svg>
+            <p
+              className="MuiTypography-root-123 MuiTypography-body1-132 MuiTypography-colorTextSecondary-145"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "verticalAlign": "middle",
                 }
               }
             >
-              <span
-                className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
-                style={
-                  Object {
-                    "marginBottom": 4,
-                  }
-                }
-              />
-              <span
-                className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
-              />
-            </div>
-            <div
-              style={
-                Object {
-                  "clear": "both",
-                }
-              }
-            />
-          </div>
+              Ficha técnica
+            </p>
+          </a>
         </div>
       </div>
     </div>
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57"
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46"
     >
       <div
         className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92 list-card"
@@ -90,51 +120,81 @@ exports[`renders correctly 1`] = `
               Object {
                 "backgroundImage": "url(\\"bar\\")",
                 "height": 0,
-                "paddingTop": "56.25%",
+                "paddingTop": "70%",
               }
             }
             title="foo"
           />
           <div
             className="MuiCardContent-root-122"
+            style={
+              Object {
+                "paddingBottom": 0,
+              }
+            }
           >
-            <h3
-              className="MuiTypography-root-123 MuiTypography-subheading-130 MuiTypography-colorTextSecondary-145"
+            <h2
+              className="MuiTypography-root-123 MuiTypography-title-129"
             >
               foo
-            </h3>
-            <div
+            </h2>
+          </div>
+        </div>
+        <div
+          className="MuiCardActions-root-147"
+          style={
+            Object {
+              "marginLeft": 6,
+            }
+          }
+        >
+          <a
+            className="MuiCardActions-action-148"
+            href={undefined}
+            style={
+              Object {
+                "marginRight": 24,
+                "textDecoration": "none",
+              }
+            }
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root-149 MuiSvgIcon-colorAction-152"
+              color={undefined}
+              focusable="false"
               style={
                 Object {
-                  "marginTop": 10,
+                  "marginRight": 8,
+                  "verticalAlign": "middle",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <g>
+                <path
+                  d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"
+                />
+              </g>
+            </svg>
+            <p
+              className="MuiTypography-root-123 MuiTypography-body1-132 MuiTypography-colorTextSecondary-145"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "verticalAlign": "middle",
                 }
               }
             >
-              <span
-                className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
-                style={
-                  Object {
-                    "marginBottom": 4,
-                  }
-                }
-              />
-              <span
-                className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
-              />
-            </div>
-            <div
-              style={
-                Object {
-                  "clear": "both",
-                }
-              }
-            />
-          </div>
+              Ficha técnica
+            </p>
+          </a>
         </div>
       </div>
     </div>
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57"
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46"
     >
       <div
         className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92 list-card"
@@ -154,46 +214,76 @@ exports[`renders correctly 1`] = `
               Object {
                 "backgroundImage": "url(\\"bar\\")",
                 "height": 0,
-                "paddingTop": "56.25%",
+                "paddingTop": "70%",
               }
             }
             title="foo"
           />
           <div
             className="MuiCardContent-root-122"
+            style={
+              Object {
+                "paddingBottom": 0,
+              }
+            }
           >
-            <h3
-              className="MuiTypography-root-123 MuiTypography-subheading-130 MuiTypography-colorTextSecondary-145"
+            <h2
+              className="MuiTypography-root-123 MuiTypography-title-129"
             >
               foo
-            </h3>
-            <div
+            </h2>
+          </div>
+        </div>
+        <div
+          className="MuiCardActions-root-147"
+          style={
+            Object {
+              "marginLeft": 6,
+            }
+          }
+        >
+          <a
+            className="MuiCardActions-action-148"
+            href={undefined}
+            style={
+              Object {
+                "marginRight": 24,
+                "textDecoration": "none",
+              }
+            }
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root-149 MuiSvgIcon-colorAction-152"
+              color={undefined}
+              focusable="false"
               style={
                 Object {
-                  "marginTop": 10,
+                  "marginRight": 8,
+                  "verticalAlign": "middle",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <g>
+                <path
+                  d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"
+                />
+              </g>
+            </svg>
+            <p
+              className="MuiTypography-root-123 MuiTypography-body1-132 MuiTypography-colorTextSecondary-145"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "verticalAlign": "middle",
                 }
               }
             >
-              <span
-                className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
-                style={
-                  Object {
-                    "marginBottom": 4,
-                  }
-                }
-              />
-              <span
-                className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
-              />
-            </div>
-            <div
-              style={
-                Object {
-                  "clear": "both",
-                }
-              }
-            />
-          </div>
+              Ficha técnica
+            </p>
+          </a>
         </div>
       </div>
     </div>
