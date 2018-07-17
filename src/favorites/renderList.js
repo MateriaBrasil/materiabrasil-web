@@ -9,7 +9,7 @@ import Destroy from './Destroy'
 export default ({ showDestroy }) => list => (
   <GridList cellHeight={360}>
     {list.map(({ id, favoritable, destroying }, index) => {
-      const { favoritableId, name, imageUrl } = favoritable
+      const { id: favoritableId, name, imageUrl } = favoritable
       const actionIcon = showDestroy ? (
         <Destroy id={id} destroying={destroying} />
       ) : null

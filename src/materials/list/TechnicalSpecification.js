@@ -2,7 +2,7 @@ import React from 'react'
 import CloudDownload from '@material-ui/icons/CloudDownload'
 import Typography from '@material-ui/core/Typography'
 
-export default ({ technicalSpecificationUrl }) => (
+export default ({ technicalSpecificationUrl, style }) => (
   <a
     href={technicalSpecificationUrl}
     target="_blank"
@@ -11,6 +11,7 @@ export default ({ technicalSpecificationUrl }) => (
       textDecoration: 'none',
       marginRight: 24,
       color: 'white',
+      ...style,
     }}
   >
     <CloudDownload
