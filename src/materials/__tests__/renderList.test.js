@@ -8,6 +8,9 @@ jest.mock('croods', () => ({
 }))
 
 jest.mock('../list/render', () => props => list => <div>List</div>)
+jest.mock('../../explore/Explore', () => props => (
+  <div {...props}>Explore - {props.children}</div>
+))
 
 it('renders correctly', () => {
   const props = {}

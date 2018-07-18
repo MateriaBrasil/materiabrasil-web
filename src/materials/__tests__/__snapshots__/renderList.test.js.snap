@@ -1,8 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div
-  name="materials"
-  render={[Function]}
-/>
+<div>
+  Explore - 
+  <div
+    name="materials"
+    render={[Function]}
+  />
+</div>
 `;
