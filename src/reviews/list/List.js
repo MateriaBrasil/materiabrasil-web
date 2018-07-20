@@ -7,11 +7,13 @@ import withMobileDialog from '@material-ui/core/withMobileDialog'
 import Link from 'react-router-dom/Link'
 import Button from '@material-ui/core/Button'
 
+import closeModal from '../closeModal'
 import Reviews from './Reviews'
 
 class List extends Component {
   render() {
     const { fullScreen, id, list } = this.props
+    const handleCloseModal = closeModal(this.props)
 
     return (
       <Dialog
@@ -20,6 +22,8 @@ class List extends Component {
         aria-labelledby="responsive-dialog-title"
         maxWidth="md"
         fullWidth
+        onBackdropClick={handleCloseModal}
+        onEscapeKeyDown={handleCloseModal}
       >
         <DialogTitle id="responsive-dialog-title">Avaliações</DialogTitle>
         <DialogContent>

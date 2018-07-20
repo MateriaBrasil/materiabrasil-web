@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
+import queryString from 'query-string'
 
 import Comments from '../../comments/Comments'
 import Favorites from '../../favorites/New'
@@ -8,21 +9,36 @@ import Favorites from '../../favorites/New'
 import Card from './Card'
 import Description from './Description'
 
-export default props => {
-  const { current, currentUser } = props
-  const { id, name } = current
+export default class extends Component {
+  componentDidUpdate(prevProps) {
+    const { location, actions, current } = this.props
+    const { id } = current
+    const { search } = location
+    const query = queryString.parse(search)
+    const { reload } = query
 
-  return (
-    <Grid container spacing={24}>
-      <Grid item xs={12} style={{ display: 'flex' }}>
-        <Typography variant="display1" style={{ flex: 1 }}>
-          {name}
-        </Typography>
-        <Favorites {...current} />
+    if (reload) {
+      const { fetchInfo } = actions
+      fetchInfo(id)
+    }
+  }
+
+  render() {
+    const { current } = this.props
+    const { id, name } = current
+
+    return (
+      <Grid container spacing={24}>
+        <Grid item xs={12} style={{ display: 'flex' }}>
+          <Typography variant="display1" style={{ flex: 1 }}>
+            {name}
+          </Typography>
+          <Favorites {...current} />
+        </Grid>
+        <Card {...current} />
+        <Description {...current} {...this.props} />
+        <Comments id={id} type="materials" {...this.props} />
       </Grid>
-      <Card {...current} />
-      <Description {...current} currentUser={currentUser} />
-      <Comments id={id} type="materials" {...props} />
-    </Grid>
-  )
+    )
+  }
 }

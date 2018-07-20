@@ -17,7 +17,7 @@ it('renders correctly', () => {
   const tree = renderer
     .create(
       <Provider store={store}>
-        <SignUp />
+        <SignUp location={{}} />
       </Provider>,
     )
     .toJSON()

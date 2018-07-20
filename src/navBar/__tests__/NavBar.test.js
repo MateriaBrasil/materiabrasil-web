@@ -1,5 +1,6 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
+import { MemoryRouter } from 'react-router'
 
 import NavBar from '../NavBar'
 
@@ -13,7 +14,13 @@ jest.mock('../../auth/signOut/SignOut', () => props => (
 describe('without current user', () => {
   it('renders correctly', () => {
     const currentUser = {}
-    const tree = renderer.create(<NavBar currentUser={currentUser} />).toJSON()
+    const tree = renderer
+      .create(
+        <MemoryRouter initialEntries={[{ pathname: '/', key: 'testKey' }]}>
+          <NavBar currentUser={currentUser} />
+        </MemoryRouter>,
+      )
+      .toJSON()
 
     expect(tree).toMatchSnapshot()
   })
@@ -22,7 +29,13 @@ describe('without current user', () => {
 describe('with current user', () => {
   it('renders correctly', () => {
     const currentUser = { name: 'Foo Bar' }
-    const tree = renderer.create(<NavBar currentUser={currentUser} />).toJSON()
+    const tree = renderer
+      .create(
+        <MemoryRouter initialEntries={[{ pathname: '/', key: 'testKey' }]}>
+          <NavBar currentUser={currentUser} />
+        </MemoryRouter>,
+      )
+      .toJSON()
 
     expect(tree).toMatchSnapshot()
   })

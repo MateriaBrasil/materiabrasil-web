@@ -1,4 +1,5 @@
 import React from 'react'
+import { withRouter } from 'react-router'
 import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
 
@@ -7,7 +8,7 @@ import User from '../users/Link'
 import Logo from './Logo'
 import SignIn from './SignIn'
 
-export default props => {
+export default withRouter(props => {
   const { currentUser } = props
 
   return (
@@ -20,9 +21,9 @@ export default props => {
             <SignOut {...props} />
           </div>
         ) : (
-          <SignIn />
+          <SignIn {...props} />
         )}
       </Toolbar>
     </AppBar>
   )
-}
+})

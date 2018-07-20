@@ -10,10 +10,9 @@ jest.mock('react-router-dom/Redirect', () => props => (
 it('renders correctly', () => {
   const created = { foo: 'bar' }
   const setCurrentUser = jest.fn()
+  const props = { created, setCurrentUser, location: {} }
 
-  const tree = renderer
-    .create(<Created created={created} setCurrentUser={setCurrentUser} />)
-    .toJSON()
+  const tree = renderer.create(<Created {...props} />).toJSON()
   expect(tree).toMatchSnapshot()
   expect(setCurrentUser).toHaveBeenCalledWith(created)
 })
