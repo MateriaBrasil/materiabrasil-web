@@ -12,7 +12,7 @@ export default withRouter(props => {
   const { currentUser } = props
 
   return (
-    <AppBar position="static" color="inherit">
+    <AppBar position="static" color="inherit" elevation={0}>
       <Toolbar>
         <Logo />
         {currentUser && currentUser.name ? (

@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
 import Grid from '@material-ui/core/Grid'
-import Typography from '@material-ui/core/Typography'
 import queryString from 'query-string'
 
 import Comments from '../../comments/Comments'
-import Favorites from '../../favorites/New'
 
-import Card from './Card'
+import CoverImage from './CoverImage'
 import Description from './Description'
+import Supplier from './Supplier'
 
 export default class extends Component {
   componentDidUpdate(prevProps) {
@@ -25,18 +24,13 @@ export default class extends Component {
 
   render() {
     const { current } = this.props
-    const { id, name } = current
+    const { id } = current
 
     return (
-      <Grid container spacing={24}>
-        <Grid item xs={12} style={{ display: 'flex' }}>
-          <Typography variant="display1" style={{ flex: 1 }}>
-            {name}
-          </Typography>
-          <Favorites {...current} />
-        </Grid>
-        <Card {...current} />
-        <Description {...current} {...this.props} />
+      <Grid container spacing={8}>
+        <CoverImage {...current} />
+        <Description {...this.props} {...current} />
+        <Supplier {...this.props} {...current} />
         <Comments id={id} type="materials" {...this.props} />
       </Grid>
     )

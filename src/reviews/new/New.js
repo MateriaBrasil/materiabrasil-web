@@ -21,6 +21,7 @@ class New extends Component {
         aria-labelledby="responsive-dialog-title"
         onBackdropClick={handleCloseModal}
         onEscapeKeyDown={handleCloseModal}
+        fullWidth
       >
         <DialogTitle id="responsive-dialog-title">Avaliar</DialogTitle>
         <Form

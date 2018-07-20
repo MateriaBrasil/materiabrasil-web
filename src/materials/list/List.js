@@ -1,22 +1,32 @@
 import React from 'react'
-import Grid from '@material-ui/core/Grid'
+import Link from 'react-router-dom/Link'
+import GridList from '@material-ui/core/GridList'
+import GridListTile from '@material-ui/core/GridListTile'
 
-import Card from './Card'
+import TitleBar from './TitleBar'
 import NewFavorite from '../../favorites/New'
 
 export default ({ list, currentUser }) => (
-  <div>
-    <Grid container spacing={24}>
-      {list.map((material, index) => (
-        <Grid item xs={12} sm={6} md={4} key={index}>
-          <Card
-            {...material}
-            cardAction={
-              currentUser ? <NewFavorite id={material.id} type="icon" /> : null
-            }
-          />
-        </Grid>
-      ))}
-    </Grid>
-  </div>
+  <GridList cellHeight={360}>
+    {list.map((material, index) => {
+      const { id, highlighted, name, imageUrl } = material
+      const cols = highlighted ? 2 : 1
+      const actionIcon = currentUser ? (
+        <NewFavorite id={id} type="icon" style={{ color: 'white' }} />
+      ) : null
+
+      return (
+        <GridListTile key={id} cols={cols}>
+          <Link to={`/${id}`}>
+            <img
+              src={imageUrl}
+              alt={name}
+              style={{ width: '100%', objectFit: 'cover', height: 360 }}
+            />
+          </Link>
+          <TitleBar material={material} actionIcon={actionIcon} />
+        </GridListTile>
+      )
+    })}
+  </GridList>
 )
