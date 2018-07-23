@@ -1,22 +1,4 @@
 .content {
-  margin: 0 auto;
-  width: 272px;
-}
-
-@media (min-width: 600px) {
-  .content {
-    width: 552px;
-  }
-}
-
-@media (min-width: 960px) {
-  .content {
-    width: 912px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .content {
-    width: 1200px;
-  }
+  padding: 40px;
+  width: 100%;
 }

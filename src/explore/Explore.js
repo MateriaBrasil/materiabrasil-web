@@ -7,7 +7,7 @@ export default props => {
   const { history, children } = props
 
   return (
-    <Grid container spacing={8}>
+    <Grid container spacing={0}>
       <Search history={history} />
       {children}
     </Grid>
