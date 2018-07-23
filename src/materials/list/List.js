@@ -22,7 +22,7 @@ export default class extends Component {
     const { list, currentUser } = this.props
 
     return (
-      <Grid item xs={12} sm={9}>
+      <Grid item xs={12} md={9}>
         <GridList cellHeight={360}>
           {list.map((material, index) => {
             const { id, highlighted, name, imageUrl } = material
