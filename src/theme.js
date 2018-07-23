@@ -5,6 +5,12 @@ export default createMuiTheme({
     background: {
       default: '#eee',
     },
+    primary: {
+      main: '#239eb1',
+    },
+    secondary: {
+      main: '#ea6740',
+    },
   },
   overrides: {
     MuiAppBar: {
