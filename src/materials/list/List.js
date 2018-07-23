@@ -19,14 +19,14 @@ export default class extends Component {
   }
 
   render() {
-    const { list, currentUser } = this.props
+    const { list, currentUser, ignoreHighlights } = this.props
 
     return (
       <Grid item xs={12} md={9}>
         <GridList cellHeight={360}>
           {list.map((material, index) => {
             const { id, highlighted, name, imageUrl } = material
-            const cols = highlighted ? 2 : 1
+            const cols = ignoreHighlights ? 1 : highlighted ? 2 : 1
             const actionIcon = currentUser ? (
               <NewFavorite id={id} type="icon" style={{ color: 'white' }} />
             ) : null
