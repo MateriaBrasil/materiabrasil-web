@@ -1,8 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div>
-  Explore - 
+<div
+  className="MuiGrid-container-1"
+>
+  <div
+    history={
+      Object {
+        "push": [Function],
+      }
+    }
+  >
+    Search
+  </div>
   <div
     name="materials"
     render={[Function]}
