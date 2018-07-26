@@ -15,11 +15,11 @@ export default () => (
         }}
       />
       <Typography
-        variant="headline"
+        variant="display2"
         color="inherit"
         style={{ display: 'inline-block', verticalAlign: 'middle' }}
       >
-        MateriaBrasil
+        Materia<span style={{ fontWeight: 300 }}>Mundi</span>
       </Typography>
     </Link>
   </div>

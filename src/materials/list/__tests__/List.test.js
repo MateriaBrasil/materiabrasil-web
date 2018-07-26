@@ -10,9 +10,9 @@ jest.mock('../../../favorites/New', () => props => (
 
 it('renders correctly', () => {
   const list = [
-    { name: 'foo', imageUrl: 'bar' },
-    { name: 'foo', imageUrl: 'bar' },
-    { name: 'foo', imageUrl: 'bar' },
+    { name: 'foo', imageUrl: 'bar', id: 123 },
+    { name: 'foo', imageUrl: 'bar', id: 234 },
+    { name: 'foo', imageUrl: 'bar', id: 345 },
   ]
   const tree = renderer.create(<List list={list} />).toJSON()
   expect(tree).toMatchSnapshot()

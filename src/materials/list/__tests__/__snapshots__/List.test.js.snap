@@ -1,202 +1,314 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div>
-  <div
-    className="MuiGrid-container-1 MuiGrid-spacing-xs-24-24"
+<div
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-md-9-62"
+>
+  <ul
+    className="MuiGridList-root-92"
+    style={
+      Object {
+        "margin": -2,
+      }
+    }
   >
-    <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57"
+    <li
+      className="MuiGridListTile-root-93"
+      style={
+        Object {
+          "height": 364,
+          "padding": 2,
+          "width": "50%",
+        }
+      }
     >
       <div
-        className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92 list-card"
+        className="MuiGridListTile-tile-94"
       >
         <div
-          style={
-            Object {
-              "textDecoration": "none",
-            }
-          }
-          to="/undefined"
+          to="/123"
         >
-          <div
-            className="MuiCardMedia-root-120"
-            src={undefined}
+          <img
+            alt="foo"
+            src="bar"
             style={
               Object {
-                "backgroundImage": "url(\\"bar\\")",
-                "height": 0,
-                "paddingTop": "56.25%",
+                "height": 360,
+                "objectFit": "cover",
+                "width": "100%",
               }
             }
-            title="foo"
           />
+        </div>
+        <div
+          className="MuiGridListTileBar-root-97 MuiGridListTileBar-titlePositionBottom-98 MuiGridListTileBar-rootSubtitle-100"
+        >
           <div
-            className="MuiCardContent-root-122"
+            className="MuiGridListTileBar-titleWrap-101"
           >
-            <h3
-              className="MuiTypography-root-123 MuiTypography-subheading-130 MuiTypography-colorTextSecondary-145"
+            <div
+              className="MuiGridListTileBar-title-104"
             >
               foo
-            </h3>
-            <div
-              style={
-                Object {
-                  "marginTop": 10,
-                }
-              }
-            >
-              <span
-                className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
-                style={
-                  Object {
-                    "marginBottom": 4,
-                  }
-                }
-              />
-              <span
-                className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
-              />
             </div>
             <div
-              style={
-                Object {
-                  "clear": "both",
+              className="MuiGridListTileBar-subtitle-105"
+            >
+              <div
+                style={
+                  Object {
+                    "color": "white",
+                    "display": "inline-block",
+                  }
                 }
-              }
-            />
+              >
+                <a
+                  href={undefined}
+                  style={
+                    Object {
+                      "color": "white",
+                      "display": "inline-block",
+                      "marginRight": 24,
+                      "textDecoration": "none",
+                    }
+                  }
+                  target="_blank"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="MuiSvgIcon-root-108"
+                    color={undefined}
+                    focusable="false"
+                    style={
+                      Object {
+                        "marginRight": 8,
+                        "verticalAlign": "middle",
+                      }
+                    }
+                    viewBox="0 0 24 24"
+                  >
+                    <g>
+                      <path
+                        d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"
+                      />
+                    </g>
+                  </svg>
+                  <p
+                    className="MuiTypography-root-114 MuiTypography-body1-123 MuiTypography-colorInherit-133"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "verticalAlign": "middle",
+                      }
+                    }
+                  >
+                    Ficha técnica
+                  </p>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57"
+    </li>
+    <li
+      className="MuiGridListTile-root-93"
+      style={
+        Object {
+          "height": 364,
+          "padding": 2,
+          "width": "50%",
+        }
+      }
     >
       <div
-        className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92 list-card"
+        className="MuiGridListTile-tile-94"
       >
         <div
-          style={
-            Object {
-              "textDecoration": "none",
-            }
-          }
-          to="/undefined"
+          to="/234"
         >
-          <div
-            className="MuiCardMedia-root-120"
-            src={undefined}
+          <img
+            alt="foo"
+            src="bar"
             style={
               Object {
-                "backgroundImage": "url(\\"bar\\")",
-                "height": 0,
-                "paddingTop": "56.25%",
+                "height": 360,
+                "objectFit": "cover",
+                "width": "100%",
               }
             }
-            title="foo"
           />
+        </div>
+        <div
+          className="MuiGridListTileBar-root-97 MuiGridListTileBar-titlePositionBottom-98 MuiGridListTileBar-rootSubtitle-100"
+        >
           <div
-            className="MuiCardContent-root-122"
+            className="MuiGridListTileBar-titleWrap-101"
           >
-            <h3
-              className="MuiTypography-root-123 MuiTypography-subheading-130 MuiTypography-colorTextSecondary-145"
+            <div
+              className="MuiGridListTileBar-title-104"
             >
               foo
-            </h3>
-            <div
-              style={
-                Object {
-                  "marginTop": 10,
-                }
-              }
-            >
-              <span
-                className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
-                style={
-                  Object {
-                    "marginBottom": 4,
-                  }
-                }
-              />
-              <span
-                className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
-              />
             </div>
             <div
-              style={
-                Object {
-                  "clear": "both",
+              className="MuiGridListTileBar-subtitle-105"
+            >
+              <div
+                style={
+                  Object {
+                    "color": "white",
+                    "display": "inline-block",
+                  }
                 }
-              }
-            />
+              >
+                <a
+                  href={undefined}
+                  style={
+                    Object {
+                      "color": "white",
+                      "display": "inline-block",
+                      "marginRight": 24,
+                      "textDecoration": "none",
+                    }
+                  }
+                  target="_blank"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="MuiSvgIcon-root-108"
+                    color={undefined}
+                    focusable="false"
+                    style={
+                      Object {
+                        "marginRight": 8,
+                        "verticalAlign": "middle",
+                      }
+                    }
+                    viewBox="0 0 24 24"
+                  >
+                    <g>
+                      <path
+                        d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"
+                      />
+                    </g>
+                  </svg>
+                  <p
+                    className="MuiTypography-root-114 MuiTypography-body1-123 MuiTypography-colorInherit-133"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "verticalAlign": "middle",
+                      }
+                    }
+                  >
+                    Ficha técnica
+                  </p>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57"
+    </li>
+    <li
+      className="MuiGridListTile-root-93"
+      style={
+        Object {
+          "height": 364,
+          "padding": 2,
+          "width": "50%",
+        }
+      }
     >
       <div
-        className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92 list-card"
+        className="MuiGridListTile-tile-94"
       >
         <div
-          style={
-            Object {
-              "textDecoration": "none",
-            }
-          }
-          to="/undefined"
+          to="/345"
         >
-          <div
-            className="MuiCardMedia-root-120"
-            src={undefined}
+          <img
+            alt="foo"
+            src="bar"
             style={
               Object {
-                "backgroundImage": "url(\\"bar\\")",
-                "height": 0,
-                "paddingTop": "56.25%",
+                "height": 360,
+                "objectFit": "cover",
+                "width": "100%",
               }
             }
-            title="foo"
           />
+        </div>
+        <div
+          className="MuiGridListTileBar-root-97 MuiGridListTileBar-titlePositionBottom-98 MuiGridListTileBar-rootSubtitle-100"
+        >
           <div
-            className="MuiCardContent-root-122"
+            className="MuiGridListTileBar-titleWrap-101"
           >
-            <h3
-              className="MuiTypography-root-123 MuiTypography-subheading-130 MuiTypography-colorTextSecondary-145"
+            <div
+              className="MuiGridListTileBar-title-104"
             >
               foo
-            </h3>
-            <div
-              style={
-                Object {
-                  "marginTop": 10,
-                }
-              }
-            >
-              <span
-                className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
-                style={
-                  Object {
-                    "marginBottom": 4,
-                  }
-                }
-              />
-              <span
-                className="MuiTypography-root-123 MuiTypography-caption-133 MuiTypography-colorTextSecondary-145"
-              />
             </div>
             <div
-              style={
-                Object {
-                  "clear": "both",
+              className="MuiGridListTileBar-subtitle-105"
+            >
+              <div
+                style={
+                  Object {
+                    "color": "white",
+                    "display": "inline-block",
+                  }
                 }
-              }
-            />
+              >
+                <a
+                  href={undefined}
+                  style={
+                    Object {
+                      "color": "white",
+                      "display": "inline-block",
+                      "marginRight": 24,
+                      "textDecoration": "none",
+                    }
+                  }
+                  target="_blank"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="MuiSvgIcon-root-108"
+                    color={undefined}
+                    focusable="false"
+                    style={
+                      Object {
+                        "marginRight": 8,
+                        "verticalAlign": "middle",
+                      }
+                    }
+                    viewBox="0 0 24 24"
+                  >
+                    <g>
+                      <path
+                        d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"
+                      />
+                    </g>
+                  </svg>
+                  <p
+                    className="MuiTypography-root-114 MuiTypography-body1-123 MuiTypography-colorInherit-133"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "verticalAlign": "middle",
+                      }
+                    }
+                  >
+                    Ficha técnica
+                  </p>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    </li>
+  </ul>
 </div>
 `;

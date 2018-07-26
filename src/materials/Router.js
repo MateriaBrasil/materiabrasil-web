@@ -2,7 +2,6 @@ import React from 'react'
 import Route from 'react-router-dom/Route'
 
 import renderReviews from '../reviews/render'
-
 import renderList from './renderList'
 import renderInfo from './renderInfo'
 

@@ -8,10 +8,11 @@ jest.mock('croods', () => ({
 }))
 
 jest.mock('../list/render', () => props => list => <div>List</div>)
+jest.mock('../../search/Search', () => props => <div {...props}>Search</div>)
 
 it('renders correctly', () => {
   const props = {}
-  const routeProps = {}
+  const routeProps = { history: { push: jest.fn() } }
   const tree = renderer.create(renderList(props)(routeProps)).toJSON()
   expect(tree).toMatchSnapshot()
 })

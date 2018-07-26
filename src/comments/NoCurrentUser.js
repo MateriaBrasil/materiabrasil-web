@@ -1,12 +1,10 @@
 import React from 'react'
-import Typography from '@material-ui/core/Typography'
-import Link from 'react-router-dom/Link'
 
-export default props => (
-  <Typography variant="body1" color="inherit">
-    <Link to="/auth/sign-up" style={{ textDecoration: 'none' }}>
-      Cadastre-se
-    </Link>{' '}
-    <span>para deixar comentários.</span>
-  </Typography>
-)
+import SignUpLink from '../auth/SignUpLink'
+
+export default props => {
+  const { location } = props
+  const { pathname } = location
+
+  return <SignUpLink pathname={pathname} text="para deixar comentários." />
+}

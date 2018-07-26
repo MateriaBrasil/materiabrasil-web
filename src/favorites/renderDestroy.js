@@ -6,6 +6,6 @@ import onClick from '../onClick'
 
 export default ({ id, destroying }) => (destroy, { destroyed }) => (
   <IconButton disabled={destroying} onClick={onClick(destroy)}>
-    <DeleteIcon />
+    <DeleteIcon style={{ color: 'white' }} />
   </IconButton>
 )

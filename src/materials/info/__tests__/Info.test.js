@@ -28,6 +28,7 @@ it('renders correctly', () => {
     properties: 'Foo properties',
     usage: 'Bar usage',
   }
-  const tree = renderer.create(<Info current={current} />).toJSON()
+  const props = { current, location: {} }
+  const tree = renderer.create(<Info {...props} />).toJSON()
   expect(tree).toMatchSnapshot()
 })

@@ -13,7 +13,7 @@ jest.mock('../List', () => props => (
 
 describe('without current user', () => {
   it('renders correctly', () => {
-    const tree = renderer.create(<Comments />).toJSON()
+    const tree = renderer.create(<Comments location={{}} />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 })
@@ -21,8 +21,9 @@ describe('without current user', () => {
 describe('with current user', () => {
   it('renders correctly', () => {
     const user = { name: 'foo', email: 'foo@bar.com' }
+    const props = { currentUser: user, location: {} }
 
-    const tree = renderer.create(<Comments currentUser={user} />).toJSON()
+    const tree = renderer.create(<Comments {...props} />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 })
