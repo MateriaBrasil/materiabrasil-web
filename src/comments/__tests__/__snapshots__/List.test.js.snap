@@ -1,12 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`props => {const
+  id = props.id,type = props.type;
+
+  return (
+    _react2.default.createElement(_croods.List, {
+      parentId: id,
+      name: 'comments',
+      path: \`/\${type}/\${id}/comments\`,
+      render: (0, _renderList2.default)(props), __source: { fileName: _jsxFileName, lineNumber: 10 }, __self: undefined }));
+
+
+} renders correctly 1`] = `
 <div
   name="comments"
-  parentId={undefined}
-  path="/undefined/undefined/comments"
-  render={[Function]}
+  parentId="bar"
+  path="/foo/bar/comments"
+  render={undefined}
 >
-  List - 
+  List -  
 </div>
 `;
