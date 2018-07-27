@@ -10,6 +10,10 @@ export default class extends Component {
   }
 
   render() {
-    return <Redirect to={'/'} />
+    const { location } = this.props
+    const { state } = location
+    const path = (state && state.referrer) || '/'
+
+    return <Redirect to={path} />
   }
 }

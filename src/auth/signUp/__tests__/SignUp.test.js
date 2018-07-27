@@ -11,13 +11,13 @@ jest.mock('react-router-dom/Link', () => props => (
 ))
 
 it('renders correctly', () => {
-  const reducer = () => ({})
+  const reducer = () => ({ signUp: {} })
   const store = createStore(reducer)
 
   const tree = renderer
     .create(
       <Provider store={store}>
-        <SignUp />
+        <SignUp location={{}} />
       </Provider>,
     )
     .toJSON()

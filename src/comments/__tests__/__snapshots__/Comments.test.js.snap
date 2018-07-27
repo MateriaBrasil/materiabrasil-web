@@ -10,7 +10,7 @@ exports[`with current user renders correctly 1`] = `
   }
 >
   <div
-    className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+    className="MuiPaper-root-93 MuiPaper-elevation1-96 MuiPaper-rounded-94 MuiCard-root-92"
   >
     <div
       className="MuiCardContent-root-120"
@@ -22,6 +22,7 @@ exports[`with current user renders correctly 1`] = `
             "name": "foo",
           }
         }
+        location={Object {}}
       >
         New - 
       </div>
@@ -32,6 +33,7 @@ exports[`with current user renders correctly 1`] = `
             "name": "foo",
           }
         }
+        location={Object {}}
       >
         List - 
       </div>
@@ -50,7 +52,7 @@ exports[`without current user renders correctly 1`] = `
   }
 >
   <div
-    className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+    className="MuiPaper-root-93 MuiPaper-elevation1-96 MuiPaper-rounded-94 MuiCard-root-92"
   >
     <div
       className="MuiCardContent-root-120"
@@ -64,7 +66,14 @@ exports[`without current user renders correctly 1`] = `
               "textDecoration": "none",
             }
           }
-          to="/auth/sign-up"
+          to={
+            Object {
+              "pathname": "/auth/sign-up",
+              "state": Object {
+                "referrer": undefined,
+              },
+            }
+          }
         >
           Link - 
           Cadastre-se
@@ -74,7 +83,9 @@ exports[`without current user renders correctly 1`] = `
           para deixar comentários.
         </span>
       </p>
-      <div>
+      <div
+        location={Object {}}
+      >
         List - 
       </div>
     </div>

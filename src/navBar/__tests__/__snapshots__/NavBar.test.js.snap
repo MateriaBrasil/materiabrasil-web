@@ -2,7 +2,7 @@
 
 exports[`with current user renders correctly 1`] = `
 <header
-  className="MuiPaper-root-9 MuiPaper-elevation4-15 MuiAppBar-root-1 MuiAppBar-positionStatic-5"
+  className="MuiPaper-root-9 MuiPaper-elevation0-11 MuiAppBar-root-1 MuiAppBar-positionStatic-5"
 >
   <div
     className="MuiToolbar-root-36 MuiToolbar-gutters-37"
@@ -35,7 +35,7 @@ exports[`with current user renders correctly 1`] = `
           }
         />
         <h1
-          className="MuiTypography-root-38 MuiTypography-headline-43 MuiTypography-colorInherit-57"
+          className="MuiTypography-root-38 MuiTypography-display2-41 MuiTypography-colorInherit-57"
           style={
             Object {
               "display": "inline-block",
@@ -43,7 +43,16 @@ exports[`with current user renders correctly 1`] = `
             }
           }
         >
-          MateriaBrasil
+          Materia
+          <span
+            style={
+              Object {
+                "fontWeight": 300,
+              }
+            }
+          >
+            Mundi
+          </span>
         </h1>
       </div>
     </div>
@@ -75,6 +84,53 @@ exports[`with current user renders correctly 1`] = `
             "name": "Foo Bar",
           }
         }
+        history={
+          Object {
+            "action": "POP",
+            "block": [Function],
+            "canGo": [Function],
+            "createHref": [Function],
+            "entries": Array [
+              Object {
+                "hash": "",
+                "key": "testKey",
+                "pathname": "/",
+                "search": "",
+              },
+            ],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "index": 0,
+            "length": 1,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "key": "testKey",
+              "pathname": "/",
+              "search": "",
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+        location={
+          Object {
+            "hash": "",
+            "key": "testKey",
+            "pathname": "/",
+            "search": "",
+          }
+        }
+        match={
+          Object {
+            "isExact": true,
+            "params": Object {},
+            "path": "/",
+            "url": "/",
+          }
+        }
+        staticContext={undefined}
       >
         SignOut
       </div>
@@ -85,7 +141,7 @@ exports[`with current user renders correctly 1`] = `
 
 exports[`without current user renders correctly 1`] = `
 <header
-  className="MuiPaper-root-9 MuiPaper-elevation4-15 MuiAppBar-root-1 MuiAppBar-positionStatic-5"
+  className="MuiPaper-root-9 MuiPaper-elevation0-11 MuiAppBar-root-1 MuiAppBar-positionStatic-5"
 >
   <div
     className="MuiToolbar-root-36 MuiToolbar-gutters-37"
@@ -118,7 +174,7 @@ exports[`without current user renders correctly 1`] = `
           }
         />
         <h1
-          className="MuiTypography-root-38 MuiTypography-headline-43 MuiTypography-colorInherit-57"
+          className="MuiTypography-root-38 MuiTypography-display2-41 MuiTypography-colorInherit-57"
           style={
             Object {
               "display": "inline-block",
@@ -126,7 +182,16 @@ exports[`without current user renders correctly 1`] = `
             }
           }
         >
-          MateriaBrasil
+          Materia
+          <span
+            style={
+              Object {
+                "fontWeight": 300,
+              }
+            }
+          >
+            Mundi
+          </span>
         </h1>
       </div>
     </div>
@@ -137,7 +202,14 @@ exports[`without current user renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
-      to="/auth/sign-in"
+      to={
+        Object {
+          "pathname": "/auth/sign-in",
+          "state": Object {
+            "referrer": "/",
+          },
+        }
+      }
     >
       <h3
         className="MuiTypography-root-38 MuiTypography-subheading-45 MuiTypography-colorInherit-57"

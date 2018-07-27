@@ -2,7 +2,20 @@
 
 exports[`renders correctly 1`] = `
 <div
-  name="materials"
-  render={[Function]}
-/>
+  className="MuiGrid-container-1"
+>
+  <div
+    history={
+      Object {
+        "push": [Function],
+      }
+    }
+  >
+    Search
+  </div>
+  <div
+    name="materials"
+    render={[Function]}
+  />
+</div>
 `;

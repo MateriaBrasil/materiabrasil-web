@@ -1,25 +1,31 @@
 import React from 'react'
-import map from 'lodash/map'
-import Grid from '@material-ui/core/Grid'
+import Link from 'react-router-dom/Link'
+import GridList from '@material-ui/core/GridList'
+import GridListTile from '@material-ui/core/GridListTile'
 
-import Card from '../materials/list/Card'
+import TitleBar from '../materials/list/TitleBar'
 import Destroy from './Destroy'
 
-export default props => list => {
-  const { showDestroy } = props
+export default ({ showDestroy }) => list => (
+  <GridList cellHeight={360}>
+    {list.map(({ id, favoritable, destroying }, index) => {
+      const { id: favoritableId, name, imageUrl } = favoritable
+      const actionIcon = showDestroy ? (
+        <Destroy id={id} destroying={destroying} />
+      ) : null
 
-  return (
-    <Grid container spacing={16}>
-      {map(list, ({ id, favoritable, destroying }) => (
-        <Grid item xs={6} sm={4} md={4} key={id}>
-          <Card
-            {...favoritable}
-            cardAction={
-              showDestroy ? <Destroy id={id} destroying={destroying} /> : null
-            }
-          />
-        </Grid>
-      ))}
-    </Grid>
-  )
-}
+      return (
+        <GridListTile key={favoritableId}>
+          <Link to={`/${favoritableId}`}>
+            <img
+              src={imageUrl}
+              alt={name}
+              style={{ width: '100%', objectFit: 'cover', height: 360 }}
+            />
+          </Link>
+          <TitleBar material={favoritable} actionIcon={actionIcon} />
+        </GridListTile>
+      )
+    })}
+  </GridList>
+)
