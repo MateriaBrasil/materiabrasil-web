@@ -5,8 +5,21 @@ exports[`renders correctly 1`] = `
   name="comments"
   parentId="bar"
   path="/foo/bar/comments"
-  render="renderList - [object Object]"
+  render={[Function]}
 >
   List - 
+  <div
+    id="bar"
+    list={
+      Array [
+        Object {
+          "foo": "bar",
+        },
+      ]
+    }
+    type="foo"
+  >
+    renderList
+  </div>
 </div>
 `;
