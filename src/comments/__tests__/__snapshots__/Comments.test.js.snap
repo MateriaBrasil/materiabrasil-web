@@ -10,7 +10,7 @@ exports[`with current user renders correctly 1`] = `
   }
 >
   <div
-    className="MuiPaper-root-93 MuiPaper-elevation1-96 MuiPaper-rounded-94 MuiCard-root-92"
+    className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
   >
     <div
       className="MuiCardContent-root-120"
@@ -52,7 +52,7 @@ exports[`without current user renders correctly 1`] = `
   }
 >
   <div
-    className="MuiPaper-root-93 MuiPaper-elevation1-96 MuiPaper-rounded-94 MuiCard-root-92"
+    className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
   >
     <div
       className="MuiCardContent-root-120"

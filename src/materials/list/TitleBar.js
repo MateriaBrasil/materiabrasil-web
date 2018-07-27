@@ -2,7 +2,6 @@ import React from 'react'
 import GridListTileBar from '@material-ui/core/GridListTileBar'
 
 import Rating from './Rating'
-import TechnicalSpecification from './TechnicalSpecification'
 
 export default props => {
   const { material, actionIcon } = props
@@ -14,7 +13,6 @@ export default props => {
       subtitle={
         <div style={{ display: 'inline-block', color: 'white' }}>
           <Rating {...material} />
-          <TechnicalSpecification {...material} />
         </div>
       }
       actionIcon={actionIcon}

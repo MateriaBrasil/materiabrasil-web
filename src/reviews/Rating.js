@@ -9,7 +9,7 @@ export default class extends Component {
     const { rating } = this.props
 
     return (
-      <div>
+      <div style={{ display: 'inline-block ' }}>
         {rating &&
           map([1, 2, 3, 4, 5], value => {
             if (rating >= value || value - rating < 0.25) {

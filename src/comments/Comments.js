@@ -12,7 +12,7 @@ export default props => {
 
   return (
     <Grid item xs={12} style={{ marginBottom: 36 }}>
-      <Card elevation={1}>
+      <Card>
         <CardContent>
           {currentUser ? <New {...props} /> : <NoCurrentUser {...props} />}
           <List {...props} />

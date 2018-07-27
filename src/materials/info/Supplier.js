@@ -11,8 +11,8 @@ export default props => {
   const { pathname } = location
 
   return (
-    <Grid item xs={12} sm={3}>
-      <Card elevation={1}>
+    <Grid item xs={12} lg={3} style={{ marginBottom: 16 }}>
+      <Card>
         <CardContent>
           <CaptionWithText caption="Fornecedor" text={supplierName} />
           <CaptionWithText

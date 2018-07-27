@@ -4,8 +4,10 @@ import Grid from '@material-ui/core/Grid'
 import GridList from '@material-ui/core/GridList'
 import GridListTile from '@material-ui/core/GridListTile'
 
+import Children from '../../Children'
 import TitleBar from './TitleBar'
 import NewFavorite from '../../favorites/New'
+import TechnicalSpecification from './TechnicalSpecification'
 
 export default class extends Component {
   componentDidUpdate(prevProps) {
@@ -28,8 +30,19 @@ export default class extends Component {
             const { id, highlighted, name, imageUrl } = material
             const cols = ignoreHighlights ? 1 : highlighted ? 2 : 1
             const actionIcon = currentUser ? (
-              <NewFavorite id={id} type="icon" style={{ color: 'white' }} />
-            ) : null
+              <Children>
+                <NewFavorite id={id} type="icon" style={{ color: 'white' }} />
+                <TechnicalSpecification
+                  {...material}
+                  style={{ color: 'white', marginRight: 16 }}
+                />
+              </Children>
+            ) : (
+              <TechnicalSpecification
+                {...material}
+                style={{ color: 'white', marginRight: 16 }}
+              />
+            )
 
             return (
               <GridListTile key={id} cols={cols}>
