@@ -8,7 +8,7 @@ export default ({ id, averageRating, currentUser }) => {
   const newReviewPath = `/${id}/reviews/new`
 
   return (
-    <div>
+    <div style={{ marginBottom: 20 }}>
       <Rating rating={averageRating} />
       <Link
         to={
@@ -21,14 +21,14 @@ export default ({ id, averageRating, currentUser }) => {
         }
         style={{ textDecoration: 'none', color: 'black' }}
       >
-        <Button>Avaliar</Button>
+        <Button style={{ marginTop: -10 }}>Avaliar</Button>
       </Link>
       {averageRating && (
         <Link
           to={`/${id}/reviews`}
           style={{ textDecoration: 'none', color: 'black' }}
         >
-          <Button>Ver avaliações</Button>
+          <Button style={{ marginTop: -10 }}>Ver avaliações</Button>
         </Link>
       )}
     </div>

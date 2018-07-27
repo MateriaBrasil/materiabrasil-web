@@ -15,7 +15,7 @@ export default ({ showDestroy }) => list => (
       ) : null
 
       return (
-        <GridListTile key={favoritableId}>
+        <GridListTile key={id}>
           <Link to={`/${favoritableId}`}>
             <img
               src={imageUrl}

@@ -27,7 +27,7 @@ export default class extends Component {
     const { id } = current
 
     return (
-      <Grid container spacing={8}>
+      <Grid container spacing={16}>
         <CoverImage {...current} />
         <Description {...this.props} {...current} />
         <Supplier {...this.props} {...current} />

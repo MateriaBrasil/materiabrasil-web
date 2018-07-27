@@ -12,9 +12,13 @@ export default props => {
   const { code, description, name } = props
 
   return (
-    <Grid item xs={12} sm={9}>
-      <Card elevation={1}>
+    <Grid item xs={12} lg={9} style={{ marginBottom: 16 }}>
+      <Card>
         <CardContent>
+          <div style={{ float: 'right' }}>
+            <NewFavorite {...props} type="icon" />
+            <TechnicalSpecification {...props} />
+          </div>
           <Typography variant="display1">{name}</Typography>
           <Typography variant="caption" style={{ marginBottom: 16 }}>
             {code}
@@ -23,8 +27,6 @@ export default props => {
             {description}
           </Typography>
           <Reviews {...props} />
-          <TechnicalSpecification {...props} style={{ color: 'black' }} />
-          <NewFavorite {...props} />
         </CardContent>
       </Card>
     </Grid>
