@@ -5,7 +5,7 @@ exports[`renders correctly 1`] = `
   name="comments"
   parentId="bar"
   path="/foo/bar/comments"
-  render="Render prop - (../renderList)"
+  render="renderList - [object Object]"
 >
   List - 
 </div>
