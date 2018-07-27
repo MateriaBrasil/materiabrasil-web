@@ -4,25 +4,19 @@ import renderer from 'react-test-renderer'
 import List from '../List'
 import renderList from '../renderList'
 
-
-jest.mock('../renderList', () => jest.fn())
-
+jest.mock('../renderList', () =>
+  jest.fn().mockReturnValue('Render prop - (../renderList)'),
+)
 jest.mock('croods', () => ({
-  List: props => (
-    <div {...props}>
-      List -  {props.children}
-    </div>
-  ),
+  List: props => <div {...props}>List - {props.children}</div>,
 }))
 
-describe(List, () => {
-  const tree = renderer.create(<List type="foo" id="bar" />).toJSON()
+const tree = renderer.create(<List type="foo" id="bar" />).toJSON()
 
-  it('renders correctly', () => {
-    expect(tree).toMatchSnapshot()
+it('renders correctly', () => {
+  expect(tree).toMatchSnapshot()
 })
 
-  it('Calls render prop', () => {
-    expect(renderList).toHaveBeenCalledTimes(1)
-  })
+it('Calls render prop', () => {
+  expect(renderList).toHaveBeenCalledTimes(1)
 })
