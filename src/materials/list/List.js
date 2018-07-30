@@ -31,7 +31,7 @@ export default class extends Component {
             const cols = ignoreHighlights ? 1 : highlighted ? 2 : 1
             const actionIcon = currentUser ? (
               <Children>
-                <NewFavorite id={id} type="icon" style={{ color: 'white' }} />
+                <NewFavorite id={id} style={{ color: 'white' }} />
                 <TechnicalSpecification
                   {...material}
                   style={{ color: 'white', marginRight: 16 }}
