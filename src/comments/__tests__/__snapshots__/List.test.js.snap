@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  name="comments"
+  parentId="bar"
+  path="/foo/bar/comments"
+  render={[Function]}
+>
+  List - 
+  <div
+    id="bar"
+    list={
+      Array [
+        Object {
+          "foo": "bar",
+        },
+      ]
+    }
+    type="foo"
+  >
+    renderList
+  </div>
+</div>
+`;
