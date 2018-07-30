@@ -11,7 +11,7 @@ export default props => (
   <Switch>
     <Route path="/auth" render={renderAuth(props)} />
     <Route exact path="/user/:id" render={renderUser(props)} />
-    <Route exact path="/search/:term" render={renderSearch(props)} />
+    <Route path="/search" render={renderSearch(props)} />
     <Route path="/" render={renderMaterials(props)} />
   </Switch>
 )
