@@ -1,12 +1,12 @@
 import React from 'react'
 import Grid from '@material-ui/core/Grid'
 
-export default ({ name, imageUrl, properties, usage }) => (
+export default ({ name, imageUrl, coverImageUrl, properties, usage }) => (
   <Grid item xs={12} style={{ marginBottom: 16 }}>
     <img
-      src={imageUrl}
+      src={coverImageUrl || imageUrl}
       alt={name}
-      style={{ width: '100%', objectFit: 'cover', height: 360 }}
+      style={{ width: '100%', objectFit: 'cover', height: 'auto' }}
     />
   </Grid>
 )
