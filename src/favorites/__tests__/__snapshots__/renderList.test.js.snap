@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<ul
+  className="MuiGridList-root-1"
+  style={
+    Object {
+      "margin": -2,
+    }
+  }
+>
+  <li
+    className="MuiGridListTile-root-2"
+    style={
+      Object {
+        "height": 364,
+        "padding": 2,
+        "width": "50%",
+      }
+    }
+  >
+    <div
+      className="MuiGridListTile-tile-3"
+    >
+      <div
+        to="/undefined"
+      >
+        Link - 
+        <img
+          alt={undefined}
+          src={undefined}
+          style={
+            Object {
+              "height": 360,
+              "objectFit": "cover",
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+      <div
+        className="MuiGridListTileBar-root-6 MuiGridListTileBar-titlePositionBottom-7 MuiGridListTileBar-rootSubtitle-9"
+      >
+        <div
+          className="MuiGridListTileBar-titleWrap-10 MuiGridListTileBar-titleWrapActionPosRight-12"
+        >
+          <div
+            className="MuiGridListTileBar-title-13"
+          />
+          <div
+            className="MuiGridListTileBar-subtitle-14"
+          >
+            <div
+              style={
+                Object {
+                  "color": "white",
+                  "display": "inline-block",
+                }
+              }
+            />
+          </div>
+        </div>
+        <div
+          className="MuiGridListTileBar-actionIcon-15"
+        >
+          <div
+            destroying="destroying-1"
+            id={11111}
+          >
+            Destroy - 
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
+    className="MuiGridListTile-root-2"
+    style={
+      Object {
+        "height": 364,
+        "padding": 2,
+        "width": "50%",
+      }
+    }
+  >
+    <div
+      className="MuiGridListTile-tile-3"
+    >
+      <div
+        to="/undefined"
+      >
+        Link - 
+        <img
+          alt={undefined}
+          src={undefined}
+          style={
+            Object {
+              "height": 360,
+              "objectFit": "cover",
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+      <div
+        className="MuiGridListTileBar-root-6 MuiGridListTileBar-titlePositionBottom-7 MuiGridListTileBar-rootSubtitle-9"
+      >
+        <div
+          className="MuiGridListTileBar-titleWrap-10 MuiGridListTileBar-titleWrapActionPosRight-12"
+        >
+          <div
+            className="MuiGridListTileBar-title-13"
+          />
+          <div
+            className="MuiGridListTileBar-subtitle-14"
+          >
+            <div
+              style={
+                Object {
+                  "color": "white",
+                  "display": "inline-block",
+                }
+              }
+            />
+          </div>
+        </div>
+        <div
+          className="MuiGridListTileBar-actionIcon-15"
+        >
+          <div
+            destroying="destroying-2"
+            id={22222}
+          >
+            Destroy - 
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+</ul>
+`;
