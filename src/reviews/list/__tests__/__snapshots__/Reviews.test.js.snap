@@ -38,7 +38,7 @@ exports[`renders correctly 1`] = `
         <div
           rating={5}
         >
-          Rating - 
+          Rating -
         </div>
       </div>
       <div
@@ -111,7 +111,7 @@ exports[`renders correctly 1`] = `
         <div
           rating={1}
         >
-          Rating - 
+          Rating -
         </div>
       </div>
       <div

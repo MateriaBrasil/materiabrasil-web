@@ -7,11 +7,7 @@ jest.mock('react-router-dom/Link', () => props => (
   <div {...props}>Link - {props.children}</div>
 ))
 
-jest.mock('../../Rating', () => props => (
-  <div rating={props.rating} {...props}>
-    Rating - {props.children}
-  </div>
-))
+jest.mock('../../Rating', () => props => <div {...props}>Rating -</div>)
 
 it('renders correctly', () => {
   const list = [
