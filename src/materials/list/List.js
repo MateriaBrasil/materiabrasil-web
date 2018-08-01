@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import Link from 'react-router-dom/Link'
 import Grid from '@material-ui/core/Grid'
-import GridList from '@material-ui/core/GridList'
-import GridListTile from '@material-ui/core/GridListTile'
 import Ratio from 'react-ratio'
 
 import Children from '../../Children'
