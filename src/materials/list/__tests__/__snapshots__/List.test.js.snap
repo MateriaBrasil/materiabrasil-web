@@ -16,7 +16,7 @@ exports[`renders correctly 1`] = `
       className="MuiGridListTile-root-93"
       style={
         Object {
-          "height": 364,
+          "height": "auto",
           "padding": 2,
           "width": "50%",
         }
@@ -33,7 +33,7 @@ exports[`renders correctly 1`] = `
             src="bar"
             style={
               Object {
-                "height": 360,
+                "height": "auto",
                 "objectFit": "cover",
                 "width": "100%",
               }
@@ -120,7 +120,7 @@ exports[`renders correctly 1`] = `
       className="MuiGridListTile-root-93"
       style={
         Object {
-          "height": 364,
+          "height": "auto",
           "padding": 2,
           "width": "50%",
         }
@@ -137,7 +137,7 @@ exports[`renders correctly 1`] = `
             src="bar"
             style={
               Object {
-                "height": 360,
+                "height": "auto",
                 "objectFit": "cover",
                 "width": "100%",
               }
@@ -224,7 +224,7 @@ exports[`renders correctly 1`] = `
       className="MuiGridListTile-root-93"
       style={
         Object {
-          "height": 364,
+          "height": "auto",
           "padding": 2,
           "width": "50%",
         }
@@ -241,7 +241,7 @@ exports[`renders correctly 1`] = `
             src="bar"
             style={
               Object {
-                "height": 360,
+                "height": "auto",
                 "objectFit": "cover",
                 "width": "100%",
               }

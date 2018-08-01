@@ -17,7 +17,7 @@ exports[`renders correctly 1`] = `
       src="bar"
       style={
         Object {
-          "height": 360,
+          "height": "auto",
           "objectFit": "cover",
           "width": "100%",
         }
