@@ -74,7 +74,6 @@ exports[`renders correctly 1`] = `
             supplierContact="foo@bar.com"
             supplierName="Foo Supplier"
             technicalSpecification_url="http://foo"
-            type="icon"
             usage="Bar usage"
           >
             Favorites
