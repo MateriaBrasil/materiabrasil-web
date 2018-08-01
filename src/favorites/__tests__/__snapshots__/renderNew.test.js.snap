@@ -2,7 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <div
-  creating={[Function]}
+  creating={false}
   foo="bar"
   onClick={[Function]}
 >

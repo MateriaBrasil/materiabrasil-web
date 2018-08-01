@@ -12,18 +12,24 @@ jest.mock('../Destroy', () => props => (
 ))
 
 const list = [
-  { id: 11111, favoritable: 'favoritable-1', destroying: 'destroying-1' },
-  { id: 22222, favoritable: 'favoritable-2', destroying: 'destroying-2' },
+  { id: 11111, favoritable: 'favoritable-1', destroying: true },
+  { id: 22222, favoritable: 'favoritable-2', destroying: false },
 ]
 
-it('renders correctly with showDestroy as true', () => {
-  const tree = renderer.create(renderList({ showDestroy: true })(list)).toJSON()
-  expect(tree).toMatchSnapshot()
+describe('with showDestroy', () => {
+  it('renders correctly', () => {
+    const tree = renderer
+      .create(renderList({ showDestroy: true })(list))
+      .toJSON()
+    expect(tree).toMatchSnapshot()
+  })
 })
 
-it('renders correctly with showDestroy as false', () => {
-  const tree = renderer
-    .create(renderList({ showDestroy: false })(list))
-    .toJSON()
-  expect(tree).toMatchSnapshot()
+describe('without showDestroy', () => {
+  it('renders correctly', () => {
+    const tree = renderer
+      .create(renderList({ showDestroy: false })(list))
+      .toJSON()
+    expect(tree).toMatchSnapshot()
+  })
 })

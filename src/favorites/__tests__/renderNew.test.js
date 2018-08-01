@@ -8,7 +8,7 @@ jest.mock('../Button', () => props => (
 ))
 
 it('renders correctly', () => {
-  const createProps = { create: jest.fn(), creating: jest.fn() }
+  const createProps = { create: jest.fn(), creating: false }
   const props = { foo: 'bar', id: 1234 }
 
   const tree = renderer.create(renderNew(props)(createProps)).toJSON()
