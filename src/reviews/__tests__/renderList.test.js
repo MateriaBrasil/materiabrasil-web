@@ -3,6 +3,7 @@ import renderer from 'react-test-renderer'
 
 import renderList from '../renderList'
 import render from '../list/render'
+
 jest.mock('../list/render', () =>
   jest.fn(props => list => (
     <div {...props} list={list}>
