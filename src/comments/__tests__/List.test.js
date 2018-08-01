@@ -22,6 +22,6 @@ it('renders correctly', () => {
   expect(tree).toMatchSnapshot()
 })
 
-it('Calls render prop', () => {
+it('calls render prop', () => {
   expect(renderList).toHaveBeenCalledWith({ type: 'foo', id: 'bar' })
 })
