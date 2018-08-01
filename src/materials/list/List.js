@@ -25,9 +25,12 @@ export default class extends Component {
 
     return (
       <Grid item xs={12} md={9}>
-        <GridList cellHeight={360}>
+        <GridList cellHeight="auto">
           {list.map((material, index) => {
             const { id, highlighted, name, imageUrl } = material
+            const { highlightImageUrl, listImageUrl } = material
+            const image = highlighted ? highlightImageUrl : listImageUrl
+
             const cols = ignoreHighlights ? 1 : highlighted ? 2 : 1
             const actionIcon = currentUser ? (
               <Children>
@@ -48,9 +51,13 @@ export default class extends Component {
               <GridListTile key={id} cols={cols}>
                 <Link to={`/${id}`}>
                   <img
-                    src={imageUrl}
+                    src={image || imageUrl}
                     alt={name}
-                    style={{ width: '100%', objectFit: 'cover', height: 360 }}
+                    style={{
+                      width: '100%',
+                      objectFit: 'cover',
+                      height: 'auto',
+                    }}
                   />
                 </Link>
                 <TitleBar material={material} actionIcon={actionIcon} />
