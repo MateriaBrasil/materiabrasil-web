@@ -1,13 +1,13 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-import List from '../List'
 import renderList from '../renderList'
+import render from '../list/render'
 
-jest.mock('../renderList', () =>
+jest.mock('../list/render', () =>
   jest.fn(props => list => (
     <div {...props} list={list}>
-      renderList
+      ../list/render
     </div>
   )),
 )
@@ -16,12 +16,14 @@ jest.mock('croods', () => ({
   List: props => <div {...props}>List - {props.render([{ foo: 'bar' }])}</div>,
 }))
 
-const tree = renderer.create(<List type="foo" id="bar" />).toJSON()
+const props = { bar: 'foo' }
+const routeProps = { match: { params: { id: 1111 } } }
+const tree = renderer.create(renderList(props)(routeProps)).toJSON()
 
 it('renders correctly', () => {
   expect(tree).toMatchSnapshot()
 })
 
 it('calls render prop', () => {
-  expect(renderList).toHaveBeenCalledWith({ type: 'foo', id: 'bar' })
+  expect(render).toHaveBeenCalledWith({ ...props, ...routeProps, id: 1111 })
 })
