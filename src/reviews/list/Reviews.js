@@ -21,13 +21,11 @@ export default ({ list }) => (
           key={id}
         >
           <ListItem button>
-            <div style={{ marginRight: 16 }}>
-              <Rating rating={rating} />
-            </div>
             <Avatar>
               <PersonIcon />
             </Avatar>
             <ListItemText primary={name} secondary={text} />
+            <Rating rating={rating} />
           </ListItem>
         </Link>
       ),

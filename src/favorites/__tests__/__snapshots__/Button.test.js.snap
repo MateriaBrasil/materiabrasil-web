@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`with default type (button) renders correctly 1`] = `
+exports[`renders correctly 1`] = `
 <button
-  className="MuiButtonBase-root-17 MuiButton-root-1 MuiButton-raised-7 MuiButton-raisedSecondary-9"
+  className="MuiButtonBase-root-7 MuiIconButton-root-1"
   disabled={false}
   onBlur={[Function]}
   onClick={[Function]}
@@ -15,58 +15,16 @@ exports[`with default type (button) renders correctly 1`] = `
   onTouchEnd={[Function]}
   onTouchMove={[Function]}
   onTouchStart={[Function]}
+  style={undefined}
   tabIndex="0"
   type="button"
 >
   <span
-    className="MuiButton-label-2"
+    className="MuiIconButton-label-6"
   >
     <svg
       aria-hidden="true"
-      className="MuiSvgIcon-root-20"
-      color={undefined}
-      focusable="false"
-      viewBox="0 0 24 24"
-    >
-      <g>
-        <path
-          d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"
-        />
-      </g>
-    </svg>
-    Salvar
-  </span>
-  <span
-    className="MuiTouchRipple-root-26"
-  />
-</button>
-`;
-
-exports[`without default type renders correctly 1`] = `
-<button
-  className="MuiButtonBase-root-17 MuiIconButton-root-33"
-  disabled={false}
-  onBlur={[Function]}
-  onClick={[Function]}
-  onFocus={[Function]}
-  onKeyDown={[Function]}
-  onKeyUp={[Function]}
-  onMouseDown={[Function]}
-  onMouseLeave={[Function]}
-  onMouseUp={[Function]}
-  onTouchEnd={[Function]}
-  onTouchMove={[Function]}
-  onTouchStart={[Function]}
-  style="color:white"
-  tabIndex="0"
-  type="button"
->
-  <span
-    className="MuiIconButton-label-38"
-  >
-    <svg
-      aria-hidden="true"
-      className="MuiSvgIcon-root-20"
+      className="MuiSvgIcon-root-10"
       color={undefined}
       focusable="false"
       viewBox="0 0 24 24"
@@ -79,7 +37,7 @@ exports[`without default type renders correctly 1`] = `
     </svg>
   </span>
   <span
-    className="MuiTouchRipple-root-26"
+    className="MuiTouchRipple-root-16"
   />
 </button>
 `;
