@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  name="reviews"
+  parentId={1111}
+  path="/materials/1111/reviews"
+  render={[Function]}
+>
+  List - 
+  <div
+    bar="foo"
+    id={1111}
+    list={
+      Array [
+        Object {
+          "foo": "bar",
+        },
+      ]
+    }
+    match={
+      Object {
+        "params": Object {
+          "id": 1111,
+        },
+      }
+    }
+  >
+    ../list/render
+  </div>
+</div>
+`;
