@@ -16,7 +16,7 @@ export default props => {
       <Card>
         <CardContent>
           <div style={{ float: 'right' }}>
-            <NewFavorite {...props} type="icon" />
+            <NewFavorite {...props} />
             <TechnicalSpecification {...props} />
           </div>
           <Typography variant="display1">{name}</Typography>

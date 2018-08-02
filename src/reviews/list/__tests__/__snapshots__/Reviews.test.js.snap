@@ -29,19 +29,6 @@ exports[`renders correctly 1`] = `
       tabIndex="0"
     >
       <div
-        style={
-          Object {
-            "marginRight": 16,
-          }
-        }
-      >
-        <div
-          rating={5}
-        >
-          Rating
-        </div>
-      </div>
-      <div
         className="MuiAvatar-root-18 MuiAvatar-colorDefault-19"
       >
         <svg
@@ -71,6 +58,11 @@ exports[`renders correctly 1`] = `
         >
           foo-text
         </p>
+      </div>
+      <div
+        rating={5}
+      >
+        Rating
       </div>
       <span
         className="MuiTouchRipple-root-57"
@@ -102,19 +94,6 @@ exports[`renders correctly 1`] = `
       tabIndex="0"
     >
       <div
-        style={
-          Object {
-            "marginRight": 16,
-          }
-        }
-      >
-        <div
-          rating={1}
-        >
-          Rating
-        </div>
-      </div>
-      <div
         className="MuiAvatar-root-18 MuiAvatar-colorDefault-19"
       >
         <svg
@@ -144,6 +123,11 @@ exports[`renders correctly 1`] = `
         >
           foo-text
         </p>
+      </div>
+      <div
+        rating={1}
+      >
+        Rating
       </div>
       <span
         className="MuiTouchRipple-root-57"
