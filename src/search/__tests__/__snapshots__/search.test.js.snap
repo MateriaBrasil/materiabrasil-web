@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-md-3-56"
+>
+  <div
+    foo="bar "
+  >
+    Form
+  </div>
+</div>
+`;

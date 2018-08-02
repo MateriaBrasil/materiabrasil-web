@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "color": "black",
+      "textDecoration": "none",
+    }
+  }
+  to="/user/1234"
+>
+  Link - 
+  <h3
+    className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+    style={
+      Object {
+        "display": "inline-block",
+        "marginRight": 10,
+      }
+    }
+  >
+    foo-name
+  </h3>
+</div>
+`;

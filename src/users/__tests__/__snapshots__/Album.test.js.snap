@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <h1
+    className="MuiTypography-root-1 MuiTypography-headline-6 MuiTypography-colorTextSecondary-23"
+    style={
+      Object {
+        "marginBottom": 16,
+      }
+    }
+  >
+    foo-name
+  </h1>
+  <div
+    bar="foo"
+  >
+    List
+  </div>
+</div>
+`;

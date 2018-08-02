@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with term renders correctly 1`] = `
+<div
+  className="MuiGrid-container-1"
+>
+  <div
+    autoFocus={true}
+    history={[Function]}
+    term="foo-term"
+  >
+    Search
+  </div>
+  <div
+    name="searches"
+    path="/search?term=foo-term"
+    render={
+      <div
+        bar="foo"
+        history={[Function]}
+        match={
+          Object {
+            "params": Object {
+              "term": "foo-term",
+            },
+          }
+        }
+      >
+        renderList
+      </div>
+    }
+    renderError={[Function]}
+  >
+    List - 
+    <div
+      color="default"
+    >
+      foo-error
+    </div>
+  </div>
+</div>
+`;
+
+exports[`without term renders correctly 1`] = `
+<div
+  className="MuiGrid-container-1"
+>
+  <div
+    autoFocus={true}
+    history={[Function]}
+    term=""
+  >
+    Search
+  </div>
+  <div
+    name="searches"
+    path="/search?term="
+    render={
+      <div
+        bar="foo"
+        history={[Function]}
+        match={
+          Object {
+            "params": Object {
+              "term": "",
+            },
+          }
+        }
+      >
+        renderList
+      </div>
+    }
+    renderError={[Function]}
+  >
+    List - 
+    <div
+      color="default"
+    >
+      foo-error
+    </div>
+  </div>
+</div>
+`;
