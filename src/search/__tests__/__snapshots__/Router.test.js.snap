@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with /search route renders correctly 1`] = `
+<div>
+  renderRoot
+</div>
+`;
+
+exports[`with /search/:term route renders correctly 1`] = `
+<div>
+  renderList
+</div>
+`;
