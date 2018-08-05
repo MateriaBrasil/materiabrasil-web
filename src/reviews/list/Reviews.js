@@ -16,7 +16,7 @@ export default ({ list }) => (
       orderBy(list, ['rating'], ['desc']),
       ({ id, user: { name, id: userId }, text, rating }) => (
         <Link
-          to={`/user/${userId}`}
+          to={`/users/${userId}`}
           style={{ textDecoration: 'none' }}
           key={id}
         >

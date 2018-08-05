@@ -1,7 +1,7 @@
 import React from 'react'
 import Typography from '@material-ui/core/Typography'
 
-import List from '../favorites/List'
+import List from '../../favorites/List'
 
 export default ({ name, ...props }) => {
   return (
