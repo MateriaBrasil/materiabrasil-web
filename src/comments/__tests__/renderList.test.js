@@ -9,8 +9,16 @@ jest.mock('react-router-dom/Link', () => props => (
 
 it('renders correctly', () => {
   const list = [
-    { id: 11111, user: { id: 111112, name: 'foo-name' }, text: 'foo-text' },
-    { id: 22222, user: { id: 222223, name: 'foo-name' }, text: 'foo-text' },
+    {
+      id: 11111,
+      user: { id: 111112, firstName: 'foo', lastName: 'bar' },
+      text: 'foo-text',
+    },
+    {
+      id: 2222,
+      user: { id: 1222, firstName: 'foo', lastName: 'bar' },
+      text: 'foo-text',
+    },
   ]
 
   const props = { bar: 'foo' }
