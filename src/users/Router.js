@@ -14,8 +14,8 @@ export default props => {
     <Switch>
       <Route exact path="/users/:id" render={renderInfo(props)} />
       <Route exact path="/profile/edit" render={renderEdit({ ...props, id })} />
-      <Route path="/profile" render={renderInfo({ ...props, id })} />
       <Route exact path="/profile/avatar" render={renderImageUpload(props)} />
+      <Route path="/profile" render={renderInfo({ ...props, id })} />
     </Switch>
   )
 }
