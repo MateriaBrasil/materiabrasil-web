@@ -3,17 +3,7 @@ import renderer from 'react-test-renderer'
 
 import render from '../render'
 
-jest.mock('croods', () => ({
-  Info: props => <div {...props}>Info - {props.render([{ foo: 'bar' }])}</div>,
-}))
-
-jest.mock('../renderInfo', () =>
-  jest.fn(props => routeProps => (
-    <div {...props} {...routeProps}>
-      renderInfo
-    </div>
-  )),
-)
+jest.mock('../Router', () => props => <div {...props}>Router</div>)
 
 it('renders correctly', () => {
   const props = { bar: 'foo' }

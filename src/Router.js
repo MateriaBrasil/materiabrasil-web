@@ -4,14 +4,15 @@ import Switch from 'react-router-dom/Switch'
 
 import renderMaterials from './materials/render'
 import renderAuth from './auth/render'
-import renderUser from './users/render'
+import renderUsers from './users/render'
 import renderSearch from './search/render'
 import renderSuppliers from './suppliers/render'
 
 export default props => (
   <Switch>
     <Route path="/auth" render={renderAuth(props)} />
-    <Route exact path="/user/:id" render={renderUser(props)} />
+    <Route path="/users" render={renderUsers(props)} />
+    <Route path="/profile" render={renderUsers(props)} />
     <Route path="/search" render={renderSearch(props)} />
     <Route path="/suppliers" render={renderSuppliers(props)} />
     <Route path="/" render={renderMaterials(props)} />

@@ -64,7 +64,7 @@ exports[`with current user renders correctly 1`] = `
             "textDecoration": "none",
           }
         }
-        to="/user/undefined"
+        to="/profile"
       >
         <h3
           className="MuiTypography-root-38 MuiTypography-subheading-45 MuiTypography-colorInherit-57"

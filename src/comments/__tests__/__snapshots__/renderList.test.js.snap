@@ -10,7 +10,7 @@ exports[`renders correctly 1`] = `
         "textDecoration": "none",
       }
     }
-    to="/user/111112"
+    to="/users/111112"
   >
     Link - 
     <div
@@ -70,7 +70,7 @@ exports[`renders correctly 1`] = `
         "textDecoration": "none",
       }
     }
-    to="/user/222223"
+    to="/users/222223"
   >
     Link - 
     <div
