@@ -2,8 +2,13 @@ import { required, email, confirmation, length } from 'redux-form-validators'
 
 export default [
   {
-    name: 'name',
+    name: 'first_name',
     label: 'Nome',
+    validate: [required()],
+  },
+  {
+    name: 'last_name',
+    label: 'Sobrenome',
     validate: [required()],
   },
   {

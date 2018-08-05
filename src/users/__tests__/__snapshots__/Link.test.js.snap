@@ -20,7 +20,9 @@ exports[`renders correctly 1`] = `
       }
     }
   >
-    foo-name
+    foo
+     
+    bar
   </h3>
 </div>
 `;

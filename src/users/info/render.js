@@ -9,7 +9,8 @@ import Album from './Album'
 
 export default props => infoProps => {
   const { currentUser } = props
-  const { id, name, albums } = infoProps
+  const { id, firstName, lastName, albums } = infoProps
+  const name = `${firstName} ${lastName}`
   const album = albums[0]
   const editable = currentUser && currentUser.id === id
 
