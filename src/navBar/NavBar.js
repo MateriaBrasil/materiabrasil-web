@@ -15,7 +15,7 @@ export default withRouter(props => {
     <AppBar position="static" color="inherit" elevation={0}>
       <Toolbar>
         <Logo />
-        {currentUser && currentUser.name ? (
+        {currentUser ? (
           <div>
             <User {...props} />
             <SignOut {...props} />

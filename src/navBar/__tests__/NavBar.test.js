@@ -28,7 +28,7 @@ describe('without current user', () => {
 
 describe('with current user', () => {
   it('renders correctly', () => {
-    const currentUser = { name: 'Foo Bar' }
+    const currentUser = { firstName: 'Foo', lastName: 'Bar' }
     const tree = renderer
       .create(
         <MemoryRouter initialEntries={[{ pathname: '/', key: 'testKey' }]}>

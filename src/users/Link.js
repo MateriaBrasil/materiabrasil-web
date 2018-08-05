@@ -9,7 +9,7 @@ export default ({ currentUser }) => (
       color="inherit"
       style={{ display: 'inline-block', marginRight: 10 }}
     >
-      {currentUser.name}
+      {currentUser.firstName} {currentUser.lastName}
     </Typography>
   </Link>
 )
