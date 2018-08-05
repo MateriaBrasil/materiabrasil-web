@@ -9,15 +9,22 @@ import PersonIcon from '@material-ui/icons/Person'
 
 export default props => list => (
   <List>
-    {map(list, ({ id, user: { name, id: userId }, text }) => (
-      <Link to={`/users/${userId}`} style={{ textDecoration: 'none' }} key={id}>
-        <ListItem button>
-          <Avatar>
-            <PersonIcon />
-          </Avatar>
-          <ListItemText primary={name} secondary={text} />
-        </ListItem>
-      </Link>
-    ))}
+    {map(list, ({ id, user: { firstName, lastName, id: userId }, text }) => {
+      const name = `${firstName} ${lastName}`
+      return (
+        <Link
+          to={`/users/${userId}`}
+          style={{ textDecoration: 'none' }}
+          key={id}
+        >
+          <ListItem button>
+            <Avatar>
+              <PersonIcon />
+            </Avatar>
+            <ListItemText primary={name} secondary={text} />
+          </ListItem>
+        </Link>
+      )
+    })}
   </List>
 )
