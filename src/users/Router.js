@@ -1,7 +1,7 @@
 import React from 'react'
 import Route from 'react-router-dom/Route'
+import Switch from 'react-router-dom/Switch'
 
-import Children from '../Children'
 import renderInfo from './renderInfo'
 import renderEdit from './renderEdit'
 import renderImageUpload from '../imageUpload/render'
@@ -11,11 +11,11 @@ export default props => {
   const { id } = currentUser || {}
 
   return (
-    <Children>
+    <Switch>
       <Route exact path="/users/:id" render={renderInfo(props)} />
+      <Route exact path="/profile/edit" render={renderEdit({ ...props, id })} />
       <Route path="/profile" render={renderInfo({ ...props, id })} />
-      <Route path="/profile/edit" render={renderEdit({ ...props, id })} />
       <Route exact path="/profile/avatar" render={renderImageUpload(props)} />
-    </Children>
+    </Switch>
   )
 }

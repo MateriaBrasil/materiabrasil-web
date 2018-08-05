@@ -1,5 +1,15 @@
 import React from 'react'
 
-export default ({ info, update, updating, error }) => {
-  return <h1>Edit</h1>
+import Form from './Form'
+
+export default props => ({ info, update, updating, error }) => {
+  return (
+    <Form
+      onSubmit={update}
+      submitting={updating}
+      updateError={error}
+      initialValues={info}
+      {...props}
+    />
+  )
 }
