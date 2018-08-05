@@ -1,11 +1,12 @@
 import React from 'react'
 import { reduxForm } from 'redux-form'
-import { required } from 'redux-form-validators'
+import { required, email } from 'redux-form-validators'
 import Button from '@material-ui/core/Button'
 
 import SingleColumn from '../../SingleColumn'
 import Error from '../../Error'
 import TextField from '../../form/TextField'
+import SelectField from '../../form/SelectField'
 
 export default reduxForm({ form: 'suppliers' })(props => {
   const { handleSubmit, onSubmit, error: reduxFormError, createError } = props
@@ -38,7 +39,7 @@ export default reduxForm({ form: 'suppliers' })(props => {
           name="email"
           label="Email"
           type="email"
-          validate={[required()]}
+          validate={[required(), email()]}
         />
         <TextField
           name="cnpj"
@@ -72,7 +73,7 @@ export default reduxForm({ form: 'suppliers' })(props => {
         />
         <TextField
           name="company_revenue"
-          label="Faturamento do último exercício"
+          label="Faturamento aproximado do último exercício"
           type="text"
           validate={[required()]}
         />
@@ -84,13 +85,19 @@ export default reduxForm({ form: 'suppliers' })(props => {
           format={value => value && value.toString()}
           validate={[required()]}
         />
-        <TextField
+        <SelectField
           name="reach"
-          label="Alcance de fornecimento"
-          type="text"
+          label="Alcance"
           validate={[required()]}
+          options={[
+            { value: 'city', label: 'Cidade' },
+            { value: 'state', label: 'Estado' },
+            { value: 'country', label: 'País' },
+            { value: 'continent', label: 'Continente' },
+            { value: 'global', label: 'Global' },
+          ]}
         />
-        <div style={{ textAlign: 'right' }}>
+        <div style={{ marginTop: 30, textAlign: 'right' }}>
           <Button
             variant="raised"
             color="primary"
