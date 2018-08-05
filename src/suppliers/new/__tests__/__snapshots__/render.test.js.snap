@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  createError={[Function]}
+  foo="bar"
+  onSubmit={[Function]}
+  submitting={[Function]}
+>
+  Form
+</div>
+`;
