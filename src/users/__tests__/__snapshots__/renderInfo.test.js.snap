@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with id renders correctly 1`] = `
+<div
+  id="123"
+  name="users"
+  render={[Function]}
+>
+  <div
+    foo="bar"
+    match={
+      Object {
+        "params": Object {
+          "id": "123",
+        },
+      }
+    }
+  >
+    Info
+  </div>
+</div>
+`;
+
+exports[`without id renders correctly 1`] = `
+<div
+  to={
+    Object {
+      "pathname": "/auth/sign-up",
+      "state": Object {
+        "referrer": "/profile",
+      },
+    }
+  }
+>
+  Redirect
+</div>
+`;
