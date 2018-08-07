@@ -19,6 +19,17 @@ const parseCanvas = async canvas => {
   return { md5: md5(await blobToBinaryString(blob)), blob }
 }
 
+const updateAWSconfig = () => {
+  AWS.config.update({
+    region: process.env.REACT_APP_AWS_REGION,
+    credentials: new AWS.CognitoIdentityCredentials({
+      IdentityPoolId: `${process.env.REACT_APP_AWS_REGION}:${
+        process.env.REACT_APP_AWS_IDENTITY_POOL_ID
+      }`,
+    }),
+  })
+}
+
 export default class extends Component {
   constructor(props) {
     super(props)
@@ -40,14 +51,7 @@ export default class extends Component {
   async handleUpload(update, id) {
     const image = await parseCanvas(this.editor.getImage())
 
-    AWS.config.update({
-      region: process.env.REACT_APP_AWS_REGION,
-      credentials: new AWS.CognitoIdentityCredentials({
-        IdentityPoolId: `${process.env.REACT_APP_AWS_REGION}:${
-          process.env.REACT_APP_AWS_IDENTITY_POOL_ID
-        }`,
-      }),
-    })
+    updateAWSconfig()
 
     var s3 = new AWS.S3({
       params: { Bucket: process.env.REACT_APP_AWS_BUCKET_NAME },
