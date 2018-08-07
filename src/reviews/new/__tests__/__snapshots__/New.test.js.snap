@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  aria-labelledby="responsive-dialog-title"
+  fullScreen={false}
+  fullWidth={true}
+  onBackdropClick={[Function]}
+  onEscapeKeyDown={[Function]}
+  open={true}
+>
+  Dialog - 
+  <div
+    className="MuiDialogTitle-root-1"
+    id="responsive-dialog-title"
+  >
+    <h2
+      className="MuiTypography-root-2 MuiTypography-title-8"
+    >
+      Avaliar
+    </h2>
+  </div>
+  <div
+    createError={undefined}
+    id={1234}
+    onSubmit={[Function]}
+    submitting={undefined}
+  >
+    Form
+  </div>
+</div>
+`;
