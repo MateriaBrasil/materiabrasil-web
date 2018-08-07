@@ -1,11 +1,11 @@
 import React from 'react'
 import { reduxForm } from 'redux-form'
-import Button from '@material-ui/core/Button'
 import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 
 import Error from '../../Error'
 import TextField from '../../form/TextField'
+import Submit from '../../form/Submit'
 import SingleColumn from '../../SingleColumn'
 
 export default reduxForm({ form: 'profile' })(props => {
@@ -29,16 +29,7 @@ export default reduxForm({ form: 'profile' })(props => {
             />
             <TextField name="workTitle" label="Cargo" type="text" />
             <TextField name="website" label="Site" type="text" />
-            <div style={{ textAlign: 'right' }}>
-              <Button
-                variant="raised"
-                color="primary"
-                type="submit"
-                disabled={submitting}
-              >
-                Atualizar perfil
-              </Button>
-            </div>
+            <Submit callToAction="Atualizar perfil" disabled={submitting} />
             {error && <Error>{error}</Error>}
           </form>
         </CardContent>
