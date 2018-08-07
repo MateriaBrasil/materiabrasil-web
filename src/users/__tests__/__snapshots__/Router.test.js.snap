@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with /profile route renders correctly 1`] = `
+<div>
+  renderInfo
+</div>
+`;
+
+exports[`with /profile/avatar route renders correctly 1`] = `
+Array [
+  <div>
+    renderInfo
+</div>,
+  <div>
+    renderImageUpload
+</div>,
+]
+`;
+
+exports[`with /users/:id route renders correctly 1`] = `
+<div>
+  renderInfo
+</div>
+`;

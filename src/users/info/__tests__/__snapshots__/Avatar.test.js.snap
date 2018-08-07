@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when editable renders correctly 1`] = `
+<div
+  to="/profile/avatar"
+>
+  <div
+    bar="foo"
+    editable={true}
+  >
+    Image
+  </div>
+</div>
+`;
+
+exports[`when not editable renders correctly 1`] = `
+<div
+  bar="foo"
+  editable={false}
+>
+  Image
+</div>
+`;
