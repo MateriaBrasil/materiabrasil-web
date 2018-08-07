@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when editable renders correctly 1`] = `
+<div
+  className="MuiCardMedia-root-1"
+  src={undefined}
+  style={
+    Object {
+      "backgroundImage": "url(\\"/images/avatar.png\\")",
+      "borderRadius": 2,
+      "display": "inline-block",
+      "height": 300,
+      "marginRight": 16,
+      "width": 300,
+    }
+  }
+  title="Clique para editar"
+/>
+`;
+
+exports[`when not editable renders correctly 1`] = `
+<div
+  className="MuiCardMedia-root-1"
+  src={undefined}
+  style={
+    Object {
+      "backgroundImage": "url(\\"/images/avatar.png\\")",
+      "borderRadius": 2,
+      "display": "inline-block",
+      "height": 300,
+      "marginRight": 16,
+      "width": 300,
+    }
+  }
+  title="foo-name"
+/>
+`;
