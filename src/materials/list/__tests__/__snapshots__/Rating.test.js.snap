@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "display": "inline-block",
+      "marginRight": 36,
+    }
+  }
+>
+  <svg
+    aria-hidden="true"
+    className="MuiSvgIcon-root-1"
+    color={undefined}
+    focusable="false"
+    style={
+      Object {
+        "marginRight": 8,
+        "verticalAlign": "middle",
+      }
+    }
+    viewBox="0 0 24 24"
+  >
+    <g>
+      <path
+        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+      />
+    </g>
+  </svg>
+  <p
+    className="MuiTypography-root-7 MuiTypography-body1-16 MuiTypography-colorInherit-26"
+    style={
+      Object {
+        "display": "inline-block",
+        "verticalAlign": "middle",
+      }
+    }
+  >
+    4
+  </p>
+</div>
+`;

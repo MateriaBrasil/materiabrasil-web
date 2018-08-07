@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with /:id route renders correctly 1`] = `
+<div>
+  <div>
+    renderInfo
+  </div>
+</div>
+`;
+
+exports[`with /:id/reviews route renders correctly 1`] = `
+<div>
+  <div>
+    renderInfo
+  </div>
+  <div>
+    renderReviews
+  </div>
+</div>
+`;
+
+exports[`with root route renders correctly 1`] = `
+<div>
+  <div>
+    renderList
+  </div>
+</div>
+`;
