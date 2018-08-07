@@ -5,7 +5,7 @@ import Redirect from 'react-router-dom/Redirect'
 import render from './edit/render'
 
 export default props => routeProps => {
-  const id = props.id || routeProps.match.params.id
+  const id = props.id
 
   return (
     <Edit
