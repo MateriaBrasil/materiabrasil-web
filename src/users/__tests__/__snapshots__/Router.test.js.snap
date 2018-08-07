@@ -7,14 +7,9 @@ exports[`with /profile route renders correctly 1`] = `
 `;
 
 exports[`with /profile/avatar route renders correctly 1`] = `
-Array [
-  <div>
-    renderInfo
-</div>,
-  <div>
-    renderImageUpload
-</div>,
-]
+<div>
+  renderImageUpload
+</div>
 `;
 
 exports[`with /users/:id route renders correctly 1`] = `
