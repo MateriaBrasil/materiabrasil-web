@@ -3,6 +3,9 @@ import renderer from 'react-test-renderer'
 
 import render from '../render'
 
+jest.mock('croods', () => ({
+  Edit: ({ children, ...props }) => <div {...props}>Edit - {children}</div>,
+}))
 jest.mock('../ImageUpload', () => props => <div {...props}>ImageUpload</div>)
 
 it('renders correctly', () => {

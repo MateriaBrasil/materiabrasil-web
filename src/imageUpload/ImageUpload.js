@@ -23,7 +23,12 @@ export default class extends Component {
   constructor(props) {
     super(props)
 
-    this.state = { file: null, scale: 1, position: { x: 0.5, y: 0.5 } }
+    this.state = {
+      file: null,
+      scale: 1,
+      position: { x: 0.5, y: 0.5 },
+      uploading: false,
+    }
     this.onUpload = this.handleUpload.bind(this)
     this.setEditor = this.handleSetEditor.bind(this)
   }
@@ -32,9 +37,8 @@ export default class extends Component {
     this.editor = editor
   }
 
-  async handleUpload() {
+  async handleUpload(update, id) {
     const image = await parseCanvas(this.editor.getImage())
-    // const thumbnail = await parseCanvas(this.editor.getImageScaledToCanvas())
 
     AWS.config.update({
       region: process.env.REACT_APP_AWS_REGION,
@@ -56,16 +60,29 @@ export default class extends Component {
         ACL: 'public-read',
       },
       function(err, data) {
-        console.log('upload', err, data)
+        if (err) {
+          console.log(err)
+        } else {
+          update({ id, imageUrl: data.Location })
+        }
       },
     )
   }
 
   render() {
     const { file, scale, position } = this.state
+    const { update, updating, id } = this.props
 
     return (
-      <Dialog {...this.props} onUpload={this.onUpload} disabled={!file}>
+      <Dialog
+        {...this.props}
+        onUpload={() => {
+          this.setState({ uploading: true })
+          this.onUpload(update, id)
+        }}
+        disabled={!file || updating || this.state.uploading}
+        uploading={this.state.uploading}
+      >
         <Dropzone
           accept="image/*"
           multiple={false}

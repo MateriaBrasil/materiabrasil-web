@@ -9,6 +9,7 @@ exports[`renders correctly 1`] = `
   >
     <div
       editable={true}
+      imageUrl={undefined}
       name="foo-name foo-last"
     >
       Avatar
@@ -34,6 +35,28 @@ exports[`renders correctly 1`] = `
           Editar perfil
         </h3>
       </div>
+      <div
+        style={
+          Object {
+            "marginTop": 32,
+          }
+        }
+        title="Email"
+        value={undefined}
+      >
+        TitleWithValue
+      </div>
+      <div
+        style={
+          Object {
+            "marginTop": 16,
+          }
+        }
+        title="Website"
+        value={undefined}
+      >
+        TitleWithValue
+      </div>
     </div>
   </div>
   <div
@@ -44,7 +67,74 @@ exports[`renders correctly 1`] = `
     >
       <div
         className="MuiCardContent-root-144"
-      />
+      >
+        <div
+          style={
+            Object {
+              "marginTop": 16,
+            }
+          }
+          title="Bio"
+          value={undefined}
+        >
+          TitleWithValue
+        </div>
+        <div
+          style={
+            Object {
+              "marginTop": 16,
+            }
+          }
+          title="Organização"
+          value={undefined}
+        >
+          TitleWithValue
+        </div>
+        <div
+          style={
+            Object {
+              "marginTop": 16,
+            }
+          }
+          title="Cargo"
+          value={undefined}
+        >
+          TitleWithValue
+        </div>
+        <div
+          style={
+            Object {
+              "marginTop": 16,
+            }
+          }
+          title="Cidade"
+          value={undefined}
+        >
+          TitleWithValue
+        </div>
+        <div
+          style={
+            Object {
+              "marginTop": 16,
+            }
+          }
+          title="Estado"
+          value={undefined}
+        >
+          TitleWithValue
+        </div>
+        <div
+          style={
+            Object {
+              "marginTop": 16,
+            }
+          }
+          title="País"
+          value={undefined}
+        >
+          TitleWithValue
+        </div>
+      </div>
     </div>
   </div>
   <div
