@@ -5,42 +5,134 @@ exports[`renders correctly 1`] = `
   className="MuiGrid-container-1 MuiGrid-spacing-xs-24-24"
 >
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-4-31"
   >
     <div
-      className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+      editable={true}
+      imageUrl={undefined}
+      name="foo-name foo-last"
+    >
+      Avatar
+    </div>
+    <div
+      style={
+        Object {
+          "marginTop": 30,
+        }
+      }
+    >
+      <h1
+        className="MuiTypography-root-92 MuiTypography-display1-96"
+      >
+        foo-name foo-last
+      </h1>
+      <div
+        to="/profile/edit"
+      >
+        <h3
+          className="MuiTypography-root-92 MuiTypography-subheading-99"
+        >
+          Editar perfil
+        </h3>
+      </div>
+      <div
+        style={
+          Object {
+            "marginTop": 32,
+          }
+        }
+        title="Email"
+        value={undefined}
+      >
+        TitleWithValue
+      </div>
+      <div
+        style={
+          Object {
+            "marginTop": 16,
+          }
+        }
+        title="Website"
+        value={undefined}
+      >
+        TitleWithValue
+      </div>
+    </div>
+  </div>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-8-35"
+  >
+    <div
+      className="MuiPaper-root-117 MuiPaper-elevation2-121 MuiPaper-rounded-118 MuiCard-root-116"
     >
       <div
-        className="MuiCardContent-root-120"
+        className="MuiCardContent-root-144"
       >
         <div
-          editable={true}
-          name="foo-name foo-last"
+          style={
+            Object {
+              "marginTop": 16,
+            }
+          }
+          title="Bio"
+          value={undefined}
         >
-          Avatar
+          TitleWithValue
         </div>
         <div
           style={
             Object {
-              "display": "inline-block",
-              "verticalAlign": "top",
+              "marginTop": 16,
             }
           }
+          title="Organização"
+          value={undefined}
         >
-          <h1
-            className="MuiTypography-root-121 MuiTypography-display1-125"
-          >
-            foo-name foo-last
-          </h1>
-          <div
-            to="/profile/edit"
-          >
-            <h3
-              className="MuiTypography-root-121 MuiTypography-subheading-128"
-            >
-              Editar perfil
-            </h3>
-          </div>
+          TitleWithValue
+        </div>
+        <div
+          style={
+            Object {
+              "marginTop": 16,
+            }
+          }
+          title="Cargo"
+          value={undefined}
+        >
+          TitleWithValue
+        </div>
+        <div
+          style={
+            Object {
+              "marginTop": 16,
+            }
+          }
+          title="Cidade"
+          value={undefined}
+        >
+          TitleWithValue
+        </div>
+        <div
+          style={
+            Object {
+              "marginTop": 16,
+            }
+          }
+          title="Estado"
+          value={undefined}
+        >
+          TitleWithValue
+        </div>
+        <div
+          style={
+            Object {
+              "marginTop": 16,
+            }
+          }
+          title="País"
+          value={undefined}
+        >
+          TitleWithValue
         </div>
       </div>
     </div>
