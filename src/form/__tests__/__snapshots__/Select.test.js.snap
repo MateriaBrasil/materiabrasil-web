@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  bar="foo"
+  foo="bar"
+  fullWidth={true}
+  select={true}
+>
+  <li
+    className="MuiButtonBase-root-13 MuiListItem-root-3 MuiListItem-default-6 MuiListItem-gutters-10 MuiListItem-button-11 MuiMenuItem-root-1"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="menuitem"
+    tabIndex={-1}
+    value={1}
+  >
+    foo1-label
+    <span
+      className="MuiTouchRipple-root-16"
+    />
+  </li>
+  <li
+    className="MuiButtonBase-root-13 MuiListItem-root-3 MuiListItem-default-6 MuiListItem-gutters-10 MuiListItem-button-11 MuiMenuItem-root-1"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="menuitem"
+    tabIndex={-1}
+    value={2}
+  >
+    foo2-label
+    <span
+      className="MuiTouchRipple-root-16"
+    />
+  </li>
+  <li
+    className="MuiButtonBase-root-13 MuiListItem-root-3 MuiListItem-default-6 MuiListItem-gutters-10 MuiListItem-button-11 MuiMenuItem-root-1"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="menuitem"
+    tabIndex={-1}
+    value={3}
+  >
+    foo3-label
+    <span
+      className="MuiTouchRipple-root-16"
+    />
+  </li>
+</div>
+`;
