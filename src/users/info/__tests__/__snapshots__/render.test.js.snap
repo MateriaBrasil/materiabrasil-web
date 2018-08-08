@@ -5,44 +5,46 @@ exports[`renders correctly 1`] = `
   className="MuiGrid-container-1 MuiGrid-spacing-xs-24-24"
 >
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-4-31"
   >
     <div
-      className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+      editable={true}
+      name="foo-name foo-last"
+    >
+      Avatar
+    </div>
+    <div
+      style={
+        Object {
+          "marginTop": 30,
+        }
+      }
+    >
+      <h1
+        className="MuiTypography-root-92 MuiTypography-display1-96"
+      >
+        foo-name foo-last
+      </h1>
+      <div
+        to="/profile/edit"
+      >
+        <h3
+          className="MuiTypography-root-92 MuiTypography-subheading-99"
+        >
+          Editar perfil
+        </h3>
+      </div>
+    </div>
+  </div>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-8-35"
+  >
+    <div
+      className="MuiPaper-root-117 MuiPaper-elevation2-121 MuiPaper-rounded-118 MuiCard-root-116"
     >
       <div
-        className="MuiCardContent-root-120"
-      >
-        <div
-          editable={true}
-          name="foo-name foo-last"
-        >
-          Avatar
-        </div>
-        <div
-          style={
-            Object {
-              "display": "inline-block",
-              "verticalAlign": "top",
-            }
-          }
-        >
-          <h1
-            className="MuiTypography-root-121 MuiTypography-display1-125"
-          >
-            foo-name foo-last
-          </h1>
-          <div
-            to="/profile/edit"
-          >
-            <h3
-              className="MuiTypography-root-121 MuiTypography-subheading-128"
-            >
-              Editar perfil
-            </h3>
-          </div>
-        </div>
-      </div>
+        className="MuiCardContent-root-144"
+      />
     </div>
   </div>
   <div

@@ -4,8 +4,8 @@ import CardMedia from '@material-ui/core/CardMedia'
 export default ({ name, editable = false }) => (
   <CardMedia
     style={{
-      width: 300,
-      height: 300,
+      width: 400,
+      height: 400,
       display: 'inline-block',
       marginRight: 16,
       borderRadius: 2,
