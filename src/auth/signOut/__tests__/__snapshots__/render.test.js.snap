@@ -2,19 +2,24 @@
 
 exports[`renders correctly 1`] = `
 <a
+  className="navbar-link"
   href="#destroy"
   onClick={[Function]}
   style={
     Object {
       "color": "black",
-      "display": "inline-block",
-      "marginLeft": 10,
-      "textDecoration": "none",
+      "marginLeft": 20,
     }
   }
 >
   <h3
     className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+    style={
+      Object {
+        "alignSelf": "center",
+        "display": "inline-block",
+      }
+    }
   >
     Sair
   </h3>

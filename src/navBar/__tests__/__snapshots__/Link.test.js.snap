@@ -2,27 +2,28 @@
 
 exports[`renders correctly 1`] = `
 <div
+  className="navbar-link"
   style={
     Object {
       "color": "black",
+      "marginLeft": 20,
+      "marginRight": 20,
       "textDecoration": "none",
     }
   }
-  to="/profile"
+  to="/foo"
 >
   Link - 
   <h3
     className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
     style={
       Object {
+        "alignSelf": "center",
         "display": "inline-block",
-        "marginRight": 10,
       }
     }
   >
-    foo
-     
-    bar
+    foo bar
   </h3>
 </div>
 `;

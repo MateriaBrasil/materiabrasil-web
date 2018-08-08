@@ -58,9 +58,36 @@ exports[`with current user renders correctly 1`] = `
     </div>
     <div>
       <div
+        className="navbar-link"
         style={
           Object {
             "color": "black",
+            "marginLeft": 20,
+            "marginRight": 20,
+            "textDecoration": "none",
+          }
+        }
+        to="/suppliers/new"
+      >
+        <h3
+          className="MuiTypography-root-38 MuiTypography-subheading-45 MuiTypography-colorInherit-57"
+          style={
+            Object {
+              "alignSelf": "center",
+              "display": "inline-block",
+            }
+          }
+        >
+          Cadastrar fornecedor
+        </h3>
+      </div>
+      <div
+        className="navbar-link"
+        style={
+          Object {
+            "color": "black",
+            "marginLeft": 20,
+            "marginRight": 20,
             "textDecoration": "none",
           }
         }
@@ -70,14 +97,12 @@ exports[`with current user renders correctly 1`] = `
           className="MuiTypography-root-38 MuiTypography-subheading-45 MuiTypography-colorInherit-57"
           style={
             Object {
+              "alignSelf": "center",
               "display": "inline-block",
-              "marginRight": 10,
             }
           }
         >
-          Foo
-           
-          Bar
+          Foo Bar
         </h3>
       </div>
       <div
@@ -200,9 +225,36 @@ exports[`without current user renders correctly 1`] = `
     </div>
     <div>
       <div
+        className="navbar-link"
         style={
           Object {
             "color": "black",
+            "marginLeft": 20,
+            "marginRight": 20,
+            "textDecoration": "none",
+          }
+        }
+        to="/suppliers/new"
+      >
+        <h3
+          className="MuiTypography-root-38 MuiTypography-subheading-45 MuiTypography-colorInherit-57"
+          style={
+            Object {
+              "alignSelf": "center",
+              "display": "inline-block",
+            }
+          }
+        >
+          Cadastrar fornecedor
+        </h3>
+      </div>
+      <div
+        className="navbar-link"
+        style={
+          Object {
+            "color": "black",
+            "marginLeft": 20,
+            "marginRight": 20,
             "textDecoration": "none",
           }
         }
@@ -212,12 +264,12 @@ exports[`without current user renders correctly 1`] = `
           className="MuiTypography-root-38 MuiTypography-subheading-45 MuiTypography-colorInherit-57"
           style={
             Object {
+              "alignSelf": "center",
               "display": "inline-block",
-              "marginRight": 10,
             }
           }
         >
-           
+          undefined undefined
         </h3>
       </div>
       <div

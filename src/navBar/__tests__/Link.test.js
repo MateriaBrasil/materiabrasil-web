@@ -8,7 +8,6 @@ jest.mock('react-router-dom/Link', () => props => (
 ))
 
 it('renders correctly', () => {
-  const currentUser = { id: 1234, firstName: 'foo', lastName: 'bar' }
-  const tree = renderer.create(<Link currentUser={currentUser} />)
+  const tree = renderer.create(<Link to="/foo" text="foo bar" />)
   expect(tree).toMatchSnapshot()
 })
