@@ -1,21 +1,25 @@
 import React from 'react'
+import Link from 'react-router-dom/Link'
 import Typography from '@material-ui/core/Typography'
+import './Link.css'
 
-import onClick from '../../onClick'
-
-export default ({ destroy }) => (
-  <a
+export default ({ to, text }) => (
+  <Link
     className="navbar-link"
-    href="#destroy"
-    onClick={onClick(destroy)}
-    style={{ color: 'black', marginLeft: 20 }}
+    to={to}
+    style={{
+      textDecoration: 'none',
+      color: 'black',
+      marginLeft: 20,
+      marginRight: 20,
+    }}
   >
     <Typography
       variant="subheading"
       color="inherit"
       style={{ display: 'inline-block', alignSelf: 'center' }}
     >
-      Sair
+      {text}
     </Typography>
-  </a>
+  </Link>
 )
