@@ -5,6 +5,7 @@ import CardContent from '@material-ui/core/CardContent'
 import Typography from '@material-ui/core/Typography'
 
 import PropertyWithValue from '../../PropertyWithValue'
+import translateReach from './translateReach'
 
 export default ({ current }) => {
   const { name, description, email, phone, reach } = current
@@ -36,7 +37,7 @@ export default ({ current }) => {
             />
             <PropertyWithValue
               title="Alcance"
-              value={reach}
+              value={translateReach(reach)}
               style={{ marginTop: 16 }}
             />
           </CardContent>
