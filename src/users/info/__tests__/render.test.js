@@ -3,6 +3,10 @@ import renderer from 'react-test-renderer'
 
 import render from '../render'
 
+jest.mock('react-router-dom/Link', () => props => (
+  <div {...props}>{props.children}</div>
+))
+
 jest.mock('../Avatar', () => props => <div {...props}>Avatar</div>)
 jest.mock('../Album', () => props => <div {...props}>Album</div>)
 

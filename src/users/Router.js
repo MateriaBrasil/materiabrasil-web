@@ -1,7 +1,9 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import Route from 'react-router-dom/Route'
+import Switch from 'react-router-dom/Switch'
 
 import renderInfo from './renderInfo'
+import renderEdit from './renderEdit'
 import renderImageUpload from '../imageUpload/render'
 
 export default props => {
@@ -9,10 +11,11 @@ export default props => {
   const { id } = currentUser || {}
 
   return (
-    <Fragment>
+    <Switch>
       <Route exact path="/users/:id" render={renderInfo(props)} />
-      <Route path="/profile" render={renderInfo({ ...props, id })} />
+      <Route exact path="/profile/edit" render={renderEdit({ ...props, id })} />
       <Route exact path="/profile/avatar" render={renderImageUpload(props)} />
-    </Fragment>
+      <Route path="/profile" render={renderInfo({ ...props, id })} />
+    </Switch>
   )
 }

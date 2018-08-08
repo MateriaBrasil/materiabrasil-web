@@ -19,8 +19,7 @@ exports[`renders correctly 1`] = `
         >
           Avatar
         </div>
-        <h1
-          className="MuiTypography-root-121 MuiTypography-display1-125"
+        <div
           style={
             Object {
               "display": "inline-block",
@@ -28,8 +27,21 @@ exports[`renders correctly 1`] = `
             }
           }
         >
-          foo-name foo-last
-        </h1>
+          <h1
+            className="MuiTypography-root-121 MuiTypography-display1-125"
+          >
+            foo-name foo-last
+          </h1>
+          <div
+            to="/profile/edit"
+          >
+            <h3
+              className="MuiTypography-root-121 MuiTypography-subheading-128"
+            >
+              Editar perfil
+            </h3>
+          </div>
+        </div>
       </div>
     </div>
   </div>
