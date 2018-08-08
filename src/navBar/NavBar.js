@@ -5,16 +5,13 @@ import Toolbar from '@material-ui/core/Toolbar'
 
 import Links from './Links'
 import Logo from './Logo'
-import SignIn from './SignIn'
 
 export default withRouter(props => {
-  const { currentUser } = props
-
   return (
     <AppBar position="static" color="inherit" elevation={0}>
       <Toolbar>
         <Logo />
-        {currentUser ? <Links {...props} /> : <SignIn {...props} />}
+        <Links {...props} />
       </Toolbar>
     </AppBar>
   )

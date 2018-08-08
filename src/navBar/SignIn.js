@@ -4,13 +4,21 @@ import Typography from '@material-ui/core/Typography'
 
 export default ({ location: { pathname } }) => (
   <Link
+    className="navbar-link"
     to={{
       pathname: '/auth/sign-in',
       state: { referrer: pathname },
     }}
-    style={{ textDecoration: 'none', color: 'black' }}
+    style={{
+      textDecoration: 'none',
+      color: 'black',
+    }}
   >
-    <Typography variant="subheading" color="inherit">
+    <Typography
+      variant="subheading"
+      color="inherit"
+      style={{ display: 'inline-block', alignSelf: 'center' }}
+    >
       Entrar
     </Typography>
   </Link>
