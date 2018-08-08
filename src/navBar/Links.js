@@ -7,12 +7,11 @@ export default props => {
   const { currentUser } = props
   const { firstName, lastName, suppliers } = currentUser
   const name = `${firstName} ${lastName}`
-  const supplier = suppliers[0]
 
   return (
     <div>
-      {supplier ? (
-        <Link to={`/suppliers/${supplier.id}`} text={supplier.name} />
+      {suppliers && suppliers.length > 0 ? (
+        <Link to={`/suppliers/${suppliers[0].id}`} text={suppliers[0].name} />
       ) : (
         <Link to={`/suppliers/new`} text="Cadastrar fornecedor" />
       )}

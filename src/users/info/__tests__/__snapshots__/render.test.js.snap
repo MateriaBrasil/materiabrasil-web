@@ -44,7 +44,7 @@ exports[`renders correctly 1`] = `
         title="Email"
         value={undefined}
       >
-        TitleWithValue
+        PropertyWithValue
       </div>
       <div
         style={
@@ -55,7 +55,7 @@ exports[`renders correctly 1`] = `
         title="Website"
         value={undefined}
       >
-        TitleWithValue
+        PropertyWithValue
       </div>
     </div>
   </div>
@@ -77,7 +77,7 @@ exports[`renders correctly 1`] = `
           title="Bio"
           value={undefined}
         >
-          TitleWithValue
+          PropertyWithValue
         </div>
         <div
           style={
@@ -88,7 +88,7 @@ exports[`renders correctly 1`] = `
           title="Organização"
           value={undefined}
         >
-          TitleWithValue
+          PropertyWithValue
         </div>
         <div
           style={
@@ -99,7 +99,7 @@ exports[`renders correctly 1`] = `
           title="Cargo"
           value={undefined}
         >
-          TitleWithValue
+          PropertyWithValue
         </div>
         <div
           style={
@@ -110,7 +110,7 @@ exports[`renders correctly 1`] = `
           title="Cidade"
           value={undefined}
         >
-          TitleWithValue
+          PropertyWithValue
         </div>
         <div
           style={
@@ -121,7 +121,7 @@ exports[`renders correctly 1`] = `
           title="Estado"
           value={undefined}
         >
-          TitleWithValue
+          PropertyWithValue
         </div>
         <div
           style={
@@ -132,7 +132,7 @@ exports[`renders correctly 1`] = `
           title="País"
           value={undefined}
         >
-          TitleWithValue
+          PropertyWithValue
         </div>
       </div>
     </div>
