@@ -1,7 +1,6 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Route from 'react-router-dom/Route'
 
-import Children from '../Children'
 import renderInfo from './renderInfo'
 import renderImageUpload from '../imageUpload/render'
 
@@ -10,10 +9,10 @@ export default props => {
   const { id } = currentUser || {}
 
   return (
-    <Children>
+    <Fragment>
       <Route exact path="/users/:id" render={renderInfo(props)} />
       <Route path="/profile" render={renderInfo({ ...props, id })} />
       <Route exact path="/profile/avatar" render={renderImageUpload(props)} />
-    </Children>
+    </Fragment>
   )
 }
