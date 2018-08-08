@@ -1,9 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 import Link from 'react-router-dom/Link'
 import Grid from '@material-ui/core/Grid'
 import Ratio from 'react-ratio'
 
-import Children from '../../Children'
 import TitleBar from './TitleBar'
 import NewFavorite from '../../favorites/New'
 import TechnicalSpecification from './TechnicalSpecification'
@@ -32,13 +31,13 @@ export default class extends Component {
 
             const cols = ignoreHighlights ? 1 : highlighted ? 2 : 1
             const actionIcon = currentUser ? (
-              <Children>
+              <Fragment>
                 <NewFavorite id={id} style={{ color: 'white' }} />
                 <TechnicalSpecification
                   {...material}
                   style={{ color: 'white', marginRight: 16 }}
                 />
-              </Children>
+              </Fragment>
             ) : (
               <TechnicalSpecification
                 {...material}
