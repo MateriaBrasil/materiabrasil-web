@@ -5,12 +5,17 @@ import Link from './Link'
 
 export default props => {
   const { currentUser } = props
-  const { firstName, lastName } = currentUser
+  const { firstName, lastName, suppliers } = currentUser
   const name = `${firstName} ${lastName}`
+  const supplier = suppliers[0]
 
   return (
     <div>
-      <Link to={`/suppliers/new`} text="Cadastrar fornecedor" />
+      {supplier ? (
+        <Link to={`/suppliers/${supplier.id}`} text={supplier.name} />
+      ) : (
+        <Link to={`/suppliers/new`} text="Cadastrar fornecedor" />
+      )}
       <Link to={`/profile`} text={name} />
       <SignOut {...props} />
     </div>

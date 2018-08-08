@@ -2,7 +2,7 @@ import React from 'react'
 import Typography from '@material-ui/core/Typography'
 
 export default ({ title, value, ...props }) =>
-  value && (
+  value ? (
     <div {...props}>
       <Typography variant="title" style={{ display: 'inline-block' }}>
         {title}:
@@ -11,4 +11,4 @@ export default ({ title, value, ...props }) =>
         {value}
       </Typography>
     </div>
-  )
+  ) : null
