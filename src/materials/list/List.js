@@ -3,9 +3,9 @@ import Link from 'react-router-dom/Link'
 import Grid from '@material-ui/core/Grid'
 import Ratio from 'react-ratio'
 
-import TitleBar from './TitleBar'
 import NewFavorite from '../../favorites/New'
 import TechnicalSpecification from './TechnicalSpecification'
+import TitleBar from './TitleBar'
 
 export default class extends Component {
   componentDidUpdate(prevProps) {
@@ -30,20 +30,6 @@ export default class extends Component {
             const image = highlighted ? highlightImageUrl : listImageUrl
 
             const cols = ignoreHighlights ? 1 : highlighted ? 2 : 1
-            const actionIcon = currentUser ? (
-              <Fragment>
-                <NewFavorite id={id} style={{ color: 'white' }} />
-                <TechnicalSpecification
-                  {...material}
-                  style={{ color: 'white', marginRight: 16 }}
-                />
-              </Fragment>
-            ) : (
-              <TechnicalSpecification
-                {...material}
-                style={{ color: 'white', marginRight: 16 }}
-              />
-            )
 
             return (
               <Grid key={id} item xs={6 * cols}>
@@ -58,8 +44,22 @@ export default class extends Component {
                       alt={name}
                       style={{ width: '100%' }}
                     />
-                    <TitleBar material={material} actionIcon={actionIcon} />
                   </Link>
+                  <TitleBar
+                    {...this.props}
+                    material={material}
+                    renderIcons={() => (
+                      <Fragment>
+                        {currentUser && (
+                          <NewFavorite id={id} style={{ color: 'white' }} />
+                        )}
+                        <TechnicalSpecification
+                          {...material}
+                          style={{ color: 'white', marginRight: 16 }}
+                        />
+                      </Fragment>
+                    )}
+                  />
                 </Ratio>
               </Grid>
             )

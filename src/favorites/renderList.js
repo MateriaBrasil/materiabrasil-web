@@ -10,9 +10,8 @@ export default ({ showDestroy }) => list => (
   <GridList cellHeight={360}>
     {list.map(({ id, favoritable, destroying }, index) => {
       const { id: favoritableId, name, imageUrl } = favoritable
-      const actionIcon = showDestroy ? (
-        <Destroy id={id} destroying={destroying} />
-      ) : null
+      const renderIcons =
+        showDestroy && (() => <Destroy id={id} destroying={destroying} />)
 
       return (
         <GridListTile key={id}>
@@ -23,7 +22,7 @@ export default ({ showDestroy }) => list => (
               style={{ width: '100%', objectFit: 'cover', height: 360 }}
             />
           </Link>
-          <TitleBar material={favoritable} actionIcon={actionIcon} />
+          <TitleBar material={favoritable} renderIcons={renderIcons} />
         </GridListTile>
       )
     })}

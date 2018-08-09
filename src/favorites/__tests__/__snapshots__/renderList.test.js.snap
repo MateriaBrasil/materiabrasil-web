@@ -39,29 +39,48 @@ exports[`with showDestroy renders correctly 1`] = `
         />
       </div>
       <div
-        className="MuiGridListTileBar-root-6 MuiGridListTileBar-titlePositionBottom-7 MuiGridListTileBar-rootSubtitle-9"
+        style={
+          Object {
+            "background": "rgba(0, 0, 0, 0.6)",
+            "bottom": 0,
+            "color": "white",
+            "height": 90,
+            "left": 0,
+            "padding": 20,
+            "position": "absolute",
+            "right": 0,
+          }
+        }
       >
         <div
-          className="MuiGridListTileBar-titleWrap-10 MuiGridListTileBar-titleWrapActionPosRight-12"
+          style={
+            Object {
+              "float": "left",
+            }
+          }
         >
           <div
-            className="MuiGridListTileBar-title-13"
-          />
-          <div
-            className="MuiGridListTileBar-subtitle-14"
-          >
-            <div
-              style={
-                Object {
-                  "color": "white",
-                  "display": "inline-block",
-                }
+            style={
+              Object {
+                "color": "white",
+                "display": "block",
+                "textDecoration": "none",
               }
+            }
+            to="/undefined"
+          >
+            Link - 
+            <h3
+              className="MuiTypography-root-6 MuiTypography-subheading-13 MuiTypography-colorInherit-25"
             />
           </div>
         </div>
         <div
-          className="MuiGridListTileBar-actionIcon-15"
+          style={
+            Object {
+              "float": "right",
+            }
+          }
         >
           <div
             destroying={true}
@@ -103,29 +122,48 @@ exports[`with showDestroy renders correctly 1`] = `
         />
       </div>
       <div
-        className="MuiGridListTileBar-root-6 MuiGridListTileBar-titlePositionBottom-7 MuiGridListTileBar-rootSubtitle-9"
+        style={
+          Object {
+            "background": "rgba(0, 0, 0, 0.6)",
+            "bottom": 0,
+            "color": "white",
+            "height": 90,
+            "left": 0,
+            "padding": 20,
+            "position": "absolute",
+            "right": 0,
+          }
+        }
       >
         <div
-          className="MuiGridListTileBar-titleWrap-10 MuiGridListTileBar-titleWrapActionPosRight-12"
+          style={
+            Object {
+              "float": "left",
+            }
+          }
         >
           <div
-            className="MuiGridListTileBar-title-13"
-          />
-          <div
-            className="MuiGridListTileBar-subtitle-14"
-          >
-            <div
-              style={
-                Object {
-                  "color": "white",
-                  "display": "inline-block",
-                }
+            style={
+              Object {
+                "color": "white",
+                "display": "block",
+                "textDecoration": "none",
               }
+            }
+            to="/undefined"
+          >
+            Link - 
+            <h3
+              className="MuiTypography-root-6 MuiTypography-subheading-13 MuiTypography-colorInherit-25"
             />
           </div>
         </div>
         <div
-          className="MuiGridListTileBar-actionIcon-15"
+          style={
+            Object {
+              "float": "right",
+            }
+          }
         >
           <div
             destroying={false}
@@ -179,24 +217,39 @@ exports[`without showDestroy renders correctly 1`] = `
         />
       </div>
       <div
-        className="MuiGridListTileBar-root-6 MuiGridListTileBar-titlePositionBottom-7 MuiGridListTileBar-rootSubtitle-9"
+        style={
+          Object {
+            "background": "rgba(0, 0, 0, 0.6)",
+            "bottom": 0,
+            "color": "white",
+            "height": 90,
+            "left": 0,
+            "padding": 20,
+            "position": "absolute",
+            "right": 0,
+          }
+        }
       >
         <div
-          className="MuiGridListTileBar-titleWrap-10"
+          style={
+            Object {
+              "float": "left",
+            }
+          }
         >
           <div
-            className="MuiGridListTileBar-title-13"
-          />
-          <div
-            className="MuiGridListTileBar-subtitle-14"
-          >
-            <div
-              style={
-                Object {
-                  "color": "white",
-                  "display": "inline-block",
-                }
+            style={
+              Object {
+                "color": "white",
+                "display": "block",
+                "textDecoration": "none",
               }
+            }
+            to="/undefined"
+          >
+            Link - 
+            <h3
+              className="MuiTypography-root-6 MuiTypography-subheading-13 MuiTypography-colorInherit-25"
             />
           </div>
         </div>
@@ -233,24 +286,39 @@ exports[`without showDestroy renders correctly 1`] = `
         />
       </div>
       <div
-        className="MuiGridListTileBar-root-6 MuiGridListTileBar-titlePositionBottom-7 MuiGridListTileBar-rootSubtitle-9"
+        style={
+          Object {
+            "background": "rgba(0, 0, 0, 0.6)",
+            "bottom": 0,
+            "color": "white",
+            "height": 90,
+            "left": 0,
+            "padding": 20,
+            "position": "absolute",
+            "right": 0,
+          }
+        }
       >
         <div
-          className="MuiGridListTileBar-titleWrap-10"
+          style={
+            Object {
+              "float": "left",
+            }
+          }
         >
           <div
-            className="MuiGridListTileBar-title-13"
-          />
-          <div
-            className="MuiGridListTileBar-subtitle-14"
-          >
-            <div
-              style={
-                Object {
-                  "color": "white",
-                  "display": "inline-block",
-                }
+            style={
+              Object {
+                "color": "white",
+                "display": "block",
+                "textDecoration": "none",
               }
+            }
+            to="/undefined"
+          >
+            Link - 
+            <h3
+              className="MuiTypography-root-6 MuiTypography-subheading-13 MuiTypography-colorInherit-25"
             />
           </div>
         </div>
