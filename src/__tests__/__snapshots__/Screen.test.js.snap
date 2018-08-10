@@ -64,22 +64,56 @@ exports[`renders correctly 1`] = `
           </h1>
         </a>
       </div>
-      <a
-        href="/auth/sign-in"
-        onClick={[Function]}
-        style={
-          Object {
-            "color": "black",
-            "textDecoration": "none",
+      <div>
+        <a
+          className="navbar-link"
+          href="/auth/sign-up"
+          onClick={[Function]}
+          style={
+            Object {
+              "color": "black",
+              "marginLeft": 20,
+              "marginRight": 20,
+              "textDecoration": "none",
+            }
           }
-        }
-      >
-        <h3
-          className="MuiTypography-root-38 MuiTypography-subheading-45 MuiTypography-colorInherit-57"
         >
-          Entrar
-        </h3>
-      </a>
+          <h3
+            className="MuiTypography-root-38 MuiTypography-subheading-45 MuiTypography-colorInherit-57"
+            style={
+              Object {
+                "alignSelf": "center",
+                "display": "inline-block",
+              }
+            }
+          >
+            Cadastrar fornecedor
+          </h3>
+        </a>
+        <a
+          className="navbar-link"
+          href="/auth/sign-in"
+          onClick={[Function]}
+          style={
+            Object {
+              "color": "black",
+              "textDecoration": "none",
+            }
+          }
+        >
+          <h3
+            className="MuiTypography-root-38 MuiTypography-subheading-45 MuiTypography-colorInherit-57"
+            style={
+              Object {
+                "alignSelf": "center",
+                "display": "inline-block",
+              }
+            }
+          >
+            Entrar
+          </h3>
+        </a>
+      </div>
     </div>
   </header>
   <div

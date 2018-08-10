@@ -8,6 +8,9 @@ import Error from '../../Error'
 import TextField from '../../form/TextField'
 import SelectField from '../../form/SelectField'
 
+import parseValue from './parseValue'
+import formatValue from './formatValue'
+
 export default reduxForm({ form: 'suppliers' })(props => {
   const { handleSubmit, onSubmit, error: reduxFormError, createError } = props
   const { submitting } = props
@@ -80,8 +83,9 @@ export default reduxForm({ form: 'suppliers' })(props => {
           name="number_of_employees"
           label="Quantidade de funcionários"
           type="number"
-          parse={value => value && parseInt(value, 10)}
-          format={value => value && value.toString()}
+          parse={parseValue}
+          format={formatValue}
+          validate={[required()]}
         />
         <SelectField
           name="reach"

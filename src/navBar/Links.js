@@ -1,6 +1,5 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
-import Children from '../Children'
 import SignOut from '../auth/signOut/SignOut'
 import SignIn from './SignIn'
 import Link from './Link'
@@ -13,7 +12,7 @@ export default props => {
   return (
     <div>
       {currentUser ? (
-        <Children>
+        <Fragment>
           {suppliers && suppliers.length > 0 ? (
             <Link
               to={`/suppliers/${suppliers[0].id}`}
@@ -24,9 +23,9 @@ export default props => {
           )}
           <Link to={`/profile`} text={name} />
           <SignOut {...props} />
-        </Children>
+        </Fragment>
       ) : (
-        <Children>
+        <Fragment>
           <Link
             to={{
               pathname: '/auth/sign-up',
@@ -35,7 +34,7 @@ export default props => {
             text="Cadastrar fornecedor"
           />
           <SignIn {...props} />
-        </Children>
+        </Fragment>
       )}
     </div>
   )
