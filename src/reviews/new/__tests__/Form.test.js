@@ -30,3 +30,20 @@ it('renders correctly', () => {
     .toJSON()
   expect(tree).toMatchSnapshot()
 })
+
+describe('with error', () => {
+  it('renders correctly', () => {
+    const reducer = () => ({})
+    const store = createStore(reducer)
+    const onSubmit = jest.fn()
+
+    const tree = renderer
+      .create(
+        <Provider store={store}>
+          <Form onSubmit={onSubmit} createError="foo error" />
+        </Provider>,
+      )
+      .toJSON()
+    expect(tree).toMatchSnapshot()
+  })
+})

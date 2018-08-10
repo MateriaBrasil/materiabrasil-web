@@ -10,6 +10,7 @@ import Error from '../../Error'
 import TextField from '../../form/TextField'
 
 import Rating from './Rating'
+import onChange from './onChange'
 
 class Form extends Component {
   render() {
@@ -20,7 +21,7 @@ class Form extends Component {
     return (
       <form onSubmit={handleSubmit(onSubmit)}>
         <DialogContent>
-          <Rating onChange={value => change('rating', value)} />
+          <Rating onChange={onChange(change)} />
           <Field component="input" type="hidden" name="rating" />
           <TextField
             name="text"
