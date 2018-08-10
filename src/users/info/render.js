@@ -13,6 +13,7 @@ export default props => infoProps => {
   const { currentUser } = props
   const { id, firstName, lastName, albums, email, website } = infoProps
   const { city, state, country, company, workTitle, bio } = infoProps
+  const { imageUrl } = infoProps
   const name = `${firstName} ${lastName}`
   const album = albums[0]
   const editable = currentUser && currentUser.id === id
@@ -20,7 +21,7 @@ export default props => infoProps => {
   return (
     <Grid container spacing={24}>
       <Grid item xs={4}>
-        <Avatar name={name} editable={editable} />
+        <Avatar name={name} editable={editable} imageUrl={imageUrl} />
         <div style={{ marginTop: 30 }}>
           <Typography variant="display1">{name}</Typography>
           {editable && (

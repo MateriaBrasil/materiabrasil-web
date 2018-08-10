@@ -2,29 +2,23 @@ import React, { Component } from 'react'
 import Dropzone from 'react-dropzone'
 import AvatarEditor from 'react-avatar-editor'
 import Typography from '@material-ui/core/Typography'
-import IconButton from '@material-ui/core/IconButton'
-import ZoomInIcon from '@material-ui/icons/ZoomIn'
-import ZoomOutIcon from '@material-ui/icons/ZoomOut'
-import { canvasToBlob, blobToBinaryString } from 'blob-util'
-import md5 from 'md5'
-import AWS from 'aws-sdk'
 
 import theme from '../theme'
 import Dialog from './Dialog'
-
-const title = 'Arraste uma imagem ou clique para escolher o arquivo.'
-
-const parseCanvas = async canvas => {
-  const blob = await canvasToBlob(canvas, 'image/jpeg')
-  return { md5: md5(await blobToBinaryString(blob)), blob }
-}
+import ZoomControls from './ZoomControls'
+import handleUpload from './s3upload/handleUpload'
 
 export default class extends Component {
   constructor(props) {
     super(props)
 
-    this.state = { file: null, scale: 1, position: { x: 0.5, y: 0.5 } }
-    this.onUpload = this.handleUpload.bind(this)
+    this.state = {
+      file: null,
+      scale: 1,
+      position: { x: 0.5, y: 0.5 },
+      uploading: false,
+    }
+    this.onUpload = handleUpload.bind(this)
     this.setEditor = this.handleSetEditor.bind(this)
   }
 
@@ -32,40 +26,20 @@ export default class extends Component {
     this.editor = editor
   }
 
-  async handleUpload() {
-    const image = await parseCanvas(this.editor.getImage())
-    // const thumbnail = await parseCanvas(this.editor.getImageScaledToCanvas())
-
-    AWS.config.update({
-      region: process.env.REACT_APP_AWS_REGION,
-      credentials: new AWS.CognitoIdentityCredentials({
-        IdentityPoolId: `${process.env.REACT_APP_AWS_REGION}:${
-          process.env.REACT_APP_AWS_IDENTITY_POOL_ID
-        }`,
-      }),
-    })
-
-    var s3 = new AWS.S3({
-      params: { Bucket: process.env.REACT_APP_AWS_BUCKET_NAME },
-    })
-
-    s3.upload(
-      {
-        Key: `uploads//${image.md5}.jpg`,
-        Body: image.blob,
-        ACL: 'public-read',
-      },
-      function(err, data) {
-        console.log('upload', err, data)
-      },
-    )
-  }
-
   render() {
     const { file, scale, position } = this.state
+    const { update, updating, id, title } = this.props
 
     return (
-      <Dialog {...this.props} onUpload={this.onUpload} disabled={!file}>
+      <Dialog
+        {...this.props}
+        onUpload={() => {
+          this.setState({ uploading: true })
+          this.onUpload({ editorImage: this.editor.getImage(), update, id })
+        }}
+        disabled={!file || updating || this.state.uploading}
+        uploading={this.state.uploading}
+      >
         <Dropzone
           accept="image/*"
           multiple={false}
@@ -102,26 +76,18 @@ export default class extends Component {
           )}
         </Dropzone>
         {file && (
-          <div style={{ textAlign: 'center', marginTop: 20 }}>
-            <IconButton
-              onClick={() =>
-                this.setState(({ scale }) => ({
-                  scale: scale > 1 ? scale - 0.1 : scale,
-                }))
-              }
-            >
-              <ZoomOutIcon />
-            </IconButton>
-            <IconButton
-              onClick={() =>
-                this.setState(({ scale }) => ({
-                  scale: scale + 0.1,
-                }))
-              }
-            >
-              <ZoomInIcon />
-            </IconButton>
-          </div>
+          <ZoomControls
+            onZoomOut={() =>
+              this.setState(({ scale }) => ({
+                scale: scale > 1 ? scale - 0.1 : scale,
+              }))
+            }
+            onZoomIn={() =>
+              this.setState(({ scale }) => ({
+                scale: scale + 0.1,
+              }))
+            }
+          />
         )}
       </Dialog>
     )

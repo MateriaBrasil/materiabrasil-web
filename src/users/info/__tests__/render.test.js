@@ -9,6 +9,9 @@ jest.mock('react-router-dom/Link', () => props => (
 
 jest.mock('../Avatar', () => props => <div {...props}>Avatar</div>)
 jest.mock('../Album', () => props => <div {...props}>Album</div>)
+jest.mock('../TitleWithValue', () => props => (
+  <div {...props}>TitleWithValue</div>
+))
 
 it('renders correctly', () => {
   const props = { currentUser: { id: 1234 } }

@@ -2,11 +2,8 @@
 
 exports[`renders correctly 1`] = `
 <div
-  id={undefined}
-  name="users"
-  render={[Function]}
-  renderUpdated={[Function]}
+  to="/profile"
 >
-  Edit - 
+  Redirect
 </div>
 `;

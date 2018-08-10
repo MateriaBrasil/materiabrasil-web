@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `null`;
+
+exports[`with title and value renders correctly 1`] = `
+<div>
+  <h2
+    className="MuiTypography-root-1 MuiTypography-title-7"
+    style={
+      Object {
+        "display": "inline-block",
+      }
+    }
+  >
+    foo
+    :
+  </h2>
+   
+  <h3
+    className="MuiTypography-root-1 MuiTypography-subheading-8"
+    style={
+      Object {
+        "display": "inline-block",
+      }
+    }
+  >
+    bar
+  </h3>
+</div>
+`;

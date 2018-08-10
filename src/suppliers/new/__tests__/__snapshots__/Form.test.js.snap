@@ -560,7 +560,7 @@ exports[`renders correctly 1`] = `
               required={undefined}
               rows={undefined}
               type="number"
-              value={undefined}
+              value={null}
             />
           </div>
           <p

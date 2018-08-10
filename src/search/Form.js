@@ -5,6 +5,7 @@ import Button from '@material-ui/core/Button'
 import SearchIcon from '@material-ui/icons/Search'
 
 import TextField from '../form/TextField'
+import onSubmit from './onSubmit'
 
 export default reduxForm({ form: 'search', destroyOnUnmount: false })(
   class extends Component {
@@ -19,11 +20,7 @@ export default reduxForm({ form: 'search', destroyOnUnmount: false })(
       const { handleSubmit, history, autoFocus } = this.props
 
       return (
-        <form
-          onSubmit={handleSubmit(values =>
-            history.push(`/search/${values.term || ''}`),
-          )}
-        >
+        <form onSubmit={handleSubmit(onSubmit(history))}>
           <Grid container spacing={0}>
             <Grid item xs>
               <TextField

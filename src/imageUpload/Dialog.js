@@ -7,12 +7,13 @@ import withMobileDialog from '@material-ui/core/withMobileDialog'
 import Link from 'react-router-dom/Link'
 import Button from '@material-ui/core/Button'
 
+import Loading from '../Loading'
 import closeDialog from './closeDialog'
 
 export default withMobileDialog()(
   class extends Component {
     render() {
-      const { fullScreen, disabled, onUpload, children } = this.props
+      const { fullScreen, disabled, onUpload, children, uploading } = this.props
       const handleCloseDialog = closeDialog(this.props)
 
       return (
@@ -27,6 +28,7 @@ export default withMobileDialog()(
         >
           <DialogTitle id="responsive-dialog-title">Alterar imagem</DialogTitle>
           <DialogContent>{children}</DialogContent>
+          {uploading && <Loading />}
           <DialogActions>
             <Link to="/profile" style={{ textDecoration: 'none' }}>
               <Button color="primary">Cancelar</Button>
