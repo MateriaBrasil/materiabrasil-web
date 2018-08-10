@@ -63,13 +63,7 @@ export default class extends Component {
         Body: image.blob,
         ACL: 'public-read',
       },
-      function(err, data) {
-        if (err) {
-          console.log(err)
-        } else {
-          update({ id, imageUrl: data.Location })
-        }
-      },
+      (err, data) => err || update({ id, imageUrl: data.Location }),
     )
   }
 
