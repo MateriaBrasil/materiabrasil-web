@@ -21,7 +21,7 @@ export default reduxForm({ form: 'suppliers' })(props => {
       <form onSubmit={handleSubmit(onSubmit)}>
         <TextField
           name="name"
-          label="Nome"
+          label="Nome da empresa"
           type="text"
           validate={[required()]}
         />
@@ -78,7 +78,6 @@ export default reduxForm({ form: 'suppliers' })(props => {
           name="company_revenue"
           label="Faturamento aproximado do último exercício"
           type="text"
-          validate={[required()]}
         />
         <TextField
           name="number_of_employees"
@@ -91,7 +90,6 @@ export default reduxForm({ form: 'suppliers' })(props => {
         <SelectField
           name="reach"
           label="Alcance"
-          validate={[required()]}
           options={[
             { value: 'city', label: 'Cidade' },
             { value: 'state', label: 'Estado' },

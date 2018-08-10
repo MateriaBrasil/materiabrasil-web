@@ -7,7 +7,7 @@ import CardContent from '@material-ui/core/CardContent'
 
 import Avatar from './Avatar'
 import Album from './Album'
-import TitleWithValue from './TitleWithValue'
+import PropertyWithValue from '../../PropertyWithValue'
 
 export default props => infoProps => {
   const { currentUser } = props
@@ -29,12 +29,12 @@ export default props => infoProps => {
               <Typography variant="subheading">Editar perfil</Typography>
             </Link>
           )}
-          <TitleWithValue
+          <PropertyWithValue
             title="Email"
             value={email}
             style={{ marginTop: 32 }}
           />
-          <TitleWithValue
+          <PropertyWithValue
             title="Website"
             value={website}
             style={{ marginTop: 16 }}
@@ -44,28 +44,32 @@ export default props => infoProps => {
       <Grid item xs={8}>
         <Card>
           <CardContent>
-            <TitleWithValue title="Bio" value={bio} style={{ marginTop: 16 }} />
-            <TitleWithValue
+            <PropertyWithValue
+              title="Bio"
+              value={bio}
+              style={{ marginTop: 16 }}
+            />
+            <PropertyWithValue
               title="Organização"
               value={company}
               style={{ marginTop: 16 }}
             />
-            <TitleWithValue
+            <PropertyWithValue
               title="Cargo"
               value={workTitle}
               style={{ marginTop: 16 }}
             />
-            <TitleWithValue
+            <PropertyWithValue
               title="Cidade"
               value={city}
               style={{ marginTop: 16 }}
             />
-            <TitleWithValue
+            <PropertyWithValue
               title="Estado"
               value={state}
               style={{ marginTop: 16 }}
             />
-            <TitleWithValue
+            <PropertyWithValue
               title="País"
               value={country}
               style={{ marginTop: 16 }}

@@ -27,7 +27,7 @@ exports[`renders correctly 1`] = `
             data-shrink={false}
             htmlFor="name-error"
           >
-            Nome
+            Nome da empresa
           </label>
           <div
             className="MuiInput-root-106 MuiInput-formControl-107 MuiInput-underline-110"
