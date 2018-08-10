@@ -85,7 +85,6 @@ export default reduxForm({ form: 'suppliers' })(props => {
           type="number"
           parse={parseValue}
           format={formatValue}
-          validate={[required()]}
         />
         <SelectField
           name="reach"
