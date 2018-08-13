@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  id={1234}
+  name="suppliers"
+>
+  Edit - 
+  <div
+    foo="bar"
+    id={1234}
+    match={
+      Object {
+        "params": Object {
+          "id": 1234,
+        },
+      }
+    }
+    name="suppliers"
+    redirectUrl="/suppliers/1234"
+  >
+    renderImageupload
+  </div>
+</div>
+`;
