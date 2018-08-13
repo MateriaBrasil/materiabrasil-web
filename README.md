@@ -38,6 +38,12 @@ You can check that it worked by browsing `localhost:3000`.
 ```
 $ yarn test
 ```
+
+#### Running tests with coverage report
+```
+$ yarn test --coverage
+```
+
 The coverage will be available on the `coverage/` folder. Open `coverage/lcov-report/index.html` on your browser to see details.
 
 
