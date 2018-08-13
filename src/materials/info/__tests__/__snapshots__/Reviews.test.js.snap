@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "marginBottom": 20,
+    }
+  }
+>
+  <div
+    rating={undefined}
+  >
+    Rating
+  </div>
+  <div
+    style={
+      Object {
+        "color": "black",
+        "textDecoration": "none",
+      }
+    }
+    to={
+      Object {
+        "pathname": "/auth/sign-up",
+        "state": Object {
+          "referrer": "/undefined/reviews/new",
+        },
+      }
+    }
+  >
+    Link - 
+    <button
+      className="MuiButtonBase-root-17 MuiButton-root-1"
+      disabled={false}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "marginTop": -10,
+        }
+      }
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-2"
+      >
+        Avaliar
+      </span>
+      <span
+        className="MuiTouchRipple-root-20"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`with averageRating renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "marginBottom": 20,
+    }
+  }
+>
+  <div
+    rating="123"
+  >
+    Rating
+  </div>
+  <div
+    style={
+      Object {
+        "color": "black",
+        "textDecoration": "none",
+      }
+    }
+    to={
+      Object {
+        "pathname": "/auth/sign-up",
+        "state": Object {
+          "referrer": "/undefined/reviews/new",
+        },
+      }
+    }
+  >
+    Link - 
+    <button
+      className="MuiButtonBase-root-17 MuiButton-root-1"
+      disabled={false}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "marginTop": -10,
+        }
+      }
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-2"
+      >
+        Avaliar
+      </span>
+      <span
+        className="MuiTouchRipple-root-20"
+      />
+    </button>
+  </div>
+  <div
+    style={
+      Object {
+        "color": "black",
+        "textDecoration": "none",
+      }
+    }
+    to="/undefined/reviews"
+  >
+    Link - 
+    <button
+      className="MuiButtonBase-root-17 MuiButton-root-1"
+      disabled={false}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "marginTop": -10,
+        }
+      }
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-2"
+      >
+        Ver avaliações
+      </span>
+      <span
+        className="MuiTouchRipple-root-20"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`with current user renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "marginBottom": 20,
+    }
+  }
+>
+  <div
+    rating={undefined}
+  >
+    Rating
+  </div>
+  <div
+    style={
+      Object {
+        "color": "black",
+        "textDecoration": "none",
+      }
+    }
+    to="/undefined/reviews/new"
+  >
+    Link - 
+    <button
+      className="MuiButtonBase-root-17 MuiButton-root-1"
+      disabled={false}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "marginTop": -10,
+        }
+      }
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-2"
+      >
+        Avaliar
+      </span>
+      <span
+        className="MuiTouchRipple-root-20"
+      />
+    </button>
+  </div>
+</div>
+`;

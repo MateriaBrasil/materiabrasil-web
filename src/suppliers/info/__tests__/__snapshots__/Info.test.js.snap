@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="MuiGrid-container-1 MuiGrid-spacing-xs-16-23"
+>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-4-44"
+  >
+    <h1
+      className="MuiTypography-root-92 MuiTypography-display1-96"
+      style={
+        Object {
+          "marginBottom": 16,
+        }
+      }
+    />
+  </div>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-8-48"
+  >
+    <div
+      className="MuiPaper-root-117 MuiPaper-elevation2-121 MuiPaper-rounded-118 MuiCard-root-116"
+    >
+      <div
+        className="MuiCardContent-root-144"
+      />
+    </div>
+  </div>
+</div>
+`;

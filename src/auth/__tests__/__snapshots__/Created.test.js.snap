@@ -7,3 +7,11 @@ exports[`renders correctly 1`] = `
   Redirect
 </div>
 `;
+
+exports[`with referrer renders correctly 1`] = `
+<div
+  to="/"
+>
+  Redirect
+</div>
+`;
