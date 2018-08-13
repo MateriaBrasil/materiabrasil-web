@@ -30,9 +30,7 @@ export default withMobileDialog()(
           <DialogContent>{children}</DialogContent>
           {uploading && <Loading />}
           <DialogActions>
-            <Link to="/profile" style={{ textDecoration: 'none' }}>
-              <Button color="primary">Cancelar</Button>
-            </Link>
+            <Button onClick={handleCloseDialog} color="primary">Cancelar</Button>
             <Button disabled={disabled} color="primary" onClick={onUpload}>
               Salvar
             </Button>
