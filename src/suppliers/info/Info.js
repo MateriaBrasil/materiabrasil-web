@@ -8,9 +8,9 @@ import PropertyWithValue from '../../PropertyWithValue'
 import translateReach from './translateReach'
 import Avatar from '../../imageUpload/Avatar'
 
-export default ({ current }) => {
-  const { id, name, description, email, phone, reach, imageUrl } = current
-  const editable = `/suppliers/${id}/avatar`
+export default ({ current, currentUser }) => {
+  const { id, name, description, email, phone, reach, imageUrl, userId } = current
+  const editable = userId === currentUser.id && `/suppliers/${id}/avatar`
 
   return (
     <Grid container spacing={16}>
