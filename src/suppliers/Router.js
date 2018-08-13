@@ -3,7 +3,6 @@ import Route from 'react-router-dom/Route'
 import Switch from 'react-router-dom/Switch'
 
 import renderNew from './renderNew'
-import renderEdit from './renderEdit'
 import renderInfo from './renderInfo'
 import renderImageUpload from './renderImageUpload'
 
