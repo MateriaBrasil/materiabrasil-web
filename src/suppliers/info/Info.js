@@ -6,13 +6,16 @@ import Typography from '@material-ui/core/Typography'
 
 import PropertyWithValue from '../../PropertyWithValue'
 import translateReach from './translateReach'
+import Avatar from '../../imageUpload/Avatar'
 
 export default ({ current }) => {
-  const { name, description, email, phone, reach } = current
+  const { id, name, description, email, phone, reach, imageUrl } = current
+  const editable = `/suppliers/${id}/avatar`
 
   return (
     <Grid container spacing={16}>
       <Grid item xs={12} sm={4}>
+        <Avatar name={name} editable={editable} imageUrl={imageUrl} />
         <Typography variant="display1" style={{ marginBottom: 16 }}>
           {name}
         </Typography>
