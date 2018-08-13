@@ -19,7 +19,6 @@ export default class extends Component {
       uploading: false,
     }
     this.onUpload = handleUpload.bind(this)
-    this.editor = React.createRef()
   }
 
   setEditor(editor) {
