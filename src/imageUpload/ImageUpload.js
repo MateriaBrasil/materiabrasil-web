@@ -19,26 +19,23 @@ export default class extends Component {
       uploading: false,
     }
     this.onUpload = handleUpload.bind(this)
-    this.setEditor = this.handleSetEditor.bind(this)
-  }
-
-  handleSetEditor(editor) {
-    this.editor = editor
+    this.editor = React.createRef()
   }
 
   render() {
-    const { file, scale, position } = this.state
+    const { file, scale, position, uploading } = this.state
     const { update, updating, id, title } = this.props
+    const { current: editorImage } = this.editor
 
     return (
       <Dialog
         {...this.props}
         onUpload={() => {
           this.setState({ uploading: true })
-          this.onUpload({ editorImage: this.editor.getImage(), update, id })
+          this.onUpload({ editorImage: editorImage.getImage(), update, id })
         }}
-        disabled={!file || updating || this.state.uploading}
-        uploading={this.state.uploading}
+        disabled={!file || updating || uploading}
+        uploading={uploading}
       >
         <Dropzone
           accept="image/*"
@@ -58,7 +55,7 @@ export default class extends Component {
         >
           {file ? (
             <AvatarEditor
-              ref={this.setEditor}
+              ref={this.editor}
               width={350}
               height={350}
               image={file.preview}
