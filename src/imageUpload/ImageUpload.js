@@ -22,17 +22,20 @@ export default class extends Component {
     this.editor = React.createRef()
   }
 
+  setEditor(editor) {
+    this.editor = editor
+  }
+
   render() {
     const { file, scale, position, uploading } = this.state
     const { update, updating, id, title } = this.props
-    const { current: editorImage } = this.editor
 
     return (
       <Dialog
         {...this.props}
         onUpload={() => {
           this.setState({ uploading: true })
-          this.onUpload({ editorImage: editorImage.getImage(), update, id })
+          this.onUpload({ editorImage: this.editor.getImage(), update, id })
         }}
         disabled={!file || updating || uploading}
         uploading={uploading}
@@ -48,14 +51,14 @@ export default class extends Component {
             width: 400,
             height: 400,
             margin: '0 auto',
-            cursor: 'pointer',
+            cursor: file ? 'move' : 'pointer',
           }}
           acceptStyle={{ border: `2px solid ${theme.palette.primary.main}` }}
           rejectStyle={{ border: `2px solid ${theme.palette.error.main}` }}
         >
           {file ? (
             <AvatarEditor
-              ref={this.editor}
+              ref={this.setEditor.bind(this)}
               width={350}
               height={350}
               image={file.preview}
