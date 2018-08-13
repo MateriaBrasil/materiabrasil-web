@@ -8,6 +8,7 @@ jest.mock('react-router-dom/Redirect', () => props => (
 ))
 
 it('renders correctly', () => {
-  const tree = renderer.create(renderUpdated()).toJSON()
+  const redirectUrl = '/foo/url'
+  const tree = renderer.create(renderUpdated(redirectUrl)()).toJSON()
   expect(tree).toMatchSnapshot()
 })
