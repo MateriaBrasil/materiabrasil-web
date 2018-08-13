@@ -7,6 +7,13 @@ exports[`renders correctly 1`] = `
   <div
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-4-44"
   >
+    <div
+      editable="/suppliers/1234/avatar"
+      imageUrl="/foo/url"
+      name="foo-name"
+    >
+      Avatar
+    </div>
     <h1
       className="MuiTypography-root-92 MuiTypography-display1-96"
       style={
@@ -14,7 +21,9 @@ exports[`renders correctly 1`] = `
           "marginBottom": 16,
         }
       }
-    />
+    >
+      foo-name
+    </h1>
   </div>
   <div
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-8-48"
@@ -24,7 +33,68 @@ exports[`renders correctly 1`] = `
     >
       <div
         className="MuiCardContent-root-144"
-      />
+      >
+        <div
+          style={
+            Object {
+              "marginTop": 16,
+            }
+          }
+        >
+          <h2
+            className="MuiTypography-root-92 MuiTypography-title-98"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            Descrição
+            :
+          </h2>
+           
+          <h3
+            className="MuiTypography-root-92 MuiTypography-subheading-99"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            foo-description
+          </h3>
+        </div>
+        <div
+          style={
+            Object {
+              "marginTop": 16,
+            }
+          }
+        >
+          <h2
+            className="MuiTypography-root-92 MuiTypography-title-98"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            Telefone
+            :
+          </h2>
+           
+          <h3
+            className="MuiTypography-root-92 MuiTypography-subheading-99"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            0000-0000
+          </h3>
+        </div>
+      </div>
     </div>
   </div>
 </div>
