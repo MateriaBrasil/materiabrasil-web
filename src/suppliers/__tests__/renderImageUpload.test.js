@@ -13,10 +13,10 @@ jest.mock('../../imageUpload/render', () => props => (
   <div {...props}>renderImageupload</div>
 ))
 
-const props = { foo: 'bar' }
-const routeProps = { match: { params: { id: 1234 } } }
-
 it('renders correctly', () => {
+  const props = { foo: 'bar' }
+  const routeProps = { match: { params: { id: 1234 } } }
+
   const tree = renderer.create(renderImageupload(props)(routeProps))
   expect(tree).toMatchSnapshot()
 })
