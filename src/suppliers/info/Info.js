@@ -9,7 +9,16 @@ import translateReach from './translateReach'
 import Avatar from '../../imageUpload/Avatar'
 
 export default ({ current, currentUser }) => {
-  const { id, name, description, email, phone, reach, imageUrl, userId } = current
+  const {
+    id,
+    name,
+    description,
+    email,
+    phone,
+    reach,
+    imageUrl,
+    userId,
+  } = current
   const editable = userId === currentUser.id && `/suppliers/${id}/avatar`
 
   return (

@@ -9,7 +9,11 @@ import renderImageUpload from './renderImageUpload'
 export default props => (
   <Switch>
     <Route path="/suppliers/new" render={renderNew(props)} />
-    <Route exact path="/suppliers/:id/avatar" render={renderImageUpload(props)} />
+    <Route
+      exact
+      path="/suppliers/:id/avatar"
+      render={renderImageUpload(props)}
+    />
     <Route exact path="/suppliers/:id" render={renderInfo(props)} />
   </Switch>
 )

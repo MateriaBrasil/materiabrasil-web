@@ -13,7 +13,13 @@ export default props => routeProps => {
     <Edit
       id={id}
       name={name}
-      render={renderImageUpload({ ...props, ...routeProps, id, name, redirectUrl })}
+      render={renderImageUpload({
+        ...props,
+        ...routeProps,
+        id,
+        name,
+        redirectUrl,
+      })}
     />
   )
 }
