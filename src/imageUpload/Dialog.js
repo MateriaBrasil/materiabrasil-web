@@ -4,7 +4,6 @@ import DialogTitle from '@material-ui/core/DialogTitle'
 import DialogActions from '@material-ui/core/DialogActions'
 import DialogContent from '@material-ui/core/DialogContent'
 import withMobileDialog from '@material-ui/core/withMobileDialog'
-import Link from 'react-router-dom/Link'
 import Button from '@material-ui/core/Button'
 
 import Loading from '../Loading'
@@ -30,9 +29,9 @@ export default withMobileDialog()(
           <DialogContent>{children}</DialogContent>
           {uploading && <Loading />}
           <DialogActions>
-            <Link to="/profile" style={{ textDecoration: 'none' }}>
-              <Button color="primary">Cancelar</Button>
-            </Link>
+            <Button onClick={handleCloseDialog} color="primary">
+              Cancelar
+            </Button>
             <Button disabled={disabled} color="primary" onClick={onUpload}>
               Salvar
             </Button>

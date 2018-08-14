@@ -8,7 +8,7 @@ exports[`renders correctly 1`] = `
     className="MuiGrid-item-2 MuiGrid-grid-xs-4-31"
   >
     <div
-      editable={true}
+      editable="/profile/avatar"
       imageUrl={undefined}
       name="foo-name foo-last"
     >

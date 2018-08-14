@@ -5,7 +5,7 @@ import Typography from '@material-ui/core/Typography'
 import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 
-import Avatar from './Avatar'
+import Avatar from '../../imageUpload/Avatar'
 import Album from './Album'
 import PropertyWithValue from '../../PropertyWithValue'
 
@@ -16,7 +16,7 @@ export default props => infoProps => {
   const { imageUrl } = infoProps
   const name = `${firstName} ${lastName}`
   const album = albums[0]
-  const editable = currentUser && currentUser.id === id
+  const editable = currentUser && currentUser.id === id && '/profile/avatar'
 
   return (
     <Grid container spacing={24}>
@@ -78,7 +78,7 @@ export default props => infoProps => {
         </Card>
       </Grid>
       <Grid item xs={12}>
-        {album && <Album {...album} showDestroy={editable} />}
+        {album && <Album {...album} showDestroy={!!editable} />}
       </Grid>
     </Grid>
   )

@@ -19,15 +19,15 @@ export default class extends Component {
       uploading: false,
     }
     this.onUpload = handleUpload.bind(this)
-    this.setEditor = this.handleSetEditor.bind(this)
+    this.setEditor = this.setEditor.bind(this)
   }
 
-  handleSetEditor(editor) {
+  setEditor(editor) {
     this.editor = editor
   }
 
   render() {
-    const { file, scale, position } = this.state
+    const { file, scale, position, uploading } = this.state
     const { update, updating, id, title } = this.props
 
     return (
@@ -37,8 +37,8 @@ export default class extends Component {
           this.setState({ uploading: true })
           this.onUpload({ editorImage: this.editor.getImage(), update, id })
         }}
-        disabled={!file || updating || this.state.uploading}
-        uploading={this.state.uploading}
+        disabled={!file || updating || uploading}
+        uploading={uploading}
       >
         <Dropzone
           accept="image/*"
@@ -51,7 +51,7 @@ export default class extends Component {
             width: 400,
             height: 400,
             margin: '0 auto',
-            cursor: 'pointer',
+            cursor: file ? 'move' : 'pointer',
           }}
           acceptStyle={{ border: `2px solid ${theme.palette.primary.main}` }}
           rejectStyle={{ border: `2px solid ${theme.palette.error.main}` }}

@@ -4,10 +4,16 @@ import Switch from 'react-router-dom/Switch'
 
 import renderNew from './renderNew'
 import renderInfo from './renderInfo'
+import renderImageUpload from './renderImageUpload'
 
 export default props => (
   <Switch>
     <Route path="/suppliers/new" render={renderNew(props)} />
-    <Route path="/suppliers/:id" render={renderInfo(props)} />
+    <Route
+      exact
+      path="/suppliers/:id/avatar"
+      render={renderImageUpload(props)}
+    />
+    <Route exact path="/suppliers/:id" render={renderInfo(props)} />
   </Switch>
 )

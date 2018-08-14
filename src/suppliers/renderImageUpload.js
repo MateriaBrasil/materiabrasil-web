@@ -1,11 +1,13 @@
 import React from 'react'
+
 import { Edit } from 'croods'
 
-import renderImageUpload from './renderImageUpload'
-import renderUpdated from './renderUpdated'
+import renderImageUpload from '../imageUpload/render'
 
 export default props => routeProps => {
-  const { id, name, redirectUrl = '/' } = props
+  const { id } = routeProps.match.params
+  const name = 'suppliers'
+  const redirectUrl = `/suppliers/${id}`
 
   return (
     <Edit
@@ -14,10 +16,10 @@ export default props => routeProps => {
       render={renderImageUpload({
         ...props,
         ...routeProps,
+        id,
+        name,
         redirectUrl,
-        title: 'Arraste uma imagem ou clique para escolher o arquivo.',
       })}
-      renderUpdated={renderUpdated(redirectUrl)}
     />
   )
 }

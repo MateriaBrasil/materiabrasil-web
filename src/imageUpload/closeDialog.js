@@ -1,1 +1,2 @@
-export default ({ history }) => () => history.push(`/profile`)
+export default ({ history, closeUrl, redirectUrl }) => () =>
+  history.push(closeUrl || redirectUrl)

@@ -27,41 +27,32 @@ exports[`renders correctly 1`] = `
   <div
     className="MuiDialogActions-root-27"
   >
-    <div
-      className="MuiDialogActions-action-28"
-      style={
-        Object {
-          "textDecoration": "none",
-        }
-      }
-      to="/profile"
+    <button
+      className="MuiButtonBase-root-45 MuiButton-root-29 MuiButton-flatPrimary-31 MuiDialogActions-action-28"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
     >
-      <button
-        className="MuiButtonBase-root-45 MuiButton-root-29 MuiButton-flatPrimary-31"
-        disabled={false}
-        onBlur={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        onTouchStart={[Function]}
-        tabIndex="0"
-        type="button"
+      <span
+        className="MuiButton-label-30"
       >
-        <span
-          className="MuiButton-label-30"
-        >
-          Cancelar
-        </span>
-        <span
-          className="MuiTouchRipple-root-48"
-        />
-      </button>
-    </div>
+        Cancelar
+      </span>
+      <span
+        className="MuiTouchRipple-root-48"
+      />
+    </button>
     <button
       className="MuiButtonBase-root-45 MuiButton-root-29 MuiButton-flatPrimary-31 MuiDialogActions-action-28"
       disabled={false}
