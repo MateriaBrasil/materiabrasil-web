@@ -19,6 +19,7 @@ export default class extends Component {
       uploading: false,
     }
     this.onUpload = handleUpload.bind(this)
+    this.setEditor = this.setEditor.bind(this)
   }
 
   setEditor(editor) {
@@ -57,7 +58,7 @@ export default class extends Component {
         >
           {file ? (
             <AvatarEditor
-              ref={this.setEditor.bind(this)}
+              ref={this.setEditor}
               width={350}
               height={350}
               image={file.preview}

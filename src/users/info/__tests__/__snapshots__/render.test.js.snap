@@ -141,7 +141,7 @@ exports[`renders correctly 1`] = `
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
   >
     <div
-      showDestroy="/profile/avatar"
+      showDestroy={true}
     >
       Album
     </div>
