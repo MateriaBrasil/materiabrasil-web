@@ -98,5 +98,35 @@ exports[`renders correctly 1`] = `
       </div>
     </div>
   </div>
+  <div
+    current={
+      Object {
+        "description": "foo-description",
+        "id": 1234,
+        "imageUrl": "/foo/url",
+        "name": "foo-name",
+        "phone": "0000-0000",
+        "userId": 1234,
+      }
+    }
+    currentUser={
+      Object {
+        "id": 1234,
+      }
+    }
+    id={1234}
+    supplier={
+      Object {
+        "description": "foo-description",
+        "id": 1234,
+        "imageUrl": "/foo/url",
+        "name": "foo-name",
+        "phone": "0000-0000",
+        "userId": 1234,
+      }
+    }
+  >
+    Addresses
+  </div>
 </div>
 `;

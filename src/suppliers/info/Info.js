@@ -7,19 +7,15 @@ import Typography from '@material-ui/core/Typography'
 import PropertyWithValue from '../../PropertyWithValue'
 import translateReach from './translateReach'
 import Avatar from '../../imageUpload/Avatar'
+import Addresses from '../../addresses/Addresses'
 
-export default ({ current, currentUser }) => {
-  const {
-    id,
-    name,
-    description,
-    email,
-    phone,
-    reach,
-    imageUrl,
-    userId,
-  } = current
-  const editPath = userId === currentUser.id && `/suppliers/${id}/avatar`
+export default props => {
+  const { current, currentUser } = props
+  const { id, name, description, email, phone, reach, imageUrl } = current
+  const { userId } = current
+
+  const editPath =
+    currentUser && userId === currentUser.id && `/suppliers/${id}/avatar`
 
   return (
     <Grid container spacing={32}>
@@ -58,6 +54,7 @@ export default ({ current, currentUser }) => {
           </CardContent>
         </Card>
       </Grid>
+      <Addresses id={id} supplier={current} {...props} />
     </Grid>
   )
 }

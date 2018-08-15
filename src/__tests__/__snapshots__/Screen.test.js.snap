@@ -47,6 +47,7 @@ exports[`renders correctly 1`] = `
             style={
               Object {
                 "display": "inline-block",
+                "fontSize": 36,
                 "verticalAlign": "middle",
               }
             }

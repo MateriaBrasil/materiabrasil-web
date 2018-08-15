@@ -3,6 +3,10 @@ import renderer from 'react-test-renderer'
 
 import Info from '../Info'
 
+jest.mock('../../../addresses/Addresses', () => props => (
+  <div {...props}>Addresses</div>
+))
+
 jest.mock('../../../imageUpload/Avatar', () => props => (
   <div {...props}>Avatar</div>
 ))

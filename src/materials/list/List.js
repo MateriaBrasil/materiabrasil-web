@@ -22,7 +22,7 @@ export default class extends Component {
     const { list, currentUser, ignoreHighlights } = this.props
 
     return (
-      <Grid item xs={12} md={9}>
+      <Grid item xs={12} md={9} style={{ marginTop: -40 }}>
         <Grid container spacing={8}>
           {list.map((material, index) => {
             const { id, highlighted, name, imageUrl } = material
@@ -35,7 +35,7 @@ export default class extends Component {
               <Grid key={id} item xs={6 * cols}>
                 <Ratio
                   key={id}
-                  ratio={16 * cols / 9}
+                  ratio={9 * cols / 5}
                   style={{ overflow: 'hidden ' }}
                 >
                   <Link to={`/${id}`}>

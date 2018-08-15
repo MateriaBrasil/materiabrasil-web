@@ -17,7 +17,11 @@ export default () => (
       <Typography
         variant="display2"
         color="inherit"
-        style={{ display: 'inline-block', verticalAlign: 'middle' }}
+        style={{
+          display: 'inline-block',
+          verticalAlign: 'middle',
+          fontSize: 36,
+        }}
       >
         Materia<span style={{ fontWeight: 300 }}>Mundi</span>
       </Typography>
