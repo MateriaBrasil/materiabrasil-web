@@ -3,6 +3,10 @@ import renderer from 'react-test-renderer'
 
 import Info from '../Info'
 
+jest.mock('../../../addresses/Addresses', () => props => (
+  <div {...props}>Addresses</div>
+))
+
 jest.mock('../../../imageUpload/Avatar', () => props => (
   <div {...props}>Avatar</div>
 ))
@@ -16,7 +20,8 @@ it('renders correctly', () => {
     userId: 1234,
     imageUrl: '/foo/url',
   }
-  const props = { currentUser: { id: 1234 }, current }
+  const location = { pathname: '/foo' }
+  const props = { currentUser: { id: 1234 }, current, location }
   const tree = renderer.create(<Info {...props} />).toJSON()
   expect(tree).toMatchSnapshot()
 })

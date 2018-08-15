@@ -39,6 +39,7 @@ exports[`with current user renders correctly 1`] = `
           style={
             Object {
               "display": "inline-block",
+              "fontSize": 36,
               "verticalAlign": "middle",
             }
           }
@@ -206,6 +207,7 @@ exports[`without current user renders correctly 1`] = `
           style={
             Object {
               "display": "inline-block",
+              "fontSize": 36,
               "verticalAlign": "middle",
             }
           }

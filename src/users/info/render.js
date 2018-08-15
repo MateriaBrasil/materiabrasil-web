@@ -16,34 +16,34 @@ export default props => infoProps => {
   const { imageUrl } = infoProps
   const name = `${firstName} ${lastName}`
   const album = albums[0]
-  const editable = currentUser && currentUser.id === id && '/profile/avatar'
+  const editPath = currentUser && currentUser.id === id && '/profile/avatar'
 
   return (
-    <Grid container spacing={24}>
-      <Grid item xs={4}>
-        <Avatar name={name} editable={editable} imageUrl={imageUrl} />
+    <Grid container spacing={32}>
+      <Grid item xs={12} lg={4}>
+        <Avatar name={name} editPath={editPath} imageUrl={imageUrl} />
         <div style={{ marginTop: 30 }}>
           <Typography variant="display1">{name}</Typography>
-          {editable && (
+          {editPath && (
             <Link to="/profile/edit">
               <Typography variant="subheading">Editar perfil</Typography>
             </Link>
           )}
-          <PropertyWithValue
-            title="Email"
-            value={email}
-            style={{ marginTop: 32 }}
-          />
-          <PropertyWithValue
-            title="Website"
-            value={website}
-            style={{ marginTop: 16 }}
-          />
         </div>
       </Grid>
-      <Grid item xs={8}>
+      <Grid item xs={12} lg={8}>
         <Card>
           <CardContent>
+            <PropertyWithValue
+              title="Email"
+              value={email}
+              style={{ marginTop: 16 }}
+            />
+            <PropertyWithValue
+              title="Website"
+              value={website}
+              style={{ marginTop: 16 }}
+            />
             <PropertyWithValue
               title="Bio"
               value={bio}
@@ -78,7 +78,7 @@ export default props => infoProps => {
         </Card>
       </Grid>
       <Grid item xs={12}>
-        {album && <Album {...album} showDestroy={!!editable} />}
+        {album && <Album {...album} showDestroy={!!editPath} />}
       </Grid>
     </Grid>
   )

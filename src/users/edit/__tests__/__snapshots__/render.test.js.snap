@@ -5,8 +5,8 @@ exports[`renders correctly 1`] = `
   foo="bar"
   initialValues="foo-values"
   onSubmit={[Function]}
-  submitting={[Function]}
   updateError={[Function]}
+  updating={[Function]}
 >
   Form - 
 </div>

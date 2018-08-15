@@ -1,35 +1,36 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Grid from '@material-ui/core/Grid'
 import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 import Typography from '@material-ui/core/Typography'
 
+import SignUpLink from '../../auth/SignUpLink'
 import PropertyWithValue from '../../PropertyWithValue'
 import translateReach from './translateReach'
 import Avatar from '../../imageUpload/Avatar'
+import Addresses from '../../addresses/Addresses'
 
-export default ({ current, currentUser }) => {
-  const {
-    id,
-    name,
-    description,
-    email,
-    phone,
-    reach,
-    imageUrl,
-    userId,
-  } = current
-  const editable = userId === currentUser.id && `/suppliers/${id}/avatar`
+export default props => {
+  const { current, currentUser, location } = props
+  const { pathname } = location
+  const { id, name, description, email, phone, reach, imageUrl } = current
+  const { userId } = current
+
+  const editPath =
+    currentUser && userId === currentUser.id && `/suppliers/${id}/avatar`
 
   return (
-    <Grid container spacing={16}>
-      <Grid item xs={12} sm={4}>
-        <Avatar name={name} editable={editable} imageUrl={imageUrl} />
-        <Typography variant="display1" style={{ marginBottom: 16 }}>
+    <Grid container spacing={32}>
+      <Grid item xs={12} lg={4}>
+        <Avatar name={name} editPath={editPath} imageUrl={imageUrl} />
+        <Typography
+          variant="display1"
+          style={{ marginTop: 16, marginBottom: 16 }}
+        >
           {name}
         </Typography>
       </Grid>
-      <Grid item xs={12} sm={8}>
+      <Grid item xs={12} lg={8}>
         <Card>
           <CardContent>
             <PropertyWithValue
@@ -38,23 +39,35 @@ export default ({ current, currentUser }) => {
               style={{ marginTop: 16 }}
             />
             <PropertyWithValue
-              title="Email"
-              value={email}
-              style={{ marginTop: 16 }}
-            />
-            <PropertyWithValue
-              title="Telefone"
-              value={phone}
-              style={{ marginTop: 16 }}
-            />
-            <PropertyWithValue
               title="Alcance"
               value={translateReach(reach)}
               style={{ marginTop: 16 }}
             />
+            {currentUser ? (
+              <Fragment>
+                <PropertyWithValue
+                  title="Email"
+                  value={email}
+                  style={{ marginTop: 16 }}
+                />
+                <PropertyWithValue
+                  title="Telefone"
+                  value={phone}
+                  style={{ marginTop: 16 }}
+                />
+              </Fragment>
+            ) : (
+              <div style={{ marginTop: 16 }}>
+                <SignUpLink
+                  pathname={pathname}
+                  text="para ver o contato do fornecedor."
+                />
+              </div>
+            )}
           </CardContent>
         </Card>
       </Grid>
+      <Addresses id={id} supplier={current} {...props} />
     </Grid>
   )
 }

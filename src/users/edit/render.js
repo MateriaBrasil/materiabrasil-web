@@ -6,7 +6,7 @@ import updateSelectedParams from './updateSelectedParams'
 export default props => ({ info, update, updating, error }) => (
   <Form
     onSubmit={updateSelectedParams(update)}
-    submitting={updating}
+    updating={updating}
     updateError={error}
     initialValues={info}
     {...props}

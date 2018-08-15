@@ -15,6 +15,7 @@ const reducers = {
   reviews: createReducer('reviews'),
   searches: createReducer('searches'),
   suppliers: createReducer('suppliers'),
+  addresses: createReducer('addresses'),
 }
 
 const rootReducer = combineReducers(reducers)

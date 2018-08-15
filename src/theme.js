@@ -15,7 +15,7 @@ export default createMuiTheme({
   overrides: {
     MuiAppBar: {
       root: {
-        padding: 20,
+        padding: 10,
       },
     },
     MuiGridListTileBar: {
