@@ -1,11 +1,7 @@
 import React from 'react'
 import CardMedia from '@material-ui/core/CardMedia'
 
-export default ({
-  name,
-  editable = false,
-  imageUrl = '/images/avatar.png',
-}) => (
+export default ({ name, imageUrl, editable = false }) => (
   <CardMedia
     style={{
       width: 400,
@@ -14,7 +10,7 @@ export default ({
       marginRight: 16,
       borderRadius: 2,
     }}
-    image={imageUrl}
+    image={imageUrl || '/images/avatar.png'}
     title={editable ? 'Clique para editar' : name}
   />
 )

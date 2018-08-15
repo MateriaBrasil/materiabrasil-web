@@ -2,10 +2,10 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="MuiGrid-container-1 MuiGrid-spacing-xs-16-23"
+  className="MuiGrid-container-1 MuiGrid-spacing-xs-32-25"
 >
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-4-44"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-4-70"
   >
     <div
       editable="/suppliers/1234/avatar"
@@ -19,6 +19,7 @@ exports[`renders correctly 1`] = `
       style={
         Object {
           "marginBottom": 16,
+          "marginTop": 16,
         }
       }
     >
@@ -26,7 +27,7 @@ exports[`renders correctly 1`] = `
     </h1>
   </div>
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-8-48"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-8-74"
   >
     <div
       className="MuiPaper-root-117 MuiPaper-elevation2-121 MuiPaper-rounded-118 MuiCard-root-116"

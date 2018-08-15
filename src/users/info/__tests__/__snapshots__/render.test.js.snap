@@ -2,10 +2,10 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="MuiGrid-container-1 MuiGrid-spacing-xs-24-24"
+  className="MuiGrid-container-1 MuiGrid-spacing-xs-32-25"
 >
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-4-31"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-4-70"
   >
     <div
       editable="/profile/avatar"
@@ -60,7 +60,7 @@ exports[`renders correctly 1`] = `
     </div>
   </div>
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-8-35"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-8-74"
   >
     <div
       className="MuiPaper-root-117 MuiPaper-elevation2-121 MuiPaper-rounded-118 MuiCard-root-116"

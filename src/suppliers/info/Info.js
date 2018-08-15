@@ -22,14 +22,17 @@ export default ({ current, currentUser }) => {
   const editable = userId === currentUser.id && `/suppliers/${id}/avatar`
 
   return (
-    <Grid container spacing={16}>
-      <Grid item xs={12} sm={4}>
+    <Grid container spacing={32}>
+      <Grid item xs={12} lg={4}>
         <Avatar name={name} editable={editable} imageUrl={imageUrl} />
-        <Typography variant="display1" style={{ marginBottom: 16 }}>
+        <Typography
+          variant="display1"
+          style={{ marginTop: 16, marginBottom: 16 }}
+        >
           {name}
         </Typography>
       </Grid>
-      <Grid item xs={12} sm={8}>
+      <Grid item xs={12} lg={8}>
         <Card>
           <CardContent>
             <PropertyWithValue

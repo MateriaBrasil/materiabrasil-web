@@ -2,7 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="MuiGrid-container-1 MuiGrid-spacing-xs-24-24"
+  className="MuiGrid-container-1 MuiGrid-spacing-xs-32-25"
 >
   <div
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-8-48 MuiGrid-grid-md-6-59"
@@ -33,6 +33,102 @@ exports[`renders correctly 1`] = `
                 data-shrink={false}
                 htmlFor="name-error"
               >
+                Nome
+              </label>
+              <div
+                className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-underline-139"
+                onDragStart={[Function]}
+                onDrop={[Function]}
+              >
+                <input
+                  aria-invalid={false}
+                  aria-required={false}
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-143"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id={undefined}
+                  name="firstName"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={undefined}
+                  onKeyUp={undefined}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="text"
+                  value=""
+                />
+              </div>
+              <p
+                className="MuiFormHelperText-root-148"
+                id="name-error-text"
+              />
+            </div>
+          </div>
+          <div>
+            <div
+              aria-describedby="name-error-text"
+              className="MuiFormControl-root-121 MuiFormControl-fullWidth-124"
+              onBlur={[Function]}
+              onFocus={[Function]}
+            >
+              <label
+                className="MuiFormLabel-root-130 MuiInputLabel-root-125 MuiInputLabel-formControl-126 MuiInputLabel-animated-129"
+                data-shrink={false}
+                htmlFor="name-error"
+              >
+                Sobrenome
+              </label>
+              <div
+                className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-underline-139"
+                onDragStart={[Function]}
+                onDrop={[Function]}
+              >
+                <input
+                  aria-invalid={false}
+                  aria-required={false}
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-143"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id={undefined}
+                  name="lastName"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={undefined}
+                  onKeyUp={undefined}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="text"
+                  value=""
+                />
+              </div>
+              <p
+                className="MuiFormHelperText-root-148"
+                id="name-error-text"
+              />
+            </div>
+          </div>
+          <div>
+            <div
+              aria-describedby="name-error-text"
+              className="MuiFormControl-root-121 MuiFormControl-fullWidth-124"
+              onBlur={[Function]}
+              onFocus={[Function]}
+            >
+              <label
+                className="MuiFormLabel-root-130 MuiInputLabel-root-125 MuiInputLabel-formControl-126 MuiInputLabel-animated-129"
+                data-shrink={false}
+                htmlFor="name-error"
+              >
                 Sobre você
               </label>
               <div
@@ -41,7 +137,7 @@ exports[`renders correctly 1`] = `
                 onDrop={[Function]}
               >
                 <div
-                  className="Textarea-root-148"
+                  className="Textarea-root-152"
                   style={
                     Object {
                       "height": 19,
@@ -50,7 +146,7 @@ exports[`renders correctly 1`] = `
                 >
                   <textarea
                     aria-hidden="true"
-                    className="Textarea-shadow-150 Textarea-textarea-149"
+                    className="Textarea-shadow-154 Textarea-textarea-153"
                     readOnly={true}
                     rows="1"
                     tabIndex={-1}
@@ -58,7 +154,7 @@ exports[`renders correctly 1`] = `
                   />
                   <textarea
                     aria-hidden="true"
-                    className="Textarea-shadow-150 Textarea-textarea-149"
+                    className="Textarea-shadow-154 Textarea-textarea-153"
                     defaultValue={undefined}
                     readOnly={true}
                     rows={1}
@@ -70,7 +166,7 @@ exports[`renders correctly 1`] = `
                     aria-required={false}
                     autoComplete={undefined}
                     autoFocus={undefined}
-                    className="Textarea-textarea-149 MuiInput-input-143 MuiInput-inputMultiline-145"
+                    className="Textarea-textarea-153 MuiInput-input-143 MuiInput-inputMultiline-145"
                     defaultValue={undefined}
                     disabled={false}
                     id={undefined}
@@ -90,7 +186,7 @@ exports[`renders correctly 1`] = `
                 </div>
               </div>
               <p
-                className="MuiFormHelperText-root-151"
+                className="MuiFormHelperText-root-148"
                 id="name-error-text"
               />
             </div>
@@ -138,7 +234,7 @@ exports[`renders correctly 1`] = `
                 />
               </div>
               <p
-                className="MuiFormHelperText-root-151"
+                className="MuiFormHelperText-root-148"
                 id="name-error-text"
               />
             </div>
@@ -186,7 +282,7 @@ exports[`renders correctly 1`] = `
                 />
               </div>
               <p
-                className="MuiFormHelperText-root-151"
+                className="MuiFormHelperText-root-148"
                 id="name-error-text"
               />
             </div>
@@ -234,7 +330,7 @@ exports[`renders correctly 1`] = `
                 />
               </div>
               <p
-                className="MuiFormHelperText-root-151"
+                className="MuiFormHelperText-root-148"
                 id="name-error-text"
               />
             </div>
@@ -282,7 +378,7 @@ exports[`renders correctly 1`] = `
                 />
               </div>
               <p
-                className="MuiFormHelperText-root-151"
+                className="MuiFormHelperText-root-148"
                 id="name-error-text"
               />
             </div>
@@ -330,7 +426,7 @@ exports[`renders correctly 1`] = `
                 />
               </div>
               <p
-                className="MuiFormHelperText-root-151"
+                className="MuiFormHelperText-root-148"
                 id="name-error-text"
               />
             </div>
@@ -378,7 +474,7 @@ exports[`renders correctly 1`] = `
                 />
               </div>
               <p
-                className="MuiFormHelperText-root-151"
+                className="MuiFormHelperText-root-148"
                 id="name-error-text"
               />
             </div>

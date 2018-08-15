@@ -19,8 +19,8 @@ export default props => infoProps => {
   const editable = currentUser && currentUser.id === id && '/profile/avatar'
 
   return (
-    <Grid container spacing={24}>
-      <Grid item xs={4}>
+    <Grid container spacing={32}>
+      <Grid item xs={12} lg={4}>
         <Avatar name={name} editable={editable} imageUrl={imageUrl} />
         <div style={{ marginTop: 30 }}>
           <Typography variant="display1">{name}</Typography>
@@ -41,7 +41,7 @@ export default props => infoProps => {
           />
         </div>
       </Grid>
-      <Grid item xs={8}>
+      <Grid item xs={12} lg={8}>
         <Card>
           <CardContent>
             <PropertyWithValue
