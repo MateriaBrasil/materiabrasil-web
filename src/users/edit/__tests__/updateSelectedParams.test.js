@@ -3,7 +3,7 @@ import UpdateSelectedParams from '../updateSelectedParams'
 const update = jest.fn()
 const params = {
   id: 1234,
-  image_url: 'foo-url',
+  imageUrl: 'foo-url',
   city: 'foo-city',
   state: 'foo-state',
   country: 'foo-country',

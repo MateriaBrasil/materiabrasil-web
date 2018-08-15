@@ -1,10 +1,12 @@
 export default update => params => {
-  const { id, image_url, city, state, country, bio, company } = params
-  const { website, workTitle } = params
+  const { id, imageUrl, firstName, lastName, city, state, country } = params
+  const { bio, company, website, workTitle } = params
 
   update({
     id,
-    image_url,
+    imageUrl,
+    firstName,
+    lastName,
     city,
     state,
     country,

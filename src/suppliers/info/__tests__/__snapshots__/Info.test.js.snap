@@ -8,7 +8,7 @@ exports[`renders correctly 1`] = `
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-4-70"
   >
     <div
-      editable="/suppliers/1234/avatar"
+      editPath="/suppliers/1234/avatar"
       imageUrl="/foo/url"
       name="foo-name"
     >

@@ -29,7 +29,11 @@ export default withMobileDialog()(
           <DialogContent>{children}</DialogContent>
           {uploading && <Loading />}
           <DialogActions>
-            <Button onClick={handleCloseDialog} color="primary">
+            <Button
+              disabled={disabled}
+              onClick={handleCloseDialog}
+              color="primary"
+            >
               Cancelar
             </Button>
             <Button disabled={disabled} color="primary" onClick={onUpload}>

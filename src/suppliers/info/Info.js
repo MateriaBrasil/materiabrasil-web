@@ -19,12 +19,12 @@ export default ({ current, currentUser }) => {
     imageUrl,
     userId,
   } = current
-  const editable = userId === currentUser.id && `/suppliers/${id}/avatar`
+  const editPath = userId === currentUser.id && `/suppliers/${id}/avatar`
 
   return (
     <Grid container spacing={32}>
       <Grid item xs={12} lg={4}>
-        <Avatar name={name} editable={editable} imageUrl={imageUrl} />
+        <Avatar name={name} editPath={editPath} imageUrl={imageUrl} />
         <Typography
           variant="display1"
           style={{ marginTop: 16, marginBottom: 16 }}

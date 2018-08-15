@@ -8,7 +8,7 @@ exports[`renders correctly 1`] = `
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-4-70"
   >
     <div
-      editable="/profile/avatar"
+      editPath="/profile/avatar"
       imageUrl={undefined}
       name="foo-name foo-last"
     >
@@ -35,28 +35,6 @@ exports[`renders correctly 1`] = `
           Editar perfil
         </h3>
       </div>
-      <div
-        style={
-          Object {
-            "marginTop": 32,
-          }
-        }
-        title="Email"
-        value={undefined}
-      >
-        PropertyWithValue
-      </div>
-      <div
-        style={
-          Object {
-            "marginTop": 16,
-          }
-        }
-        title="Website"
-        value={undefined}
-      >
-        PropertyWithValue
-      </div>
     </div>
   </div>
   <div
@@ -68,6 +46,28 @@ exports[`renders correctly 1`] = `
       <div
         className="MuiCardContent-root-144"
       >
+        <div
+          style={
+            Object {
+              "marginTop": 16,
+            }
+          }
+          title="Email"
+          value={undefined}
+        >
+          PropertyWithValue
+        </div>
+        <div
+          style={
+            Object {
+              "marginTop": 16,
+            }
+          }
+          title="Website"
+          value={undefined}
+        >
+          PropertyWithValue
+        </div>
         <div
           style={
             Object {

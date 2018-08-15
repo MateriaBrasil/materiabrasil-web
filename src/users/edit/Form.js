@@ -7,10 +7,11 @@ import Error from '../../Error'
 import TextField from '../../form/TextField'
 import Submit from '../../form/Submit'
 import SingleColumn from '../../SingleColumn'
+import Loading from '../../Loading'
 
 export default reduxForm({ form: 'profile' })(props => {
   const { handleSubmit, onSubmit, error: reduxFormError, updateError } = props
-  const { submitting } = props
+  const { updating } = props
   const error = reduxFormError || updateError
 
   return (
@@ -31,7 +32,11 @@ export default reduxForm({ form: 'profile' })(props => {
             />
             <TextField name="workTitle" label="Cargo" type="text" />
             <TextField name="website" label="Site" type="text" />
-            <Submit callToAction="Atualizar perfil" disabled={submitting} />
+            {updating ? (
+              <Loading />
+            ) : (
+              <Submit callToAction="Atualizar perfil" disabled={updating} />
+            )}
             {error && <Error>{error}</Error>}
           </form>
         </CardContent>

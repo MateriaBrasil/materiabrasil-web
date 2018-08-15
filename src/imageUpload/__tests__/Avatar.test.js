@@ -7,14 +7,14 @@ jest.mock('react-router-dom/Link', () => props => (
   <div {...props}>{props.children}</div>
 ))
 
-describe('when editable', () => {
+describe('with editPath', () => {
   it('renders correctly', () => {
-    const tree = renderer.create(<Avatar editable="foo/:id/avatar" />).toJSON()
+    const tree = renderer.create(<Avatar editPath="foo/:id/avatar" />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 })
 
-describe('when not editable', () => {
+describe('without editPath', () => {
   it('renders correctly', () => {
     const tree = renderer.create(<Avatar />).toJSON()
     expect(tree).toMatchSnapshot()
