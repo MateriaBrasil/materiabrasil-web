@@ -1,14 +1,16 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Grid from '@material-ui/core/Grid'
 import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 import Typography from '@material-ui/core/Typography'
 
+import SignUpLink from '../auth/SignUpLink'
 import New from './New'
 import List from './List'
 
 export default props => {
-  const { currentUser, supplier } = props
+  const { currentUser, supplier, location } = props
+  const { pathname } = location
 
   return (
     <Grid item xs={12} style={{ marginBottom: 36 }}>
@@ -21,9 +23,17 @@ export default props => {
           >
             Endereços
           </Typography>
-          {currentUser &&
-            currentUser.id === supplier.userId && <New {...props} />}
-          <List {...props} />
+          {currentUser ? (
+            <Fragment>
+              {currentUser.id === supplier.userId && <New {...props} />}
+              <List {...props} />
+            </Fragment>
+          ) : (
+            <SignUpLink
+              pathname={pathname}
+              text="para ver os endereços do fornecedor."
+            />
+          )}
         </CardContent>
       </Card>
     </Grid>

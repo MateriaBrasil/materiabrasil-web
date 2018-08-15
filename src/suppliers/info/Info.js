@@ -1,16 +1,18 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Grid from '@material-ui/core/Grid'
 import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 import Typography from '@material-ui/core/Typography'
 
+import SignUpLink from '../../auth/SignUpLink'
 import PropertyWithValue from '../../PropertyWithValue'
 import translateReach from './translateReach'
 import Avatar from '../../imageUpload/Avatar'
 import Addresses from '../../addresses/Addresses'
 
 export default props => {
-  const { current, currentUser } = props
+  const { current, currentUser, location } = props
+  const { pathname } = location
   const { id, name, description, email, phone, reach, imageUrl } = current
   const { userId } = current
 
@@ -37,20 +39,31 @@ export default props => {
               style={{ marginTop: 16 }}
             />
             <PropertyWithValue
-              title="Email"
-              value={email}
-              style={{ marginTop: 16 }}
-            />
-            <PropertyWithValue
-              title="Telefone"
-              value={phone}
-              style={{ marginTop: 16 }}
-            />
-            <PropertyWithValue
               title="Alcance"
               value={translateReach(reach)}
               style={{ marginTop: 16 }}
             />
+            {currentUser ? (
+              <Fragment>
+                <PropertyWithValue
+                  title="Email"
+                  value={email}
+                  style={{ marginTop: 16 }}
+                />
+                <PropertyWithValue
+                  title="Telefone"
+                  value={phone}
+                  style={{ marginTop: 16 }}
+                />
+              </Fragment>
+            ) : (
+              <div style={{ marginTop: 16 }}>
+                <SignUpLink
+                  pathname={pathname}
+                  text="para ver o contato do fornecedor."
+                />
+              </div>
+            )}
           </CardContent>
         </Card>
       </Grid>

@@ -115,6 +115,11 @@ exports[`renders correctly 1`] = `
       }
     }
     id={1234}
+    location={
+      Object {
+        "pathname": "/foo",
+      }
+    }
     supplier={
       Object {
         "description": "foo-description",
