@@ -99,6 +99,9 @@ exports[`renders correctly 1`] = `
     </div>
   </div>
   <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
+  />
+  <div
     current={
       Object {
         "description": "foo-description",
