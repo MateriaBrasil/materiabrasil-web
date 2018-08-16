@@ -6,12 +6,13 @@ import GridListTile from '@material-ui/core/GridListTile'
 import TitleBar from '../materials/list/TitleBar'
 import Destroy from './Destroy'
 
-export default ({ showDestroy }) => list => (
+export default ({ showDestroy, parentId }) => list => (
   <GridList cellHeight={360}>
     {list.map(({ id, favoritable, destroying }, index) => {
       const { id: favoritableId, name, imageUrl } = favoritable
       const renderIcons =
-        showDestroy && (() => <Destroy id={id} destroying={destroying} />)
+        showDestroy &&
+        (() => <Destroy parentId={parentId} id={id} destroying={destroying} />)
 
       return (
         <GridListTile key={id}>

@@ -3,10 +3,13 @@
 exports[`render correctly 1`] = `
 <div
   name="favorites"
+  parentId={undefined}
   render={[Function]}
 >
   New - 
-  <div>
+  <div
+    parentId={1}
+  >
     renderNew
   </div>
 </div>
