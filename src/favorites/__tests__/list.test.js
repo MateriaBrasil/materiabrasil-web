@@ -16,12 +16,18 @@ jest.mock('croods', () => ({
   List: props => <div {...props}>List - {props.render([{ foo: 'bar' }])}</div>,
 }))
 
-const tree = renderer.create(<List type="foo" id="bar" />).toJSON()
+const tree = renderer
+  .create(<List type="foo" id="bar" parentId={1234} />)
+  .toJSON()
 
 it('renders correctly', () => {
   expect(tree).toMatchSnapshot()
 })
 
 it('calls render prop', () => {
-  expect(renderList).toHaveBeenCalledWith({ type: 'foo', id: 'bar' })
+  expect(renderList).toHaveBeenCalledWith({
+    type: 'foo',
+    id: 'bar',
+    parentId: 1234,
+  })
 })

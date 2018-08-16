@@ -19,7 +19,7 @@ const list = [
 describe('with showDestroy', () => {
   it('renders correctly', () => {
     const tree = renderer
-      .create(renderList({ showDestroy: true })(list))
+      .create(renderList({ showDestroy: true, parentId: 123 })(list))
       .toJSON()
     expect(tree).toMatchSnapshot()
   })
