@@ -141,6 +141,7 @@ exports[`renders correctly 1`] = `
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
   >
     <div
+      parentId={1234}
       showDestroy={true}
     >
       Album

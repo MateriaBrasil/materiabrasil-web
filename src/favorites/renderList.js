@@ -11,7 +11,8 @@ export default ({ showDestroy, parentId }) => list => (
     {list.map(({ id, favoritable, destroying }, index) => {
       const { id: favoritableId, name, imageUrl } = favoritable
       const renderIcons =
-        showDestroy && (() => <Destroy parentId={parentId} id={id} destroying={destroying} />)
+        showDestroy &&
+        (() => <Destroy parentId={parentId} id={id} destroying={destroying} />)
 
       return (
         <GridListTile key={id}>

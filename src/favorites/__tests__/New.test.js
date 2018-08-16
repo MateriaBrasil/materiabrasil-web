@@ -12,6 +12,6 @@ jest.mock('../renderNew', () =>
 )
 
 it('render correctly', () => {
-  const tree = renderer.create(<New />).toJSON()
+  const tree = renderer.create(<New parentId={1} />).toJSON()
   expect(tree).toMatchSnapshot()
 })

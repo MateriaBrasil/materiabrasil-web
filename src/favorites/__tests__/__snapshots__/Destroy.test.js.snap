@@ -4,11 +4,13 @@ exports[`renders correctly 1`] = `
 <div
   id="foo"
   name="favorites"
+  parentId={123}
   render={[Function]}
 >
   Destroy - 
   <div
     id="foo"
+    parentId={123}
   >
     renderDestroy
   </div>

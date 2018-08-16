@@ -5,5 +5,12 @@ import renderDestroy from './renderDestroy'
 
 export default props => {
   const { id, parentId } = props
-  return <Destroy parentId={parentId} id={id} name="favorites" render={renderDestroy(props)} />
+  return (
+    <Destroy
+      parentId={parentId}
+      id={id}
+      name="favorites"
+      render={renderDestroy(props)}
+    />
+  )
 }
