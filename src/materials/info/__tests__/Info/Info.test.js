@@ -12,6 +12,7 @@ jest.mock('../../../../comments/Comments', () => props => (
 jest.mock('../../../../favorites/New', () => props => (
   <div {...props}>Favorites</div>
 ))
+jest.mock('../../Supplier', () => props => <div {...props}>Supplier</div>)
 
 it('renders correctly', () => {
   const current = {

@@ -32,38 +32,6 @@ exports[`renders correctly 1`] = `
         />
       </div>
       <div
-        style={
-          Object {
-            "marginBottom": 8,
-          }
-        }
-      >
-        <span
-          className="MuiTypography-root-121 MuiTypography-caption-131"
-        >
-          Local de produção
-        </span>
-        <h3
-          className="MuiTypography-root-121 MuiTypography-subheading-128"
-        />
-      </div>
-      <div
-        style={
-          Object {
-            "marginBottom": 8,
-          }
-        }
-      >
-        <span
-          className="MuiTypography-root-121 MuiTypography-caption-131"
-        >
-          Preço médio
-        </span>
-        <h3
-          className="MuiTypography-root-121 MuiTypography-subheading-128"
-        />
-      </div>
-      <div
         pathname={undefined}
         text="para ver o contato do fornecedor."
       >
@@ -108,50 +76,21 @@ exports[`with current user renders correctly 1`] = `
       <div
         style={
           Object {
-            "marginBottom": 8,
+            "marginTop": 16,
+            "textAlign": "center",
           }
         }
       >
-        <span
-          className="MuiTypography-root-121 MuiTypography-caption-131"
+        <div
+          to="/suppliers/undefined"
         >
-          Local de produção
-        </span>
-        <h3
-          className="MuiTypography-root-121 MuiTypography-subheading-128"
-        />
-      </div>
-      <div
-        style={
-          Object {
-            "marginBottom": 8,
-          }
-        }
-      >
-        <span
-          className="MuiTypography-root-121 MuiTypography-caption-131"
-        >
-          Preço médio
-        </span>
-        <h3
-          className="MuiTypography-root-121 MuiTypography-subheading-128"
-        />
-      </div>
-      <div
-        style={
-          Object {
-            "marginBottom": 8,
-          }
-        }
-      >
-        <span
-          className="MuiTypography-root-121 MuiTypography-caption-131"
-        >
-          Contato do fornecedor
-        </span>
-        <h3
-          className="MuiTypography-root-121 MuiTypography-subheading-128"
-        />
+          Link - 
+          <p
+            className="MuiTypography-root-121 MuiTypography-body1-130"
+          >
+            Contato do fornecedor
+          </p>
+        </div>
       </div>
     </div>
   </div>
