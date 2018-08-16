@@ -8,7 +8,7 @@ import Auth from './auth/Auth'
 import headers from './auth/headers'
 import afterSuccess from './auth/afterSuccess'
 
-import Loading from './Loading'
+import renderLoading from './renderLoading'
 import renderError from './renderError'
 import renderAuth from './renderAuth'
 import theme from './theme'
@@ -21,7 +21,7 @@ export default class extends Component {
           baseUrl={process.env.REACT_APP_API_URL}
           headers={headers}
           afterSuccess={afterSuccess}
-          renderLoading={Loading}
+          renderLoading={renderLoading}
           renderError={renderError}
         >
           <MuiThemeProvider theme={theme}>
