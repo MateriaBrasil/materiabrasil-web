@@ -9,7 +9,7 @@ import CaptionWithText from '../CaptionWithText'
 export default props => {
   const { manufacturingLocation, averagePrice, supplier } = props
   const { currentUser, location } = props
-  const { name, email } = supplier
+  const { name, email } = supplier || {}
   const { pathname } = location
 
   return (

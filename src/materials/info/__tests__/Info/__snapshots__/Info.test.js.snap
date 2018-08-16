@@ -210,100 +210,37 @@ exports[`renders correctly 1`] = `
     </div>
   </div>
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-3-69"
-    style={
+    averagePrice="100"
+    code="999"
+    current={
       Object {
-        "marginBottom": 16,
+        "averagePrice": "100",
+        "code": "999",
+        "description": "info",
+        "imageUrl": "bar",
+        "manufacturingLocation": "Foo City/FO",
+        "name": "foo",
+        "properties": "Foo properties",
+        "salesLocation": "Bar City/BR",
+        "supplierContact": "foo@bar.com",
+        "supplierName": "Foo Supplier",
+        "technicalSpecification_url": "http://foo",
+        "usage": "Bar usage",
       }
     }
+    description="info"
+    imageUrl="bar"
+    location={Object {}}
+    manufacturingLocation="Foo City/FO"
+    name="foo"
+    properties="Foo properties"
+    salesLocation="Bar City/BR"
+    supplierContact="foo@bar.com"
+    supplierName="Foo Supplier"
+    technicalSpecification_url="http://foo"
+    usage="Bar usage"
   >
-    <div
-      className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
-    >
-      <div
-        className="MuiCardContent-root-120"
-      >
-        <div
-          style={
-            Object {
-              "marginBottom": 8,
-            }
-          }
-        >
-          <span
-            className="MuiTypography-root-143 MuiTypography-caption-153"
-          >
-            Fornecedor
-          </span>
-          <h3
-            className="MuiTypography-root-143 MuiTypography-subheading-150"
-          >
-            Foo Supplier
-          </h3>
-        </div>
-        <div
-          style={
-            Object {
-              "marginBottom": 8,
-            }
-          }
-        >
-          <span
-            className="MuiTypography-root-143 MuiTypography-caption-153"
-          >
-            Local de produção
-          </span>
-          <h3
-            className="MuiTypography-root-143 MuiTypography-subheading-150"
-          >
-            Foo City/FO
-          </h3>
-        </div>
-        <div
-          style={
-            Object {
-              "marginBottom": 8,
-            }
-          }
-        >
-          <span
-            className="MuiTypography-root-143 MuiTypography-caption-153"
-          >
-            Preço médio
-          </span>
-          <h3
-            className="MuiTypography-root-143 MuiTypography-subheading-150"
-          >
-            100
-          </h3>
-        </div>
-        <p
-          className="MuiTypography-root-143 MuiTypography-body1-152 MuiTypography-colorInherit-162"
-        >
-          <div
-            style={
-              Object {
-                "textDecoration": "none",
-              }
-            }
-            to={
-              Object {
-                "pathname": "/auth/sign-up",
-                "state": Object {
-                  "referrer": undefined,
-                },
-              }
-            }
-          >
-            Cadastre-se
-          </div>
-           
-          <span>
-            para ver o contato do fornecedor.
-          </span>
-        </p>
-      </div>
-    </div>
+    Supplier
   </div>
   <div
     current={

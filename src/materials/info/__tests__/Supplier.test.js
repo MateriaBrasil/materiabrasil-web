@@ -3,25 +3,13 @@ import renderer from 'react-test-renderer'
 
 import Supplier from '../Supplier'
 
-jest.mock('react-router-dom/Link', () => props => (
-  <div {...props}>Link - {props.children}</div>
-))
-jest.mock('../../../auth/SignUpLink', () => props => (
-  <div {...props}>SignUpLink</div>
-))
+jest.mock('croods', () => ({
+  Info: props => <div {...props}>{props.children}</div>,
+}))
+
+jest.mock('../supplier/render', () => props => info => <div>Supplier</div>)
 
 it('renders correctly', () => {
-  const tree = renderer.create(<Supplier location={{}} />).toJSON()
-
+  const tree = renderer.create(<Supplier supplierId="123" />).toJSON()
   expect(tree).toMatchSnapshot()
-})
-
-describe('with current user', () => {
-  it('renders correctly', () => {
-    const tree = renderer
-      .create(<Supplier location={{}} currentUser={{}} />)
-      .toJSON()
-
-    expect(tree).toMatchSnapshot()
-  })
 })

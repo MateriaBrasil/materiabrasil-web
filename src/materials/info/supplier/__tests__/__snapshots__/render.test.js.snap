@@ -2,9 +2,13 @@
 
 exports[`renders correctly 1`] = `
 <div
-  id="123"
-  name="materialSupplier"
-  path="/suppliers/123"
-  render={[Function]}
-/>
+  foo="bar"
+  supplier={
+    Object {
+      "bar": "foo",
+    }
+  }
+>
+  Info
+</div>
 `;
