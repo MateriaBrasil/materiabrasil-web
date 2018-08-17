@@ -1,8 +1,8 @@
 import React from 'react'
-import Link from 'react-router-dom/Link'
 import GridList from '@material-ui/core/GridList'
 import GridListTile from '@material-ui/core/GridListTile'
 
+import LinkToMaterial from '../materials/LinkToMaterial'
 import TitleBar from '../materials/list/TitleBar'
 import Destroy from './Destroy'
 
@@ -16,13 +16,7 @@ export default ({ showDestroy, parentId }) => list => (
 
       return (
         <GridListTile key={id}>
-          <Link to={`/${favoritableId}`}>
-            <img
-              src={imageUrl}
-              alt={name}
-              style={{ width: '100%', objectFit: 'cover', height: 360 }}
-            />
-          </Link>
+          <LinkToMaterial id={favoritableId} imageUrl={imageUrl} name={name} />
           <TitleBar material={favoritable} renderIcons={renderIcons} />
         </GridListTile>
       )
