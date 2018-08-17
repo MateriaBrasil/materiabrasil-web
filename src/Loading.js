@@ -1,8 +1,8 @@
 import React from 'react'
 import CircularProgress from '@material-ui/core/CircularProgress'
 
-export default ({ style }) => (
+export default ({ style, ...props } = {}) => (
   <div style={{ textAlign: 'center', ...style }}>
-    <CircularProgress />
+    <CircularProgress {...props} />
   </div>
 )

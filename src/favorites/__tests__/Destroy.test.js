@@ -14,6 +14,6 @@ jest.mock('../renderDestroy', () =>
 )
 
 it('renders correctly', () => {
-  const tree = renderer.create(<Destroy id="foo" />).toJSON()
+  const tree = renderer.create(<Destroy id="foo" parentId={123} />).toJSON()
   expect(tree).toMatchSnapshot()
 })

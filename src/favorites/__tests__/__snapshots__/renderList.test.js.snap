@@ -85,6 +85,7 @@ exports[`with showDestroy renders correctly 1`] = `
           <div
             destroying={true}
             id={11111}
+            parentId={123}
           >
             Destroy - 
           </div>
@@ -168,6 +169,7 @@ exports[`with showDestroy renders correctly 1`] = `
           <div
             destroying={false}
             id={22222}
+            parentId={123}
           >
             Destroy - 
           </div>

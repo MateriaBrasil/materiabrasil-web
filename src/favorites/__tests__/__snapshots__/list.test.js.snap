@@ -3,7 +3,7 @@
 exports[`renders correctly 1`] = `
 <div
   name="favorites"
-  parentId="bar"
+  parentId={1234}
   path="/albums/bar/favorites"
   render={[Function]}
 >
@@ -17,6 +17,7 @@ exports[`renders correctly 1`] = `
         },
       ]
     }
+    parentId={1234}
     type="foo"
   >
     renderList
