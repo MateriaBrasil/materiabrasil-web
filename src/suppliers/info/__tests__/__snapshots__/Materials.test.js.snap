@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<ul
+  className="MuiGridList-root-1"
+  style={
+    Object {
+      "margin": -2,
+    }
+  }
+>
+  <li
+    className="MuiGridListTile-root-2"
+    style={
+      Object {
+        "height": 364,
+        "padding": 2,
+        "width": "50%",
+      }
+    }
+  >
+    <div
+      className="MuiGridListTile-tile-3"
+    >
+      <div
+        to="/11111"
+      >
+        <img
+          alt={undefined}
+          src={undefined}
+          style={
+            Object {
+              "height": 360,
+              "objectFit": "cover",
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "background": "rgba(0, 0, 0, 0.6)",
+            "bottom": 0,
+            "color": "white",
+            "height": 90,
+            "left": 0,
+            "padding": 20,
+            "position": "absolute",
+            "right": 0,
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "float": "left",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "color": "white",
+                "display": "block",
+                "textDecoration": "none",
+              }
+            }
+            to="/11111"
+          >
+            <h3
+              className="MuiTypography-root-6 MuiTypography-subheading-13 MuiTypography-colorInherit-25"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
+    className="MuiGridListTile-root-2"
+    style={
+      Object {
+        "height": 364,
+        "padding": 2,
+        "width": "50%",
+      }
+    }
+  >
+    <div
+      className="MuiGridListTile-tile-3"
+    >
+      <div
+        to="/22222"
+      >
+        <img
+          alt={undefined}
+          src={undefined}
+          style={
+            Object {
+              "height": 360,
+              "objectFit": "cover",
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "background": "rgba(0, 0, 0, 0.6)",
+            "bottom": 0,
+            "color": "white",
+            "height": 90,
+            "left": 0,
+            "padding": 20,
+            "position": "absolute",
+            "right": 0,
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "float": "left",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "color": "white",
+                "display": "block",
+                "textDecoration": "none",
+              }
+            }
+            to="/22222"
+          >
+            <h3
+              className="MuiTypography-root-6 MuiTypography-subheading-13 MuiTypography-colorInherit-25"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+</ul>
+`;

@@ -9,12 +9,13 @@ import PropertyWithValue from '../../PropertyWithValue'
 import translateReach from './translateReach'
 import Avatar from '../../imageUpload/Avatar'
 import Addresses from '../../addresses/Addresses'
+import Materials from './Materials'
 
 export default props => {
   const { current, currentUser, location } = props
   const { pathname } = location
   const { id, name, description, email, phone, reach, imageUrl } = current
-  const { userId } = current
+  const { userId, materials } = current
 
   const editPath =
     currentUser && userId === currentUser.id && `/suppliers/${id}/avatar`
@@ -66,6 +67,9 @@ export default props => {
             )}
           </CardContent>
         </Card>
+      </Grid>
+      <Grid item xs={12}>
+        {materials && <Materials list={materials} />}
       </Grid>
       <Addresses id={id} supplier={current} {...props} />
     </Grid>
