@@ -18,25 +18,55 @@ export default class extends Component {
       position: { x: 0.5, y: 0.5 },
       uploading: false,
     }
-    this.onUpload = handleUpload.bind(this)
+
+    this.handleUpload = handleUpload.bind(this)
+    this.onUpload = this.onUpload.bind(this)
+    this.onDrop = this.onDrop.bind(this)
+    this.onPositionChange = this.onPositionChange.bind(this)
     this.setEditor = this.setEditor.bind(this)
+    this.onZoomOut = this.onZoomOut.bind(this)
+    this.onZoomIn = this.onZoomIn.bind(this)
   }
 
   setEditor(editor) {
     this.editor = editor
   }
 
+  onUpload() {
+    const { update, id } = this.props
+
+    this.setState({ uploading: true })
+    this.handleUpload({ editorImage: this.editor.getImage(), update, id })
+  }
+
+  onDrop(files) {
+    this.setState({ file: files[0] })
+  }
+
+  onPositionChange(position) {
+    this.setState({ position })
+  }
+
+  onZoomOut() {
+    this.setState(({ scale }) => ({
+      scale: scale > 1 ? scale - 0.1 : scale,
+    }))
+  }
+
+  onZoomIn() {
+    this.setState(({ scale }) => ({
+      scale: scale + 0.1,
+    }))
+  }
+
   render() {
     const { file, scale, position, uploading } = this.state
-    const { update, updating, id, title } = this.props
+    const { updating, title } = this.props
 
     return (
       <Dialog
         {...this.props}
-        onUpload={() => {
-          this.setState({ uploading: true })
-          this.onUpload({ editorImage: this.editor.getImage(), update, id })
-        }}
+        onUpload={this.onUpload}
         disabled={!file || updating || uploading}
         uploading={uploading}
       >
@@ -44,7 +74,7 @@ export default class extends Component {
           accept="image/*"
           multiple={false}
           disableClick={!!file}
-          onDrop={files => this.setState({ file: files[0] })}
+          onDrop={this.onDrop}
           style={{
             textAlign: 'center',
             border: file ? 'none' : '1px dashed',
@@ -64,7 +94,7 @@ export default class extends Component {
               image={file.preview}
               scale={scale}
               position={position}
-              onPositionChange={position => this.setState({ position })}
+              onPositionChange={this.onPositionChange}
             />
           ) : (
             <Typography
@@ -76,18 +106,7 @@ export default class extends Component {
           )}
         </Dropzone>
         {file && (
-          <ZoomControls
-            onZoomOut={() =>
-              this.setState(({ scale }) => ({
-                scale: scale > 1 ? scale - 0.1 : scale,
-              }))
-            }
-            onZoomIn={() =>
-              this.setState(({ scale }) => ({
-                scale: scale + 0.1,
-              }))
-            }
-          />
+          <ZoomControls onZoomOut={this.onZoomOut} onZoomIn={this.onZoomIn} />
         )}
       </Dialog>
     )

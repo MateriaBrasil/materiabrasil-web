@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with imageUrl renders correctly 1`] = `
+<div
+  className="MuiCardMedia-root-1"
+  src={undefined}
+  style={
+    Object {
+      "backgroundColor": "#ddd",
+      "backgroundImage": "url(\\"foo\\")",
+      "borderRadius": 2,
+      "display": "inline-block",
+      "height": 400,
+      "marginRight": 16,
+      "width": 400,
+    }
+  }
+  title={undefined}
+/>
+`;
+
+exports[`without imageUrl renders correctly 1`] = `
+<div
+  className="MuiCardMedia-root-1"
+  src={undefined}
+  style={
+    Object {
+      "backgroundColor": "#ddd",
+      "backgroundImage": "url(\\"/images/avatar.png\\")",
+      "borderRadius": 2,
+      "display": "inline-block",
+      "height": 400,
+      "marginRight": 16,
+      "width": 400,
+    }
+  }
+  title={undefined}
+/>
+`;

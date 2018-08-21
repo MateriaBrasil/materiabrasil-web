@@ -1,22 +1,30 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import { Provider } from 'react-redux'
-
-import createStore from '../../../store/createStore'
 
 import Form from '../Form'
 
+jest.mock('redux-form', () => ({
+  reduxForm: () => component => component,
+}))
+
+jest.mock('../../../form/TextField', () => props => (
+  <div {...props}>Text Field</div>
+))
+
 it('renders correctly', () => {
-  const reducer = () => ({})
-  const store = createStore(reducer)
   const onSubmit = jest.fn()
-  const props = { updateError: 'foo-error' }
-  const tree = renderer
-    .create(
-      <Provider store={store}>
-        <Form onSubmit={onSubmit} {...props} />
-      </Provider>,
-    )
-    .toJSON()
+  const handleSubmit = jest.fn()
+  const props = { updateError: 'foo-error', onSubmit, handleSubmit }
+  const tree = renderer.create(<Form {...props} />).toJSON()
   expect(tree).toMatchSnapshot()
+})
+
+describe('when updating', () => {
+  it('renders correctly', () => {
+    const onSubmit = jest.fn()
+    const handleSubmit = jest.fn()
+    const props = { updateError: 'foo-error', onSubmit, handleSubmit }
+    const tree = renderer.create(<Form updating {...props} />).toJSON()
+    expect(tree).toMatchSnapshot()
+  })
 })
