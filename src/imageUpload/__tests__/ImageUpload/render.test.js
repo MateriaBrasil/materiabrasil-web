@@ -1,7 +1,7 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-import ImageUpload from '../ImageUpload'
+import ImageUpload from '../../ImageUpload'
 
 jest.mock('react-router-dom/Link', () => props => (
   <div {...props}>{props.children}</div>
