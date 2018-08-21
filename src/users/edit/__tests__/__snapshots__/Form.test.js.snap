@@ -19,465 +19,71 @@ exports[`renders correctly 1`] = `
         className="MuiCardContent-root-120"
       >
         <form
-          onSubmit={[Function]}
+          onSubmit={undefined}
         >
-          <div>
-            <div
-              aria-describedby="name-error-text"
-              className="MuiFormControl-root-121 MuiFormControl-fullWidth-124"
-              onBlur={[Function]}
-              onFocus={[Function]}
-            >
-              <label
-                className="MuiFormLabel-root-130 MuiInputLabel-root-125 MuiInputLabel-formControl-126 MuiInputLabel-animated-129"
-                data-shrink={false}
-                htmlFor="name-error"
-              >
-                Nome
-              </label>
-              <div
-                className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-underline-139"
-                onDragStart={[Function]}
-                onDrop={[Function]}
-              >
-                <input
-                  aria-invalid={false}
-                  aria-required={false}
-                  autoComplete={undefined}
-                  autoFocus={undefined}
-                  className="MuiInput-input-143"
-                  defaultValue={undefined}
-                  disabled={false}
-                  id={undefined}
-                  name="firstName"
-                  onBlur={[Function]}
-                  onChange={[Function]}
-                  onFocus={[Function]}
-                  onKeyDown={undefined}
-                  onKeyUp={undefined}
-                  placeholder={undefined}
-                  readOnly={undefined}
-                  required={undefined}
-                  rows={undefined}
-                  type="text"
-                  value=""
-                />
-              </div>
-              <p
-                className="MuiFormHelperText-root-148"
-                id="name-error-text"
-              />
-            </div>
+          <div
+            label="Nome"
+            name="firstName"
+            type="text"
+          >
+            Text Field
           </div>
-          <div>
-            <div
-              aria-describedby="name-error-text"
-              className="MuiFormControl-root-121 MuiFormControl-fullWidth-124"
-              onBlur={[Function]}
-              onFocus={[Function]}
-            >
-              <label
-                className="MuiFormLabel-root-130 MuiInputLabel-root-125 MuiInputLabel-formControl-126 MuiInputLabel-animated-129"
-                data-shrink={false}
-                htmlFor="name-error"
-              >
-                Sobrenome
-              </label>
-              <div
-                className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-underline-139"
-                onDragStart={[Function]}
-                onDrop={[Function]}
-              >
-                <input
-                  aria-invalid={false}
-                  aria-required={false}
-                  autoComplete={undefined}
-                  autoFocus={undefined}
-                  className="MuiInput-input-143"
-                  defaultValue={undefined}
-                  disabled={false}
-                  id={undefined}
-                  name="lastName"
-                  onBlur={[Function]}
-                  onChange={[Function]}
-                  onFocus={[Function]}
-                  onKeyDown={undefined}
-                  onKeyUp={undefined}
-                  placeholder={undefined}
-                  readOnly={undefined}
-                  required={undefined}
-                  rows={undefined}
-                  type="text"
-                  value=""
-                />
-              </div>
-              <p
-                className="MuiFormHelperText-root-148"
-                id="name-error-text"
-              />
-            </div>
+          <div
+            label="Sobrenome"
+            name="lastName"
+            type="text"
+          >
+            Text Field
           </div>
-          <div>
-            <div
-              aria-describedby="name-error-text"
-              className="MuiFormControl-root-121 MuiFormControl-fullWidth-124"
-              onBlur={[Function]}
-              onFocus={[Function]}
-            >
-              <label
-                className="MuiFormLabel-root-130 MuiInputLabel-root-125 MuiInputLabel-formControl-126 MuiInputLabel-animated-129"
-                data-shrink={false}
-                htmlFor="name-error"
-              >
-                Sobre você
-              </label>
-              <div
-                className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-multiline-141 MuiInput-underline-139"
-                onDragStart={[Function]}
-                onDrop={[Function]}
-              >
-                <div
-                  className="Textarea-root-152"
-                  style={
-                    Object {
-                      "height": 19,
-                    }
-                  }
-                >
-                  <textarea
-                    aria-hidden="true"
-                    className="Textarea-shadow-154 Textarea-textarea-153"
-                    readOnly={true}
-                    rows="1"
-                    tabIndex={-1}
-                    value=""
-                  />
-                  <textarea
-                    aria-hidden="true"
-                    className="Textarea-shadow-154 Textarea-textarea-153"
-                    defaultValue={undefined}
-                    readOnly={true}
-                    rows={1}
-                    tabIndex={-1}
-                    value=""
-                  />
-                  <textarea
-                    aria-invalid={false}
-                    aria-required={false}
-                    autoComplete={undefined}
-                    autoFocus={undefined}
-                    className="Textarea-textarea-153 MuiInput-input-143 MuiInput-inputMultiline-145"
-                    defaultValue={undefined}
-                    disabled={false}
-                    id={undefined}
-                    name="bio"
-                    onBlur={[Function]}
-                    onChange={[Function]}
-                    onFocus={[Function]}
-                    onKeyDown={undefined}
-                    onKeyUp={undefined}
-                    placeholder={undefined}
-                    readOnly={undefined}
-                    required={undefined}
-                    rows={1}
-                    type="text"
-                    value=""
-                  />
-                </div>
-              </div>
-              <p
-                className="MuiFormHelperText-root-148"
-                id="name-error-text"
-              />
-            </div>
+          <div
+            label="Sobre você"
+            multiline={true}
+            name="bio"
+            type="text"
+          >
+            Text Field
           </div>
-          <div>
-            <div
-              aria-describedby="name-error-text"
-              className="MuiFormControl-root-121 MuiFormControl-fullWidth-124"
-              onBlur={[Function]}
-              onFocus={[Function]}
-            >
-              <label
-                className="MuiFormLabel-root-130 MuiInputLabel-root-125 MuiInputLabel-formControl-126 MuiInputLabel-animated-129"
-                data-shrink={false}
-                htmlFor="name-error"
-              >
-                Cidade
-              </label>
-              <div
-                className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-underline-139"
-                onDragStart={[Function]}
-                onDrop={[Function]}
-              >
-                <input
-                  aria-invalid={false}
-                  aria-required={false}
-                  autoComplete={undefined}
-                  autoFocus={undefined}
-                  className="MuiInput-input-143"
-                  defaultValue={undefined}
-                  disabled={false}
-                  id={undefined}
-                  name="city"
-                  onBlur={[Function]}
-                  onChange={[Function]}
-                  onFocus={[Function]}
-                  onKeyDown={undefined}
-                  onKeyUp={undefined}
-                  placeholder={undefined}
-                  readOnly={undefined}
-                  required={undefined}
-                  rows={undefined}
-                  type="text"
-                  value=""
-                />
-              </div>
-              <p
-                className="MuiFormHelperText-root-148"
-                id="name-error-text"
-              />
-            </div>
+          <div
+            label="Cidade"
+            name="city"
+            type="text"
+          >
+            Text Field
           </div>
-          <div>
-            <div
-              aria-describedby="name-error-text"
-              className="MuiFormControl-root-121 MuiFormControl-fullWidth-124"
-              onBlur={[Function]}
-              onFocus={[Function]}
-            >
-              <label
-                className="MuiFormLabel-root-130 MuiInputLabel-root-125 MuiInputLabel-formControl-126 MuiInputLabel-animated-129"
-                data-shrink={false}
-                htmlFor="name-error"
-              >
-                Estado
-              </label>
-              <div
-                className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-underline-139"
-                onDragStart={[Function]}
-                onDrop={[Function]}
-              >
-                <input
-                  aria-invalid={false}
-                  aria-required={false}
-                  autoComplete={undefined}
-                  autoFocus={undefined}
-                  className="MuiInput-input-143"
-                  defaultValue={undefined}
-                  disabled={false}
-                  id={undefined}
-                  name="state"
-                  onBlur={[Function]}
-                  onChange={[Function]}
-                  onFocus={[Function]}
-                  onKeyDown={undefined}
-                  onKeyUp={undefined}
-                  placeholder={undefined}
-                  readOnly={undefined}
-                  required={undefined}
-                  rows={undefined}
-                  type="text"
-                  value=""
-                />
-              </div>
-              <p
-                className="MuiFormHelperText-root-148"
-                id="name-error-text"
-              />
-            </div>
+          <div
+            label="Estado"
+            name="state"
+            type="text"
+          >
+            Text Field
           </div>
-          <div>
-            <div
-              aria-describedby="name-error-text"
-              className="MuiFormControl-root-121 MuiFormControl-fullWidth-124"
-              onBlur={[Function]}
-              onFocus={[Function]}
-            >
-              <label
-                className="MuiFormLabel-root-130 MuiInputLabel-root-125 MuiInputLabel-formControl-126 MuiInputLabel-animated-129"
-                data-shrink={false}
-                htmlFor="name-error"
-              >
-                País
-              </label>
-              <div
-                className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-underline-139"
-                onDragStart={[Function]}
-                onDrop={[Function]}
-              >
-                <input
-                  aria-invalid={false}
-                  aria-required={false}
-                  autoComplete={undefined}
-                  autoFocus={undefined}
-                  className="MuiInput-input-143"
-                  defaultValue={undefined}
-                  disabled={false}
-                  id={undefined}
-                  name="country"
-                  onBlur={[Function]}
-                  onChange={[Function]}
-                  onFocus={[Function]}
-                  onKeyDown={undefined}
-                  onKeyUp={undefined}
-                  placeholder={undefined}
-                  readOnly={undefined}
-                  required={undefined}
-                  rows={undefined}
-                  type="text"
-                  value=""
-                />
-              </div>
-              <p
-                className="MuiFormHelperText-root-148"
-                id="name-error-text"
-              />
-            </div>
+          <div
+            label="País"
+            name="country"
+            type="text"
+          >
+            Text Field
           </div>
-          <div>
-            <div
-              aria-describedby="name-error-text"
-              className="MuiFormControl-root-121 MuiFormControl-fullWidth-124"
-              onBlur={[Function]}
-              onFocus={[Function]}
-            >
-              <label
-                className="MuiFormLabel-root-130 MuiInputLabel-root-125 MuiInputLabel-formControl-126 MuiInputLabel-animated-129"
-                data-shrink={false}
-                htmlFor="name-error"
-              >
-                Empresa / Organização
-              </label>
-              <div
-                className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-underline-139"
-                onDragStart={[Function]}
-                onDrop={[Function]}
-              >
-                <input
-                  aria-invalid={false}
-                  aria-required={false}
-                  autoComplete={undefined}
-                  autoFocus={undefined}
-                  className="MuiInput-input-143"
-                  defaultValue={undefined}
-                  disabled={false}
-                  id={undefined}
-                  name="company"
-                  onBlur={[Function]}
-                  onChange={[Function]}
-                  onFocus={[Function]}
-                  onKeyDown={undefined}
-                  onKeyUp={undefined}
-                  placeholder={undefined}
-                  readOnly={undefined}
-                  required={undefined}
-                  rows={undefined}
-                  type="text"
-                  value=""
-                />
-              </div>
-              <p
-                className="MuiFormHelperText-root-148"
-                id="name-error-text"
-              />
-            </div>
+          <div
+            label="Empresa / Organização"
+            name="company"
+            type="text"
+          >
+            Text Field
           </div>
-          <div>
-            <div
-              aria-describedby="name-error-text"
-              className="MuiFormControl-root-121 MuiFormControl-fullWidth-124"
-              onBlur={[Function]}
-              onFocus={[Function]}
-            >
-              <label
-                className="MuiFormLabel-root-130 MuiInputLabel-root-125 MuiInputLabel-formControl-126 MuiInputLabel-animated-129"
-                data-shrink={false}
-                htmlFor="name-error"
-              >
-                Cargo
-              </label>
-              <div
-                className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-underline-139"
-                onDragStart={[Function]}
-                onDrop={[Function]}
-              >
-                <input
-                  aria-invalid={false}
-                  aria-required={false}
-                  autoComplete={undefined}
-                  autoFocus={undefined}
-                  className="MuiInput-input-143"
-                  defaultValue={undefined}
-                  disabled={false}
-                  id={undefined}
-                  name="workTitle"
-                  onBlur={[Function]}
-                  onChange={[Function]}
-                  onFocus={[Function]}
-                  onKeyDown={undefined}
-                  onKeyUp={undefined}
-                  placeholder={undefined}
-                  readOnly={undefined}
-                  required={undefined}
-                  rows={undefined}
-                  type="text"
-                  value=""
-                />
-              </div>
-              <p
-                className="MuiFormHelperText-root-148"
-                id="name-error-text"
-              />
-            </div>
+          <div
+            label="Cargo"
+            name="workTitle"
+            type="text"
+          >
+            Text Field
           </div>
-          <div>
-            <div
-              aria-describedby="name-error-text"
-              className="MuiFormControl-root-121 MuiFormControl-fullWidth-124"
-              onBlur={[Function]}
-              onFocus={[Function]}
-            >
-              <label
-                className="MuiFormLabel-root-130 MuiInputLabel-root-125 MuiInputLabel-formControl-126 MuiInputLabel-animated-129"
-                data-shrink={false}
-                htmlFor="name-error"
-              >
-                Site
-              </label>
-              <div
-                className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-underline-139"
-                onDragStart={[Function]}
-                onDrop={[Function]}
-              >
-                <input
-                  aria-invalid={false}
-                  aria-required={false}
-                  autoComplete={undefined}
-                  autoFocus={undefined}
-                  className="MuiInput-input-143"
-                  defaultValue={undefined}
-                  disabled={false}
-                  id={undefined}
-                  name="website"
-                  onBlur={[Function]}
-                  onChange={[Function]}
-                  onFocus={[Function]}
-                  onKeyDown={undefined}
-                  onKeyUp={undefined}
-                  placeholder={undefined}
-                  readOnly={undefined}
-                  required={undefined}
-                  rows={undefined}
-                  type="text"
-                  value=""
-                />
-              </div>
-              <p
-                className="MuiFormHelperText-root-148"
-                id="name-error-text"
-              />
-            </div>
+          <div
+            label="Site"
+            name="website"
+            type="text"
+          >
+            Text Field
           </div>
           <div
             style={
@@ -487,7 +93,7 @@ exports[`renders correctly 1`] = `
             }
           >
             <button
-              className="MuiButtonBase-root-171 MuiButton-root-155 MuiButton-raised-161 MuiButton-raisedPrimary-162"
+              className="MuiButtonBase-root-137 MuiButton-root-121 MuiButton-raised-127 MuiButton-raisedPrimary-128"
               disabled={false}
               onBlur={[Function]}
               onFocus={[Function]}
@@ -503,12 +109,12 @@ exports[`renders correctly 1`] = `
               type="submit"
             >
               <span
-                className="MuiButton-label-156"
+                className="MuiButton-label-122"
               >
                 Atualizar perfil
               </span>
               <span
-                className="MuiTouchRipple-root-174"
+                className="MuiTouchRipple-root-140"
               />
             </button>
           </div>
@@ -521,7 +127,146 @@ exports[`renders correctly 1`] = `
             }
           >
             <h1
-              className="MuiTypography-root-181 MuiTypography-headline-186 MuiTypography-colorError-204"
+              className="MuiTypography-root-147 MuiTypography-headline-152 MuiTypography-colorError-170"
+            >
+              foo-error
+            </h1>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when updating renders correctly 1`] = `
+<div
+  className="MuiGrid-container-1 MuiGrid-spacing-xs-32-25"
+>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-8-48 MuiGrid-grid-md-6-59"
+    style={
+      Object {
+        "margin": "0 auto",
+      }
+    }
+  >
+    <div
+      className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+    >
+      <div
+        className="MuiCardContent-root-120"
+      >
+        <form
+          onSubmit={undefined}
+        >
+          <div
+            label="Nome"
+            name="firstName"
+            type="text"
+          >
+            Text Field
+          </div>
+          <div
+            label="Sobrenome"
+            name="lastName"
+            type="text"
+          >
+            Text Field
+          </div>
+          <div
+            label="Sobre você"
+            multiline={true}
+            name="bio"
+            type="text"
+          >
+            Text Field
+          </div>
+          <div
+            label="Cidade"
+            name="city"
+            type="text"
+          >
+            Text Field
+          </div>
+          <div
+            label="Estado"
+            name="state"
+            type="text"
+          >
+            Text Field
+          </div>
+          <div
+            label="País"
+            name="country"
+            type="text"
+          >
+            Text Field
+          </div>
+          <div
+            label="Empresa / Organização"
+            name="company"
+            type="text"
+          >
+            Text Field
+          </div>
+          <div
+            label="Cargo"
+            name="workTitle"
+            type="text"
+          >
+            Text Field
+          </div>
+          <div
+            label="Site"
+            name="website"
+            type="text"
+          >
+            Text Field
+          </div>
+          <div
+            style={
+              Object {
+                "textAlign": "center",
+              }
+            }
+          >
+            <div
+              className="MuiCircularProgress-root-171 MuiCircularProgress-colorPrimary-174 MuiCircularProgress-indeterminate-173"
+              role="progressbar"
+              style={
+                Object {
+                  "height": 40,
+                  "width": 40,
+                }
+              }
+            >
+              <svg
+                className="MuiCircularProgress-svg-176"
+                viewBox="0 0 50 50"
+              >
+                <circle
+                  className="MuiCircularProgress-circle-177 MuiCircularProgress-circleIndeterminate-179"
+                  cx={25}
+                  cy={25}
+                  fill="none"
+                  r={20}
+                  strokeWidth={3.6}
+                  style={Object {}}
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "padding": 20,
+                "textAlign": "center",
+              }
+            }
+          >
+            <h1
+              className="MuiTypography-root-147 MuiTypography-headline-152 MuiTypography-colorError-170"
             >
               foo-error
             </h1>
