@@ -1,17 +1,15 @@
-import React, { Component, Fragment } from 'react'
+import React from 'react'
 import Link from 'react-router-dom/Link'
 import Grid from '@material-ui/core/Grid'
 import Ratio from 'react-ratio'
 
-import NewFavorite from '../../favorites/New'
-import TechnicalSpecification from './TechnicalSpecification'
 import TitleBar from './TitleBar'
 
 export default props => {
-  const { material } = props
+  const { material, renderIcons } = props
   const { id, highlighted, name, imageUrl } = material
   const { highlightImageUrl, listImageUrl } = material
-  const { currentUser, ignoreHighlights } = props
+  const { ignoreHighlights } = props
   const image = highlighted ? highlightImageUrl : listImageUrl
 
   const cols = ignoreHighlights ? 1 : highlighted ? 2 : 1
@@ -22,19 +20,9 @@ export default props => {
           <img src={image || imageUrl} alt={name} style={{ width: '100%' }} />
         </Link>
         <TitleBar
-          {...this.props}
+          {...props}
           material={material}
-          renderIcons={() => (
-            <Fragment>
-              {currentUser && (
-                <NewFavorite id={id} style={{ color: 'white' }} />
-              )}
-              <TechnicalSpecification
-                {...material}
-                style={{ color: 'white', marginRight: 16 }}
-              />
-            </Fragment>
-          )}
+          renderIcons={renderIcons}
         />
       </Ratio>
     </Grid>
