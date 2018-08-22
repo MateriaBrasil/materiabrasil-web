@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div
+    id={1122}
+    style={
+        Object {
+            "color": "white",
+          }
+    }
+>
+    New
+</div>,
+  <div
+    highlightedImageUrl="foo-url"
+    id={1234}
+    imageUrl="bar"
+    listImageUrl="list"
+    name="foo"
+    style={
+        Object {
+            "color": "white",
+            "marginRight": 16,
+          }
+    }
+>
+    TechnicalSpecification
+</div>,
+]
+`;

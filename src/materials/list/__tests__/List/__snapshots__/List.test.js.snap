@@ -29,7 +29,7 @@ exports[`with ignoreHighlights renders correctly 1`] = `
           style={
             Object {
               "height": 0,
-              "paddingTop": "55.55555555555556%",
+              "paddingTop": "66.66666666666667%",
               "position": "relative",
               "width": "100%",
             }
@@ -183,7 +183,7 @@ exports[`with ignoreHighlights renders correctly 1`] = `
           style={
             Object {
               "height": 0,
-              "paddingTop": "55.55555555555556%",
+              "paddingTop": "66.66666666666667%",
               "position": "relative",
               "width": "100%",
             }
@@ -337,7 +337,7 @@ exports[`with ignoreHighlights renders correctly 1`] = `
           style={
             Object {
               "height": 0,
-              "paddingTop": "55.55555555555556%",
+              "paddingTop": "66.66666666666667%",
               "position": "relative",
               "width": "100%",
             }
@@ -507,7 +507,7 @@ exports[`without currentUser renders correctly 1`] = `
           style={
             Object {
               "height": 0,
-              "paddingTop": "27.77777777777778%",
+              "paddingTop": "33.333333333333336%",
               "position": "relative",
               "width": "100%",
             }
@@ -651,7 +651,7 @@ exports[`without currentUser renders correctly 1`] = `
           style={
             Object {
               "height": 0,
-              "paddingTop": "27.77777777777778%",
+              "paddingTop": "33.333333333333336%",
               "position": "relative",
               "width": "100%",
             }
@@ -795,7 +795,7 @@ exports[`without currentUser renders correctly 1`] = `
           style={
             Object {
               "height": 0,
-              "paddingTop": "55.55555555555556%",
+              "paddingTop": "66.66666666666667%",
               "position": "relative",
               "width": "100%",
             }
@@ -955,7 +955,7 @@ exports[`without ignoreHighlights renders correctly 1`] = `
           style={
             Object {
               "height": 0,
-              "paddingTop": "27.77777777777778%",
+              "paddingTop": "33.333333333333336%",
               "position": "relative",
               "width": "100%",
             }
@@ -1109,7 +1109,7 @@ exports[`without ignoreHighlights renders correctly 1`] = `
           style={
             Object {
               "height": 0,
-              "paddingTop": "27.77777777777778%",
+              "paddingTop": "33.333333333333336%",
               "position": "relative",
               "width": "100%",
             }
@@ -1263,7 +1263,7 @@ exports[`without ignoreHighlights renders correctly 1`] = `
           style={
             Object {
               "height": 0,
-              "paddingTop": "55.55555555555556%",
+              "paddingTop": "66.66666666666667%",
               "position": "relative",
               "width": "100%",
             }

@@ -19,11 +19,7 @@ export default props => {
         <Link to={`/${id}`}>
           <img src={image || imageUrl} alt={name} style={{ width: '100%' }} />
         </Link>
-        <TitleBar
-          {...props}
-          material={material}
-          renderIcons={renderIcons}
-        />
+        <TitleBar {...props} material={material} renderIcons={renderIcons} />
       </Ratio>
     </Grid>
   )
