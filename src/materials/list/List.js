@@ -14,15 +14,12 @@ export default class extends Component {
   }
 
   render() {
-    const { list, currentUser, ignoreHighlights } = this.props
+    const { list } = this.props
 
     return (
       <Grid item xs={12} md={9} style={{ marginTop: -40 }}>
         <Grid container spacing={8}>
-          {list.map(material => {
-            const props = { material, currentUser, ignoreHighlights }
-            return <Card {...props} />
-          })}
+          {list.map(material => <Card material={material} {...this.props} />)}
         </Grid>
       </Grid>
     )

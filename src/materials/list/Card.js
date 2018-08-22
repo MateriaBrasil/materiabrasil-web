@@ -8,10 +8,10 @@ import TechnicalSpecification from './TechnicalSpecification'
 import TitleBar from './TitleBar'
 
 export default props => {
-  const {material} = props
+  const { material } = props
   const { id, highlighted, name, imageUrl } = material
   const { highlightImageUrl, listImageUrl } = material
-  const {currentUser, ignoreHighlights } = props
+  const { currentUser, ignoreHighlights } = props
   const image = highlighted ? highlightImageUrl : listImageUrl
 
   const cols = ignoreHighlights ? 1 : highlighted ? 2 : 1
