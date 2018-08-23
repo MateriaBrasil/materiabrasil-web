@@ -243,216 +243,278 @@ exports[`with materials renders correctly 1`] = `
   <div
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
   >
-    <ul
-      className="MuiGridList-root-145"
-      style={
-        Object {
-          "margin": -2,
-        }
-      }
+    <div
+      cellHeight={360}
+      className="MuiGrid-container-1 MuiGrid-spacing-xs-8-22"
     >
-      <li
-        className="MuiGridListTile-root-146"
-        style={
-          Object {
-            "height": 364,
-            "padding": 2,
-            "width": "50%",
-          }
-        }
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-6-33"
       >
         <div
-          className="MuiGridListTile-tile-147"
+          className="Ratio "
+          style={
+            Object {
+              "display": "block",
+              "overflow": "hidden ",
+            }
+          }
         >
           <div
-            to="/1"
-          >
-            <img
-              alt={undefined}
-              src={undefined}
-              style={
-                Object {
-                  "height": 360,
-                  "objectFit": "cover",
-                  "width": "100%",
-                }
-              }
-            />
-          </div>
-          <div
+            className="Ratio-ratio "
             style={
               Object {
-                "background": "rgba(0, 0, 0, 0.6)",
-                "bottom": 0,
-                "color": "white",
-                "height": 90,
-                "left": 0,
-                "padding": 20,
-                "position": "absolute",
-                "right": 0,
+                "height": 0,
+                "paddingTop": "66.66666666666667%",
+                "position": "relative",
+                "width": "100%",
               }
             }
           >
             <div
+              className="Ratio-content "
               style={
                 Object {
-                  "float": "left",
+                  "height": "100%",
+                  "left": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "100%",
                 }
               }
             >
               <div
-                style={
-                  Object {
-                    "color": "white",
-                    "display": "block",
-                    "textDecoration": "none",
-                  }
-                }
                 to="/1"
               >
-                <h3
-                  className="MuiTypography-root-92 MuiTypography-subheading-99 MuiTypography-colorInherit-111"
+                <img
+                  alt={undefined}
+                  src={undefined}
+                  style={
+                    Object {
+                      "width": "100%",
+                    }
+                  }
                 />
+              </div>
+              <div
+                style={
+                  Object {
+                    "background": "rgba(0, 0, 0, 0.6)",
+                    "bottom": 0,
+                    "color": "white",
+                    "height": 90,
+                    "left": 0,
+                    "padding": 20,
+                    "position": "absolute",
+                    "right": 0,
+                  }
+                }
+              >
+                <div
+                  style={
+                    Object {
+                      "float": "left",
+                    }
+                  }
+                >
+                  <div
+                    style={
+                      Object {
+                        "color": "white",
+                        "display": "block",
+                        "textDecoration": "none",
+                      }
+                    }
+                    to="/1"
+                  >
+                    <h3
+                      className="MuiTypography-root-92 MuiTypography-subheading-99 MuiTypography-colorInherit-111"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </li>
-      <li
-        className="MuiGridListTile-root-146"
-        style={
-          Object {
-            "height": 364,
-            "padding": 2,
-            "width": "50%",
-          }
-        }
+      </div>
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-6-33"
       >
         <div
-          className="MuiGridListTile-tile-147"
+          className="Ratio "
+          style={
+            Object {
+              "display": "block",
+              "overflow": "hidden ",
+            }
+          }
         >
           <div
-            to="/2"
-          >
-            <img
-              alt={undefined}
-              src={undefined}
-              style={
-                Object {
-                  "height": 360,
-                  "objectFit": "cover",
-                  "width": "100%",
-                }
-              }
-            />
-          </div>
-          <div
+            className="Ratio-ratio "
             style={
               Object {
-                "background": "rgba(0, 0, 0, 0.6)",
-                "bottom": 0,
-                "color": "white",
-                "height": 90,
-                "left": 0,
-                "padding": 20,
-                "position": "absolute",
-                "right": 0,
+                "height": 0,
+                "paddingTop": "66.66666666666667%",
+                "position": "relative",
+                "width": "100%",
               }
             }
           >
             <div
+              className="Ratio-content "
               style={
                 Object {
-                  "float": "left",
+                  "height": "100%",
+                  "left": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "100%",
                 }
               }
             >
               <div
-                style={
-                  Object {
-                    "color": "white",
-                    "display": "block",
-                    "textDecoration": "none",
-                  }
-                }
                 to="/2"
               >
-                <h3
-                  className="MuiTypography-root-92 MuiTypography-subheading-99 MuiTypography-colorInherit-111"
+                <img
+                  alt={undefined}
+                  src={undefined}
+                  style={
+                    Object {
+                      "width": "100%",
+                    }
+                  }
                 />
+              </div>
+              <div
+                style={
+                  Object {
+                    "background": "rgba(0, 0, 0, 0.6)",
+                    "bottom": 0,
+                    "color": "white",
+                    "height": 90,
+                    "left": 0,
+                    "padding": 20,
+                    "position": "absolute",
+                    "right": 0,
+                  }
+                }
+              >
+                <div
+                  style={
+                    Object {
+                      "float": "left",
+                    }
+                  }
+                >
+                  <div
+                    style={
+                      Object {
+                        "color": "white",
+                        "display": "block",
+                        "textDecoration": "none",
+                      }
+                    }
+                    to="/2"
+                  >
+                    <h3
+                      className="MuiTypography-root-92 MuiTypography-subheading-99 MuiTypography-colorInherit-111"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </li>
-      <li
-        className="MuiGridListTile-root-146"
-        style={
-          Object {
-            "height": 364,
-            "padding": 2,
-            "width": "50%",
-          }
-        }
+      </div>
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-6-33"
       >
         <div
-          className="MuiGridListTile-tile-147"
+          className="Ratio "
+          style={
+            Object {
+              "display": "block",
+              "overflow": "hidden ",
+            }
+          }
         >
           <div
-            to="/3"
-          >
-            <img
-              alt={undefined}
-              src={undefined}
-              style={
-                Object {
-                  "height": 360,
-                  "objectFit": "cover",
-                  "width": "100%",
-                }
-              }
-            />
-          </div>
-          <div
+            className="Ratio-ratio "
             style={
               Object {
-                "background": "rgba(0, 0, 0, 0.6)",
-                "bottom": 0,
-                "color": "white",
-                "height": 90,
-                "left": 0,
-                "padding": 20,
-                "position": "absolute",
-                "right": 0,
+                "height": 0,
+                "paddingTop": "66.66666666666667%",
+                "position": "relative",
+                "width": "100%",
               }
             }
           >
             <div
+              className="Ratio-content "
               style={
                 Object {
-                  "float": "left",
+                  "height": "100%",
+                  "left": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "100%",
                 }
               }
             >
               <div
-                style={
-                  Object {
-                    "color": "white",
-                    "display": "block",
-                    "textDecoration": "none",
-                  }
-                }
                 to="/3"
               >
-                <h3
-                  className="MuiTypography-root-92 MuiTypography-subheading-99 MuiTypography-colorInherit-111"
+                <img
+                  alt={undefined}
+                  src={undefined}
+                  style={
+                    Object {
+                      "width": "100%",
+                    }
+                  }
                 />
+              </div>
+              <div
+                style={
+                  Object {
+                    "background": "rgba(0, 0, 0, 0.6)",
+                    "bottom": 0,
+                    "color": "white",
+                    "height": 90,
+                    "left": 0,
+                    "padding": 20,
+                    "position": "absolute",
+                    "right": 0,
+                  }
+                }
+              >
+                <div
+                  style={
+                    Object {
+                      "float": "left",
+                    }
+                  }
+                >
+                  <div
+                    style={
+                      Object {
+                        "color": "white",
+                        "display": "block",
+                        "textDecoration": "none",
+                      }
+                    }
+                    to="/3"
+                  >
+                    <h3
+                      className="MuiTypography-root-92 MuiTypography-subheading-99 MuiTypography-colorInherit-111"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </li>
-    </ul>
+      </div>
+    </div>
   </div>
   <div
     current={

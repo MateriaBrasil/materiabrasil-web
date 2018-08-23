@@ -1,25 +1,25 @@
 import React from 'react'
-import GridList from '@material-ui/core/GridList'
-import GridListTile from '@material-ui/core/GridListTile'
+import Grid from '@material-ui/core/Grid'
 
-import LinkToMaterial from '../materials/LinkToMaterial'
-import TitleBar from '../materials/list/TitleBar'
-import Destroy from './Destroy'
+import renderDestroyIcon from './renderDestroyIcon'
+import Card from '../materials/list/Card'
 
 export default ({ showDestroy, parentId }) => list => (
-  <GridList cellHeight={360}>
+  <Grid container spacing={8} cellHeight={360}>
     {list.map(({ id, favoritable, destroying }, index) => {
-      const { id: favoritableId, name, imageUrl } = favoritable
-      const renderIcons =
-        showDestroy &&
-        (() => <Destroy parentId={parentId} id={id} destroying={destroying} />)
-
       return (
-        <GridListTile key={id}>
-          <LinkToMaterial id={favoritableId} imageUrl={imageUrl} name={name} />
-          <TitleBar material={favoritable} renderIcons={renderIcons} />
-        </GridListTile>
+        <Card
+          key={id}
+          ignoreHighlights
+          renderIcons={renderDestroyIcon({
+            showDestroy,
+            parentId,
+            id,
+            destroying,
+          })}
+          material={favoritable}
+        />
       )
     })}
-  </GridList>
+  </Grid>
 )
