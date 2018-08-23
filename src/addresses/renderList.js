@@ -11,10 +11,10 @@ import EmailIcon from '@material-ui/icons/Email'
 import Card from './Card'
 
 export default props => list => {
-  console.log('list: ', list)
+
   return (
     <Fragment>
-      {list.length > 0 ? (
+      {(list && list.length) > 0 ? (
         <Card title="Endereço">
           <List>
             {map(
