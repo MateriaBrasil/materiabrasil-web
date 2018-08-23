@@ -9,33 +9,22 @@ import New from './New'
 import List from './List'
 
 export default props => {
-  const { currentUser, supplier, location } = props
+  const { currentUser, supplier, location, list } = props
   const { pathname } = location
 
   return (
     <Grid item xs={12} style={{ marginBottom: 36 }}>
-      <Card>
-        <CardContent>
-          <Typography
-            variant="headline"
-            color="textSecondary"
-            style={{ marginBottom: 16 }}
-          >
-            Endereços
-          </Typography>
-          {currentUser ? (
-            <Fragment>
-              {currentUser.id === supplier.userId && <New {...props} />}
-              <List {...props} />
-            </Fragment>
-          ) : (
-            <SignUpLink
-              pathname={pathname}
-              text="para ver os endereços do fornecedor."
-            />
-          )}
-        </CardContent>
-      </Card>
+      {currentUser ? (
+        <Fragment>
+          {currentUser.id === supplier.userId && <New {...props} />}
+          { list && <List {...props} />  }
+        </Fragment>
+      ) : (
+        <SignUpLink
+          pathname={pathname}
+          text="para ver os endereços do fornecedor."
+        />
+      )}
     </Grid>
   )
 }
