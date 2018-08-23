@@ -5,7 +5,7 @@ import List from './List'
 import SignUpLink from '../auth/SignUpLink'
 
 export default props => {
-  const { currentUser, supplier, location, list } = props
+  const { currentUser, supplier, location } = props
   const { pathname } = location
 
   return (
@@ -13,7 +13,7 @@ export default props => {
       {currentUser ? (
         <Fragment>
           {currentUser.id === supplier.userId && <New {...props} />}
-          {list && <List {...props} />}
+          <List {...props} />
         </Fragment>
       ) : (
         <SignUpLink
