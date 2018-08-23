@@ -11,7 +11,6 @@ import EmailIcon from '@material-ui/icons/Email'
 import Card from './Card'
 
 export default props => list => {
-
   return (
     <Fragment>
       {(list && list.length) > 0 ? (
