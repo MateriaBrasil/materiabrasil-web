@@ -1,7 +1,7 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-import renderIcons from '../renderIcons'
+import renderDestroyIcon from '../renderDestroyIcon'
 
 jest.mock('../Destroy', () => props => <div {...props}>Destroy</div>)
 
@@ -19,6 +19,6 @@ it('renders correctly', () => {
     },
   }
 
-  const tree = renderer.create(renderIcons(props)()).toJSON()
+  const tree = renderer.create(renderDestroyIcon(props)()).toJSON()
   expect(tree).toMatchSnapshot()
 })

@@ -1,7 +1,7 @@
 import React from 'react'
 import Grid from '@material-ui/core/Grid'
 
-import renderIcons from './renderIcons'
+import renderDestroyIcon from './renderDestroyIcon'
 import Card from '../materials/list/Card'
 
 export default ({ showDestroy, parentId }) => list => (
@@ -11,7 +11,7 @@ export default ({ showDestroy, parentId }) => list => (
         <Card
           key={id}
           ignoreHighlights
-          renderIcons={renderIcons({ showDestroy, parentId, id, destroying })}
+          renderIcons={renderDestroyIcon({ showDestroy, parentId, id, destroying })}
           material={favoritable}
         />
       )
