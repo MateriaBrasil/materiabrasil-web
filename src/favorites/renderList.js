@@ -11,7 +11,12 @@ export default ({ showDestroy, parentId }) => list => (
         <Card
           key={id}
           ignoreHighlights
-          renderIcons={renderDestroyIcon({ showDestroy, parentId, id, destroying })}
+          renderIcons={renderDestroyIcon({
+            showDestroy,
+            parentId,
+            id,
+            destroying,
+          })}
           material={favoritable}
         />
       )
