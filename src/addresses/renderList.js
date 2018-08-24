@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+
 import map from 'lodash/map'
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
@@ -7,23 +8,47 @@ import Avatar from '@material-ui/core/Avatar'
 import BuildIcon from '@material-ui/icons/Build'
 import EmailIcon from '@material-ui/icons/Email'
 
-export default props => list => (
-  <List>
-    {map(
-      list,
-      ({ id, addressType, streetAddress, zipCode, city, state, country }) => {
-        const fullAddress = `${streetAddress}${zipCode ? ` - ${zipCode}` : ''}`
-        const fullCity = `${city}, ${state}, ${country}`
+import Card from './Card'
 
-        return (
-          <ListItem key={id} button>
-            <Avatar>
-              {addressType === 'manufacture' ? <BuildIcon /> : <EmailIcon />}
-            </Avatar>
-            <ListItemText primary={fullAddress} secondary={fullCity} />
-          </ListItem>
-        )
-      },
-    )}
-  </List>
-)
+export default props => list => {
+  return (
+    <Fragment>
+      {(list && list.length) > 0 ? (
+        <Card title="Endereço">
+          <List>
+            {map(
+              list,
+              ({
+                id,
+                addressType,
+                streetAddress,
+                zipCode,
+                city,
+                state,
+                country,
+              }) => {
+                const fullAddress = `${streetAddress}${
+                  zipCode ? ` - ${zipCode}` : ''
+                }`
+                const fullCity = `${city}, ${state}, ${country}`
+
+                return (
+                  <ListItem key={id} button>
+                    <Avatar>
+                      {addressType === 'manufacture' ? (
+                        <BuildIcon />
+                      ) : (
+                        <EmailIcon />
+                      )}
+                    </Avatar>
+                    <ListItemText primary={fullAddress} secondary={fullCity} />
+                  </ListItem>
+                )
+              },
+            )}
+          </List>
+        </Card>
+      ) : null}
+    </Fragment>
+  )
+}
