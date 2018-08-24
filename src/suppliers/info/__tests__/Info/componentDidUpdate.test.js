@@ -27,7 +27,6 @@ beforeEach(() => {
   actions.fetchInfo.mockClear()
 })
 
-
 describe('when search exist', () => {
   it('calls fetchInfo function', () => {
     const tree = renderer.create(<Info {...props} />)

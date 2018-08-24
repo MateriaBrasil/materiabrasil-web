@@ -91,4 +91,4 @@ class Info extends Component {
   }
 }
 
-export default Info;
+export default Info
