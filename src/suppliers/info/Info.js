@@ -1,8 +1,10 @@
 import React, { Fragment } from 'react'
+import Link from 'react-router-dom/Link'
 import Grid from '@material-ui/core/Grid'
 import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 import Typography from '@material-ui/core/Typography'
+
 
 import SignUpLink from '../../auth/SignUpLink'
 import PropertyWithValue from '../../PropertyWithValue'
@@ -17,19 +19,26 @@ export default props => {
   const { id, name, description, email, phone, reach, imageUrl } = current
   const { userId, materials } = current
 
-  const editPath =
-    currentUser && userId === currentUser.id && `/suppliers/${id}/avatar`
+  const editPath = currentUser && userId === currentUser.id && `/suppliers/${id}/avatar`
 
   return (
     <Grid container spacing={32}>
       <Grid item xs={12} lg={4}>
         <Avatar name={name} editPath={editPath} imageUrl={imageUrl} />
-        <Typography
-          variant="display1"
-          style={{ marginTop: 16, marginBottom: 16 }}
-        >
-          {name}
-        </Typography>
+        <div>
+          <Typography
+            variant="display1"
+            style={{ marginTop: 16, marginBottom: 16 }}
+          >
+            {name}
+          </Typography>
+          {editPath && (
+            <Link to={`/suppliers/${id}/edit`}>
+              <Typography variant="subheading">Editar perfil</Typography>
+            </Link>
+          )}
+        </div>
+
       </Grid>
       <Grid item xs={12} lg={8}>
         <Card>

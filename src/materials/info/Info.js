@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Grid from '@material-ui/core/Grid'
 import queryString from 'query-string'
-
+import Link from 'react-router-dom/Link'
 import Comments from '../../comments/Comments'
 
 import CoverImage from './CoverImage'
