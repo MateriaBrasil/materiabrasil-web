@@ -1,17 +1,17 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-import Info from '../Info'
+import Info from '../../Info'
 
 jest.mock('react-router-dom/Link', () => props => (
   <div {...props}>{props.children}</div>
 ))
 
-jest.mock('../../../addresses/Addresses', () => props => (
+jest.mock('../../../../addresses/Addresses', () => props => (
   <div {...props}>Addresses</div>
 ))
 
-jest.mock('../../../imageUpload/Avatar', () => props => (
+jest.mock('../../../../imageUpload/Avatar', () => props => (
   <div {...props}>Avatar</div>
 ))
 
