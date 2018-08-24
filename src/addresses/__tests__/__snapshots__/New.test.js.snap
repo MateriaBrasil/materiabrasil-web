@@ -4,6 +4,7 @@ exports[`renders correctly 1`] = `
 <div
   name="addresses"
   render={[Function]}
+  renderCreated={[Function]}
 >
   New - 
 </div>
