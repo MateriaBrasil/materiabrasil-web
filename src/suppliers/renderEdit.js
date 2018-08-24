@@ -13,7 +13,7 @@ export default props => routeProps => {
       id={id}
       name="suppliers"
       render={render({ ...props, ...routeProps })}
-      renderUpdated={() => <Redirect to={'/suppliers/${id}'} />}
+      renderUpdated={() =>{debugger; return <Redirect to={`/suppliers/${id}?reload=true`} />}}
     />)
 
 }
