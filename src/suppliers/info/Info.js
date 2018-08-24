@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
-import queryString from 'query-string'
 
+import checkReloadAndFetch from '../../checkReloadAndFetch'
 import InfoCard from './InfoCard'
 import Avatar from '../../imageUpload/Avatar'
 import Addresses from '../../addresses/Addresses'
@@ -10,16 +10,7 @@ import Materials from './Materials'
 
 class Info extends Component {
   componentDidUpdate(prevProps) {
-    const { location, actions, current } = this.props
-    const { id } = current
-    const { search } = location
-    const query = queryString.parse(search)
-    const { reload } = query
-
-    if (reload) {
-      const { fetchInfo } = actions
-      fetchInfo(id)
-    }
+    checkReloadAndFetch(this.props)
   }
   render() {
     const { current, currentUser } = this.props
