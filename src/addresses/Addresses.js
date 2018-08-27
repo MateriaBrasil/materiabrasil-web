@@ -12,7 +12,7 @@ export default props => {
     <Fragment>
       {currentUser ? (
         <Fragment>
-          {currentUser.id === supplier.userId && <New {...props} />}
+          {currentUser.id.toString() === supplier.userId.toString() && <New {...props} />}
           <List {...props} />
         </Fragment>
       ) : (
