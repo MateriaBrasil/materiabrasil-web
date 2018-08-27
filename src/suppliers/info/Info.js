@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Link from 'react-router-dom/Link'
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
 
@@ -7,6 +6,7 @@ import checkReloadAndFetch from '../../checkReloadAndFetch'
 import Avatar from '../../imageUpload/Avatar'
 import Addresses from '../../addresses/Addresses'
 
+import EditProfile from './EditProfile'
 import InfoCard from './InfoCard'
 import Materials from './Materials'
 
@@ -14,13 +14,12 @@ class Info extends Component {
   componentDidUpdate(prevProps) {
     checkReloadAndFetch(this.props)
   }
+
   render() {
     const { current, currentUser } = this.props
     const { userId, materials, id, name, imageUrl } = current
     const editPath =
       currentUser && userId === currentUser.id && `/suppliers/${id}/avatar`
-    const editProfile =
-      currentUser && currentUser.id.toString() === userId.toString()
 
     return (
       <Grid container spacing={32}>
@@ -32,15 +31,9 @@ class Info extends Component {
           >
             {name}
           </Typography>
-          {editProfile ? (
-            <Link to={`/suppliers/${id}/edit`}>
-              <Typography variant="subheading">Editar perfil</Typography>
-            </Link>
-          ) : null}
+          <EditProfile currentUser={currentUser} supplier={current} />
         </Grid>
-        <Grid item xs={12} lg={8}>
-          <InfoCard {...this.props} />
-        </Grid>
+        <InfoCard {...this.props} />
         <Grid item xs={12}>
           {materials && <Materials list={materials} />}
         </Grid>
