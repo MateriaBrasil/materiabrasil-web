@@ -1,14 +1,13 @@
 import React, { Component } from 'react'
 import Link from 'react-router-dom/Link'
-
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
 
 import checkReloadAndFetch from '../../checkReloadAndFetch'
-import InfoCard from './InfoCard'
-
 import Avatar from '../../imageUpload/Avatar'
 import Addresses from '../../addresses/Addresses'
+
+import InfoCard from './InfoCard'
 import Materials from './Materials'
 
 class Info extends Component {
