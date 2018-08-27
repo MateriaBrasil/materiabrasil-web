@@ -25,6 +25,15 @@ exports[`renders correctly 1`] = `
     >
       foo-name
     </h1>
+    <div
+      to="/suppliers/1234/edit"
+    >
+      <h3
+        className="MuiTypography-root-92 MuiTypography-subheading-99"
+      >
+        Editar perfil
+      </h3>
+    </div>
   </div>
   <div
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-8-74"
@@ -115,6 +124,11 @@ exports[`renders correctly 1`] = `
     currentUser={
       Object {
         "id": 1234,
+        "suppliers": Array [
+          Object {
+            "id": 1234,
+          },
+        ],
       }
     }
     id={1234}

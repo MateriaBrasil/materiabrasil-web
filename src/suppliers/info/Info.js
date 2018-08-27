@@ -22,7 +22,10 @@ class Info extends Component {
     const editPath =
       currentUser && userId === currentUser.id && `/suppliers/${id}/avatar`
 
-    const editProfile = currentUser && currentUser.suppliers[0] && currentUser.suppliers[0].id.toString() === id.toString()
+    const editProfile =
+      currentUser && currentUser.suppliers
+        ? currentUser.suppliers[0].id.toString() === id.toString()
+        : null
 
     return (
       <Grid container spacing={32}>

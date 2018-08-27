@@ -1,7 +1,7 @@
 import React from 'react'
 import { Edit } from 'croods'
 import Redirect from 'react-router-dom/Redirect'
-//
+
 import render from './edit/render'
 
 export default props => routeProps => {

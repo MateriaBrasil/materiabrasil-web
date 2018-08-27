@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div
+    label="Nome da empresa"
+    name="name"
+    type="text"
+    validate={
+        Array [
+            [Function],
+          ]
+    }
+>
+    TextField
+</div>,
+  <div
+    label="Site"
+    name="website"
+    type="text"
+    validate={
+        Array [
+            [Function],
+          ]
+    }
+>
+    TextField
+</div>,
+  <div
+    label="Descrição"
+    multiline={true}
+    name="description"
+    type="text"
+    validate={
+        Array [
+            [Function],
+          ]
+    }
+>
+    TextField
+</div>,
+  <div
+    label="Email"
+    name="email"
+    type="email"
+    validate={
+        Array [
+            [Function],
+            [Function],
+          ]
+    }
+>
+    TextField
+</div>,
+  <div
+    label="CNPJ"
+    name="cnpj"
+    type="text"
+    validate={
+        Array [
+            [Function],
+          ]
+    }
+>
+    TextField
+</div>,
+  <div
+    label="Razão Social"
+    name="companyName"
+    type="text"
+    validate={
+        Array [
+            [Function],
+          ]
+    }
+>
+    TextField
+</div>,
+  <div
+    label="Inscrição municipal"
+    name="municipalSubscription"
+    type="text"
+    validate={
+        Array [
+            [Function],
+          ]
+    }
+>
+    TextField
+</div>,
+  <div
+    label="Inscrição estadual"
+    name="stateSubscription"
+    type="text"
+    validate={
+        Array [
+            [Function],
+          ]
+    }
+>
+    TextField
+</div>,
+  <div
+    label="Telefone"
+    name="phone"
+    type="phone"
+    validate={
+        Array [
+            [Function],
+          ]
+    }
+>
+    TextField
+</div>,
+  <div
+    label="Faturamento aproximado do último exercício"
+    name="companyRevenue"
+    type="text"
+>
+    TextField
+</div>,
+  <div
+    format={[Function]}
+    label="Quantidade de funcionários"
+    name="numberOfEmployees"
+    parse={[Function]}
+    type="number"
+>
+    TextField
+</div>,
+  <div
+    label="Alcance"
+    name="reach"
+    options={
+        Array [
+            Object {
+              "label": "Cidade",
+              "value": "city",
+            },
+            Object {
+              "label": "Estado",
+              "value": "state",
+            },
+            Object {
+              "label": "País",
+              "value": "country",
+            },
+            Object {
+              "label": "Continente",
+              "value": "continent",
+            },
+            Object {
+              "label": "Global",
+              "value": "global",
+            },
+          ]
+    }
+>
+    SelectField
+</div>,
+]
+`;

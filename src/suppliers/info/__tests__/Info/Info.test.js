@@ -25,7 +25,11 @@ it('renders correctly', () => {
     imageUrl: '/foo/url',
   }
   const location = { pathname: '/foo' }
-  const props = { currentUser: { id: 1234 }, current, location }
+  const props = {
+    currentUser: { suppliers: [{ id: 1234 }], id: 1234 },
+    current,
+    location,
+  }
   const tree = renderer.create(<Info {...props} />).toJSON()
   expect(tree).toMatchSnapshot()
 })

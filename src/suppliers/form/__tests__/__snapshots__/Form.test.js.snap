@@ -309,7 +309,7 @@ exports[`renders correctly 1`] = `
               defaultValue={undefined}
               disabled={false}
               id={undefined}
-              name="company_name"
+              name="companyName"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
@@ -357,7 +357,7 @@ exports[`renders correctly 1`] = `
               defaultValue={undefined}
               disabled={false}
               id={undefined}
-              name="municipal_subscription"
+              name="municipalSubscription"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
@@ -405,7 +405,7 @@ exports[`renders correctly 1`] = `
               defaultValue={undefined}
               disabled={false}
               id={undefined}
-              name="state_subscription"
+              name="stateSubscription"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
@@ -501,7 +501,7 @@ exports[`renders correctly 1`] = `
               defaultValue={undefined}
               disabled={false}
               id={undefined}
-              name="company_revenue"
+              name="companyRevenue"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
@@ -549,7 +549,7 @@ exports[`renders correctly 1`] = `
               defaultValue={undefined}
               disabled={false}
               id={undefined}
-              name="number_of_employees"
+              name="numberOfEmployees"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
@@ -688,7 +688,7 @@ exports[`renders correctly 1`] = `
           <span
             className="MuiButton-label-142"
           >
-            Registrar fornecedor
+            foo-text
           </span>
           <span
             className="MuiTouchRipple-root-160"
