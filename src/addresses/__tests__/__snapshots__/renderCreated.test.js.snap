@@ -2,10 +2,8 @@
 
 exports[`renders correctly 1`] = `
 <div
-  name="addresses"
-  render={[Function]}
-  renderCreated={[Function]}
+  to="/suppliers/1234?reload=true"
 >
-  New - 
+  Redirect
 </div>
 `;
