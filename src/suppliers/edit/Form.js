@@ -3,11 +3,11 @@ import { reduxForm } from 'redux-form'
 
 import Error from '../../Error'
 import TextField from '../../form/TextField'
-import Submit from '../../form/Submit'
+// import Submit from '../../form/Submit'
 import SingleColumn from '../../SingleColumn'
-import Loading from '../../Loading'
+// import Loading from '../../Loading'
 
-import { required, email } from 'redux-form-validators'
+// import { required, email } from 'redux-form-validators'
 import Button from '@material-ui/core/Button'
 import parseValue from '../new/parseValue'
 import formatValue from '../new/formatValue'
@@ -16,7 +16,7 @@ import SelectField from '../../form/SelectField'
 
 export default reduxForm({ form: 'suppliers' })(props => {
   const { handleSubmit, submitting, onSubmit, error: reduxFormError, updateError } = props
-  const { updating } = props
+  // const { updating } = props
   const error = reduxFormError || updateError
 
   return (
