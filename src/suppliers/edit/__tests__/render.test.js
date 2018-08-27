@@ -13,7 +13,6 @@ it('renders correctly', () => {
     error: jest.fn(),
     updating: jest.fn(),
     update: 'foo-update',
-
   }
   const tree = renderer.create(render({ foo: 'bar' })(props)).toJSON()
   expect(tree).toMatchSnapshot()
