@@ -352,7 +352,6 @@ exports[`renders correctly 1`] = `
           <div
             style={
               Object {
-                "marginTop": 30,
                 "textAlign": "right",
               }
             }
