@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="title-bar"
+>
+  <div
+    className="title-bar-text"
+  >
+    <div
+      style={
+        Object {
+          "color": "white",
+          "display": "block",
+          "textDecoration": "none",
+        }
+      }
+      to="/undefined"
+    >
+      Link
+    </div>
+  </div>
+</div>
+`;
+
+exports[`with average rating renders correctly 1`] = `
+<div
+  className="title-bar"
+>
+  <div
+    className="title-bar-text"
+  >
+    <div
+      style={
+        Object {
+          "color": "white",
+          "display": "block",
+          "textDecoration": "none",
+        }
+      }
+      to="/undefined"
+    >
+      Link
+    </div>
+  </div>
+  <div
+    className="title-bar-rating"
+  >
+    <div
+      averageRating={234}
+    >
+      Rating
+    </div>
+  </div>
+</div>
+`;
+
+exports[`with render icons renders correctly 1`] = `
+<div
+  className="title-bar"
+>
+  <div
+    className="title-bar-text"
+  >
+    <div
+      style={
+        Object {
+          "color": "white",
+          "display": "block",
+          "textDecoration": "none",
+        }
+      }
+      to="/undefined"
+    >
+      Link
+    </div>
+  </div>
+  <div
+    className="title-bar-icons"
+  />
+</div>
+`;

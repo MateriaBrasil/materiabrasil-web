@@ -11,9 +11,10 @@ jest.mock('../../../materials/list/Card', () => props => (
   <div {...props}>Card</div>
 ))
 
-const list = [{ id: 11111 }, { id: 22222 }]
+const materials = [{ id: 11111 }, { id: 22222 }]
 
 it('renders correctly', () => {
-  const tree = renderer.create(<Materials list={list} />).toJSON()
+  const props = { current: { materials } }
+  const tree = renderer.create(<Materials {...props} />).toJSON()
   expect(tree).toMatchSnapshot()
 })

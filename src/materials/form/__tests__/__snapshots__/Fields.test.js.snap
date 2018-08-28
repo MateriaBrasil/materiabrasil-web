@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div
+    label="Nome do material"
+    name="name"
+    type="text"
+    validate={
+        Array [
+            [Function],
+          ]
+    }
+>
+    TextField
+</div>,
+  <div
+    label="Código"
+    name="code"
+    type="text"
+    validate={
+        Array [
+            [Function],
+          ]
+    }
+>
+    TextField
+</div>,
+  <div
+    label="Preço médio"
+    name="average_price"
+    type="text"
+    validate={
+        Array [
+            [Function],
+          ]
+    }
+>
+    TextField
+</div>,
+  <div
+    label="Descrição"
+    multiline={true}
+    name="description"
+    type="text"
+    validate={
+        Array [
+            [Function],
+          ]
+    }
+>
+    TextField
+</div>,
+  <div
+    label="Propriedades"
+    name="properties"
+    type="text"
+    validate={
+        Array [
+            [Function],
+          ]
+    }
+>
+    TextField
+</div>,
+  <div
+    label="Onde pode ser usado"
+    name="usage"
+    type="text"
+    validate={
+        Array [
+            [Function],
+          ]
+    }
+>
+    TextField
+</div>,
+]
+`;

@@ -8,7 +8,7 @@ import SingleColumn from '../../SingleColumn'
 import Error from '../../Error'
 import Fields from './Fields'
 
-export default reduxForm({ form: 'suppliers' })(props => {
+export default reduxForm({ form: 'materials' })(props => {
   const { handleSubmit, onSubmit, error: reduxFormError, createError } = props
   const { submitting, buttonText } = props
   const error = reduxFormError || createError
