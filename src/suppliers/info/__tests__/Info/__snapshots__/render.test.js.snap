@@ -262,271 +262,34 @@ exports[`with materials renders correctly 1`] = `
       className="MuiGrid-container-1 MuiGrid-spacing-xs-8-22"
     >
       <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-6-33"
-      >
-        <div
-          className="Ratio "
-          style={
-            Object {
-              "display": "block",
-              "overflow": "hidden ",
-            }
+        ignoreHighlights={true}
+        material={
+          Object {
+            "id": 1,
           }
-        >
-          <div
-            className="Ratio-ratio "
-            style={
-              Object {
-                "height": 0,
-                "paddingTop": "66.66666666666667%",
-                "position": "relative",
-                "width": "100%",
-              }
-            }
-          >
-            <div
-              className="Ratio-content "
-              style={
-                Object {
-                  "height": "100%",
-                  "left": 0,
-                  "position": "absolute",
-                  "top": 0,
-                  "width": "100%",
-                }
-              }
-            >
-              <div
-                to="/1"
-              >
-                <img
-                  alt={undefined}
-                  src={undefined}
-                  style={
-                    Object {
-                      "width": "100%",
-                    }
-                  }
-                />
-              </div>
-              <div
-                style={
-                  Object {
-                    "background": "rgba(0, 0, 0, 0.6)",
-                    "bottom": 0,
-                    "color": "white",
-                    "height": 90,
-                    "left": 0,
-                    "padding": 20,
-                    "position": "absolute",
-                    "right": 0,
-                  }
-                }
-              >
-                <div
-                  style={
-                    Object {
-                      "float": "left",
-                    }
-                  }
-                >
-                  <div
-                    style={
-                      Object {
-                        "color": "white",
-                        "display": "block",
-                        "textDecoration": "none",
-                      }
-                    }
-                    to="/1"
-                  >
-                    <h3
-                      className="MuiTypography-root-92 MuiTypography-subheading-99 MuiTypography-colorInherit-111"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        }
+      >
+        Card
       </div>
       <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-6-33"
-      >
-        <div
-          className="Ratio "
-          style={
-            Object {
-              "display": "block",
-              "overflow": "hidden ",
-            }
+        ignoreHighlights={true}
+        material={
+          Object {
+            "id": 2,
           }
-        >
-          <div
-            className="Ratio-ratio "
-            style={
-              Object {
-                "height": 0,
-                "paddingTop": "66.66666666666667%",
-                "position": "relative",
-                "width": "100%",
-              }
-            }
-          >
-            <div
-              className="Ratio-content "
-              style={
-                Object {
-                  "height": "100%",
-                  "left": 0,
-                  "position": "absolute",
-                  "top": 0,
-                  "width": "100%",
-                }
-              }
-            >
-              <div
-                to="/2"
-              >
-                <img
-                  alt={undefined}
-                  src={undefined}
-                  style={
-                    Object {
-                      "width": "100%",
-                    }
-                  }
-                />
-              </div>
-              <div
-                style={
-                  Object {
-                    "background": "rgba(0, 0, 0, 0.6)",
-                    "bottom": 0,
-                    "color": "white",
-                    "height": 90,
-                    "left": 0,
-                    "padding": 20,
-                    "position": "absolute",
-                    "right": 0,
-                  }
-                }
-              >
-                <div
-                  style={
-                    Object {
-                      "float": "left",
-                    }
-                  }
-                >
-                  <div
-                    style={
-                      Object {
-                        "color": "white",
-                        "display": "block",
-                        "textDecoration": "none",
-                      }
-                    }
-                    to="/2"
-                  >
-                    <h3
-                      className="MuiTypography-root-92 MuiTypography-subheading-99 MuiTypography-colorInherit-111"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        }
+      >
+        Card
       </div>
       <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-6-33"
-      >
-        <div
-          className="Ratio "
-          style={
-            Object {
-              "display": "block",
-              "overflow": "hidden ",
-            }
+        ignoreHighlights={true}
+        material={
+          Object {
+            "id": 3,
           }
-        >
-          <div
-            className="Ratio-ratio "
-            style={
-              Object {
-                "height": 0,
-                "paddingTop": "66.66666666666667%",
-                "position": "relative",
-                "width": "100%",
-              }
-            }
-          >
-            <div
-              className="Ratio-content "
-              style={
-                Object {
-                  "height": "100%",
-                  "left": 0,
-                  "position": "absolute",
-                  "top": 0,
-                  "width": "100%",
-                }
-              }
-            >
-              <div
-                to="/3"
-              >
-                <img
-                  alt={undefined}
-                  src={undefined}
-                  style={
-                    Object {
-                      "width": "100%",
-                    }
-                  }
-                />
-              </div>
-              <div
-                style={
-                  Object {
-                    "background": "rgba(0, 0, 0, 0.6)",
-                    "bottom": 0,
-                    "color": "white",
-                    "height": 90,
-                    "left": 0,
-                    "padding": 20,
-                    "position": "absolute",
-                    "right": 0,
-                  }
-                }
-              >
-                <div
-                  style={
-                    Object {
-                      "float": "left",
-                    }
-                  }
-                >
-                  <div
-                    style={
-                      Object {
-                        "color": "white",
-                        "display": "block",
-                        "textDecoration": "none",
-                      }
-                    }
-                    to="/3"
-                  >
-                    <h3
-                      className="MuiTypography-root-92 MuiTypography-subheading-99 MuiTypography-colorInherit-111"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        }
+      >
+        Card
       </div>
     </div>
   </div>

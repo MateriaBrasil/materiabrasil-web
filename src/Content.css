@@ -1,4 +1,11 @@
 .content {
-  padding: 40px;
+  padding: 20px;
   width: 100%;
+}
+
+@media (min-width: 960px)
+{
+  .content {
+    padding: 40px;
+  }
 }

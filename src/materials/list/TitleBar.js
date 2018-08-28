@@ -3,25 +3,15 @@ import Typography from '@material-ui/core/Typography'
 import Link from 'react-router-dom/Link'
 
 import Rating from './Rating'
+import './TitleBar.css'
 
 export default props => {
   const { material, renderIcons } = props
-  const { id, name } = material
+  const { id, name, averageRating } = material
 
   return (
-    <div
-      style={{
-        position: 'absolute',
-        bottom: 0,
-        left: 0,
-        right: 0,
-        height: 90,
-        background: 'rgba(0, 0, 0, 0.6)',
-        color: 'white',
-        padding: 20,
-      }}
-    >
-      <div style={{ float: 'left' }}>
+    <div className="title-bar">
+      <div className="title-bar-text">
         <Link
           to={`/${id}`}
           style={{ textDecoration: 'none', color: 'white', display: 'block' }}
@@ -30,9 +20,13 @@ export default props => {
             {name}
           </Typography>
         </Link>
-        <Rating {...material} />
       </div>
-      {renderIcons && <div style={{ float: 'right' }}>{renderIcons()}</div>}
+      {averageRating && (
+        <div className="title-bar-rating">
+          <Rating {...material} />
+        </div>
+      )}
+      {renderIcons && <div className="title-bar-icons">{renderIcons()}</div>}
     </div>
   )
 }

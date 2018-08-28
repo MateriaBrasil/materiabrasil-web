@@ -2,91 +2,81 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="MuiGrid-item-2 MuiGrid-grid-xs-6-33"
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-6-72"
 >
   <div
-    className="Ratio "
-    style={
-      Object {
-        "display": "block",
-        "overflow": "hidden ",
-      }
-    }
+    query="(min-width: 1280px)"
   >
+    Media - 
     <div
-      className="Ratio-ratio "
+      className="Ratio "
       style={
         Object {
-          "height": 0,
-          "paddingTop": "66.66666666666667%",
-          "position": "relative",
-          "width": "100%",
+          "display": "block",
+          "overflow": "hidden ",
         }
       }
     >
       <div
-        className="Ratio-content "
+        className="Ratio-ratio "
         style={
           Object {
-            "height": "100%",
-            "left": 0,
-            "position": "absolute",
-            "top": 0,
+            "height": 0,
+            "paddingTop": "66.66666666666667%",
+            "position": "relative",
             "width": "100%",
           }
         }
       >
         <div
-          to="/1234"
-        >
-          Link-
-          <img
-            alt="foo"
-            src="list"
-            style={
-              Object {
-                "width": "100%",
-              }
-            }
-          />
-        </div>
-        <div
+          className="Ratio-content "
           style={
             Object {
-              "background": "rgba(0, 0, 0, 0.6)",
-              "bottom": 0,
-              "color": "white",
-              "height": 90,
+              "height": "100%",
               "left": 0,
-              "padding": 20,
               "position": "absolute",
-              "right": 0,
+              "top": 0,
+              "width": "100%",
             }
           }
         >
           <div
-            style={
-              Object {
-                "float": "left",
-              }
-            }
+            to="/1234"
           >
-            <div
+            Link - 
+            <img
+              alt="foo"
+              src="list"
               style={
                 Object {
-                  "color": "white",
-                  "display": "block",
-                  "textDecoration": "none",
+                  "width": "100%",
                 }
               }
-              to="/1234"
+            />
+          </div>
+          <div
+            className="title-bar"
+          >
+            <div
+              className="title-bar-text"
             >
-              Link-
-              <h3
-                className="MuiTypography-root-92 MuiTypography-subheading-99 MuiTypography-colorInherit-111"
+              <div
+                style={
+                  Object {
+                    "color": "white",
+                    "display": "block",
+                    "textDecoration": "none",
+                  }
+                }
+                to="/1234"
               >
-                foo
-              </h3>
+                Link - 
+                <h3
+                  className="MuiTypography-root-92 MuiTypography-subheading-99 MuiTypography-colorInherit-111"
+                >
+                  foo
+                </h3>
+              </div>
             </div>
           </div>
         </div>

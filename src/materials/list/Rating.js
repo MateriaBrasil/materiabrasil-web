@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Star from '@material-ui/icons/Star'
 import Typography from '@material-ui/core/Typography'
 
 export default ({ averageRating }) =>
   averageRating ? (
-    <div style={{ display: 'inline-block', marginRight: 36 }}>
+    <Fragment>
       <Star
         color="inherit"
         style={{ verticalAlign: 'middle', marginRight: 8 }}
@@ -19,5 +19,5 @@ export default ({ averageRating }) =>
       >
         {averageRating}
       </Typography>
-    </div>
+    </Fragment>
   ) : null

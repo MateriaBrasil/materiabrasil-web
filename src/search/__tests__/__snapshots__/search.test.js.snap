@@ -2,7 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-md-3-56"
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-3-69"
 >
   <div
     foo="bar "
