@@ -73,24 +73,48 @@ exports[`with current user renders correctly 1`] = `
           className="MuiTypography-root-121 MuiTypography-subheading-128"
         />
       </div>
+      <h3
+        className="MuiTypography-root-121 MuiTypography-subheading-128"
+        style={
+          Object {
+            "marginBottom": 10,
+          }
+        }
+      />
       <div
         style={
           Object {
-            "marginTop": 16,
-            "textAlign": "center",
+            "textDecoration": "none",
           }
         }
+        to="/suppliers/undefined"
       >
-        <div
-          to="/suppliers/undefined"
+        Link - 
+        <button
+          className="MuiButtonBase-root-161 MuiButton-root-145 MuiButton-raised-151 MuiButton-raisedPrimary-152"
+          disabled={false}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="button"
         >
-          Link - 
-          <p
-            className="MuiTypography-root-121 MuiTypography-body1-130"
+          <span
+            className="MuiButton-label-146"
           >
-            Contato do fornecedor
-          </p>
-        </div>
+            Ver perfil
+          </span>
+          <span
+            className="MuiTouchRipple-root-164"
+          />
+        </button>
       </div>
     </div>
   </div>
