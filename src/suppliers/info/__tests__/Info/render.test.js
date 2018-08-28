@@ -15,6 +15,10 @@ jest.mock('../../../../imageUpload/Avatar', () => props => (
   <div {...props}>Avatar</div>
 ))
 
+jest.mock('../../../../materials/list/Card', () => props => (
+  <div {...props}>Card</div>
+))
+
 it('renders correctly', () => {
   const current = {
     id: 1234,

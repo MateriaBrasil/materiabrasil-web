@@ -1,0 +1,17 @@
+.materials-list-grid {
+  margin-top: 10px !important;
+}
+
+@media (min-width: 960px)
+{
+  .materials-list-grid {
+    margin-top: 20px !important;
+  }
+}
+
+@media (min-width: 1280px)
+{
+  .materials-list-grid {
+    margin-top: -40px !important;
+  }
+}

@@ -4,7 +4,11 @@ import renderer from 'react-test-renderer'
 import Card from '../Card'
 
 jest.mock('react-router-dom/Link', () => props => (
-  <div {...props}>Link-{props.children}</div>
+  <div {...props}>Link - {props.children}</div>
+))
+
+jest.mock('react-media', () => props => (
+  <div {...props}>Media - {props.children(true)}</div>
 ))
 
 it('renders correctly', () => {

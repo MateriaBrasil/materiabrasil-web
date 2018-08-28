@@ -1,0 +1,382 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with ignoreHighlights renders correctly 1`] = `
+<div
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-9-75 materials-list-grid"
+>
+  <div
+    className="MuiGrid-container-1 MuiGrid-spacing-xs-8-22"
+  >
+    <div
+      currentUser={
+        Object {
+          "id": 1234,
+        }
+      }
+      ignoreHighlights={true}
+      list={
+        Array [
+          Object {
+            "highlighted": true,
+            "id": 123,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+          Object {
+            "highlighted": true,
+            "id": 234,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+          Object {
+            "highlighted": false,
+            "id": 345,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+        ]
+      }
+      material={
+        Object {
+          "highlighted": true,
+          "id": 123,
+          "imageUrl": "bar",
+          "name": "foo",
+        }
+      }
+      renderIcons={[Function]}
+    >
+      Card
+    </div>
+    <div
+      currentUser={
+        Object {
+          "id": 1234,
+        }
+      }
+      ignoreHighlights={true}
+      list={
+        Array [
+          Object {
+            "highlighted": true,
+            "id": 123,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+          Object {
+            "highlighted": true,
+            "id": 234,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+          Object {
+            "highlighted": false,
+            "id": 345,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+        ]
+      }
+      material={
+        Object {
+          "highlighted": true,
+          "id": 234,
+          "imageUrl": "bar",
+          "name": "foo",
+        }
+      }
+      renderIcons={[Function]}
+    >
+      Card
+    </div>
+    <div
+      currentUser={
+        Object {
+          "id": 1234,
+        }
+      }
+      ignoreHighlights={true}
+      list={
+        Array [
+          Object {
+            "highlighted": true,
+            "id": 123,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+          Object {
+            "highlighted": true,
+            "id": 234,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+          Object {
+            "highlighted": false,
+            "id": 345,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+        ]
+      }
+      material={
+        Object {
+          "highlighted": false,
+          "id": 345,
+          "imageUrl": "bar",
+          "name": "foo",
+        }
+      }
+      renderIcons={[Function]}
+    >
+      Card
+    </div>
+  </div>
+</div>
+`;
+
+exports[`without currentUser renders correctly 1`] = `
+<div
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-9-75 materials-list-grid"
+>
+  <div
+    className="MuiGrid-container-1 MuiGrid-spacing-xs-8-22"
+  >
+    <div
+      list={
+        Array [
+          Object {
+            "highlighted": true,
+            "id": 123,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+          Object {
+            "highlighted": true,
+            "id": 234,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+          Object {
+            "highlighted": false,
+            "id": 345,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+        ]
+      }
+      material={
+        Object {
+          "highlighted": true,
+          "id": 123,
+          "imageUrl": "bar",
+          "name": "foo",
+        }
+      }
+      renderIcons={[Function]}
+    >
+      Card
+    </div>
+    <div
+      list={
+        Array [
+          Object {
+            "highlighted": true,
+            "id": 123,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+          Object {
+            "highlighted": true,
+            "id": 234,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+          Object {
+            "highlighted": false,
+            "id": 345,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+        ]
+      }
+      material={
+        Object {
+          "highlighted": true,
+          "id": 234,
+          "imageUrl": "bar",
+          "name": "foo",
+        }
+      }
+      renderIcons={[Function]}
+    >
+      Card
+    </div>
+    <div
+      list={
+        Array [
+          Object {
+            "highlighted": true,
+            "id": 123,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+          Object {
+            "highlighted": true,
+            "id": 234,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+          Object {
+            "highlighted": false,
+            "id": 345,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+        ]
+      }
+      material={
+        Object {
+          "highlighted": false,
+          "id": 345,
+          "imageUrl": "bar",
+          "name": "foo",
+        }
+      }
+      renderIcons={[Function]}
+    >
+      Card
+    </div>
+  </div>
+</div>
+`;
+
+exports[`without ignoreHighlights renders correctly 1`] = `
+<div
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-9-75 materials-list-grid"
+>
+  <div
+    className="MuiGrid-container-1 MuiGrid-spacing-xs-8-22"
+  >
+    <div
+      currentUser={
+        Object {
+          "id": 1234,
+        }
+      }
+      list={
+        Array [
+          Object {
+            "highlighted": true,
+            "id": 123,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+          Object {
+            "highlighted": true,
+            "id": 234,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+          Object {
+            "highlighted": false,
+            "id": 345,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+        ]
+      }
+      material={
+        Object {
+          "highlighted": true,
+          "id": 123,
+          "imageUrl": "bar",
+          "name": "foo",
+        }
+      }
+      renderIcons={[Function]}
+    >
+      Card
+    </div>
+    <div
+      currentUser={
+        Object {
+          "id": 1234,
+        }
+      }
+      list={
+        Array [
+          Object {
+            "highlighted": true,
+            "id": 123,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+          Object {
+            "highlighted": true,
+            "id": 234,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+          Object {
+            "highlighted": false,
+            "id": 345,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+        ]
+      }
+      material={
+        Object {
+          "highlighted": true,
+          "id": 234,
+          "imageUrl": "bar",
+          "name": "foo",
+        }
+      }
+      renderIcons={[Function]}
+    >
+      Card
+    </div>
+    <div
+      currentUser={
+        Object {
+          "id": 1234,
+        }
+      }
+      list={
+        Array [
+          Object {
+            "highlighted": true,
+            "id": 123,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+          Object {
+            "highlighted": true,
+            "id": 234,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+          Object {
+            "highlighted": false,
+            "id": 345,
+            "imageUrl": "bar",
+            "name": "foo",
+          },
+        ]
+      }
+      material={
+        Object {
+          "highlighted": false,
+          "id": 345,
+          "imageUrl": "bar",
+          "name": "foo",
+        }
+      }
+      renderIcons={[Function]}
+    >
+      Card
+    </div>
+  </div>
+</div>
+`;

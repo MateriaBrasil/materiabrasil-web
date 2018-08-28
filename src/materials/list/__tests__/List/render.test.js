@@ -8,6 +8,8 @@ jest.mock('../../../../favorites/New', () => props => (
   <div {...props}>Favorite</div>
 ))
 
+jest.mock('../../Card', () => props => <div {...props}>Card</div>)
+
 const list = [
   { name: 'foo', highlighted: true, imageUrl: 'bar', id: 123 },
   { name: 'foo', highlighted: true, imageUrl: 'bar', id: 234 },
