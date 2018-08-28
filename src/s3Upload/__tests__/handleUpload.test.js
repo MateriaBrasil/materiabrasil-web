@@ -12,15 +12,11 @@ jest.mock('aws-sdk', () => ({
   },
 }))
 
-jest.mock('../parseCanvas', () => () => ({
-  md5: 'foo-md5',
-  blob: 'foo-blob',
-}))
 jest.mock('../updateAWSConfig')
 
 it('calls function correctly', async () => {
   const update = jest.fn()
 
-  await handleUpload({ editorImage: 'foo', update, id: 'bar' })
+  await handleUpload({ foo: 'bar', update, id: 'bar' })
   expect(update).toHaveBeenCalledWith({ id: 'bar', imageUrl: 'foobar' })
 })

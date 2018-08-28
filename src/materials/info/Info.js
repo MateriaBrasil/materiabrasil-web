@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Grid from '@material-ui/core/Grid'
+import find from 'lodash/find'
 
 import Comments from '../../comments/Comments'
 
@@ -14,13 +15,15 @@ export default class extends Component {
   }
 
   render() {
-    const { current } = this.props
-    const { id } = current
+    const { current, currentUser } = this.props
+    const { id, supplierId } = current
+    const { suppliers } = currentUser || {}
+    const editable = find(suppliers, supplier => supplier.id === supplierId)
 
     return (
       <Grid container spacing={16}>
         <CoverImage {...current} />
-        <Description {...this.props} {...current} />
+        <Description {...this.props} {...current} editable={editable} />
         <Supplier {...this.props} {...current} />
         <Comments id={id} type="materials" {...this.props} />
       </Grid>
