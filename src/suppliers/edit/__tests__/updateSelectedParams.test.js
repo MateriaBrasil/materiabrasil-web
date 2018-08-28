@@ -19,5 +19,5 @@ const params = {
 
 it('calls correctly', () => {
   UpdateSelectedParams(update)(params)
-  expect(update).toHaveBeenCalledWith({ ...params })
+  expect(update).toHaveBeenCalledWith(params)
 })
