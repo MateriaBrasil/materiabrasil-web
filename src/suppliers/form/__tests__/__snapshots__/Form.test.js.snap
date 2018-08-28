@@ -602,6 +602,11 @@ exports[`renders correctly 1`] = `
             onDragStart={[Function]}
             onDrop={[Function]}
             onFocus={[Function]}
+            style={
+              Object {
+                "marginBottom": 20,
+              }
+            }
           >
             <label
               className="MuiFormLabel-root-130 MuiInputLabel-root-125 MuiInputLabel-formControl-126 MuiInputLabel-animated-129"
@@ -670,13 +675,26 @@ exports[`renders correctly 1`] = `
           <div
             style={
               Object {
-                "marginTop": 30,
+                "padding": 20,
+                "textAlign": "center",
+              }
+            }
+          >
+            <h1
+              className="MuiTypography-root-170 MuiTypography-headline-175 MuiTypography-colorError-193"
+            >
+              foo-error
+            </h1>
+          </div>
+          <div
+            style={
+              Object {
                 "textAlign": "right",
               }
             }
           >
             <button
-              className="MuiButtonBase-root-186 MuiButton-root-170 MuiButton-raised-176 MuiButton-raisedPrimary-177"
+              className="MuiButtonBase-root-210 MuiButton-root-194 MuiButton-raised-200 MuiButton-raisedPrimary-201"
               disabled={false}
               onBlur={[Function]}
               onFocus={[Function]}
@@ -692,28 +710,14 @@ exports[`renders correctly 1`] = `
               type="submit"
             >
               <span
-                className="MuiButton-label-171"
+                className="MuiButton-label-195"
               >
                 foo-text
               </span>
               <span
-                className="MuiTouchRipple-root-189"
+                className="MuiTouchRipple-root-213"
               />
             </button>
-          </div>
-          <div
-            style={
-              Object {
-                "padding": 20,
-                "textAlign": "center",
-              }
-            }
-          >
-            <h1
-              className="MuiTypography-root-196 MuiTypography-headline-201 MuiTypography-colorError-219"
-            >
-              foo-error
-            </h1>
           </div>
         </form>
       </div>

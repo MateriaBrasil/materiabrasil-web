@@ -17,7 +17,7 @@ class Info extends Component {
 
   render() {
     const { current, currentUser } = this.props
-    const { userId, materials, id, name, imageUrl } = current
+    const { userId, id, name, imageUrl } = current
     const editPath =
       currentUser && userId === currentUser.id && `/suppliers/${id}/avatar`
 
@@ -34,9 +34,7 @@ class Info extends Component {
           <EditProfile currentUser={currentUser} supplier={current} />
         </Grid>
         <InfoCard {...this.props} />
-        <Grid item xs={12}>
-          {materials && <Materials list={materials} />}
-        </Grid>
+        <Materials {...this.props} />
         <Addresses id={id} supplier={current} {...this.props} />
       </Grid>
     )

@@ -80,6 +80,7 @@ export default () => (
         { value: 'continent', label: 'Continente' },
         { value: 'global', label: 'Global' },
       ]}
+      style={{ marginBottom: 20 }}
     />
   </Fragment>
 )

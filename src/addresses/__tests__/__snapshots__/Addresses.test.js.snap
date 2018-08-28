@@ -1,32 +1,36 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<p
-  className="MuiTypography-root-1 MuiTypography-body1-10 MuiTypography-colorInherit-20"
+<div
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
 >
-  <div
-    style={
-      Object {
-        "textDecoration": "none",
-      }
-    }
-    to={
-      Object {
-        "pathname": "/auth/sign-up",
-        "state": Object {
-          "referrer": "foo",
-        },
-      }
-    }
+  <p
+    className="MuiTypography-root-92 MuiTypography-body1-101 MuiTypography-colorInherit-111"
   >
-    Link - 
-    Cadastre-se
-  </div>
-   
-  <span>
-    para ver os endereços do fornecedor.
-  </span>
-</p>
+    <div
+      style={
+        Object {
+          "textDecoration": "none",
+        }
+      }
+      to={
+        Object {
+          "pathname": "/auth/sign-up",
+          "state": Object {
+            "referrer": "foo",
+          },
+        }
+      }
+    >
+      Link - 
+      Cadastre-se
+    </div>
+     
+    <span>
+      para ver os endereços do fornecedor.
+    </span>
+  </p>
+</div>
 `;
 
 exports[`with current user renders correctly 1`] = `

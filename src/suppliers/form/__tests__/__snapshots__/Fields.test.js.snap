@@ -155,6 +155,11 @@ Array [
             },
           ]
     }
+    style={
+        Object {
+            "marginBottom": 20,
+          }
+    }
 >
     SelectField
 </div>,

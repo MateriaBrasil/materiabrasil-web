@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import Grid from '@material-ui/core/Grid'
 
 import New from './New'
 import List from './List'
@@ -16,10 +17,12 @@ export default props => {
           <List {...props} />
         </Fragment>
       ) : (
-        <SignUpLink
-          pathname={pathname}
-          text="para ver os endereços do fornecedor."
-        />
+        <Grid item xs={12}>
+          <SignUpLink
+            pathname={pathname}
+            text="para ver os endereços do fornecedor."
+          />
+        </Grid>
       )}
     </Fragment>
   )

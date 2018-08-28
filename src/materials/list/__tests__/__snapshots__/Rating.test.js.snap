@@ -34,3 +34,5 @@ Array [
 </p>,
 ]
 `;
+
+exports[`without average rating renders correctly 1`] = `null`;
