@@ -11,6 +11,7 @@ export default ({ location: { pathname } }) => (
     }}
     style={{
       textDecoration: 'none',
+      margin: '0 auto',
       color: 'black',
     }}
   >
