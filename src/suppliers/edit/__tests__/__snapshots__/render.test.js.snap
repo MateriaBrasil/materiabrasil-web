@@ -2,12 +2,13 @@
 
 exports[`renders correctly 1`] = `
 <div
-  buttonText="Registrar fornecedor"
-  createError={[Function]}
+  buttonText="Atualizar fornecedor"
   foo="bar"
+  initialValues="foo-values"
   onSubmit={[Function]}
   submitting={[Function]}
+  updateError={[Function]}
 >
-  Form
+  Form - 
 </div>
 `;
