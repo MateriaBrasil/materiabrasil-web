@@ -65,6 +65,7 @@ exports[`renders correctly 1`] = `
               }
             }
             description="info"
+            editable={undefined}
             imageUrl="bar"
             location={Object {}}
             manufacturingLocation="Foo City/FO"
@@ -78,54 +79,14 @@ exports[`renders correctly 1`] = `
           >
             Favorites
           </div>
-          <button
-            className="MuiButtonBase-root-127 MuiIconButton-root-121"
-            disabled={false}
-            href={undefined}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-            onMouseDown={[Function]}
-            onMouseLeave={[Function]}
-            onMouseUp={[Function]}
-            onTouchEnd={[Function]}
-            onTouchMove={[Function]}
-            onTouchStart={[Function]}
-            style={undefined}
-            tabIndex="0"
-            target="_blank"
-            type="button"
-          >
-            <span
-              className="MuiIconButton-label-126"
-            >
-              <svg
-                aria-hidden="true"
-                className="MuiSvgIcon-root-130"
-                color={undefined}
-                focusable="false"
-                viewBox="0 0 24 24"
-              >
-                <g>
-                  <path
-                    d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"
-                  />
-                </g>
-              </svg>
-            </span>
-            <span
-              className="MuiTouchRipple-root-136"
-            />
-          </button>
         </div>
         <h1
-          className="MuiTypography-root-143 MuiTypography-display1-147"
+          className="MuiTypography-root-121 MuiTypography-display1-125"
         >
           foo
         </h1>
         <span
-          className="MuiTypography-root-143 MuiTypography-caption-153"
+          className="MuiTypography-root-121 MuiTypography-caption-131"
           style={
             Object {
               "marginBottom": 16,
@@ -135,7 +96,7 @@ exports[`renders correctly 1`] = `
           999
         </span>
         <h3
-          className="MuiTypography-root-143 MuiTypography-subheading-150"
+          className="MuiTypography-root-121 MuiTypography-subheading-128"
           style={
             Object {
               "marginBottom": 24,
@@ -175,7 +136,7 @@ exports[`renders correctly 1`] = `
             }
           >
             <button
-              className="MuiButtonBase-root-127 MuiButton-root-167"
+              className="MuiButtonBase-root-161 MuiButton-root-145"
               disabled={false}
               onBlur={[Function]}
               onFocus={[Function]}
@@ -196,12 +157,12 @@ exports[`renders correctly 1`] = `
               type="button"
             >
               <span
-                className="MuiButton-label-168"
+                className="MuiButton-label-146"
               >
                 Avaliar
               </span>
               <span
-                className="MuiTouchRipple-root-136"
+                className="MuiTouchRipple-root-164"
               />
             </button>
           </div>

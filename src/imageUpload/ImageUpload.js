@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography'
 import theme from '../theme'
 import Dialog from './Dialog'
 import ZoomControls from './ZoomControls'
-import handleUpload from './s3upload/handleUpload'
+import handleUpload from './handleUpload'
 
 export default class extends Component {
   constructor(props) {
