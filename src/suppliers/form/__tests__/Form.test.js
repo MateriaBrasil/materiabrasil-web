@@ -14,7 +14,7 @@ it('renders correctly', () => {
   const tree = renderer
     .create(
       <Provider store={store}>
-        <Form onSubmit={onSubmit} {...props} />
+        <Form {...props} onSubmit={onSubmit} buttonText="foo-text" />
       </Provider>,
     )
     .toJSON()

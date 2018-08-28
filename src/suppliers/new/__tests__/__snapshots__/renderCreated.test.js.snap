@@ -2,7 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <div
-  to="/suppliers/undefined"
+  to="/suppliers/1234?reload=true"
 >
   Redirect
 </div>
