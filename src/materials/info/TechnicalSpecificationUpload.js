@@ -45,8 +45,7 @@ export default class extends Component {
             style={{ marginBottom: 24 }}
             onClick={() => this.fileInput.click()}
           >
-            Enviar{technicalSpecificationUrl ? ' nova' : ''} especificação
-            técnica
+            Enviar{technicalSpecificationUrl ? ' nova' : ''} ficha técnica
           </Button>
         )}
 
