@@ -104,7 +104,6 @@ exports[`renders correctly 1`] = `
     className="MuiDialogActions-root-8"
   >
     <div
-      className="MuiDialogActions-action-9"
       style={
         Object {
           "textDecoration": "none",
@@ -274,7 +273,6 @@ exports[`with error renders correctly 1`] = `
     className="MuiDialogActions-root-8"
   >
     <div
-      className="MuiDialogActions-action-9"
       style={
         Object {
           "textDecoration": "none",

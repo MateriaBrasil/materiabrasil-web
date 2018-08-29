@@ -15,10 +15,9 @@ exports[`renders correctly 1`] = `
   </div>
    - 
   <div
-    bar="foo"
     foo="bar"
   >
-    renderCreated
+    reload
   </div>
 </div>
 `;

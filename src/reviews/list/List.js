@@ -4,11 +4,10 @@ import DialogTitle from '@material-ui/core/DialogTitle'
 import DialogActions from '@material-ui/core/DialogActions'
 import DialogContent from '@material-ui/core/DialogContent'
 import withMobileDialog from '@material-ui/core/withMobileDialog'
-import Link from 'react-router-dom/Link'
-import Button from '@material-ui/core/Button'
 
-import closeModal from '../closeModal'
+import CloseDialog from '../../form/CloseDialog'
 import Reviews from './Reviews'
+import closeModal from '../closeModal'
 
 class List extends Component {
   render() {
@@ -30,9 +29,7 @@ class List extends Component {
           <Reviews list={list} />
         </DialogContent>
         <DialogActions>
-          <Link to={`/${id}`} style={{ textDecoration: 'none' }}>
-            <Button color="primary">Fechar</Button>
-          </Link>
+          <CloseDialog id={id} />
         </DialogActions>
       </Dialog>
     )

@@ -13,7 +13,7 @@ export default () => (
     />
     <TextField name="code" label="Código" type="text" validate={[required()]} />
     <TextField
-      name="average_price"
+      name="averagePrice"
       label="Preço médio"
       type="text"
       validate={[required()]}
@@ -30,12 +30,14 @@ export default () => (
       label="Propriedades"
       type="text"
       validate={[required()]}
+      multiline
     />
     <TextField
       name="usage"
       label="Onde pode ser usado"
       type="text"
       validate={[required()]}
+      multiline
     />
   </Fragment>
 )

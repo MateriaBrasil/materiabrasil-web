@@ -1,10 +1,9 @@
 import React from 'react'
 import Redirect from 'react-router-dom/Redirect'
 
-export default props => review => {
+export default props => () => {
   const { match } = props
-  const { params } = match
-  const { id } = params
+  const { id } = match.params
 
   return <Redirect to={`/${id}?reload=true`} />
 }

@@ -28,7 +28,7 @@ Array [
 </div>,
   <div
     label="Preço médio"
-    name="average_price"
+    name="averagePrice"
     type="text"
     validate={
         Array [
@@ -53,6 +53,7 @@ Array [
 </div>,
   <div
     label="Propriedades"
+    multiline={true}
     name="properties"
     type="text"
     validate={
@@ -65,6 +66,7 @@ Array [
 </div>,
   <div
     label="Onde pode ser usado"
+    multiline={true}
     name="usage"
     type="text"
     validate={

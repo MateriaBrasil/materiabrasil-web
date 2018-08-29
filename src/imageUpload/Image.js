@@ -9,7 +9,7 @@ export default props => {
   const RatioComponent = preserveRatio ? Ratio : Fragment
 
   return (
-    <RatioComponent {...props}>
+    <RatioComponent {...(preserveRatio ? props : {})}>
       <img
         style={{
           width,
