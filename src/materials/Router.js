@@ -5,6 +5,7 @@ import renderReviews from '../reviews/render'
 import renderList from './renderList'
 import renderInfo from './renderInfo'
 import renderEdit from './renderEdit'
+import renderImageUpload from './renderImageUpload'
 
 export default props => (
   <div>
@@ -12,5 +13,15 @@ export default props => (
     <Route exact path="/:id/edit" render={renderEdit(props)} />
     <Route path="/:id" render={renderInfo(props)} />
     <Route path="/:id/reviews" render={renderReviews(props)} />
+    <Route
+      exact
+      path="/:id/coverImage"
+      render={renderImageUpload({
+        ...props,
+        width: 1920,
+        height: 640,
+        attributeName: 'coverImageUrl',
+      })}
+    />
   </div>
 )

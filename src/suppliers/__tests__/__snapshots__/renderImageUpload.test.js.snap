@@ -4,6 +4,7 @@ exports[`renders correctly 1`] = `
 <div
   id={1234}
   name="suppliers"
+  renderUpdated={[Function]}
 >
   Edit - 
   <div

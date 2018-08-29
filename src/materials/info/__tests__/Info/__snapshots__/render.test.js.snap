@@ -52,17 +52,16 @@ exports[`renders correctly 1`] = `
         >
           <img
             alt="foo"
-            src="/images/avatar.png"
+            src="https://via.placeholder.com/1920x640"
             style={
               Object {
                 "backgroundColor": "#ddd",
                 "borderRadius": 2,
                 "display": "inline-block",
-                "height": 640,
+                "height": "auto",
                 "marginRight": 16,
                 "maxWidth": "100%",
-                "objectFit": "cover",
-                "width": 1920,
+                "width": "100%",
               }
             }
             title="foo"

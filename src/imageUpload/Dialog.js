@@ -13,6 +13,7 @@ export default withMobileDialog()(
   class extends Component {
     render() {
       const { fullScreen, disabled, onUpload, children, uploading } = this.props
+      const { cancelDisabled } = this.props
       const handleCloseDialog = closeDialog(this.props)
 
       return (
@@ -30,7 +31,7 @@ export default withMobileDialog()(
           {uploading && <Loading />}
           <DialogActions>
             <Button
-              disabled={disabled}
+              disabled={cancelDisabled}
               onClick={handleCloseDialog}
               color="primary"
             >

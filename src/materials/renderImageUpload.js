@@ -7,8 +7,8 @@ import renderUpdated from '../imageUpload/renderUpdated'
 
 export default props => routeProps => {
   const { id } = routeProps.match.params
-  const name = 'suppliers'
-  const redirectUrl = `/suppliers/${id}`
+  const name = 'materials'
+  const redirectUrl = `/${id}`
 
   return (
     <Edit

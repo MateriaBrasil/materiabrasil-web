@@ -33,10 +33,15 @@ export default class extends Component {
   }
 
   onUpload() {
-    const { update, id } = this.props
+    const { update, id, attributeName } = this.props
 
     this.setState({ uploading: true })
-    this.handleUpload({ editorImage: this.editor.getImage(), update, id })
+    this.handleUpload({
+      editorImage: this.editor.getImage(),
+      update,
+      id,
+      attributeName,
+    })
   }
 
   onDrop(files) {
@@ -61,13 +66,14 @@ export default class extends Component {
 
   render() {
     const { file, scale, position, uploading } = this.state
-    const { updating, title, width = 400, height = 400 } = this.props
+    const { updating, title, width = 400, height = 400, ...props } = this.props
 
     return (
       <Dialog
-        {...this.props}
+        {...props}
         onUpload={this.onUpload}
         disabled={!file || updating || uploading}
+        cancelDisabled={updating || uploading}
         uploading={uploading}
       >
         <Dropzone
@@ -99,9 +105,14 @@ export default class extends Component {
           ) : (
             <Typography
               variant="headline"
-              style={{ width: 300, position: 'absolute', left: 50, top: 150 }}
+              style={{
+                width: 300,
+                position: 'absolute',
+                left: width / 2 - 150,
+                top: height / 2 - 60,
+              }}
             >
-              {title}
+              {title || 'Arraste uma imagem ou clique para escolher o arquivo.'}
             </Typography>
           )}
         </Dropzone>

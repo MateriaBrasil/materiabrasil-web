@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component } from 'react'
 import Button from '@material-ui/core/Button'
 import handleUpload from './handleUpload'
 import Loading from '../../Loading'
@@ -35,7 +35,7 @@ export default class extends Component {
     const { technicalSpecificationUrl } = this.props
 
     return (
-      <Fragment>
+      <div style={{ display: 'inline-block' }}>
         {uploading ? (
           <Loading size={32} style={{ textAlign: 'left', marginBottom: 24 }} />
         ) : (
@@ -56,7 +56,7 @@ export default class extends Component {
           style={{ display: 'none' }}
           onChange={this.handleFileChange}
         />
-      </Fragment>
+      </div>
     )
   }
 }

@@ -12,7 +12,6 @@ exports[`with imageUrl renders correctly 1`] = `
       "height": "auto",
       "marginRight": 16,
       "maxWidth": "100%",
-      "objectFit": "cover",
       "width": 400,
     }
   }
@@ -23,7 +22,7 @@ exports[`with imageUrl renders correctly 1`] = `
 exports[`without imageUrl renders correctly 1`] = `
 <img
   alt={undefined}
-  src="/images/avatar.png"
+  src="https://via.placeholder.com/400x400"
   style={
     Object {
       "backgroundColor": "#ddd",
@@ -32,7 +31,6 @@ exports[`without imageUrl renders correctly 1`] = `
       "height": "auto",
       "marginRight": 16,
       "maxWidth": "100%",
-      "objectFit": "cover",
       "width": 400,
     }
   }

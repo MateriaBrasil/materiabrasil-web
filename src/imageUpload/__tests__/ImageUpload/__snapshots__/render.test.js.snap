@@ -57,19 +57,21 @@ exports[`renders correctly 1`] = `
           Object {
             "left": 50,
             "position": "absolute",
-            "top": 150,
+            "top": 140,
             "width": 300,
           }
         }
-      />
+      >
+        Arraste uma imagem ou clique para escolher o arquivo.
+      </h1>
     </div>
   </div>
   <div
     className="MuiDialogActions-root-27"
   >
     <button
-      className="MuiButtonBase-root-45 MuiButtonBase-disabled-46 MuiButton-root-29 MuiButton-flatPrimary-31 MuiButton-disabled-39 MuiDialogActions-action-28"
-      disabled={true}
+      className="MuiButtonBase-root-45 MuiButton-root-29 MuiButton-flatPrimary-31 MuiDialogActions-action-28"
+      disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
       onFocus={[Function]}
@@ -81,7 +83,7 @@ exports[`renders correctly 1`] = `
       onTouchEnd={[Function]}
       onTouchMove={[Function]}
       onTouchStart={[Function]}
-      tabIndex="-1"
+      tabIndex="0"
       type="button"
     >
       <span
@@ -89,6 +91,9 @@ exports[`renders correctly 1`] = `
       >
         Cancelar
       </span>
+      <span
+        className="MuiTouchRipple-root-48"
+      />
     </button>
     <button
       className="MuiButtonBase-root-45 MuiButtonBase-disabled-46 MuiButton-root-29 MuiButton-flatPrimary-31 MuiButton-disabled-39 MuiDialogActions-action-28"
@@ -191,7 +196,7 @@ exports[`with file renders correctly 1`] = `
       }
     >
       <button
-        className="MuiButtonBase-root-45 MuiIconButton-root-48"
+        className="MuiButtonBase-root-45 MuiIconButton-root-55"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -208,11 +213,11 @@ exports[`with file renders correctly 1`] = `
         type="button"
       >
         <span
-          className="MuiIconButton-label-53"
+          className="MuiIconButton-label-60"
         >
           <svg
             aria-hidden="true"
-            className="MuiSvgIcon-root-54"
+            className="MuiSvgIcon-root-61"
             color={undefined}
             focusable="false"
             viewBox="0 0 24 24"
@@ -225,11 +230,11 @@ exports[`with file renders correctly 1`] = `
           </svg>
         </span>
         <span
-          className="MuiTouchRipple-root-60"
+          className="MuiTouchRipple-root-48"
         />
       </button>
       <button
-        className="MuiButtonBase-root-45 MuiIconButton-root-48"
+        className="MuiButtonBase-root-45 MuiIconButton-root-55"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -246,11 +251,11 @@ exports[`with file renders correctly 1`] = `
         type="button"
       >
         <span
-          className="MuiIconButton-label-53"
+          className="MuiIconButton-label-60"
         >
           <svg
             aria-hidden="true"
-            className="MuiSvgIcon-root-54"
+            className="MuiSvgIcon-root-61"
             color={undefined}
             focusable="false"
             viewBox="0 0 24 24"
@@ -263,7 +268,7 @@ exports[`with file renders correctly 1`] = `
           </svg>
         </span>
         <span
-          className="MuiTouchRipple-root-60"
+          className="MuiTouchRipple-root-48"
         />
       </button>
     </div>
@@ -294,7 +299,7 @@ exports[`with file renders correctly 1`] = `
         Cancelar
       </span>
       <span
-        className="MuiTouchRipple-root-60"
+        className="MuiTouchRipple-root-48"
       />
     </button>
     <button
@@ -320,7 +325,7 @@ exports[`with file renders correctly 1`] = `
         Salvar
       </span>
       <span
-        className="MuiTouchRipple-root-60"
+        className="MuiTouchRipple-root-48"
       />
     </button>
   </div>

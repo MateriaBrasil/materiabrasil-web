@@ -5,12 +5,14 @@ import renderImageupload from '../renderImageUpload'
 
 jest.mock('croods', () => ({
   Edit: ({ children, render, ...props }) => (
-    <div {...props}>Edit - {render}</div>
+    <div {...props}>Edit - {render({ foo: 'bar' })}</div>
   ),
 }))
 
-jest.mock('../../imageUpload/render', () => props => (
-  <div {...props}>renderImageupload</div>
+jest.mock('../../imageUpload/renderImageUpload', () => props => editProps => (
+  <div {...props} {...editProps}>
+    renderImageupload
+  </div>
 ))
 
 it('renders correctly', () => {

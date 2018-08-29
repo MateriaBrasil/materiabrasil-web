@@ -4,7 +4,10 @@ import Ratio from './Ratio'
 
 export default props => {
   const { name, imageUrl, editPath, width = 400, height = 400 } = props
-  const { preserveRatio = false } = props
+  const { preserveRatio, defaultImageUrl } = props
+
+  const placeholder = `https://via.placeholder.com/${width}x${height}`
+  const defaultSrc = defaultImageUrl || placeholder
 
   const RatioComponent = preserveRatio ? Ratio : Fragment
 
@@ -12,16 +15,15 @@ export default props => {
     <RatioComponent {...(preserveRatio ? props : {})}>
       <img
         style={{
-          width,
-          height: preserveRatio ? height : 'auto',
+          width: preserveRatio ? '100%' : width,
+          height: 'auto',
           maxWidth: '100%',
-          objectFit: 'cover',
           display: 'inline-block',
           marginRight: 16,
           borderRadius: 2,
           backgroundColor: '#ddd',
         }}
-        src={imageUrl === '' || !imageUrl ? '/images/avatar.png' : imageUrl}
+        src={imageUrl === '' || !imageUrl ? defaultSrc : imageUrl}
         alt={name}
         title={editPath ? 'Clique para editar' : name}
       />

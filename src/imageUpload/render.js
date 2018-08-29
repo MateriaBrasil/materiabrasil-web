@@ -15,7 +15,6 @@ export default props => routeProps => {
         ...props,
         ...routeProps,
         redirectUrl,
-        title: 'Arraste uma imagem ou clique para escolher o arquivo.',
       })}
       renderUpdated={renderUpdated(redirectUrl)}
     />
