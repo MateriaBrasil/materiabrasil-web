@@ -12,17 +12,64 @@ exports[`renders correctly 1`] = `
       }
     }
   >
-    <img
-      alt="foo"
-      src="bar"
+    <div
+      className="Ratio "
+      editPath={undefined}
+      imageUrl={undefined}
+      name="foo"
+      preserveRatio={true}
       style={
         Object {
-          "height": "auto",
-          "objectFit": "cover",
-          "width": "100%",
+          "display": "block",
+          "maxHeight": 640,
+          "maxWidth": 1920,
+          "overflow": "hidden",
         }
       }
-    />
+    >
+      <div
+        className="Ratio-ratio "
+        style={
+          Object {
+            "height": 0,
+            "paddingTop": "33.333333333333336%",
+            "position": "relative",
+            "width": "100%",
+          }
+        }
+      >
+        <div
+          className="Ratio-content "
+          style={
+            Object {
+              "height": "100%",
+              "left": 0,
+              "position": "absolute",
+              "top": 0,
+              "width": "100%",
+            }
+          }
+        >
+          <img
+            alt="foo"
+            src="/images/avatar.png"
+            style={
+              Object {
+                "backgroundColor": "#ddd",
+                "borderRadius": 2,
+                "display": "inline-block",
+                "height": 640,
+                "marginRight": 16,
+                "maxWidth": "100%",
+                "objectFit": "cover",
+                "width": 1920,
+              }
+            }
+            title="foo"
+          />
+        </div>
+      </div>
+    </div>
   </div>
   <div
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-9-75"

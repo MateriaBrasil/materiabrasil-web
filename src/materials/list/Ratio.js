@@ -11,7 +11,7 @@ export default props => {
   const image = highlighted ? highlightImageUrl : listImageUrl
 
   return (
-    <Ratio ratio={ratio} style={{ overflow: 'hidden ' }}>
+    <Ratio ratio={ratio} style={{ overflow: 'hidden' }}>
       <Link to={`/${id}`}>
         <img src={image || imageUrl} alt={name} style={{ width: '100%' }} />
       </Link>

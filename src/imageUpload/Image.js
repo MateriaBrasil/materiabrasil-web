@@ -1,17 +1,30 @@
-import React from 'react'
-import CardMedia from '@material-ui/core/CardMedia'
+import React, { Fragment } from 'react'
 
-export default ({ name, imageUrl, editPath }) => (
-  <CardMedia
-    style={{
-      width: 400,
-      height: 400,
-      display: 'inline-block',
-      marginRight: 16,
-      borderRadius: 2,
-      backgroundColor: '#ddd',
-    }}
-    image={imageUrl === '' || !imageUrl ? '/images/avatar.png' : imageUrl}
-    title={editPath ? 'Clique para editar' : name}
-  />
-)
+import Ratio from './Ratio'
+
+export default props => {
+  const { name, imageUrl, editPath, width = 400, height = 400 } = props
+  const { preserveRatio = false } = props
+
+  const RatioComponent = preserveRatio ? Ratio : Fragment
+
+  return (
+    <RatioComponent {...props}>
+      <img
+        style={{
+          width,
+          height: preserveRatio ? height : 'auto',
+          maxWidth: '100%',
+          objectFit: 'cover',
+          display: 'inline-block',
+          marginRight: 16,
+          borderRadius: 2,
+          backgroundColor: '#ddd',
+        }}
+        src={imageUrl === '' || !imageUrl ? '/images/avatar.png' : imageUrl}
+        alt={name}
+        title={editPath ? 'Clique para editar' : name}
+      />
+    </RatioComponent>
+  )
+}
