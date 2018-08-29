@@ -24,7 +24,7 @@ export default ({ id, name, listImageUrl, highlightImageUrl }) => {
                 editPath={`/${id}/listImage`}
                 imageUrl={listImageUrl}
                 width={720}
-                height={480}
+                height={540}
                 preserveRatio
               />
             </Grid>

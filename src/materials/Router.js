@@ -29,7 +29,7 @@ export default props => (
       render={renderImageUpload({
         ...props,
         width: 720,
-        height: 480,
+        height: 540,
         attributeName: 'listImageUrl',
       })}
     />
