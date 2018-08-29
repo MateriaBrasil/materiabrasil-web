@@ -11,11 +11,11 @@ jest.mock('croods', () => ({
   ),
 }))
 
+jest.mock('../../materials/reload', () =>
+  jest.fn(props => routeProps => <div {...props}>reload</div>),
+)
 jest.mock('../new/render', () =>
   jest.fn(props => routeProps => <div {...props}>renderNew</div>),
-)
-jest.mock('../new/renderCreated', () =>
-  jest.fn(props => routeProps => <div {...props}>renderCreated</div>),
 )
 
 const props = { bar: 'foo' }

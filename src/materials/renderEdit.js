@@ -2,7 +2,7 @@ import React from 'react'
 import { Edit } from 'croods'
 
 import render from './edit/render'
-import renderUpdated from './edit/renderUpdated'
+import reload from './reload'
 
 export default props => routeProps => {
   const { match } = routeProps
@@ -13,7 +13,7 @@ export default props => routeProps => {
       id={id}
       name="materials"
       render={render({ ...props, ...routeProps })}
-      renderUpdated={renderUpdated({ ...props, ...routeProps })}
+      renderUpdated={reload({ ...routeProps })}
     />
   )
 }
