@@ -1,11 +1,13 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-import LinksOrMenu from '../../LinksOrMenu'
+import LinksOrMenu from '../LinksOrMenu'
 
-jest.mock('react-media', () => props => (
-  <div {...props}>Media - {props.children(true)}</div>
-))
+const createMockMediaMatcher = matches => () => ({
+  matches,
+  addListener: () => {},
+  removeListener: () => {},
+})
 
 jest.mock('@material-ui/core/Menu', () => props => (
   <div {...props}>Menu - {props.children}</div>
@@ -14,8 +16,24 @@ jest.mock('react-router-dom/Link', () => props => (
   <div {...props}>Link - {props.children}</div>
 ))
 
-describe('with initial state', () => {
+const originalMatchMedia = window.matchMedia
+
+afterEach(() => {
+  window.matchMedia = originalMatchMedia
+})
+
+describe('when matches', () => {
   it('renders correctly', () => {
+    window.matchMedia = createMockMediaMatcher(true)
+    const props = { location: { pathname: 'foo-path' } }
+    const tree = renderer.create(<LinksOrMenu {...props} />).toJSON()
+    expect(tree).toMatchSnapshot()
+  })
+})
+
+describe('when dont match', () => {
+  it('renders correctly', () => {
+    window.matchMedia = createMockMediaMatcher(false)
     const props = { location: { pathname: 'foo-path' } }
     const tree = renderer.create(<LinksOrMenu {...props} />).toJSON()
     expect(tree).toMatchSnapshot()
@@ -24,6 +42,7 @@ describe('with initial state', () => {
 
 describe('when calling handleClick', () => {
   it('it updates state correctly', () => {
+    window.matchMedia = createMockMediaMatcher(true)
     const props = { location: { pathname: 'foo-path' } }
     const instance = renderer.create(<LinksOrMenu {...props} />).getInstance()
     const event = { currentTarget: 'foo-element' }
@@ -34,6 +53,7 @@ describe('when calling handleClick', () => {
 
 describe('when calling handleClose', () => {
   it('it updates state correctly', () => {
+    window.matchMedia = createMockMediaMatcher(true)
     const props = { location: { pathname: 'foo-path' } }
     const instance = renderer.create(<LinksOrMenu {...props} />).getInstance()
     instance.handleClose()
