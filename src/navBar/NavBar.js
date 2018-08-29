@@ -2,13 +2,9 @@ import React, { Component } from 'react'
 import { withRouter } from 'react-router'
 import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
-import Media from 'react-media'
-import MenuIcon from '@material-ui/icons/Menu'
-import IconButton from '@material-ui/core/IconButton'
 
-import Links from './Links'
+import LinksOrMenu from './LinksOrMenu'
 import Logo from './Logo'
-import Menu from './Menu'
 
 class NavBar extends Component {
   state = {
@@ -25,27 +21,15 @@ class NavBar extends Component {
 
   render() {
     const { anchorEl } = this.state
-    const open = Boolean(anchorEl)
     return (
       <AppBar position="static" color="inherit" elevation={0}>
         <Toolbar>
           <Logo />
-          <Media query="(max-width:960px)">
-            {matches =>
-              matches ? (
-                <IconButton onClick={this.handleClick}>
-                  <MenuIcon />
-                </IconButton>
-              ) : (
-                <Links className="navbar-links"{...this.props} />
-              )
-            }
-          </Media>
-          <Menu
+          <LinksOrMenu
             {...this.props}
-            open={open}
-            anchorEl={anchorEl}
+            handleClick={this.handleClick}
             handleClose={this.handleClose}
+            anchorEl={anchorEl}
           />
         </Toolbar>
       </AppBar>

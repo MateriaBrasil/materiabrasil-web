@@ -1,7 +1,15 @@
 .navbar-links .navbar-link {
   padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .navbar-links .navbar-link:hover {
   border-bottom: 3px solid black;
+}
+
+.menu-appbar .navbar-link {
+  padding: 0px;
+  width: 100%;
+  margin: 0 !important;
 }

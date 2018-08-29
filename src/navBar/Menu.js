@@ -1,11 +1,12 @@
-import React, { Component, Fragment } from 'react'
-
-import SignOut from '../auth/signOut/SignOut'
-import Link, { SignIn } from './LinkMobile'
-import './Link.css'
-
+import React, { Fragment } from 'react'
 import Menu from '@material-ui/core/Menu'
 import MenuItem from '@material-ui/core/MenuItem'
+
+import SignOut from '../auth/signOut/SignOut'
+
+import Link from './Link'
+import SignIn from './SignIn'
+import './Link.css'
 
 export default props => {
   const { anchorEl, open, handleClose } = props
@@ -59,50 +60,3 @@ export default props => {
     </Menu>
   )
 }
-
-// {currentUser ? (
-//   <Fragment>
-//     {suppliers && suppliers.length > 0 ? (
-//       <MenuItem>
-//         <Link
-//           to={`/suppliers/${suppliers[0].id}`}
-//           text={suppliers[0].name}
-//         />
-//       </MenuItem>
-//     ) : (
-//       <MenuItem>
-//         <Link to={`/suppliers/new`} text="Cadastrar fornecedor" />
-//       </MenuItem>
-//     )}
-//     <MenuItem>
-//       <Link to={`/profile`} text={name} />
-//     </MenuItem>
-//     <MenuItem>
-//       <SignOut {...props} />
-//     </MenuItem>
-//   </Fragment>
-// ) : (
-//   <Fragment>
-//     <MenuItem>
-//       <Link
-//         to={{
-//           pathname: '/auth/sign-up',
-//           state: { referrer: '/suppliers/new' },
-//         }}
-//         text="Cadastrar fornecedor"
-//       />
-//     </MenuItem>
-//     <MenuItem>
-//       <SignIn {...props} />
-//     </MenuItem>
-//   </Fragment>
-// )}
-
-// anchorOrigin={{
-//   vertical: 'top',
-//   horizontal: 'right',
-// }}
-// transformOrigin={{
-//   vertical: 'top',
-//   horizontal: 'right',
-// }}

@@ -23,7 +23,6 @@ export default () => (
         style={{
           display: 'inline-block',
           verticalAlign: 'middle',
-
         }}
       >
         Materia<span style={{ fontWeight: 300 }}>Mundi</span>
