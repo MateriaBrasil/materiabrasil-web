@@ -17,14 +17,15 @@ exports[`renders correctly 1`] = `
     <h2
       className="MuiTypography-root-2 MuiTypography-title-8"
     >
-      Avaliar
+      Atualizar material
     </h2>
   </div>
   <div
-    createError={undefined}
     id={1234}
+    initialValues={undefined}
     onSubmit={[Function]}
     submitting={undefined}
+    updateError={undefined}
   >
     Form
   </div>

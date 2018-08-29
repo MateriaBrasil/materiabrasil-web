@@ -145,7 +145,7 @@ exports[`renders correctly 1`] = `
                   defaultValue={undefined}
                   disabled={false}
                   id={undefined}
-                  name="average_price"
+                  name="averagePrice"
                   onBlur={[Function]}
                   onChange={[Function]}
                   onFocus={[Function]}
@@ -254,32 +254,58 @@ exports[`renders correctly 1`] = `
                 Propriedades
               </label>
               <div
-                className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-underline-139"
+                className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-multiline-141 MuiInput-underline-139"
                 onDragStart={[Function]}
                 onDrop={[Function]}
               >
-                <input
-                  aria-invalid={false}
-                  aria-required={false}
-                  autoComplete={undefined}
-                  autoFocus={undefined}
-                  className="MuiInput-input-143"
-                  defaultValue={undefined}
-                  disabled={false}
-                  id={undefined}
-                  name="properties"
-                  onBlur={[Function]}
-                  onChange={[Function]}
-                  onFocus={[Function]}
-                  onKeyDown={undefined}
-                  onKeyUp={undefined}
-                  placeholder={undefined}
-                  readOnly={undefined}
-                  required={undefined}
-                  rows={undefined}
-                  type="text"
-                  value=""
-                />
+                <div
+                  className="Textarea-root-152"
+                  style={
+                    Object {
+                      "height": 19,
+                    }
+                  }
+                >
+                  <textarea
+                    aria-hidden="true"
+                    className="Textarea-shadow-154 Textarea-textarea-153"
+                    readOnly={true}
+                    rows="1"
+                    tabIndex={-1}
+                    value=""
+                  />
+                  <textarea
+                    aria-hidden="true"
+                    className="Textarea-shadow-154 Textarea-textarea-153"
+                    defaultValue={undefined}
+                    readOnly={true}
+                    rows={1}
+                    tabIndex={-1}
+                    value=""
+                  />
+                  <textarea
+                    aria-invalid={false}
+                    aria-required={false}
+                    autoComplete={undefined}
+                    autoFocus={undefined}
+                    className="Textarea-textarea-153 MuiInput-input-143 MuiInput-inputMultiline-145"
+                    defaultValue={undefined}
+                    disabled={false}
+                    id={undefined}
+                    name="properties"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={undefined}
+                    onKeyUp={undefined}
+                    placeholder={undefined}
+                    readOnly={undefined}
+                    required={undefined}
+                    rows={1}
+                    type="text"
+                    value=""
+                  />
+                </div>
               </div>
               <p
                 className="MuiFormHelperText-root-148"
@@ -302,32 +328,58 @@ exports[`renders correctly 1`] = `
                 Onde pode ser usado
               </label>
               <div
-                className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-underline-139"
+                className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-multiline-141 MuiInput-underline-139"
                 onDragStart={[Function]}
                 onDrop={[Function]}
               >
-                <input
-                  aria-invalid={false}
-                  aria-required={false}
-                  autoComplete={undefined}
-                  autoFocus={undefined}
-                  className="MuiInput-input-143"
-                  defaultValue={undefined}
-                  disabled={false}
-                  id={undefined}
-                  name="usage"
-                  onBlur={[Function]}
-                  onChange={[Function]}
-                  onFocus={[Function]}
-                  onKeyDown={undefined}
-                  onKeyUp={undefined}
-                  placeholder={undefined}
-                  readOnly={undefined}
-                  required={undefined}
-                  rows={undefined}
-                  type="text"
-                  value=""
-                />
+                <div
+                  className="Textarea-root-152"
+                  style={
+                    Object {
+                      "height": 19,
+                    }
+                  }
+                >
+                  <textarea
+                    aria-hidden="true"
+                    className="Textarea-shadow-154 Textarea-textarea-153"
+                    readOnly={true}
+                    rows="1"
+                    tabIndex={-1}
+                    value=""
+                  />
+                  <textarea
+                    aria-hidden="true"
+                    className="Textarea-shadow-154 Textarea-textarea-153"
+                    defaultValue={undefined}
+                    readOnly={true}
+                    rows={1}
+                    tabIndex={-1}
+                    value=""
+                  />
+                  <textarea
+                    aria-invalid={false}
+                    aria-required={false}
+                    autoComplete={undefined}
+                    autoFocus={undefined}
+                    className="Textarea-textarea-153 MuiInput-input-143 MuiInput-inputMultiline-145"
+                    defaultValue={undefined}
+                    disabled={false}
+                    id={undefined}
+                    name="usage"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={undefined}
+                    onKeyUp={undefined}
+                    placeholder={undefined}
+                    readOnly={undefined}
+                    required={undefined}
+                    rows={1}
+                    type="text"
+                    value=""
+                  />
+                </div>
               </div>
               <p
                 className="MuiFormHelperText-root-148"

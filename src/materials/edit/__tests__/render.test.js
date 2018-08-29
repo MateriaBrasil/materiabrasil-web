@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer'
 
 import render from '../render'
 
-jest.mock('../New', () => props => <div {...props}>New</div>)
+jest.mock('../Edit', () => props => <div {...props}>Edit</div>)
 
 it('renders correctly', () => {
   const Component = render({ foo: 'bar' })

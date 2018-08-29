@@ -5,6 +5,6 @@ exports[`renders correctly 1`] = `
   bar="foo"
   foo="bar"
 >
-  New
+  Edit
 </div>
 `;
