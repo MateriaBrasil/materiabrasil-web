@@ -1,14 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div>
+<div
+  className="navbar-links"
+>
   <div
     className="navbar-link"
     style={
       Object {
         "color": "black",
-        "marginLeft": 20,
-        "marginRight": 20,
         "textDecoration": "none",
       }
     }
@@ -41,14 +41,14 @@ exports[`renders correctly 1`] = `
 `;
 
 exports[`with current user renders correctly 1`] = `
-<div>
+<div
+  className="navbar-links"
+>
   <div
     className="navbar-link"
     style={
       Object {
         "color": "black",
-        "marginLeft": 20,
-        "marginRight": 20,
         "textDecoration": "none",
       }
     }
@@ -72,8 +72,6 @@ exports[`with current user renders correctly 1`] = `
     style={
       Object {
         "color": "black",
-        "marginLeft": 20,
-        "marginRight": 20,
         "textDecoration": "none",
       }
     }
@@ -101,14 +99,14 @@ exports[`with current user renders correctly 1`] = `
 `;
 
 exports[`with current user with suppliers renders correctly 1`] = `
-<div>
+<div
+  className="navbar-links"
+>
   <div
     className="navbar-link"
     style={
       Object {
         "color": "black",
-        "marginLeft": 20,
-        "marginRight": 20,
         "textDecoration": "none",
       }
     }
@@ -130,8 +128,6 @@ exports[`with current user with suppliers renders correctly 1`] = `
     style={
       Object {
         "color": "black",
-        "marginLeft": 20,
-        "marginRight": 20,
         "textDecoration": "none",
       }
     }

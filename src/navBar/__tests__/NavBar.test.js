@@ -11,6 +11,10 @@ jest.mock('../../auth/signOut/SignOut', () => props => (
   <div {...props}>SignOut</div>
 ))
 
+jest.mock('react-media', () => props => (
+  <div {...props}>Media - {props.children(true)}</div>
+))
+
 describe('without current user', () => {
   it('renders correctly', () => {
     const currentUser = {}
