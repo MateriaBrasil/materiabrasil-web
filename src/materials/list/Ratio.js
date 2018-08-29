@@ -5,15 +5,13 @@ import Ratio from 'react-ratio'
 import TitleBar from './TitleBar'
 
 export default props => {
-  const { material, renderIcons, ratio } = props
-  const { id, highlighted, name } = material
-  const { highlightImageUrl, listImageUrl } = material
-  const image = highlighted ? highlightImageUrl : listImageUrl
+  const { material, renderIcons, ratio, imageUrl } = props
+  const { id, name } = material
 
   return (
     <Ratio ratio={ratio} style={{ overflow: 'hidden' }}>
       <Link to={`/${id}`}>
-        <img src={image} alt={name} style={{ width: '100%' }} />
+        <img src={imageUrl} alt={name} style={{ width: '100%' }} />
       </Link>
       <TitleBar {...props} material={material} renderIcons={renderIcons} />
     </Ratio>

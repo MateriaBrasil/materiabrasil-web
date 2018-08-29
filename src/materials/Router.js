@@ -23,5 +23,25 @@ export default props => (
         attributeName: 'coverImageUrl',
       })}
     />
+    <Route
+      exact
+      path="/:id/listImage"
+      render={renderImageUpload({
+        ...props,
+        width: 720,
+        height: 480,
+        attributeName: 'listImageUrl',
+      })}
+    />
+    <Route
+      exact
+      path="/:id/highlightImage"
+      render={renderImageUpload({
+        ...props,
+        width: 1920,
+        height: 720,
+        attributeName: 'highlightImageUrl',
+      })}
+    />
   </div>
 )

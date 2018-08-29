@@ -8,6 +8,7 @@ import checkReloadAndFetch from '../../checkReloadAndFetch'
 import CoverImage from './CoverImage'
 import Description from './Description'
 import Supplier from './Supplier'
+import Images from './Images'
 
 export default class extends Component {
   componentDidUpdate(prevProps) {
@@ -23,6 +24,7 @@ export default class extends Component {
     return (
       <Grid container spacing={16}>
         <CoverImage {...current} editable={editable} />
+        {editable && <Images {...this.props} {...current} />}
         <Description {...this.props} {...current} editable={editable} />
         <Supplier {...this.props} {...current} />
         <Comments id={id} type="materials" {...this.props} />
