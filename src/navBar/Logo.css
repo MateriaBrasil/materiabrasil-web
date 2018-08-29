@@ -22,9 +22,9 @@
 
 @media (max-width: 300px) {
   .text {
-    display: none !important;
+    font-size: 22px !important;
   }
   .image {
-    width: 32px;
+    width: 20px;
   }
 }

@@ -16,9 +16,11 @@ jest.mock('react-router-dom/Link', () => props => (
   <div {...props}>Link - {props.children}</div>
 ))
 
-const originalMatchMedia = window.matchMedia
-
-afterEach(() => {
+let originalMatchMedia
+beforeAll(() => {
+  originalMatchMedia = window.matchMedia
+})
+afterAll(() => {
   window.matchMedia = originalMatchMedia
 })
 
