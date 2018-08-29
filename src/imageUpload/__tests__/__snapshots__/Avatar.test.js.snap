@@ -4,17 +4,18 @@ exports[`with editPath renders correctly 1`] = `
 <div
   to="foo/:id/avatar"
 >
-  <div
-    className="MuiCardMedia-root-1"
-    src={undefined}
+  <img
+    alt={undefined}
+    src="/images/avatar.png"
     style={
       Object {
         "backgroundColor": "#ddd",
-        "backgroundImage": "url(\\"/images/avatar.png\\")",
         "borderRadius": 2,
         "display": "inline-block",
-        "height": 400,
+        "height": "auto",
         "marginRight": 16,
+        "maxWidth": "100%",
+        "objectFit": "cover",
         "width": 400,
       }
     }
@@ -24,17 +25,18 @@ exports[`with editPath renders correctly 1`] = `
 `;
 
 exports[`without editPath renders correctly 1`] = `
-<div
-  className="MuiCardMedia-root-1"
-  src={undefined}
+<img
+  alt={undefined}
+  src="/images/avatar.png"
   style={
     Object {
       "backgroundColor": "#ddd",
-      "backgroundImage": "url(\\"/images/avatar.png\\")",
       "borderRadius": 2,
       "display": "inline-block",
-      "height": 400,
+      "height": "auto",
       "marginRight": 16,
+      "maxWidth": "100%",
+      "objectFit": "cover",
       "width": 400,
     }
   }

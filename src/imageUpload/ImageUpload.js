@@ -61,7 +61,7 @@ export default class extends Component {
 
   render() {
     const { file, scale, position, uploading } = this.state
-    const { updating, title } = this.props
+    const { updating, title, width = 400, height = 400 } = this.props
 
     return (
       <Dialog
@@ -78,8 +78,8 @@ export default class extends Component {
           style={{
             textAlign: 'center',
             border: file ? 'none' : '1px dashed',
-            width: 400,
-            height: 400,
+            width,
+            height,
             margin: '0 auto',
             cursor: file ? 'move' : 'pointer',
           }}
@@ -89,8 +89,8 @@ export default class extends Component {
           {file ? (
             <AvatarEditor
               ref={this.setEditor}
-              width={350}
-              height={350}
+              width={width - 50}
+              height={height - 50}
               image={file.preview}
               scale={scale}
               position={position}

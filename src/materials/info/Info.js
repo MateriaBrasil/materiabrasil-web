@@ -22,7 +22,7 @@ export default class extends Component {
 
     return (
       <Grid container spacing={16}>
-        <CoverImage {...current} />
+        <CoverImage {...current} editable={editable} />
         <Description {...this.props} {...current} editable={editable} />
         <Supplier {...this.props} {...current} />
         <Comments id={id} type="materials" {...this.props} />
