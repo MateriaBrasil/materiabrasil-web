@@ -40,7 +40,6 @@ exports[`renders correctly 1`] = `
     className="MuiDialogActions-root-27"
   >
     <div
-      className="MuiDialogActions-action-28"
       style={
         Object {
           "textDecoration": "none",
