@@ -9,8 +9,8 @@ import renderEdit from './renderEdit'
 export default props => (
   <div>
     <Route exact path="/" render={renderList(props)} />
+    <Route exact path="/:id/edit" render={renderEdit(props)} />
     <Route path="/:id" render={renderInfo(props)} />
-    <Route path="/:id/edit" render={renderEdit(props)} />
     <Route path="/:id/reviews" render={renderReviews(props)} />
   </div>
 )

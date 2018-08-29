@@ -33,4 +33,4 @@ class Form extends Component {
   }
 }
 
-export default reduxForm({ form: 'reviews' })(Form)
+export default reduxForm({ form: 'materials' })(Form)
