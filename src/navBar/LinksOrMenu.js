@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Component, Fragment } from 'react'
 import Media from 'react-media'
 import MenuIcon from '@material-ui/icons/Menu'
 import IconButton from '@material-ui/core/IconButton'
@@ -6,28 +6,42 @@ import IconButton from '@material-ui/core/IconButton'
 import Menu from './Menu'
 import Links from './Links'
 
-export default props => {
-  const { anchorEl, handleClick, handleClose } = props
-  const open = Boolean(anchorEl)
-  return (
-    <Media query="(max-width:960px)">
-      {matches =>
-        matches ? (
-          <Fragment>
-            <IconButton onClick={handleClick}>
-              <MenuIcon />
-            </IconButton>
-            <Menu
-              {...props}
-              open={open}
-              anchorEl={anchorEl}
-              handleClose={handleClose}
-            />
-          </Fragment>
-        ) : (
-          <Links {...props} />
-        )
-      }
-    </Media>
-  )
+export default class extends Component {
+  state = {
+    anchorEl: null,
+  }
+
+  handleClick = event => {
+    this.setState({ anchorEl: event.currentTarget })
+  }
+
+  handleClose = () => {
+    this.setState({ anchorEl: null })
+  }
+
+  render() {
+    const { anchorEl } = this.state
+    const open = Boolean(anchorEl)
+    return (
+      <Media query="(max-width:960px)">
+        {matches =>
+          matches ? (
+            <Fragment>
+              <IconButton onClick={this.handleClick}>
+                <MenuIcon />
+              </IconButton>
+              <Menu
+                {...this.props}
+                open={open}
+                anchorEl={anchorEl}
+                handleClose={this.handleClose}
+              />
+            </Fragment>
+          ) : (
+            <Links {...this.props} />
+          )
+        }
+      </Media>
+    )
+  }
 }
