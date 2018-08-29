@@ -12,8 +12,7 @@ export default withMobileDialog()(
     render() {
       const { fullScreen, match, history, updating, update, error } = this.props
       const { info } = this.props
-      const { params } = match
-      const { id } = params
+      const { id } = match.params
       const handleCloseModal = closeModal({ history, id })
 
       return (

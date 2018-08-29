@@ -128,7 +128,7 @@ exports[`renders correctly 1`] = `
       <span
         className="MuiButton-label-5"
       >
-        Enviar
+        Atualizar material
       </span>
       <span
         className="MuiTouchRipple-root-23"
@@ -266,7 +266,7 @@ exports[`with error renders correctly 1`] = `
       <span
         className="MuiButton-label-5"
       >
-        Enviar
+        Atualizar material
       </span>
       <span
         className="MuiTouchRipple-root-23"
