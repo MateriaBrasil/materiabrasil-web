@@ -1,7 +1,7 @@
-.navbar-link {
+.navbar-links .navbar-link {
   padding: 10px;
 }
 
-.navbar-link:hover {
+.navbar-links .navbar-link:hover {
   border-bottom: 3px solid black;
 }

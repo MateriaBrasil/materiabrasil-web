@@ -1,8 +1,8 @@
 import React, { Component, Fragment } from 'react'
 
 import SignOut from '../auth/signOut/SignOut'
-import SignIn from './SignIn'
-import Link from './Link'
+import Link, { SignIn } from './LinkMobile'
+import './Link.css'
 
 import Menu from '@material-ui/core/Menu'
 import MenuItem from '@material-ui/core/MenuItem'
@@ -16,6 +16,7 @@ export default props => {
   return (
     <Menu
       id="menu-appbar"
+      className="menu-appbar"
       anchorEl={anchorEl}
       open={open}
       onClose={handleClose}
@@ -50,7 +51,7 @@ export default props => {
               text="Cadastrar fornecedor"
             />
           </MenuItem>
-          <MenuItem onClick={handleClose} >
+          <MenuItem onClick={handleClose}>
             <SignIn {...props} />
           </MenuItem>
         </Fragment>

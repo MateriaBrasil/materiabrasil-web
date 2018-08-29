@@ -10,7 +10,7 @@ export default props => {
   const name = `${firstName} ${lastName}`
 
   return (
-    <div>
+    <div className="navbar-links">
       {currentUser ? (
         <Fragment>
           {suppliers && suppliers.length > 0 ? (

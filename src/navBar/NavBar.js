@@ -37,7 +37,7 @@ class NavBar extends Component {
                   <MenuIcon />
                 </IconButton>
               ) : (
-                <Links {...this.props} />
+                <Links className="navbar-links"{...this.props} />
               )
             }
           </Media>
