@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
+  style={
+    Object {
+      "marginBottom": 16,
+    }
+  }
+>
+  <div
+    className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+  >
+    <div
+      className="MuiCardContent-root-120"
+    >
+      <h1
+        className="MuiTypography-root-121 MuiTypography-display1-125"
+        style={
+          Object {
+            "marginBottom": 24,
+          }
+        }
+      >
+        Imagens
+      </h1>
+      <div
+        className="MuiGrid-container-1 MuiGrid-spacing-xs-24-24"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-4-70"
+        >
+          <h1
+            className="MuiTypography-root-121 MuiTypography-headline-126"
+            style={
+              Object {
+                "marginBottom": 16,
+              }
+            }
+          >
+            Imagem para a lista
+          </h1>
+          <div
+            to="/1234/listImage"
+          >
+            <div
+              className="Ratio "
+              editPath="/1234/listImage"
+              imageUrl="list-url"
+              name="foo-name"
+              preserveRatio={true}
+              style={
+                Object {
+                  "display": "block",
+                  "maxHeight": 540,
+                  "maxWidth": 720,
+                  "overflow": "hidden",
+                }
+              }
+            >
+              <div
+                className="Ratio-ratio "
+                style={
+                  Object {
+                    "height": 0,
+                    "paddingTop": "75%",
+                    "position": "relative",
+                    "width": "100%",
+                  }
+                }
+              >
+                <div
+                  className="Ratio-content "
+                  style={
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <img
+                    alt="foo-name"
+                    src="list-url"
+                    style={
+                      Object {
+                        "backgroundColor": "#ddd",
+                        "borderRadius": 2,
+                        "display": "inline-block",
+                        "height": "auto",
+                        "marginRight": 16,
+                        "maxWidth": "100%",
+                        "width": "100%",
+                      }
+                    }
+                    title="Clique para editar"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-8-74"
+        >
+          <h1
+            className="MuiTypography-root-121 MuiTypography-headline-126"
+            style={
+              Object {
+                "marginBottom": 16,
+              }
+            }
+          >
+            Imagem para os destaques
+          </h1>
+          <div
+            to="/1234/highlightImage"
+          >
+            <div
+              className="Ratio "
+              editPath="/1234/highlightImage"
+              imageUrl="high-url"
+              name="foo-name"
+              preserveRatio={true}
+              style={
+                Object {
+                  "display": "block",
+                  "maxHeight": 720,
+                  "maxWidth": 1920,
+                  "overflow": "hidden",
+                }
+              }
+            >
+              <div
+                className="Ratio-ratio "
+                style={
+                  Object {
+                    "height": 0,
+                    "paddingTop": "37.5%",
+                    "position": "relative",
+                    "width": "100%",
+                  }
+                }
+              >
+                <div
+                  className="Ratio-content "
+                  style={
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <img
+                    alt="foo-name"
+                    src="high-url"
+                    style={
+                      Object {
+                        "backgroundColor": "#ddd",
+                        "borderRadius": 2,
+                        "display": "inline-block",
+                        "height": "auto",
+                        "marginRight": 16,
+                        "maxWidth": "100%",
+                        "width": "100%",
+                      }
+                    }
+                    title="Clique para editar"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

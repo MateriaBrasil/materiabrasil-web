@@ -207,6 +207,9 @@ exports[`with error renders correctly 1`] = `
         ]
       }
     />
+    <div>
+      foo error
+    </div>
   </div>
   <div
     className="MuiDialogActions-root-2"
