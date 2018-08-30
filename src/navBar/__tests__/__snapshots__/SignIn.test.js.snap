@@ -9,7 +9,14 @@ exports[`renders correctly 1`] = `
       "textDecoration": "none",
     }
   }
-  to="/foo"
+  to={
+    Object {
+      "pathname": "/auth/sign-in",
+      "state": Object {
+        "referrer": "foo-path",
+      },
+    }
+  }
 >
   Link - 
   <h3
@@ -21,7 +28,7 @@ exports[`renders correctly 1`] = `
       }
     }
   >
-    foo bar
+    Entrar
   </h3>
 </div>
 `;

@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  anchorEl={undefined}
+  className="menu-appbar"
+  id="menu-appbar"
+  onClose={undefined}
+  open={undefined}
+>
+  Menu - 
+  <div
+    onClick={undefined}
+  >
+    MenuItem - 
+    <div
+      className="navbar-link"
+      style={
+        Object {
+          "color": "black",
+          "textDecoration": "none",
+        }
+      }
+      to={
+        Object {
+          "pathname": "/auth/sign-up",
+          "state": Object {
+            "referrer": "/suppliers/new",
+          },
+        }
+      }
+    >
+      Link - 
+      <h3
+        className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+        style={
+          Object {
+            "alignSelf": "center",
+            "display": "inline-block",
+          }
+        }
+      >
+        Cadastrar fornecedor
+      </h3>
+    </div>
+  </div>
+  <div
+    onClick={undefined}
+  >
+    MenuItem - 
+    <div>
+      SignIn
+    </div>
+  </div>
+</div>
+`;
+
+exports[`with current user renders correctly 1`] = `
+<div
+  anchorEl={undefined}
+  className="menu-appbar"
+  id="menu-appbar"
+  onClose={undefined}
+  open={undefined}
+>
+  Menu - 
+  <div>
+    MenuItem - 
+    <div
+      className="navbar-link"
+      style={
+        Object {
+          "color": "black",
+          "textDecoration": "none",
+        }
+      }
+      to="/suppliers/new"
+    >
+      Link - 
+      <h3
+        className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+        style={
+          Object {
+            "alignSelf": "center",
+            "display": "inline-block",
+          }
+        }
+      >
+        Cadastrar fornecedor
+      </h3>
+    </div>
+  </div>
+  <div>
+    MenuItem - 
+    <div
+      className="navbar-link"
+      style={
+        Object {
+          "color": "black",
+          "textDecoration": "none",
+        }
+      }
+      to="/profile"
+    >
+      Link - 
+      <h3
+        className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+        style={
+          Object {
+            "alignSelf": "center",
+            "display": "inline-block",
+          }
+        }
+      >
+        undefined undefined
+      </h3>
+    </div>
+  </div>
+  <div>
+    MenuItem - 
+    <div
+      currentUser={Object {}}
+    >
+      SignOut
+    </div>
+  </div>
+</div>
+`;
+
+exports[`with current user with suppliers renders correctly 1`] = `
+<div
+  anchorEl={undefined}
+  className="menu-appbar"
+  id="menu-appbar"
+  onClose={undefined}
+  open={undefined}
+>
+  Menu - 
+  <div>
+    MenuItem - 
+    <div
+      className="navbar-link"
+      style={
+        Object {
+          "color": "black",
+          "textDecoration": "none",
+        }
+      }
+      to="/suppliers/undefined"
+    >
+      Link - 
+      <h3
+        className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+        style={
+          Object {
+            "alignSelf": "center",
+            "display": "inline-block",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div>
+    MenuItem - 
+    <div
+      className="navbar-link"
+      style={
+        Object {
+          "color": "black",
+          "textDecoration": "none",
+        }
+      }
+      to="/profile"
+    >
+      Link - 
+      <h3
+        className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+        style={
+          Object {
+            "alignSelf": "center",
+            "display": "inline-block",
+          }
+        }
+      >
+        undefined undefined
+      </h3>
+    </div>
+  </div>
+  <div>
+    MenuItem - 
+    <div
+      currentUser={
+        Object {
+          "suppliers": Array [
+            Object {},
+            Object {},
+          ],
+        }
+      }
+    >
+      SignOut
+    </div>
+  </div>
+</div>
+`;

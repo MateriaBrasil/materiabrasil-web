@@ -10,8 +10,6 @@ export default ({ to, text }) => (
     style={{
       textDecoration: 'none',
       color: 'black',
-      marginLeft: 20,
-      marginRight: 20,
     }}
   >
     <Typography

@@ -1,0 +1,30 @@
+.text {
+  font-size: 36px !important;
+}
+
+@media (max-width: 600px) {
+  .text {
+    font-size: 27px !important;
+  }
+  .image {
+    width: 24px;
+  }
+}
+
+@media (max-width: 350px) {
+  .text {
+    font-size: 22px !important;
+  }
+  .image {
+    width: 20px;
+  }
+}
+
+@media (max-width: 300px) {
+  .text {
+    font-size: 22px !important;
+  }
+  .image {
+    width: 20px;
+  }
+}
