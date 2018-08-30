@@ -28,8 +28,13 @@ it('renders correctly', () => {
     technicalSpecification_url: 'http://foo',
     properties: 'Foo properties',
     usage: 'Bar usage',
+    supplierId: 1234,
   }
-  const props = { current, location: {} }
+  const props = {
+    current,
+    currentUser: { suppliers: [{ id: 1234 }] },
+    location: {},
+  }
   const tree = renderer.create(<Info {...props} />).toJSON()
   expect(tree).toMatchSnapshot()
 })
