@@ -6,6 +6,7 @@ import SignOut from '../auth/signOut/SignOut'
 
 import Link from './Link'
 import SignIn from './SignIn'
+import SupplierLink from './SupplierLink'
 import './Link.css'
 
 export default props => {
@@ -25,14 +26,7 @@ export default props => {
       {currentUser ? (
         <Fragment>
           <MenuItem>
-            {suppliers && suppliers.length > 0 ? (
-              <Link
-                to={`/suppliers/${suppliers[0].id}`}
-                text={suppliers[0].name}
-              />
-            ) : (
-              <Link to={`/suppliers/new`} text="Cadastrar fornecedor" />
-            )}
+            <SupplierLink suppliers={suppliers} />
           </MenuItem>
           <MenuItem>
             <Link to={`/profile`} text={name} />

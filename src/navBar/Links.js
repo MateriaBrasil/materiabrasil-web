@@ -3,6 +3,7 @@ import React, { Fragment } from 'react'
 import SignOut from '../auth/signOut/SignOut'
 import SignIn from './SignIn'
 import Link from './Link'
+import SupplierLink from './SupplierLink'
 
 export default props => {
   const { currentUser } = props
@@ -13,14 +14,7 @@ export default props => {
     <div className="navbar-links">
       {currentUser ? (
         <Fragment>
-          {suppliers && suppliers.length > 0 ? (
-            <Link
-              to={`/suppliers/${suppliers[0].id}`}
-              text={suppliers[0].name}
-            />
-          ) : (
-            <Link to={`/suppliers/new`} text="Cadastrar fornecedor" />
-          )}
+          <SupplierLink suppliers={suppliers} />
           <Link to={`/profile`} text={name} />
           <SignOut {...props} />
         </Fragment>
