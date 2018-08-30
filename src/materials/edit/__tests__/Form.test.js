@@ -40,7 +40,7 @@ describe('with error', () => {
     const tree = renderer
       .create(
         <Provider store={store}>
-          <Form onSubmit={onSubmit} createError="foo error" />
+          <Form onSubmit={onSubmit} updateError="foo error" />
         </Provider>,
       )
       .toJSON()
