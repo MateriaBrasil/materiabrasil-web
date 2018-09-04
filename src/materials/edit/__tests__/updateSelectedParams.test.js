@@ -11,7 +11,6 @@ const params = {
   listImageUrl: 'http://list.image',
   highlightImageUrl: 'http://highlight.image',
   description: 'Foo description',
-  properties: 'Foo properties',
   usage: 'Bar usage',
   technicalSpecificationUrl: 'http://foo',
 }
