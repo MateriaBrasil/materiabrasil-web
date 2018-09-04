@@ -29,13 +29,6 @@ export default () => (
       multiline
     />
     <TextField
-      name="usage"
-      label="Onde pode ser usado"
-      type="text"
-      validate={[required()]}
-      multiline
-    />
-    <TextField
       name="availability"
       label="Disponibilidade"
       placeholder="Estados do Brasil e/ou países"

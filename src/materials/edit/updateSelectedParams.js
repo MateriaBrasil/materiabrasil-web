@@ -10,7 +10,6 @@ const whitelist = [
   'listImageUrl',
   'highlightImageUrl',
   'description',
-  'usage',
   'technicalSpecificationUrl',
   'availability',
   'unitOfSale',

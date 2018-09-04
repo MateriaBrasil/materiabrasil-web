@@ -27,7 +27,6 @@ it('renders correctly', () => {
     salesLocation: 'Bar City/BR',
     technicalSpecification_url: 'http://foo',
     properties: 'Foo properties',
-    usage: 'Bar usage',
     supplierId: 1234,
   }
   const props = {
