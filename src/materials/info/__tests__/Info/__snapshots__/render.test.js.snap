@@ -293,7 +293,6 @@ exports[`renders correctly 1`] = `
                 "supplierId": 1234,
                 "supplierName": "Foo Supplier",
                 "technicalSpecification_url": "http://foo",
-                "usage": "Bar usage",
               }
             }
             currentUser={
@@ -321,7 +320,6 @@ exports[`renders correctly 1`] = `
             supplierId={1234}
             supplierName="Foo Supplier"
             technicalSpecification_url="http://foo"
-            usage="Bar usage"
           >
             Favorites
           </div>
@@ -566,7 +564,6 @@ exports[`renders correctly 1`] = `
         "supplierId": 1234,
         "supplierName": "Foo Supplier",
         "technicalSpecification_url": "http://foo",
-        "usage": "Bar usage",
       }
     }
     currentUser={
@@ -589,7 +586,6 @@ exports[`renders correctly 1`] = `
     supplierId={1234}
     supplierName="Foo Supplier"
     technicalSpecification_url="http://foo"
-    usage="Bar usage"
   >
     Supplier
   </div>
@@ -608,7 +604,6 @@ exports[`renders correctly 1`] = `
         "supplierId": 1234,
         "supplierName": "Foo Supplier",
         "technicalSpecification_url": "http://foo",
-        "usage": "Bar usage",
       }
     }
     currentUser={
