@@ -10,9 +10,18 @@ import NewFavorite from '../../favorites/New'
 import Reviews from './Reviews'
 import TechnicalSpecification from '../list/TechnicalSpecification'
 import TechnicalSpecificationUpload from './TechnicalSpecificationUpload'
+import CertificationsUpload from './CertificationsUpload'
+import CertificationsIcon from './CertificationsIcon'
 
 export default props => {
-  const { code, description, name, technicalSpecificationUrl, editable } = props
+  const {
+    code,
+    description,
+    name,
+    technicalSpecificationUrl,
+    certificationsUrl,
+    editable,
+  } = props
   const { id } = props
 
   return (
@@ -22,6 +31,7 @@ export default props => {
           <div style={{ float: 'right' }}>
             <NewFavorite {...props} />
             {technicalSpecificationUrl && <TechnicalSpecification {...props} />}
+            {certificationsUrl && <CertificationsIcon {...props} />}
           </div>
           <Typography variant="display1">{name}</Typography>
           <Typography variant="caption" style={{ marginBottom: 16 }}>
@@ -42,6 +52,7 @@ export default props => {
                 </Button>
               </Link>
               <TechnicalSpecificationUpload {...props} />
+              <CertificationsUpload {...props} />
             </Fragment>
           )}
           <Typography variant="subheading" style={{ marginBottom: 24 }}>
