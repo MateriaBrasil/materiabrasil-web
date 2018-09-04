@@ -83,14 +83,16 @@ Array [
   <div
     label="Pedido mínimo"
     name="minimumPurchaseQuantity"
-    type="text"
+    parse={[Function]}
+    type="number"
 >
     TextField
 </div>,
   <div
     label="Pedido máximo"
     name="maximumPurchaseQuantity"
-    type="text"
+    parse={[Function]}
+    type="number"
 >
     TextField
 </div>,

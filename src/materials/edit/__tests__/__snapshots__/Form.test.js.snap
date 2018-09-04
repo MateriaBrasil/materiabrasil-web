@@ -74,12 +74,14 @@ exports[`renders correctly 1`] = `
     <div
       label="Pedido mínimo"
       name="minimumPurchaseQuantity"
-      type="text"
+      parse={[Function]}
+      type="number"
     />
     <div
       label="Pedido máximo"
       name="maximumPurchaseQuantity"
-      type="text"
+      parse={[Function]}
+      type="number"
     />
     <div
       label="NCM"
@@ -262,12 +264,14 @@ exports[`with error renders correctly 1`] = `
     <div
       label="Pedido mínimo"
       name="minimumPurchaseQuantity"
-      type="text"
+      parse={[Function]}
+      type="number"
     />
     <div
       label="Pedido máximo"
       name="maximumPurchaseQuantity"
-      type="text"
+      parse={[Function]}
+      type="number"
     />
     <div
       label="NCM"

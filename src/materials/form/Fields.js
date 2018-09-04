@@ -4,6 +4,7 @@ import { required } from 'redux-form-validators'
 import TextField from '../../form/TextField'
 import ncmCodeNormalizer from './ncmCodeNormalizer'
 import shCodeNormalizer from './shCodeNormalizer'
+import parseValue from './parseValue'
 
 export default () => (
   <Fragment>
@@ -49,12 +50,14 @@ export default () => (
     <TextField
       name="minimumPurchaseQuantity"
       label="Pedido mínimo"
-      type="text"
+      type="number"
+      parse={parseValue}
     />
     <TextField
       name="maximumPurchaseQuantity"
       label="Pedido máximo"
-      type="text"
+      type="number"
+      parse={parseValue}
     />
     <TextField
       name="ncmCode"

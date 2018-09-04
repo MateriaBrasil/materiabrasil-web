@@ -433,7 +433,7 @@ exports[`renders correctly 1`] = `
                   aria-required={false}
                   autoComplete={undefined}
                   autoFocus={undefined}
-                  className="MuiInput-input-143"
+                  className="MuiInput-input-143 MuiInput-inputType-146"
                   defaultValue={undefined}
                   disabled={false}
                   id={undefined}
@@ -447,7 +447,7 @@ exports[`renders correctly 1`] = `
                   readOnly={undefined}
                   required={undefined}
                   rows={undefined}
-                  type="text"
+                  type="number"
                   value=""
                 />
               </div>
@@ -481,7 +481,7 @@ exports[`renders correctly 1`] = `
                   aria-required={false}
                   autoComplete={undefined}
                   autoFocus={undefined}
-                  className="MuiInput-input-143"
+                  className="MuiInput-input-143 MuiInput-inputType-146"
                   defaultValue={undefined}
                   disabled={false}
                   id={undefined}
@@ -495,7 +495,7 @@ exports[`renders correctly 1`] = `
                   readOnly={undefined}
                   required={undefined}
                   rows={undefined}
-                  type="text"
+                  type="number"
                   value=""
                 />
               </div>
