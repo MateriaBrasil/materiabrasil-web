@@ -5,7 +5,6 @@ import TextField from '../../form/TextField'
 import ncmCodeNormalizer from './ncmCodeNormalizer'
 import shCodeNormalizer from './shCodeNormalizer'
 
-
 export default () => (
   <Fragment>
     <TextField
@@ -97,6 +96,5 @@ export default () => (
       placeholder="Dimensões"
       type="text"
     />
-
   </Fragment>
 )

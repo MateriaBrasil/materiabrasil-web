@@ -1,6 +1,5 @@
 import shCodeNormalizer from '../shCodeNormalizer'
 
-
 describe('with nothing', () => {
   it('returns correctly', () => {
     expect(shCodeNormalizer('')).toBe('')
