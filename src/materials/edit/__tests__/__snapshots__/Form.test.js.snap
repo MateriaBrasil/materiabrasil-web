@@ -49,17 +49,6 @@ exports[`renders correctly 1`] = `
       }
     />
     <div
-      label="Onde pode ser usado"
-      multiline={true}
-      name="usage"
-      type="text"
-      validate={
-        Array [
-          [Function],
-        ]
-      }
-    />
-    <div
       label="Disponibilidade"
       name="availability"
       placeholder="Estados do Brasil e/ou países"
@@ -231,17 +220,6 @@ exports[`with error renders correctly 1`] = `
       label="Descrição"
       multiline={true}
       name="description"
-      type="text"
-      validate={
-        Array [
-          [Function],
-        ]
-      }
-    />
-    <div
-      label="Onde pode ser usado"
-      multiline={true}
-      name="usage"
       type="text"
       validate={
         Array [

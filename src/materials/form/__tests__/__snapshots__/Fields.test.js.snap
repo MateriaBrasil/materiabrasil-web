@@ -52,19 +52,6 @@ Array [
     TextField
 </div>,
   <div
-    label="Onde pode ser usado"
-    multiline={true}
-    name="usage"
-    type="text"
-    validate={
-        Array [
-            [Function],
-          ]
-    }
->
-    TextField
-</div>,
-  <div
     label="Disponibilidade"
     name="availability"
     placeholder="Estados do Brasil e/ou países"
