@@ -1,17 +1,3 @@
-export default value => {
-  if (!value) {
-    return value
-  }
+import codeNormalizer from './codeNormalizer'
 
-  const onlyNums = value.replace(/[^\d]/g, '')
-
-  let normalizedValue = ''
-  let length = onlyNums.length > 8 ? 8 : onlyNums.length
-  for (var i = 0; i < length; i++) {
-    if (i % 2 === 0 && i !== 0) {
-      normalizedValue += '.'
-    }
-    normalizedValue += onlyNums[i]
-  }
-  return normalizedValue
-}
+export default value => codeNormalizer(value)(8, 2)
