@@ -2,8 +2,8 @@ import React, { Fragment } from 'react'
 import { required } from 'redux-form-validators'
 
 import TextField from '../../form/TextField'
-import ncmCodeNormalizer from './ncmCodeNormalizer'
-import shCodeNormalizer from './shCodeNormalizer'
+import ncmNormalizer from './ncmNormalizer'
+import shNormalizer from './shNormalizer'
 import parseValue from './parseValue'
 
 export default () => (
@@ -63,14 +63,14 @@ export default () => (
       name="ncmCode"
       label="NCM"
       placeholder="Oito dígitos, no modelo 19.05.31.00"
-      normalize={ncmCodeNormalizer}
+      normalize={ncmNormalizer}
       type="text"
     />
     <TextField
       name="shCode"
       label="SH"
       placeholder="Seis dígitos, no modelo 0103.91"
-      normalize={shCodeNormalizer}
+      normalize={shNormalizer}
       type="text"
     />
     <TextField
