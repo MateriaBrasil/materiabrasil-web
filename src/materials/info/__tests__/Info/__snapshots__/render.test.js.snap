@@ -405,6 +405,7 @@ exports[`renders correctly 1`] = `
             style={
               Object {
                 "marginBottom": 24,
+                "marginRight": 24,
               }
             }
             tabIndex="0"
@@ -455,7 +456,7 @@ exports[`renders correctly 1`] = `
             style={
               Object {
                 "marginBottom": 24,
-                "marginLeft": 24,
+                "marginRight": 24,
               }
             }
             tabIndex="0"
@@ -464,7 +465,7 @@ exports[`renders correctly 1`] = `
             <span
               className="MuiButton-label-146"
             >
-              Enviar certificações
+              Enviar Certificações
             </span>
             <span
               className="MuiTouchRipple-root-164"

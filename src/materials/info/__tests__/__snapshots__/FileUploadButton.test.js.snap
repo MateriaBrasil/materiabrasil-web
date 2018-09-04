@@ -12,6 +12,7 @@ exports[`when uploading and no url renders correctly 1`] = `
     style={
       Object {
         "marginBottom": 24,
+        "marginRight": 24,
         "textAlign": "left",
       }
     }
@@ -66,6 +67,7 @@ exports[`when uploading renders correctly 1`] = `
     style={
       Object {
         "marginBottom": 24,
+        "marginRight": 24,
         "textAlign": "left",
       }
     }
@@ -133,6 +135,7 @@ exports[`with initial state renders correctly 1`] = `
     style={
       Object {
         "marginBottom": 24,
+        "marginRight": 24,
       }
     }
     tabIndex="0"
@@ -141,9 +144,7 @@ exports[`with initial state renders correctly 1`] = `
     <span
       className="MuiButton-label-2"
     >
-      Enviar
-       nova
-       ficha técnica
+      foo-text
     </span>
     <span
       className="MuiTouchRipple-root-20"
