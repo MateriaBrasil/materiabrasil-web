@@ -10,9 +10,18 @@ const whitelist = [
   'listImageUrl',
   'highlightImageUrl',
   'description',
-  'properties',
   'usage',
   'technicalSpecificationUrl',
+  'availability',
+  'unitOfSale',
+  'minimumPurchaseQuantity',
+  'maximumPurchaseQuantity',
+  'ncmCode',
+  'shCode',
+  'certifications',
+  'prizes',
+  'density',
+  'dimensions',
 ]
 
 export default update => params => {

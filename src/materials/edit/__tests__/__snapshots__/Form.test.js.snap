@@ -49,17 +49,6 @@ exports[`renders correctly 1`] = `
       }
     />
     <div
-      label="Propriedades"
-      multiline={true}
-      name="properties"
-      type="text"
-      validate={
-        Array [
-          [Function],
-        ]
-      }
-    />
-    <div
       label="Onde pode ser usado"
       multiline={true}
       name="usage"
@@ -69,6 +58,70 @@ exports[`renders correctly 1`] = `
           [Function],
         ]
       }
+    />
+    <div
+      label="Disponibilidade"
+      name="availability"
+      placeholder="Estados do Brasil e/ou países"
+      type="text"
+    />
+    <div
+      label="Unidade de venda"
+      name="unitOfSale"
+      placeholder="(ex: metro, m2, bobina, embalagem com 6, etc)"
+      type="text"
+    />
+    <div
+      label="Pedido mínimo"
+      name="minimumPurchaseQuantity"
+      parse={[Function]}
+      type="number"
+    />
+    <div
+      label="Pedido máximo"
+      name="maximumPurchaseQuantity"
+      parse={[Function]}
+      type="number"
+    />
+    <div
+      label="NCM"
+      name="ncmCode"
+      normalize={[Function]}
+      placeholder="Oito dígitos, no modelo 19.05.31.00"
+      type="text"
+    />
+    <div
+      label="SH"
+      name="shCode"
+      normalize={[Function]}
+      placeholder="Seis dígitos, no modelo 0103.91"
+      type="text"
+    />
+    <div
+      label="Certificações"
+      multiline={true}
+      name="certifications"
+      placeholder="Lista de certificações"
+      type="text"
+    />
+    <div
+      label="Prêmios"
+      multiline={true}
+      name="prizes"
+      placeholder="Lista de prêmios"
+      type="text"
+    />
+    <div
+      label="Densidade"
+      name="density"
+      placeholder="Densidade"
+      type="text"
+    />
+    <div
+      label="Dimensões"
+      name="dimensions"
+      placeholder="Dimensões"
+      type="text"
     />
   </div>
   <div
@@ -186,17 +239,6 @@ exports[`with error renders correctly 1`] = `
       }
     />
     <div
-      label="Propriedades"
-      multiline={true}
-      name="properties"
-      type="text"
-      validate={
-        Array [
-          [Function],
-        ]
-      }
-    />
-    <div
       label="Onde pode ser usado"
       multiline={true}
       name="usage"
@@ -206,6 +248,70 @@ exports[`with error renders correctly 1`] = `
           [Function],
         ]
       }
+    />
+    <div
+      label="Disponibilidade"
+      name="availability"
+      placeholder="Estados do Brasil e/ou países"
+      type="text"
+    />
+    <div
+      label="Unidade de venda"
+      name="unitOfSale"
+      placeholder="(ex: metro, m2, bobina, embalagem com 6, etc)"
+      type="text"
+    />
+    <div
+      label="Pedido mínimo"
+      name="minimumPurchaseQuantity"
+      parse={[Function]}
+      type="number"
+    />
+    <div
+      label="Pedido máximo"
+      name="maximumPurchaseQuantity"
+      parse={[Function]}
+      type="number"
+    />
+    <div
+      label="NCM"
+      name="ncmCode"
+      normalize={[Function]}
+      placeholder="Oito dígitos, no modelo 19.05.31.00"
+      type="text"
+    />
+    <div
+      label="SH"
+      name="shCode"
+      normalize={[Function]}
+      placeholder="Seis dígitos, no modelo 0103.91"
+      type="text"
+    />
+    <div
+      label="Certificações"
+      multiline={true}
+      name="certifications"
+      placeholder="Lista de certificações"
+      type="text"
+    />
+    <div
+      label="Prêmios"
+      multiline={true}
+      name="prizes"
+      placeholder="Lista de prêmios"
+      type="text"
+    />
+    <div
+      label="Densidade"
+      name="density"
+      placeholder="Densidade"
+      type="text"
+    />
+    <div
+      label="Dimensões"
+      name="dimensions"
+      placeholder="Dimensões"
+      type="text"
     />
     <div>
       foo error
