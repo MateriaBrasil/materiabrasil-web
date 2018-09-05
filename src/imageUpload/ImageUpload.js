@@ -86,6 +86,10 @@ export default class extends Component {
             border: file ? 'none' : '1px dashed',
             width,
             height,
+            maxHeight: '100%',
+            maxWidth: '100%',
+            display: 'flex',
+            justifyContent: 'center',
             margin: '0 auto',
             cursor: file ? 'move' : 'pointer',
           }}
@@ -107,8 +111,7 @@ export default class extends Component {
               variant="headline"
               style={{
                 width: 300,
-                position: 'absolute',
-                left: width / 2 - 150,
+                position: 'relative',
                 top: height / 2 - 60,
               }}
             >
