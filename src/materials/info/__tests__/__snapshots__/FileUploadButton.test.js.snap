@@ -1,5 +1,57 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`When clicking button it renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "display": "inline-block",
+    }
+  }
+>
+  <button
+    className="MuiButtonBase-root-17 MuiButton-root-1 MuiButton-raised-7 MuiButton-raisedPrimary-8"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    style={
+      Object {
+        "marginBottom": 24,
+        "marginRight": 24,
+      }
+    }
+    tabIndex="0"
+    type="button"
+  >
+    <span
+      className="MuiButton-label-2"
+    >
+      foo-name
+    </span>
+    <span
+      className="MuiTouchRipple-root-20"
+    />
+  </button>
+  <input
+    onChange={[Function]}
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+    type="file"
+  />
+</div>
+`;
+
 exports[`when uploading and no url renders correctly 1`] = `
 <div
   style={
@@ -12,6 +64,7 @@ exports[`when uploading and no url renders correctly 1`] = `
     style={
       Object {
         "marginBottom": 24,
+        "marginRight": 24,
         "textAlign": "left",
       }
     }
@@ -66,6 +119,7 @@ exports[`when uploading renders correctly 1`] = `
     style={
       Object {
         "marginBottom": 24,
+        "marginRight": 24,
         "textAlign": "left",
       }
     }
@@ -133,6 +187,7 @@ exports[`with initial state renders correctly 1`] = `
     style={
       Object {
         "marginBottom": 24,
+        "marginRight": 24,
       }
     }
     tabIndex="0"
@@ -141,9 +196,7 @@ exports[`with initial state renders correctly 1`] = `
     <span
       className="MuiButton-label-2"
     >
-      Enviar
-       nova
-       ficha técnica
+      foo-text
     </span>
     <span
       className="MuiTouchRipple-root-20"
