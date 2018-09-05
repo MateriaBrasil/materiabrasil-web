@@ -7,8 +7,9 @@ import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary'
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails'
 import Typography from '@material-ui/core/Typography'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
-import FormControlLabel from '@material-ui/core/FormControlLabel'
-import Checkbox from '@material-ui/core/Checkbox'
+
+import Create from './Create'
+import Destroy from './Destroy'
 
 const renderCategory = props => category => {
   if (!isEmpty(category.children)) {
@@ -30,22 +31,23 @@ const renderCategory = props => category => {
 
   const { materialCategories } = props
 
-  return (
-    <FormControlLabel
-      key={category.id}
-      control={
-        <Checkbox
-          checked={find(
-            materialCategories,
-            ({ categoryId }) => categoryId === category.id,
-          )}
-          onChange={() => undefined}
-          value={category.name}
-        />
-      }
-      label={category.name}
-    />
+  const materialCategory = find(
+    materialCategories,
+    ({ categoryId }) => categoryId === category.id,
   )
+
+  if (materialCategory) {
+    return (
+      <Destroy
+        {...props}
+        key={category.id}
+        category={category}
+        materialCategory={materialCategory}
+      />
+    )
+  }
+
+  return <Create {...props} key={category.id} category={category} />
 }
 
 export default renderCategory
