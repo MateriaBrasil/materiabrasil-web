@@ -7,6 +7,6 @@ import renderCategory from './renderCategory'
 
 export default ({ categories, ...props }) => (
   <Dialog {...props} title="Adicionar Categorias">
-    <FormGroup row>{categories.map(renderCategory(props))}</FormGroup>
+    <FormGroup column>{categories.map(renderCategory(props))}</FormGroup>
   </Dialog>
 )

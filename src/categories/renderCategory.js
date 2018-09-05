@@ -1,5 +1,6 @@
 import React from 'react'
 import isEmpty from 'lodash/isEmpty'
+import negate from 'lodash/negate'
 import some from 'lodash/some'
 import find from 'lodash/find'
 import ExpansionPanel from '@material-ui/core/ExpansionPanel'
@@ -10,19 +11,21 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import FormControlLabel from '@material-ui/core/FormControlLabel'
 import Checkbox from '@material-ui/core/Checkbox'
 
-const renderCategory = props => category => {
-  if (!isEmpty(category.children)) {
-    const deepNested = some(category.children, 'category')
+const isPresent = negate(isEmpty)
+
+const renderCategory = props => ({ id, name, children }) => {
+  if (isPresent(children)) {
+    const deepNested = some(children, child => isPresent(child.children))
 
     return (
-      <ExpansionPanel style={{ width: '100%', flex: 1 }} key={category.id}>
+      <ExpansionPanel style={{ width: '100%', flex: 1 }} key={id}>
         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography>{category.name}</Typography>
+          <Typography>{name}</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails
           style={{ display: deepNested ? 'block' : 'flex' }}
         >
-          {category.children.map(renderCategory(props))}
+          {children.map(renderCategory(props))}
         </ExpansionPanelDetails>
       </ExpansionPanel>
     )
@@ -32,18 +35,18 @@ const renderCategory = props => category => {
 
   return (
     <FormControlLabel
-      key={category.id}
+      key={id}
       control={
         <Checkbox
           checked={find(
             materialCategories,
-            ({ categoryId }) => categoryId === category.id,
+            ({ categoryId }) => categoryId === id,
           )}
           onChange={() => undefined}
-          value={category.name}
+          value={name}
         />
       }
-      label={category.name}
+      label={name}
     />
   )
 }
