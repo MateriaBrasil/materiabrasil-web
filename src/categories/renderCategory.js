@@ -19,14 +19,20 @@ const renderCategory = props => category => {
 
   if (isPresent(children)) {
     const deepNested = some(children, child => isPresent(child.children))
-
     return (
       <ExpansionPanel style={{ width: '100%', flex: 1 }} key={id}>
-        <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+        <ExpansionPanelSummary
+          style={{ border: '1px solid rgba(0,0,0,.1)' }}
+          expandIcon={<ExpandMoreIcon />}
+        >
           <Typography>{name}</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails
-          style={{ display: deepNested ? 'block' : 'flex' }}
+          style={{
+            display: deepNested ? 'block' : 'flex',
+            flexDirection: 'column',
+            padding: 0,
+          }}
         >
           {children.map(renderCategory(props))}
         </ExpansionPanelDetails>

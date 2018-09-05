@@ -4,6 +4,7 @@ import Checkbox from '@material-ui/core/Checkbox'
 
 export default ({ category, materialCategory, action }) => (
   <FormControlLabel
+    style={{ margin: 0 }}
     control={
       <Checkbox
         checked={!!materialCategory}
