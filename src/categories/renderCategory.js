@@ -15,7 +15,7 @@ import Destroy from './Destroy'
 
 const isPresent = negate(isEmpty)
 
-const renderCategory = (props, callback) => category => {
+const renderCategory = (props, onSelect) => category => {
   const { id, name, children } = category
 
   if (isPresent(children)) {
@@ -35,7 +35,9 @@ const renderCategory = (props, callback) => category => {
             padding: 0,
           }}
         >
-          {children.map(renderCategory({ ...props, parent: category }, callback))}
+          {children.map(
+            renderCategory({ ...props, parent: category }, onSelect),
+          )}
         </ExpansionPanelDetails>
       </ExpansionPanel>
     )
@@ -48,10 +50,16 @@ const renderCategory = (props, callback) => category => {
     ({ categoryId }) => categoryId === category.id,
   )
 
-  const childProps = { ...props, key: category.id, parent, category, materialCategory }
+  const childProps = {
+    ...props,
+    key: category.id,
+    parent,
+    category,
+    materialCategory,
+  }
 
-  if (callback) {
-    return <Checkbox {...childProps} action={callback(category)} />
+  if (onSelect) {
+    return <Checkbox {...childProps} action={onSelect(category)} />
   }
 
   const Component = materialCategory ? Destroy : Create

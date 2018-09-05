@@ -5,16 +5,13 @@ import renderCategory from 'categories/renderCategory'
 export default class extends Component {
   constructor(props) {
     super(props)
-    this.state = {
-      selected: [],
-    }
-
     this.handleSelect = this.handleSelect.bind(this)
   }
 
   handleSelect(category) {
+    const { history } = this.props
     return () => {
-      console.log(category)
+      history.push({ search: `selected=${category.id}` })
     }
   }
 
