@@ -3,11 +3,10 @@ import FormGroup from '@material-ui/core/FormGroup'
 
 import Dialog from 'materials/Dialog'
 
-import categories from './mock'
 import renderCategory from './renderCategory'
 
-export default props => (
+export default ({ categories, ...props }) => (
   <Dialog {...props} title="Adicionar Categorias">
-    <FormGroup row>{categories.map(renderCategory)}</FormGroup>
+    <FormGroup row>{categories.map(renderCategory(props))}</FormGroup>
   </Dialog>
 )
