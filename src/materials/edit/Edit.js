@@ -1,41 +1,20 @@
-import React, { Component } from 'react'
-import Dialog from '@material-ui/core/Dialog'
-import DialogTitle from '@material-ui/core/DialogTitle'
-import withMobileDialog from '@material-ui/core/withMobileDialog'
+import React from 'react'
 
-import closeModal from 'materials/closeModal'
 import Form from './Form'
 import updateSelectedParams from './updateSelectedParams'
 
-export default withMobileDialog()(
-  class Edit extends Component {
-    render() {
-      const { fullScreen, match, history, updating, update, error } = this.props
-      const { info } = this.props
-      const { id } = match.params
-      const handleCloseModal = closeModal({ history, id })
+export default props => {
+  const { match, updating, update, error, info } = props
+  const { id } = match.params
 
-      return (
-        <Dialog
-          fullScreen={fullScreen}
-          open
-          aria-labelledby="responsive-dialog-title"
-          onBackdropClick={handleCloseModal}
-          onEscapeKeyDown={handleCloseModal}
-          fullWidth
-        >
-          <DialogTitle id="responsive-dialog-title">
-            Atualizar material
-          </DialogTitle>
-          <Form
-            id={id}
-            initialValues={info}
-            onSubmit={updateSelectedParams(update)}
-            submitting={updating}
-            updateError={error}
-          />
-        </Dialog>
-      )
-    }
-  },
-)
+  return (
+    <Form
+      {...props}
+      id={id}
+      initialValues={info}
+      onSubmit={updateSelectedParams(update)}
+      submitting={updating}
+      updateError={error}
+    />
+  )
+}
