@@ -34,13 +34,13 @@ const renderCategory = props => category => {
             padding: 0,
           }}
         >
-          {children.map(renderCategory(props))}
+          {children.map(renderCategory({ ...props, parent: category }))}
         </ExpansionPanelDetails>
       </ExpansionPanel>
     )
   }
 
-  const { materialCategories } = props
+  const { materialCategories, parent } = props
 
   const materialCategory = find(
     materialCategories,
@@ -52,13 +52,16 @@ const renderCategory = props => category => {
       <Destroy
         {...props}
         key={category.id}
+        parent={parent}
         category={category}
         materialCategory={materialCategory}
       />
     )
   }
 
-  return <Create {...props} key={category.id} category={category} />
+  return (
+    <Create {...props} key={category.id} parent={parent} category={category} />
+  )
 }
 
 export default renderCategory
