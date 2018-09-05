@@ -5,8 +5,8 @@ import Ratio from 'react-ratio'
 import TitleBar from './TitleBar'
 
 export default props => {
-  const { material, renderIcons, ratio, imageUrl } = props
-  const { id, name } = material
+  const { material, renderIcons, ratio } = props
+  const { id, name, imageUrl } = material
 
   return (
     <Ratio ratio={ratio} style={{ overflow: 'hidden' }}>
