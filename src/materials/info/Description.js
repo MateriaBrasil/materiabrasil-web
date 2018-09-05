@@ -1,6 +1,4 @@
 import React, { Fragment } from 'react'
-import Link from 'react-router-dom/Link'
-import Button from '@material-ui/core/Button'
 import Grid from '@material-ui/core/Grid'
 import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
@@ -12,17 +10,12 @@ import TechnicalSpecification from '../list/TechnicalSpecification'
 import TechnicalSpecificationUpload from './TechnicalSpecificationUpload'
 import CertificationsUpload from './CertificationsUpload'
 import CertificationsIcon from './CertificationsIcon'
+import EditMaterial from './EditMaterial'
+import EditCategories from './EditCategories'
 
 export default props => {
-  const {
-    code,
-    description,
-    name,
-    technicalSpecificationUrl,
-    certificationsUrl,
-    editable,
-  } = props
-  const { id } = props
+  const { code, description, name, technicalSpecificationUrl } = props
+  const { certificationsUrl, editable } = props
 
   return (
     <Grid item xs={12} lg={9} style={{ marginBottom: 16 }}>
@@ -39,18 +32,8 @@ export default props => {
           </Typography>
           {editable && (
             <Fragment>
-              <Link
-                to={`/${id}/edit`}
-                style={{ textDecoration: 'none', marginRight: 24 }}
-              >
-                <Button
-                  variant="raised"
-                  color="primary"
-                  style={{ marginBottom: 24 }}
-                >
-                  Editar material
-                </Button>
-              </Link>
+              <EditMaterial {...props} />
+              <EditCategories {...props} />
               <TechnicalSpecificationUpload {...props} />
               <CertificationsUpload {...props} />
             </Fragment>
