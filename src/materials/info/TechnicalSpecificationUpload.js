@@ -6,7 +6,8 @@ export default props => {
   const { technicalSpecificationUrl } = props
   return (
     <FileUploadButton {...props} attributeName="technicalSpecificationUrl">
-      Enviar{technicalSpecificationUrl ? ' nova' : ''} ficha técnica
+      Enviar
+      {technicalSpecificationUrl ? ' nova' : ''} ficha técnica
     </FileUploadButton>
   )
 }

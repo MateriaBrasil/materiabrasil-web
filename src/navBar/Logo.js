@@ -25,7 +25,8 @@ export default () => (
           verticalAlign: 'middle',
         }}
       >
-        Materia<span style={{ fontWeight: 300 }}>Mundi</span>
+        Materia
+        <span style={{ fontWeight: 300 }}>Mundi</span>
       </Typography>
     </Link>
   </div>
