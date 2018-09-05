@@ -2,20 +2,32 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="MuiGrid-container-1"
+  className="MuiGrid-container-1 MuiGrid-spacing-xs-16-23"
 >
   <div
-    history={
-      Object {
-        "push": [Function],
-      }
-    }
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-md-3-56"
   >
-    Search
+    <div
+      history={
+        Object {
+          "push": [Function],
+        }
+      }
+    >
+      Search
+    </div>
+    <div
+      name="categories"
+      render={[Function]}
+    />
   </div>
   <div
-    name="materials"
-    render={[Function]}
-  />
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-md-9-62"
+  >
+    <div
+      name="materials"
+      render={[Function]}
+    />
+  </div>
 </div>
 `;

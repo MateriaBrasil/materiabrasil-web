@@ -10,11 +10,12 @@ import Typography from '@material-ui/core/Typography'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 
 import Create from './Create'
+import Checkbox from './Checkbox'
 import Destroy from './Destroy'
 
 const isPresent = negate(isEmpty)
 
-const renderCategory = props => category => {
+const renderCategory = (props, onSelect) => category => {
   const { id, name, children } = category
 
   if (isPresent(children)) {
@@ -34,7 +35,9 @@ const renderCategory = props => category => {
             padding: 0,
           }}
         >
-          {children.map(renderCategory({ ...props, parent: category }))}
+          {children.map(
+            renderCategory({ ...props, parent: category }, onSelect),
+          )}
         </ExpansionPanelDetails>
       </ExpansionPanel>
     )
@@ -47,21 +50,20 @@ const renderCategory = props => category => {
     ({ categoryId }) => categoryId === category.id,
   )
 
-  if (materialCategory) {
-    return (
-      <Destroy
-        {...props}
-        key={category.id}
-        parent={parent}
-        category={category}
-        materialCategory={materialCategory}
-      />
-    )
+  const childProps = {
+    ...props,
+    key: category.id,
+    parent,
+    category,
+    materialCategory,
   }
 
-  return (
-    <Create {...props} key={category.id} parent={parent} category={category} />
-  )
+  if (onSelect) {
+    return <Checkbox {...childProps} action={onSelect(category)} />
+  }
+
+  const Component = materialCategory ? Destroy : Create
+  return <Component {...childProps} />
 }
 
 export default renderCategory
