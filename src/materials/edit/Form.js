@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { reduxForm } from 'redux-form'
 
 import Dialog from 'materials/Dialog'
-import Error from '../../Error'
+import Error from 'Error'
 import Fields from '../form/Fields'
 
 export default reduxForm({ form: 'materials' })(
@@ -16,7 +16,7 @@ export default reduxForm({ form: 'materials' })(
       return (
         <Dialog {...this.props} title={title} callToAction={title}>
           <Fields />
-          {error && <Error>{error}</Error>}
+          <Error>{error}</Error>
         </Dialog>
       )
     }

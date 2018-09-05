@@ -2,7 +2,7 @@ import React from 'react'
 import { reduxForm } from 'redux-form'
 import { required } from 'redux-form-validators'
 
-import Error from '../Error'
+import Error from 'Error'
 import TextField from '../form/TextField'
 import SelectField from '../form/SelectField'
 import Submit from '../form/Submit'
@@ -54,7 +54,7 @@ export default reduxForm({ form: 'addresses' })(props => {
         callToAction="Adicionar endereço"
         disabled={creating || invalid}
       />
-      {error && <Error>{error}</Error>}
+      <Error>{error}</Error>
     </form>
   )
 })

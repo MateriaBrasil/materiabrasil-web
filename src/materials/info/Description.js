@@ -32,7 +32,11 @@ export default props => {
           {editable && (
             <Fragment>
               <EditButton {...props} label="Editar material" />
-              <EditButton {...props} path="categories" label="Editar categorias" />
+              <EditButton
+                {...props}
+                path="categories"
+                label="Editar categorias"
+              />
               <TechnicalSpecificationUpload {...props} />
               <CertificationsUpload {...props} />
             </Fragment>

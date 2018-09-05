@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 import { Field, reduxForm } from 'redux-form'
 import { required } from 'redux-form-validators'
 
-import Error from '../../Error'
-import TextField from '../../form/TextField'
 import Dialog from 'materials/Dialog'
+import Error from 'Error'
+import TextField from '../../form/TextField'
 
 import Rating from './Rating'
 import onChange from './onChange'
@@ -25,7 +25,7 @@ class Form extends Component {
           multiline
           validate={[required()]}
         />
-        {error && <Error>{error}</Error>}
+        <Error>{error}</Error>
       </Dialog>
     )
   }
