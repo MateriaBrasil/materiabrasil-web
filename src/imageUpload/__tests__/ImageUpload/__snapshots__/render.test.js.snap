@@ -43,8 +43,12 @@ exports[`renders correctly 1`] = `
         Object {
           "border": "1px dashed",
           "cursor": "pointer",
+          "display": "flex",
           "height": 400,
+          "justifyContent": "center",
           "margin": "0 auto",
+          "maxHeight": "100%",
+          "maxWidth": "100%",
           "textAlign": "center",
           "width": 400,
         }
@@ -55,8 +59,7 @@ exports[`renders correctly 1`] = `
         className="MuiTypography-root-2 MuiTypography-headline-7"
         style={
           Object {
-            "left": 50,
-            "position": "absolute",
+            "position": "relative",
             "top": 140,
             "width": 300,
           }
@@ -165,8 +168,12 @@ exports[`with file renders correctly 1`] = `
         Object {
           "border": "none",
           "cursor": "move",
+          "display": "flex",
           "height": 400,
+          "justifyContent": "center",
           "margin": "0 auto",
+          "maxHeight": "100%",
+          "maxWidth": "100%",
           "textAlign": "center",
           "width": 400,
         }

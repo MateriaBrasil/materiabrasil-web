@@ -1,17 +1,21 @@
 import React, { Component } from 'react'
 import Dialog from '@material-ui/core/Dialog'
 import DialogTitle from '@material-ui/core/DialogTitle'
+import DialogContent from '@material-ui/core/DialogContent'
+import DialogActions from '@material-ui/core/DialogActions'
+import FormGroup from '@material-ui/core/FormGroup'
 import withMobileDialog from '@material-ui/core/withMobileDialog'
 
-import Form from './Form'
-import closeModal from '../closeModal'
-import updateSelectedParams from './updateSelectedParams'
+import CloseDialog from '../form/CloseDialog'
+
+import categories from './mock'
+import renderCategory from './renderCategory'
+import closeModal from '../materials/closeModal'
 
 export default withMobileDialog()(
-  class Edit extends Component {
+  class extends Component {
     render() {
-      const { fullScreen, match, history, updating, update, error } = this.props
-      const { info } = this.props
+      const { fullScreen, match, history } = this.props
       const { id } = match.params
       const handleCloseModal = closeModal({ history, id })
 
@@ -25,15 +29,14 @@ export default withMobileDialog()(
           fullWidth
         >
           <DialogTitle id="responsive-dialog-title">
-            Atualizar material
+            Adicionar Categorias
           </DialogTitle>
-          <Form
-            id={id}
-            initialValues={info}
-            onSubmit={updateSelectedParams(update)}
-            submitting={updating}
-            updateError={error}
-          />
+          <DialogContent>
+            <FormGroup row>{categories.map(renderCategory)}</FormGroup>
+          </DialogContent>
+          <DialogActions>
+            <CloseDialog id={id} />
+          </DialogActions>
         </Dialog>
       )
     }
