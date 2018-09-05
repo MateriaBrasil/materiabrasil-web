@@ -3,6 +3,8 @@ import FormGroup from '@material-ui/core/FormGroup'
 
 import renderCategory from './renderCategory'
 
-export default ({ categories, ...props }) => (
-  <FormGroup>{categories.map(renderCategory(props))}</FormGroup>
-)
+export default props => {
+  const { categories } = props
+
+  return <FormGroup>{categories.map(renderCategory(props))}</FormGroup>
+}
