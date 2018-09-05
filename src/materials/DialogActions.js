@@ -4,13 +4,13 @@ import DialogActions from '@material-ui/core/DialogActions'
 
 export default props => {
   const { callToAction, actionsChildren, closeButton = true } = props
-  const { handleCloseModal, submitting } = props
+  const { onCloseModal, submitting } = props
   const showActions = actionsChildren || closeButton || callToAction
 
   return showActions ? (
     <DialogActions>
       {closeButton && (
-        <Button color="primary" onClick={handleCloseModal}>
+        <Button color="primary" onClick={onCloseModal}>
           Fechar
         </Button>
       )}

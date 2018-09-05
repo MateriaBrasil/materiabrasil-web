@@ -10,14 +10,20 @@ import closeModal from './closeModal'
 
 export default withMobileDialog()(
   class extends Component {
+    constructor(props) {
+      super(props)
+      this.onDialogSubmit = this.onDialogSubmit.bind(this)
+    }
+
+    onDialogSubmit(event) {
+      const { handleSubmit, onSubmit } = this.props
+      if (isFunction(handleSubmit)) {
+        return handleSubmit(onSubmit)(event)
+      }
+    }
+
     render() {
       const { title, children, fullScreen, match, history } = this.props
-      const { handleSubmit, onSubmit } = this.props
-      const onDialogSubmit = event => {
-        if (isFunction(handleSubmit)) {
-          handleSubmit(onSubmit)(event)
-        }
-      }
       const { id } = match.params
       const handleCloseModal = closeModal({ history, id })
 
@@ -30,13 +36,10 @@ export default withMobileDialog()(
           onEscapeKeyDown={handleCloseModal}
           fullWidth
         >
-          <form onSubmit={onDialogSubmit}>
+          <form onSubmit={this.onDialogSubmit}>
             <DialogTitle id="responsive-dialog-title">{title}</DialogTitle>
             <DialogContent>{children}</DialogContent>
-            <DialogActions
-              {...this.props}
-              handleCloseModal={handleCloseModal}
-            />
+            <DialogActions {...this.props} onCloseModal={handleCloseModal} />
           </form>
         </Dialog>
       )
