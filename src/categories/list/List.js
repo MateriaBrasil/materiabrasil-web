@@ -1,3 +1,25 @@
+import { Component } from 'react'
+
 import renderCategory from 'categories/renderCategory'
 
-export default props => props.list.map(renderCategory(props))
+export default class extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      selected: [],
+    }
+
+    this.handleSelect = this.handleSelect.bind(this)
+  }
+
+  handleSelect(category) {
+    return () => {
+      console.log(category)
+    }
+  }
+
+  render() {
+    const renderChild = renderCategory(this.props, this.handleSelect)
+    return this.props.list.map(renderChild)
+  }
+}
