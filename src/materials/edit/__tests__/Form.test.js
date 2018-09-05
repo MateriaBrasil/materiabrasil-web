@@ -2,13 +2,13 @@ import React from 'react'
 import renderer from 'react-test-renderer'
 import { Provider } from 'react-redux'
 
-jest.mock('@material-ui/core/Dialog', () => props => (
-  <div {...props}>Dialog - {props.children}</div>
-))
-
 import createStore from '../../../store/createStore'
 
 import Form from '../Form'
+
+jest.mock('@material-ui/core/Dialog', () => props => (
+  <div {...props}>Dialog - {props.children}</div>
+))
 
 jest.mock('react-router-dom/Link', () => props => (
   <div {...props}>{props.children}</div>
@@ -44,7 +44,11 @@ describe('with error', () => {
     const tree = renderer
       .create(
         <Provider store={store}>
-          <Form match={{ params: {} }} onSubmit={onSubmit} updateError="foo error" />
+          <Form
+            match={{ params: {} }}
+            onSubmit={onSubmit}
+            updateError="foo error"
+          />
         </Provider>,
       )
       .toJSON()
