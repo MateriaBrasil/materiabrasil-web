@@ -46,10 +46,7 @@ exports[`renders correctly 1`] = `
           >
             <div
               className="Ratio "
-              editPath="/1234/listImage"
-              imageUrl="list-url"
               name="foo-name"
-              preserveRatio={true}
               style={
                 Object {
                   "display": "block",
@@ -121,10 +118,7 @@ exports[`renders correctly 1`] = `
           >
             <div
               className="Ratio "
-              editPath="/1234/highlightImage"
-              imageUrl="high-url"
               name="foo-name"
-              preserveRatio={true}
               style={
                 Object {
                   "display": "block",

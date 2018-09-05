@@ -17,10 +17,7 @@ exports[`renders correctly 1`] = `
     >
       <div
         className="Ratio "
-        editPath="/undefined/coverImage"
-        imageUrl={undefined}
         name="foo"
-        preserveRatio={true}
         style={
           Object {
             "display": "block",
@@ -119,10 +116,7 @@ exports[`renders correctly 1`] = `
             >
               <div
                 className="Ratio "
-                editPath="/undefined/listImage"
-                imageUrl={undefined}
                 name="foo"
-                preserveRatio={true}
                 style={
                   Object {
                     "display": "block",
@@ -194,10 +188,7 @@ exports[`renders correctly 1`] = `
             >
               <div
                 className="Ratio "
-                editPath="/undefined/highlightImage"
-                imageUrl={undefined}
                 name="foo"
-                preserveRatio={true}
                 style={
                   Object {
                     "display": "block",
