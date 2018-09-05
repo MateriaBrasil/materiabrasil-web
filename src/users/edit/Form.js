@@ -3,7 +3,7 @@ import { reduxForm } from 'redux-form'
 import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 
-import Error from '../../Error'
+import Error from 'Error'
 import TextField from '../../form/TextField'
 import Submit from '../../form/Submit'
 import SingleColumn from '../../SingleColumn'
@@ -37,7 +37,7 @@ export default reduxForm({ form: 'profile' })(props => {
             ) : (
               <Submit callToAction="Atualizar perfil" disabled={updating} />
             )}
-            {error && <Error>{error}</Error>}
+            <Error>{error}</Error>
           </form>
         </CardContent>
       </Card>

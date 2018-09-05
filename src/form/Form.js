@@ -5,7 +5,7 @@ import CardContent from '@material-ui/core/CardContent'
 import CardActions from '@material-ui/core/CardActions'
 import Button from '@material-ui/core/Button'
 
-import Error from '../Error'
+import Error from 'Error'
 
 import './errorMessages'
 
@@ -28,7 +28,7 @@ export default props => {
             {callToAction}
           </Button>
         </CardActions>
-        {error && <Error>{error}</Error>}
+        <Error>{error}</Error>
       </form>
     </Card>
   )

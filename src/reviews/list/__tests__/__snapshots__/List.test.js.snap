@@ -5,52 +5,47 @@ exports[`renders correctly 1`] = `
   aria-labelledby="responsive-dialog-title"
   fullScreen={false}
   fullWidth={true}
-  maxWidth="md"
   onBackdropClick={[Function]}
   onEscapeKeyDown={[Function]}
   open={true}
 >
   Dialog - 
-  <div
-    className="MuiDialogTitle-root-1"
-    id="responsive-dialog-title"
-  >
-    <h2
-      className="MuiTypography-root-2 MuiTypography-title-8"
-    >
-      Avaliações
-    </h2>
-  </div>
-  <div
-    className="MuiDialogContent-root-26"
+  <form
+    onSubmit={[Function]}
   >
     <div
-      list={
-        Array [
-          1,
-          2,
-          3,
-        ]
-      }
+      className="MuiDialogTitle-root-1"
+      id="responsive-dialog-title"
     >
-      Reviews
+      <h2
+        className="MuiTypography-root-2 MuiTypography-title-8"
+      >
+        Avaliações
+      </h2>
     </div>
-  </div>
-  <div
-    className="MuiDialogActions-root-27"
-  >
     <div
-      style={
-        Object {
-          "textDecoration": "none",
+      className="MuiDialogContent-root-26"
+    >
+      <div
+        list={
+          Array [
+            1,
+            2,
+            3,
+          ]
         }
-      }
-      to="/1112"
+      >
+        Reviews
+      </div>
+    </div>
+    <div
+      className="MuiDialogActions-root-27"
     >
       <button
-        className="MuiButtonBase-root-45 MuiButton-root-29 MuiButton-flatPrimary-31"
+        className="MuiButtonBase-root-45 MuiButton-root-29 MuiButton-flatPrimary-31 MuiDialogActions-action-28"
         disabled={false}
         onBlur={[Function]}
+        onClick={[Function]}
         onFocus={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
@@ -73,6 +68,6 @@ exports[`renders correctly 1`] = `
         />
       </button>
     </div>
-  </div>
+  </form>
 </div>
 `;

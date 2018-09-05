@@ -3,9 +3,9 @@ import { reduxForm } from 'redux-form'
 import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 
+import Error from 'Error'
 import Submit from '../../form/Submit'
 import SingleColumn from '../../SingleColumn'
-import Error from '../../Error'
 import Fields from './Fields'
 
 export default reduxForm({ form: 'suppliers' })(props => {
@@ -19,7 +19,7 @@ export default reduxForm({ form: 'suppliers' })(props => {
         <CardContent>
           <form onSubmit={handleSubmit(onSubmit)}>
             <Fields />
-            {error && <Error>{error}</Error>}
+            <Error>{error}</Error>
             <Submit callToAction={buttonText} disabled={submitting} />
           </form>
         </CardContent>

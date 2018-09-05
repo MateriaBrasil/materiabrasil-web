@@ -1,133 +1,146 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<form
-  onSubmit={[Function]}
+<div
+  aria-labelledby="responsive-dialog-title"
+  fullScreen={false}
+  fullWidth={true}
+  onBackdropClick={[Function]}
+  onEscapeKeyDown={[Function]}
+  open={true}
 >
-  <div
-    className="MuiDialogContent-root-1"
+  Dialog - 
+  <form
+    onSubmit={[Function]}
   >
     <div
-      label="Nome do material"
-      name="name"
-      type="text"
-      validate={
-        Array [
-          [Function],
-        ]
-      }
-    />
+      className="MuiDialogTitle-root-1"
+      id="responsive-dialog-title"
+    >
+      <h2
+        className="MuiTypography-root-2 MuiTypography-title-8"
+      >
+        Atualizar material
+      </h2>
+    </div>
     <div
-      label="Código"
-      name="code"
-      type="text"
-      validate={
-        Array [
-          [Function],
-        ]
-      }
-    />
-    <div
-      label="Preço médio"
-      name="averagePrice"
-      type="text"
-      validate={
-        Array [
-          [Function],
-        ]
-      }
-    />
-    <div
-      label="Descrição"
-      multiline={true}
-      name="description"
-      type="text"
-      validate={
-        Array [
-          [Function],
-        ]
-      }
-    />
-    <div
-      label="Disponibilidade"
-      name="availability"
-      placeholder="Estados do Brasil e/ou países"
-      type="text"
-    />
-    <div
-      label="Unidade de venda"
-      name="unitOfSale"
-      placeholder="(ex: metro, m2, bobina, embalagem com 6, etc)"
-      type="text"
-    />
-    <div
-      label="Pedido mínimo"
-      name="minimumPurchaseQuantity"
-      parse={[Function]}
-      type="number"
-    />
-    <div
-      label="Pedido máximo"
-      name="maximumPurchaseQuantity"
-      parse={[Function]}
-      type="number"
-    />
-    <div
-      label="NCM"
-      name="ncmCode"
-      normalize={[Function]}
-      placeholder="Oito dígitos, no modelo 19.05.31.00"
-      type="text"
-    />
-    <div
-      label="SH"
-      name="shCode"
-      normalize={[Function]}
-      placeholder="Seis dígitos, no modelo 0103.91"
-      type="text"
-    />
-    <div
-      label="Certificações"
-      multiline={true}
-      name="certifications"
-      placeholder="Lista de certificações"
-      type="text"
-    />
-    <div
-      label="Prêmios"
-      multiline={true}
-      name="prizes"
-      placeholder="Lista de prêmios"
-      type="text"
-    />
-    <div
-      label="Densidade"
-      name="density"
-      placeholder="Densidade"
-      type="text"
-    />
-    <div
-      label="Dimensões"
-      name="dimensions"
-      placeholder="Dimensões"
-      type="text"
-    />
-  </div>
-  <div
-    className="MuiDialogActions-root-2"
-  >
-    <div
-      style={
-        Object {
-          "textDecoration": "none",
+      className="MuiDialogContent-root-26"
+    >
+      <div
+        label="Nome do material"
+        name="name"
+        type="text"
+        validate={
+          Array [
+            [Function],
+          ]
         }
-      }
-      to="/undefined"
+      />
+      <div
+        label="Código"
+        name="code"
+        type="text"
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+      />
+      <div
+        label="Preço médio"
+        name="averagePrice"
+        type="text"
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+      />
+      <div
+        label="Descrição"
+        multiline={true}
+        name="description"
+        type="text"
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+      />
+      <div
+        label="Disponibilidade"
+        name="availability"
+        placeholder="Estados do Brasil e/ou países"
+        type="text"
+      />
+      <div
+        label="Unidade de venda"
+        name="unitOfSale"
+        placeholder="(ex: metro, m2, bobina, embalagem com 6, etc)"
+        type="text"
+      />
+      <div
+        label="Pedido mínimo"
+        name="minimumPurchaseQuantity"
+        parse={[Function]}
+        type="number"
+      />
+      <div
+        label="Pedido máximo"
+        name="maximumPurchaseQuantity"
+        parse={[Function]}
+        type="number"
+      />
+      <div
+        label="NCM"
+        name="ncmCode"
+        normalize={[Function]}
+        placeholder="Oito dígitos, no modelo 19.05.31.00"
+        type="text"
+      />
+      <div
+        label="SH"
+        name="shCode"
+        normalize={[Function]}
+        placeholder="Seis dígitos, no modelo 0103.91"
+        type="text"
+      />
+      <div
+        label="Certificações"
+        multiline={true}
+        name="certifications"
+        placeholder="Lista de certificações"
+        type="text"
+      />
+      <div
+        label="Prêmios"
+        multiline={true}
+        name="prizes"
+        placeholder="Lista de prêmios"
+        type="text"
+      />
+      <div
+        label="Densidade"
+        name="density"
+        placeholder="Densidade"
+        type="text"
+      />
+      <div
+        label="Dimensões"
+        name="dimensions"
+        placeholder="Dimensões"
+        type="text"
+      />
+      <div />
+    </div>
+    <div
+      className="MuiDialogActions-root-27"
     >
       <button
-        className="MuiButtonBase-root-20 MuiButton-root-4 MuiButton-flatPrimary-6"
+        className="MuiButtonBase-root-45 MuiButton-root-29 MuiButton-flatPrimary-31 MuiDialogActions-action-28"
         disabled={false}
         onBlur={[Function]}
+        onClick={[Function]}
         onFocus={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
@@ -141,175 +154,187 @@ exports[`renders correctly 1`] = `
         type="button"
       >
         <span
-          className="MuiButton-label-5"
+          className="MuiButton-label-30"
         >
           Fechar
         </span>
         <span
-          className="MuiTouchRipple-root-23"
+          className="MuiTouchRipple-root-48"
+        />
+      </button>
+      <button
+        className="MuiButtonBase-root-45 MuiButton-root-29 MuiButton-flatPrimary-31 MuiDialogActions-action-28"
+        disabled={false}
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="submit"
+      >
+        <span
+          className="MuiButton-label-30"
+        >
+          Atualizar material
+        </span>
+        <span
+          className="MuiTouchRipple-root-48"
         />
       </button>
     </div>
-    <button
-      className="MuiButtonBase-root-20 MuiButton-root-4 MuiButton-flatPrimary-6 MuiDialogActions-action-3"
-      disabled={false}
-      onBlur={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      tabIndex="0"
-      type="submit"
-    >
-      <span
-        className="MuiButton-label-5"
-      >
-        Atualizar material
-      </span>
-      <span
-        className="MuiTouchRipple-root-23"
-      />
-    </button>
-  </div>
-</form>
+  </form>
+</div>
 `;
 
 exports[`with error renders correctly 1`] = `
-<form
-  onSubmit={[Function]}
+<div
+  aria-labelledby="responsive-dialog-title"
+  fullScreen={false}
+  fullWidth={true}
+  onBackdropClick={[Function]}
+  onEscapeKeyDown={[Function]}
+  open={true}
 >
-  <div
-    className="MuiDialogContent-root-1"
+  Dialog - 
+  <form
+    onSubmit={[Function]}
   >
     <div
-      label="Nome do material"
-      name="name"
-      type="text"
-      validate={
-        Array [
-          [Function],
-        ]
-      }
-    />
-    <div
-      label="Código"
-      name="code"
-      type="text"
-      validate={
-        Array [
-          [Function],
-        ]
-      }
-    />
-    <div
-      label="Preço médio"
-      name="averagePrice"
-      type="text"
-      validate={
-        Array [
-          [Function],
-        ]
-      }
-    />
-    <div
-      label="Descrição"
-      multiline={true}
-      name="description"
-      type="text"
-      validate={
-        Array [
-          [Function],
-        ]
-      }
-    />
-    <div
-      label="Disponibilidade"
-      name="availability"
-      placeholder="Estados do Brasil e/ou países"
-      type="text"
-    />
-    <div
-      label="Unidade de venda"
-      name="unitOfSale"
-      placeholder="(ex: metro, m2, bobina, embalagem com 6, etc)"
-      type="text"
-    />
-    <div
-      label="Pedido mínimo"
-      name="minimumPurchaseQuantity"
-      parse={[Function]}
-      type="number"
-    />
-    <div
-      label="Pedido máximo"
-      name="maximumPurchaseQuantity"
-      parse={[Function]}
-      type="number"
-    />
-    <div
-      label="NCM"
-      name="ncmCode"
-      normalize={[Function]}
-      placeholder="Oito dígitos, no modelo 19.05.31.00"
-      type="text"
-    />
-    <div
-      label="SH"
-      name="shCode"
-      normalize={[Function]}
-      placeholder="Seis dígitos, no modelo 0103.91"
-      type="text"
-    />
-    <div
-      label="Certificações"
-      multiline={true}
-      name="certifications"
-      placeholder="Lista de certificações"
-      type="text"
-    />
-    <div
-      label="Prêmios"
-      multiline={true}
-      name="prizes"
-      placeholder="Lista de prêmios"
-      type="text"
-    />
-    <div
-      label="Densidade"
-      name="density"
-      placeholder="Densidade"
-      type="text"
-    />
-    <div
-      label="Dimensões"
-      name="dimensions"
-      placeholder="Dimensões"
-      type="text"
-    />
-    <div>
-      foo error
+      className="MuiDialogTitle-root-1"
+      id="responsive-dialog-title"
+    >
+      <h2
+        className="MuiTypography-root-2 MuiTypography-title-8"
+      >
+        Atualizar material
+      </h2>
     </div>
-  </div>
-  <div
-    className="MuiDialogActions-root-2"
-  >
     <div
-      style={
-        Object {
-          "textDecoration": "none",
+      className="MuiDialogContent-root-26"
+    >
+      <div
+        label="Nome do material"
+        name="name"
+        type="text"
+        validate={
+          Array [
+            [Function],
+          ]
         }
-      }
-      to="/undefined"
+      />
+      <div
+        label="Código"
+        name="code"
+        type="text"
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+      />
+      <div
+        label="Preço médio"
+        name="averagePrice"
+        type="text"
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+      />
+      <div
+        label="Descrição"
+        multiline={true}
+        name="description"
+        type="text"
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+      />
+      <div
+        label="Disponibilidade"
+        name="availability"
+        placeholder="Estados do Brasil e/ou países"
+        type="text"
+      />
+      <div
+        label="Unidade de venda"
+        name="unitOfSale"
+        placeholder="(ex: metro, m2, bobina, embalagem com 6, etc)"
+        type="text"
+      />
+      <div
+        label="Pedido mínimo"
+        name="minimumPurchaseQuantity"
+        parse={[Function]}
+        type="number"
+      />
+      <div
+        label="Pedido máximo"
+        name="maximumPurchaseQuantity"
+        parse={[Function]}
+        type="number"
+      />
+      <div
+        label="NCM"
+        name="ncmCode"
+        normalize={[Function]}
+        placeholder="Oito dígitos, no modelo 19.05.31.00"
+        type="text"
+      />
+      <div
+        label="SH"
+        name="shCode"
+        normalize={[Function]}
+        placeholder="Seis dígitos, no modelo 0103.91"
+        type="text"
+      />
+      <div
+        label="Certificações"
+        multiline={true}
+        name="certifications"
+        placeholder="Lista de certificações"
+        type="text"
+      />
+      <div
+        label="Prêmios"
+        multiline={true}
+        name="prizes"
+        placeholder="Lista de prêmios"
+        type="text"
+      />
+      <div
+        label="Densidade"
+        name="density"
+        placeholder="Densidade"
+        type="text"
+      />
+      <div
+        label="Dimensões"
+        name="dimensions"
+        placeholder="Dimensões"
+        type="text"
+      />
+      <div>
+        foo error
+      </div>
+    </div>
+    <div
+      className="MuiDialogActions-root-27"
     >
       <button
-        className="MuiButtonBase-root-20 MuiButton-root-4 MuiButton-flatPrimary-6"
+        className="MuiButtonBase-root-45 MuiButton-root-29 MuiButton-flatPrimary-31 MuiDialogActions-action-28"
         disabled={false}
         onBlur={[Function]}
+        onClick={[Function]}
         onFocus={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
@@ -323,40 +348,40 @@ exports[`with error renders correctly 1`] = `
         type="button"
       >
         <span
-          className="MuiButton-label-5"
+          className="MuiButton-label-30"
         >
           Fechar
         </span>
         <span
-          className="MuiTouchRipple-root-23"
+          className="MuiTouchRipple-root-48"
+        />
+      </button>
+      <button
+        className="MuiButtonBase-root-45 MuiButton-root-29 MuiButton-flatPrimary-31 MuiDialogActions-action-28"
+        disabled={false}
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="submit"
+      >
+        <span
+          className="MuiButton-label-30"
+        >
+          Atualizar material
+        </span>
+        <span
+          className="MuiTouchRipple-root-48"
         />
       </button>
     </div>
-    <button
-      className="MuiButtonBase-root-20 MuiButton-root-4 MuiButton-flatPrimary-6 MuiDialogActions-action-3"
-      disabled={false}
-      onBlur={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      tabIndex="0"
-      type="submit"
-    >
-      <span
-        className="MuiButton-label-5"
-      >
-        Atualizar material
-      </span>
-      <span
-        className="MuiTouchRipple-root-23"
-      />
-    </button>
-  </div>
-</form>
+  </form>
+</div>
 `;

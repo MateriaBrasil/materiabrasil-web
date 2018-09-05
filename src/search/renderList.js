@@ -2,7 +2,7 @@ import React from 'react'
 import { List } from 'croods'
 import Grid from '@material-ui/core/Grid'
 
-import Error from '../Error'
+import Error from 'Error'
 import Search from './Search'
 import renderList from './list/render'
 

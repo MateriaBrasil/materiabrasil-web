@@ -2,7 +2,7 @@ import React from 'react'
 import { reduxForm } from 'redux-form'
 import { required } from 'redux-form-validators'
 
-import Error from '../Error'
+import Error from 'Error'
 import TextField from '../form/TextField'
 import Submit from '../form/Submit'
 
@@ -21,7 +21,7 @@ export default reduxForm({ form: 'comments' })(props => {
         validate={[required()]}
       />
       <Submit callToAction="Enviar comentário" disabled={submitting} />
-      {error && <Error>{error}</Error>}
+      <Error>{error}</Error>
     </form>
   )
 })
