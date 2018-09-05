@@ -5,8 +5,8 @@ import Dialog from 'materials/Dialog'
 
 import renderCategory from './renderCategory'
 
-export default ({ list, ...props }) => (
+export default ({ categories, ...props }) => (
   <Dialog {...props} title="Adicionar Categorias">
-    <FormGroup row>{list.map(renderCategory)}</FormGroup>
+    <FormGroup row>{categories.map(renderCategory(props))}</FormGroup>
   </Dialog>
 )

@@ -1,5 +1,12 @@
 import React from 'react'
+import { List } from 'croods'
 
-import Categories from './Categories'
+import renderList from './renderMaterialCategoriesList'
 
-export default props => list => <Categories {...props} list={list} />
+export default props => categories => (
+  <List
+    name="materialCategories"
+    path={`/materials/${props.match.params.id}/categories`}
+    render={renderList({ ...props, categories })}
+  />
+)
