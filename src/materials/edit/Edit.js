@@ -4,7 +4,7 @@ import DialogTitle from '@material-ui/core/DialogTitle'
 import withMobileDialog from '@material-ui/core/withMobileDialog'
 
 import Form from './Form'
-import closeModal from './closeModal'
+import closeModal from '../closeModal'
 import updateSelectedParams from './updateSelectedParams'
 
 export default withMobileDialog()(
