@@ -189,6 +189,7 @@ exports[`renders correctly 1`] = `
       />
     </button>
   </div>
+  <div />
 </form>
 `;
 

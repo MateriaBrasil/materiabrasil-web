@@ -2,6 +2,10 @@ import React from 'react'
 import renderer from 'react-test-renderer'
 import { Provider } from 'react-redux'
 
+jest.mock('@material-ui/core/Dialog', () => props => (
+  <div {...props}>Dialog - {props.children}</div>
+))
+
 import createStore from '../../../store/createStore'
 
 import Form from '../Form'
@@ -14,7 +18,7 @@ jest.mock('../../../form/TextField', () => props => (
   <div {...props}>{props.children}</div>
 ))
 
-jest.mock('../../../Error', () => jest.fn(props => <div {...props} />))
+jest.mock('Error', () => jest.fn(props => <div {...props} />))
 
 it('renders correctly', () => {
   const reducer = () => ({})
@@ -24,7 +28,7 @@ it('renders correctly', () => {
   const tree = renderer
     .create(
       <Provider store={store}>
-        <Form onSubmit={onSubmit} />
+        <Form match={{ params: {} }} onSubmit={onSubmit} />
       </Provider>,
     )
     .toJSON()
@@ -40,7 +44,7 @@ describe('with error', () => {
     const tree = renderer
       .create(
         <Provider store={store}>
-          <Form onSubmit={onSubmit} updateError="foo error" />
+          <Form match={{ params: {} }} onSubmit={onSubmit} updateError="foo error" />
         </Provider>,
       )
       .toJSON()

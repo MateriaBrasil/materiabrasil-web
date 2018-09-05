@@ -14,7 +14,7 @@ jest.mock('react-router-dom/Link', () => props => (
 jest.mock('../Reviews', () => props => <div {...props}>Reviews</div>)
 
 it('renders correctly', () => {
-  const props = { list: [1, 2, 3], id: 1112 }
+  const props = { match: { params: {} }, list: [1, 2, 3], id: 1112 }
   const tree = renderer.create(<List {...props} />).toJSON()
   expect(tree).toMatchSnapshot()
 })

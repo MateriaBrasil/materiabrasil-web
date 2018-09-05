@@ -1,120 +1,133 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<form
-  onSubmit={[Function]}
+<div
+  aria-labelledby="responsive-dialog-title"
+  fullScreen={false}
+  fullWidth={true}
+  onBackdropClick={[Function]}
+  onEscapeKeyDown={[Function]}
+  open={true}
 >
-  <div
-    className="MuiDialogContent-root-1"
+  Dialog - 
+  <form
+    onSubmit={[Function]}
   >
-    <div>
-      <svg
-        aria-hidden="true"
-        className="MuiSvgIcon-root-2 MuiSvgIcon-colorPrimary-3"
-        color={undefined}
-        focusable="false"
-        onClick={[Function]}
-        viewBox="0 0 24 24"
+    <div
+      className="MuiDialogTitle-root-1"
+      id="responsive-dialog-title"
+    >
+      <h2
+        className="MuiTypography-root-2 MuiTypography-title-8"
       >
-        <g>
-          <path
-            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
-          />
-        </g>
-      </svg>
-      <svg
-        aria-hidden="true"
-        className="MuiSvgIcon-root-2 MuiSvgIcon-colorPrimary-3"
-        color={undefined}
-        focusable="false"
-        onClick={[Function]}
-        viewBox="0 0 24 24"
-      >
-        <g>
-          <path
-            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
-          />
-        </g>
-      </svg>
-      <svg
-        aria-hidden="true"
-        className="MuiSvgIcon-root-2 MuiSvgIcon-colorPrimary-3"
-        color={undefined}
-        focusable="false"
-        onClick={[Function]}
-        viewBox="0 0 24 24"
-      >
-        <g>
-          <path
-            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
-          />
-        </g>
-      </svg>
-      <svg
-        aria-hidden="true"
-        className="MuiSvgIcon-root-2 MuiSvgIcon-colorPrimary-3"
-        color={undefined}
-        focusable="false"
-        onClick={[Function]}
-        viewBox="0 0 24 24"
-      >
-        <g>
-          <path
-            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
-          />
-        </g>
-      </svg>
-      <svg
-        aria-hidden="true"
-        className="MuiSvgIcon-root-2 MuiSvgIcon-colorPrimary-3"
-        color={undefined}
-        focusable="false"
-        onClick={[Function]}
-        viewBox="0 0 24 24"
-      >
-        <g>
-          <path
-            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
-          />
-        </g>
-      </svg>
+        Avaliar
+      </h2>
     </div>
-    <input
-      name="rating"
-      onBlur={[Function]}
-      onChange={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-      onFocus={[Function]}
-      type="hidden"
-      value=""
-    />
     <div
-      label="Escreva sua avaliação"
-      multiline={true}
-      name="text"
-      validate={
-        Array [
-          [Function],
-        ]
-      }
-    />
-  </div>
-  <div
-    className="MuiDialogActions-root-8"
-  >
-    <div
-      style={
-        Object {
-          "textDecoration": "none",
+      className="MuiDialogContent-root-26"
+    >
+      <div>
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-27 MuiSvgIcon-colorPrimary-28"
+          color={undefined}
+          focusable="false"
+          onClick={[Function]}
+          viewBox="0 0 24 24"
+        >
+          <g>
+            <path
+              d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+            />
+          </g>
+        </svg>
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-27 MuiSvgIcon-colorPrimary-28"
+          color={undefined}
+          focusable="false"
+          onClick={[Function]}
+          viewBox="0 0 24 24"
+        >
+          <g>
+            <path
+              d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+            />
+          </g>
+        </svg>
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-27 MuiSvgIcon-colorPrimary-28"
+          color={undefined}
+          focusable="false"
+          onClick={[Function]}
+          viewBox="0 0 24 24"
+        >
+          <g>
+            <path
+              d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+            />
+          </g>
+        </svg>
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-27 MuiSvgIcon-colorPrimary-28"
+          color={undefined}
+          focusable="false"
+          onClick={[Function]}
+          viewBox="0 0 24 24"
+        >
+          <g>
+            <path
+              d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+            />
+          </g>
+        </svg>
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-27 MuiSvgIcon-colorPrimary-28"
+          color={undefined}
+          focusable="false"
+          onClick={[Function]}
+          viewBox="0 0 24 24"
+        >
+          <g>
+            <path
+              d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+            />
+          </g>
+        </svg>
+      </div>
+      <input
+        name="rating"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        onFocus={[Function]}
+        type="hidden"
+        value=""
+      />
+      <div
+        label="Escreva sua avaliação"
+        multiline={true}
+        name="text"
+        validate={
+          Array [
+            [Function],
+          ]
         }
-      }
-      to="/undefined"
+      />
+      <div />
+    </div>
+    <div
+      className="MuiDialogActions-root-33"
     >
       <button
-        className="MuiButtonBase-root-26 MuiButton-root-10 MuiButton-flatPrimary-12"
+        className="MuiButtonBase-root-51 MuiButton-root-35 MuiButton-flatPrimary-37 MuiDialogActions-action-34"
         disabled={false}
         onBlur={[Function]}
+        onClick={[Function]}
         onFocus={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
@@ -128,162 +141,174 @@ exports[`renders correctly 1`] = `
         type="button"
       >
         <span
-          className="MuiButton-label-11"
+          className="MuiButton-label-36"
         >
           Fechar
         </span>
         <span
-          className="MuiTouchRipple-root-29"
+          className="MuiTouchRipple-root-54"
+        />
+      </button>
+      <button
+        className="MuiButtonBase-root-51 MuiButton-root-35 MuiButton-flatPrimary-37 MuiDialogActions-action-34"
+        disabled={false}
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="submit"
+      >
+        <span
+          className="MuiButton-label-36"
+        >
+          Enviar
+        </span>
+        <span
+          className="MuiTouchRipple-root-54"
         />
       </button>
     </div>
-    <button
-      className="MuiButtonBase-root-26 MuiButton-root-10 MuiButton-flatPrimary-12 MuiDialogActions-action-9"
-      disabled={false}
-      onBlur={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      tabIndex="0"
-      type="submit"
-    >
-      <span
-        className="MuiButton-label-11"
-      >
-        Enviar
-      </span>
-      <span
-        className="MuiTouchRipple-root-29"
-      />
-    </button>
-  </div>
-</form>
+  </form>
+</div>
 `;
 
 exports[`with error renders correctly 1`] = `
-<form
-  onSubmit={[Function]}
+<div
+  aria-labelledby="responsive-dialog-title"
+  fullScreen={false}
+  fullWidth={true}
+  onBackdropClick={[Function]}
+  onEscapeKeyDown={[Function]}
+  open={true}
 >
-  <div
-    className="MuiDialogContent-root-1"
-  >
-    <div>
-      <svg
-        aria-hidden="true"
-        className="MuiSvgIcon-root-2 MuiSvgIcon-colorPrimary-3"
-        color={undefined}
-        focusable="false"
-        onClick={[Function]}
-        viewBox="0 0 24 24"
-      >
-        <g>
-          <path
-            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
-          />
-        </g>
-      </svg>
-      <svg
-        aria-hidden="true"
-        className="MuiSvgIcon-root-2 MuiSvgIcon-colorPrimary-3"
-        color={undefined}
-        focusable="false"
-        onClick={[Function]}
-        viewBox="0 0 24 24"
-      >
-        <g>
-          <path
-            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
-          />
-        </g>
-      </svg>
-      <svg
-        aria-hidden="true"
-        className="MuiSvgIcon-root-2 MuiSvgIcon-colorPrimary-3"
-        color={undefined}
-        focusable="false"
-        onClick={[Function]}
-        viewBox="0 0 24 24"
-      >
-        <g>
-          <path
-            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
-          />
-        </g>
-      </svg>
-      <svg
-        aria-hidden="true"
-        className="MuiSvgIcon-root-2 MuiSvgIcon-colorPrimary-3"
-        color={undefined}
-        focusable="false"
-        onClick={[Function]}
-        viewBox="0 0 24 24"
-      >
-        <g>
-          <path
-            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
-          />
-        </g>
-      </svg>
-      <svg
-        aria-hidden="true"
-        className="MuiSvgIcon-root-2 MuiSvgIcon-colorPrimary-3"
-        color={undefined}
-        focusable="false"
-        onClick={[Function]}
-        viewBox="0 0 24 24"
-      >
-        <g>
-          <path
-            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
-          />
-        </g>
-      </svg>
-    </div>
-    <input
-      name="rating"
-      onBlur={[Function]}
-      onChange={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-      onFocus={[Function]}
-      type="hidden"
-      value=""
-    />
-    <div
-      label="Escreva sua avaliação"
-      multiline={true}
-      name="text"
-      validate={
-        Array [
-          [Function],
-        ]
-      }
-    />
-    <div>
-      foo error
-    </div>
-  </div>
-  <div
-    className="MuiDialogActions-root-8"
+  Dialog - 
+  <form
+    onSubmit={[Function]}
   >
     <div
-      style={
-        Object {
-          "textDecoration": "none",
+      className="MuiDialogTitle-root-1"
+      id="responsive-dialog-title"
+    >
+      <h2
+        className="MuiTypography-root-2 MuiTypography-title-8"
+      >
+        Avaliar
+      </h2>
+    </div>
+    <div
+      className="MuiDialogContent-root-26"
+    >
+      <div>
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-27 MuiSvgIcon-colorPrimary-28"
+          color={undefined}
+          focusable="false"
+          onClick={[Function]}
+          viewBox="0 0 24 24"
+        >
+          <g>
+            <path
+              d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+            />
+          </g>
+        </svg>
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-27 MuiSvgIcon-colorPrimary-28"
+          color={undefined}
+          focusable="false"
+          onClick={[Function]}
+          viewBox="0 0 24 24"
+        >
+          <g>
+            <path
+              d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+            />
+          </g>
+        </svg>
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-27 MuiSvgIcon-colorPrimary-28"
+          color={undefined}
+          focusable="false"
+          onClick={[Function]}
+          viewBox="0 0 24 24"
+        >
+          <g>
+            <path
+              d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+            />
+          </g>
+        </svg>
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-27 MuiSvgIcon-colorPrimary-28"
+          color={undefined}
+          focusable="false"
+          onClick={[Function]}
+          viewBox="0 0 24 24"
+        >
+          <g>
+            <path
+              d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+            />
+          </g>
+        </svg>
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-27 MuiSvgIcon-colorPrimary-28"
+          color={undefined}
+          focusable="false"
+          onClick={[Function]}
+          viewBox="0 0 24 24"
+        >
+          <g>
+            <path
+              d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+            />
+          </g>
+        </svg>
+      </div>
+      <input
+        name="rating"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        onFocus={[Function]}
+        type="hidden"
+        value=""
+      />
+      <div
+        label="Escreva sua avaliação"
+        multiline={true}
+        name="text"
+        validate={
+          Array [
+            [Function],
+          ]
         }
-      }
-      to="/undefined"
+      />
+      <div>
+        foo error
+      </div>
+    </div>
+    <div
+      className="MuiDialogActions-root-33"
     >
       <button
-        className="MuiButtonBase-root-26 MuiButton-root-10 MuiButton-flatPrimary-12"
+        className="MuiButtonBase-root-51 MuiButton-root-35 MuiButton-flatPrimary-37 MuiDialogActions-action-34"
         disabled={false}
         onBlur={[Function]}
+        onClick={[Function]}
         onFocus={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
@@ -297,40 +322,40 @@ exports[`with error renders correctly 1`] = `
         type="button"
       >
         <span
-          className="MuiButton-label-11"
+          className="MuiButton-label-36"
         >
           Fechar
         </span>
         <span
-          className="MuiTouchRipple-root-29"
+          className="MuiTouchRipple-root-54"
+        />
+      </button>
+      <button
+        className="MuiButtonBase-root-51 MuiButton-root-35 MuiButton-flatPrimary-37 MuiDialogActions-action-34"
+        disabled={false}
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="submit"
+      >
+        <span
+          className="MuiButton-label-36"
+        >
+          Enviar
+        </span>
+        <span
+          className="MuiTouchRipple-root-54"
         />
       </button>
     </div>
-    <button
-      className="MuiButtonBase-root-26 MuiButton-root-10 MuiButton-flatPrimary-12 MuiDialogActions-action-9"
-      disabled={false}
-      onBlur={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      tabIndex="0"
-      type="submit"
-    >
-      <span
-        className="MuiButton-label-11"
-      >
-        Enviar
-      </span>
-      <span
-        className="MuiTouchRipple-root-29"
-      />
-    </button>
-  </div>
-</form>
+  </form>
+</div>
 `;
