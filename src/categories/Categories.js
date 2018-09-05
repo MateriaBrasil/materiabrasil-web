@@ -10,7 +10,7 @@ import CloseDialog from '../form/CloseDialog'
 
 import categories from './mock'
 import renderCategory from './renderCategory'
-import closeModal from './closeModal'
+import closeModal from '../materials/closeModal'
 
 export default withMobileDialog()(
   class extends Component {
