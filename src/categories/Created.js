@@ -24,6 +24,11 @@ export default class extends Component {
     const { created } = props
 
     const createdCategory = findCategory(categories, created.categoryId)
+    const parent = findCategory(categories, createdCategory.parentId)
+
+    if (parent && parent.multipleChoice) {
+      return
+    }
 
     setMaterialCategories(
       filter(materialCategories, ({ categoryId }) => {
