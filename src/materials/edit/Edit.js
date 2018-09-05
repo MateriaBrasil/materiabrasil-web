@@ -3,8 +3,8 @@ import Dialog from '@material-ui/core/Dialog'
 import DialogTitle from '@material-ui/core/DialogTitle'
 import withMobileDialog from '@material-ui/core/withMobileDialog'
 
+import closeModal from 'materials/closeModal'
 import Form from './Form'
-import closeModal from '../closeModal'
 import updateSelectedParams from './updateSelectedParams'
 
 export default withMobileDialog()(

@@ -10,8 +10,7 @@ import TechnicalSpecification from '../list/TechnicalSpecification'
 import TechnicalSpecificationUpload from './TechnicalSpecificationUpload'
 import CertificationsUpload from './CertificationsUpload'
 import CertificationsIcon from './CertificationsIcon'
-import EditMaterial from './EditMaterial'
-import EditCategories from './EditCategories'
+import EditButton from './EditButton'
 
 export default props => {
   const { code, description, name, technicalSpecificationUrl } = props
@@ -32,8 +31,8 @@ export default props => {
           </Typography>
           {editable && (
             <Fragment>
-              <EditMaterial {...props} />
-              <EditCategories {...props} />
+              <EditButton {...props} label="Editar material" />
+              <EditButton {...props} path="categories" label="Editar categorias" />
               <TechnicalSpecificationUpload {...props} />
               <CertificationsUpload {...props} />
             </Fragment>
