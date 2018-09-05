@@ -27,18 +27,6 @@ Array [
     TextField
 </div>,
   <div
-    label="Preço médio"
-    name="averagePrice"
-    type="text"
-    validate={
-        Array [
-            [Function],
-          ]
-    }
->
-    TextField
-</div>,
-  <div
     label="Descrição"
     multiline={true}
     name="description"
@@ -64,6 +52,18 @@ Array [
     name="unitOfSale"
     placeholder="(ex: metro, m2, bobina, embalagem com 6, etc)"
     type="text"
+>
+    TextField
+</div>,
+  <div
+    label="Preço médio (por unidade de venda)"
+    name="averagePrice"
+    type="text"
+    validate={
+        Array [
+            [Function],
+          ]
+    }
 >
     TextField
 </div>,

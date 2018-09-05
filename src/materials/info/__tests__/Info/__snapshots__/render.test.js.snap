@@ -363,7 +363,7 @@ exports[`renders correctly 1`] = `
             <span
               className="MuiButton-label-146"
             >
-              Editar material
+              Editar informações gerais
             </span>
             <span
               className="MuiTouchRipple-root-164"
@@ -403,7 +403,7 @@ exports[`renders correctly 1`] = `
             <span
               className="MuiButton-label-146"
             >
-              Editar categorias
+              Editar informações técnicas
             </span>
             <span
               className="MuiTouchRipple-root-164"

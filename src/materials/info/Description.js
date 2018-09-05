@@ -31,11 +31,11 @@ export default props => {
           </Typography>
           {editable && (
             <Fragment>
-              <EditButton {...props} label="Editar material" />
+              <EditButton {...props} label="Editar informações gerais" />
               <EditButton
                 {...props}
                 path="categories"
-                label="Editar categorias"
+                label="Editar informações técnicas"
               />
               <TechnicalSpecificationUpload {...props} />
               <CertificationsUpload {...props} />

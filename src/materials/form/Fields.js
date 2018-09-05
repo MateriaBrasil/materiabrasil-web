@@ -16,12 +16,6 @@ export default () => (
     />
     <TextField name="code" label="Código" type="text" validate={[required()]} />
     <TextField
-      name="averagePrice"
-      label="Preço médio"
-      type="text"
-      validate={[required()]}
-    />
-    <TextField
       name="description"
       label="Descrição"
       type="text"
@@ -39,6 +33,12 @@ export default () => (
       label="Unidade de venda"
       placeholder="(ex: metro, m2, bobina, embalagem com 6, etc)"
       type="text"
+    />
+    <TextField
+      name="averagePrice"
+      label="Preço médio (por unidade de venda)"
+      type="text"
+      validate={[required()]}
     />
     <TextField
       name="minimumPurchaseQuantity"

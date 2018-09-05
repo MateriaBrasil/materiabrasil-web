@@ -129,54 +129,6 @@ exports[`renders correctly 1`] = `
                 data-shrink={false}
                 htmlFor="name-error"
               >
-                Preço médio
-              </label>
-              <div
-                className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-underline-139"
-                onDragStart={[Function]}
-                onDrop={[Function]}
-              >
-                <input
-                  aria-invalid={false}
-                  aria-required={false}
-                  autoComplete={undefined}
-                  autoFocus={undefined}
-                  className="MuiInput-input-143"
-                  defaultValue={undefined}
-                  disabled={false}
-                  id={undefined}
-                  name="averagePrice"
-                  onBlur={[Function]}
-                  onChange={[Function]}
-                  onFocus={[Function]}
-                  onKeyDown={undefined}
-                  onKeyUp={undefined}
-                  placeholder={undefined}
-                  readOnly={undefined}
-                  required={undefined}
-                  rows={undefined}
-                  type="text"
-                  value=""
-                />
-              </div>
-              <p
-                className="MuiFormHelperText-root-148"
-                id="name-error-text"
-              />
-            </div>
-          </div>
-          <div>
-            <div
-              aria-describedby="name-error-text"
-              className="MuiFormControl-root-121 MuiFormControl-fullWidth-124"
-              onBlur={[Function]}
-              onFocus={[Function]}
-            >
-              <label
-                className="MuiFormLabel-root-130 MuiInputLabel-root-125 MuiInputLabel-formControl-126 MuiInputLabel-animated-129"
-                data-shrink={false}
-                htmlFor="name-error"
-              >
                 Descrição
               </label>
               <div
@@ -322,6 +274,54 @@ exports[`renders correctly 1`] = `
                   onKeyDown={undefined}
                   onKeyUp={undefined}
                   placeholder="(ex: metro, m2, bobina, embalagem com 6, etc)"
+                  readOnly={undefined}
+                  required={undefined}
+                  rows={undefined}
+                  type="text"
+                  value=""
+                />
+              </div>
+              <p
+                className="MuiFormHelperText-root-148"
+                id="name-error-text"
+              />
+            </div>
+          </div>
+          <div>
+            <div
+              aria-describedby="name-error-text"
+              className="MuiFormControl-root-121 MuiFormControl-fullWidth-124"
+              onBlur={[Function]}
+              onFocus={[Function]}
+            >
+              <label
+                className="MuiFormLabel-root-130 MuiInputLabel-root-125 MuiInputLabel-formControl-126 MuiInputLabel-animated-129"
+                data-shrink={false}
+                htmlFor="name-error"
+              >
+                Preço médio (por unidade de venda)
+              </label>
+              <div
+                className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-underline-139"
+                onDragStart={[Function]}
+                onDrop={[Function]}
+              >
+                <input
+                  aria-invalid={false}
+                  aria-required={false}
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInput-input-143"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id={undefined}
+                  name="averagePrice"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={undefined}
+                  onKeyUp={undefined}
+                  placeholder={undefined}
                   readOnly={undefined}
                   required={undefined}
                   rows={undefined}
