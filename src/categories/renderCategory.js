@@ -1,5 +1,6 @@
 import React from 'react'
 import isEmpty from 'lodash/isEmpty'
+import negate from 'lodash/negate'
 import some from 'lodash/some'
 import find from 'lodash/find'
 import ExpansionPanel from '@material-ui/core/ExpansionPanel'
@@ -11,19 +12,23 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import Create from './Create'
 import Destroy from './Destroy'
 
+const isPresent = negate(isEmpty)
+
 const renderCategory = props => category => {
-  if (!isEmpty(category.children)) {
-    const deepNested = some(category.children, 'category')
+  const { id, name, children } = category
+
+  if (isPresent(children)) {
+    const deepNested = some(children, child => isPresent(child.children))
 
     return (
-      <ExpansionPanel style={{ width: '100%', flex: 1 }} key={category.id}>
+      <ExpansionPanel style={{ width: '100%', flex: 1 }} key={id}>
         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography>{category.name}</Typography>
+          <Typography>{name}</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails
           style={{ display: deepNested ? 'block' : 'flex' }}
         >
-          {category.children.map(renderCategory(props))}
+          {children.map(renderCategory(props))}
         </ExpansionPanelDetails>
       </ExpansionPanel>
     )
