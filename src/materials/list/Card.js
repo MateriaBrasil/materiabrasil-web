@@ -16,7 +16,7 @@ export default props => {
       <Media query="(min-width: 1280px)">
         {matches =>
           matches ? (
-            <Ratio {...props} ratio={(9 * cols) / 6} imageUrl={imageUrl} />
+            <Ratio {...props} ratio={9 * cols / 6} imageUrl={imageUrl} />
           ) : (
             <Ratio {...props} ratio={9 / 6} imageUrl={listImageUrl} />
           )
