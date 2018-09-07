@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly 1`] = `
+Array [
+  <div
+    history={
+        Object {
+            "push": [Function],
+          }
+    }
+    list={
+        Array [
+            Object {
+              "id": 123,
+              "name": "foo",
+            },
+            Object {
+              "id": 321,
+              "name": "bar",
+            },
+          ]
+    }
+/>,
+  <div
+    history={
+        Object {
+            "push": [Function],
+          }
+    }
+    list={
+        Array [
+            Object {
+              "id": 123,
+              "name": "foo",
+            },
+            Object {
+              "id": 321,
+              "name": "bar",
+            },
+          ]
+    }
+/>,
+]
+`;

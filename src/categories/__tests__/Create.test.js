@@ -6,9 +6,8 @@ import Create from '../Create'
 jest.mock('croods', () => ({
   New: props => (
     <div {...props}>
-      New - {props.render([{ foo: 'bar' }])} - renderCreated -{props.render([
-        { foo: 'bar' },
-      ])}
+      New - {props.render([{ foo: 'bar' }])} - renderCreated -
+      {props.render([{ foo: 'bar' }])}
     </div>
   ),
 }))
