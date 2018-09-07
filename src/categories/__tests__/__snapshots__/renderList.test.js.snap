@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly 1`] = `
+<div
+  name="materialCategories"
+  path="/materials/1234/categories"
+  render={[Function]}
+>
+  List - 
+  <div
+    categories={
+      Array [
+        "foo",
+        "bar",
+      ]
+    }
+    match={
+      Object {
+        "params": Object {
+          "id": "1234",
+        },
+      }
+    }
+  >
+    renderMaterialCategoriesList
+  </div>
+</div>
+`;

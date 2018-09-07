@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly 1`] = `
+<div
+  name="materialCategories"
+  path="/material_categories"
+  render={[Function]}
+  renderCreated={[Function]}
+>
+  New - 
+  <label
+    className="MuiFormControlLabel-root-1"
+    style={
+      Object {
+        "margin": 0,
+      }
+    }
+  >
+    <span
+      className="MuiButtonBase-root-19 MuiIconButton-root-13 MuiSwitchBase-root-9 MuiCheckbox-root-4 MuiCheckbox-colorSecondary-8"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role={undefined}
+      tabIndex={null}
+    >
+      <span
+        className="MuiIconButton-label-18"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-22"
+          color={undefined}
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+          />
+        </svg>
+        <input
+          checked={false}
+          className="MuiSwitchBase-input-12"
+          disabled={undefined}
+          id={undefined}
+          name="category-parent-1234"
+          onChange={[Function]}
+          tabIndex={undefined}
+          type="checkbox"
+          value="foo-name"
+        />
+      </span>
+      <span
+        className="MuiTouchRipple-root-28"
+      />
+    </span>
+    <span
+      className="MuiTypography-root-35 MuiTypography-body1-44 MuiFormControlLabel-label-3"
+    >
+      foo-name
+    </span>
+  </label>
+   - renderCreated -
+  <label
+    className="MuiFormControlLabel-root-1"
+    style={
+      Object {
+        "margin": 0,
+      }
+    }
+  >
+    <span
+      className="MuiButtonBase-root-19 MuiIconButton-root-13 MuiSwitchBase-root-9 MuiCheckbox-root-4 MuiCheckbox-colorSecondary-8"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role={undefined}
+      tabIndex={null}
+    >
+      <span
+        className="MuiIconButton-label-18"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-22"
+          color={undefined}
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+          />
+        </svg>
+        <input
+          checked={false}
+          className="MuiSwitchBase-input-12"
+          disabled={undefined}
+          id={undefined}
+          name="category-parent-1234"
+          onChange={[Function]}
+          tabIndex={undefined}
+          type="checkbox"
+          value="foo-name"
+        />
+      </span>
+      <span
+        className="MuiTouchRipple-root-28"
+      />
+    </span>
+    <span
+      className="MuiTypography-root-35 MuiTypography-body1-44 MuiFormControlLabel-label-3"
+    >
+      foo-name
+    </span>
+  </label>
+</div>
+`;
