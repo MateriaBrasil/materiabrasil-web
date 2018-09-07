@@ -4,9 +4,14 @@ import renderer from 'react-test-renderer'
 import Create from '../Create'
 
 jest.mock('croods', () => ({
-  New: props => <div {...props}>New - {props.render([{ foo: 'bar' }])} - renderCreated -{props.render([{ foo: 'bar' }])}</div>,
+  New: props => (
+    <div {...props}>
+      New - {props.render([{ foo: 'bar' }])} - renderCreated -{props.render([
+        { foo: 'bar' },
+      ])}
+    </div>
+  ),
 }))
-
 
 it('render correctly', () => {
   const props = {

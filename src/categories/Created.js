@@ -25,7 +25,6 @@ export default class extends Component {
 
     const createdCategory = findCategory(categories, created.categoryId)
     const parent = findCategory(categories, createdCategory.parentId)
-
     if (parent && parent.multipleChoice) {
       return
     }

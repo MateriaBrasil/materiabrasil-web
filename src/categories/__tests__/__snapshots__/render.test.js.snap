@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly 1`] = `
+<div
+  bar="foo"
+  match={
+    Object {
+      "params": Object {
+        "id": "1234",
+      },
+    }
+  }
+  title="Editar informações técnicas"
+>
+  Dialog - 
+  <div
+    name="categories"
+    render={[Function]}
+  >
+    List -
+    <div
+      bar="foo"
+      list={undefined}
+      match={
+        Object {
+          "params": Object {
+            "id": "1234",
+          },
+        }
+      }
+    >
+      renderList
+    </div>
+  </div>
+</div>
+`;
