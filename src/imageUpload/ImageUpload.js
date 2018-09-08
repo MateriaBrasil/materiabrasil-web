@@ -62,19 +62,8 @@ export default class extends Component {
   }
 
   render() {
-    const { file, scale, position, uploading } = this.state
-    const { updating, title, width = 400, height = 400, ...props } = this.props
-    const dropzoneProps = {
-      file,
-      scale,
-      position,
-      title,
-      width,
-      height,
-      onDrop: this.onDrop,
-      setEditor: this.setEditor,
-      onPositionChange: this.onPositionChange,
-    }
+    const { file, uploading } = this.state
+    const { updating, ...props } = this.props
     return (
       <Dialog
         {...props}
@@ -83,7 +72,13 @@ export default class extends Component {
         cancelDisabled={updating || uploading}
         uploading={uploading}
       >
-        <ImageDropZone {...dropzoneProps} />
+        <ImageDropZone
+          {...this.props}
+          state={this.state}
+          onDrop={this.onDrop}
+          setEditor={this.setEditor}
+          onPositionChange={this.onPositionChange}
+        />
         {file && (
           <ZoomControls onZoomOut={this.onZoomOut} onZoomIn={this.onZoomIn} />
         )}

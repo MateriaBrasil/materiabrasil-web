@@ -5,7 +5,8 @@ import Typography from '@material-ui/core/Typography'
 import theme from '../theme'
 
 export default props => {
-  const { file, scale, position, title, width, height } = props
+  const { file, scale, position } = props.state
+  const { title, width = 400, height = 400 } = props
   const { setEditor, onDrop, onPositionChange } = props
   return (
     <Dropzone
