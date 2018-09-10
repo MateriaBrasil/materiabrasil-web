@@ -116,6 +116,7 @@ exports[`renders correctly 1`] = `
             >
               <div
                 className="Ratio "
+                lg={4}
                 name="foo"
                 style={
                   Object {
@@ -125,6 +126,7 @@ exports[`renders correctly 1`] = `
                     "overflow": "hidden",
                   }
                 }
+                text="Imagem para a lista"
               >
                 <div
                   className="Ratio-ratio "
@@ -188,6 +190,7 @@ exports[`renders correctly 1`] = `
             >
               <div
                 className="Ratio "
+                lg={8}
                 name="foo"
                 style={
                   Object {
@@ -197,6 +200,7 @@ exports[`renders correctly 1`] = `
                     "overflow": "hidden",
                   }
                 }
+                text="Imagem para os destaques"
               >
                 <div
                   className="Ratio-ratio "
