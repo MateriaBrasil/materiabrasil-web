@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import Dialog from './Dialog'
 import ZoomControls from './ZoomControls'
 import handleUpload from './handleUpload'
-import ImageDropZone from './ImageDropZone'
+import DropZone from './DropZone'
 
 export default class extends Component {
   constructor(props) {
@@ -72,7 +72,7 @@ export default class extends Component {
         cancelDisabled={updating || uploading}
         uploading={uploading}
       >
-        <ImageDropZone
+        <DropZone
           {...this.props}
           state={this.state}
           onDrop={this.onDrop}

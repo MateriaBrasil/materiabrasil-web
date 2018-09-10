@@ -6,7 +6,7 @@ import withMobileDialog from '@material-ui/core/withMobileDialog'
 
 import Loading from '../Loading'
 import closeDialog from './closeDialog'
-import ImageDialogActions from './ImageDialogActions'
+import DialogActions from './DialogActions'
 
 export default withMobileDialog()(
   class extends Component {
@@ -26,7 +26,7 @@ export default withMobileDialog()(
           <DialogTitle id="responsive-dialog-title">Alterar imagem</DialogTitle>
           <DialogContent>{children}</DialogContent>
           {uploading && <Loading />}
-          <ImageDialogActions
+          <DialogActions
             {...this.props}
             handleCloseDialog={handleCloseDialog}
           />
