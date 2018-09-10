@@ -32,6 +32,7 @@ exports[`with term renders correctly 1`] = `
       >
         renderCategoriesList
       </div>
+       -
     </div>
   </div>
   <div
@@ -60,6 +61,12 @@ exports[`with term renders correctly 1`] = `
       }
     >
       renderList
+    </div>
+     -
+    <div
+      color="default"
+    >
+      foo-error
     </div>
   </div>
 </div>
@@ -97,6 +104,7 @@ exports[`without term renders correctly 1`] = `
       >
         renderCategoriesList
       </div>
+       -
     </div>
   </div>
   <div
@@ -125,6 +133,12 @@ exports[`without term renders correctly 1`] = `
       }
     >
       renderList
+    </div>
+     -
+    <div
+      color="default"
+    >
+      foo-error
     </div>
   </div>
 </div>

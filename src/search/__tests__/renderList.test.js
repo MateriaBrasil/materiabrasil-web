@@ -4,10 +4,15 @@ import renderer from 'react-test-renderer'
 import renderList from '../renderList'
 
 jest.mock('croods', () => ({
-  List: props => <div {...props}>List - {props.render([{ foo: 'bar' }])}</div>,
+  List: props => (
+    <div {...props}>
+      List - {props.render([{ foo: 'bar' }])} -
+      {props.renderError ? props.renderError('foo-error') : null}
+    </div>
+  ),
 }))
 jest.mock('../../Error', () =>
-  jest.fn(props => <div {...props}>{props.children.error}</div>),
+  jest.fn(props => <div {...props}>{props.children}</div>),
 )
 jest.mock('../Search', () => props => <div {...props}>Search</div>)
 
