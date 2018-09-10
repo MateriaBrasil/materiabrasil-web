@@ -3,6 +3,7 @@
 exports[`render correctly 1`] = `
 Array [
   <div
+    expandedCategories={Array []}
     history={
         Object {
             "push": [Function],
@@ -20,8 +21,10 @@ Array [
             },
           ]
     }
+    onChangeExpanded={[Function]}
 />,
   <div
+    expandedCategories={Array []}
     history={
         Object {
             "push": [Function],
@@ -39,6 +42,7 @@ Array [
             },
           ]
     }
+    onChangeExpanded={[Function]}
 />,
 ]
 `;

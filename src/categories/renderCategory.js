@@ -29,7 +29,12 @@ export default (props, onSelect) => category => {
   const Component = materialCategory ? Destroy : Create
 
   return isPresent(category.children) ? (
-    <CategoryChildren {...props} onSelect={onSelect} category={category} />
+    <CategoryChildren
+      key={category.id}
+      {...props}
+      onSelect={onSelect}
+      category={category}
+    />
   ) : onSelect ? (
     <Checkbox {...childProps} action={onSelect(category)} />
   ) : (

@@ -3,6 +3,7 @@
 exports[`render correctly 1`] = `
 <div
   bar="foo"
+  expandedCategories={Array []}
   match={
     Object {
       "params": Object {
@@ -10,6 +11,7 @@ exports[`render correctly 1`] = `
       },
     }
   }
+  onChangeExpanded={[Function]}
   title="Editar informações técnicas"
 >
   Dialog - 
@@ -20,6 +22,7 @@ exports[`render correctly 1`] = `
     List -
     <div
       bar="foo"
+      expandedCategories={Array []}
       list={undefined}
       match={
         Object {
@@ -28,6 +31,7 @@ exports[`render correctly 1`] = `
           },
         }
       }
+      onChangeExpanded={[Function]}
     >
       renderList
     </div>
