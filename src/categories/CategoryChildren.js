@@ -1,4 +1,5 @@
 import React from 'react'
+import includes from 'lodash/includes'
 import some from 'lodash/some'
 import ExpansionPanel from '@material-ui/core/ExpansionPanel'
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary'
@@ -9,12 +10,17 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import renderCategory, { isPresent } from './renderCategory'
 
 export default props => {
-  const { category, onSelect } = props
+  const { category, onSelect, expandedCategories, onChangeExpanded } = props
   const { id, name, children } = category
   const deepNested = some(children, child => isPresent(child.children))
+  const expanded = includes(expandedCategories, id)
 
   return (
-    <ExpansionPanel style={{ width: '100%', flex: 1 }} key={id}>
+    <ExpansionPanel
+      style={{ width: '100%', flex: 1 }}
+      expanded={expanded}
+      onChange={onChangeExpanded(id)}
+    >
       <ExpansionPanelSummary
         style={{ border: '1px solid rgba(0,0,0,.1)' }}
         expandIcon={<ExpandMoreIcon />}

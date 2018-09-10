@@ -1,11 +1,22 @@
 import React from 'react'
+import { New } from 'croods'
 
-import Categories from './Categories'
+import renderNew from './renderNew'
+import renderCreated from './renderCreated'
 
-export default props => (list, { actions }) => (
-  <Categories
-    {...props}
-    materialCategories={list}
-    setMaterialCategories={actions.setList}
-  />
-)
+export default parentProps => (materialCategories, { actions }) => {
+  const props = {
+    ...parentProps,
+    setMaterialCategories: actions.setList,
+    materialCategories,
+  }
+
+  return (
+    <New
+      name="materialCategories"
+      path="/material_categories"
+      render={renderNew(props)}
+      renderCreated={renderCreated(props)}
+    />
+  )
+}
