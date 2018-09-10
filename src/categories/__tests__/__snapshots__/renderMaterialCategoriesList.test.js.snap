@@ -2,15 +2,15 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="MuiFormGroup-root-1"
+  name="materialCategories"
+  path="/material_categories"
+  render={[Function]}
+  renderCreated={[Function]}
 >
+  New - 
   <div
-    name="materialCategories"
-    path="/material_categories"
-    render={[Function]}
-    renderCreated={[Function]}
+    className="MuiFormGroup-root-1"
   >
-    New - 
     <label
       className="MuiFormControlLabel-root-3"
       style={
@@ -70,14 +70,6 @@ exports[`renders correctly 1`] = `
         foo
       </span>
     </label>
-  </div>
-  <div
-    name="materialCategories"
-    path="/material_categories"
-    render={[Function]}
-    renderCreated={[Function]}
-  >
-    New - 
     <label
       className="MuiFormControlLabel-root-3"
       style={

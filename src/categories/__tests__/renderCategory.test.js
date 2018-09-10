@@ -5,6 +5,7 @@ import renderCategory from '../renderCategory'
 
 it('render correctly', () => {
   const props = {
+    onChangeExpanded: jest.fn(),
     materialCategories: [{ id: 1234 }, { id: 21 }],
   }
   const onSelect = jest.fn()
