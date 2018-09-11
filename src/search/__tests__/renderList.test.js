@@ -5,16 +5,28 @@ import renderList from '../renderList'
 
 jest.mock('croods', () => ({
   List: props => (
-    <div {...props}>List - {props.renderError({ error: 'foo-error' })}</div>
+    <div {...props}>
+      List - {props.render([{ foo: 'bar' }])} -
+      {props.renderError ? props.renderError('foo-error') : null}
+    </div>
   ),
 }))
 jest.mock('../../Error', () =>
-  jest.fn(props => <div {...props}>{props.children.error}</div>),
+  jest.fn(props => <div {...props}>{props.children}</div>),
 )
 jest.mock('../Search', () => props => <div {...props}>Search</div>)
-jest.mock('../list/render', () =>
-  jest.fn(props => <div {...props}>renderList</div>),
-)
+
+jest.mock('../list/render', () => props => list => (
+  <div {...props} list={list}>
+    renderList
+  </div>
+))
+
+jest.mock('categories/list/render', () => props => list => (
+  <div {...props} list={list}>
+    renderCategoriesList
+  </div>
+))
 
 const props = { bar: 'foo' }
 const routeProps = {

@@ -5,7 +5,7 @@ exports[`renders correctly 1`] = `
   className="MuiGrid-container-1 MuiGrid-spacing-xs-16-23"
 >
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-md-3-56"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-3-69"
   >
     <div
       history={
@@ -22,12 +22,8 @@ exports[`renders correctly 1`] = `
     />
   </div>
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-md-9-62"
-  >
-    <div
-      name="materials"
-      render={[Function]}
-    />
-  </div>
+    name="materials"
+    render={[Function]}
+  />
 </div>
 `;

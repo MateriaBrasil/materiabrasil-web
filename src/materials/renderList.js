@@ -8,15 +8,13 @@ import renderList from './list/render'
 
 export default props => ({ history }) => (
   <Grid container spacing={16}>
-    <Grid item xs={12} md={3}>
+    <Grid item xs={12} lg={3}>
       <Search history={history} />
       <List
         name="categories"
         render={renderCategoriesList({ ...props, history })}
       />
     </Grid>
-    <Grid item xs={12} md={9}>
-      <List name="materials" render={renderList(props)} />
-    </Grid>
+    <List name="materials" render={renderList(props)} />
   </Grid>
 )
