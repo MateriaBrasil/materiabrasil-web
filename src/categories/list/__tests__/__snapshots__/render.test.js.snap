@@ -22,6 +22,12 @@ Array [
           ]
     }
     onChangeExpanded={[Function]}
+    rootCategory={
+        Object {
+            "id": 123,
+            "name": "foo",
+          }
+    }
 />,
   <div
     expandedCategories={Array []}
@@ -43,6 +49,12 @@ Array [
           ]
     }
     onChangeExpanded={[Function]}
+    rootCategory={
+        Object {
+            "id": 321,
+            "name": "bar",
+          }
+    }
 />,
 ]
 `;

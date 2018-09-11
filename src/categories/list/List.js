@@ -25,7 +25,11 @@ export default class extends Component {
       onChangeExpanded: this.onChangeExpanded,
     }
 
-    const renderChild = renderCategory(props, this.handleSelect)
+    const renderChild = category =>
+      renderCategory({ ...props, rootCategory: category }, this.handleSelect)(
+        category,
+      )
+
     return this.props.list.map(renderChild)
   }
 }

@@ -16,6 +16,15 @@ const findCategory = (categories, categoryId) => {
   return isEmpty(children) ? null : findCategory(children, categoryId)
 }
 
+const rootCategory = (categories, category) => {
+  if (!category.parentId) {
+    return category
+  }
+
+  const parent = findCategory(categories, category.parentId)
+  return rootCategory(categories, parent)
+}
+
 export default class extends Component {
   constructor(props) {
     super(props)
@@ -24,8 +33,9 @@ export default class extends Component {
     const { created } = props
 
     const createdCategory = findCategory(categories, created.categoryId)
-    const parent = findCategory(categories, createdCategory.parentId)
-    if (parent && parent.multipleChoice) {
+    const root = rootCategory(categories, createdCategory)
+
+    if (root.multipleChoice) {
       return
     }
 
@@ -36,7 +46,7 @@ export default class extends Component {
         }
 
         const category = findCategory(categories, categoryId)
-        return category.parentId !== createdCategory.parentId
+        return rootCategory(categories, category) !== root
       }),
     )
   }

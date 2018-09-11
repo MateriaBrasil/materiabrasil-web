@@ -15,7 +15,7 @@ jest.mock('croods', () => ({
 it('render correctly', () => {
   const props = {
     category: { name: 'foo-name' },
-    parent: { id: 1234, multipleChoice: true },
+    rootCategory: { id: 1234, multipleChoice: true },
   }
   const tree = renderer.create(<Create {...props} />).toJSON()
   expect(tree).toMatchSnapshot()

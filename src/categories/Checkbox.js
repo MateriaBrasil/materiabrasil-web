@@ -3,8 +3,8 @@ import FormControlLabel from '@material-ui/core/FormControlLabel'
 import Checkbox from '@material-ui/core/Checkbox'
 import Radio from '@material-ui/core/Radio'
 
-export default ({ parent, category, materialCategory, action }) => {
-  const { multipleChoice } = parent
+export default ({ rootCategory, category, materialCategory, action }) => {
+  const { multipleChoice } = rootCategory
   const Control = multipleChoice ? Checkbox : Radio
 
   return (
@@ -12,7 +12,7 @@ export default ({ parent, category, materialCategory, action }) => {
       style={{ margin: 0 }}
       control={
         <Control
-          name={`category-parent-${parent.id}`}
+          name={`category-root-${rootCategory.id}`}
           checked={!!materialCategory}
           onChange={action}
           value={category.name}
