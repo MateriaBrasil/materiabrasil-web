@@ -26,7 +26,7 @@ export default class extends Component {
     }
 
     const renderChild = category =>
-      renderCategory({ ...props, rootCategory: category }, this.handleSelect)(
+      renderCategory({ ...props, rootCategory: category, forFilters: true })(
         category,
       )
 

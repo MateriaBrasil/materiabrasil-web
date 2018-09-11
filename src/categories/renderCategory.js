@@ -2,6 +2,8 @@ import React from 'react'
 import isEmpty from 'lodash/isEmpty'
 import negate from 'lodash/negate'
 import find from 'lodash/find'
+import map from 'lodash/map'
+import includes from 'lodash/includes'
 
 import Create from './Create'
 import Checkbox from './Checkbox'
@@ -10,8 +12,8 @@ import CategoryChildren from './CategoryChildren'
 
 export const isPresent = negate(isEmpty)
 
-export default (props, onSelect) => category => {
-  const { materialCategories, parent } = props
+export default props => category => {
+  const { materialCategories, parent, forFilters, filters = {} } = props
 
   const materialCategory = find(
     materialCategories,
@@ -28,15 +30,20 @@ export default (props, onSelect) => category => {
 
   const Component = materialCategory ? Destroy : Create
 
+  const { selectCategory, unselectCategory } = filters.actions || {}
+
+  const checked = includes(
+    map(filters.selectedCategories, ({ id }) => id),
+    category.id,
+  )
+
+  const filterAction = checked ? unselectCategory : selectCategory
+  const action = () => filterAction(category)
+
   return isPresent(category.children) ? (
-    <CategoryChildren
-      key={category.id}
-      {...props}
-      onSelect={onSelect}
-      category={category}
-    />
-  ) : onSelect ? (
-    <Checkbox {...childProps} action={onSelect(category)} />
+    <CategoryChildren key={category.id} {...props} category={category} />
+  ) : forFilters ? (
+    <Checkbox {...childProps} action={action} checked={checked} />
   ) : (
     <Component {...childProps} />
   )

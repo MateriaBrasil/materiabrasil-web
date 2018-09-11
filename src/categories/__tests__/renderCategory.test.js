@@ -8,10 +8,7 @@ it('render correctly', () => {
     materialCategories: [{ id: 1234 }, { id: 21 }],
     rootCategory: { id: 321 },
   }
-  const onSelect = jest.fn()
   const category = { id: '1234', name: 'foo-name', children: [] }
-  const tree = renderer
-    .create(renderCategory(props, onSelect)(category))
-    .toJSON()
+  const tree = renderer.create(renderCategory(props)(category)).toJSON()
   expect(tree).toMatchSnapshot()
 })

@@ -12,7 +12,9 @@ export default props => {
       id={materialCategory.id}
       path={`/material_categories/${materialCategory.id}`}
       name="materialCategories"
-      render={destroy => <Checkbox {...props} action={destroy} />}
+      render={destroy => (
+        <Checkbox {...props} action={destroy} checked={!!materialCategory} />
+      )}
     />
   )
 }

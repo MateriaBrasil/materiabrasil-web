@@ -10,7 +10,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import renderCategory, { isPresent } from './renderCategory'
 
 export default props => {
-  const { category, onSelect, expandedCategories, onChangeExpanded } = props
+  const { category, expandedCategories, onChangeExpanded } = props
   const { id, name, children } = category
   const deepNested = some(children, child => isPresent(child.children))
   const expanded = includes(expandedCategories, id)
@@ -34,7 +34,7 @@ export default props => {
           padding: 0,
         }}
       >
-        {children.map(renderCategory({ ...props, parent: category }, onSelect))}
+        {children.map(renderCategory({ ...props, parent: category }))}
       </ExpansionPanelDetails>
     </ExpansionPanel>
   )
