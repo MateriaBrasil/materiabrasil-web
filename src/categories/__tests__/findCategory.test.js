@@ -9,8 +9,6 @@ describe('when children matches', () => {
   })
 })
 
-// category always have children, even when empty?
-// isEmpty([undefined] is false)
 describe('when is empty', () => {
   it('returns null', () => {
     const categories = [{ id: 4321, name: 'foo-name', children: [] }]
