@@ -10,7 +10,7 @@ beforeEach(() => {
 const props = {
   created: { categoryId: 1234 },
   setMaterialCategories: jest.fn(),
-  materialCategories: [{ id: 12, categoryId: 1234 }],
+  materialCategories: [{ id: 12, categoryId: 1234 },{ id: 12, categoryId: 11 }],
   categories: [
     { id: 123, parentId: null },
     { id: 1234, parentId: 123 },
