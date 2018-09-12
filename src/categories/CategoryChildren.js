@@ -29,8 +29,7 @@ export default props => {
       </ExpansionPanelSummary>
       <ExpansionPanelDetails
         style={{
-          display: deepNested ? 'block' : 'flex',
-          flexDirection: 'column',
+          display: deepNested ? 'block' : 'inline',
           padding: 0,
         }}
       >

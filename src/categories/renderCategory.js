@@ -4,6 +4,8 @@ import negate from 'lodash/negate'
 import find from 'lodash/find'
 import map from 'lodash/map'
 import includes from 'lodash/includes'
+import Typography from '@material-ui/core/Typography'
+import Paper from '@material-ui/core/Paper'
 
 import Create from './Create'
 import Checkbox from './Checkbox'
@@ -12,7 +14,7 @@ import CategoryChildren from './CategoryChildren'
 
 export const isPresent = negate(isEmpty)
 
-export default props => category => {
+const renderCategory = props => category => {
   const { materialCategories, parent, filters = {} } = props
 
   const materialCategory = find(
@@ -41,10 +43,25 @@ export default props => category => {
   const action = () => filterAction(category)
 
   return isPresent(category.children) ? (
-    <CategoryChildren key={category.id} {...props} category={category} />
+    category.parentId ? (
+      <CategoryChildren key={category.id} {...props} category={category} />
+    ) : (
+      <div key={category.id} style={{ marginBottom: 20 }}>
+        <Typography variant="headline" style={{ marginBottom: 20 }}>
+          {category.name}
+        </Typography>
+        <Paper>
+          {category.children.map(
+            renderCategory({ ...props, parent: category }),
+          )}
+        </Paper>
+      </div>
+    )
   ) : filters.selectedCategories ? (
     <Checkbox {...childProps} action={action} checked={checked} />
   ) : (
     <Component {...childProps} />
   )
 }
+
+export default renderCategory
