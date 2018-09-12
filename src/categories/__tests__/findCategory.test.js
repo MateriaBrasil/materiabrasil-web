@@ -5,7 +5,7 @@ describe('when children matches', () => {
     const categories = [
       { id: 4321, name: 'foo-name', children: [{ id: 1234 }] },
     ]
-    expect(findCategory(categories, 1234)).toBe(categories[0].children[0])
+    expect(findCategory(categories, 1234)).toEqual({ id: 1234 })
   })
 })
 
