@@ -1,7 +1,7 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-import CategoryChildren from '../CategoryChildren'
+import ParentCategory from '../ParentCategory'
 
 describe('with children', () => {
   it('render correctly', () => {
@@ -14,7 +14,7 @@ describe('with children', () => {
         children: [{ id: 222, name: 'foo-children', children: [] }],
       },
     }
-    const tree = renderer.create(<CategoryChildren {...props} />).toJSON()
+    const tree = renderer.create(<ParentCategory {...props} />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 })

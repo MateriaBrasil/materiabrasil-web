@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with children render correctly 1`] = `
+<div
+  style={
+    Object {
+      "marginBottom": 20,
+    }
+  }
+>
+  <h1
+    className="MuiTypography-root-1 MuiTypography-headline-6"
+    style={
+      Object {
+        "marginBottom": 20,
+      }
+    }
+  >
+    foo-name
+  </h1>
+  <div
+    className="MuiPaper-root-25 MuiPaper-elevation2-29 MuiPaper-rounded-26"
+  >
+    <label
+      className="MuiFormControlLabel-root-52"
+      style={
+        Object {
+          "margin": 0,
+        }
+      }
+    >
+      <span
+        className="MuiButtonBase-root-70 MuiIconButton-root-64 MuiSwitchBase-root-60 MuiCheckbox-root-55 MuiCheckbox-colorSecondary-59"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role={undefined}
+        tabIndex={null}
+      >
+        <span
+          className="MuiIconButton-label-69"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root-73"
+            color={undefined}
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+            />
+          </svg>
+          <input
+            checked={false}
+            className="MuiSwitchBase-input-63"
+            disabled={undefined}
+            id={undefined}
+            name="category-root-undefined"
+            onChange={[Function]}
+            tabIndex={undefined}
+            type="checkbox"
+            value="foo-children"
+          />
+        </span>
+        <span
+          className="MuiTouchRipple-root-79"
+        />
+      </span>
+      <span
+        className="MuiTypography-root-1 MuiTypography-body1-10 MuiFormControlLabel-label-54"
+      >
+        foo-children
+      </span>
+    </label>
+  </div>
+</div>
+`;
