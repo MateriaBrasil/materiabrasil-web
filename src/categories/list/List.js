@@ -33,7 +33,7 @@ export default class extends Component {
               Filtros selecionados
             </Typography>
             {selectedCategories.map(category => {
-              console.log('category:',category)
+              console.log('category:', category)
               return (
                 <Typography key={category.id} variant="body1">
                   {fullName(list, category, category.name)}
