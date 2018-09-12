@@ -98,8 +98,7 @@ exports[`with children render correctly 1`] = `
           className="MuiExpansionPanelDetails-root-87"
           style={
             Object {
-              "display": "flex",
-              "flexDirection": "column",
+              "display": "inline",
               "padding": 0,
             }
           }

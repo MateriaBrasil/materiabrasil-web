@@ -23,6 +23,7 @@ export default class extends Component {
       ...this.state,
       onChangeExpanded: this.onChangeExpanded,
     }
+    console.log(selectedCategories, this.props)
 
     return (
       <Fragment>
@@ -31,11 +32,14 @@ export default class extends Component {
             <Typography variant="subheading" style={{ marginBottom: 20 }}>
               Filtros selecionados
             </Typography>
-            {selectedCategories.map(category => (
-              <Typography key={category.id} variant="body1">
-                {fullName(list, category, category.name)}
-              </Typography>
-            ))}
+            {selectedCategories.map(category => {
+              console.log('category:',category)
+              return (
+                <Typography key={category.id} variant="body1">
+                  {fullName(list, category, category.name)}
+                </Typography>
+              )
+            })}
             <Button
               style={{ marginTop: 20 }}
               variant="outlined"

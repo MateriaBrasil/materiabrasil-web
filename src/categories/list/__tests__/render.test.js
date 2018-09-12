@@ -8,7 +8,13 @@ jest.mock('categories/renderCategory', () => props => category => (
 ))
 
 jest.mock('filters/Filters', () => ({ render, ...props }) => (
-  <div {...props}>Filters - {render(props)}</div>
+  <div {...props}>
+    Filters -
+    {render({
+      selectedCategories: [{ id: 123, name: 'foo-name' }],
+      actions: { reset: jest.fn() },
+    })}
+  </div>
 ))
 
 it('render correctly', () => {

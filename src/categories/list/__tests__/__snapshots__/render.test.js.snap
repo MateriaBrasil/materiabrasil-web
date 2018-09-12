@@ -2,10 +2,76 @@
 
 exports[`render correctly 1`] = `
 <div>
-  Filters - 
+  Filters -
+  <div
+    style={
+      Object {
+        "marginBottom": 30,
+      }
+    }
+  >
+    <h3
+      className="MuiTypography-root-1 MuiTypography-subheading-8"
+      style={
+        Object {
+          "marginBottom": 20,
+        }
+      }
+    >
+      Filtros selecionados
+    </h3>
+    <p
+      className="MuiTypography-root-1 MuiTypography-body1-10"
+    >
+      foo-name
+    </p>
+    <button
+      className="MuiButtonBase-root-41 MuiButton-root-25 MuiButton-outlined-29"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "marginTop": 20,
+        }
+      }
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-26"
+      >
+        Limpar filtros
+      </span>
+      <span
+        className="MuiTouchRipple-root-44"
+      />
+    </button>
+  </div>
   <div
     expandedCategories={Array []}
-    filters={Object {}}
+    filters={
+      Object {
+        "actions": Object {
+          "reset": [Function],
+        },
+        "selectedCategories": Array [
+          Object {
+            "id": 123,
+            "name": "foo-name",
+          },
+        ],
+      }
+    }
     history={
       Object {
         "push": [Function],
@@ -27,7 +93,19 @@ exports[`render correctly 1`] = `
   />
   <div
     expandedCategories={Array []}
-    filters={Object {}}
+    filters={
+      Object {
+        "actions": Object {
+          "reset": [Function],
+        },
+        "selectedCategories": Array [
+          Object {
+            "id": 123,
+            "name": "foo-name",
+          },
+        ],
+      }
+    }
     history={
       Object {
         "push": [Function],
