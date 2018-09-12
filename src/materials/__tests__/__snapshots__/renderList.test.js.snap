@@ -2,7 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <div>
-  Filters - 
+  Filters -
   <div
     className="MuiGrid-container-1 MuiGrid-spacing-xs-40-26"
   >
@@ -25,7 +25,7 @@ exports[`renders correctly 1`] = `
     </div>
     <div
       name="materials"
-      path="/materials"
+      path="/materials?categories%5B%5D=123"
       render={[Function]}
     />
   </div>
