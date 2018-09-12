@@ -39,7 +39,6 @@ export default props => category => {
 
   const filterAction = checked ? unselectCategory : selectCategory
   const action = () => filterAction(category)
-
   return isPresent(category.children) ? (
     <CategoryChildren key={category.id} {...props} category={category} />
   ) : filters.selectedCategories ? (

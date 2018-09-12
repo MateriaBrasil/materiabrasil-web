@@ -29,3 +29,10 @@ describe('without children', () => {
     ])
   })
 })
+
+describe('without achildren', () => {
+  it('calls setMaterialCategories correctly', () => {
+    renderer.create(<Created {...props} />)
+    expect(props.setMaterialCategories).not.toHaveBeenCalled()
+  })
+})
