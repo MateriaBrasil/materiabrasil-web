@@ -1,11 +1,11 @@
 import React, { Component, Fragment } from 'react'
 import Typography from '@material-ui/core/Typography'
 import isEmpty from 'lodash/isEmpty'
-import Button from '@material-ui/core/Button'
 
-import fullName from 'categories/fullName'
 import renderCategory from 'categories/renderCategory'
 import handleChangeExpanded from 'categories/handleChangeExpanded'
+import SelectedCategories from './SelectedCategories'
+import CleanButton from './CleanButton'
 
 export default class extends Component {
   constructor(props) {
@@ -23,8 +23,6 @@ export default class extends Component {
       ...this.state,
       onChangeExpanded: this.onChangeExpanded,
     }
-    console.log(selectedCategories, this.props)
-
     return (
       <Fragment>
         {!isEmpty(selectedCategories) && (
@@ -32,21 +30,8 @@ export default class extends Component {
             <Typography variant="subheading" style={{ marginBottom: 20 }}>
               Filtros selecionados
             </Typography>
-            {selectedCategories.map(category => {
-              console.log('category:', category)
-              return (
-                <Typography key={category.id} variant="body1">
-                  {fullName(list, category, category.name)}
-                </Typography>
-              )
-            })}
-            <Button
-              style={{ marginTop: 20 }}
-              variant="outlined"
-              onClick={filters.actions.reset}
-            >
-              Limpar filtros
-            </Button>
+            <SelectedCategories list={list} selected={selectedCategories} />
+            <CleanButton handleClick={filters.actions.reset} />
           </div>
         )}
         {list.map(renderCategory(props))}
