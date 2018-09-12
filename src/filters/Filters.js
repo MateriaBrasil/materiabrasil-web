@@ -9,13 +9,6 @@ export default connect(
   dispatch => ({ actions: bindActionCreators(actions, dispatch) }),
 )(
   class extends Component {
-    constructor(props) {
-      super(props)
-
-      const { actions, list } = props
-      actions.setCategories(list)
-    }
-
     render() {
       const { render } = this.props
 

@@ -3,6 +3,11 @@
 exports[`renders correctly 1`] = `
 <form
   onSubmit={[Function]}
+  style={
+    Object {
+      "marginBottom": 10,
+    }
+  }
 >
   <div
     className="MuiGrid-container-1"

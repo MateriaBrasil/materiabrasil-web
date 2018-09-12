@@ -13,7 +13,7 @@ import CategoryChildren from './CategoryChildren'
 export const isPresent = negate(isEmpty)
 
 export default props => category => {
-  const { materialCategories, parent, forFilters, filters = {} } = props
+  const { materialCategories, parent, filters = {} } = props
 
   const materialCategory = find(
     materialCategories,
@@ -42,7 +42,7 @@ export default props => category => {
 
   return isPresent(category.children) ? (
     <CategoryChildren key={category.id} {...props} category={category} />
-  ) : forFilters ? (
+  ) : filters.selectedCategories ? (
     <Checkbox {...childProps} action={action} checked={checked} />
   ) : (
     <Component {...childProps} />

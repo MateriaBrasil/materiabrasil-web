@@ -28,6 +28,10 @@ jest.mock('categories/list/render', () => props => list => (
   </div>
 ))
 
+jest.mock('filters/Filters', () => ({ render, ...props }) => (
+  <div {...props}>Filters - {render(props)}</div>
+))
+
 const props = { bar: 'foo' }
 const routeProps = {
   history: jest.fn(),

@@ -1,7 +1,4 @@
-export const setCategories = categories => ({
-  type: '@filters/SET_CATEGORIES',
-  categories,
-})
+export const reset = () => ({ type: '@filters/RESET' })
 
 export const selectCategory = category => ({
   type: '@filters/SELECT_CATEGORY',

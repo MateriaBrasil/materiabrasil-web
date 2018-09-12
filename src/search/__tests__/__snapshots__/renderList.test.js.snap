@@ -1,22 +1,47 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`with term renders correctly 1`] = `
-<div
-  className="MuiGrid-container-1"
->
+<div>
+  Filters - 
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-3-69"
+    className="MuiGrid-container-1 MuiGrid-spacing-xs-40-26"
   >
     <div
-      autoFocus={true}
-      history={[Function]}
-      term="foo-term"
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-3-69"
     >
-      Search
+      <div
+        autoFocus={true}
+        history={[Function]}
+        term="foo-term"
+      >
+        Search
+      </div>
+      <div
+        name="categories"
+        render={[Function]}
+      >
+        List - 
+        <div
+          bar="foo"
+          history={[Function]}
+          list={
+            Array [
+              Object {
+                "foo": "bar",
+              },
+            ]
+          }
+        >
+          renderCategoriesList
+        </div>
+         -
+      </div>
     </div>
     <div
-      name="categories"
+      name="searches"
+      path="/search?term=foo-term"
       render={[Function]}
+      renderError={[Function]}
     >
       List - 
       <div
@@ -29,66 +54,69 @@ exports[`with term renders correctly 1`] = `
             },
           ]
         }
+        match={
+          Object {
+            "params": Object {
+              "term": "foo-term",
+            },
+          }
+        }
       >
-        renderCategoriesList
+        renderList
       </div>
        -
-    </div>
-  </div>
-  <div
-    name="searches"
-    path="/search?term=foo-term"
-    render={[Function]}
-    renderError={[Function]}
-  >
-    List - 
-    <div
-      bar="foo"
-      history={[Function]}
-      list={
-        Array [
-          Object {
-            "foo": "bar",
-          },
-        ]
-      }
-      match={
-        Object {
-          "params": Object {
-            "term": "foo-term",
-          },
-        }
-      }
-    >
-      renderList
-    </div>
-     -
-    <div
-      color="default"
-    >
-      foo-error
+      <div
+        color="default"
+      >
+        foo-error
+      </div>
     </div>
   </div>
 </div>
 `;
 
 exports[`without term renders correctly 1`] = `
-<div
-  className="MuiGrid-container-1"
->
+<div>
+  Filters - 
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-3-69"
+    className="MuiGrid-container-1 MuiGrid-spacing-xs-40-26"
   >
     <div
-      autoFocus={true}
-      history={[Function]}
-      term=""
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-3-69"
     >
-      Search
+      <div
+        autoFocus={true}
+        history={[Function]}
+        term=""
+      >
+        Search
+      </div>
+      <div
+        name="categories"
+        render={[Function]}
+      >
+        List - 
+        <div
+          bar="foo"
+          history={[Function]}
+          list={
+            Array [
+              Object {
+                "foo": "bar",
+              },
+            ]
+          }
+        >
+          renderCategoriesList
+        </div>
+         -
+      </div>
     </div>
     <div
-      name="categories"
+      name="searches"
+      path="/search?term="
       render={[Function]}
+      renderError={[Function]}
     >
       List - 
       <div
@@ -101,44 +129,22 @@ exports[`without term renders correctly 1`] = `
             },
           ]
         }
+        match={
+          Object {
+            "params": Object {
+              "term": "",
+            },
+          }
+        }
       >
-        renderCategoriesList
+        renderList
       </div>
        -
-    </div>
-  </div>
-  <div
-    name="searches"
-    path="/search?term="
-    render={[Function]}
-    renderError={[Function]}
-  >
-    List - 
-    <div
-      bar="foo"
-      history={[Function]}
-      list={
-        Array [
-          Object {
-            "foo": "bar",
-          },
-        ]
-      }
-      match={
-        Object {
-          "params": Object {
-            "term": "",
-          },
-        }
-      }
-    >
-      renderList
-    </div>
-     -
-    <div
-      color="default"
-    >
-      foo-error
+      <div
+        color="default"
+      >
+        foo-error
+      </div>
     </div>
   </div>
 </div>

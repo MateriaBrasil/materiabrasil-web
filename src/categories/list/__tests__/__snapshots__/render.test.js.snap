@@ -1,60 +1,51 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`render correctly 1`] = `
-Array [
+<div>
+  Filters - 
   <div
     expandedCategories={Array []}
+    filters={Object {}}
     history={
-        Object {
-            "push": [Function],
-          }
+      Object {
+        "push": [Function],
+      }
     }
     list={
-        Array [
-            Object {
-              "id": 123,
-              "name": "foo",
-            },
-            Object {
-              "id": 321,
-              "name": "bar",
-            },
-          ]
+      Array [
+        Object {
+          "id": 123,
+          "name": "foo",
+        },
+        Object {
+          "id": 321,
+          "name": "bar",
+        },
+      ]
     }
     onChangeExpanded={[Function]}
-    rootCategory={
-        Object {
-            "id": 123,
-            "name": "foo",
-          }
-    }
-/>,
+  />
   <div
     expandedCategories={Array []}
+    filters={Object {}}
     history={
-        Object {
-            "push": [Function],
-          }
+      Object {
+        "push": [Function],
+      }
     }
     list={
-        Array [
-            Object {
-              "id": 123,
-              "name": "foo",
-            },
-            Object {
-              "id": 321,
-              "name": "bar",
-            },
-          ]
+      Array [
+        Object {
+          "id": 123,
+          "name": "foo",
+        },
+        Object {
+          "id": 321,
+          "name": "bar",
+        },
+      ]
     }
     onChangeExpanded={[Function]}
-    rootCategory={
-        Object {
-            "id": 321,
-            "name": "bar",
-          }
-    }
-/>,
-]
+  />
+</div>
 `;
