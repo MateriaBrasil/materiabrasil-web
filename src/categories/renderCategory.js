@@ -41,7 +41,6 @@ const renderCategory = props => category => {
 
   const filterAction = checked ? unselectCategory : selectCategory
   const action = () => filterAction(category)
-
   return isPresent(category.children) ? (
     category.parentId ? (
       <CategoryChildren key={category.id} {...props} category={category} />
