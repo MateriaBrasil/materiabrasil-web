@@ -3,10 +3,10 @@ import { List } from 'croods'
 
 import Dialog from 'materials/Dialog'
 import renderList from './renderList'
-import ToggleExpandController from './ToggleExpandController'
+import Expander from './Expander'
 
 export default props => (
-  <ToggleExpandController
+  <Expander
     {...props}
     render={controllerProps => (
       <Dialog {...controllerProps} title="Editar informações técnicas">

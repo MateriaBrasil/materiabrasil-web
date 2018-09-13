@@ -2,7 +2,7 @@ import React from 'react'
 import { List } from 'croods'
 
 import Error from 'Error'
-import CategoryQueryFilter from 'filters/CategoryQueryFilter'
+import Filters from 'categories/Filters'
 import renderList from './list/render'
 
 export default props => routeProps => {
@@ -10,7 +10,7 @@ export default props => routeProps => {
   const searchProps = { term, autoFocus: true }
 
   return (
-    <CategoryQueryFilter
+    <Filters
       {...props}
       {...routeProps}
       searchProps={searchProps}

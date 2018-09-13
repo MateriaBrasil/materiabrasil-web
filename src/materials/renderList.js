@@ -1,12 +1,12 @@
 import React from 'react'
 import { List } from 'croods'
 
-import CategoryQueryFilter from 'filters/CategoryQueryFilter'
+import Filters from 'categories/Filters'
 import renderList from './list/render'
 
 export default props => routeProps => {
   return (
-    <CategoryQueryFilter
+    <Filters
       {...props}
       {...routeProps}
       render={({ categories }) => (

@@ -5,10 +5,10 @@ import isEmpty from 'lodash/isEmpty'
 import renderCategory from 'categories/renderCategory'
 import SelectedCategories from './SelectedCategories'
 import CleanButton from './CleanButton'
-import ToggleExpandController from '../ToggleExpandController'
+import Expander from '../Expander'
 
 export default props => (
-  <ToggleExpandController
+  <Expander
     {...props}
     render={controllerProps => {
       const { list, filters } = controllerProps

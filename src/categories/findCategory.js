@@ -10,8 +10,9 @@ const findCategory = (categories, categoryId) => {
     return category
   }
 
-  const children = flatten(map(categories, category => category.children))
-  return isEmpty(children) ? null : findCategory(children, categoryId)
+  const children = flatten(map(categories, 'children'))
+  return isEmpty(children) ? null : findCategory(children, categoryId
+)
 }
 
 export default findCategory
