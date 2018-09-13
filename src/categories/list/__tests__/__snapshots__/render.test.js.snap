@@ -90,6 +90,7 @@ exports[`render correctly 1`] = `
       ]
     }
     onChangeExpanded={[Function]}
+    render={[Function]}
   />
   <div
     expandedCategories={Array []}
@@ -124,6 +125,7 @@ exports[`render correctly 1`] = `
       ]
     }
     onChangeExpanded={[Function]}
+    render={[Function]}
   />
 </div>
 `;

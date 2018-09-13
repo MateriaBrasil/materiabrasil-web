@@ -18,7 +18,7 @@ export default props => (
             'categories[]': map(selectedCategories, ({ id }) => id),
           })}`
 
-      const { history, render, searchProps = {} } = props
+      const { history, render, searchProps } = props
 
       return (
         <Grid container spacing={40}>
