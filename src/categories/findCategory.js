@@ -11,8 +11,7 @@ const findCategory = (categories, categoryId) => {
   }
 
   const children = flatten(map(categories, 'children'))
-  return isEmpty(children) ? null : findCategory(children, categoryId
-)
+  return isEmpty(children) ? null : findCategory(children, categoryId)
 }
 
 export default findCategory
