@@ -4,6 +4,7 @@ import negate from 'lodash/negate'
 
 import ParentCategory from './ParentCategory'
 import ChildrenCategory from './ChildrenCategory'
+
 export const isPresent = negate(isEmpty)
 
 export default props => category => {

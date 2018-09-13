@@ -31,6 +31,20 @@ exports[`with term renders correctly 1`] = `
               },
             ]
           }
+          match={
+            Object {
+              "params": Object {
+                "term": "foo-term",
+              },
+            }
+          }
+          render={[Function]}
+          searchProps={
+            Object {
+              "autoFocus": true,
+              "term": "foo-term",
+            }
+          }
         >
           renderCategoriesList
         </div>
@@ -105,6 +119,20 @@ exports[`without term renders correctly 1`] = `
                 "foo": "bar",
               },
             ]
+          }
+          match={
+            Object {
+              "params": Object {
+                "term": "",
+              },
+            }
+          }
+          render={[Function]}
+          searchProps={
+            Object {
+              "autoFocus": true,
+              "term": "",
+            }
           }
         >
           renderCategoriesList
