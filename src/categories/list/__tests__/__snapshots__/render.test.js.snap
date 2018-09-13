@@ -1,60 +1,131 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`render correctly 1`] = `
-Array [
+<div>
+  Filters -
+  <div
+    style={
+      Object {
+        "marginBottom": 30,
+      }
+    }
+  >
+    <h3
+      className="MuiTypography-root-1 MuiTypography-subheading-8"
+      style={
+        Object {
+          "marginBottom": 20,
+        }
+      }
+    >
+      Filtros selecionados
+    </h3>
+    <p
+      className="MuiTypography-root-1 MuiTypography-body1-10"
+    >
+      foo-name
+    </p>
+    <button
+      className="MuiButtonBase-root-41 MuiButton-root-25 MuiButton-outlined-29"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "marginTop": 20,
+        }
+      }
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-26"
+      >
+        Limpar filtros
+      </span>
+      <span
+        className="MuiTouchRipple-root-44"
+      />
+    </button>
+  </div>
   <div
     expandedCategories={Array []}
-    history={
-        Object {
-            "push": [Function],
-          }
-    }
-    list={
-        Array [
-            Object {
-              "id": 123,
-              "name": "foo",
-            },
-            Object {
-              "id": 321,
-              "name": "bar",
-            },
-          ]
-    }
-    onChangeExpanded={[Function]}
-    rootCategory={
-        Object {
+    filters={
+      Object {
+        "actions": Object {
+          "reset": [Function],
+        },
+        "selectedCategories": Array [
+          Object {
             "id": 123,
-            "name": "foo",
-          }
+            "name": "foo-name",
+          },
+        ],
+      }
     }
-/>,
-  <div
-    expandedCategories={Array []}
     history={
-        Object {
-            "push": [Function],
-          }
+      Object {
+        "push": [Function],
+      }
     }
     list={
-        Array [
-            Object {
-              "id": 123,
-              "name": "foo",
-            },
-            Object {
-              "id": 321,
-              "name": "bar",
-            },
-          ]
+      Array [
+        Object {
+          "id": 123,
+          "name": "foo",
+        },
+        Object {
+          "id": 321,
+          "name": "bar",
+        },
+      ]
     }
     onChangeExpanded={[Function]}
-    rootCategory={
-        Object {
-            "id": 321,
-            "name": "bar",
-          }
+    render={[Function]}
+  />
+  <div
+    expandedCategories={Array []}
+    filters={
+      Object {
+        "actions": Object {
+          "reset": [Function],
+        },
+        "selectedCategories": Array [
+          Object {
+            "id": 123,
+            "name": "foo-name",
+          },
+        ],
+      }
     }
-/>,
-]
+    history={
+      Object {
+        "push": [Function],
+      }
+    }
+    list={
+      Array [
+        Object {
+          "id": 123,
+          "name": "foo",
+        },
+        Object {
+          "id": 321,
+          "name": "bar",
+        },
+      ]
+    }
+    onChangeExpanded={[Function]}
+    render={[Function]}
+  />
+</div>
 `;

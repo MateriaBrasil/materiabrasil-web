@@ -20,7 +20,10 @@ export default reduxForm({ form: 'search', destroyOnUnmount: false })(
       const { handleSubmit, history, autoFocus } = this.props
 
       return (
-        <form onSubmit={handleSubmit(onSubmit(history))}>
+        <form
+          onSubmit={handleSubmit(onSubmit(history))}
+          style={{ marginBottom: 10 }}
+        >
           <Grid container spacing={0}>
             <Grid item xs>
               <TextField

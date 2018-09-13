@@ -12,6 +12,7 @@ exports[`render correctly 1`] = `
     }
   }
   onChangeExpanded={[Function]}
+  render={[Function]}
   title="Editar informações técnicas"
 >
   Dialog - 
@@ -32,6 +33,7 @@ exports[`render correctly 1`] = `
         }
       }
       onChangeExpanded={[Function]}
+      render={[Function]}
     >
       renderList
     </div>

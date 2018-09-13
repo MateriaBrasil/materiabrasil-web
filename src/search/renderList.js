@@ -1,32 +1,27 @@
 import React from 'react'
 import { List } from 'croods'
-import Grid from '@material-ui/core/Grid'
-
-import renderCategoriesList from 'categories/list/render'
 
 import Error from 'Error'
-import Search from './Search'
+import Filters from 'categories/Filters'
 import renderList from './list/render'
 
 export default props => routeProps => {
   const { term } = routeProps.match.params
-  const { history } = routeProps
+  const searchProps = { term, autoFocus: true }
 
   return (
-    <Grid container spacing={0}>
-      <Grid item xs={12} lg={3}>
-        <Search term={term} history={history} autoFocus />
+    <Filters
+      {...props}
+      {...routeProps}
+      searchProps={searchProps}
+      render={({ categories }) => (
         <List
-          name="categories"
-          render={renderCategoriesList({ ...props, history })}
+          name="searches"
+          path={`/search?term=${term || ''}&${categories}`}
+          render={renderList({ ...props, ...routeProps })}
+          renderError={error => <Error color="default">{error}</Error>}
         />
-      </Grid>
-      <List
-        name="searches"
-        path={`/search?term=${term || ''}`}
-        render={renderList({ ...props, ...routeProps })}
-        renderError={error => <Error color="default">{error}</Error>}
-      />
-    </Grid>
+      )}
+    />
   )
 }

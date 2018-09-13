@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
+import isEmpty from 'lodash/isEmpty'
 import Grid from '@material-ui/core/Grid'
 
+import Error from 'Error'
 import renderIcons from './renderIcons'
 import Card from './Card'
 import './List.css'
@@ -18,6 +20,11 @@ export default class extends Component {
 
   render() {
     const { list, currentUser } = this.props
+
+    if (isEmpty(list)) {
+      return <Error color="default">Nenhum material encontrado.</Error>
+    }
+
     return (
       <Grid item xs={12} lg={9} className="materials-list-grid">
         <Grid container spacing={8}>

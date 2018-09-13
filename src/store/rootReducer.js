@@ -2,6 +2,8 @@ import { combineReducers } from 'redux'
 import { reducer as form } from 'redux-form'
 import { createReducer } from 'croods'
 
+import filters from 'filters/reducer'
+
 const reducers = {
   form,
   currentUser: createReducer('currentUser'),
@@ -18,6 +20,7 @@ const reducers = {
   addresses: createReducer('addresses'),
   categories: createReducer('categories'),
   materialCategories: createReducer('materialCategories'),
+  filters,
 }
 
 const rootReducer = combineReducers(reducers)

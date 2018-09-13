@@ -1,29 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div
-  className="MuiGrid-container-1 MuiGrid-spacing-xs-16-23"
->
+<div>
+  Filters -
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-3-69"
+    className="MuiGrid-container-1 MuiGrid-spacing-xs-40-26"
   >
     <div
-      history={
-        Object {
-          "push": [Function],
-        }
-      }
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-3-69"
     >
-      Search
+      <div
+        history={
+          Object {
+            "push": [Function],
+          }
+        }
+      >
+        Search
+      </div>
+      <div
+        name="categories"
+        render={[Function]}
+      />
     </div>
     <div
-      name="categories"
+      name="materials"
+      path="/materials?categories%5B%5D=123"
       render={[Function]}
     />
   </div>
-  <div
-    name="materials"
-    render={[Function]}
-  />
 </div>
 `;

@@ -1,35 +1,33 @@
-import { Component } from 'react'
+import React, { Fragment } from 'react'
+import Typography from '@material-ui/core/Typography'
+import isEmpty from 'lodash/isEmpty'
 
 import renderCategory from 'categories/renderCategory'
-import handleChangeExpanded from 'categories/handleChangeExpanded'
+import SelectedCategories from './SelectedCategories'
+import CleanButton from './CleanButton'
+import Expander from '../Expander'
 
-export default class extends Component {
-  constructor(props) {
-    super(props)
-    this.handleSelect = this.handleSelect.bind(this)
-    this.state = { expandedCategories: [] }
-    this.onChangeExpanded = handleChangeExpanded.bind(this)
-  }
+export default props => (
+  <Expander
+    {...props}
+    render={controllerProps => {
+      const { list, filters } = controllerProps
+      const { selectedCategories } = filters
 
-  handleSelect(category) {
-    const { history } = this.props
-    return () => {
-      history.push({ search: `selected=${category.id}` })
-    }
-  }
-
-  render() {
-    const props = {
-      ...this.props,
-      ...this.state,
-      onChangeExpanded: this.onChangeExpanded,
-    }
-
-    const renderChild = category =>
-      renderCategory({ ...props, rootCategory: category }, this.handleSelect)(
-        category,
+      return (
+        <Fragment>
+          {!isEmpty(selectedCategories) && (
+            <div style={{ marginBottom: 30 }}>
+              <Typography variant="subheading" style={{ marginBottom: 20 }}>
+                Filtros selecionados
+              </Typography>
+              <SelectedCategories list={list} selected={selectedCategories} />
+              <CleanButton handleClick={filters.actions.reset} />
+            </div>
+          )}
+          {list.map(renderCategory(controllerProps))}
+        </Fragment>
       )
-
-    return this.props.list.map(renderChild)
-  }
-}
+    }}
+  />
+)
