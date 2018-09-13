@@ -17,7 +17,6 @@ export default props => {
   const expanded = includes(expandedCategories, id)
   return category.parentId ? (
     <ExpansionPanel
-      key={category.id}
       style={{ width: '100%', flex: 1 }}
       expanded={expanded}
       onChange={onChangeExpanded(id)}
@@ -38,7 +37,7 @@ export default props => {
       </ExpansionPanelDetails>
     </ExpansionPanel>
   ) : (
-    <div key={category.id} style={{ marginBottom: 20 }}>
+    <div style={{ marginBottom: 20 }}>
       <Typography variant="headline" style={{ marginBottom: 20 }}>
         {category.name}
       </Typography>

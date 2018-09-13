@@ -9,8 +9,8 @@ export const isPresent = negate(isEmpty)
 
 export default props => category => {
   return isPresent(category.children) ? (
-    <ParentCategory {...props} category={category} />
+    <ParentCategory key={category.id} {...props} category={category} />
   ) : (
-    <ChildrenCategory {...props} category={category} />
+    <ChildrenCategory key={category.id} {...props} category={category} />
   )
 }
