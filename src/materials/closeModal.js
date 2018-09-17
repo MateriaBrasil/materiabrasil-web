@@ -1,1 +1,1 @@
-export default ({ id, history }) => () => history.push(`/${id}`)
+export default ({ id, history }) => () => history.goBack()
