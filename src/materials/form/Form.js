@@ -1,29 +1,26 @@
 import React from 'react'
 import { reduxForm } from 'redux-form'
-import Card from '@material-ui/core/Card'
-import CardContent from '@material-ui/core/CardContent'
 
 import Error from 'Error'
-import Submit from '../../form/Submit'
-import SingleColumn from '../../SingleColumn'
 import Fields from './Fields'
+import Dialog from '../Dialog'
 
 export default reduxForm({ form: 'materials' })(props => {
   const { handleSubmit, onSubmit, error: reduxFormError, createError } = props
-  const { submitting, buttonText } = props
+  const { valid, submitting, buttonText } = props
   const error = reduxFormError || createError
 
   return (
-    <SingleColumn>
-      <Card>
-        <CardContent>
-          <form onSubmit={handleSubmit(onSubmit)}>
-            <Fields />
-            <Error>{error}</Error>
-            <Submit callToAction={buttonText} disabled={submitting} />
-          </form>
-        </CardContent>
-      </Card>
-    </SingleColumn>
+    <Dialog
+      {...props}
+      title={buttonText}
+      callToAction={buttonText}
+      disabled={!valid || submitting}
+    >
+      <form onSubmit={handleSubmit(onSubmit)}>
+        <Fields />
+        <Error>{error}</Error>
+      </form>
+    </Dialog>
   )
 })

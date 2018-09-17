@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react'
+import Link from 'react-router-dom/Link'
 import Grid from '@material-ui/core/Grid'
 import Card from '@material-ui/core/Card'
+import Button from '@material-ui/core/Button'
 import CardContent from '@material-ui/core/CardContent'
 
 import SignUpLink from '../../auth/SignUpLink'
@@ -10,7 +12,8 @@ import translateReach from './translateReach'
 export default props => {
   const { current, currentUser, location } = props
   const { pathname } = location
-  const { description, email, phone, reach } = current
+  const { id, description, email, phone, reach } = current
+
   return (
     <Grid item xs={12} lg={8}>
       <Card>
@@ -37,6 +40,15 @@ export default props => {
                 value={phone}
                 style={{ marginTop: 16 }}
               />
+              <Link to={`/suppliers/${id}/messages/new`}>
+                <Button
+                  variant="raised"
+                  color="primary"
+                  style={{ marginTop: 16 }}
+                >
+                  Enviar mensagem
+                </Button>
+              </Link>
             </Fragment>
           ) : (
             <div style={{ marginTop: 16 }}>

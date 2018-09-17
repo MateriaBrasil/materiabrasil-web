@@ -20,6 +20,7 @@ const reducers = {
   addresses: createReducer('addresses'),
   categories: createReducer('categories'),
   materialCategories: createReducer('materialCategories'),
+  messages: createReducer('messages'),
   filters,
 }
 

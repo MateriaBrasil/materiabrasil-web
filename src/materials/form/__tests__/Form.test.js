@@ -6,6 +6,8 @@ import createStore from '../../../store/createStore'
 
 import Form from '../Form'
 
+jest.mock('../../Dialog', () => props => <div {...props} />)
+
 it('renders correctly', () => {
   const reducer = () => ({})
   const store = createStore(reducer)
