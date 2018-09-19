@@ -1,4 +1,5 @@
 import { createMuiTheme } from '@material-ui/core/styles'
+import fill from 'lodash/fill'
 
 export default createMuiTheme({
   palette: {
@@ -12,6 +13,7 @@ export default createMuiTheme({
       main: '#ea6740',
     },
   },
+  shadows: fill(Array(25), `0 0px 1px #999`),
   overrides: {
     MuiAppBar: {
       root: {
