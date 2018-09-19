@@ -3,7 +3,7 @@
 exports[`renders correctly 1`] = `
 <div
   name="comments"
-  parentId="bar"
+  parentId="foo-bar"
   path="/foo/bar/comments"
   render={[Function]}
 >

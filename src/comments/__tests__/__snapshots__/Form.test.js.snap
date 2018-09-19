@@ -16,7 +16,7 @@ exports[`renders correctly 1`] = `
         data-shrink={false}
         htmlFor="name-error"
       >
-        Deixe seu comentário
+        Escrever comentário
       </label>
       <div
         className="MuiInput-root-15 MuiInput-formControl-16 MuiInput-multiline-21 MuiInput-underline-19"
@@ -130,7 +130,7 @@ exports[`with error renders correctly 1`] = `
         data-shrink={false}
         htmlFor="name-error"
       >
-        Deixe seu comentário
+        Escrever comentário
       </label>
       <div
         className="MuiInput-root-15 MuiInput-formControl-16 MuiInput-multiline-21 MuiInput-underline-19"

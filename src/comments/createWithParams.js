@@ -1,6 +1,11 @@
-export default (create, id) => params =>
+const types = {
+  materials: 'Material',
+  topics: 'Topic',
+}
+
+export default (create, { id, type }) => params =>
   create({
     commentable_id: parseInt(id, 10),
-    commentable_type: 'Material',
+    commentable_type: types[type],
     ...params,
   })

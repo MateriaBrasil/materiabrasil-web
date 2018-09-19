@@ -8,7 +8,7 @@ export default props => {
 
   return (
     <List
-      parentId={id}
+      parentId={`${type}-${id}`}
       name="comments"
       path={`/${type}/${id}/comments`}
       render={renderList(props)}

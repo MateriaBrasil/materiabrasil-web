@@ -8,19 +8,19 @@ import Submit from '../form/Submit'
 
 export default reduxForm({ form: 'comments' })(props => {
   const { handleSubmit, onSubmit, error: reduxFormError, createError } = props
-  const { submitting } = props
+  const { submitting, term = 'comentário' } = props
   const error = reduxFormError || createError
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <TextField
         name="text"
-        label="Deixe seu comentário"
+        label={`Escrever ${term}`}
         type="text"
         multiline
         validate={[required()]}
       />
-      <Submit callToAction="Enviar comentário" disabled={submitting} />
+      <Submit callToAction={`Enviar ${term}`} disabled={submitting} />
       <Error>{error}</Error>
     </form>
   )
