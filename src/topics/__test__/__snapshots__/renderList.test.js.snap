@@ -2,7 +2,15 @@
 
 exports[`renders correctly 1`] = `
 <div
-  name="topics"
-  render={[Function]}
-/>
+  style={
+    Object {
+      "textAlign": "right",
+    }
+  }
+>
+  <div
+    name="topics"
+    render={[Function]}
+  />
+</div>
 `;

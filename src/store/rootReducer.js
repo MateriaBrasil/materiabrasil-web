@@ -21,7 +21,7 @@ const reducers = {
   categories: createReducer('categories'),
   materialCategories: createReducer('materialCategories'),
   messages: createReducer('messages'),
-  topics: createReducer('topics'),
+  topics: createReducer('topics', { addCreatedToTop: true }),
   filters,
 }
 

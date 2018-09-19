@@ -13,7 +13,7 @@ exports[`renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
-      to="/users/111"
+      to="/forum/123"
     >
       <div
         className="MuiButtonBase-root-43 MuiListItem-root-33 MuiListItem-default-36 MuiListItem-gutters-40 MuiListItem-button-41"
@@ -58,7 +58,7 @@ exports[`renders correctly 1`] = `
           <p
             className="MuiTypography-root-61 MuiTypography-body1-70 MuiTypography-colorTextSecondary-83 MuiListItemText-secondary-59"
           >
-            Foo Bar
+            Criado por Foo Bar há segundos atrás
           </p>
         </div>
         <span
@@ -72,7 +72,7 @@ exports[`renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
-      to="/users/222"
+      to="/forum/321"
     >
       <div
         className="MuiButtonBase-root-43 MuiListItem-root-33 MuiListItem-default-36 MuiListItem-gutters-40 MuiListItem-button-41"
@@ -117,7 +117,7 @@ exports[`renders correctly 1`] = `
           <p
             className="MuiTypography-root-61 MuiTypography-body1-70 MuiTypography-colorTextSecondary-83 MuiListItemText-secondary-59"
           >
-            Bar Foo
+            Criado por Bar Foo há segundos atrás
           </p>
         </div>
         <span

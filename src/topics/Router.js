@@ -2,11 +2,14 @@ import React, { Fragment } from 'react'
 import Route from 'react-router-dom/Route'
 
 import renderList from './renderList'
+import renderNew from './renderNew'
 
 export default props => {
   return (
     <Fragment>
-      <Route path="/forum" render={renderList(props)} />
+      <Route exact path="/forum" render={renderList(props)} />
+      <Route path="/forum/new" render={renderList(props)} />
+      <Route path="/forum/new" render={renderNew(props)} />
     </Fragment>
   )
 }

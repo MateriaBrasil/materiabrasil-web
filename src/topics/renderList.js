@@ -1,8 +1,23 @@
 import React from 'react'
 import { List } from 'croods'
+import Button from '@material-ui/core/Button'
+import Link from 'react-router-dom/Link'
 
 import render from './list/render'
 
 export default props => routeProps => {
-  return <List name="topics" render={render(props)} />
+  const { currentUser } = props
+
+  return (
+    <div style={{ textAlign: 'right' }}>
+      {currentUser && (
+        <Link to="/forum/new">
+          <Button variant="raised" color="primary" style={{ marginBottom: 24 }}>
+            Iniciar conversa
+          </Button>
+        </Link>
+      )}
+      <List name="topics" render={render(props)} />
+    </div>
+  )
 }
