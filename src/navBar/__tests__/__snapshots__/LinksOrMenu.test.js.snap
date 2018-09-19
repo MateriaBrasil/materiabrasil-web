@@ -12,6 +12,29 @@ exports[`when dont match renders correctly 1`] = `
         "textDecoration": "none",
       }
     }
+    to="/forum"
+  >
+    Link - 
+    <h3
+      className="MuiTypography-root-35 MuiTypography-subheading-42 MuiTypography-colorInherit-54"
+      style={
+        Object {
+          "alignSelf": "center",
+          "display": "inline-block",
+        }
+      }
+    >
+      Fórum
+    </h3>
+  </div>
+  <div
+    className="navbar-link"
+    style={
+      Object {
+        "color": "black",
+        "textDecoration": "none",
+      }
+    }
     to={
       Object {
         "pathname": "/auth/sign-up",
@@ -115,6 +138,48 @@ Array [
     open={false}
 >
     Menu - 
+    <li
+        className="MuiButtonBase-root-7 MuiListItem-root-25 MuiListItem-default-28 MuiListItem-gutters-32 MuiListItem-button-33 MuiMenuItem-root-23"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="menuitem"
+        tabIndex={-1}
+    >
+        <div
+            className="navbar-link"
+            style={
+                Object {
+                    "color": "black",
+                    "textDecoration": "none",
+                  }
+            }
+            to="/forum"
+        >
+            Link - 
+            <h3
+                className="MuiTypography-root-35 MuiTypography-subheading-42 MuiTypography-colorInherit-54"
+                style={
+                    Object {
+                        "alignSelf": "center",
+                        "display": "inline-block",
+                      }
+                }
+            >
+                Fórum
+            </h3>
+        </div>
+        <span
+            className="MuiTouchRipple-root-16"
+        />
+    </li>
     <li
         className="MuiButtonBase-root-7 MuiListItem-root-25 MuiListItem-default-28 MuiListItem-gutters-32 MuiListItem-button-33 MuiMenuItem-root-23"
         onBlur={[Function]}

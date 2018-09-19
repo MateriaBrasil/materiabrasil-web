@@ -7,6 +7,7 @@ import renderAuth from './auth/render'
 import renderUsers from './users/render'
 import renderSearch from './search/render'
 import renderSuppliers from './suppliers/render'
+import renderTopics from './topics/render'
 
 export default props => (
   <Switch>
@@ -15,6 +16,7 @@ export default props => (
     <Route path="/profile" render={renderUsers(props)} />
     <Route path="/search" render={renderSearch(props)} />
     <Route path="/suppliers" render={renderSuppliers(props)} />
+    <Route path="/forum" render={renderTopics(props)} />
     <Route path="/" render={renderMaterials(props)} />
   </Switch>
 )

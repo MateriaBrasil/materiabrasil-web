@@ -9,6 +9,32 @@ exports[`renders correctly 1`] = `
   open={undefined}
 >
   Menu - 
+  <div>
+    MenuItem - 
+    <div
+      className="navbar-link"
+      style={
+        Object {
+          "color": "black",
+          "textDecoration": "none",
+        }
+      }
+      to="/forum"
+    >
+      Link - 
+      <h3
+        className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+        style={
+          Object {
+            "alignSelf": "center",
+            "display": "inline-block",
+          }
+        }
+      >
+        Fórum
+      </h3>
+    </div>
+  </div>
   <div
     onClick={undefined}
   >
@@ -64,6 +90,32 @@ exports[`with current user renders correctly 1`] = `
   open={undefined}
 >
   Menu - 
+  <div>
+    MenuItem - 
+    <div
+      className="navbar-link"
+      style={
+        Object {
+          "color": "black",
+          "textDecoration": "none",
+        }
+      }
+      to="/forum"
+    >
+      Link - 
+      <h3
+        className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+        style={
+          Object {
+            "alignSelf": "center",
+            "display": "inline-block",
+          }
+        }
+      >
+        Fórum
+      </h3>
+    </div>
+  </div>
   <div>
     MenuItem - 
     <div
@@ -136,6 +188,32 @@ exports[`with current user with suppliers renders correctly 1`] = `
   open={undefined}
 >
   Menu - 
+  <div>
+    MenuItem - 
+    <div
+      className="navbar-link"
+      style={
+        Object {
+          "color": "black",
+          "textDecoration": "none",
+        }
+      }
+      to="/forum"
+    >
+      Link - 
+      <h3
+        className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+        style={
+          Object {
+            "alignSelf": "center",
+            "display": "inline-block",
+          }
+        }
+      >
+        Fórum
+      </h3>
+    </div>
+  </div>
   <div>
     MenuItem - 
     <div

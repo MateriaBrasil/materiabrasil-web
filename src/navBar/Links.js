@@ -12,10 +12,11 @@ export default props => {
 
   return (
     <div className="navbar-links">
+      <Link to="/forum" text="Fórum" />
       {currentUser ? (
         <Fragment>
           <SupplierLink suppliers={suppliers} />
-          <Link to={`/profile`} text={name} />
+          <Link to="/profile" text={name} />
           <SignOut {...props} />
         </Fragment>
       ) : (

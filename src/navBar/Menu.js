@@ -23,13 +23,16 @@ export default props => {
       open={open}
       onClose={handleClose}
     >
+      <MenuItem>
+        <Link to="/forum" text="Fórum" />
+      </MenuItem>
       {currentUser ? (
         <Fragment>
           <MenuItem>
             <SupplierLink suppliers={suppliers} />
           </MenuItem>
           <MenuItem>
-            <Link to={`/profile`} text={name} />
+            <Link to="/profile" text={name} />
           </MenuItem>
           <MenuItem>
             <SignOut {...props} />

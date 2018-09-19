@@ -12,6 +12,29 @@ exports[`renders correctly 1`] = `
         "textDecoration": "none",
       }
     }
+    to="/forum"
+  >
+    Link - 
+    <h3
+      className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+      style={
+        Object {
+          "alignSelf": "center",
+          "display": "inline-block",
+        }
+      }
+    >
+      Fórum
+    </h3>
+  </div>
+  <div
+    className="navbar-link"
+    style={
+      Object {
+        "color": "black",
+        "textDecoration": "none",
+      }
+    }
     to={
       Object {
         "pathname": "/auth/sign-up",
@@ -44,6 +67,29 @@ exports[`with current user renders correctly 1`] = `
 <div
   className="navbar-links"
 >
+  <div
+    className="navbar-link"
+    style={
+      Object {
+        "color": "black",
+        "textDecoration": "none",
+      }
+    }
+    to="/forum"
+  >
+    Link - 
+    <h3
+      className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+      style={
+        Object {
+          "alignSelf": "center",
+          "display": "inline-block",
+        }
+      }
+    >
+      Fórum
+    </h3>
+  </div>
   <div
     className="navbar-link"
     style={
@@ -102,6 +148,29 @@ exports[`with current user with suppliers renders correctly 1`] = `
 <div
   className="navbar-links"
 >
+  <div
+    className="navbar-link"
+    style={
+      Object {
+        "color": "black",
+        "textDecoration": "none",
+      }
+    }
+    to="/forum"
+  >
+    Link - 
+    <h3
+      className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+      style={
+        Object {
+          "alignSelf": "center",
+          "display": "inline-block",
+        }
+      }
+    >
+      Fórum
+    </h3>
+  </div>
   <div
     className="navbar-link"
     style={
