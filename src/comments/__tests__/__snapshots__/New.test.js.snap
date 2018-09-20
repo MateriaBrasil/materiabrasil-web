@@ -3,6 +3,7 @@
 exports[`renders correctly 1`] = `
 <div
   name="comments"
+  parentId="undefined-undefined"
   render={[Function]}
 >
   New - 
