@@ -1,5 +1,4 @@
 import React from 'react'
+import Redirect from 'react-router-dom/Redirect'
 
-import Created from './Created'
-
-export default props => () => <Created {...props} />
+export default props => ({ id }) => <Redirect to={`/forum/${id}`} />
