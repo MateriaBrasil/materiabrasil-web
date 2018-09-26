@@ -2,24 +2,36 @@ import filter from 'lodash/filter'
 
 const initialState = {
   list: [],
+  open: false,
 }
 
 export default function reducer(state = initialState, action = {}) {
   switch (action.type) {
-    case '@comparisons/RESET':
+    case '@comparison/RESET':
       return initialState
-    case '@comparisons/ADD':
+    case '@comparison/ADD':
       return {
         ...state,
         list: [
           ...filter(state.list, ({ id }) => id !== action.item.id),
           action.item,
         ],
+        open: state.open || state.list.length > 0,
       }
-    case '@comparisons/REMOVE':
+    case '@comparison/REMOVE':
       return {
         ...state,
         list: filter(state.list, ({ id }) => id !== action.item.id),
+      }
+    case '@comparison/OPEN':
+      return {
+        ...state,
+        open: true,
+      }
+    case '@comparison/CLOSE':
+      return {
+        ...state,
+        open: false,
       }
     default:
       return state
