@@ -1,7 +1,5 @@
 import React from 'react'
-import Comparisons from './comparisons/Comparisons'
-import renderComparisons from './renderComparisons'
+import Comparison from './comparisons/Comparison'
+import renderComparison from './renderComparison'
 
-export default authProps => (
-  <Comparisons render={renderComparisons(authProps)} />
-)
+export default authProps => <Comparison render={renderComparison(authProps)} />

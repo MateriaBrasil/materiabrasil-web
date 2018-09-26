@@ -4,26 +4,15 @@ exports[`renders correctly 1`] = `
 <div
   style={
     Object {
-      "marginBottom": 20,
+      "marginBottom": 22,
     }
   }
 >
-  <div
-    style={
-      Object {
-        "marginBottom": 8,
-      }
-    }
+  <h2
+    className="MuiTypography-root-1 MuiTypography-title-7 MuiTypography-colorTextSecondary-23 MuiTypography-gutterBottom-18"
   >
-    <span
-      className="MuiTypography-root-1 MuiTypography-caption-11"
-    >
-      Fornecedor
-    </span>
-    <h3
-      className="MuiTypography-root-1 MuiTypography-subheading-8"
-    />
-  </div>
+    Fornecedor
+  </h2>
   <div
     pathname={undefined}
     text="para ver o contato do fornecedor."
@@ -37,26 +26,15 @@ exports[`with current user renders correctly 1`] = `
 <div
   style={
     Object {
-      "marginBottom": 20,
+      "marginBottom": 22,
     }
   }
 >
-  <div
-    style={
-      Object {
-        "marginBottom": 8,
-      }
-    }
+  <h2
+    className="MuiTypography-root-1 MuiTypography-title-7 MuiTypography-colorTextSecondary-23 MuiTypography-gutterBottom-18"
   >
-    <span
-      className="MuiTypography-root-1 MuiTypography-caption-11"
-    >
-      Fornecedor
-    </span>
-    <h3
-      className="MuiTypography-root-1 MuiTypography-subheading-8"
-    />
-  </div>
+    Fornecedor
+  </h2>
   <h3
     className="MuiTypography-root-1 MuiTypography-subheading-8"
     style={
