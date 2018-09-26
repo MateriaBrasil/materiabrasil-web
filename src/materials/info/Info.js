@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
-import Grid from '@material-ui/core/Grid'
 import find from 'lodash/find'
+import Grid from '@material-ui/core/Grid'
+import Button from '@material-ui/core/Button'
+import Icon from '@material-ui/core/Icon'
 
 import Comments from '../../comments/Comments'
 
@@ -16,7 +18,7 @@ export default class extends Component {
   }
 
   render() {
-    const { current, currentUser } = this.props
+    const { current, currentUser, comparison } = this.props
     const { id, supplierId } = current
     const { suppliers } = currentUser || {}
     const editable = find(suppliers, supplier => supplier.id === supplierId)
@@ -27,6 +29,14 @@ export default class extends Component {
         {editable && <Images {...this.props} {...current} />}
         <Description {...this.props} {...current} editable={editable} />
         <Sidebar {...this.props} {...current} />
+        {currentUser && (
+          <Button
+            color="primary"
+            onClick={() => comparison.actions.add(current)}
+          >
+            <Icon style={{ marginRight: 10 }}>add_circle</Icon> Comparar
+          </Button>
+        )}
         <Comments id={id} type="materials" {...this.props} />
       </Grid>
     )
