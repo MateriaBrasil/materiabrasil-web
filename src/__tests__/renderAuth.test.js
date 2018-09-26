@@ -3,8 +3,8 @@ import renderer from 'react-test-renderer'
 
 import renderAuth from '../renderAuth'
 
-jest.mock('../Screen', () => props => (
-  <div {...props}>Screen - {props.children}</div>
+jest.mock('../comparisons/Comparison', () => props => (
+  <div {...props}>Comparison - {props.children}</div>
 ))
 
 it('renders correctly', () => {

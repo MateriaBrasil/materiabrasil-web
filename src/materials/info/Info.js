@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import Grid from '@material-ui/core/Grid'
 import find from 'lodash/find'
+import Grid from '@material-ui/core/Grid'
 
 import Comments from '../../comments/Comments'
 

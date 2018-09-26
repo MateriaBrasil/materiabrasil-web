@@ -1,4 +1,5 @@
 import React from 'react'
-import Screen from './Screen'
+import Comparison from './comparisons/Comparison'
+import renderComparison from './renderComparison'
 
-export default authProps => <Screen {...authProps} />
+export default authProps => <Comparison render={renderComparison(authProps)} />
