@@ -17,7 +17,7 @@ export default props => {
   const { certificationsUrl, editable } = props
 
   return (
-    <Grid item xs={12} lg={9} style={{ marginBottom: 16 }}>
+    <Grid item xs={12} lg={7} style={{ marginBottom: 16 }}>
       <Card>
         <CardContent>
           <div style={{ float: 'right' }}>

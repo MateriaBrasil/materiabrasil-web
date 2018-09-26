@@ -251,7 +251,7 @@ exports[`renders correctly 1`] = `
     </div>
   </div>
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-9-75"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-7-73"
     style={
       Object {
         "marginBottom": 16,
@@ -583,46 +583,63 @@ exports[`renders correctly 1`] = `
     </div>
   </div>
   <div
-    averagePrice="100"
-    code="999"
-    current={
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-5-71"
+    style={
       Object {
-        "averagePrice": "100",
-        "code": "999",
-        "description": "info",
-        "imageUrl": "bar",
-        "manufacturingLocation": "Foo City/FO",
-        "name": "foo",
-        "properties": "Foo properties",
-        "salesLocation": "Bar City/BR",
-        "supplierContact": "foo@bar.com",
-        "supplierId": 1234,
-        "supplierName": "Foo Supplier",
-        "technicalSpecification_url": "http://foo",
+        "marginBottom": 16,
       }
     }
-    currentUser={
-      Object {
-        "suppliers": Array [
-          Object {
-            "id": 1234,
-          },
-        ],
-      }
-    }
-    description="info"
-    imageUrl="bar"
-    location={Object {}}
-    manufacturingLocation="Foo City/FO"
-    name="foo"
-    properties="Foo properties"
-    salesLocation="Bar City/BR"
-    supplierContact="foo@bar.com"
-    supplierId={1234}
-    supplierName="Foo Supplier"
-    technicalSpecification_url="http://foo"
   >
-    Supplier
+    <div
+      className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+    >
+      <div
+        className="MuiCardContent-root-120"
+      >
+        <div
+          averagePrice="100"
+          code="999"
+          current={
+            Object {
+              "averagePrice": "100",
+              "code": "999",
+              "description": "info",
+              "imageUrl": "bar",
+              "manufacturingLocation": "Foo City/FO",
+              "name": "foo",
+              "properties": "Foo properties",
+              "salesLocation": "Bar City/BR",
+              "supplierContact": "foo@bar.com",
+              "supplierId": 1234,
+              "supplierName": "Foo Supplier",
+              "technicalSpecification_url": "http://foo",
+            }
+          }
+          currentUser={
+            Object {
+              "suppliers": Array [
+                Object {
+                  "id": 1234,
+                },
+              ],
+            }
+          }
+          description="info"
+          imageUrl="bar"
+          location={Object {}}
+          manufacturingLocation="Foo City/FO"
+          name="foo"
+          properties="Foo properties"
+          salesLocation="Bar City/BR"
+          supplierContact="foo@bar.com"
+          supplierId={1234}
+          supplierName="Foo Supplier"
+          technicalSpecification_url="http://foo"
+        >
+          Supplier
+        </div>
+      </div>
+    </div>
   </div>
   <div
     current={

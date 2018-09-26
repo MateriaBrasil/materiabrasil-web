@@ -7,7 +7,7 @@ import Comments from '../../comments/Comments'
 import checkReloadAndFetch from '../../checkReloadAndFetch'
 import CoverImage from './CoverImage'
 import Description from './Description'
-import Supplier from './Supplier'
+import Sidebar from './Sidebar'
 import Images from './Images'
 
 export default class extends Component {
@@ -26,7 +26,7 @@ export default class extends Component {
         <CoverImage {...current} editable={editable} />
         {editable && <Images {...this.props} {...current} />}
         <Description {...this.props} {...current} editable={editable} />
-        <Supplier {...this.props} {...current} />
+        <Sidebar {...this.props} {...current} />
         <Comments id={id} type="materials" {...this.props} />
       </Grid>
     )
