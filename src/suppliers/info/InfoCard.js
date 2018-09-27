@@ -40,7 +40,7 @@ export default props => {
                 value={phone}
                 style={{ marginTop: 16 }}
               />
-              <Link 
+              <Link
                 to={`/suppliers/${id}/messages/new`}
                 style={{ textDecoration: 'none' }}
               >
