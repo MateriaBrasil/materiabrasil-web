@@ -6,6 +6,6 @@ export default ({ technicalSpecificationUrl, style }) => (
   <FileDownloadIcon
     url={technicalSpecificationUrl}
     style={style}
-    tooltip_title={'Baixar ficha técnica'}
+    tooltip="Baixar ficha técnica"
   />
 )

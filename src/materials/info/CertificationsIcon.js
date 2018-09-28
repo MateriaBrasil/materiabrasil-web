@@ -5,6 +5,6 @@ export default ({ certificationsUrl, style }) => (
   <FileDownloadIcon
     url={certificationsUrl}
     style={style}
-    tooltip_title={'Baixar certificações'}
+    tooltip="Baixar certificações"
   />
 )
