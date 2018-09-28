@@ -55,7 +55,7 @@ exports[`when creating renders correctly 1`] = `
   }
 >
   <div
-    className="MuiCircularProgress-root-23 MuiCircularProgress-indeterminate-25"
+    className="MuiCircularProgress-root-31 MuiCircularProgress-indeterminate-33"
     role="progressbar"
     style={
       Object {
@@ -65,11 +65,11 @@ exports[`when creating renders correctly 1`] = `
     }
   >
     <svg
-      className="MuiCircularProgress-svg-28"
+      className="MuiCircularProgress-svg-36"
       viewBox="0 0 50 50"
     >
       <circle
-        className="MuiCircularProgress-circle-29 MuiCircularProgress-circleIndeterminate-31"
+        className="MuiCircularProgress-circle-37 MuiCircularProgress-circleIndeterminate-39"
         cx={25}
         cy={25}
         fill="none"
