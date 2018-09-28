@@ -105,6 +105,11 @@ exports[`renders correctly 1`] = `
           </h3>
         </div>
         <div
+          style={
+            Object {
+              "textDecoration": "none",
+            }
+          }
           to="/suppliers/1234/messages/new"
         >
           <button
