@@ -1,45 +1,50 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<button
-  className="MuiButtonBase-root-7 MuiIconButton-root-1"
-  disabled={false}
-  onBlur={[Function]}
-  onClick={[Function]}
-  onFocus={[Function]}
-  onKeyDown={[Function]}
-  onKeyUp={[Function]}
-  onMouseDown={[Function]}
-  onMouseLeave={[Function]}
-  onMouseUp={[Function]}
-  onTouchEnd={[Function]}
-  onTouchMove={[Function]}
-  onTouchStart={[Function]}
-  style={undefined}
-  tabIndex="0"
-  type="button"
+<div
+  title="Adicionar aos favoritos"
 >
-  <span
-    className="MuiIconButton-label-6"
+  Tooltip - 
+  <button
+    className="MuiButtonBase-root-7 MuiIconButton-root-1"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    style={undefined}
+    tabIndex="0"
+    type="button"
   >
-    <svg
-      aria-hidden="true"
-      className="MuiSvgIcon-root-10"
-      color={undefined}
-      focusable="false"
-      viewBox="0 0 24 24"
+    <span
+      className="MuiIconButton-label-6"
     >
-      <g>
-        <path
-          d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"
-        />
-      </g>
-    </svg>
-  </span>
-  <span
-    className="MuiTouchRipple-root-16"
-  />
-</button>
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root-10"
+        color={undefined}
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <g>
+          <path
+            d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"
+          />
+        </g>
+      </svg>
+    </span>
+    <span
+      className="MuiTouchRipple-root-16"
+    />
+  </button>
+</div>
 `;
 
 exports[`when creating renders correctly 1`] = `
@@ -55,7 +60,7 @@ exports[`when creating renders correctly 1`] = `
   }
 >
   <div
-    className="MuiCircularProgress-root-31 MuiCircularProgress-indeterminate-33"
+    className="MuiCircularProgress-root-23 MuiCircularProgress-indeterminate-25"
     role="progressbar"
     style={
       Object {
@@ -65,11 +70,11 @@ exports[`when creating renders correctly 1`] = `
     }
   >
     <svg
-      className="MuiCircularProgress-svg-36"
+      className="MuiCircularProgress-svg-28"
       viewBox="0 0 50 50"
     >
       <circle
-        className="MuiCircularProgress-circle-37 MuiCircularProgress-circleIndeterminate-39"
+        className="MuiCircularProgress-circle-29 MuiCircularProgress-circleIndeterminate-31"
         cx={25}
         cy={25}
         fill="none"
