@@ -8,11 +8,11 @@ jest.mock('@material-ui/core/Tooltip', () => props => (
 ))
 
 it('renders correctly', () => {
-    const props = {
-        url: 'foo-url',
-        style: { foo: 'style' },
-        tooltip: 'foo-text',
-      }
-      const tree = renderer.create(<FileDownloadIcon {...props} />).toJSON()
-      expect(tree).toMatchSnapshot()
+  const props = {
+    url: 'foo-url',
+    style: { foo: 'style' },
+    tooltip: 'foo-text',
+  }
+  const tree = renderer.create(<FileDownloadIcon {...props} />).toJSON()
+  expect(tree).toMatchSnapshot()
 })
