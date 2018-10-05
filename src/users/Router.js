@@ -17,7 +17,7 @@ export default props => {
       <Route
         exact
         path="/users/:id/messages/new"
-        render={renderNewMessage(props)}
+        render={renderNewMessage({ ...props, toType: 'User' })}
       />
       <Route exact path="/profile/edit" render={renderEdit(idProps)} />
       <Route
