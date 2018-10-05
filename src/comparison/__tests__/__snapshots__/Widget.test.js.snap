@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when props.open == false 1`] = `
+<div
+  style={
+    Object {
+      "bottom": 0,
+      "position": "fixed",
+      "right": 20,
+      "zIndex": 1000,
+    }
+  }
+>
+  <button
+    className="MuiButtonBase-root-17 MuiButton-root-1 MuiButton-raised-7 MuiButton-raisedPrimary-8"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex="0"
+    type="button"
+  >
+    <span
+      className="MuiButton-label-2"
+    >
+      Comparação de materiais
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root-20"
+        color={undefined}
+        focusable="false"
+        style={
+          Object {
+            "marginLeft": 8,
+          }
+        }
+        viewBox="0 0 24 24"
+      >
+        <g>
+          <path
+            d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"
+          />
+        </g>
+      </svg>
+    </span>
+    <span
+      className="MuiTouchRipple-root-26"
+    />
+  </button>
+</div>
+`;
+
+exports[`renders correctly when props.open == true 1`] = `
+<div
+  style={
+    Object {
+      "bottom": 0,
+      "position": "fixed",
+      "right": 20,
+      "zIndex": 1000,
+    }
+  }
+>
+  <div
+    actions={
+      Object {
+        "open": [Function],
+      }
+    }
+    open={true}
+  >
+    Chart - 
+  </div>
+</div>
+`;
