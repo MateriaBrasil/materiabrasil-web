@@ -36,6 +36,14 @@ exports[`renders correctly 1`] = `
           ]
         }
       />
+      <div
+        name="toType"
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+      />
       <div />
     </div>
     <div
@@ -131,6 +139,14 @@ exports[`with error renders correctly 1`] = `
           Array [
             [Function],
           ]
+        }
+      />
+      <div
+        name="toType"
+        style={
+          Object {
+            "display": "none",
+          }
         }
       />
       <div>
