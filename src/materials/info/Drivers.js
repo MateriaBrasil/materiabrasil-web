@@ -29,7 +29,7 @@ export default props => {
 
   return (
     <Fragment>
-      <div>
+      <div style={{ overflow: 'auto' }}>
         <Typography
           variant="title"
           color="textSecondary"
