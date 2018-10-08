@@ -42,7 +42,7 @@ export default props => {
               <EditButton
                 {...props}
                 path="indicators"
-                label="Cadastrar indicadores"
+                label="Responder questionário"
               />
             </Fragment>
           )}

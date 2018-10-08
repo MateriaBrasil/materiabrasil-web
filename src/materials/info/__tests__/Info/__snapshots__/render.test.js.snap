@@ -547,7 +547,7 @@ exports[`renders correctly 1`] = `
             <span
               className="MuiButton-label-146"
             >
-              Cadastrar indicadores
+              Responder questionário
             </span>
             <span
               className="MuiTouchRipple-root-164"
