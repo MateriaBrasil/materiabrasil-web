@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer'
 
 import renderAuth from '../renderAuth'
 
-jest.mock('../comparisons/Comparison', () => props => (
+jest.mock('../comparison/Comparison', () => props => (
   <div {...props}>Comparison - {props.children}</div>
 ))
 
