@@ -7,6 +7,12 @@ import Error from 'Error'
 import TextField from '../../form/TextField'
 
 class Form extends Component {
+  componentDidMount() {
+    this.props.initialize({
+      toType: this.props.toType,
+    })
+  }
+
   render() {
     const { error: reduxFormError, createError } = this.props
     const error = reduxFormError || createError
@@ -19,6 +25,7 @@ class Form extends Component {
           multiline
           validate={[required()]}
         />
+        <TextField style={{ display: 'none' }} name="toType" />
         <Error>{error}</Error>
       </Dialog>
     )

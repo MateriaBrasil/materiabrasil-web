@@ -1,2 +1,2 @@
-export default (create, id) => ({ text }) =>
-  create({ toId: parseInt(id, 10), toType: 'Supplier', text })
+export default (create, id) => ({ toType, text }) =>
+  create({ toId: parseInt(id, 10), toType, text })

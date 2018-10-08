@@ -2,73 +2,87 @@
 
 exports[`renders correctly 1`] = `
 <div
-  bar="foo"
-  foo="bar"
-  fullWidth={true}
-  select={true}
+  aria-describedby="name-error-text"
+  className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
+  onBlur={[Function]}
+  onFocus={[Function]}
 >
-  <li
-    className="MuiButtonBase-root-13 MuiListItem-root-3 MuiListItem-default-6 MuiListItem-gutters-10 MuiListItem-button-11 MuiMenuItem-root-1"
-    onBlur={[Function]}
-    onFocus={[Function]}
-    onKeyDown={[Function]}
-    onKeyUp={[Function]}
-    onMouseDown={[Function]}
-    onMouseLeave={[Function]}
-    onMouseUp={[Function]}
-    onTouchEnd={[Function]}
-    onTouchMove={[Function]}
-    onTouchStart={[Function]}
-    role="menuitem"
-    tabIndex={-1}
-    value={1}
+  <div
+    bar="foo"
+    error={true}
+    foo="bar"
+    fullWidth={true}
+    select={true}
   >
-    foo1-label
-    <span
-      className="MuiTouchRipple-root-16"
-    />
-  </li>
-  <li
-    className="MuiButtonBase-root-13 MuiListItem-root-3 MuiListItem-default-6 MuiListItem-gutters-10 MuiListItem-button-11 MuiMenuItem-root-1"
-    onBlur={[Function]}
-    onFocus={[Function]}
-    onKeyDown={[Function]}
-    onKeyUp={[Function]}
-    onMouseDown={[Function]}
-    onMouseLeave={[Function]}
-    onMouseUp={[Function]}
-    onTouchEnd={[Function]}
-    onTouchMove={[Function]}
-    onTouchStart={[Function]}
-    role="menuitem"
-    tabIndex={-1}
-    value={2}
+    <li
+      className="MuiButtonBase-root-17 MuiListItem-root-7 MuiListItem-default-10 MuiListItem-gutters-14 MuiListItem-button-15 MuiMenuItem-root-5"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="menuitem"
+      tabIndex={-1}
+      value={1}
+    >
+      foo1-label
+      <span
+        className="MuiTouchRipple-root-20"
+      />
+    </li>
+    <li
+      className="MuiButtonBase-root-17 MuiListItem-root-7 MuiListItem-default-10 MuiListItem-gutters-14 MuiListItem-button-15 MuiMenuItem-root-5"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="menuitem"
+      tabIndex={-1}
+      value={2}
+    >
+      foo2-label
+      <span
+        className="MuiTouchRipple-root-20"
+      />
+    </li>
+    <li
+      className="MuiButtonBase-root-17 MuiListItem-root-7 MuiListItem-default-10 MuiListItem-gutters-14 MuiListItem-button-15 MuiMenuItem-root-5"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="menuitem"
+      tabIndex={-1}
+      value={3}
+    >
+      foo3-label
+      <span
+        className="MuiTouchRipple-root-20"
+      />
+    </li>
+  </div>
+  <p
+    className="MuiFormHelperText-root-27 MuiFormHelperText-error-28"
+    id="name-error-text"
   >
-    foo2-label
-    <span
-      className="MuiTouchRipple-root-16"
-    />
-  </li>
-  <li
-    className="MuiButtonBase-root-13 MuiListItem-root-3 MuiListItem-default-6 MuiListItem-gutters-10 MuiListItem-button-11 MuiMenuItem-root-1"
-    onBlur={[Function]}
-    onFocus={[Function]}
-    onKeyDown={[Function]}
-    onKeyUp={[Function]}
-    onMouseDown={[Function]}
-    onMouseLeave={[Function]}
-    onMouseUp={[Function]}
-    onTouchEnd={[Function]}
-    onTouchMove={[Function]}
-    onTouchStart={[Function]}
-    role="menuitem"
-    tabIndex={-1}
-    value={3}
-  >
-    foo3-label
-    <span
-      className="MuiTouchRipple-root-16"
-    />
-  </li>
+    bar
+  </p>
 </div>
 `;
