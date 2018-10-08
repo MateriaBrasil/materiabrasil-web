@@ -22,7 +22,7 @@ export default props => {
       <Route
         exact
         path="/suppliers/:id/messages/new"
-        render={renderNewMessage(props)}
+        render={renderNewMessage({ ...props, toType: 'Supplier' })}
       />
       <Route
         exact

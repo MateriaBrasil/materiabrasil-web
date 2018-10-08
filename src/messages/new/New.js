@@ -11,6 +11,7 @@ export default props => {
     <Form
       {...props}
       id={id}
+      toType={props.toType}
       onSubmit={createWithParams(create, id)}
       submitting={creating}
       createError={error}
