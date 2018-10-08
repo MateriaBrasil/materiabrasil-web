@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div
+    className="MuiPaper-root-2 MuiPaper-elevation2-6 MuiPaper-rounded-3 MuiCard-root-1"
+>
+    <div
+        className="MuiCardContent-root-29"
+    >
+        <h1
+            className="MuiTypography-root-30 MuiTypography-display1-34"
+            style={
+                Object {
+                    "marginBottom": 8,
+                  }
+            }
+        >
+            foo subject
+        </h1>
+        <span
+            className="MuiTypography-root-30 MuiTypography-caption-40"
+            style={
+                Object {
+                    "marginBottom": 24,
+                  }
+            }
+        >
+            Criado por foo-name foo-lastName há em um dia
+        </span>
+        <p
+            className="MuiTypography-root-30 MuiTypography-body1-39"
+        >
+            foo text
+        </p>
+    </div>
+</div>,
+  <h1
+    className="MuiTypography-root-30 MuiTypography-headline-35"
+    style={
+        Object {
+            "marginBottom": 24,
+            "marginTop": 24,
+          }
+    }
+>
+    Respostas
+</h1>,
+  <div
+    createdAt="2018-10-10 00:00:00"
+    id={1}
+    subject="foo subject"
+    term="resposta"
+    text="foo text"
+    type="topics"
+    user={
+        Object {
+            "firstName": "foo-name",
+            "lastName": "foo-lastName",
+          }
+    }
+>
+    Comments
+</div>,
+]
+`;
