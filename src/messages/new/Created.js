@@ -1,13 +1,14 @@
-import { Component } from 'react'
+import React, { Component } from 'react'
+import Redirect from 'react-router-dom/Redirect'
 
 export default class extends Component {
-  constructor(props) {
-    super(props)
-
-    props.history.goBack()
-  }
-
   render() {
-    return null
+    return (
+      <Redirect
+        to={`/${this.props.toType.toLowerCase()}s/${
+          this.props.match.params.id
+        }/messages/success`}
+      />
+    )
   }
 }
