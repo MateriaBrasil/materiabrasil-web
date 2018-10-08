@@ -3,7 +3,7 @@ import { reducer as form } from 'redux-form'
 import { createReducer } from 'croods'
 
 import filters from 'filters/reducer'
-import comparisons from 'comparisons/reducer'
+import comparison from 'comparison/reducer'
 
 const reducers = {
   form,
@@ -24,7 +24,7 @@ const reducers = {
   messages: createReducer('messages'),
   topics: createReducer('topics', { addCreatedToTop: true }),
   filters,
-  comparisons,
+  comparison,
 }
 
 const rootReducer = combineReducers(reducers)

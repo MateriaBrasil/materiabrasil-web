@@ -1,0 +1,463 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  anchor="bottom"
+  onClose={[Function]}
+  open={true}
+>
+  Drawer - 
+  <button
+    className="MuiButtonBase-root-17 MuiButton-root-1 MuiButton-raised-7 MuiButton-raisedPrimary-8"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex="0"
+    type="button"
+  >
+    <span
+      className="MuiButton-label-2"
+    >
+      Comparação de materiais
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root-20"
+        color={undefined}
+        focusable="false"
+        style={
+          Object {
+            "marginLeft": 8,
+          }
+        }
+        viewBox="0 0 24 24"
+      >
+        <g>
+          <path
+            d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+          />
+        </g>
+      </svg>
+    </span>
+    <span
+      className="MuiTouchRipple-root-26"
+    />
+  </button>
+  <div
+    className="MuiPaper-root-33 MuiPaper-elevation2-37 MuiPaper-rounded-34"
+  >
+    <div
+      className="recharts-wrapper"
+      style={
+        Object {
+          "cursor": "default",
+          "height": 420,
+          "position": "relative",
+          "width": 420,
+        }
+      }
+    >
+      <svg
+        className="recharts-surface"
+        height={420}
+        style={undefined}
+        version="1.1"
+        viewBox="0 0 420 420"
+        width={420}
+      >
+        <clipPath
+          id="recharts2-clip"
+        >
+          <rect
+            height={410}
+            width={410}
+            x={5}
+            y={5}
+          />
+        </clipPath>
+        <g
+          className="recharts-polar-grid"
+        >
+          <g
+            className="recharts-polar-grid-angle"
+          >
+            <line
+              stroke="#ccc"
+              x1={210}
+              x2={210}
+              y1={210}
+              y2={107.5}
+            />
+            <line
+              stroke="#ccc"
+              x1={210}
+              x2={312.5}
+              y1={210}
+              y2={210}
+            />
+            <line
+              stroke="#ccc"
+              x1={210}
+              x2={210}
+              y1={210}
+              y2={312.5}
+            />
+            <line
+              stroke="#ccc"
+              x1={210}
+              x2={107.5}
+              y1={210}
+              y2={210}
+            />
+          </g>
+          <g
+            className="recharts-polar-grid-concentric"
+          >
+            <path
+              className="recharts-polar-grid-concentric-polygon"
+              d="M 210,210L 210,210L 210,210L 210,210Z"
+              fill="none"
+              stroke="#ccc"
+            />
+            <path
+              className="recharts-polar-grid-concentric-polygon"
+              d="M 210,179.25L 240.75,210L 210,240.75L 179.25,210Z"
+              fill="none"
+              stroke="#ccc"
+            />
+            <path
+              className="recharts-polar-grid-concentric-polygon"
+              d="M 210,148.5L 271.5,210L 210,271.5L 148.5,210Z"
+              fill="none"
+              stroke="#ccc"
+            />
+            <path
+              className="recharts-polar-grid-concentric-polygon"
+              d="M 210,107.5L 312.5,210L 210,312.5L 107.5,210Z"
+              fill="none"
+              stroke="#ccc"
+            />
+          </g>
+        </g>
+        <g
+          className="recharts-layer recharts-polar-angle-axis"
+        >
+          <polygon
+            className="recharts-polygon recharts-polar-angle-axis-line"
+            fill="none"
+            points="210,107.5 312.5,210 210,312.5 107.5,210"
+            radius={102.5}
+          />
+          <g
+            className="recharts-layer recharts-polar-angle-axis-ticks"
+          >
+            <g
+              className="recharts-layer recharts-polar-angle-axis-tick"
+            >
+              <line
+                className="recharts-polar-angle-axis-tick-line"
+                fill="none"
+                radius={102.5}
+                x1={210}
+                x2={210}
+                y1={107.5}
+                y2={99.5}
+              />
+              <text
+                className="recharts-text recharts-polar-angle-axis-tick-value"
+                fill={undefined}
+                radius={102.5}
+                stroke="none"
+                textAnchor="middle"
+                x={210}
+                y={99.5}
+              >
+                <tspan
+                  dy="0em"
+                  x={210}
+                >
+                  Driver #0
+                </tspan>
+              </text>
+            </g>
+            <g
+              className="recharts-layer recharts-polar-angle-axis-tick"
+            >
+              <line
+                className="recharts-polar-angle-axis-tick-line"
+                fill="none"
+                radius={102.5}
+                x1={312.5}
+                x2={320.5}
+                y1={210}
+                y2={210}
+              />
+              <text
+                className="recharts-text recharts-polar-angle-axis-tick-value"
+                fill={undefined}
+                radius={102.5}
+                stroke="none"
+                textAnchor="start"
+                x={320.5}
+                y={210}
+              >
+                <tspan
+                  dy="0em"
+                  x={320.5}
+                >
+                  Driver #1
+                </tspan>
+              </text>
+            </g>
+            <g
+              className="recharts-layer recharts-polar-angle-axis-tick"
+            >
+              <line
+                className="recharts-polar-angle-axis-tick-line"
+                fill="none"
+                radius={102.5}
+                x1={210}
+                x2={210}
+                y1={312.5}
+                y2={320.5}
+              />
+              <text
+                className="recharts-text recharts-polar-angle-axis-tick-value"
+                fill={undefined}
+                radius={102.5}
+                stroke="none"
+                textAnchor="middle"
+                x={210}
+                y={320.5}
+              >
+                <tspan
+                  dy="0em"
+                  x={210}
+                >
+                  Driver #2
+                </tspan>
+              </text>
+            </g>
+            <g
+              className="recharts-layer recharts-polar-angle-axis-tick"
+            >
+              <line
+                className="recharts-polar-angle-axis-tick-line"
+                fill="none"
+                radius={102.5}
+                x1={107.5}
+                x2={99.5}
+                y1={210}
+                y2={210}
+              />
+              <text
+                className="recharts-text recharts-polar-angle-axis-tick-value"
+                fill={undefined}
+                radius={102.5}
+                stroke="none"
+                textAnchor="end"
+                x={99.5}
+                y={210}
+              >
+                <tspan
+                  dy="0em"
+                  x={99.5}
+                >
+                  Driver #3
+                </tspan>
+              </text>
+            </g>
+          </g>
+        </g>
+        <g
+          className="recharts-layer recharts-polar-radius-axis"
+        >
+          <line
+            className="recharts-polar-radius-axis-line"
+            fill="none"
+            radius={102.5}
+            stroke="#ccc"
+            x1={210}
+            x2={282.47844507162114}
+            y1={210}
+            y2={137.5215549283789}
+          />
+          <g
+            className="recharts-layer recharts-polar-radius-axis-ticks"
+          >
+            <g
+              className="recharts-layer recharts-polar-radius-axis-tick"
+            >
+              <text
+                className="recharts-text recharts-polar-radius-axis-tick-value"
+                fill="#ccc"
+                radius={102.5}
+                stroke="none"
+                textAnchor="start"
+                transform="rotate(45, 210, 210)"
+                x={210}
+                y={210}
+              >
+                <tspan
+                  dy="0em"
+                  x={210}
+                >
+                  0
+                </tspan>
+              </text>
+            </g>
+            <g
+              className="recharts-layer recharts-polar-radius-axis-tick"
+            >
+              <text
+                className="recharts-text recharts-polar-radius-axis-tick-value"
+                fill="#ccc"
+                radius={102.5}
+                stroke="none"
+                textAnchor="start"
+                transform="rotate(45, 231.74353352148634, 188.25646647851366)"
+                x={231.74353352148634}
+                y={188.25646647851366}
+              >
+                <tspan
+                  dy="0em"
+                  x={231.74353352148634}
+                >
+                  3
+                </tspan>
+              </text>
+            </g>
+            <g
+              className="recharts-layer recharts-polar-radius-axis-tick"
+            >
+              <text
+                className="recharts-text recharts-polar-radius-axis-tick-value"
+                fill="#ccc"
+                radius={102.5}
+                stroke="none"
+                textAnchor="start"
+                transform="rotate(45, 253.48706704297268, 166.51293295702732)"
+                x={253.48706704297268}
+                y={166.51293295702732}
+              >
+                <tspan
+                  dy="0em"
+                  x={253.48706704297268}
+                >
+                  6
+                </tspan>
+              </text>
+            </g>
+            <g
+              className="recharts-layer recharts-polar-radius-axis-tick"
+            >
+              <text
+                className="recharts-text recharts-polar-radius-axis-tick-value"
+                fill="#ccc"
+                radius={102.5}
+                stroke="none"
+                textAnchor="start"
+                transform="rotate(45, 282.47844507162114, 137.5215549283789)"
+                x={282.47844507162114}
+                y={137.5215549283789}
+              >
+                <tspan
+                  dy="0em"
+                  x={282.47844507162114}
+                >
+                  10
+                </tspan>
+              </text>
+            </g>
+          </g>
+        </g>
+        <g
+          className="recharts-layer recharts-radar"
+        >
+          <g
+            className="recharts-layer recharts-radar-polygon"
+          >
+            <polygon
+              className="recharts-polygon"
+              fill="#239eb1"
+              fillOpacity={0.5}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              points="210,210 210,210 210,210 210,210"
+              stroke="#239eb1"
+            />
+          </g>
+        </g>
+      </svg>
+      <div
+        className="recharts-legend-wrapper"
+        style={
+          Object {
+            "bottom": 5,
+            "height": "auto",
+            "left": 5,
+            "position": "absolute",
+            "width": 410,
+          }
+        }
+      >
+        <ul
+          className="recharts-default-legend"
+          style={
+            Object {
+              "margin": 0,
+              "padding": 0,
+              "textAlign": "center",
+            }
+          }
+        >
+          <li
+            className="recharts-legend-item legend-item-0"
+            style={
+              Object {
+                "display": "inline-block",
+                "marginRight": 10,
+              }
+            }
+          >
+            <svg
+              className="recharts-surface"
+              height={14}
+              style={
+                Object {
+                  "display": "inline-block",
+                  "marginRight": 4,
+                  "verticalAlign": "middle",
+                }
+              }
+              version="1.1"
+              viewBox="0 0 32 32"
+              width={14}
+            >
+              <path
+                className="recharts-legend-icon"
+                d="M0,4h32v24h-32z"
+                fill="#239eb1"
+                stroke="none"
+              />
+            </svg>
+            <span
+              className="recharts-legend-item-text"
+            >
+              foo
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
