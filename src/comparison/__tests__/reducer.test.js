@@ -2,10 +2,9 @@ import reducer from '../reducer'
 
 describe('without action type', () => {
   const state = { foo: 'bar' }
-  const action = { type: 'foobar' }
 
   it('returns as expected', () => {
-    expect(reducer(state, action)).toMatchObject(state)
+    expect(reducer(state, null)).toMatchObject(state)
   })
 })
 
