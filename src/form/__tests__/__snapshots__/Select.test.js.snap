@@ -9,7 +9,7 @@ exports[`renders correctly 1`] = `
 >
   <div
     bar="foo"
-    error={undefined}
+    error={true}
     foo="bar"
     fullWidth={true}
     select={true}
@@ -79,8 +79,10 @@ exports[`renders correctly 1`] = `
     </li>
   </div>
   <p
-    className="MuiFormHelperText-root-27"
+    className="MuiFormHelperText-root-27 MuiFormHelperText-error-28"
     id="name-error-text"
-  />
+  >
+    bar
+  </p>
 </div>
 `;

@@ -10,7 +10,7 @@ jest.mock('@material-ui/core/TextField', () => props => (
 it('renders correctly', () => {
   const props = {
     bar: 'foo',
-    meta: {},
+    meta: { touched: true, error: 'bar' },
     options: [
       { value: 1, label: 'foo1-label' },
       { value: 2, label: 'foo2-label' },
