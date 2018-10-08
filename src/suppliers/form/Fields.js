@@ -72,7 +72,7 @@ export default () => (
     />
     <SelectField
       name="reach"
-      label="Alcance"
+      label="Qual é o alcance de sua empresa?"
       options={[
         { value: 'city', label: 'Cidade' },
         { value: 'state', label: 'Estado' },
@@ -80,7 +80,7 @@ export default () => (
         { value: 'continent', label: 'Continente' },
         { value: 'global', label: 'Global' },
       ]}
-      style={{ marginBottom: 20 }}
+      validate={[required()]}
     />
   </Fragment>
 )
