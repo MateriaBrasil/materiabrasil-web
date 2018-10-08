@@ -8,6 +8,7 @@ import CardContent from '@material-ui/core/CardContent'
 import Avatar from '../../imageUpload/Avatar'
 import Album from './Album'
 import PropertyWithValue from '../../PropertyWithValue'
+import MessageButton from '../../messages/new/Button'
 
 export default props => infoProps => {
   const { currentUser } = props
@@ -74,6 +75,7 @@ export default props => infoProps => {
               value={country}
               style={{ marginTop: 16 }}
             />
+            <MessageButton id={id} type="users" />
           </CardContent>
         </Card>
       </Grid>
