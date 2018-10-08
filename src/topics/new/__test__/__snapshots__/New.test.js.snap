@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  createError={undefined}
+  id={1234}
+  match={
+    Object {
+      "params": Object {
+        "id": 1234,
+      },
+    }
+  }
+  onSubmit={undefined}
+  submitting={undefined}
+>
+  Form
+</div>
+`;
