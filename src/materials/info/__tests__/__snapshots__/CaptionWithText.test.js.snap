@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "foo": "style",
+    }
+  }
+>
+  <span
+    className="MuiTypography-root-1 MuiTypography-caption-11"
+  >
+    foo-caption
+  </span>
+  <h3
+    className="MuiTypography-root-1 MuiTypography-subheading-8"
+  />
+</div>
+`;
