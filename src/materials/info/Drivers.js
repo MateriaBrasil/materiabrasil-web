@@ -2,8 +2,6 @@ import React, { Fragment } from 'react'
 import Typography from '@material-ui/core/Typography'
 import Button from '@material-ui/core/Button'
 import Icon from '@material-ui/core/Icon'
-import addComparison from './addComparison'
-
 import {
   Radar,
   RadarChart,
@@ -11,6 +9,8 @@ import {
   PolarAngleAxis,
   PolarRadiusAxis,
 } from 'recharts'
+
+import addComparison from './addComparison'
 
 export default props => {
   const { firstDriver, secondDriver, thirdDriver, fourthDriver } = props
