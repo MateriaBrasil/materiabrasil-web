@@ -15,7 +15,7 @@ const Form = props => {
 
   return (
     <SingleColumn>
-      <DefaultForm callToAction="String" error={error}>
+      <DefaultForm callToAction="Recuperar senha" error={error}>
         <form onSubmit={onSubmit}>
           {title && <CardHeader title={title} />}
           <TextField
