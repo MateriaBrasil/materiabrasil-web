@@ -12,7 +12,7 @@ export default props => (
     <Route exact path="/auth/sign-up" render={renderSignUp(props)} />
     <Route
       exact
-      path="/auth/forgot-password"
+      path="/auth/reset-password"
       render={renderResetPassword(props)}
     />
   </Switch>
