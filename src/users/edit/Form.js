@@ -21,6 +21,7 @@ export default reduxForm({ form: 'profile' })(props => {
           <form onSubmit={handleSubmit(onSubmit)}>
             <TextField name="firstName" label="Nome" type="text" />
             <TextField name="lastName" label="Sobrenome" type="text" />
+            <TextField name="email" label="Email" type="email" />
             <TextField name="bio" label="Sobre você" type="text" multiline />
             <TextField name="city" label="Cidade" type="text" />
             <TextField name="state" label="Estado" type="text" />
