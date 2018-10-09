@@ -1,6 +1,5 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import moment from 'moment-timezone'
 
 import Info from '../Info'
 
