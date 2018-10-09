@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with initial state renders correctly 1`] = `
+<div
+  aria-labelledby="responsive-dialog-title"
+  fullScreen={false}
+  fullWidth={true}
+  onBackdropClick={[Function]}
+  onEscapeKeyDown={[Function]}
+  open={true}
+>
+  Dialog - 
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="MuiDialogTitle-root-1"
+      id="responsive-dialog-title"
+    >
+      <h2
+        className="MuiTypography-root-2 MuiTypography-title-8"
+      >
+        Mensagem enviada com sucesso
+      </h2>
+    </div>
+    <div
+      className="MuiDialogContent-root-26"
+    >
+      <p
+        className="MuiTypography-root-2 MuiTypography-body1-11"
+      >
+        Sua mensagem foi enviada e o
+         
+        fornecedor
+         irá responder por email.
+      </p>
+    </div>
+    <div
+      className="MuiDialogActions-root-27"
+    >
+      <button
+        className="MuiButtonBase-root-45 MuiButton-root-29 MuiButton-flatPrimary-31 MuiDialogActions-action-28"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-30"
+        >
+          Fechar
+        </span>
+        <span
+          className="MuiTouchRipple-root-48"
+        />
+      </button>
+    </div>
+  </form>
+</div>
+`;

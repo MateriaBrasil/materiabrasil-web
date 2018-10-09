@@ -2,19 +2,16 @@
 
 exports[`renders correctly 1`] = `
 <div
-  createError={undefined}
-  id={1234}
+  bar="foo"
+  foo="bar"
   match={
     Object {
       "params": Object {
-        "id": 1234,
+        "id": 3,
       },
     }
   }
-  onSubmit={[Function]}
-  submitting={undefined}
-  toType={undefined}
 >
-  Form
+  Success
 </div>
 `;

@@ -3,6 +3,7 @@ import Route from 'react-router-dom/Route'
 
 import renderNewMaterial from '../materials/renderNew'
 import renderNewMessage from '../messages/renderNew'
+import renderSuccessMessage from '../messages/renderSuccess'
 
 import renderNew from './renderNew'
 import renderEdit from './renderEdit'
@@ -22,7 +23,12 @@ export default props => {
       <Route
         exact
         path="/suppliers/:id/messages/new"
-        render={renderNewMessage(props)}
+        render={renderNewMessage({ ...props, toType: 'Supplier' })}
+      />
+      <Route
+        exact
+        path="/suppliers/:id/messages/success"
+        render={renderSuccessMessage({ ...props })}
       />
       <Route
         exact
