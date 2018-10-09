@@ -36,6 +36,13 @@ exports[`renders correctly 1`] = `
             Text Field
           </div>
           <div
+            label="Email"
+            name="email"
+            type="email"
+          >
+            Text Field
+          </div>
+          <div
             label="Sobre você"
             multiline={true}
             name="bio"
@@ -171,6 +178,13 @@ exports[`when updating renders correctly 1`] = `
             label="Sobrenome"
             name="lastName"
             type="text"
+          >
+            Text Field
+          </div>
+          <div
+            label="Email"
+            name="email"
+            type="email"
           >
             Text Field
           </div>

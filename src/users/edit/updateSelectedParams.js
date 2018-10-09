@@ -1,12 +1,13 @@
 export default update => params => {
   const { id, imageUrl, firstName, lastName, city, state, country } = params
-  const { bio, company, website, workTitle } = params
+  const { email, bio, company, website, workTitle } = params
 
   update({
     id,
     imageUrl,
     firstName,
     lastName,
+    email,
     city,
     state,
     country,
