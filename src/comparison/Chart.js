@@ -18,7 +18,7 @@ import {
 
 export default ({ list, actions: { close } }) => {
   const drivers = ['firstDriver', 'secondDriver', 'thirdDriver', 'fourthDriver']
-  const colors = ['#239eb1', '#ea6740']
+  const colors = ['#239eb1', '#ea6740', '#00C853', '#304FFE', '#d50000']
 
   const data = map(drivers, (driver, index) =>
     reduce(
