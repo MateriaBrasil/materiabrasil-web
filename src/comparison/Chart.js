@@ -38,7 +38,7 @@ export default ({ list, actions: { close } }) => {
         <Icon style={{ marginLeft: 8 }} />
       </Button>
       <Paper>
-        <RadarChart width={420} height={420} outerRadius="50%" data={data}>
+        <RadarChart width={320} height={320} outerRadius="50%" data={data}>
           <PolarGrid />
           <PolarAngleAxis dataKey="subject" />
           <PolarRadiusAxis angle={45} domain={[0, 10]} />
