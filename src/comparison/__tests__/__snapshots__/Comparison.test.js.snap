@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  actions={
+    Object {
+      "add": [Function],
+      "close": [Function],
+      "open": [Function],
+      "remove": [Function],
+      "reset": [Function],
+    }
+  }
+  list={
+    Array [
+      Object {
+        "foobar": "foo",
+      },
+    ]
+  }
+>
+   
+   
+</div>
+`;
+
+exports[`with empty list renders correctly 1`] = `
+<div
+  actions={
+    Object {
+      "add": [Function],
+      "close": [Function],
+      "open": [Function],
+      "remove": [Function],
+      "reset": [Function],
+    }
+  }
+  list={Array []}
+>
+  Empty list
+</div>
+`;

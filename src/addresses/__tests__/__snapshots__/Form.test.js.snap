@@ -10,101 +10,92 @@ exports[`renders correctly 1`] = `
   }
 >
   <div
-    aria-describedby={undefined}
+    aria-describedby="name-error-text"
     className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
-    meta={
-      Object {
-        "active": false,
-        "asyncValidating": false,
-        "autofilled": false,
-        "dirty": false,
-        "dispatch": [Function],
-        "error": undefined,
-        "form": "addresses",
-        "initial": undefined,
-        "invalid": false,
-        "pristine": true,
-        "submitFailed": false,
-        "submitting": false,
-        "touched": false,
-        "valid": true,
-        "visited": false,
-        "warning": undefined,
-      }
-    }
     onBlur={[Function]}
-    onDragStart={[Function]}
-    onDrop={[Function]}
     onFocus={[Function]}
-    style={
-      Object {
-        "marginBottom": 10,
-      }
-    }
   >
-    <label
-      className="MuiFormLabel-root-10 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
-      data-shrink={false}
-      htmlFor={undefined}
-    >
-      Tipo
-    </label>
     <div
-      className="MuiInput-root-20 MuiInput-fullWidth-27 MuiInput-formControl-21 MuiInput-underline-24"
+      aria-describedby={undefined}
+      className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
+      onBlur={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+      onFocus={[Function]}
+      style={
+        Object {
+          "marginBottom": 10,
+        }
+      }
     >
+      <label
+        className="MuiFormLabel-root-10 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
+        data-shrink={false}
+        htmlFor={undefined}
+      >
+        Tipo
+      </label>
       <div
-        className="MuiSelect-root-15"
+        className="MuiInput-root-20 MuiInput-fullWidth-27 MuiInput-formControl-21 MuiInput-underline-24"
       >
         <div
-          aria-haspopup="true"
-          aria-owns={null}
-          aria-pressed="false"
-          className="MuiSelect-select-16 MuiSelect-selectMenu-17 MuiInput-input-28"
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onKeyDown={[Function]}
-          role="button"
-          tabIndex={0}
+          className="MuiSelect-root-15"
         >
-          <span
-            dangerouslySetInnerHTML={
-              Object {
-                "__html": "&#8203",
+          <div
+            aria-haspopup="true"
+            aria-owns={null}
+            aria-pressed="false"
+            className="MuiSelect-select-16 MuiSelect-selectMenu-17 MuiInput-input-28"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <span
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "&#8203",
+                }
               }
-            }
+            />
+          </div>
+          <input
+            aria-invalid={false}
+            aria-required={false}
+            autoComplete={undefined}
+            autoFocus={undefined}
+            defaultValue={undefined}
+            id={undefined}
+            name="addressType"
+            onKeyDown={undefined}
+            onKeyUp={undefined}
+            placeholder={undefined}
+            readOnly={undefined}
+            required={undefined}
+            rows={undefined}
+            type="hidden"
+            value=""
           />
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root-33 MuiSelect-icon-19"
+            color={undefined}
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 10l5 5 5-5z"
+            />
+          </svg>
         </div>
-        <input
-          aria-invalid={false}
-          aria-required={false}
-          autoComplete={undefined}
-          autoFocus={undefined}
-          defaultValue={undefined}
-          id={undefined}
-          name="addressType"
-          onKeyDown={undefined}
-          onKeyUp={undefined}
-          placeholder={undefined}
-          readOnly={undefined}
-          required={undefined}
-          rows={undefined}
-          type="hidden"
-          value=""
-        />
-        <svg
-          aria-hidden="true"
-          className="MuiSvgIcon-root-33 MuiSelect-icon-19"
-          color={undefined}
-          focusable="false"
-          viewBox="0 0 24 24"
-        >
-          <path
-            d="M7 10l5 5 5-5z"
-          />
-        </svg>
       </div>
     </div>
+    <p
+      className="MuiFormHelperText-root-43"
+      id="name-error-text"
+    />
   </div>
   <div
     label="Endereço com rua, número e complemento"
@@ -164,7 +155,7 @@ exports[`renders correctly 1`] = `
     }
   >
     <button
-      className="MuiButtonBase-root-59 MuiButton-root-43 MuiButton-raised-49 MuiButton-raisedPrimary-50"
+      className="MuiButtonBase-root-63 MuiButton-root-47 MuiButton-raised-53 MuiButton-raisedPrimary-54"
       disabled={false}
       onBlur={[Function]}
       onFocus={[Function]}
@@ -180,12 +171,12 @@ exports[`renders correctly 1`] = `
       type="submit"
     >
       <span
-        className="MuiButton-label-44"
+        className="MuiButton-label-48"
       >
         Adicionar endereço
       </span>
       <span
-        className="MuiTouchRipple-root-62"
+        className="MuiTouchRipple-root-66"
       />
     </button>
   </div>
@@ -203,101 +194,92 @@ exports[`with error renders correctly 1`] = `
   }
 >
   <div
-    aria-describedby={undefined}
+    aria-describedby="name-error-text"
     className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
-    meta={
-      Object {
-        "active": false,
-        "asyncValidating": false,
-        "autofilled": false,
-        "dirty": false,
-        "dispatch": [Function],
-        "error": undefined,
-        "form": "addresses",
-        "initial": undefined,
-        "invalid": false,
-        "pristine": true,
-        "submitFailed": false,
-        "submitting": false,
-        "touched": false,
-        "valid": true,
-        "visited": false,
-        "warning": undefined,
-      }
-    }
     onBlur={[Function]}
-    onDragStart={[Function]}
-    onDrop={[Function]}
     onFocus={[Function]}
-    style={
-      Object {
-        "marginBottom": 10,
-      }
-    }
   >
-    <label
-      className="MuiFormLabel-root-10 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
-      data-shrink={false}
-      htmlFor={undefined}
-    >
-      Tipo
-    </label>
     <div
-      className="MuiInput-root-20 MuiInput-fullWidth-27 MuiInput-formControl-21 MuiInput-underline-24"
+      aria-describedby={undefined}
+      className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
+      onBlur={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+      onFocus={[Function]}
+      style={
+        Object {
+          "marginBottom": 10,
+        }
+      }
     >
+      <label
+        className="MuiFormLabel-root-10 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
+        data-shrink={false}
+        htmlFor={undefined}
+      >
+        Tipo
+      </label>
       <div
-        className="MuiSelect-root-15"
+        className="MuiInput-root-20 MuiInput-fullWidth-27 MuiInput-formControl-21 MuiInput-underline-24"
       >
         <div
-          aria-haspopup="true"
-          aria-owns={null}
-          aria-pressed="false"
-          className="MuiSelect-select-16 MuiSelect-selectMenu-17 MuiInput-input-28"
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onKeyDown={[Function]}
-          role="button"
-          tabIndex={0}
+          className="MuiSelect-root-15"
         >
-          <span
-            dangerouslySetInnerHTML={
-              Object {
-                "__html": "&#8203",
+          <div
+            aria-haspopup="true"
+            aria-owns={null}
+            aria-pressed="false"
+            className="MuiSelect-select-16 MuiSelect-selectMenu-17 MuiInput-input-28"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <span
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "&#8203",
+                }
               }
-            }
+            />
+          </div>
+          <input
+            aria-invalid={false}
+            aria-required={false}
+            autoComplete={undefined}
+            autoFocus={undefined}
+            defaultValue={undefined}
+            id={undefined}
+            name="addressType"
+            onKeyDown={undefined}
+            onKeyUp={undefined}
+            placeholder={undefined}
+            readOnly={undefined}
+            required={undefined}
+            rows={undefined}
+            type="hidden"
+            value=""
           />
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root-33 MuiSelect-icon-19"
+            color={undefined}
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 10l5 5 5-5z"
+            />
+          </svg>
         </div>
-        <input
-          aria-invalid={false}
-          aria-required={false}
-          autoComplete={undefined}
-          autoFocus={undefined}
-          defaultValue={undefined}
-          id={undefined}
-          name="addressType"
-          onKeyDown={undefined}
-          onKeyUp={undefined}
-          placeholder={undefined}
-          readOnly={undefined}
-          required={undefined}
-          rows={undefined}
-          type="hidden"
-          value=""
-        />
-        <svg
-          aria-hidden="true"
-          className="MuiSvgIcon-root-33 MuiSelect-icon-19"
-          color={undefined}
-          focusable="false"
-          viewBox="0 0 24 24"
-        >
-          <path
-            d="M7 10l5 5 5-5z"
-          />
-        </svg>
       </div>
     </div>
+    <p
+      className="MuiFormHelperText-root-43"
+      id="name-error-text"
+    />
   </div>
   <div
     label="Endereço com rua, número e complemento"
@@ -357,7 +339,7 @@ exports[`with error renders correctly 1`] = `
     }
   >
     <button
-      className="MuiButtonBase-root-59 MuiButton-root-43 MuiButton-raised-49 MuiButton-raisedPrimary-50"
+      className="MuiButtonBase-root-63 MuiButton-root-47 MuiButton-raised-53 MuiButton-raisedPrimary-54"
       disabled={false}
       onBlur={[Function]}
       onFocus={[Function]}
@@ -373,12 +355,12 @@ exports[`with error renders correctly 1`] = `
       type="submit"
     >
       <span
-        className="MuiButton-label-44"
+        className="MuiButton-label-48"
       >
         Adicionar endereço
       </span>
       <span
-        className="MuiTouchRipple-root-62"
+        className="MuiTouchRipple-root-66"
       />
     </button>
   </div>

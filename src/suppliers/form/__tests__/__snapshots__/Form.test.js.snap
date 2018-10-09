@@ -576,101 +576,87 @@ exports[`renders correctly 1`] = `
             </div>
           </div>
           <div
-            aria-describedby={undefined}
+            aria-describedby="name-error-text"
             className="MuiFormControl-root-121 MuiFormControl-fullWidth-124"
-            meta={
-              Object {
-                "active": false,
-                "asyncValidating": false,
-                "autofilled": false,
-                "dirty": false,
-                "dispatch": [Function],
-                "error": undefined,
-                "form": "suppliers",
-                "initial": undefined,
-                "invalid": false,
-                "pristine": true,
-                "submitFailed": false,
-                "submitting": false,
-                "touched": false,
-                "valid": true,
-                "visited": false,
-                "warning": undefined,
-              }
-            }
             onBlur={[Function]}
-            onDragStart={[Function]}
-            onDrop={[Function]}
             onFocus={[Function]}
-            style={
-              Object {
-                "marginBottom": 20,
-              }
-            }
           >
-            <label
-              className="MuiFormLabel-root-130 MuiInputLabel-root-125 MuiInputLabel-formControl-126 MuiInputLabel-animated-129"
-              data-shrink={false}
-              htmlFor={undefined}
-            >
-              Alcance
-            </label>
             <div
-              className="MuiInput-root-135 MuiInput-fullWidth-142 MuiInput-formControl-136 MuiInput-underline-139"
+              aria-describedby={undefined}
+              className="MuiFormControl-root-121 MuiFormControl-fullWidth-124"
+              onBlur={[Function]}
+              onDragStart={[Function]}
+              onDrop={[Function]}
+              onFocus={[Function]}
             >
+              <label
+                className="MuiFormLabel-root-130 MuiInputLabel-root-125 MuiInputLabel-formControl-126 MuiInputLabel-animated-129"
+                data-shrink={false}
+                htmlFor={undefined}
+              >
+                Qual é o alcance de sua empresa?
+              </label>
               <div
-                className="MuiSelect-root-155"
+                className="MuiInput-root-135 MuiInput-fullWidth-142 MuiInput-formControl-136 MuiInput-underline-139"
               >
                 <div
-                  aria-haspopup="true"
-                  aria-owns={null}
-                  aria-pressed="false"
-                  className="MuiSelect-select-156 MuiSelect-selectMenu-157 MuiInput-input-143"
-                  onBlur={[Function]}
-                  onClick={[Function]}
-                  onFocus={[Function]}
-                  onKeyDown={[Function]}
-                  role="button"
-                  tabIndex={0}
+                  className="MuiSelect-root-155"
                 >
-                  <span
-                    dangerouslySetInnerHTML={
-                      Object {
-                        "__html": "&#8203",
+                  <div
+                    aria-haspopup="true"
+                    aria-owns={null}
+                    aria-pressed="false"
+                    className="MuiSelect-select-156 MuiSelect-selectMenu-157 MuiInput-input-143"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                    tabIndex={0}
+                  >
+                    <span
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "&#8203",
+                        }
                       }
-                    }
+                    />
+                  </div>
+                  <input
+                    aria-invalid={false}
+                    aria-required={false}
+                    autoComplete={undefined}
+                    autoFocus={undefined}
+                    defaultValue={undefined}
+                    id={undefined}
+                    name="reach"
+                    onKeyDown={undefined}
+                    onKeyUp={undefined}
+                    placeholder={undefined}
+                    readOnly={undefined}
+                    required={undefined}
+                    rows={undefined}
+                    type="hidden"
+                    value=""
                   />
+                  <svg
+                    aria-hidden="true"
+                    className="MuiSvgIcon-root-160 MuiSelect-icon-159"
+                    color={undefined}
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
                 </div>
-                <input
-                  aria-invalid={false}
-                  aria-required={false}
-                  autoComplete={undefined}
-                  autoFocus={undefined}
-                  defaultValue={undefined}
-                  id={undefined}
-                  name="reach"
-                  onKeyDown={undefined}
-                  onKeyUp={undefined}
-                  placeholder={undefined}
-                  readOnly={undefined}
-                  required={undefined}
-                  rows={undefined}
-                  type="hidden"
-                  value=""
-                />
-                <svg
-                  aria-hidden="true"
-                  className="MuiSvgIcon-root-160 MuiSelect-icon-159"
-                  color={undefined}
-                  focusable="false"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M7 10l5 5 5-5z"
-                  />
-                </svg>
               </div>
             </div>
+            <p
+              className="MuiFormHelperText-root-148"
+              id="name-error-text"
+            />
           </div>
           <div
             style={

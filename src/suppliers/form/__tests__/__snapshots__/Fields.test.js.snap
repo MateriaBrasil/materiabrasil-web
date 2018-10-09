@@ -129,7 +129,7 @@ Array [
     TextField
 </div>,
   <div
-    label="Alcance"
+    label="Qual é o alcance de sua empresa?"
     name="reach"
     options={
         Array [
@@ -155,10 +155,10 @@ Array [
             },
           ]
     }
-    style={
-        Object {
-            "marginBottom": 20,
-          }
+    validate={
+        Array [
+            [Function],
+          ]
     }
 >
     SelectField

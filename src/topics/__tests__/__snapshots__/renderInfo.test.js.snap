@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  id="foo"
+  name="topics"
+  render={[Function]}
+>
+  Info - 
+  <div
+    foo="bar"
+    match={
+      Object {
+        "params": Object {
+          "id": "foo",
+        },
+      }
+    }
+  >
+    renderInfo
+  </div>
+</div>
+`;

@@ -2,15 +2,16 @@
 
 exports[`renders correctly 1`] = `
 <div
-  style={
+  bar="foo"
+  foo="bar"
+  match={
     Object {
-      "textAlign": "right",
+      "params": Object {
+        "id": 3,
+      },
     }
   }
 >
-  <div
-    name="topics"
-    render={[Function]}
-  />
+  Success
 </div>
 `;

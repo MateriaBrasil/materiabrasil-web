@@ -8,6 +8,6 @@ export default props => routeProps => (
   <New
     name="messages"
     render={renderNew({ ...props, ...routeProps })}
-    renderCreated={renderCreated(routeProps)}
+    renderCreated={renderCreated({ ...props, ...routeProps })}
   />
 )
