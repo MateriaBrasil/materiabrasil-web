@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  bar="foo"
+  foo="bar"
+  match={
+    Object {
+      "params": Object {
+        "id": 3,
+      },
+    }
+  }
+>
+  Success
+</div>
+`;
