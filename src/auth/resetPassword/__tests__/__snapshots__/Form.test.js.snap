@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div
+    callToAction="Recuperar senha"
+    error={Object {}}
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="MuiCardHeader-root-1"
+      >
+        <div
+          className="MuiCardHeader-content-4"
+        >
+          <span
+            className="MuiTypography-root-7 MuiTypography-headline-12 MuiCardHeader-title-5"
+          >
+            foo
+          </span>
+        </div>
+      </div>
+      <div
+        label="Senha"
+        name="password"
+        type="password"
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+      >
+        Field
+      </div>
+      <div
+        label="Confirmar senha"
+        name="passwordConfirmation"
+        type="password"
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+      >
+        Field
+      </div>
+      <div>
+        Error
+      </div>
+    </form>
+  </div>
+</div>
+`;
