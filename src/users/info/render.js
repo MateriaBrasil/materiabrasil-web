@@ -37,7 +37,7 @@ export default props => infoProps => {
           <CardContent>
             <PropertyWithValue
               title="Email"
-              value={email}
+              value={currentUser.email == email ? email : false}
               style={{ marginTop: 16 }}
             />
             <PropertyWithValue
