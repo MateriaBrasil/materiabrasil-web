@@ -16,7 +16,7 @@ export default props => {
         text="Não possui uma conta? Cadastre-se"
       />
       <TextLink
-        to={{ pathname: '/auth/reset-password', state }}
+        to={{ pathname: '/auth/forgot-password', state }}
         text="Esqueceu sua senha? Clique aqui"
       />
     </New>
