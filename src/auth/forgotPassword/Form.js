@@ -11,20 +11,22 @@ import TextField from '../../form/TextField'
 
 const Form = props => {
   const { onSubmit, title, error } = props
-
+  debugger
   return (
     <SingleColumn>
-      <DefaultForm callToAction="Recuperar senha" error={error}>
-        <form onSubmit={onSubmit}>
-          {title && <CardHeader title={title} />}
-          <TextField
-            name="email"
-            label="email"
-            type="email"
-            validate={[required()]}
-          />
-          <Error>{error}</Error>
-        </form>
+      <DefaultForm
+        callToAction="Recuperar senha"
+        error={error}
+        onSubmit={onSubmit}
+      >
+        {title && <CardHeader title={title} />}
+        <TextField
+          name="email"
+          label="email"
+          type="email"
+          validate={[required()]}
+        />
+        <Error>{error}</Error>
       </DefaultForm>
     </SingleColumn>
   )
