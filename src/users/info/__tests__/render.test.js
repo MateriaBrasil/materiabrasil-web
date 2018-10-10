@@ -15,7 +15,7 @@ jest.mock('../../../PropertyWithValue', () => props => (
   <div {...props}>PropertyWithValue</div>
 ))
 
-describe('when user looks at her on profile', () => {
+describe('when user looks at her own profile', () => {
   it('renders correctly', () => {
     const props = { currentUser: { id: 1234 } }
     const infoProps = {
