@@ -1,12 +1,11 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-import renderForm from '../renderForm'
+import RenderForm from '../renderForm'
 
-jest.mock('../Form', props => <div {...props}>Form</div>)
+jest.mock('../Form', () => props => <div {...props}>Form</div>)
 
 it('renders correctly', () => {
-  const Component = renderForm({ create: jest.fn() })
-  const tree = renderer.create(<Component />).toJSON()
+  const tree = renderer.create(<RenderForm />).toJSON()
   expect(tree).toMatchSnapshot()
 })
