@@ -35,11 +35,14 @@ export default props => infoProps => {
       <Grid item xs={12} lg={8}>
         <Card>
           <CardContent>
-            <PropertyWithValue
-              title="Email"
-              value={email}
-              style={{ marginTop: 16 }}
-            />
+            {currentUser &&
+              currentUser.id === id && (
+                <PropertyWithValue
+                  title="Email"
+                  value={email}
+                  style={{ marginTop: 16 }}
+                />
+              )}
             <PropertyWithValue
               title="Website"
               value={website}
