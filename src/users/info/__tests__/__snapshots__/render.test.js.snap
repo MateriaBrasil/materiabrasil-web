@@ -1,6 +1,175 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`when user looks at another user profile renders correctly 1`] = `
+<div
+  className="MuiGrid-container-1 MuiGrid-spacing-xs-32-25"
+>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-4-70"
+  >
+    <div
+      editPath={false}
+      imageUrl={undefined}
+      name="foo-name foo-last"
+    >
+      Avatar
+    </div>
+    <div
+      style={
+        Object {
+          "marginTop": 30,
+        }
+      }
+    >
+      <h1
+        className="MuiTypography-root-92 MuiTypography-display1-96"
+      >
+        foo-name foo-last
+      </h1>
+    </div>
+  </div>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-8-74"
+  >
+    <div
+      className="MuiPaper-root-117 MuiPaper-elevation2-121 MuiPaper-rounded-118 MuiCard-root-116"
+    >
+      <div
+        className="MuiCardContent-root-144"
+      >
+        <div
+          style={
+            Object {
+              "marginTop": 16,
+            }
+          }
+          title="Website"
+          value={undefined}
+        >
+          PropertyWithValue
+        </div>
+        <div
+          style={
+            Object {
+              "marginTop": 16,
+            }
+          }
+          title="Bio"
+          value={undefined}
+        >
+          PropertyWithValue
+        </div>
+        <div
+          style={
+            Object {
+              "marginTop": 16,
+            }
+          }
+          title="Organização"
+          value={undefined}
+        >
+          PropertyWithValue
+        </div>
+        <div
+          style={
+            Object {
+              "marginTop": 16,
+            }
+          }
+          title="Cargo"
+          value={undefined}
+        >
+          PropertyWithValue
+        </div>
+        <div
+          style={
+            Object {
+              "marginTop": 16,
+            }
+          }
+          title="Cidade"
+          value={undefined}
+        >
+          PropertyWithValue
+        </div>
+        <div
+          style={
+            Object {
+              "marginTop": 16,
+            }
+          }
+          title="Estado"
+          value={undefined}
+        >
+          PropertyWithValue
+        </div>
+        <div
+          style={
+            Object {
+              "marginTop": 16,
+            }
+          }
+          title="País"
+          value={undefined}
+        >
+          PropertyWithValue
+        </div>
+        <div
+          style={
+            Object {
+              "textDecoration": "none",
+            }
+          }
+          to="/users/4321/messages/new"
+        >
+          <button
+            className="MuiButtonBase-root-161 MuiButton-root-145 MuiButton-raised-151 MuiButton-raisedPrimary-152"
+            disabled={false}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            style={
+              Object {
+                "marginTop": 16,
+              }
+            }
+            tabIndex="0"
+            type="button"
+          >
+            <span
+              className="MuiButton-label-146"
+            >
+              Enviar mensagem
+            </span>
+            <span
+              className="MuiTouchRipple-root-164"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
+  >
+    <div
+      parentId={1234}
+      showDestroy={false}
+    >
+      Album
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when user looks at her on profile renders correctly 1`] = `
 <div
   className="MuiGrid-container-1 MuiGrid-spacing-xs-32-25"
 >
