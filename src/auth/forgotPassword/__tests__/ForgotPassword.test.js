@@ -3,8 +3,7 @@ import renderer from 'react-test-renderer'
 
 import ForgotPassword from '../ForgotPassword'
 
-jest.mock('../../New', () => props => <div {...props}>New</div>)
-jest.mock('../Form', () => props => <div {...props}>Form</div>)
+jest.mock('croods', () => ({ New: props => <div {...props}>New</div> }))
 
 it('renders correctly', () => {
   const tree = renderer.create(<ForgotPassword />).toJSON()

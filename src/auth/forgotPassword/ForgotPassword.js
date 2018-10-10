@@ -1,7 +1,7 @@
 import React from 'react'
 
-import New from '../New'
-import Form from './Form'
+import { New } from 'croods'
+import renderForm from './renderForm'
 import renderCreated from './renderCreated'
 
 export default props => {
@@ -9,8 +9,7 @@ export default props => {
     <New
       name="password"
       path="/auth/password"
-      form={Form}
-      {...props}
+      render={renderForm}
       renderCreated={renderCreated(props)}
     />
   )

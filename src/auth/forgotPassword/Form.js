@@ -2,34 +2,36 @@ import React from 'react'
 import { reduxForm } from 'redux-form'
 import CardHeader from '@material-ui/core/CardHeader'
 import { required } from 'redux-form-validators'
+import Button from '@material-ui/core/Button'
 import Error from 'Error'
 
 import SingleColumn from '../../SingleColumn'
-import DefaultForm from '../../form/Form'
 
 import TextField from '../../form/TextField'
 
-const Form = props => {
-  const { onSubmit, title, error } = props
-  debugger
+export default reduxForm({ form: 'forgotPassword' })(props => {
+  const { title, handleSubmit, create, creating, error } = props
   return (
     <SingleColumn>
-      <DefaultForm
-        callToAction="Recuperar senha"
-        error={error}
-        onSubmit={onSubmit}
-      >
+      <form onSubmit={handleSubmit(create)}>
         {title && <CardHeader title={title} />}
         <TextField
           name="email"
-          label="email"
+          label="E-mail"
           type="email"
           validate={[required()]}
         />
         <Error>{error}</Error>
-      </DefaultForm>
+        <Button
+          variant="raised"
+          color="primary"
+          type="submit"
+          disabled={creating}
+          style={{ width: '100%' }}
+        >
+          Enviar
+        </Button>
+      </form>
     </SingleColumn>
   )
-}
-
-export default reduxForm({ form: 'forgotPassword' })(Form)
+})
