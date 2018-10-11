@@ -15,14 +15,30 @@ jest.mock('../../../PropertyWithValue', () => props => (
   <div {...props}>PropertyWithValue</div>
 ))
 
-it('renders correctly', () => {
-  const props = { currentUser: { id: 1234 } }
-  const infoProps = {
-    id: 1234,
-    firstName: 'foo-name',
-    lastName: 'foo-last',
-    albums: [1, 2, 3],
-  }
-  const tree = renderer.create(render(props)(infoProps)).toJSON()
-  expect(tree).toMatchSnapshot()
+describe('when user looks at her own profile', () => {
+  it('renders correctly', () => {
+    const props = { currentUser: { id: 1234 } }
+    const infoProps = {
+      id: 1234,
+      firstName: 'foo-name',
+      lastName: 'foo-last',
+      albums: [1, 2, 3],
+    }
+    const tree = renderer.create(render(props)(infoProps)).toJSON()
+    expect(tree).toMatchSnapshot()
+  })
+})
+
+describe('when user looks at another user profile', () => {
+  it('renders correctly', () => {
+    const props = { currentUser: { id: 1234 } }
+    const infoProps = {
+      id: 4321,
+      firstName: 'foo-name',
+      lastName: 'foo-last',
+      albums: [1, 2, 3],
+    }
+    const tree = renderer.create(render(props)(infoProps)).toJSON()
+    expect(tree).toMatchSnapshot()
+  })
 })
