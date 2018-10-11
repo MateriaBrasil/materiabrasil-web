@@ -1,5 +1,7 @@
-import { navigate } from '@reach/router'
+import React from 'react'
+
+import Redirect from 'react-router-dom/Redirect'
 
 export default props => created => {
-  navigate(`/auth/sign-in`)
+  return <Redirect to="/auth/sign-in" />
 }

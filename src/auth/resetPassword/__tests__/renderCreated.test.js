@@ -1,12 +1,14 @@
-import { navigate } from '@reach/router'
+import React from 'react'
+import renderer from 'react-test-renderer'
 
 import renderCreated from '../renderCreated'
 
-jest.mock('@reach/router', () => ({
-  navigate: jest.fn(),
-}))
+jest.mock('react-router-dom/Redirect', () => props => (
+  <div {...props}>Redirect</div>
+))
 
 it('execute navigate when called', () => {
-  renderCreated({})(true)
-  expect(navigate).toBeCalledWith(`/auth/sign-in`)
+  const Component = renderCreated()
+  const tree = renderer.create(<Component />).toJSON()
+  expect(tree).toMatchSnapshot()
 })
