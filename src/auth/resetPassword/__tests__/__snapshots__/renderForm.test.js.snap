@@ -2,6 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <div
+  bar="foo"
   title="Renovar senha"
 >
   Form
