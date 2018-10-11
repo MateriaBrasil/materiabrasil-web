@@ -17,7 +17,7 @@ export default reduxForm({ form: 'resetPassword' })(props => {
         {title && <CardHeader title={title} />}
         <TextField
           name="password"
-          label="Senha"u
+          label="Senha"
           type="password"
           validate={[required()]}
         />
