@@ -22,7 +22,6 @@ exports[`renders correctly 1`] = `
       label="Senha"
       name="password"
       type="password"
-      u={true}
       validate={
         Array [
           [Function],

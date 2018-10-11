@@ -4,6 +4,6 @@ exports[`renders correctly 1`] = `
 <div
   className="MuiPaper-root-2 MuiPaper-elevation2-6 MuiPaper-rounded-3 MuiCard-root-1"
 >
-  asdas
+  Enviamos um e-mail para resetar sua senha
 </div>
 `;
