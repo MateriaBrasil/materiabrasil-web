@@ -6,14 +6,14 @@ import Button from '@material-ui/core/Button'
 import Error from 'Error'
 
 import SingleColumn from '../../SingleColumn'
-
 import TextField from '../../form/TextField'
+import createWithParams from './createWithParams'
 
 export default reduxForm({ form: 'resetPassword' })(props => {
   const { title, handleSubmit, create, creating, error } = props
   return (
     <SingleColumn>
-      <form onSubmit={handleSubmit(create)}>
+      <form onSubmit={handleSubmit(createWithParams(create, props))}>
         {title && <CardHeader title={title} />}
         <TextField
           name="password"

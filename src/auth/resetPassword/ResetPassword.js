@@ -10,7 +10,7 @@ export default props => {
       name="resetPassword"
       method="put"
       path="/auth/password"
-      render={renderForm}
+      render={renderForm(props)}
       renderCreated={renderCreated(props)}
     />
   )
