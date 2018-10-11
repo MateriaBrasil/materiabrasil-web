@@ -20,8 +20,7 @@ jest.mock('redux-form', () => ({
 }))
 
 it('renders correctly', () => {
-  const props = { onSubmit: jest.fn(), title: 'foo', error: {} }
-
+  const props = { handleSubmit: jest.fn(), title: 'foo', error: {} }
   const tree = renderer.create(<Form {...props} />).toJSON()
   expect(tree).toMatchSnapshot()
 })
