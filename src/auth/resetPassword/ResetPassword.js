@@ -1,7 +1,8 @@
 import React from 'react'
 
-import New from '../New'
-import Form from './Form'
+import { New } from 'croods'
+import renderForm from './renderForm'
+import renderCreated from './renderCreated'
 
 export default props => {
   return (
@@ -9,8 +10,8 @@ export default props => {
       name="resetPassword"
       method="put"
       path="/auth/password"
-      form={Form}
-      {...props}
+      render={renderForm}
+      renderCreated={renderCreated(props)}
     />
   )
 }
