@@ -30,13 +30,6 @@ exports[`renders correctly 1`] = `
     >
       Field
     </div>
-    <div
-      name="redirectUrl"
-      type="hidden"
-      value="localhost:3000/reset-password"
-    >
-      Field
-    </div>
     <div>
       Error
     </div>
