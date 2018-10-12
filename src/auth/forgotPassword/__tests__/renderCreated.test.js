@@ -3,8 +3,12 @@ import renderer from 'react-test-renderer'
 
 import renderCreated from '../renderCreated'
 
-it('renders correctly', () => {
-  const Component = renderCreated({ bar: 'foo' })
-  const tree = renderer.create(<Component foo="bar" />).toJSON()
+jest.mock('react-router-dom/Redirect', () => props => (
+  <div {...props}>Redirect</div>
+))
+
+it('execute navigate when called', () => {
+  const Component = renderCreated()
+  const tree = renderer.create(<Component />).toJSON()
   expect(tree).toMatchSnapshot()
 })

@@ -5,6 +5,7 @@ import Switch from 'react-router-dom/Switch'
 import renderSignIn from './signIn/render'
 import renderSignUp from './signUp/render'
 import renderForgotPassword from './forgotPassword/render'
+import renderEmailSent from './forgotPassword/renderEmailSent'
 import renderResetPassword from './resetPassword/render'
 
 export default props => (
@@ -20,6 +21,11 @@ export default props => (
       exact
       path="/auth/reset-password"
       render={renderResetPassword(props)}
+    />
+    <Route
+      exact
+      path="/auth/forgot-password/sent"
+      render={renderEmailSent(props)}
     />
   </Switch>
 )
