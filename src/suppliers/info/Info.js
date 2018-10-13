@@ -11,6 +11,7 @@ import Addresses from '../../addresses/Addresses'
 import EditProfile from './EditProfile'
 import InfoCard from './InfoCard'
 import Materials from './Materials'
+import AnswerQuestionnaire from './AnswerQuestionnaire'
 
 class Info extends Component {
   componentDidUpdate(prevProps) {
@@ -34,11 +35,7 @@ class Info extends Component {
             {name}
           </Typography>
           <EditProfile currentUser={currentUser} supplier={current} />
-          <Link to={`/suppliers/${id}/questionnaires`}>
-            <Button variant="raised" color="primary">
-              Responder questionários
-            </Button>
-          </Link>
+          <AnswerQuestionnaire id={id} />
         </Grid>
         <InfoCard {...this.props} />
         <Materials {...this.props} />
