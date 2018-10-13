@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
-import Link from 'react-router-dom/Link'
-import Button from '@material-ui/core/Button'
 
 import checkReloadAndFetch from '../../checkReloadAndFetch'
 import Avatar from '../../imageUpload/Avatar'
