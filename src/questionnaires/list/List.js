@@ -1,7 +1,8 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import map from 'lodash/map'
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
+import FormGroup from '@material-ui/core/FormGroup'
 import FormControl from '@material-ui/core/FormControl'
 import RadioGroup from '@material-ui/core/RadioGroup'
 import Radio from '@material-ui/core/Radio'
@@ -12,33 +13,36 @@ export default ({ list }) => (
   <List>
     {map(list, questionnaire => {
       const { name, questions } = questionnaire
-      const { options } = questions
 
       return (
-        <ListItem button>
+        <ListItem key={name}>
           <Typography variant="headline">{name}</Typography>
-          {map(questions, question => (
-            <Fragment>
-              <Typography variant="subheading">
-                {question.description}
-              </Typography>
-              <FormControl component="fieldset">
-                <RadioGroup
-                  aria-label="Questionnarie Options"
-                  name="questionnaire-options"
-                >
-                  {map(options, option => (
-                    <FormControlLabel
-                      value={option.id}
-                      disabled
-                      control={<Radio />}
-                      label={option.description}
-                    />
-                  ))}
-                </RadioGroup>
-              </FormControl>
-            </Fragment>
-          ))}
+          {map(questions, question => {
+            const { options, description } = question
+
+            return (
+              <FormGroup key={description}>
+                <Typography variant="subheading">{description}</Typography>
+                <FormControl component="fieldset">
+                  <RadioGroup
+                    key={description}
+                    aria-label="Questionnarie Options"
+                    name="questionnaire-options"
+                  >
+                    {map(options, option => (
+                      <FormControlLabel
+                        value={toString(option.id)}
+                        key={option.id}
+                        disabled
+                        control={<Radio />}
+                        label={option.description}
+                      />
+                    ))}
+                  </RadioGroup>
+                </FormControl>
+              </FormGroup>
+            )
+          })}
         </ListItem>
       )
     })}

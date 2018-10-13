@@ -9,7 +9,7 @@ import renderNew from './renderNew'
 import renderEdit from './renderEdit'
 import renderInfo from './renderInfo'
 import renderImageUpload from './renderImageUpload'
-import renderQuestionnaires from '../questionnaires/renderQuestionnaires'
+import renderQuestionnaires from '../questionnaires/renderList'
 
 export default props => {
   return (

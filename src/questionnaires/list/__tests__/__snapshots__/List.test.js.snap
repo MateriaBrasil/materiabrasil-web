@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<ul
+  className="MuiList-root-1 MuiList-padding-2"
+>
+  <li
+    className="MuiListItem-root-5 MuiListItem-default-8 MuiListItem-gutters-12"
+    disabled={false}
+  >
+    <h1
+      className="MuiTypography-root-15 MuiTypography-headline-20"
+    >
+      Foo text
+    </h1>
+    <div
+      className="MuiFormGroup-root-39"
+    >
+      <h3
+        className="MuiTypography-root-15 MuiTypography-subheading-22"
+      />
+      <fieldset
+        className="MuiFormControl-root-41"
+        onBlur={[Function]}
+        onFocus={[Function]}
+      >
+        <div
+          aria-label="Questionnarie Options"
+          className="MuiFormGroup-root-39"
+          role="radiogroup"
+        >
+          <label
+            className="MuiFormControlLabel-root-45 MuiFormControlLabel-disabled-46"
+          >
+            <span
+              className="MuiButtonBase-root-63 MuiButtonBase-disabled-64 MuiIconButton-root-57 MuiIconButton-disabled-61 MuiSwitchBase-root-53 MuiRadio-root-48 MuiRadio-colorSecondary-52 MuiSwitchBase-disabled-55 MuiRadio-disabled-50"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              role={undefined}
+              tabIndex="-1"
+            >
+              <span
+                className="MuiIconButton-label-62"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="MuiSvgIcon-root-66"
+                  color={undefined}
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                  />
+                </svg>
+                <input
+                  checked={false}
+                  className="MuiSwitchBase-input-56"
+                  disabled={true}
+                  id={undefined}
+                  name="questionnaire-options"
+                  onChange={[Function]}
+                  tabIndex={undefined}
+                  type="radio"
+                  value="[object Window]"
+                />
+              </span>
+            </span>
+            <span
+              className="MuiTypography-root-15 MuiTypography-body1-24 MuiFormControlLabel-label-47 MuiFormControlLabel-disabled-46"
+            >
+              option10
+            </span>
+          </label>
+          <label
+            className="MuiFormControlLabel-root-45 MuiFormControlLabel-disabled-46"
+          >
+            <span
+              className="MuiButtonBase-root-63 MuiButtonBase-disabled-64 MuiIconButton-root-57 MuiIconButton-disabled-61 MuiSwitchBase-root-53 MuiRadio-root-48 MuiRadio-colorSecondary-52 MuiSwitchBase-disabled-55 MuiRadio-disabled-50"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              role={undefined}
+              tabIndex="-1"
+            >
+              <span
+                className="MuiIconButton-label-62"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="MuiSvgIcon-root-66"
+                  color={undefined}
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                  />
+                </svg>
+                <input
+                  checked={false}
+                  className="MuiSwitchBase-input-56"
+                  disabled={true}
+                  id={undefined}
+                  name="questionnaire-options"
+                  onChange={[Function]}
+                  tabIndex={undefined}
+                  type="radio"
+                  value="[object Window]"
+                />
+              </span>
+            </span>
+            <span
+              className="MuiTypography-root-15 MuiTypography-body1-24 MuiFormControlLabel-label-47 MuiFormControlLabel-disabled-46"
+            >
+              option11
+            </span>
+          </label>
+        </div>
+      </fieldset>
+    </div>
+    <div
+      className="MuiFormGroup-root-39"
+    >
+      <h3
+        className="MuiTypography-root-15 MuiTypography-subheading-22"
+      />
+      <fieldset
+        className="MuiFormControl-root-41"
+        onBlur={[Function]}
+        onFocus={[Function]}
+      >
+        <div
+          aria-label="Questionnarie Options"
+          className="MuiFormGroup-root-39"
+          role="radiogroup"
+        >
+          <label
+            className="MuiFormControlLabel-root-45 MuiFormControlLabel-disabled-46"
+          >
+            <span
+              className="MuiButtonBase-root-63 MuiButtonBase-disabled-64 MuiIconButton-root-57 MuiIconButton-disabled-61 MuiSwitchBase-root-53 MuiRadio-root-48 MuiRadio-colorSecondary-52 MuiSwitchBase-disabled-55 MuiRadio-disabled-50"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              role={undefined}
+              tabIndex="-1"
+            >
+              <span
+                className="MuiIconButton-label-62"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="MuiSvgIcon-root-66"
+                  color={undefined}
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                  />
+                </svg>
+                <input
+                  checked={false}
+                  className="MuiSwitchBase-input-56"
+                  disabled={true}
+                  id={undefined}
+                  name="questionnaire-options"
+                  onChange={[Function]}
+                  tabIndex={undefined}
+                  type="radio"
+                  value="[object Window]"
+                />
+              </span>
+            </span>
+            <span
+              className="MuiTypography-root-15 MuiTypography-body1-24 MuiFormControlLabel-label-47 MuiFormControlLabel-disabled-46"
+            >
+              option20
+            </span>
+          </label>
+          <label
+            className="MuiFormControlLabel-root-45 MuiFormControlLabel-disabled-46"
+          >
+            <span
+              className="MuiButtonBase-root-63 MuiButtonBase-disabled-64 MuiIconButton-root-57 MuiIconButton-disabled-61 MuiSwitchBase-root-53 MuiRadio-root-48 MuiRadio-colorSecondary-52 MuiSwitchBase-disabled-55 MuiRadio-disabled-50"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              role={undefined}
+              tabIndex="-1"
+            >
+              <span
+                className="MuiIconButton-label-62"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="MuiSvgIcon-root-66"
+                  color={undefined}
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                  />
+                </svg>
+                <input
+                  checked={false}
+                  className="MuiSwitchBase-input-56"
+                  disabled={true}
+                  id={undefined}
+                  name="questionnaire-options"
+                  onChange={[Function]}
+                  tabIndex={undefined}
+                  type="radio"
+                  value="[object Window]"
+                />
+              </span>
+            </span>
+            <span
+              className="MuiTypography-root-15 MuiTypography-body1-24 MuiFormControlLabel-label-47 MuiFormControlLabel-disabled-46"
+            >
+              option21
+            </span>
+          </label>
+        </div>
+      </fieldset>
+    </div>
+  </li>
+</ul>
+`;
