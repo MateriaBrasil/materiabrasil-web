@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
+import Link from 'react-router-dom/Link'
+import Button from '@material-ui/core/Button'
 
 import checkReloadAndFetch from '../../checkReloadAndFetch'
 import Avatar from '../../imageUpload/Avatar'
@@ -32,6 +34,11 @@ class Info extends Component {
             {name}
           </Typography>
           <EditProfile currentUser={currentUser} supplier={current} />
+          <Link to={`/suppliers/${id}/questionnaires`}>
+            <Button variant="raised" color="primary">
+              Responder questionários
+            </Button>
+          </Link>
         </Grid>
         <InfoCard {...this.props} />
         <Materials {...this.props} />
