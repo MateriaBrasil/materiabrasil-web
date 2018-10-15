@@ -434,7 +434,7 @@ exports[`with materials renders correctly 1`] = `
       Materiais
     </h1>
     <div
-      cellHeight={360}
+      cellheight={360}
       className="MuiGrid-container-1 MuiGrid-spacing-xs-8-22"
     >
       <div

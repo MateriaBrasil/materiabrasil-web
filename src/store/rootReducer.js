@@ -19,6 +19,7 @@ const reducers = {
   searches: createReducer('searches'),
   suppliers: createReducer('suppliers'),
   addresses: createReducer('addresses'),
+  questionnaires: createReducer('questionnaires'),
   categories: createReducer('categories'),
   materialCategories: createReducer('materialCategories'),
   messages: createReducer('messages'),
