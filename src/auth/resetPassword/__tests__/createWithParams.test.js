@@ -11,7 +11,5 @@ it('executes create', () => {
   }
   createWithParams(create, props)(data)
 
-  expect(create).toHaveBeenCalledWith(
-    Object.assign(data, { resetPasswordToken: 'abc' }),
-  )
+  expect(create).toHaveBeenCalledWith({ ...data, resetPasswordToken: 'abc' })
 })
