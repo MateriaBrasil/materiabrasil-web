@@ -22,7 +22,7 @@ export default props => (
 
       return (
         <Grid container spacing={40}>
-          <Grid item xs={12} lg={3}>
+          <Grid item xs={12} md={3}>
             <Search history={history} {...searchProps} />
             <List
               name="categories"
