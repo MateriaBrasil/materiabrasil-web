@@ -3,6 +3,7 @@ import Button from '@material-ui/core/Button'
 import Icon from '@material-ui/icons/ExpandMore'
 import Drawer from '@material-ui/core/Drawer'
 import Paper from '@material-ui/core/Paper'
+import Chip from '@material-ui/core/Chip'
 import map from 'lodash/map'
 import reduce from 'lodash/reduce'
 import get from 'lodash/get'
@@ -16,7 +17,7 @@ import {
   Legend,
 } from 'recharts'
 
-export default ({ list, actions: { close } }) => {
+export default ({ list, actions: { close, remove } }) => {
   const drivers = ['firstDriver', 'secondDriver', 'thirdDriver', 'fourthDriver']
   const colors = ['#239eb1', '#ea6740', '#00C853', '#304FFE', '#d50000']
 
@@ -55,6 +56,14 @@ export default ({ list, actions: { close } }) => {
           <Legend />
         </RadarChart>
       </Paper>
+      {map(list, ({ id, name }, index) => (
+        <Chip
+          key={id}
+          label={name}
+          onDelete={() => remove({ id })}
+          color="primary"
+        />
+      ))}
     </Drawer>
   )
 }
