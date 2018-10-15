@@ -32,11 +32,11 @@ export default reduxForm({ form: 'resetPassword' })(props => {
         />
         {error && <Error>{error}</Error>}
         <Button
+          type="submit"
+          style={{ width: '100%', marginTop: '20px' }}
           variant="raised"
           color="primary"
-          type="submit"
           disabled={creating}
-          style={{ width: '100%', marginTop: '20px' }}
         >
           Alterar senha
         </Button>
