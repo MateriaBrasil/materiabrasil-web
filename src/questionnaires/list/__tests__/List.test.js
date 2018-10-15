@@ -2,11 +2,15 @@ import React from 'react'
 import renderer from 'react-test-renderer'
 import List from '../List'
 
+jest.mock('@material-ui/core/Dialog', () => props => (
+  <div {...props}>Dialog - {props.children}</div>
+))
+
 const list = [
   {
     questions: [
       {
-        descripton: 'question1',
+        description: 'question1',
         options: [
           {
             id: 1,
@@ -19,7 +23,7 @@ const list = [
         ],
       },
       {
-        descripton: 'question2',
+        description: 'question2',
         options: [
           {
             id: 1,
@@ -37,6 +41,8 @@ const list = [
 ]
 
 it('renders correctly', () => {
-  const tree = renderer.create(<List list={list} />).toJSON()
+  const tree = renderer
+    .create(<List list={list} match={{ params: { id: '123' } }} />)
+    .toJSON()
   expect(tree).toMatchSnapshot()
 })

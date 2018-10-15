@@ -17,7 +17,14 @@ export default props => (
         const { name, questions } = questionnaire
 
         return (
-          <ListItem key={name}>
+          <ListItem
+            key={name}
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'flex-start',
+            }}
+          >
             <Typography variant="headline">{name}</Typography>
             {map(questions, question => {
               const { options, description } = question
