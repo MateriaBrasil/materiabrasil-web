@@ -30,3 +30,17 @@ it('renders correctly', () => {
   const tree = renderer.create(<Form {...props} />).toJSON()
   expect(tree).toMatchSnapshot()
 })
+
+describe('with error', () => {
+  it('renders correctly', () => {
+    const props = {
+      handleSubmit: jest.fn(),
+      create: jest.fn(),
+      title: 'foo',
+      error: { email: 'Email inválido' },
+    }
+
+    const tree = renderer.create(<Form {...props} />).toJSON()
+    expect(tree).toMatchSnapshot()
+  })
+})
