@@ -29,13 +29,13 @@ export default reduxForm({ form: 'forgotPassword' })(props => {
           type="email"
           validate={[required(), email()]}
         />
-        <Error>{error}</Error>
+        {error && <Error>{error}</Error>}
         <Button
           variant="raised"
           color="primary"
           type="submit"
           disabled={creating}
-          style={{ width: '100%' }}
+          style={{ width: '100%', marginTop: '20px' }}
         >
           Enviar
         </Button>

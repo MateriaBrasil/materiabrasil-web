@@ -60,6 +60,87 @@ exports[`renders correctly 1`] = `
       onTouchStart={[Function]}
       style={
         Object {
+          "marginTop": "20px",
+          "width": "100%",
+        }
+      }
+      tabIndex="0"
+      type="submit"
+    >
+      <span
+        className="MuiButton-label-32"
+      >
+        Alterar senha
+      </span>
+      <span
+        className="MuiTouchRipple-root-50"
+      />
+    </button>
+  </form>
+</div>
+`;
+
+exports[`with error renders correctly 1`] = `
+<div>
+  <form
+    onSubmit={undefined}
+  >
+    <div
+      className="MuiCardHeader-root-1"
+    >
+      <div
+        className="MuiCardHeader-content-4"
+      >
+        <span
+          className="MuiTypography-root-7 MuiTypography-headline-12 MuiCardHeader-title-5"
+        >
+          foo
+        </span>
+      </div>
+    </div>
+    <div
+      label="Senha"
+      name="password"
+      type="password"
+      validate={
+        Array [
+          [Function],
+        ]
+      }
+    >
+      Field
+    </div>
+    <div
+      label="Confirmar senha"
+      name="passwordConfirmation"
+      type="password"
+      validate={
+        Array [
+          [Function],
+        ]
+      }
+    >
+      Field
+    </div>
+    <div>
+      Error
+    </div>
+    <button
+      className="MuiButtonBase-root-47 MuiButton-root-31 MuiButton-raised-37 MuiButton-raisedPrimary-38"
+      disabled={false}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "marginTop": "20px",
           "width": "100%",
         }
       }
