@@ -25,6 +25,7 @@ exports[`renders correctly 1`] = `
       validate={
         Array [
           [Function],
+          [Function],
         ]
       }
     >
@@ -36,6 +37,7 @@ exports[`renders correctly 1`] = `
       type="password"
       validate={
         Array [
+          [Function],
           [Function],
         ]
       }
@@ -105,6 +107,7 @@ exports[`with error renders correctly 1`] = `
       validate={
         Array [
           [Function],
+          [Function],
         ]
       }
     >
@@ -116,6 +119,7 @@ exports[`with error renders correctly 1`] = `
       type="password"
       validate={
         Array [
+          [Function],
           [Function],
         ]
       }

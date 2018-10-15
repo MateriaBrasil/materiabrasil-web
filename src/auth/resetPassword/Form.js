@@ -1,7 +1,7 @@
 import React from 'react'
 import { reduxForm } from 'redux-form'
 import CardHeader from '@material-ui/core/CardHeader'
-import { required } from 'redux-form-validators'
+import { required, length, confirmation } from 'redux-form-validators'
 import Button from '@material-ui/core/Button'
 import Error from 'Error'
 
@@ -19,13 +19,16 @@ export default reduxForm({ form: 'resetPassword' })(props => {
           name="password"
           label="Senha"
           type="password"
-          validate={[required()]}
+          validate={[required(), length({ min: 8 })]}
         />
         <TextField
           name="passwordConfirmation"
           label="Confirmar senha"
           type="password"
-          validate={[required()]}
+          validate={[
+            required(),
+            confirmation({ field: 'password', fieldLabel: 'Senha' }),
+          ]}
         />
         {error && <Error>{error}</Error>}
         <Button
