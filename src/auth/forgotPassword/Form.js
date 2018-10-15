@@ -1,7 +1,7 @@
 import React from 'react'
 import { reduxForm } from 'redux-form'
 import CardHeader from '@material-ui/core/CardHeader'
-import Validators, { required, email } from 'redux-form-validators'
+import { required, email } from 'redux-form-validators'
 import Button from '@material-ui/core/Button'
 
 import Error from 'Error'
@@ -11,13 +11,6 @@ import createWithParams from './createWithParams'
 
 export default reduxForm({ form: 'forgotPassword' })(props => {
   const { title, handleSubmit, create, creating, error } = props
-
-  Object.assign(Validators.messages, {
-    email: {
-      id: 'form.errors.email',
-      defaultMessage: 'Não é um email válido',
-    },
-  })
 
   return (
     <SingleColumn>
