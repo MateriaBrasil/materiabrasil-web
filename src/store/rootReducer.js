@@ -22,6 +22,8 @@ const reducers = {
   categories: createReducer('categories'),
   materialCategories: createReducer('materialCategories'),
   messages: createReducer('messages'),
+  password: createReducer('password'),
+  resetPassword: createReducer('resetPassword'),
   topics: createReducer('topics', { addCreatedToTop: true }),
   filters,
   comparison,

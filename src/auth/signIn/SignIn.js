@@ -15,6 +15,10 @@ export default props => {
         to={{ pathname: '/auth/sign-up', state }}
         text="Não possui uma conta? Cadastre-se"
       />
+      <TextLink
+        to={{ pathname: '/auth/forgot-password', state }}
+        text="Esqueceu sua senha? Clique aqui"
+      />
     </New>
   )
 }
