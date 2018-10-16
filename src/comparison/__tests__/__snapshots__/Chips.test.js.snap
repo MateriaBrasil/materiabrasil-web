@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  item={true}
+  lg={3}
+  md={3}
+  style={
+    Object {
+      "alignItems": undefined,
+      "display": "flex",
+      "flexDirection": "column",
+      "justifyContent": "center",
+    }
+  }
+  xs={12}
+>
+  Grid - 
+  <div
+    color="secondary"
+    label="foo"
+    onDelete={[Function]}
+    style={
+      Object {
+        "background": "#239eb1",
+        "marginBottom": 10,
+      }
+    }
+  >
+    Chip - 
+  </div>
+</div>
+`;

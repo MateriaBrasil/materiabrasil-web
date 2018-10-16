@@ -3,7 +3,6 @@ import Button from '@material-ui/core/Button'
 import Icon from '@material-ui/icons/ExpandMore'
 import Drawer from '@material-ui/core/Drawer'
 import Paper from '@material-ui/core/Paper'
-import Chip from '@material-ui/core/Chip'
 import Grid from '@material-ui/core/Grid'
 import map from 'lodash/map'
 import reduce from 'lodash/reduce'
@@ -17,11 +16,11 @@ import {
   Legend,
 } from 'recharts'
 
-import removeItem from './removeItem'
+import ChipsContainer from './ChipsContainer'
+import Colors from './Colors'
 
 export default ({ list, actions: { close, remove } }) => {
   const drivers = ['firstDriver', 'secondDriver', 'thirdDriver', 'fourthDriver']
-  const colors = ['#239eb1', '#ea6740', '#00C853', '#304FFE', '#d50000']
 
   const data = map(drivers, (driver, index) =>
     reduce(
@@ -71,36 +70,15 @@ export default ({ list, actions: { close, remove } }) => {
                   key={id}
                   name={name}
                   dataKey={id}
-                  stroke={colors[index]}
-                  fill={colors[index]}
+                  stroke={Colors[index]}
+                  fill={Colors[index]}
                   fillOpacity={0.5}
                 />
               ))}
               <Legend />
             </RadarChart>
           </Grid>
-          <Grid
-            item
-            xs={12}
-            lg={3}
-            md={3}
-            style={{
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              justifyContent: 'center',
-            }}
-          >
-            {map(list, ({ id, name }, index) => (
-              <Chip
-                key={id}
-                label={name}
-                style={{ background: colors[index], marginBottom: 10 }}
-                onDelete={removeItem(id, remove)}
-                color="secondary"
-              />
-            ))}
-          </Grid>
+          <ChipsContainer list={list} remove={remove} />
         </Grid>
       </Paper>
     </Drawer>
