@@ -9,6 +9,7 @@ import renderNew from './renderNew'
 import renderEdit from './renderEdit'
 import renderInfo from './renderInfo'
 import renderImageUpload from './renderImageUpload'
+import renderQuestionnaires from '../questionnaires/renderList'
 
 export default props => {
   return (
@@ -19,6 +20,11 @@ export default props => {
         exact
         path="/suppliers/:id/materials/new"
         render={renderNewMaterial(props)}
+      />
+      <Route
+        exact
+        path="/suppliers/:id/questionnaires"
+        render={renderQuestionnaires({ ...props, aboutType: 'Supplier' })}
       />
       <Route
         exact
