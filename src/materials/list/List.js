@@ -26,7 +26,7 @@ export default class extends Component {
     }
 
     return (
-      <Grid item xs={12} lg={9} className="materials-list-grid">
+      <Grid item xs={12} md={9} className="materials-list-grid">
         <Grid container spacing={8}>
           {list.map(material => {
             const { id } = material

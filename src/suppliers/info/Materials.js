@@ -36,7 +36,7 @@ export default props => {
         </Link>
       )}
       {materials && (
-        <Grid container spacing={8} cellHeight={360}>
+        <Grid container spacing={8} cellheight={360}>
           {materials.map((material, index) => (
             <Card key={index} ignoreHighlights material={material} />
           ))}

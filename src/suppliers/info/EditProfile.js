@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'react-router-dom/Link'
-import Typography from '@material-ui/core/Typography'
+import Button from '@material-ui/core/Button'
 
 export default props => {
   const { currentUser, supplier } = props
@@ -9,7 +9,9 @@ export default props => {
 
   return editProfile ? (
     <Link to={`/suppliers/${supplier.id}/edit`}>
-      <Typography variant="subheading">Editar perfil</Typography>
+      <Button variant="raised" color="primary">
+        Editar perfil
+      </Button>
     </Link>
   ) : null
 }
