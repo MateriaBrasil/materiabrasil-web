@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when dont match renders correctly 1`] = `
+<div
+  alignItems="center"
+  list={
+    Array [
+      Object {
+        "id": 1,
+        "name": "foo",
+      },
+    ]
+  }
+  remove={[Function]}
+>
+  Chips - 
+</div>
+`;
+
+exports[`when matches renders correctly 1`] = `
+<div
+  alignItems="flex-start"
+  list={
+    Array [
+      Object {
+        "id": 1,
+        "name": "foo",
+      },
+    ]
+  }
+  remove={[Function]}
+>
+  Chips - 
+</div>
+`;
