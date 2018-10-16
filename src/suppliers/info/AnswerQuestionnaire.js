@@ -7,8 +7,8 @@ export default props => {
 
   return (
     <Link
-      to={`/suppliers/${id}/questionnaires`}
       style={{ textDecoration: 'none' }}
+      to={`/suppliers/${id}/questionnaires`}
     >
       <Button variant="raised" color="primary">
         Responder questionários
