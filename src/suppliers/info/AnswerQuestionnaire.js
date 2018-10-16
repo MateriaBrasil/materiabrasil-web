@@ -6,7 +6,10 @@ export default props => {
   const { id } = props
 
   return (
-    <Link to={`/suppliers/${id}/questionnaires`}>
+    <Link
+      to={`/suppliers/${id}/questionnaires`}
+      style={{ textDecoration: 'none' }}
+    >
       <Button variant="raised" color="primary">
         Responder questionários
       </Button>
