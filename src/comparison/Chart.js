@@ -8,7 +8,6 @@ import Grid from '@material-ui/core/Grid'
 import map from 'lodash/map'
 import reduce from 'lodash/reduce'
 import get from 'lodash/get'
-
 import {
   Radar,
   RadarChart,
@@ -17,6 +16,8 @@ import {
   PolarRadiusAxis,
   Legend,
 } from 'recharts'
+
+import removeItem from './removeItem'
 
 export default ({ list, actions: { close, remove } }) => {
   const drivers = ['firstDriver', 'secondDriver', 'thirdDriver', 'fourthDriver']
@@ -42,7 +43,7 @@ export default ({ list, actions: { close, remove } }) => {
       <Paper>
         <Grid
           container
-          spacing={10}
+          spacing={16}
           style={{
             display: 'flex',
             justifyContent: 'center',
@@ -95,7 +96,7 @@ export default ({ list, actions: { close, remove } }) => {
                 key={id}
                 label={name}
                 style={{ background: colors[index], marginBottom: 10 }}
-                onDelete={() => remove({ id })}
+                onDelete={removeItem(id, remove)}
                 color="secondary"
               />
             ))}

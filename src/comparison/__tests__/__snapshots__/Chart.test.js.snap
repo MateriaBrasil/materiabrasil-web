@@ -55,7 +55,7 @@ exports[`renders correctly 1`] = `
     className="MuiPaper-root-33 MuiPaper-elevation2-37 MuiPaper-rounded-34"
   >
     <div
-      className="MuiGrid-container-60"
+      className="MuiGrid-container-60 MuiGrid-spacing-xs-16-82"
       style={
         Object {
           "display": "flex",
