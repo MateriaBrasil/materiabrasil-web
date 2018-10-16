@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with list filled 1`] = `
+<div
+  bar="foo"
+  foo="bar"
+>
+  ForgotPassword
+</div>
+`;

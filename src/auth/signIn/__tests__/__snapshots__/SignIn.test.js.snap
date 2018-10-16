@@ -182,6 +182,29 @@ exports[`renders correctly 1`] = `
         </p>
       </div>
     </div>
+    <div
+      style={
+        Object {
+          "marginTop": 16,
+          "textAlign": "center",
+        }
+      }
+    >
+      <div
+        to={
+          Object {
+            "pathname": "/auth/forgot-password",
+            "state": undefined,
+          }
+        }
+      >
+        <p
+          className="MuiTypography-root-180 MuiTypography-body1-189"
+        >
+          Esqueceu sua senha? Clique aqui
+        </p>
+      </div>
+    </div>
   </div>
 </div>
 `;

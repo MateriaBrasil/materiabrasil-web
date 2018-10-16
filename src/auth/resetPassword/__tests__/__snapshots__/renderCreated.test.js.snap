@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`execute navigate when called 1`] = `
+<div
+  to="/auth/sign-in"
+>
+  Redirect
+</div>
+`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="MuiGrid-container-1 MuiGrid-spacing-xs-32-25"
+>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-8-48 MuiGrid-grid-md-6-59"
+    style={
+      Object {
+        "margin": "0 auto",
+      }
+    }
+  >
+    <div
+      className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+      style={
+        Object {
+          "padding": "20px 20px",
+          "textAlign": "center",
+        }
+      }
+      title="Resetar senha"
+    >
+      <div
+        className="MuiCardContent-root-120"
+      >
+        Enviamos um e-mail para resetar sua senha
+      </div>
+    </div>
+  </div>
+</div>
+`;
