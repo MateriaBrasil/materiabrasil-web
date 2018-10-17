@@ -26,6 +26,12 @@ exports[`renders correctly 1`] = `
       foo-name
     </h1>
     <div
+      style={
+        Object {
+          "marginRight": "5px",
+          "textDecoration": "none",
+        }
+      }
       to="/suppliers/1234/edit"
     >
       <button
@@ -55,6 +61,11 @@ exports[`renders correctly 1`] = `
       </button>
     </div>
     <div
+      style={
+        Object {
+          "textDecoration": "none",
+        }
+      }
       to="/suppliers/1234/questionnaires"
     >
       <button
@@ -315,6 +326,11 @@ exports[`with materials renders correctly 1`] = `
       foo-name
     </h1>
     <div
+      style={
+        Object {
+          "textDecoration": "none",
+        }
+      }
       to="/suppliers/1234/questionnaires"
     >
       <button
@@ -550,6 +566,11 @@ exports[`without currentUser renders correctly 1`] = `
       foo-name
     </h1>
     <div
+      style={
+        Object {
+          "textDecoration": "none",
+        }
+      }
       to="/suppliers/1234/questionnaires"
     >
       <button
