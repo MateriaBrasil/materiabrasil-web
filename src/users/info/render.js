@@ -4,6 +4,7 @@ import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
 import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
+import Button from '@material-ui/core/Button'
 
 import Avatar from '../../imageUpload/Avatar'
 import Album from './Album'
@@ -26,8 +27,10 @@ export default props => infoProps => {
         <div style={{ marginTop: 30 }}>
           <Typography variant="display1">{name}</Typography>
           {editPath && (
-            <Link to="/profile/edit">
-              <Typography variant="subheading">Editar perfil</Typography>
+            <Link style={{ textDecoration: 'none' }} to="/profile/edit">
+              <Button variant="raised" color="primary">
+                Editar perfil
+              </Button>
             </Link>
           )}
         </div>
