@@ -8,7 +8,10 @@ export default props => {
     currentUser && currentUser.id.toString() === supplier.userId.toString()
 
   return editProfile ? (
-    <Link to={`/suppliers/${supplier.id}/edit`}>
+    <Link
+      to={`/suppliers/${supplier.id}/edit`}
+      style={{ textDecoration: 'none', marginRight: '5px' }}
+    >
       <Button variant="raised" color="primary">
         Editar perfil
       </Button>
