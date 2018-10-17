@@ -23,6 +23,12 @@ exports[`when user looks at another user profile renders correctly 1`] = `
     >
       <h1
         className="MuiTypography-root-92 MuiTypography-display1-96"
+        style={
+          Object {
+            "marginBottom": 16,
+            "marginTop": 16,
+          }
+        }
       >
         foo-name foo-last
       </h1>
@@ -192,6 +198,12 @@ exports[`when user looks at her own profile renders correctly 1`] = `
     >
       <h1
         className="MuiTypography-root-92 MuiTypography-display1-96"
+        style={
+          Object {
+            "marginBottom": 16,
+            "marginTop": 16,
+          }
+        }
       >
         foo-name foo-last
       </h1>
