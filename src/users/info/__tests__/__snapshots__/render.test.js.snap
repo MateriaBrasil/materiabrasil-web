@@ -32,10 +32,10 @@ exports[`when user looks at another user profile renders correctly 1`] = `
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-8-74"
   >
     <div
-      className="MuiPaper-root-117 MuiPaper-elevation2-121 MuiPaper-rounded-118 MuiCard-root-116"
+      className="MuiPaper-root-143 MuiPaper-elevation2-147 MuiPaper-rounded-144 MuiCard-root-142"
     >
       <div
-        className="MuiCardContent-root-144"
+        className="MuiCardContent-root-170"
       >
         <div
           style={
@@ -123,7 +123,7 @@ exports[`when user looks at another user profile renders correctly 1`] = `
           to="/users/4321/messages/new"
         >
           <button
-            className="MuiButtonBase-root-161 MuiButton-root-145 MuiButton-raised-151 MuiButton-raisedPrimary-152"
+            className="MuiButtonBase-root-132 MuiButton-root-116 MuiButton-raised-122 MuiButton-raisedPrimary-123"
             disabled={false}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -144,12 +144,12 @@ exports[`when user looks at another user profile renders correctly 1`] = `
             type="button"
           >
             <span
-              className="MuiButton-label-146"
+              className="MuiButton-label-117"
             >
               Enviar mensagem
             </span>
             <span
-              className="MuiTouchRipple-root-164"
+              className="MuiTouchRipple-root-135"
             />
           </button>
         </div>
@@ -196,13 +196,38 @@ exports[`when user looks at her own profile renders correctly 1`] = `
         foo-name foo-last
       </h1>
       <div
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
         to="/profile/edit"
       >
-        <h3
-          className="MuiTypography-root-92 MuiTypography-subheading-99"
+        <button
+          className="MuiButtonBase-root-132 MuiButton-root-116 MuiButton-raised-122 MuiButton-raisedPrimary-123"
+          disabled={false}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="button"
         >
-          Editar perfil
-        </h3>
+          <span
+            className="MuiButton-label-117"
+          >
+            Editar perfil
+          </span>
+          <span
+            className="MuiTouchRipple-root-135"
+          />
+        </button>
       </div>
     </div>
   </div>
@@ -210,10 +235,10 @@ exports[`when user looks at her own profile renders correctly 1`] = `
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-8-74"
   >
     <div
-      className="MuiPaper-root-117 MuiPaper-elevation2-121 MuiPaper-rounded-118 MuiCard-root-116"
+      className="MuiPaper-root-143 MuiPaper-elevation2-147 MuiPaper-rounded-144 MuiCard-root-142"
     >
       <div
-        className="MuiCardContent-root-144"
+        className="MuiCardContent-root-170"
       >
         <div
           style={
@@ -312,7 +337,7 @@ exports[`when user looks at her own profile renders correctly 1`] = `
           to="/users/1234/messages/new"
         >
           <button
-            className="MuiButtonBase-root-161 MuiButton-root-145 MuiButton-raised-151 MuiButton-raisedPrimary-152"
+            className="MuiButtonBase-root-132 MuiButton-root-116 MuiButton-raised-122 MuiButton-raisedPrimary-123"
             disabled={false}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -333,12 +358,12 @@ exports[`when user looks at her own profile renders correctly 1`] = `
             type="button"
           >
             <span
-              className="MuiButton-label-146"
+              className="MuiButton-label-117"
             >
               Enviar mensagem
             </span>
             <span
-              className="MuiTouchRipple-root-164"
+              className="MuiTouchRipple-root-135"
             />
           </button>
         </div>
