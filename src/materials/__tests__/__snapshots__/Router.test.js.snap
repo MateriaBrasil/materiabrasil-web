@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`with /:id route renders correctly 1`] = `
+exports[`with /materials/:id route renders correctly 1`] = `
 <div>
   <div>
     renderInfo
@@ -8,7 +8,7 @@ exports[`with /:id route renders correctly 1`] = `
 </div>
 `;
 
-exports[`with /:id/reviews route renders correctly 1`] = `
+exports[`with /materials/:id/reviews route renders correctly 1`] = `
 <div>
   <div>
     renderInfo

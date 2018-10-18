@@ -37,7 +37,7 @@ exports[`when query doesnt match renders correctly 1`] = `
         }
       >
         <div
-          to="/1234"
+          to="/materials/1234"
         >
           Link - 
           <img
@@ -64,7 +64,7 @@ exports[`when query doesnt match renders correctly 1`] = `
                   "textDecoration": "none",
                 }
               }
-              to="/1234"
+              to="/materials/1234"
             >
               Link - 
               <h3
@@ -118,7 +118,7 @@ exports[`when query matches when highlighted renders correctly 1`] = `
         }
       >
         <div
-          to="/1234"
+          to="/materials/1234"
         >
           Link - 
           <img
@@ -145,7 +145,7 @@ exports[`when query matches when highlighted renders correctly 1`] = `
                   "textDecoration": "none",
                 }
               }
-              to="/1234"
+              to="/materials/1234"
             >
               Link - 
               <h3
@@ -199,7 +199,7 @@ exports[`when query matches when not highlighted renders correctly 1`] = `
         }
       >
         <div
-          to="/1234"
+          to="/materials/1234"
         >
           Link - 
           <img
@@ -226,7 +226,7 @@ exports[`when query matches when not highlighted renders correctly 1`] = `
                   "textDecoration": "none",
                 }
               }
-              to="/1234"
+              to="/materials/1234"
             >
               Link - 
               <h3

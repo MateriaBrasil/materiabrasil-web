@@ -15,7 +15,7 @@ describe('with root route', () => {
   it('renders correctly', () => {
     const tree = renderer
       .create(
-        <MemoryRouter initialEntries={['/']}>
+        <MemoryRouter initialEntries={['/materials']}>
           <Router />
         </MemoryRouter>,
       )
@@ -25,11 +25,11 @@ describe('with root route', () => {
   })
 })
 
-describe('with /:id route', () => {
+describe('with /materials/:id route', () => {
   it('renders correctly', () => {
     const tree = renderer
       .create(
-        <MemoryRouter initialEntries={['/123']}>
+        <MemoryRouter initialEntries={['/materials/123']}>
           <Router />
         </MemoryRouter>,
       )

@@ -7,7 +7,7 @@ import renderList from './renderList'
 
 export default props => (
   <Switch>
-    <Route exact path="/:id/reviews/new" render={renderNew(props)} />
-    <Route exact path="/:id/reviews" render={renderList(props)} />
+    <Route exact path="/materials/:id/reviews/new" render={renderNew(props)} />
+    <Route exact path="/materials/:id/reviews" render={renderList(props)} />
   </Switch>
 )

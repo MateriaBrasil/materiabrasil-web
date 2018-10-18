@@ -7,7 +7,7 @@ export default props => {
 
   return (
     <Link
-      to={`/${id}/${path}`}
+      to={`/materials/${id}/${path}`}
       style={{ textDecoration: 'none', marginRight: 24 }}
     >
       <Button variant="raised" color="primary" style={{ marginBottom: 24 }}>

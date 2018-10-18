@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`with /:id route renders correctly 1`] = `
+exports[`with /materials/:id route renders correctly 1`] = `
 <div>
   <div>
     Material

@@ -8,6 +8,7 @@ import renderUsers from './users/render'
 import renderSearch from './search/render'
 import renderSuppliers from './suppliers/render'
 import renderTopics from './topics/render'
+import renderHomepage from './homepage/render'
 
 export default props => (
   <Switch>
@@ -17,6 +18,7 @@ export default props => (
     <Route path="/search" render={renderSearch(props)} />
     <Route path="/suppliers" render={renderSuppliers(props)} />
     <Route path="/forum" render={renderTopics(props)} />
-    <Route path="/" render={renderMaterials(props)} />
+    <Route path="/materials" render={renderMaterials(props)} />
+    <Route path="/" render={renderHomepage(props)} />
   </Switch>
 )
