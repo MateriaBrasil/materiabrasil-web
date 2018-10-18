@@ -1,7 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div>
-  Home
+<div
+  className="MuiGrid-container-1 MuiGrid-spacing-xs-32-25"
+>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-8-48 MuiGrid-grid-md-6-59"
+    style={
+      Object {
+        "margin": "0 auto",
+      }
+    }
+  >
+    Na MateriaMundi, nós ajudamos indústrias e consumidores a implementar ações para uma economia circular aplicada.
+  </div>
 </div>
 `;
