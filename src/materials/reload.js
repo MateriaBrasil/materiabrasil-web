@@ -5,5 +5,5 @@ export default props => () => {
   const { match } = props
   const { id } = match.params
 
-  return <Redirect to={`/${id}?reload=true`} />
+  return <Redirect to={`/materials/${id}?reload=true`} />
 }

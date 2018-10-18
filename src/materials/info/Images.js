@@ -18,14 +18,14 @@ export default ({ id, name, listImageUrl, highlightImageUrl }) => {
             <Image
               width={720}
               height={540}
-              editPath={`/${id}/listImage`}
+              editPath={`/materials/${id}/listImage`}
               name={name}
               lg={4}
               imageUrl={listImageUrl}
               text="Imagem para a lista"
             />
             <Image
-              editPath={`/${id}/highlightImage`}
+              editPath={`/materials/${id}/highlightImage`}
               name={name}
               lg={8}
               imageUrl={highlightImageUrl}

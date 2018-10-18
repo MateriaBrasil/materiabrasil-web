@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'react-router-dom/Link'
 
 export default ({ id, imageUrl, name }) => (
-  <Link to={`/${id}`}>
+  <Link to={`/materials/${id}`}>
     <img
       src={imageUrl}
       alt={name}

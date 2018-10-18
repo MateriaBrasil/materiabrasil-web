@@ -2,7 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <div
-  to="/undefined"
+  to="/materials/undefined"
 >
   <img
     alt={undefined}

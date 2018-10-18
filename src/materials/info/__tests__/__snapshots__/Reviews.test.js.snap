@@ -24,7 +24,7 @@ exports[`renders correctly 1`] = `
       Object {
         "pathname": "/auth/sign-up",
         "state": Object {
-          "referrer": "/undefined/reviews/new",
+          "referrer": "/materials/undefined/reviews/new",
         },
       }
     }
@@ -88,7 +88,7 @@ exports[`with averageRating renders correctly 1`] = `
       Object {
         "pathname": "/auth/sign-up",
         "state": Object {
-          "referrer": "/undefined/reviews/new",
+          "referrer": "/materials/undefined/reviews/new",
         },
       }
     }
@@ -132,7 +132,7 @@ exports[`with averageRating renders correctly 1`] = `
         "textDecoration": "none",
       }
     }
-    to="/undefined/reviews"
+    to="/materials/undefined/reviews"
   >
     Link - 
     <button
@@ -189,7 +189,7 @@ exports[`with current user renders correctly 1`] = `
         "textDecoration": "none",
       }
     }
-    to="/undefined/reviews/new"
+    to="/materials/undefined/reviews/new"
   >
     Link - 
     <button

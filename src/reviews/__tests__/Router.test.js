@@ -7,11 +7,11 @@ import Router from '../Router'
 jest.mock('../renderList', () => props => routeProps => <div>renderNew</div>)
 jest.mock('../renderNew', () => props => routeProps => <div>renderList</div>)
 
-describe('with /:id/reviews route', () => {
+describe('with /materials/:id/reviews route', () => {
   it('renders correctly', () => {
     const tree = renderer
       .create(
-        <MemoryRouter initialEntries={['/123/reviews/new']}>
+        <MemoryRouter initialEntries={['/materials/123/reviews/new']}>
           <Router />
         </MemoryRouter>,
       )
@@ -21,11 +21,11 @@ describe('with /:id/reviews route', () => {
   })
 })
 
-describe('with /:id/reviews/new route', () => {
+describe('with /materials/:id/reviews/new route', () => {
   it('renders correctly', () => {
     const tree = renderer
       .create(
-        <MemoryRouter initialEntries={['/123/reviews']}>
+        <MemoryRouter initialEntries={['/materials/123/reviews']}>
           <Router />
         </MemoryRouter>,
       )

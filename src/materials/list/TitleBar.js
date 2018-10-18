@@ -13,7 +13,7 @@ export default props => {
     <div className="title-bar">
       <div className="title-bar-text">
         <Link
-          to={`/${id}`}
+          to={`/materials/${id}`}
           style={{ textDecoration: 'none', color: 'white', display: 'block' }}
         >
           <Typography variant="subheading" color="inherit">

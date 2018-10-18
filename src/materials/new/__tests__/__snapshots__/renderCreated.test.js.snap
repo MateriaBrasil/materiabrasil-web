@@ -2,7 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <div
-  to="/1234"
+  to="/materials/1234"
 >
   Redirect
 </div>

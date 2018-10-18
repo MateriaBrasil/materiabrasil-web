@@ -42,7 +42,7 @@ exports[`renders correctly 1`] = `
             Imagem para a lista
           </h1>
           <div
-            to="/1234/listImage"
+            to="/materials/1234/listImage"
           >
             <div
               className="Ratio "
@@ -116,7 +116,7 @@ exports[`renders correctly 1`] = `
             Imagem para os destaques
           </h1>
           <div
-            to="/1234/highlightImage"
+            to="/materials/1234/highlightImage"
           >
             <div
               className="Ratio "

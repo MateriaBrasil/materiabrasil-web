@@ -10,14 +10,18 @@ import renderImageUpload from './renderImageUpload'
 
 export default props => (
   <div>
-    <Route exact path="/" render={renderList(props)} />
-    <Route exact path="/:id/edit" render={renderEdit(props)} />
-    <Route exact path="/:id/categories" render={renderCategories(props)} />
-    <Route path="/:id" render={renderInfo(props)} />
-    <Route path="/:id/reviews" render={renderReviews(props)} />
+    <Route exact path="/materials" render={renderList(props)} />
+    <Route exact path="/materials/:id/edit" render={renderEdit(props)} />
     <Route
       exact
-      path="/:id/coverImage"
+      path="/materials/:id/categories"
+      render={renderCategories(props)}
+    />
+    <Route path="/materials/:id" render={renderInfo(props)} />
+    <Route path="/materials/:id/reviews" render={renderReviews(props)} />
+    <Route
+      exact
+      path="/materials/:id/coverImage"
       render={renderImageUpload({
         ...props,
         width: 1920,
@@ -27,7 +31,7 @@ export default props => (
     />
     <Route
       exact
-      path="/:id/listImage"
+      path="/materials/:id/listImage"
       render={renderImageUpload({
         ...props,
         width: 720,
@@ -37,7 +41,7 @@ export default props => (
     />
     <Route
       exact
-      path="/:id/highlightImage"
+      path="/materials/:id/highlightImage"
       render={renderImageUpload({
         ...props,
         width: 1920,

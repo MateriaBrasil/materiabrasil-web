@@ -13,7 +13,7 @@ exports[`renders correctly 1`] = `
     }
   >
     <div
-      to="/undefined/coverImage"
+      to="/materials/undefined/coverImage"
     >
       <div
         className="Ratio "
@@ -112,7 +112,7 @@ exports[`renders correctly 1`] = `
               Imagem para a lista
             </h1>
             <div
-              to="/undefined/listImage"
+              to="/materials/undefined/listImage"
             >
               <div
                 className="Ratio "
@@ -186,7 +186,7 @@ exports[`renders correctly 1`] = `
               Imagem para os destaques
             </h1>
             <div
-              to="/undefined/highlightImage"
+              to="/materials/undefined/highlightImage"
             >
               <div
                 className="Ratio "
@@ -341,7 +341,7 @@ exports[`renders correctly 1`] = `
               "textDecoration": "none",
             }
           }
-          to="/undefined/edit"
+          to="/materials/undefined/edit"
         >
           <button
             className="MuiButtonBase-root-161 MuiButton-root-145 MuiButton-raised-151 MuiButton-raisedPrimary-152"
@@ -381,7 +381,7 @@ exports[`renders correctly 1`] = `
               "textDecoration": "none",
             }
           }
-          to="/undefined/categories"
+          to="/materials/undefined/categories"
         >
           <button
             className="MuiButtonBase-root-161 MuiButton-root-145 MuiButton-raised-151 MuiButton-raisedPrimary-152"
@@ -521,7 +521,7 @@ exports[`renders correctly 1`] = `
               "textDecoration": "none",
             }
           }
-          to="/undefined/indicators"
+          to="/materials/undefined/indicators"
         >
           <button
             className="MuiButtonBase-root-161 MuiButton-root-145 MuiButton-raised-151 MuiButton-raisedPrimary-152"
@@ -585,7 +585,7 @@ exports[`renders correctly 1`] = `
                 "textDecoration": "none",
               }
             }
-            to="/undefined/reviews/new"
+            to="/materials/undefined/reviews/new"
           >
             <button
               className="MuiButtonBase-root-161 MuiButton-root-145"

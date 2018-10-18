@@ -4,7 +4,7 @@ import Grid from '@material-ui/core/Grid'
 import Avatar from '../../imageUpload/Avatar'
 
 export default ({ id, name, coverImageUrl, editable }) => {
-  const editPath = editable && `/${id}/coverImage`
+  const editPath = editable && `/materials/${id}/coverImage`
 
   return (
     <Grid item xs={12} style={{ marginBottom: 16 }}>

@@ -5,7 +5,7 @@ import Button from '@material-ui/core/Button'
 import Rating from '../../reviews/Rating'
 
 export default ({ id, averageRating, currentUser }) => {
-  const newReviewPath = `/${id}/reviews/new`
+  const newReviewPath = `/materials/${id}/reviews/new`
 
   return (
     <div style={{ marginBottom: 20 }}>
@@ -25,7 +25,7 @@ export default ({ id, averageRating, currentUser }) => {
       </Link>
       {averageRating && (
         <Link
-          to={`/${id}/reviews`}
+          to={`/materials/${id}/reviews`}
           style={{ textDecoration: 'none', color: 'black' }}
         >
           <Button style={{ marginTop: -10 }}>Ver avaliações</Button>

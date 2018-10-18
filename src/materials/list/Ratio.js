@@ -10,7 +10,7 @@ export default props => {
 
   return (
     <Ratio ratio={ratio} style={{ overflow: 'hidden' }}>
-      <Link to={`/${id}`}>
+      <Link to={`/materials/${id}`}>
         <img src={imageUrl} alt={name} style={{ width: '100%' }} />
       </Link>
       <TitleBar {...props} material={material} renderIcons={renderIcons} />
