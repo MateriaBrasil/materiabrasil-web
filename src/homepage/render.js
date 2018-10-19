@@ -23,7 +23,7 @@ export default props => routeProps => (
       </Typography>
     </Grid>
 
-    <Grid>
+    <Grid isVideo>
       <Video />
     </Grid>
   </Fragment>

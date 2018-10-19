@@ -17,8 +17,8 @@ export default props => (
       top: 0,
       left: 0,
       border: 0,
-      width: 'auto',
-      height: 'auto',
+      width: '100%',
+      height: '100%',
     }}
   />
 )

@@ -4,6 +4,10 @@ import { withStyles } from '@material-ui/core/styles'
 
 const styles = theme => ({
   grid: {
+    textAlign: 'center',
+    padding: 0,
+    position: 'relative',
+    overflow: 'hidden',
     margin: '400px auto',
     [theme.breakpoints.down('md')]: {
       margin: '200px auto',
@@ -30,13 +34,10 @@ export default withStyles(styles)(props => {
         xs={12}
         sm={8}
         md={6}
-        style={{
-          textAlign: 'center',
-          padding: 0,
-          position: 'relative',
-          overflow: 'hidden',
-        }}
         className={props.classes.grid}
+        style={{
+          paddingTop: props.isVideo ? '35%' : 0,
+        }}
       >
         {props.children}
       </Grid>
