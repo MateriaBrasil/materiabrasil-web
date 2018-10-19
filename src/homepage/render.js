@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
-import Grid from './Grid'
 import Typography from '@material-ui/core/Typography'
+import Grid from './Grid'
 import Video from './Video'
 
 export default props => routeProps => (
