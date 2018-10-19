@@ -1,27 +1,11 @@
-import React from 'react'
-import Grid from '@material-ui/core/Grid'
+import React, { Fragment } from 'react'
 import Typography from '@material-ui/core/Typography'
+import Grid from './Grid'
+import Video from './Video'
 
 export default props => routeProps => (
-  <Grid
-    container
-    spacing={32}
-    style={{
-      backgroundImage: 'url("https://picsum.photos/1920/900/?random")',
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-    }}
-  >
-    <Grid
-      item
-      xs={12}
-      sm={8}
-      md={6}
-      style={{
-        margin: '400px auto',
-        textAlign: 'center',
-      }}
-    >
+  <Fragment>
+    <Grid>
       <Typography
         variant="display2"
         color="inherit"
@@ -38,5 +22,9 @@ export default props => routeProps => (
         uma economia circular aplicada.
       </Typography>
     </Grid>
-  </Grid>
+
+    <Grid isVideo>
+      <Video />
+    </Grid>
+  </Fragment>
 )
