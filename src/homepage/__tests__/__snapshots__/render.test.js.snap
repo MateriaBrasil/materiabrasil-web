@@ -1,48 +1,91 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div
-  className="MuiGrid-container-1 MuiGrid-spacing-xs-32-25"
-  style={
-    Object {
-      "backgroundImage": "url(\\"https://picsum.photos/1920/900/?random\\")",
-      "backgroundPosition": "center",
-      "backgroundSize": "cover",
-    }
-  }
->
+Array [
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-8-48 MuiGrid-grid-md-6-59"
+    className="MuiGrid-container-2 MuiGrid-spacing-xs-32-26"
     style={
-      Object {
-        "margin": "400px auto",
-        "textAlign": "center",
-      }
-    }
-  >
-    <h1
-      className="MuiTypography-root-92 MuiTypography-display2-95 MuiTypography-colorInherit-111 text"
-      style={
         Object {
-          "color": "#fff",
-          "display": "inline-block",
-          "fontWeight": 300,
-          "verticalAlign": "middle",
-        }
-      }
-    >
-      Na 
-      <span
-        style={
-          Object {
-            "fontWeight": 400,
+            "backgroundImage": "url(\\"https://picsum.photos/1920/900/?random\\")",
+            "backgroundPosition": "center",
+            "backgroundSize": "cover",
           }
+    }
+>
+    <div
+        className="MuiGrid-item-3 MuiGrid-grid-xs-12-40 MuiGrid-grid-sm-8-49 MuiGrid-grid-md-6-60 Component-grid-1"
+        style={
+            Object {
+                "paddingTop": 0,
+              }
         }
-      >
-        Materia
-      </span>
-      Mundi, nós ajudamos indústrias e consumidores a implementar ações para uma economia circular aplicada.
-    </h1>
-  </div>
-</div>
+    >
+        <h1
+            className="MuiTypography-root-93 MuiTypography-display2-96 MuiTypography-colorInherit-112 text"
+            style={
+                Object {
+                    "color": "#fff",
+                    "display": "inline-block",
+                    "fontWeight": 300,
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Na 
+            <span
+                style={
+                    Object {
+                        "fontWeight": 400,
+                      }
+                }
+            >
+                Materia
+            </span>
+            Mundi, nós ajudamos indústrias e consumidores a implementar ações para uma economia circular aplicada.
+        </h1>
+    </div>
+</div>,
+  <div
+    className="MuiGrid-container-2 MuiGrid-spacing-xs-32-26"
+    style={
+        Object {
+            "backgroundImage": "url(\\"https://picsum.photos/1920/900/?random\\")",
+            "backgroundPosition": "center",
+            "backgroundSize": "cover",
+          }
+    }
+>
+    <div
+        className="MuiGrid-item-3 MuiGrid-grid-xs-12-40 MuiGrid-grid-sm-8-49 MuiGrid-grid-md-6-60 Component-grid-1"
+        style={
+            Object {
+                "paddingTop": "35%",
+              }
+        }
+    >
+        <iframe
+            allowFullScreen="true"
+            frameBorder="0"
+            height="100%"
+            mozallowfullscreen="true"
+            src="https://player.vimeo.com/video/140946149"
+            style={
+                Object {
+                    "border": 0,
+                    "height": "100%",
+                    "left": 0,
+                    "maxHeight": "540",
+                    "maxWidth": "960",
+                    "position": "absolute",
+                    "top": 0,
+                    "width": "100%",
+                  }
+            }
+            title="Vídeo de introdução ao Materia Brasil"
+            webkitallowfullscreen="true"
+            width="100%"
+        />
+    </div>
+</div>,
+]
 `;
