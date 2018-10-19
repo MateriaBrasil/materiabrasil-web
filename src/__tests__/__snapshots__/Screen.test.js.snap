@@ -111,12 +111,8 @@ exports[`renders correctly 1`] = `
       </div>
     </div>
   </header>
-  <div
-    className="content"
-  >
-    <div>
-      Router
-    </div>
+  <div>
+    Router
   </div>
 </div>
 `;

@@ -1,5 +1,10 @@
 import React from 'react'
 
 import Router from './Router'
+import Content from 'Content'
 
-export default props => routeProps => <Router {...props} {...routeProps} />
+export default props => routeProps => (
+  <Content>
+    <Router {...props} {...routeProps} />
+  </Content>
+)

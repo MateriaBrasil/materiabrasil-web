@@ -1,9 +1,34 @@
 import React from 'react'
-import SingleColumn from 'SingleColumn'
+import Grid from '@material-ui/core/Grid'
+import Typography from '@material-ui/core/Typography'
 
 export default props => routeProps => (
-  <SingleColumn>
-    Na MateriaMundi, nós ajudamos indústrias e consumidores a implementar ações
-    para uma economia circular aplicada.
-  </SingleColumn>
+  <Grid container spacing={32} style={{ background: '#231f20' }}>
+    <Grid
+      item
+      xs={12}
+      sm={8}
+      md={6}
+      style={{
+        margin: '400px auto',
+        textAlign: 'center',
+      }}
+    >
+      <Typography
+        variant="display2"
+        color="inherit"
+        className="text"
+        style={{
+          color: '#fff',
+          display: 'inline-block',
+          verticalAlign: 'middle',
+          fontWeight: 300,
+        }}
+      >
+        Na <span style={{ fontWeight: 400 }}>Materia</span>
+        Mundi, nós ajudamos indústrias e consumidores a implementar ações para
+        uma economia circular aplicada.
+      </Typography>
+    </Grid>
+  </Grid>
 )

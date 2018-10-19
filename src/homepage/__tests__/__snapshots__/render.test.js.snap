@@ -3,16 +3,44 @@
 exports[`renders correctly 1`] = `
 <div
   className="MuiGrid-container-1 MuiGrid-spacing-xs-32-25"
+  style={
+    Object {
+      "background": "#231f20",
+    }
+  }
 >
   <div
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-8-48 MuiGrid-grid-md-6-59"
     style={
       Object {
-        "margin": "0 auto",
+        "margin": "400px auto",
+        "textAlign": "center",
       }
     }
   >
-    Na MateriaMundi, nós ajudamos indústrias e consumidores a implementar ações para uma economia circular aplicada.
+    <h1
+      className="MuiTypography-root-92 MuiTypography-display2-95 MuiTypography-colorInherit-111 text"
+      style={
+        Object {
+          "color": "#fff",
+          "display": "inline-block",
+          "fontWeight": 300,
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      Na 
+      <span
+        style={
+          Object {
+            "fontWeight": 400,
+          }
+        }
+      >
+        Materia
+      </span>
+      Mundi, nós ajudamos indústrias e consumidores a implementar ações para uma economia circular aplicada.
+    </h1>
   </div>
 </div>
 `;

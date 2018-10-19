@@ -11,9 +11,7 @@ export default props => (
     <div style={{ flexGrow: 1 }}>
       <CssBaseline />
       <NavBar {...props} />
-      <Content>
-        <Router {...props} />
-      </Content>
+      <Router {...props} />
     </div>
   </BrowserRouter>
 )
