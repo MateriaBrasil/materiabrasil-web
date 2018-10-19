@@ -3,7 +3,15 @@ import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
 
 export default props => routeProps => (
-  <Grid container spacing={32} style={{ background: '#231f20' }}>
+  <Grid
+    container
+    spacing={32}
+    style={{
+      backgroundImage: 'url("https://picsum.photos/1920/900/?random")',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+    }}
+  >
     <Grid
       item
       xs={12}

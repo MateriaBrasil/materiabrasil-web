@@ -5,7 +5,9 @@ exports[`renders correctly 1`] = `
   className="MuiGrid-container-1 MuiGrid-spacing-xs-32-25"
   style={
     Object {
-      "background": "#231f20",
+      "backgroundImage": "url(\\"https://picsum.photos/1920/900/?random\\")",
+      "backgroundPosition": "center",
+      "backgroundSize": "cover",
     }
   }
 >
