@@ -1,17 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`with /materials/:id route renders correctly 1`] = `
-<div>
+<div
+  className="content"
+>
   <div>
-    Material
+    <div>
+      Material
+    </div>
   </div>
 </div>
 `;
 
 exports[`with root route renders correctly 1`] = `
-<div>
+<div
+  className="content"
+>
   <div>
-    Materials
+    <div>
+      Materials
+    </div>
   </div>
 </div>
 `;

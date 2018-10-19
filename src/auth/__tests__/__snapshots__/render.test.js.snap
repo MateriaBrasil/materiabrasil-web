@@ -2,8 +2,12 @@
 
 exports[`renders correctly 1`] = `
 <div
-  foo="bar"
+  className="content"
 >
-  Router
+  <div
+    foo="bar"
+  >
+    Router
+  </div>
 </div>
 `;

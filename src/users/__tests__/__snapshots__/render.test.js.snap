@@ -2,15 +2,19 @@
 
 exports[`renders correctly 1`] = `
 <div
-  bar="foo"
-  match={
-    Object {
-      "params": Object {
-        "id": 1234,
-      },
-    }
-  }
+  className="content"
 >
-  Router
+  <div
+    bar="foo"
+    match={
+      Object {
+        "params": Object {
+          "id": 1234,
+        },
+      }
+    }
+  >
+    Router
+  </div>
 </div>
 `;
