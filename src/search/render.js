@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Router from './Router'
 import Content from 'Content'
+import Router from './Router'
 
 export default props => routeProps => (
   <Content>
