@@ -35,8 +35,8 @@ export default withStyles(styles)(props => {
         md={6}
         className={props.classes.grid}
         style={{
-          ...(props.isVideo && {paddingTop: '35%'}),
-          position: 'relative'
+          ...(props.isVideo && { paddingTop: '35%' }),
+          position: 'relative',
         }}
       >
         {props.children}
