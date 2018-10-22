@@ -25,6 +25,9 @@ export default props => {
       onClose={handleClose}
     >
       <MenuItem>
+        <Link to="/about" text="Sobre" />
+      </MenuItem>
+      <MenuItem>
         <Link to="/forum" text="Fórum" />
       </MenuItem>
       {currentUser ? (
