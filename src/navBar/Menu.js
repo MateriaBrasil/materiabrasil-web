@@ -14,6 +14,7 @@ export default props => {
   const { currentUser } = props
   const { firstName, lastName, suppliers } = currentUser || {}
   const name = `${firstName} ${lastName}`
+  const { isTransparent, ...noIsTransparent } = props // eslint-disable-line no-unused-vars
 
   return (
     <Menu
@@ -35,7 +36,7 @@ export default props => {
             <Link to="/profile" text={name} />
           </MenuItem>
           <MenuItem>
-            <SignOut {...props} />
+            <SignOut {...noIsTransparent} />
           </MenuItem>
         </Fragment>
       ) : (
@@ -50,7 +51,7 @@ export default props => {
             />
           </MenuItem>
           <MenuItem onClick={handleClose}>
-            <SignIn {...props} />
+            <SignIn {...noIsTransparent} />
           </MenuItem>
         </Fragment>
       )}

@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react'
+import React, { Fragment } from 'react'
 
 import Content from 'Content'
 import Router from './Router'

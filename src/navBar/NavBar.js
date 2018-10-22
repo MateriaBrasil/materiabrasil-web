@@ -19,7 +19,7 @@ export default withRouter(props => {
       }}
     >
       <Toolbar>
-        <Logo />
+        <Logo {...props} />
         <LinksOrMenu {...props} />
       </Toolbar>
     </AppBar>
