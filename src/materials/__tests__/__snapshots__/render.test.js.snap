@@ -7,6 +7,11 @@ exports[`renders correctly 1`] = `
   <div
     foo="bar"
   >
+    NavBar
+  </div>
+  <div
+    foo="bar"
+  >
     Router
   </div>
 </div>

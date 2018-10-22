@@ -5,6 +5,9 @@ exports[`with /materials/:id route renders correctly 1`] = `
   className="content"
 >
   <div>
+    NavBar
+  </div>
+  <div>
     <div>
       Material
     </div>
@@ -16,6 +19,9 @@ exports[`with root route renders correctly 1`] = `
 <div
   className="content"
 >
+  <div>
+    NavBar
+  </div>
   <div>
     <div>
       Materials

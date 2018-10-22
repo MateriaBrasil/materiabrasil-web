@@ -6,6 +6,11 @@ exports[`renders correctly 1`] = `
 >
   <div
     bar="foo"
+  >
+    NavBar
+  </div>
+  <div
+    bar="foo"
     match={
       Object {
         "params": Object {
