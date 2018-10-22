@@ -16,7 +16,7 @@ exports[`renders correctly 1`] = `
       className="MuiGrid-item-3 MuiGrid-grid-xs-12-40 MuiGrid-grid-sm-8-49 MuiGrid-grid-md-6-60 Component-grid-1"
       style={
         Object {
-          "paddingTop": 0,
+          "position": "relative",
         }
       }
     >
@@ -60,6 +60,7 @@ exports[`renders correctly 1`] = `
       style={
         Object {
           "paddingTop": "35%",
+          "position": "relative",
         }
       }
     >
@@ -101,7 +102,7 @@ exports[`renders correctly 1`] = `
       className="MuiGrid-item-3 MuiGrid-grid-xs-12-40 MuiGrid-grid-sm-8-49 MuiGrid-grid-md-6-60 Component-grid-1"
       style={
         Object {
-          "paddingTop": 0,
+          "position": "relative",
         }
       }
     >
@@ -149,6 +150,24 @@ exports[`renders correctly 1`] = `
           />
         </button>
       </div>
+      <p
+        style={
+          Object {
+            "bottom": 20,
+            "color": "#fff",
+            "fontFamily": "roboto",
+            "position": "absolute",
+            "textAlign": "center",
+            "width": "100%",
+          }
+        }
+      >
+        Apoio: Instituto C&A; 
+        <br />
+        Parceiros: Good Tech Lab, Fab City Global, Materiom;
+        <br />
+        Membro: Sistema B Brasil e CE100 Global Ellen MacArthur Foundation.
+      </p>
     </div>
   </div>
 </div>

@@ -41,12 +41,27 @@ export default props => routeProps => (
             textTransform: 'lowercase',
             fontSize: 40,
             padding: '15px 50px',
-            background: '#fff'
+            background: '#fff',
           }}
         >
           Explore
         </Button>
       </Link>
+      <p
+        style={{
+          color: '#fff',
+          position: 'absolute',
+          bottom: 20,
+          width: '100%',
+          textAlign: 'center',
+          fontFamily: 'roboto'
+        }}
+      >
+        Apoio: Instituto C&A; <br />
+        Parceiros: Good Tech Lab, Fab City Global, Materiom;
+        <br />
+        Membro: Sistema B Brasil e CE100 Global Ellen MacArthur Foundation.
+      </p>
     </Grid>
   </div>
 )
