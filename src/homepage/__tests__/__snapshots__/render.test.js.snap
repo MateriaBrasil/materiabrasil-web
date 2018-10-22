@@ -93,5 +93,59 @@ exports[`renders correctly 1`] = `
       />
     </div>
   </div>
+  <div
+    className="MuiGrid-container-2 MuiGrid-spacing-xs-32-26"
+    style={
+      Object {
+        "backgroundImage": "url(\\"https://picsum.photos/1920/900/?random\\")",
+        "backgroundPosition": "center",
+        "backgroundSize": "cover",
+      }
+    }
+  >
+    <div
+      className="MuiGrid-item-3 MuiGrid-grid-xs-12-40 MuiGrid-grid-sm-8-49 MuiGrid-grid-md-6-60 Component-grid-1"
+      style={
+        Object {
+          "paddingTop": 0,
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
+        to="/materials"
+      >
+        <button
+          className="MuiButtonBase-root-133 MuiButton-root-117 MuiButton-raised-123 MuiButton-sizeLarge-131"
+          disabled={false}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="button"
+        >
+          <span
+            className="MuiButton-label-118"
+          >
+            Explore
+          </span>
+          <span
+            className="MuiTouchRipple-root-136"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
 </div>
 `;
