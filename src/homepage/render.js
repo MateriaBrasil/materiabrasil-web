@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Link from 'react-router-dom/Link'
 import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'
@@ -6,7 +6,7 @@ import Grid from './Grid'
 import Video from './Video'
 
 export default props => routeProps => (
-  <div>
+  <Fragment>
     <Grid>
       <Typography
         variant="display2"
@@ -63,5 +63,5 @@ export default props => routeProps => (
         Membro: Sistema B Brasil e CE100 Global Ellen MacArthur Foundation.
       </p>
     </Grid>
-  </div>
+  </Fragment>
 )
