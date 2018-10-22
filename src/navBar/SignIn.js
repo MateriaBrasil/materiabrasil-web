@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'react-router-dom/Link'
 import Typography from '@material-ui/core/Typography'
 
-export default ({ location: { pathname } }) => (
+export default ({ location: { pathname }, isTransparent }) => (
   <Link
     className="navbar-link"
     to={{
@@ -11,7 +11,7 @@ export default ({ location: { pathname } }) => (
     }}
     style={{
       textDecoration: 'none',
-      color: 'black',
+      color: isTransparent ? 'white' : 'black',
     }}
   >
     <Typography

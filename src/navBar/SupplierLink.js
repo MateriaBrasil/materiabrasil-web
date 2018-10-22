@@ -5,8 +5,12 @@ import Link from './Link'
 export default props => {
   const { suppliers } = props
   return suppliers && suppliers.length > 0 ? (
-    <Link to={`/suppliers/${suppliers[0].id}`} text={suppliers[0].name} />
+    <Link
+      to={`/suppliers/${suppliers[0].id}`}
+      text={suppliers[0].name}
+      {...props}
+    />
   ) : (
-    <Link to={`/suppliers/new`} text="Cadastrar fornecedor" />
+    <Link to={`/suppliers/new`} text="Cadastrar fornecedor" {...props} />
   )
 }

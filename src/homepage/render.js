@@ -8,7 +8,7 @@ import NavBar from '../navBar/NavBar'
 
 export default props => routeProps => (
   <Fragment>
-    <NavBar {...props} />
+    <NavBar {...props} isTransparent='true' />
     <Grid>
       <Typography
         variant="display2"

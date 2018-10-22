@@ -12,11 +12,11 @@ export default props => {
 
   return (
     <div className="navbar-links">
-      <Link to="/forum" text="Fórum" />
+      <Link to="/forum" text="Fórum" {...props} />
       {currentUser ? (
         <Fragment>
-          <SupplierLink suppliers={suppliers} />
-          <Link to="/profile" text={name} />
+          <SupplierLink suppliers={suppliers} {...props} />
+          <Link to="/profile" text={name} {...props} />
           <SignOut {...props} />
         </Fragment>
       ) : (
@@ -27,6 +27,7 @@ export default props => {
               state: { referrer: '/suppliers/new' },
             }}
             text="Cadastrar fornecedor"
+            {...props}
           />
           <SignIn {...props} />
         </Fragment>
