@@ -7,9 +7,7 @@ jest.mock('react-router-dom/Link', () => props => (
   <div {...props}>Link - {props.children}</div>
 ))
 
-jest.mock('../../navBar/NavBar', () => props => (
-  <div {...props}>NavBar</div>
-))
+jest.mock('../../navBar/NavBar', () => props => <div {...props}>NavBar</div>)
 
 it('renders correctly', () => {
   const props = {}

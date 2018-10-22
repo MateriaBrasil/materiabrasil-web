@@ -10,9 +10,7 @@ jest.mock('../materials/renderList', () => props => routeProps => (
 jest.mock('../materials/renderInfo', () => props => routeProps => (
   <div>Material</div>
 ))
-jest.mock('../navBar/NavBar', () => props => (
-  <div {...props}>NavBar</div>
-))
+jest.mock('../navBar/NavBar', () => props => <div {...props}>NavBar</div>)
 
 describe('with root route', () => {
   it('renders correctly', () => {
