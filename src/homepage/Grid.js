@@ -5,15 +5,15 @@ import { withStyles } from '@material-ui/core/styles'
 const styles = theme => ({
   grid: {
     textAlign: 'center',
-    padding: 0,
     position: 'relative',
     overflow: 'hidden',
-    margin: '400px auto',
+    margin: '0 auto',
+    padding: '400px 0',
     [theme.breakpoints.down('md')]: {
-      margin: '200px auto',
+      padding: '200px 0',
     },
     [theme.breakpoints.down('xs')]: {
-      margin: '100px auto',
+      padding: '100px 0',
     },
   },
 })
@@ -22,7 +22,6 @@ export default withStyles(styles)(props => {
   return (
     <Grid
       container
-      spacing={32}
       style={{
         backgroundImage: 'url("https://picsum.photos/1920/900/?random")',
         backgroundSize: 'cover',
@@ -36,7 +35,8 @@ export default withStyles(styles)(props => {
         md={6}
         className={props.classes.grid}
         style={{
-          paddingTop: props.isVideo ? '35%' : 0,
+          ...(props.isVideo && { paddingTop: '35%' }),
+          position: 'relative',
         }}
       >
         {props.children}
