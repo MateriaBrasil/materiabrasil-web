@@ -22,7 +22,6 @@ export default withStyles(styles)(props => {
   return (
     <Grid
       container
-      spacing={32}
       style={{
         backgroundImage: 'url("https://picsum.photos/1920/900/?random")',
         backgroundSize: 'cover',

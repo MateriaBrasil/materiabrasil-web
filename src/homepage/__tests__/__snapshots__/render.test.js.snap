@@ -1,15 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div
-  style={
-    Object {
-      "overflow": "hidden",
-    }
-  }
->
+<div>
   <div
-    className="MuiGrid-container-2 MuiGrid-spacing-xs-32-26"
+    className="MuiGrid-container-2"
     style={
       Object {
         "backgroundImage": "url(\\"https://picsum.photos/1920/900/?random\\")",
@@ -52,7 +46,7 @@ exports[`renders correctly 1`] = `
     </div>
   </div>
   <div
-    className="MuiGrid-container-2 MuiGrid-spacing-xs-32-26"
+    className="MuiGrid-container-2"
     style={
       Object {
         "backgroundImage": "url(\\"https://picsum.photos/1920/900/?random\\")",
@@ -94,7 +88,7 @@ exports[`renders correctly 1`] = `
     </div>
   </div>
   <div
-    className="MuiGrid-container-2 MuiGrid-spacing-xs-32-26"
+    className="MuiGrid-container-2"
     style={
       Object {
         "backgroundImage": "url(\\"https://picsum.photos/1920/900/?random\\")",
@@ -132,6 +126,16 @@ exports[`renders correctly 1`] = `
           onTouchEnd={[Function]}
           onTouchMove={[Function]}
           onTouchStart={[Function]}
+          style={
+            Object {
+              "background": "#fff",
+              "borderRadius": 7,
+              "fontSize": 40,
+              "fontWeight": 100,
+              "padding": "15px 50px",
+              "textTransform": "lowercase",
+            }
+          }
           tabIndex="0"
           type="button"
         >

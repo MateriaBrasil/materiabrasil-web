@@ -6,7 +6,7 @@ import Grid from './Grid'
 import Video from './Video'
 
 export default props => routeProps => (
-  <div style={{ overflow: 'hidden' }}>
+  <div>
     <Grid>
       <Typography
         variant="display2"
@@ -31,7 +31,19 @@ export default props => routeProps => (
 
     <Grid>
       <Link to={`/materials`} style={{ textDecoration: 'none' }}>
-        <Button variant="raised" color="default" size="large">
+        <Button
+          variant="raised"
+          color="default"
+          size="large"
+          style={{
+            borderRadius: 7,
+            fontWeight: 100,
+            textTransform: 'lowercase',
+            fontSize: 40,
+            padding: '15px 50px',
+            background: '#fff'
+          }}
+        >
           Explore
         </Button>
       </Link>
