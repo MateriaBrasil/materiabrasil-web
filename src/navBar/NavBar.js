@@ -15,6 +15,7 @@ export default withRouter(props => {
       style={{
         ...(props.isTransparent && {
           backgroundColor: 'transparent',
+          boxShadow: '0px 0px 0px 0px',
         }),
       }}
     >
