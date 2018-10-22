@@ -54,7 +54,7 @@ export default props => routeProps => (
           bottom: 20,
           width: '100%',
           textAlign: 'center',
-          fontFamily: 'roboto'
+          fontFamily: 'roboto',
         }}
       >
         Apoio: Instituto C&A; <br />

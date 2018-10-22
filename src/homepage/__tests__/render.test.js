@@ -4,7 +4,7 @@ import renderer from 'react-test-renderer'
 import render from '../render'
 
 jest.mock('react-router-dom/Link', () => props => (
-  <div {...props}>{props.children}</div>
+  <div {...props}>Link - {props.children}</div>
 ))
 
 it('renders correctly', () => {
