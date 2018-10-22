@@ -11,7 +11,7 @@ import renderTopics from './topics/render'
 import renderHomepage from './homepage/render'
 
 export default props => (
-  <Switch>
+  <Switch> 
     <Route path="/auth" render={renderAuth(props)} />
     <Route path="/users" render={renderUsers(props)} />
     <Route path="/profile" render={renderUsers(props)} />

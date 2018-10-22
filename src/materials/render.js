@@ -1,12 +1,14 @@
-import React from 'react'
+import React, {Fragment} from 'react'
 
 import Content from 'Content'
 import Router from './Router'
 import NavBar from '../navBar/NavBar'
 
 export default props => routeProps => (
-  <Content>
+  <Fragment>
     <NavBar {...props} />
-    <Router {...props} />
-  </Content>
+    <Content>
+      <Router {...props} />
+    </Content>
+  </Fragment>
 )
