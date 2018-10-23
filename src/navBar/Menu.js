@@ -28,6 +28,16 @@ export default props => {
         <Link to="/about" text="Sobre" />
       </MenuItem>
       <MenuItem>
+        <Link to="/materials" text="Explore" />
+      </MenuItem>
+      <MenuItem>
+        <Link
+          to={'http://materiabrasil.com.br/'}
+          text="Escritórios"
+          targetBlank="true"
+        />
+      </MenuItem>
+      <MenuItem>
         <Link to="/forum" text="Fórum" />
       </MenuItem>
       {currentUser ? (
