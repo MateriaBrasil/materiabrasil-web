@@ -7,10 +7,10 @@ import Video from '../Video'
 
 const styles = theme => ({
   grid: {
-    overflow: 'hidden',
     position: 'relative',
-    margin: '0 auto',
     padding: '100px 0',
+    margin: '0 auto',
+    overflow: 'hidden',
     textAlign: 'center',
     [theme.breakpoints.down('md')]: {
       padding: '100px 0',
