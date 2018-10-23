@@ -2,9 +2,9 @@ import React, { Fragment } from 'react'
 import Typography from '@material-ui/core/Typography'
 
 import Grid from '../InstitutionalPagesGrid'
-import Video from '../Video'
 import NavBar from '../navBar/NavBar'
 import TextContainer from './TextContainer'
+import HowToUse from './HowToUse'
 
 export default props => routeProps => (
   <Fragment>
@@ -36,28 +36,7 @@ export default props => routeProps => (
       </Typography>
     </Grid>
 
-    <Grid isVideo>
-      <Typography
-        variant="display2"
-        color="inherit"
-        className="text"
-        style={{
-          width: '100%',
-          position: 'absolute',
-          top: '8%',
-          color: '#fff',
-          verticalAlign: 'middle',
-          fontWeight: 500,
-        }}
-      >
-        Como usar
-      </Typography>
-      <Video />
-      <img
-        src="https://images.template.net/wp-content/uploads/2016/03/17133511/Vector-Infographic-Report-Template-Premium-Download.jpg"
-        top="50%"
-      />
-    </Grid>
+    <HowToUse />
 
     <Grid>
       <TextContainer>Equipe</TextContainer>
