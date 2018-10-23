@@ -53,6 +53,10 @@ export default props => routeProps => (
         Como usar
       </Typography>
       <Video />
+      <img
+        src="https://images.template.net/wp-content/uploads/2016/03/17133511/Vector-Infographic-Report-Template-Premium-Download.jpg"
+        top="50%"
+      />
     </Grid>
 
     <Grid>
