@@ -56,10 +56,10 @@ export default props => routeProps => (
         color="inherit"
         className="text"
         style={{
+          width: '100%',
           position: 'absolute',
-          top: '10%',
+          top: '8%',
           color: '#fff',
-          display: 'inline-block',
           verticalAlign: 'middle',
           fontWeight: 500,
         }}
