@@ -3,12 +3,12 @@ import Typography from '@material-ui/core/Typography'
 
 import onClick from '../../onClick'
 
-export default ({ destroy, isTransparent }) => (
+export default ({ destroy, isInstitutionalPage }) => (
   <a
     className="navbar-link"
     href="#destroy"
     onClick={onClick(destroy)}
-    style={{ color: isTransparent ? 'white' : 'black', marginLeft: 20 }}
+    style={{ color: isInstitutionalPage ? 'white' : 'black', marginLeft: 20 }}
   >
     <Typography
       variant="subheading"

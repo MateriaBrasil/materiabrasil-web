@@ -3,7 +3,7 @@
 exports[`renders correctly 1`] = `
 Array [
   <div
-    isTransparent="true"
+    isInstitutionalPage="true"
 >
     NavBar
 </div>,

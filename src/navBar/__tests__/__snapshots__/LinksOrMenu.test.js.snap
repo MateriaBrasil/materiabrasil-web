@@ -60,30 +60,6 @@ exports[`when dont match renders correctly 1`] = `
         "textDecoration": "none",
       }
     }
-    target="_blank"
-    to="http://materiabrasil.com.br/"
-  >
-    Link - 
-    <h3
-      className="MuiTypography-root-35 MuiTypography-subheading-42 MuiTypography-colorInherit-54"
-      style={
-        Object {
-          "alignSelf": "center",
-          "display": "inline-block",
-        }
-      }
-    >
-      Escritórios
-    </h3>
-  </div>
-  <div
-    className="navbar-link"
-    style={
-      Object {
-        "color": "black",
-        "textDecoration": "none",
-      }
-    }
     target="_self"
     to="/forum"
   >

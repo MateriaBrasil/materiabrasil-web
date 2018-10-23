@@ -60,30 +60,6 @@ exports[`renders correctly 1`] = `
         "textDecoration": "none",
       }
     }
-    target="_blank"
-    to="http://materiabrasil.com.br/"
-  >
-    Link - 
-    <h3
-      className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
-      style={
-        Object {
-          "alignSelf": "center",
-          "display": "inline-block",
-        }
-      }
-    >
-      Escritórios
-    </h3>
-  </div>
-  <div
-    className="navbar-link"
-    style={
-      Object {
-        "color": "black",
-        "textDecoration": "none",
-      }
-    }
     target="_self"
     to="/forum"
   >
@@ -187,30 +163,6 @@ exports[`with current user renders correctly 1`] = `
       }
     >
       Explore
-    </h3>
-  </div>
-  <div
-    className="navbar-link"
-    style={
-      Object {
-        "color": "black",
-        "textDecoration": "none",
-      }
-    }
-    target="_blank"
-    to="http://materiabrasil.com.br/"
-  >
-    Link - 
-    <h3
-      className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
-      style={
-        Object {
-          "alignSelf": "center",
-          "display": "inline-block",
-        }
-      }
-    >
-      Escritórios
     </h3>
   </div>
   <div
@@ -343,30 +295,6 @@ exports[`with current user with suppliers renders correctly 1`] = `
       }
     >
       Explore
-    </h3>
-  </div>
-  <div
-    className="navbar-link"
-    style={
-      Object {
-        "color": "black",
-        "textDecoration": "none",
-      }
-    }
-    target="_blank"
-    to="http://materiabrasil.com.br/"
-  >
-    Link - 
-    <h3
-      className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
-      style={
-        Object {
-          "alignSelf": "center",
-          "display": "inline-block",
-        }
-      }
-    >
-      Escritórios
     </h3>
   </div>
   <div

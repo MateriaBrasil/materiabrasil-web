@@ -9,11 +9,11 @@ import Logo from './Logo'
 export default withRouter(props => {
   return (
     <AppBar
-      position={props.isTransparent ? 'absolute' : 'static'}
+      position={props.isInstitutionalPage ? 'absolute' : 'static'}
       color="inherit"
       elevation={0}
       style={{
-        ...(props.isTransparent && {
+        ...(props.isInstitutionalPage && {
           backgroundColor: 'transparent',
           boxShadow: '0px 0px 0px 0px',
         }),

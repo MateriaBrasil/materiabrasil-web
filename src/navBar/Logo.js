@@ -23,7 +23,7 @@ export default props => (
         style={{
           display: 'inline-block',
           verticalAlign: 'middle',
-          ...(props.isTransparent && { color: 'white' }),
+          ...(props.isInstitutionalPage && { color: 'white' }),
         }}
       >
         Materia
