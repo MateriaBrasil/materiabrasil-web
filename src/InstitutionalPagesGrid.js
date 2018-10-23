@@ -23,6 +23,8 @@ export default withStyles(styles)(props => {
     <Grid
       container
       style={{
+        ...(props.isVideo && { paddingTop: '35%' }),
+        position: 'relative',
         backgroundImage: 'url("https://picsum.photos/g/1920/900/?random")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
