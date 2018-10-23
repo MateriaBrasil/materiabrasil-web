@@ -66,7 +66,6 @@ export default props => routeProps => (
       </Typography>
       <Video />
     </Grid>
-
     <Grid>
       <Typography
         variant="display2"
@@ -82,7 +81,6 @@ export default props => routeProps => (
         <strong>Equipe</strong>
       </Typography>
     </Grid>
-
     <Grid>
       <Typography
         variant="display2"
