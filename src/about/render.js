@@ -8,8 +8,7 @@ import TextContainer from './TextContainer'
 
 export default props => routeProps => (
   <Fragment>
-    <NavBar {...props} isInstitutionalPage="true" />
-
+    <NavBar {...props} isInstitutionalPage />
     <Grid>
       <TextContainer>Objetivo</TextContainer>
 

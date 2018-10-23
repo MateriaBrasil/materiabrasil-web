@@ -8,7 +8,6 @@ export default props => (
   <BrowserRouter>
     <div style={{ flexGrow: 1 }}>
       <CssBaseline />
-
       <Router {...props} />
     </div>
   </BrowserRouter>
