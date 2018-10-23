@@ -32,39 +32,275 @@ Array [
                     "color": "#fff",
                     "display": "inline-block",
                     "fontWeight": 300,
-                    "marginTop": 70,
+                    "verticalAlign": "middle",
                   }
             }
         >
-            <h2>
-                <strong>
-                    Objetivo
-                </strong>
-            </h2>
-            O objetivo da MateriaMundi oferecer acesso à informação de qualidade e parâmetros para que seus usuários possam escolher alternativas comercialmente disponíveis e socioambiental responsáveis para os desafios do dia a dia, variando desde o que vestimos até como construímos nossas casas.
-            <br />
-            Através da criação de uma comunidade ativa a plataforma permite a criação de conhecimento compartilhado sobre ações práticas para uma forma de projetar, produzir e consumir mais responsável com a sociedade e o meio ambiente.
-            <h2>
-                <strong>
-                    Como usar
-                </strong>
-            </h2>
-            <h2>
-                <strong>
-                    Equipe
-                </strong>
-            </h2>
-            <h2>
-                <strong>
-                    Board
-                </strong>
-            </h2>
-            <h2>
-                <strong>
-                    Direcionadores
-                </strong>
-            </h2>
+            <h1
+                className="MuiTypography-root-93 MuiTypography-display2-96 MuiTypography-colorInherit-112 text"
+                style={
+                    Object {
+                        "color": "#fff",
+                        "display": "inline-block",
+                        "fontWeight": 500,
+                        "verticalAlign": "middle",
+                      }
+                }
+            >
+                Objetivo
+            </h1>
+            <p>
+                O objetivo da MateriaMundi oferecer acesso à informação de qualidade e parâmetros para que seus usuários possam escolher alternativas comercialmente disponíveis e socioambiental responsáveis para os desafios do dia a dia, variando desde o que vestimos até como construímos nossas casas.
+                <br />
+                Através da criação de uma comunidade ativa a plataforma permite a criação de conhecimento compartilhado sobre ações práticas para uma forma de projetar, produzir e consumir mais responsável com a sociedade e o meio ambiente.
+            </p>
         </h1>
+    </div>
+</div>,
+  <div
+    className="MuiGrid-container-2"
+    style={
+        Object {
+            "backgroundImage": "url(\\"https://picsum.photos/1920/900/?random\\")",
+            "backgroundPosition": "center",
+            "backgroundSize": "cover",
+          }
+    }
+>
+    <div
+        className="MuiGrid-item-3 MuiGrid-grid-xs-12-40 MuiGrid-grid-sm-8-49 MuiGrid-grid-md-6-60 Component-grid-1"
+        style={
+            Object {
+                "paddingTop": "35%",
+                "position": "relative",
+              }
+        }
+    >
+        <h1
+            className="MuiTypography-root-93 MuiTypography-display2-96 MuiTypography-colorInherit-112 text"
+            style={
+                Object {
+                    "color": "#fff",
+                    "display": "inline-block",
+                    "fontWeight": 500,
+                    "position": "absolute",
+                    "top": "10%",
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Como usar
+        </h1>
+        <iframe
+            allowFullScreen="true"
+            frameBorder="0"
+            height="100%"
+            mozallowfullscreen="true"
+            src="https://player.vimeo.com/video/140946149"
+            style={
+                Object {
+                    "border": 0,
+                    "height": "100%",
+                    "left": 0,
+                    "maxHeight": "540",
+                    "maxWidth": "960",
+                    "position": "absolute",
+                    "top": 0,
+                    "width": "100%",
+                  }
+            }
+            title="Como usar"
+            webkitallowfullscreen="true"
+            width="100%"
+        />
+    </div>
+</div>,
+  <div
+    className="MuiGrid-container-2"
+    style={
+        Object {
+            "backgroundImage": "url(\\"https://picsum.photos/1920/900/?random\\")",
+            "backgroundPosition": "center",
+            "backgroundSize": "cover",
+          }
+    }
+>
+    <div
+        className="MuiGrid-item-3 MuiGrid-grid-xs-12-40 MuiGrid-grid-sm-8-49 MuiGrid-grid-md-6-60 Component-grid-1"
+        style={
+            Object {
+                "position": "relative",
+              }
+        }
+    >
+        <h1
+            className="MuiTypography-root-93 MuiTypography-display2-96 MuiTypography-colorInherit-112 text"
+            style={
+                Object {
+                    "color": "#fff",
+                    "display": "inline-block",
+                    "fontWeight": 500,
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            <strong>
+                Equipe
+            </strong>
+        </h1>
+    </div>
+</div>,
+  <div
+    className="MuiGrid-container-2"
+    style={
+        Object {
+            "backgroundImage": "url(\\"https://picsum.photos/1920/900/?random\\")",
+            "backgroundPosition": "center",
+            "backgroundSize": "cover",
+          }
+    }
+>
+    <div
+        className="MuiGrid-item-3 MuiGrid-grid-xs-12-40 MuiGrid-grid-sm-8-49 MuiGrid-grid-md-6-60 Component-grid-1"
+        style={
+            Object {
+                "position": "relative",
+              }
+        }
+    >
+        <h1
+            className="MuiTypography-root-93 MuiTypography-display2-96 MuiTypography-colorInherit-112 text"
+            style={
+                Object {
+                    "color": "#fff",
+                    "display": "inline-block",
+                    "fontWeight": 500,
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            <strong>
+                Board
+            </strong>
+        </h1>
+    </div>
+</div>,
+  <div
+    className="MuiGrid-container-2"
+    style={
+        Object {
+            "backgroundImage": "url(\\"https://picsum.photos/1920/900/?random\\")",
+            "backgroundPosition": "center",
+            "backgroundSize": "cover",
+          }
+    }
+>
+    <div
+        className="MuiGrid-item-3 MuiGrid-grid-xs-12-40 MuiGrid-grid-sm-8-49 MuiGrid-grid-md-6-60 Component-grid-1"
+        style={
+            Object {
+                "position": "relative",
+              }
+        }
+    >
+        <h1
+            className="MuiTypography-root-93 MuiTypography-display2-96 MuiTypography-colorInherit-112 text"
+            style={
+                Object {
+                    "color": "#fff",
+                    "display": "inline-block",
+                    "fontWeight": 500,
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            <strong>
+                Direcionadores
+            </strong>
+        </h1>
+    </div>
+</div>,
+  <div
+    className="MuiGrid-container-2"
+    style={
+        Object {
+            "backgroundImage": "url(\\"https://picsum.photos/1920/900/?random\\")",
+            "backgroundPosition": "center",
+            "backgroundSize": "cover",
+          }
+    }
+>
+    <div
+        className="MuiGrid-item-3 MuiGrid-grid-xs-12-40 MuiGrid-grid-sm-8-49 MuiGrid-grid-md-6-60 Component-grid-1"
+        style={
+            Object {
+                "position": "relative",
+              }
+        }
+    >
+        <div
+            style={
+                Object {
+                    "textDecoration": "none",
+                  }
+            }
+            to="/materials"
+        >
+            Link - 
+            <button
+                className="MuiButtonBase-root-133 MuiButton-root-117 MuiButton-raised-123 MuiButton-sizeLarge-131"
+                disabled={false}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                style={
+                    Object {
+                        "background": "#fff",
+                        "borderRadius": 7,
+                        "fontSize": 40,
+                        "fontWeight": 100,
+                        "padding": "15px 50px",
+                        "textTransform": "lowercase",
+                      }
+                }
+                tabIndex="0"
+                type="button"
+            >
+                <span
+                    className="MuiButton-label-118"
+                >
+                    Explore
+                </span>
+                <span
+                    className="MuiTouchRipple-root-136"
+                />
+            </button>
+        </div>
+        <p
+            style={
+                Object {
+                    "bottom": 20,
+                    "color": "#fff",
+                    "fontFamily": "roboto",
+                    "position": "absolute",
+                    "textAlign": "center",
+                    "width": "100%",
+                  }
+            }
+        >
+            Apoio: Instituto C&A; 
+            <br />
+            Parceiros: Good Tech Lab, Fab City Global, Materiom;
+            <br />
+            Membro: Sistema B Brasil e CE100 Global Ellen MacArthur Foundation.
+        </p>
     </div>
 </div>,
 ]
