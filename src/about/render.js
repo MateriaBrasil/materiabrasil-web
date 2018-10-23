@@ -2,13 +2,17 @@ import React, { Fragment } from 'react'
 import Typography from '@material-ui/core/Typography'
 
 import Grid from '../InstitutionalPagesGrid'
+import Video from '../Video'
 import NavBar from '../navBar/NavBar'
-import Video from './Video'
+import TextContainer from './TextContainer'
 
 export default props => routeProps => (
   <Fragment>
     <NavBar {...props} isInstitutionalPage="true" />
+
     <Grid>
+      <TextContainer>Objetivo</TextContainer>
+
       <Typography
         variant="display2"
         color="inherit"
@@ -20,31 +24,16 @@ export default props => routeProps => (
           fontWeight: 300,
         }}
       >
-        <Typography
-          variant="display2"
-          color="inherit"
-          className="text"
-          style={{
-            color: '#fff',
-            display: 'inline-block',
-            verticalAlign: 'middle',
-            fontWeight: 500,
-          }}
-        >
-          Objetivo
-        </Typography>
-        <p>
-          O objetivo da MateriaMundi oferecer acesso à informação de qualidade e
-          parâmetros para que seus usuários possam escolher alternativas
-          comercialmente disponíveis e socioambiental responsáveis para os
-          desafios do dia a dia, variando desde o que vestimos até como
-          construímos nossas casas.
-          <br />
-          Através da criação de uma comunidade ativa a plataforma permite a
-          criação de conhecimento compartilhado sobre ações práticas para uma
-          forma de projetar, produzir e consumir mais responsável com a
-          sociedade e o meio ambiente.
-        </p>
+        O objetivo da MateriaMundi oferecer acesso à informação de qualidade e
+        parâmetros para que seus usuários possam escolher alternativas
+        comercialmente disponíveis e socioambiental responsáveis para os
+        desafios do dia a dia, variando desde o que vestimos até como
+        construímos nossas casas.
+        <br />
+        Através da criação de uma comunidade ativa a plataforma permite a
+        criação de conhecimento compartilhado sobre ações práticas para uma
+        forma de projetar, produzir e consumir mais responsável com a sociedade
+        e o meio ambiente.
       </Typography>
     </Grid>
 
@@ -66,51 +55,17 @@ export default props => routeProps => (
       </Typography>
       <Video />
     </Grid>
+
     <Grid>
-      <Typography
-        variant="display2"
-        color="inherit"
-        className="text"
-        style={{
-          color: '#fff',
-          display: 'inline-block',
-          verticalAlign: 'middle',
-          fontWeight: 500,
-        }}
-      >
-        <strong>Equipe</strong>
-      </Typography>
-    </Grid>
-    <Grid>
-      <Typography
-        variant="display2"
-        color="inherit"
-        className="text"
-        style={{
-          color: '#fff',
-          display: 'inline-block',
-          verticalAlign: 'middle',
-          fontWeight: 500,
-        }}
-      >
-        <strong>Board</strong>
-      </Typography>
+      <TextContainer>Equipe</TextContainer>
     </Grid>
 
     <Grid>
-      <Typography
-        variant="display2"
-        color="inherit"
-        className="text"
-        style={{
-          color: '#fff',
-          display: 'inline-block',
-          verticalAlign: 'middle',
-          fontWeight: 500,
-        }}
-      >
-        <strong>Direcionadores</strong>
-      </Typography>
+      <TextContainer>Board</TextContainer>
+    </Grid>
+
+    <Grid>
+      <TextContainer>Direcionadores</TextContainer>
     </Grid>
   </Fragment>
 )
