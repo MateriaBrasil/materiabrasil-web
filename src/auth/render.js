@@ -1,14 +1,9 @@
-import React, { Fragment } from 'react'
-
-import Content from 'Content'
+import React from 'react'
 import Router from './Router'
-import NavBar from '../navBar/NavBar'
+import NaveBarAndContent from '../NavBarAndContent'
 
 export default props => routeProps => (
-  <Fragment>
-    <NavBar {...props} />
-    <Content>
-      <Router {...props} />
-    </Content>
-  </Fragment>
+  <NaveBarAndContent {...props}>
+    <Router {...props} />
+  </NaveBarAndContent>
 )
