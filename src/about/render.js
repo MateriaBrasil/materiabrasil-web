@@ -6,8 +6,7 @@ import NavBar from '../navBar/NavBar'
 
 export default props => routeProps => (
   <Fragment>
-    <NavBar {...props} isInstitutionalPage="true" />
-
+    <NavBar {...props} isInstitutionalPage />
     <Grid>
       <Typography
         variant="display2"
