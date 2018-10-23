@@ -19,6 +19,7 @@ exports[`renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
+      target="_self"
       to="/about"
     >
       Link - 
@@ -45,6 +46,61 @@ exports[`renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
+      target="_self"
+      to="/materials"
+    >
+      Link - 
+      <h3
+        className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+        style={
+          Object {
+            "alignSelf": "center",
+            "display": "inline-block",
+          }
+        }
+      >
+        Explore
+      </h3>
+    </div>
+  </div>
+  <div>
+    MenuItem - 
+    <div
+      className="navbar-link"
+      style={
+        Object {
+          "color": "black",
+          "textDecoration": "none",
+        }
+      }
+      target="_blank"
+      to="http://materiabrasil.com.br/"
+    >
+      Link - 
+      <h3
+        className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+        style={
+          Object {
+            "alignSelf": "center",
+            "display": "inline-block",
+          }
+        }
+      >
+        Escritórios
+      </h3>
+    </div>
+  </div>
+  <div>
+    MenuItem - 
+    <div
+      className="navbar-link"
+      style={
+        Object {
+          "color": "black",
+          "textDecoration": "none",
+        }
+      }
+      target="_self"
       to="/forum"
     >
       Link - 
@@ -73,6 +129,7 @@ exports[`renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
+      target="_self"
       to={
         Object {
           "pathname": "/auth/sign-up",
@@ -126,6 +183,7 @@ exports[`with current user renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
+      target="_self"
       to="/about"
     >
       Link - 
@@ -152,6 +210,61 @@ exports[`with current user renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
+      target="_self"
+      to="/materials"
+    >
+      Link - 
+      <h3
+        className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+        style={
+          Object {
+            "alignSelf": "center",
+            "display": "inline-block",
+          }
+        }
+      >
+        Explore
+      </h3>
+    </div>
+  </div>
+  <div>
+    MenuItem - 
+    <div
+      className="navbar-link"
+      style={
+        Object {
+          "color": "black",
+          "textDecoration": "none",
+        }
+      }
+      target="_blank"
+      to="http://materiabrasil.com.br/"
+    >
+      Link - 
+      <h3
+        className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+        style={
+          Object {
+            "alignSelf": "center",
+            "display": "inline-block",
+          }
+        }
+      >
+        Escritórios
+      </h3>
+    </div>
+  </div>
+  <div>
+    MenuItem - 
+    <div
+      className="navbar-link"
+      style={
+        Object {
+          "color": "black",
+          "textDecoration": "none",
+        }
+      }
+      target="_self"
       to="/forum"
     >
       Link - 
@@ -178,6 +291,7 @@ exports[`with current user renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
+      target="_self"
       to="/suppliers/new"
     >
       Link - 
@@ -204,6 +318,7 @@ exports[`with current user renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
+      target="_self"
       to="/profile"
     >
       Link - 
@@ -250,6 +365,7 @@ exports[`with current user with suppliers renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
+      target="_self"
       to="/about"
     >
       Link - 
@@ -276,6 +392,61 @@ exports[`with current user with suppliers renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
+      target="_self"
+      to="/materials"
+    >
+      Link - 
+      <h3
+        className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+        style={
+          Object {
+            "alignSelf": "center",
+            "display": "inline-block",
+          }
+        }
+      >
+        Explore
+      </h3>
+    </div>
+  </div>
+  <div>
+    MenuItem - 
+    <div
+      className="navbar-link"
+      style={
+        Object {
+          "color": "black",
+          "textDecoration": "none",
+        }
+      }
+      target="_blank"
+      to="http://materiabrasil.com.br/"
+    >
+      Link - 
+      <h3
+        className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+        style={
+          Object {
+            "alignSelf": "center",
+            "display": "inline-block",
+          }
+        }
+      >
+        Escritórios
+      </h3>
+    </div>
+  </div>
+  <div>
+    MenuItem - 
+    <div
+      className="navbar-link"
+      style={
+        Object {
+          "color": "black",
+          "textDecoration": "none",
+        }
+      }
+      target="_self"
       to="/forum"
     >
       Link - 
@@ -302,6 +473,7 @@ exports[`with current user with suppliers renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
+      target="_self"
       to="/suppliers/undefined"
     >
       Link - 
@@ -326,6 +498,7 @@ exports[`with current user with suppliers renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
+      target="_self"
       to="/profile"
     >
       Link - 
