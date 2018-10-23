@@ -11,7 +11,7 @@ Array [
     className="MuiGrid-container-2"
     style={
         Object {
-            "backgroundImage": "url(\\"https://picsum.photos/1920/900/?random\\")",
+            "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
           }
@@ -49,7 +49,7 @@ Array [
     className="MuiGrid-container-2"
     style={
         Object {
-            "backgroundImage": "url(\\"https://picsum.photos/1920/900/?random\\")",
+            "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
           }
@@ -86,7 +86,7 @@ Array [
     className="MuiGrid-container-2"
     style={
         Object {
-            "backgroundImage": "url(\\"https://picsum.photos/1920/900/?random\\")",
+            "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
           }

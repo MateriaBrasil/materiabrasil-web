@@ -11,7 +11,7 @@ Array [
     className="MuiGrid-container-2"
     style={
         Object {
-            "backgroundImage": "url(\\"https://picsum.photos/1920/900/?random\\")",
+            "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
           }
@@ -26,29 +26,28 @@ Array [
                 Object {
                     "color": "#fff",
                     "display": "inline-block",
+                    "fontWeight": 500,
+                    "marginBottom": 40,
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Objetivo
+        </h1>
+        <h1
+            className="MuiTypography-root-93 MuiTypography-display2-96 MuiTypography-colorInherit-112 text"
+            style={
+                Object {
+                    "color": "#fff",
+                    "display": "inline-block",
                     "fontWeight": 300,
                     "verticalAlign": "middle",
                   }
             }
         >
-            <h1
-                className="MuiTypography-root-93 MuiTypography-display2-96 MuiTypography-colorInherit-112 text"
-                style={
-                    Object {
-                        "color": "#fff",
-                        "display": "inline-block",
-                        "fontWeight": 500,
-                        "verticalAlign": "middle",
-                      }
-                }
-            >
-                Objetivo
-            </h1>
-            <p>
-                O objetivo da MateriaMundi oferecer acesso à informação de qualidade e parâmetros para que seus usuários possam escolher alternativas comercialmente disponíveis e socioambiental responsáveis para os desafios do dia a dia, variando desde o que vestimos até como construímos nossas casas.
-                <br />
-                Através da criação de uma comunidade ativa a plataforma permite a criação de conhecimento compartilhado sobre ações práticas para uma forma de projetar, produzir e consumir mais responsável com a sociedade e o meio ambiente.
-            </p>
+            O objetivo da MateriaMundi oferecer acesso à informação de qualidade e parâmetros para que seus usuários possam escolher alternativas comercialmente disponíveis e socioambiental responsáveis para os desafios do dia a dia, variando desde o que vestimos até como construímos nossas casas.
+            <br />
+            Através da criação de uma comunidade ativa a plataforma permite a criação de conhecimento compartilhado sobre ações práticas para uma forma de projetar, produzir e consumir mais responsável com a sociedade e o meio ambiente.
         </h1>
     </div>
 </div>,
@@ -56,7 +55,7 @@ Array [
     className="MuiGrid-container-2"
     style={
         Object {
-            "backgroundImage": "url(\\"https://picsum.photos/1920/900/?random\\")",
+            "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
           }
@@ -98,7 +97,7 @@ Array [
                     "width": "100%",
                   }
             }
-            title="Como usar"
+            title="Vídeo de introdução ao Materia Brasil"
             webkitallowfullscreen="true"
             width="100%"
         />
@@ -108,7 +107,7 @@ Array [
     className="MuiGrid-container-2"
     style={
         Object {
-            "backgroundImage": "url(\\"https://picsum.photos/1920/900/?random\\")",
+            "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
           }
@@ -124,13 +123,12 @@ Array [
                     "color": "#fff",
                     "display": "inline-block",
                     "fontWeight": 500,
+                    "marginBottom": 40,
                     "verticalAlign": "middle",
                   }
             }
         >
-            <strong>
-                Equipe
-            </strong>
+            Equipe
         </h1>
     </div>
 </div>,
@@ -138,7 +136,7 @@ Array [
     className="MuiGrid-container-2"
     style={
         Object {
-            "backgroundImage": "url(\\"https://picsum.photos/1920/900/?random\\")",
+            "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
           }
@@ -154,13 +152,12 @@ Array [
                     "color": "#fff",
                     "display": "inline-block",
                     "fontWeight": 500,
+                    "marginBottom": 40,
                     "verticalAlign": "middle",
                   }
             }
         >
-            <strong>
-                Board
-            </strong>
+            Board
         </h1>
     </div>
 </div>,
@@ -168,7 +165,7 @@ Array [
     className="MuiGrid-container-2"
     style={
         Object {
-            "backgroundImage": "url(\\"https://picsum.photos/1920/900/?random\\")",
+            "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
           }
@@ -184,13 +181,12 @@ Array [
                     "color": "#fff",
                     "display": "inline-block",
                     "fontWeight": 500,
+                    "marginBottom": 40,
                     "verticalAlign": "middle",
                   }
             }
         >
-            <strong>
-                Direcionadores
-            </strong>
+            Direcionadores
         </h1>
     </div>
 </div>,
