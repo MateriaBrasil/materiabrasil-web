@@ -3,7 +3,7 @@ import Link from 'react-router-dom/Link'
 import Typography from '@material-ui/core/Typography'
 import './Logo.css'
 
-export default () => (
+export default props => (
   <div className="logo" style={{ flex: 1 }}>
     <Link to="/" style={{ textDecoration: 'none', color: 'black' }}>
       <img
@@ -23,6 +23,7 @@ export default () => (
         style={{
           display: 'inline-block',
           verticalAlign: 'middle',
+          ...(props.isInstitutionalPage && { color: 'white' }),
         }}
       >
         Materia

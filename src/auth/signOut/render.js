@@ -11,5 +11,5 @@ export default props => (destroy, { destroying, destroyed }) => {
     return <Destroyed {...props} />
   }
 
-  return <Link destroy={destroy} />
+  return <Link destroy={destroy} {...props} />
 }

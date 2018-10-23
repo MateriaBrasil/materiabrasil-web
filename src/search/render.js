@@ -1,10 +1,10 @@
 import React from 'react'
 
-import Content from 'Content'
 import Router from './Router'
+import NaveBarAndContent from '../NavBarAndContent'
 
 export default props => routeProps => (
-  <Content>
+  <NaveBarAndContent {...props}>
     <Router {...props} />
-  </Content>
+  </NaveBarAndContent>
 )

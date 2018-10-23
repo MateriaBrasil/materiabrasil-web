@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div
+    isInstitutionalPage={true}
+>
+    NavBar
+</div>,
+  <div
+    className="MuiGrid-container-2"
+    style={
+        Object {
+            "backgroundImage": "url(\\"https://picsum.photos/1920/900/?random\\")",
+            "backgroundPosition": "center",
+            "backgroundSize": "cover",
+          }
+    }
+>
+    <div
+        className="MuiGrid-item-3 MuiGrid-grid-xs-12-40 MuiGrid-grid-sm-8-49 MuiGrid-grid-md-6-60 Component-grid-1"
+        style={
+            Object {
+                "position": "relative",
+              }
+        }
+    >
+        <h1
+            className="MuiTypography-root-93 MuiTypography-display2-96 MuiTypography-colorInherit-112 text"
+            style={
+                Object {
+                    "color": "#fff",
+                    "display": "inline-block",
+                    "fontWeight": 300,
+                    "marginTop": 70,
+                  }
+            }
+        >
+            <h2>
+                <strong>
+                    Objetivo
+                </strong>
+            </h2>
+            O objetivo da MateriaMundi oferecer acesso à informação de qualidade e parâmetros para que seus usuários possam escolher alternativas comercialmente disponíveis e socioambiental responsáveis para os desafios do dia a dia, variando desde o que vestimos até como construímos nossas casas.
+            <br />
+            Através da criação de uma comunidade ativa a plataforma permite a criação de conhecimento compartilhado sobre ações práticas para uma forma de projetar, produzir e consumir mais responsável com a sociedade e o meio ambiente.
+            <h2>
+                <strong>
+                    Como usar
+                </strong>
+            </h2>
+            <h2>
+                <strong>
+                    Equipe
+                </strong>
+            </h2>
+            <h2>
+                <strong>
+                    Board
+                </strong>
+            </h2>
+            <h2>
+                <strong>
+                    Direcionadores
+                </strong>
+            </h2>
+        </h1>
+    </div>
+</div>,
+]
+`;

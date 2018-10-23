@@ -3,13 +3,14 @@ import Link from 'react-router-dom/Link'
 import Typography from '@material-ui/core/Typography'
 import './Link.css'
 
-export default ({ to, text }) => (
+export default ({ to, text, isInstitutionalPage, targetBlank }) => (
   <Link
     className="navbar-link"
     to={to}
+    target={targetBlank ? '_blank' : '_self'}
     style={{
       textDecoration: 'none',
-      color: 'black',
+      color: isInstitutionalPage ? 'white' : 'black',
     }}
   >
     <Typography

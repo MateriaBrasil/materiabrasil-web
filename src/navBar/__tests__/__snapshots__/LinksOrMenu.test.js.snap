@@ -12,6 +12,55 @@ exports[`when dont match renders correctly 1`] = `
         "textDecoration": "none",
       }
     }
+    target="_self"
+    to="/about"
+  >
+    Link - 
+    <h3
+      className="MuiTypography-root-35 MuiTypography-subheading-42 MuiTypography-colorInherit-54"
+      style={
+        Object {
+          "alignSelf": "center",
+          "display": "inline-block",
+        }
+      }
+    >
+      Sobre
+    </h3>
+  </div>
+  <div
+    className="navbar-link"
+    style={
+      Object {
+        "color": "black",
+        "textDecoration": "none",
+      }
+    }
+    target="_self"
+    to="/materials"
+  >
+    Link - 
+    <h3
+      className="MuiTypography-root-35 MuiTypography-subheading-42 MuiTypography-colorInherit-54"
+      style={
+        Object {
+          "alignSelf": "center",
+          "display": "inline-block",
+        }
+      }
+    >
+      Explore
+    </h3>
+  </div>
+  <div
+    className="navbar-link"
+    style={
+      Object {
+        "color": "black",
+        "textDecoration": "none",
+      }
+    }
+    target="_self"
     to="/forum"
   >
     Link - 
@@ -35,6 +84,7 @@ exports[`when dont match renders correctly 1`] = `
         "textDecoration": "none",
       }
     }
+    target="_self"
     to={
       Object {
         "pathname": "/auth/sign-up",
@@ -161,6 +211,136 @@ Array [
                     "textDecoration": "none",
                   }
             }
+            target="_self"
+            to="/about"
+        >
+            Link - 
+            <h3
+                className="MuiTypography-root-35 MuiTypography-subheading-42 MuiTypography-colorInherit-54"
+                style={
+                    Object {
+                        "alignSelf": "center",
+                        "display": "inline-block",
+                      }
+                }
+            >
+                Sobre
+            </h3>
+        </div>
+        <span
+            className="MuiTouchRipple-root-16"
+        />
+    </li>
+    <li
+        className="MuiButtonBase-root-7 MuiListItem-root-25 MuiListItem-default-28 MuiListItem-gutters-32 MuiListItem-button-33 MuiMenuItem-root-23"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="menuitem"
+        tabIndex={-1}
+    >
+        <div
+            className="navbar-link"
+            style={
+                Object {
+                    "color": "black",
+                    "textDecoration": "none",
+                  }
+            }
+            target="_self"
+            to="/materials"
+        >
+            Link - 
+            <h3
+                className="MuiTypography-root-35 MuiTypography-subheading-42 MuiTypography-colorInherit-54"
+                style={
+                    Object {
+                        "alignSelf": "center",
+                        "display": "inline-block",
+                      }
+                }
+            >
+                Explore
+            </h3>
+        </div>
+        <span
+            className="MuiTouchRipple-root-16"
+        />
+    </li>
+    <li
+        className="MuiButtonBase-root-7 MuiListItem-root-25 MuiListItem-default-28 MuiListItem-gutters-32 MuiListItem-button-33 MuiMenuItem-root-23"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="menuitem"
+        tabIndex={-1}
+    >
+        <div
+            className="navbar-link"
+            style={
+                Object {
+                    "color": "black",
+                    "textDecoration": "none",
+                  }
+            }
+            target="_blank"
+            to="http://materiabrasil.com.br/"
+        >
+            Link - 
+            <h3
+                className="MuiTypography-root-35 MuiTypography-subheading-42 MuiTypography-colorInherit-54"
+                style={
+                    Object {
+                        "alignSelf": "center",
+                        "display": "inline-block",
+                      }
+                }
+            >
+                Escritórios
+            </h3>
+        </div>
+        <span
+            className="MuiTouchRipple-root-16"
+        />
+    </li>
+    <li
+        className="MuiButtonBase-root-7 MuiListItem-root-25 MuiListItem-default-28 MuiListItem-gutters-32 MuiListItem-button-33 MuiMenuItem-root-23"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="menuitem"
+        tabIndex={-1}
+    >
+        <div
+            className="navbar-link"
+            style={
+                Object {
+                    "color": "black",
+                    "textDecoration": "none",
+                  }
+            }
+            target="_self"
             to="/forum"
         >
             Link - 
@@ -204,6 +384,7 @@ Array [
                     "textDecoration": "none",
                   }
             }
+            target="_self"
             to={
                 Object {
                     "pathname": "/auth/sign-up",

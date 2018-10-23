@@ -3,6 +3,11 @@
 exports[`renders correctly 1`] = `
 Array [
   <div
+    isInstitutionalPage="true"
+>
+    NavBar
+</div>,
+  <div
     className="MuiGrid-container-2"
     style={
         Object {

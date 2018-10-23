@@ -1,13 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div
-  className="content"
->
+Array [
   <div
     foo="bar"
-  >
-    Router
-  </div>
-</div>
+>
+    NavBar
+</div>,
+  <div
+    className="content"
+>
+    <div
+        foo="bar"
+    >
+        Router
+    </div>
+</div>,
+]
 `;

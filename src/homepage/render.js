@@ -4,9 +4,11 @@ import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'
 import Grid from './Grid'
 import Video from './Video'
+import NavBar from '../navBar/NavBar'
 
 export default props => routeProps => (
   <Fragment>
+    <NavBar {...props} isInstitutionalPage="true" />
     <Grid>
       <Typography
         variant="display2"
