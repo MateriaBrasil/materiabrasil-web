@@ -8,39 +8,44 @@ Array [
     NavBar
 </div>,
   <div
-    className="MuiGrid-container-2"
+    className="MuiGrid-container-1"
     style={
         Object {
-            "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
+            "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
+            "paddingTop": "35px",
           }
     }
 >
     <div
-        className="MuiGrid-item-3 MuiGrid-grid-xs-12-42 MuiGrid-grid-sm-8-52 MuiGrid-grid-md-6-64 Component-grid-1"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
         style={
             Object {
+                "paddingTop": "5%",
                 "position": "relative",
               }
         }
     >
         <h3
-            className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128 text"
+            className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128"
             style={
                 Object {
                     "color": "#fff",
                     "display": "inline-block",
                     "fontWeight": 500,
-                    "marginBottom": 40,
                     "verticalAlign": "middle",
                   }
             }
         >
             Objetivo
         </h3>
-        <h3
-            className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128 text"
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-6-63 Component-grid-134"
+    >
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
             style={
                 Object {
                     "color": "#fff",
@@ -53,14 +58,14 @@ Array [
             O objetivo da MateriaMundi oferecer acesso à informação de qualidade e parâmetros para que seus usuários possam escolher alternativas comercialmente disponíveis e socioambiental responsáveis para os desafios do dia a dia, variando desde o que vestimos até como construímos nossas casas.
             <br />
             Através da criação de uma comunidade ativa a plataforma permite a criação de conhecimento compartilhado sobre ações práticas para uma forma de projetar, produzir e consumir mais responsável com a sociedade e o meio ambiente.
-        </h3>
+        </h5>
     </div>
 </div>,
   <div
-    className="MuiGrid-container-2"
+    className="MuiGrid-container-1"
     style={
         Object {
-            "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
+            "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
             "paddingTop": "35px",
@@ -68,7 +73,7 @@ Array [
     }
 >
     <div
-        className="MuiGrid-item-3 MuiGrid-grid-xs-12-42 Component-grid-134"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
         style={
             Object {
                 "paddingTop": "5%",
@@ -77,15 +82,13 @@ Array [
         }
     >
         <h3
-            className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128 text"
+            className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128"
             style={
                 Object {
                     "color": "#fff",
+                    "display": "inline-block",
                     "fontWeight": 500,
-                    "position": "absolute",
-                    "top": "8%",
                     "verticalAlign": "middle",
-                    "width": "100%",
                   }
             }
         >
@@ -93,7 +96,7 @@ Array [
         </h3>
     </div>
     <div
-        className="MuiGrid-item-3 MuiGrid-grid-xs-12-42 MuiGrid-grid-sm-8-52 MuiGrid-grid-md-6-64 Component-grid-134"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-6-63 Component-grid-135"
         style={
             Object {
                 "paddingTop": "35%",
@@ -125,10 +128,10 @@ Array [
         />
     </div>
     <div
-        className="MuiGrid-item-3 MuiGrid-grid-xs-12-42 Component-grid-134"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-136"
     >
         <img
-            alt="placeholder image"
+            alt=""
             src="https://images.template.net/wp-content/uploads/2016/03/17133511/Vector-Infographic-Report-Template-Premium-Download.jpg"
             style={
                 Object {
@@ -140,31 +143,32 @@ Array [
     </div>
 </div>,
   <div
-    className="MuiGrid-container-2"
+    className="MuiGrid-container-1"
     style={
         Object {
-            "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
+            "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
+            "paddingTop": "35px",
           }
     }
 >
     <div
-        className="MuiGrid-item-3 MuiGrid-grid-xs-12-42 MuiGrid-grid-sm-8-52 MuiGrid-grid-md-6-64 Component-grid-1"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
         style={
             Object {
+                "paddingTop": "5%",
                 "position": "relative",
               }
         }
     >
         <h3
-            className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128 text"
+            className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128"
             style={
                 Object {
                     "color": "#fff",
                     "display": "inline-block",
                     "fontWeight": 500,
-                    "marginBottom": 40,
                     "verticalAlign": "middle",
                   }
             }
@@ -172,33 +176,674 @@ Array [
             Equipe
         </h3>
     </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Manuela Yamada - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Manuela Yamada
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Bernardo Ferracioli - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Bernardo Ferracioli
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Bruno Temer - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Bruno Temer
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Pedro Themoteo - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Pedro Themoteo
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Daniele Valente - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Daniele Valente
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Elisa Ferreira - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Elisa Ferreira
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Victor Lanari - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Victor Lanari
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Dahyna Ribeiro - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Dahyna Ribeiro
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Bernardo Mattos - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Bernardo Mattos
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Seasoned - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Seasoned
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
 </div>,
   <div
-    className="MuiGrid-container-2"
+    className="MuiGrid-container-1"
     style={
         Object {
-            "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
+            "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
+            "paddingTop": "35px",
           }
     }
 >
     <div
-        className="MuiGrid-item-3 MuiGrid-grid-xs-12-42 MuiGrid-grid-sm-8-52 MuiGrid-grid-md-6-64 Component-grid-1"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
         style={
             Object {
+                "paddingTop": "5%",
                 "position": "relative",
               }
         }
     >
         <h3
-            className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128 text"
+            className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128"
             style={
                 Object {
                     "color": "#fff",
                     "display": "inline-block",
                     "fontWeight": 500,
-                    "marginBottom": 40,
                     "verticalAlign": "middle",
                   }
             }
@@ -208,31 +853,32 @@ Array [
     </div>
 </div>,
   <div
-    className="MuiGrid-container-2"
+    className="MuiGrid-container-1"
     style={
         Object {
-            "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
+            "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
+            "paddingTop": "35px",
           }
     }
 >
     <div
-        className="MuiGrid-item-3 MuiGrid-grid-xs-12-42 MuiGrid-grid-sm-8-52 MuiGrid-grid-md-6-64 Component-grid-1"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
         style={
             Object {
+                "paddingTop": "5%",
                 "position": "relative",
               }
         }
     >
         <h3
-            className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128 text"
+            className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128"
             style={
                 Object {
                     "color": "#fff",
                     "display": "inline-block",
                     "fontWeight": 500,
-                    "marginBottom": 40,
                     "verticalAlign": "middle",
                   }
             }

@@ -1,28 +1,20 @@
 import React, { Fragment } from 'react'
-import Typography from '@material-ui/core/Typography'
 
-import Grid from '../InstitutionalPagesGrid'
 import NavBar from '../navBar/NavBar'
+import Session from './Session'
+import Title from './Title'
+import Paragraph from './Paragraph'
 import HowToUse from './HowToUse'
-import TextTitle from './TextTitle'
+import Crew from './Crew'
 
 export default props => routeProps => (
   <Fragment>
     <NavBar {...props} isInstitutionalPage />
-    <Grid>
-      <TextTitle>Objetivo</TextTitle>
 
-      <Typography
-        variant="h3"
-        color="inherit"
-        className="text"
-        style={{
-          color: '#fff',
-          display: 'inline-block',
-          verticalAlign: 'middle',
-          fontWeight: 300,
-        }}
-      >
+    <Session>
+      <Title>Objetivo</Title>
+
+      <Paragraph>
         O objetivo da MateriaMundi oferecer acesso à informação de qualidade e
         parâmetros para que seus usuários possam escolher alternativas
         comercialmente disponíveis e socioambiental responsáveis para os
@@ -33,21 +25,19 @@ export default props => routeProps => (
         criação de conhecimento compartilhado sobre ações práticas para uma
         forma de projetar, produzir e consumir mais responsável com a sociedade
         e o meio ambiente.
-      </Typography>
-    </Grid>
+      </Paragraph>
+    </Session>
 
     <HowToUse />
 
-    <Grid>
-      <TextTitle>Equipe</TextTitle>
-    </Grid>
+    <Crew />
 
-    <Grid>
-      <TextTitle>Board</TextTitle>
-    </Grid>
+    <Session>
+      <Title>Board</Title>
+    </Session>
 
-    <Grid>
-      <TextTitle>Direcionadores</TextTitle>
-    </Grid>
+    <Session>
+      <Title>Direcionadores</Title>
+    </Session>
   </Fragment>
 )
