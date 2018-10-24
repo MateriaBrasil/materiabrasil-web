@@ -1,8 +1,8 @@
 import React from 'react'
 import Grid from '@material-ui/core/Grid'
 import { withStyles } from '@material-ui/core/styles'
+import Typography from '@material-ui/core/Typography'
 
-import Paragraph from './Paragraph'
 import Style from './Style'
 
 export default withStyles(Style)(props => (
@@ -15,6 +15,17 @@ export default withStyles(Style)(props => (
       position: 'relative',
     }}
   >
-    <Paragraph>{props.children}</Paragraph>
+    <Typography
+      variant="h3"
+      color="inherit"
+      style={{
+        color: '#fff',
+        display: 'inline-block',
+        verticalAlign: 'middle',
+        fontWeight: 500,
+      }}
+    >
+      {props.children}
+    </Typography>
   </Grid>
 ))

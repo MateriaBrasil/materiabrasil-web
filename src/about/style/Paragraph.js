@@ -8,9 +8,8 @@ import Style from './Style'
 export default withStyles(Style)(props => (
   <Grid item xs={12} sm={8} md={6} className={props.classes.grid}>
     <Typography
-      variant="h3"
+      variant="h5"
       color="inherit"
-      className="text"
       style={{
         color: '#fff',
         display: 'inline-block',

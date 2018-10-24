@@ -4,7 +4,7 @@ import map from 'lodash/map'
 import Session from './style/Session'
 import CrewMember from './style/CrewMember'
 import Title from './style/Title'
-import List from './CrewMembersList'
+import List from './crewMembersList'
 
 export default props => {
   return (
