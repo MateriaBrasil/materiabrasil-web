@@ -3,14 +3,14 @@ import Typography from '@material-ui/core/Typography'
 
 import Grid from '../InstitutionalPagesGrid'
 import NavBar from '../navBar/NavBar'
-import TextContainer from './TextContainer'
 import HowToUse from './HowToUse'
+import TextTitle from './TextTitle'
 
 export default props => routeProps => (
   <Fragment>
     <NavBar {...props} isInstitutionalPage />
     <Grid>
-      <TextContainer>Objetivo</TextContainer>
+      <TextTitle>Objetivo</TextTitle>
 
       <Typography
         variant="display2"
@@ -39,15 +39,15 @@ export default props => routeProps => (
     <HowToUse />
 
     <Grid>
-      <TextContainer>Equipe</TextContainer>
+      <TextTitle>Equipe</TextTitle>
     </Grid>
 
     <Grid>
-      <TextContainer>Board</TextContainer>
+      <TextTitle>Board</TextTitle>
     </Grid>
 
     <Grid>
-      <TextContainer>Direcionadores</TextContainer>
+      <TextTitle>Direcionadores</TextTitle>
     </Grid>
   </Fragment>
 )
