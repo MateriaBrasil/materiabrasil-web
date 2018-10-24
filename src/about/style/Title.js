@@ -2,7 +2,7 @@ import React from 'react'
 import Grid from '@material-ui/core/Grid'
 import { withStyles } from '@material-ui/core/styles'
 
-import ParagraphStyle from './ParagraphStyle'
+import Paragraph from './Paragraph'
 
 const styles = theme => ({
   grid: {
@@ -30,6 +30,6 @@ export default withStyles(styles)(props => (
       position: 'relative',
     }}
   >
-    <ParagraphStyle>{props.children}</ParagraphStyle>
+    <Paragraph>{props.children}</Paragraph>
   </Grid>
 ))

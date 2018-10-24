@@ -2,8 +2,8 @@ import React, { Fragment } from 'react'
 
 import NavBar from '../navBar/NavBar'
 import Session from './style/Session'
-import TitleStyle from './style/TitleStyle'
-import ParagraphStyle from './style/ParagraphStyle'
+import Title from './style/Title'
+import Paragraph from './style/Paragraph'
 import HowToUse from './HowToUse'
 import Crew from './Crew'
 
@@ -12,9 +12,9 @@ export default props => routeProps => (
     <NavBar {...props} isInstitutionalPage />
 
     <Session>
-      <TitleStyle>Objetivo</TitleStyle>
+      <Title>Objetivo</Title>
 
-      <ParagraphStyle>
+      <Paragraph>
         O objetivo da MateriaMundi oferecer acesso à informação de qualidade e
         parâmetros para que seus usuários possam escolher alternativas
         comercialmente disponíveis e socioambiental responsáveis para os
@@ -25,7 +25,7 @@ export default props => routeProps => (
         criação de conhecimento compartilhado sobre ações práticas para uma
         forma de projetar, produzir e consumir mais responsável com a sociedade
         e o meio ambiente.
-      </ParagraphStyle>
+      </Paragraph>
     </Session>
 
     <HowToUse />
@@ -33,11 +33,11 @@ export default props => routeProps => (
     <Crew />
 
     <Session>
-      <TitleStyle>Board</TitleStyle>
+      <Title>Board</Title>
     </Session>
 
     <Session>
-      <TitleStyle>Direcionadores</TitleStyle>
+      <Title>Direcionadores</Title>
     </Session>
   </Fragment>
 )

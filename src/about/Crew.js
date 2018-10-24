@@ -2,14 +2,14 @@ import React from 'react'
 import map from 'lodash/map'
 
 import Session from './style/Session'
-import CrewMember from './style/CrewMemberStyle'
-import TitleStyle from './style/TitleStyle'
+import CrewMember from './style/CrewMember'
+import Title from './style/Title'
 import List from './CrewMembersList'
 
 export default props => {
   return (
     <Session {...props}>
-      <TitleStyle>Equipe</TitleStyle>
+      <Title>Equipe</Title>
 
       {map(List, ({ name, image, job, description }) => {
         return (
