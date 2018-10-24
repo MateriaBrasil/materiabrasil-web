@@ -16,10 +16,18 @@ export default props => (
         height: 200,
       }}
     />
-    <Typography style={{ textAlign: 'center', color: 'white', fontWeight: 500 }}>
+    <Typography
+      style={{ textAlign: 'center', color: 'white', fontWeight: 500 }}
+    >
       {props.name}
     </Typography>
-    <Typography style={{ textAlign: 'center', color: 'white', margin: '10px 0' }}>{props.job}</Typography>
-    <Typography style={{ textAlign: 'center', color: 'white' }}>{props.description}</Typography>
+    <Typography
+      style={{ textAlign: 'center', color: 'white', margin: '10px 0' }}
+    >
+      {props.job}
+    </Typography>
+    <Typography style={{ textAlign: 'center', color: 'white' }}>
+      {props.description}
+    </Typography>
   </Grid>
 )

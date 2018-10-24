@@ -27,29 +27,25 @@ Array [
               }
         }
     >
-        <div
-            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-6-63 Component-grid-99"
+        <h3
+            className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "#fff",
+                    "display": "inline-block",
+                    "fontWeight": 500,
+                    "verticalAlign": "middle",
+                  }
+            }
         >
-            <h3
-                className="MuiTypography-root-100 MuiTypography-h3-114 MuiTypography-colorInherit-129 text"
-                style={
-                    Object {
-                        "color": "#fff",
-                        "display": "inline-block",
-                        "fontWeight": 300,
-                        "verticalAlign": "middle",
-                      }
-                }
-            >
-                Objetivo
-            </h3>
-        </div>
+            Objetivo
+        </h3>
     </div>
     <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-6-63 Component-grid-99"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-6-63 Component-grid-134"
     >
-        <h3
-            className="MuiTypography-root-100 MuiTypography-h3-114 MuiTypography-colorInherit-129 text"
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
             style={
                 Object {
                     "color": "#fff",
@@ -62,7 +58,7 @@ Array [
             O objetivo da MateriaMundi oferecer acesso à informação de qualidade e parâmetros para que seus usuários possam escolher alternativas comercialmente disponíveis e socioambiental responsáveis para os desafios do dia a dia, variando desde o que vestimos até como construímos nossas casas.
             <br />
             Através da criação de uma comunidade ativa a plataforma permite a criação de conhecimento compartilhado sobre ações práticas para uma forma de projetar, produzir e consumir mais responsável com a sociedade e o meio ambiente.
-        </h3>
+        </h5>
     </div>
 </div>,
   <div
@@ -85,23 +81,19 @@ Array [
               }
         }
     >
-        <div
-            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-6-63 Component-grid-99"
+        <h3
+            className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "#fff",
+                    "display": "inline-block",
+                    "fontWeight": 500,
+                    "verticalAlign": "middle",
+                  }
+            }
         >
-            <h3
-                className="MuiTypography-root-100 MuiTypography-h3-114 MuiTypography-colorInherit-129 text"
-                style={
-                    Object {
-                        "color": "#fff",
-                        "display": "inline-block",
-                        "fontWeight": 300,
-                        "verticalAlign": "middle",
-                      }
-                }
-            >
-                Como usar
-            </h3>
-        </div>
+            Como usar
+        </h3>
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-6-63 Component-grid-135"
@@ -170,23 +162,19 @@ Array [
               }
         }
     >
-        <div
-            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-6-63 Component-grid-99"
+        <h3
+            className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "#fff",
+                    "display": "inline-block",
+                    "fontWeight": 500,
+                    "verticalAlign": "middle",
+                  }
+            }
         >
-            <h3
-                className="MuiTypography-root-100 MuiTypography-h3-114 MuiTypography-colorInherit-129 text"
-                style={
-                    Object {
-                        "color": "#fff",
-                        "display": "inline-block",
-                        "fontWeight": 300,
-                        "verticalAlign": "middle",
-                      }
-                }
-            >
-                Equipe
-            </h3>
-        </div>
+            Equipe
+        </h3>
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -202,7 +190,7 @@ Array [
                 Object {
                     "display": "block",
                     "height": 200,
-                    "margin": "0 auto",
+                    "margin": "10px auto",
                     "maxWidth": "100%",
                     "width": 200,
                   }
@@ -217,6 +205,7 @@ Array [
             />
         </div>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
@@ -228,9 +217,11 @@ Array [
             Manuela Yamada
         </p>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
+                    "margin": "10px 0",
                     "textAlign": "center",
                   }
             }
@@ -238,6 +229,7 @@ Array [
             Job do integrante
         </p>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
@@ -262,7 +254,7 @@ Array [
                 Object {
                     "display": "block",
                     "height": 200,
-                    "margin": "0 auto",
+                    "margin": "10px auto",
                     "maxWidth": "100%",
                     "width": 200,
                   }
@@ -277,6 +269,7 @@ Array [
             />
         </div>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
@@ -288,9 +281,11 @@ Array [
             Bernardo Ferracioli
         </p>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
+                    "margin": "10px 0",
                     "textAlign": "center",
                   }
             }
@@ -298,6 +293,7 @@ Array [
             Job do integrante
         </p>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
@@ -322,7 +318,7 @@ Array [
                 Object {
                     "display": "block",
                     "height": 200,
-                    "margin": "0 auto",
+                    "margin": "10px auto",
                     "maxWidth": "100%",
                     "width": 200,
                   }
@@ -337,6 +333,7 @@ Array [
             />
         </div>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
@@ -348,9 +345,11 @@ Array [
             Bruno Temer
         </p>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
+                    "margin": "10px 0",
                     "textAlign": "center",
                   }
             }
@@ -358,6 +357,7 @@ Array [
             Job do integrante
         </p>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
@@ -382,7 +382,7 @@ Array [
                 Object {
                     "display": "block",
                     "height": 200,
-                    "margin": "0 auto",
+                    "margin": "10px auto",
                     "maxWidth": "100%",
                     "width": 200,
                   }
@@ -397,6 +397,7 @@ Array [
             />
         </div>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
@@ -408,9 +409,11 @@ Array [
             Pedro Themoteo
         </p>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
+                    "margin": "10px 0",
                     "textAlign": "center",
                   }
             }
@@ -418,6 +421,7 @@ Array [
             Job do integrante
         </p>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
@@ -442,7 +446,7 @@ Array [
                 Object {
                     "display": "block",
                     "height": 200,
-                    "margin": "0 auto",
+                    "margin": "10px auto",
                     "maxWidth": "100%",
                     "width": 200,
                   }
@@ -457,6 +461,7 @@ Array [
             />
         </div>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
@@ -468,9 +473,11 @@ Array [
             Daniele Valente
         </p>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
+                    "margin": "10px 0",
                     "textAlign": "center",
                   }
             }
@@ -478,6 +485,7 @@ Array [
             Job do integrante
         </p>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
@@ -502,7 +510,7 @@ Array [
                 Object {
                     "display": "block",
                     "height": 200,
-                    "margin": "0 auto",
+                    "margin": "10px auto",
                     "maxWidth": "100%",
                     "width": 200,
                   }
@@ -517,6 +525,7 @@ Array [
             />
         </div>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
@@ -528,9 +537,11 @@ Array [
             Elisa Ferreira
         </p>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
+                    "margin": "10px 0",
                     "textAlign": "center",
                   }
             }
@@ -538,6 +549,7 @@ Array [
             Job do integrante
         </p>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
@@ -562,7 +574,7 @@ Array [
                 Object {
                     "display": "block",
                     "height": 200,
-                    "margin": "0 auto",
+                    "margin": "10px auto",
                     "maxWidth": "100%",
                     "width": 200,
                   }
@@ -577,6 +589,7 @@ Array [
             />
         </div>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
@@ -588,9 +601,11 @@ Array [
             Victor Lanari
         </p>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
+                    "margin": "10px 0",
                     "textAlign": "center",
                   }
             }
@@ -598,6 +613,7 @@ Array [
             Job do integrante
         </p>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
@@ -622,7 +638,7 @@ Array [
                 Object {
                     "display": "block",
                     "height": 200,
-                    "margin": "0 auto",
+                    "margin": "10px auto",
                     "maxWidth": "100%",
                     "width": 200,
                   }
@@ -637,6 +653,7 @@ Array [
             />
         </div>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
@@ -648,9 +665,11 @@ Array [
             Dahyna Ribeiro
         </p>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
+                    "margin": "10px 0",
                     "textAlign": "center",
                   }
             }
@@ -658,6 +677,7 @@ Array [
             Job do integrante
         </p>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
@@ -682,7 +702,7 @@ Array [
                 Object {
                     "display": "block",
                     "height": 200,
-                    "margin": "0 auto",
+                    "margin": "10px auto",
                     "maxWidth": "100%",
                     "width": 200,
                   }
@@ -697,6 +717,7 @@ Array [
             />
         </div>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
@@ -708,9 +729,11 @@ Array [
             Bernardo Mattos
         </p>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
+                    "margin": "10px 0",
                     "textAlign": "center",
                   }
             }
@@ -718,6 +741,7 @@ Array [
             Job do integrante
         </p>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
@@ -742,7 +766,7 @@ Array [
                 Object {
                     "display": "block",
                     "height": 200,
-                    "margin": "0 auto",
+                    "margin": "10px auto",
                     "maxWidth": "100%",
                     "width": 200,
                   }
@@ -757,6 +781,7 @@ Array [
             />
         </div>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
@@ -768,9 +793,11 @@ Array [
             Seasoned
         </p>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
+                    "margin": "10px 0",
                     "textAlign": "center",
                   }
             }
@@ -778,6 +805,7 @@ Array [
             Job do integrante
         </p>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "color": "white",
@@ -809,23 +837,19 @@ Array [
               }
         }
     >
-        <div
-            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-6-63 Component-grid-99"
+        <h3
+            className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "#fff",
+                    "display": "inline-block",
+                    "fontWeight": 500,
+                    "verticalAlign": "middle",
+                  }
+            }
         >
-            <h3
-                className="MuiTypography-root-100 MuiTypography-h3-114 MuiTypography-colorInherit-129 text"
-                style={
-                    Object {
-                        "color": "#fff",
-                        "display": "inline-block",
-                        "fontWeight": 300,
-                        "verticalAlign": "middle",
-                      }
-                }
-            >
-                Board
-            </h3>
-        </div>
+            Board
+        </h3>
     </div>
 </div>,
   <div
@@ -848,23 +872,19 @@ Array [
               }
         }
     >
-        <div
-            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-6-63 Component-grid-99"
+        <h3
+            className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "#fff",
+                    "display": "inline-block",
+                    "fontWeight": 500,
+                    "verticalAlign": "middle",
+                  }
+            }
         >
-            <h3
-                className="MuiTypography-root-100 MuiTypography-h3-114 MuiTypography-colorInherit-129 text"
-                style={
-                    Object {
-                        "color": "#fff",
-                        "display": "inline-block",
-                        "fontWeight": 300,
-                        "verticalAlign": "middle",
-                      }
-                }
-            >
-                Direcionadores
-            </h3>
-        </div>
+            Direcionadores
+        </h3>
     </div>
 </div>,
 ]
