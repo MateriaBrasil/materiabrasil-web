@@ -24,10 +24,7 @@ export default props => {
           <Typography variant="body1">{text}</Typography>
         </CardContent>
       </Card>
-      <Typography
-        variant="h5"
-        style={{ marginTop: 24, marginBottom: 24 }}
-      >
+      <Typography variant="h5" style={{ marginTop: 24, marginBottom: 24 }}>
         Respostas
       </Typography>
       <Comments id={id} type="topics" term="resposta" {...props} />

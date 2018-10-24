@@ -12,7 +12,11 @@ export default props => routeProps => {
     <div style={{ textAlign: 'right' }}>
       {currentUser && (
         <Link to="/forum/new" style={{ textDecoration: 'none' }}>
-          <Button variant="contained" color="primary" style={{ marginBottom: 24 }}>
+          <Button
+            variant="contained"
+            color="primary"
+            style={{ marginBottom: 24 }}
+          >
             Iniciar conversa
           </Button>
         </Link>

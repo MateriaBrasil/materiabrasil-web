@@ -26,10 +26,7 @@ class Info extends Component {
       <Grid container spacing={32}>
         <Grid item xs={12} lg={4}>
           <Avatar name={name} editPath={editPath} imageUrl={imageUrl} />
-          <Typography
-            variant="h4"
-            style={{ marginTop: 16, marginBottom: 16 }}
-          >
+          <Typography variant="h4" style={{ marginTop: 16, marginBottom: 16 }}>
             {name}
           </Typography>
           <EditProfile currentUser={currentUser} supplier={current} />

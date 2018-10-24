@@ -25,10 +25,7 @@ export default props => infoProps => {
       <Grid item xs={12} lg={4}>
         <Avatar name={name} editPath={editPath} imageUrl={imageUrl} />
         <div style={{ marginTop: 30 }}>
-          <Typography
-            style={{ marginTop: 16, marginBottom: 16 }}
-            variant="h4"
-          >
+          <Typography style={{ marginTop: 16, marginBottom: 16 }} variant="h4">
             {name}
           </Typography>
           {editPath && (
