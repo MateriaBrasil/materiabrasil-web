@@ -2,10 +2,10 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="MuiGrid-container-1 MuiGrid-spacing-xs-32-25"
+  className="MuiGrid-container-1 MuiGrid-spacing-xs-32-26"
 >
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-8-48 MuiGrid-grid-md-6-59"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-6-63"
     style={
       Object {
         "margin": "0 auto",
@@ -13,10 +13,10 @@ exports[`renders correctly 1`] = `
     }
   >
     <div
-      className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+      className="MuiPaper-root-99 MuiPaper-elevation1-102 MuiPaper-rounded-100 MuiCard-root-98"
     >
       <div
-        className="MuiCardContent-root-120"
+        className="MuiCardContent-root-126"
       >
         <form
           onSubmit={undefined}
@@ -100,7 +100,7 @@ exports[`renders correctly 1`] = `
             }
           >
             <button
-              className="MuiButtonBase-root-137 MuiButton-root-121 MuiButton-raised-127 MuiButton-raisedPrimary-128"
+              className="MuiButtonBase-root-153 MuiButton-root-127 MuiButton-contained-138 MuiButton-containedPrimary-139 MuiButton-raised-141 MuiButton-raisedPrimary-142"
               disabled={false}
               onBlur={[Function]}
               onFocus={[Function]}
@@ -116,12 +116,12 @@ exports[`renders correctly 1`] = `
               type="submit"
             >
               <span
-                className="MuiButton-label-122"
+                className="MuiButton-label-128"
               >
                 Atualizar perfil
               </span>
               <span
-                className="MuiTouchRipple-root-140"
+                className="MuiTouchRipple-root-191"
               />
             </button>
           </div>
@@ -133,11 +133,11 @@ exports[`renders correctly 1`] = `
               }
             }
           >
-            <h1
-              className="MuiTypography-root-147 MuiTypography-headline-152 MuiTypography-colorError-170"
+            <h5
+              className="MuiTypography-root-156 MuiTypography-h5-172 MuiTypography-colorError-190"
             >
               foo-error
-            </h1>
+            </h5>
           </div>
         </form>
       </div>
@@ -148,10 +148,10 @@ exports[`renders correctly 1`] = `
 
 exports[`when updating renders correctly 1`] = `
 <div
-  className="MuiGrid-container-1 MuiGrid-spacing-xs-32-25"
+  className="MuiGrid-container-1 MuiGrid-spacing-xs-32-26"
 >
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-8-48 MuiGrid-grid-md-6-59"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-6-63"
     style={
       Object {
         "margin": "0 auto",
@@ -159,10 +159,10 @@ exports[`when updating renders correctly 1`] = `
     }
   >
     <div
-      className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+      className="MuiPaper-root-99 MuiPaper-elevation1-102 MuiPaper-rounded-100 MuiCard-root-98"
     >
       <div
-        className="MuiCardContent-root-120"
+        className="MuiCardContent-root-126"
       >
         <form
           onSubmit={undefined}
@@ -246,7 +246,7 @@ exports[`when updating renders correctly 1`] = `
             }
           >
             <div
-              className="MuiCircularProgress-root-171 MuiCircularProgress-colorPrimary-174 MuiCircularProgress-indeterminate-173"
+              className="MuiCircularProgress-root-198 MuiCircularProgress-colorPrimary-201 MuiCircularProgress-indeterminate-200"
               role="progressbar"
               style={
                 Object {
@@ -256,15 +256,15 @@ exports[`when updating renders correctly 1`] = `
               }
             >
               <svg
-                className="MuiCircularProgress-svg-176"
-                viewBox="0 0 50 50"
+                className="MuiCircularProgress-svg-203"
+                viewBox="22 22 44 44"
               >
                 <circle
-                  className="MuiCircularProgress-circle-177 MuiCircularProgress-circleIndeterminate-179"
-                  cx={25}
-                  cy={25}
+                  className="MuiCircularProgress-circle-204 MuiCircularProgress-circleIndeterminate-206"
+                  cx={44}
+                  cy={44}
                   fill="none"
-                  r={20}
+                  r={20.2}
                   strokeWidth={3.6}
                   style={Object {}}
                 />
@@ -279,11 +279,11 @@ exports[`when updating renders correctly 1`] = `
               }
             }
           >
-            <h1
-              className="MuiTypography-root-147 MuiTypography-headline-152 MuiTypography-colorError-170"
+            <h5
+              className="MuiTypography-root-156 MuiTypography-h5-172 MuiTypography-colorError-190"
             >
               foo-error
-            </h1>
+            </h5>
           </div>
         </form>
       </div>

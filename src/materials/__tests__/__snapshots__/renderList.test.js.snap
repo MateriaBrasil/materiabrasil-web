@@ -4,10 +4,10 @@ exports[`renders correctly 1`] = `
 <div>
   Filters -
   <div
-    className="MuiGrid-container-1 MuiGrid-spacing-xs-40-26"
+    className="MuiGrid-container-1 MuiGrid-spacing-xs-40-27"
   >
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-md-3-56"
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-md-3-60"
     >
       <div
         history={

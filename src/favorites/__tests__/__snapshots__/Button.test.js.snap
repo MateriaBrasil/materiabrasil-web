@@ -31,17 +31,20 @@ exports[`renders correctly 1`] = `
         className="MuiSvgIcon-root-10"
         color={undefined}
         focusable="false"
+        role="presentation"
         viewBox="0 0 24 24"
       >
-        <g>
-          <path
-            d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"
-          />
-        </g>
+        <path
+          d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
       </svg>
     </span>
     <span
-      className="MuiTouchRipple-root-16"
+      className="MuiTouchRipple-root-19"
     />
   </button>
 </div>
@@ -60,7 +63,7 @@ exports[`when creating renders correctly 1`] = `
   }
 >
   <div
-    className="MuiCircularProgress-root-23 MuiCircularProgress-indeterminate-25"
+    className="MuiCircularProgress-root-26 MuiCircularProgress-indeterminate-28"
     role="progressbar"
     style={
       Object {
@@ -70,15 +73,15 @@ exports[`when creating renders correctly 1`] = `
     }
   >
     <svg
-      className="MuiCircularProgress-svg-28"
-      viewBox="0 0 50 50"
+      className="MuiCircularProgress-svg-31"
+      viewBox="22 22 44 44"
     >
       <circle
-        className="MuiCircularProgress-circle-29 MuiCircularProgress-circleIndeterminate-31"
-        cx={25}
-        cy={25}
+        className="MuiCircularProgress-circle-32 MuiCircularProgress-circleIndeterminate-34"
+        cx={44}
+        cy={44}
         fill="none"
-        r={20}
+        r={20.2}
         strokeWidth={3.6}
         style={Object {}}
       />

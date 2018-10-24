@@ -41,7 +41,7 @@ export default props => {
         />
       ) : (
         <Typography
-          variant="headline"
+          variant="h5"
           style={{
             width: 300,
             position: 'relative',

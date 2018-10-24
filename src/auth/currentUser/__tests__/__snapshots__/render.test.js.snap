@@ -21,14 +21,14 @@ exports[`with fetchingInfo renders loading 1`] = `
   >
     <svg
       className="MuiCircularProgress-svg-6"
-      viewBox="0 0 50 50"
+      viewBox="22 22 44 44"
     >
       <circle
         className="MuiCircularProgress-circle-7 MuiCircularProgress-circleIndeterminate-9"
-        cx={25}
-        cy={25}
+        cx={44}
+        cy={44}
         fill="none"
-        r={20}
+        r={20.2}
         strokeWidth={3.6}
         style={Object {}}
       />

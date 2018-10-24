@@ -16,7 +16,7 @@ export default props => {
           to={`/materials/${id}`}
           style={{ textDecoration: 'none', color: 'white', display: 'block' }}
         >
-          <Typography variant="subheading" color="inherit">
+          <Typography variant="subtitle1" color="inherit">
             {name}
           </Typography>
         </Link>

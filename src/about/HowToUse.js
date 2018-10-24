@@ -6,7 +6,7 @@ import VideoStyle from './style/Video'
 import Image from './style/Image'
 import Video from '../Video'
 
-export default props => (
+export default () => (
   <Session>
     <Title>Como usar</Title>
     <VideoStyle>

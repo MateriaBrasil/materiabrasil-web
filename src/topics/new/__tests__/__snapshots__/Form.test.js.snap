@@ -24,7 +24,7 @@ exports[`renders correctly 1`] = `
       </h2>
     </div>
     <div
-      className="MuiDialogContent-root-26"
+      className="MuiDialogContent-root-37"
     >
       <div
         autoFocus={true}
@@ -50,10 +50,10 @@ exports[`renders correctly 1`] = `
       <div />
     </div>
     <div
-      className="MuiDialogActions-root-27"
+      className="MuiDialogActions-root-38"
     >
       <button
-        className="MuiButtonBase-root-45 MuiButton-root-29 MuiButton-flatPrimary-31 MuiDialogActions-action-28"
+        className="MuiButtonBase-root-66 MuiButton-root-40 MuiButton-text-42 MuiButton-textPrimary-43 MuiButton-flat-45 MuiButton-flatPrimary-46 MuiDialogActions-action-39"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -70,16 +70,16 @@ exports[`renders correctly 1`] = `
         type="button"
       >
         <span
-          className="MuiButton-label-30"
+          className="MuiButton-label-41"
         >
           Fechar
         </span>
         <span
-          className="MuiTouchRipple-root-48"
+          className="MuiTouchRipple-root-69"
         />
       </button>
       <button
-        className="MuiButtonBase-root-45 MuiButton-root-29 MuiButton-flatPrimary-31 MuiDialogActions-action-28"
+        className="MuiButtonBase-root-66 MuiButton-root-40 MuiButton-text-42 MuiButton-textPrimary-43 MuiButton-flat-45 MuiButton-flatPrimary-46 MuiDialogActions-action-39"
         disabled={false}
         onBlur={[Function]}
         onFocus={[Function]}
@@ -95,12 +95,12 @@ exports[`renders correctly 1`] = `
         type="submit"
       >
         <span
-          className="MuiButton-label-30"
+          className="MuiButton-label-41"
         >
           Iniciar conversa
         </span>
         <span
-          className="MuiTouchRipple-root-48"
+          className="MuiTouchRipple-root-69"
         />
       </button>
     </div>
@@ -132,7 +132,7 @@ exports[`with error renders correctly 1`] = `
       </h2>
     </div>
     <div
-      className="MuiDialogContent-root-26"
+      className="MuiDialogContent-root-37"
     >
       <div
         autoFocus={true}
@@ -160,10 +160,10 @@ exports[`with error renders correctly 1`] = `
       </div>
     </div>
     <div
-      className="MuiDialogActions-root-27"
+      className="MuiDialogActions-root-38"
     >
       <button
-        className="MuiButtonBase-root-45 MuiButton-root-29 MuiButton-flatPrimary-31 MuiDialogActions-action-28"
+        className="MuiButtonBase-root-66 MuiButton-root-40 MuiButton-text-42 MuiButton-textPrimary-43 MuiButton-flat-45 MuiButton-flatPrimary-46 MuiDialogActions-action-39"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -180,16 +180,16 @@ exports[`with error renders correctly 1`] = `
         type="button"
       >
         <span
-          className="MuiButton-label-30"
+          className="MuiButton-label-41"
         >
           Fechar
         </span>
         <span
-          className="MuiTouchRipple-root-48"
+          className="MuiTouchRipple-root-69"
         />
       </button>
       <button
-        className="MuiButtonBase-root-45 MuiButton-root-29 MuiButton-flatPrimary-31 MuiDialogActions-action-28"
+        className="MuiButtonBase-root-66 MuiButton-root-40 MuiButton-text-42 MuiButton-textPrimary-43 MuiButton-flat-45 MuiButton-flatPrimary-46 MuiDialogActions-action-39"
         disabled={false}
         onBlur={[Function]}
         onFocus={[Function]}
@@ -205,12 +205,12 @@ exports[`with error renders correctly 1`] = `
         type="submit"
       >
         <span
-          className="MuiButton-label-30"
+          className="MuiButton-label-41"
         >
           Iniciar conversa
         </span>
         <span
-          className="MuiTouchRipple-root-48"
+          className="MuiTouchRipple-root-69"
         />
       </button>
     </div>

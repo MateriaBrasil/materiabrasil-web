@@ -7,7 +7,7 @@ export default props => (
     to={`/${props.type}/${props.id}/messages/new`}
     style={{ textDecoration: 'none' }}
   >
-    <Button variant="raised" color="primary" style={{ marginTop: 16 }}>
+    <Button variant="contained" color="primary" style={{ marginTop: 16 }}>
       Enviar mensagem
     </Button>
   </Link>

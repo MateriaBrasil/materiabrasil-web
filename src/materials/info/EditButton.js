@@ -10,7 +10,7 @@ export default props => {
       to={`/materials/${id}/${path}`}
       style={{ textDecoration: 'none', marginRight: 24 }}
     >
-      <Button variant="raised" color="primary" style={{ marginBottom: 24 }}>
+      <Button variant="contained" color="primary" style={{ marginBottom: 24 }}>
         {label}
       </Button>
     </Link>

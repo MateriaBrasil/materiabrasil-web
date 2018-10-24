@@ -25,13 +25,13 @@ export default props => (
               alignItems: 'flex-start',
             }}
           >
-            <Typography variant="headline">{name}</Typography>
+            <Typography variant="h5">{name}</Typography>
             {map(questions, question => {
               const { options, description } = question
 
               return (
                 <FormGroup key={description}>
-                  <Typography variant="subheading">{description}</Typography>
+                  <Typography variant="subtitle1">{description}</Typography>
                   <FormControl component="fieldset">
                     <RadioGroup
                       key={description}

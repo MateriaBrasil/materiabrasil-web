@@ -25,15 +25,12 @@ export default props => infoProps => {
       <Grid item xs={12} lg={4}>
         <Avatar name={name} editPath={editPath} imageUrl={imageUrl} />
         <div style={{ marginTop: 30 }}>
-          <Typography
-            style={{ marginTop: 16, marginBottom: 16 }}
-            variant="display1"
-          >
+          <Typography style={{ marginTop: 16, marginBottom: 16 }} variant="h4">
             {name}
           </Typography>
           {editPath && (
             <Link style={{ textDecoration: 'none' }} to="/profile/edit">
-              <Button variant="raised" color="primary">
+              <Button variant="contained" color="primary">
                 Editar perfil
               </Button>
             </Link>

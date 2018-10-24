@@ -13,29 +13,10 @@ exports[`renders correctly 1`] = `
   }
 >
   <div
-    className="MuiCircularProgress-root-1 MuiCircularProgress-indeterminate-3"
-    role="progressbar"
-    style={
-      Object {
-        "height": 20,
-        "width": 20,
-      }
-    }
+    color="inherit"
+    size={20}
   >
-    <svg
-      className="MuiCircularProgress-svg-6"
-      viewBox="0 0 50 50"
-    >
-      <circle
-        className="MuiCircularProgress-circle-7 MuiCircularProgress-circleIndeterminate-9"
-        cx={25}
-        cy={25}
-        fill="none"
-        r={20}
-        strokeWidth={3.6}
-        style={Object {}}
-      />
-    </svg>
+    CircularProgress
   </div>
 </div>
 `;

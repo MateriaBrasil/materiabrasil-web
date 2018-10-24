@@ -18,15 +18,15 @@ Array [
     }
 >
     <div
-        className="MuiGrid-item-3 MuiGrid-grid-xs-12-40 MuiGrid-grid-sm-8-49 MuiGrid-grid-md-6-60 Component-grid-1"
+        className="MuiGrid-item-3 MuiGrid-grid-xs-12-42 MuiGrid-grid-sm-8-52 MuiGrid-grid-md-6-64 Component-grid-1"
         style={
             Object {
                 "position": "relative",
               }
         }
     >
-        <h1
-            className="MuiTypography-root-93 MuiTypography-display2-96 MuiTypography-colorInherit-112 text"
+        <h3
+            className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128 text"
             style={
                 Object {
                     "color": "#fff",
@@ -47,7 +47,7 @@ Array [
                 Materia
             </span>
             Mundi, nós ajudamos indústrias e consumidores a implementar ações para uma economia circular aplicada.
-        </h1>
+        </h3>
     </div>
 </div>,
   <div
@@ -61,7 +61,7 @@ Array [
     }
 >
     <div
-        className="MuiGrid-item-3 MuiGrid-grid-xs-12-40 MuiGrid-grid-sm-8-49 MuiGrid-grid-md-6-60 Component-grid-1"
+        className="MuiGrid-item-3 MuiGrid-grid-xs-12-42 MuiGrid-grid-sm-8-52 MuiGrid-grid-md-6-64 Component-grid-1"
         style={
             Object {
                 "paddingTop": "35%",
@@ -104,7 +104,7 @@ Array [
     }
 >
     <div
-        className="MuiGrid-item-3 MuiGrid-grid-xs-12-40 MuiGrid-grid-sm-8-49 MuiGrid-grid-md-6-60 Component-grid-1"
+        className="MuiGrid-item-3 MuiGrid-grid-xs-12-42 MuiGrid-grid-sm-8-52 MuiGrid-grid-md-6-64 Component-grid-1"
         style={
             Object {
                 "position": "relative",
@@ -121,7 +121,7 @@ Array [
         >
             Link - 
             <button
-                className="MuiButtonBase-root-133 MuiButton-root-117 MuiButton-raised-123 MuiButton-sizeLarge-131"
+                className="MuiButtonBase-root-160 MuiButton-root-134 MuiButton-contained-145 MuiButton-raised-148 MuiButton-sizeLarge-158"
                 disabled={false}
                 onBlur={[Function]}
                 onFocus={[Function]}
@@ -147,12 +147,12 @@ Array [
                 type="button"
             >
                 <span
-                    className="MuiButton-label-118"
+                    className="MuiButton-label-135"
                 >
                     Explore
                 </span>
                 <span
-                    className="MuiTouchRipple-root-136"
+                    className="MuiTouchRipple-root-163"
                 />
             </button>
         </div>

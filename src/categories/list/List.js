@@ -18,7 +18,7 @@ export default props => (
         <Fragment>
           {!isEmpty(selectedCategories) && (
             <div style={{ marginBottom: 30 }}>
-              <Typography variant="subheading" style={{ marginBottom: 20 }}>
+              <Typography variant="subtitle1" style={{ marginBottom: 20 }}>
                 Filtros selecionados
               </Typography>
               <SelectedCategories list={list} selected={selectedCategories} />

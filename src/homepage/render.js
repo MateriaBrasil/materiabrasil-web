@@ -11,7 +11,7 @@ export default props => routeProps => (
     <NavBar {...props} isInstitutionalPage="true" />
     <Grid>
       <Typography
-        variant="display2"
+        variant="h3"
         color="inherit"
         className="text"
         style={{
@@ -34,7 +34,7 @@ export default props => routeProps => (
     <Grid>
       <Link to={`/materials`} style={{ textDecoration: 'none' }}>
         <Button
-          variant="raised"
+          variant="contained"
           color="default"
           size="large"
           style={{

@@ -34,7 +34,7 @@ export default reduxForm({ form: 'resetPassword' })(props => {
         <Button
           type="submit"
           style={{ width: '100%', marginTop: '20px' }}
-          variant="raised"
+          variant="contained"
           color="primary"
           disabled={creating}
         >

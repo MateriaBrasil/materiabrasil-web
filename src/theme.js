@@ -2,6 +2,9 @@ import { createMuiTheme } from '@material-ui/core/styles'
 import fill from 'lodash/fill'
 
 export default createMuiTheme({
+  typography: {
+    useNextVariants: true,
+  },
   palette: {
     background: {
       default: '#eee',

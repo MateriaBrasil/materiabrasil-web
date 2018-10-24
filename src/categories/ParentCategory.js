@@ -38,7 +38,7 @@ export default props => {
     </ExpansionPanel>
   ) : (
     <div style={{ marginBottom: 20 }}>
-      <Typography variant="headline" style={{ marginBottom: 20 }}>
+      <Typography variant="h5" style={{ marginBottom: 20 }}>
         {category.name}
       </Typography>
       <Paper>

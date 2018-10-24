@@ -13,8 +13,8 @@ exports[`renders correctly 1`] = `
   >
     foo-caption
   </span>
-  <h3
-    className="MuiTypography-root-1 MuiTypography-subheading-8"
+  <h6
+    className="MuiTypography-root-1 MuiTypography-subtitle1-19"
   />
 </div>
 `;
