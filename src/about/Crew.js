@@ -1,16 +1,14 @@
 import React from 'react'
-import Grid from '@material-ui/core/Grid'
 import map from 'lodash/map'
 
-import ExternalGrid from './ExternalGrid'
-import TextTitle from './TextTitle'
+import SessionGrid from './SessionGrid'
 import CrewMember from './CrewMember'
 import List from './CrewMembersList'
 import TitleGrid from './TitleGrid'
 
 export default props => {
   return (
-    <ExternalGrid {...props}>
+    <SessionGrid {...props}>
       <TitleGrid>Equipe</TitleGrid>
 
       {map(List, ({ name, image, job, description }) => {
@@ -24,6 +22,6 @@ export default props => {
           />
         )
       })}
-    </ExternalGrid>
+    </SessionGrid>
   )
 }

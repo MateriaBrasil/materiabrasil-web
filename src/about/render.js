@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import Typography from '@material-ui/core/Typography'
 
-import ExternalGrid from './ExternalGrid'
+import SessionGrid from './SessionGrid'
 import NavBar from '../navBar/NavBar'
 import TitleGrid from './TitleGrid'
 import HowToUse from './HowToUse'
@@ -10,7 +10,7 @@ import Crew from './Crew'
 export default props => routeProps => (
   <Fragment>
     <NavBar {...props} isInstitutionalPage />
-    <ExternalGrid>
+    <SessionGrid>
       <TitleGrid>Objetivo</TitleGrid>
 
       <Typography
@@ -35,18 +35,18 @@ export default props => routeProps => (
         forma de projetar, produzir e consumir mais responsável com a sociedade
         e o meio ambiente.
       </Typography>
-    </ExternalGrid>
+    </SessionGrid>
 
     <HowToUse />
 
     <Crew />
 
-    <ExternalGrid>
+    <SessionGrid>
       <TitleGrid>Board</TitleGrid>
-    </ExternalGrid>
+    </SessionGrid>
 
-    <ExternalGrid>
+    <SessionGrid>
       <TitleGrid>Direcionadores</TitleGrid>
-    </ExternalGrid>
+    </SessionGrid>
   </Fragment>
 )
