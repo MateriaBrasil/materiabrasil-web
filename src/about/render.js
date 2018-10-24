@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react'
 
 import NavBar from '../navBar/NavBar'
-import Session from './style/Session'
-import Title from './style/Title'
-import Paragraph from './style/Paragraph'
+import Session from './Session'
+import Title from './Title'
+import Paragraph from './Paragraph'
 import HowToUse from './HowToUse'
 import Crew from './Crew'
 

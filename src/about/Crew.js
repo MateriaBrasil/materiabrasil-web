@@ -1,9 +1,9 @@
 import React from 'react'
 import map from 'lodash/map'
 
-import Session from './style/Session'
-import CrewMember from './style/CrewMember'
-import Title from './style/Title'
+import Session from './Session'
+import CrewMember from './CrewMember'
+import Title from './Title'
 import List from './crewMembersList'
 
 export default props => {
