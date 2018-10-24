@@ -12,19 +12,19 @@ export default props => {
 
   return (
     <div style={{ marginBottom: 22 }}>
-      <Typography variant="title" color="textSecondary" gutterBottom>
+      <Typography variant="h6" color="textSecondary" gutterBottom>
         Fornecedor
       </Typography>
       {currentUser ? (
         <Fragment>
-          <Typography variant="subheading" style={{ marginBottom: 10 }}>
+          <Typography variant="subtitle1" style={{ marginBottom: 10 }}>
             {supplierName}
           </Typography>
           <Link
             to={`/suppliers/${supplierId}`}
             style={{ textDecoration: 'none' }}
           >
-            <Button variant="raised" color="primary">
+            <Button variant="contained" color="primary">
               Ver perfil
             </Button>
           </Link>

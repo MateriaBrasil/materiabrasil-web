@@ -25,7 +25,7 @@ export default props => {
             {technicalSpecificationUrl && <TechnicalSpecification {...props} />}
             {certificationsUrl && <CertificationsIcon {...props} />}
           </div>
-          <Typography variant="display1">{name}</Typography>
+          <Typography variant="h4">{name}</Typography>
           <Typography variant="caption" style={{ marginBottom: 16 }}>
             {code}
           </Typography>
@@ -46,7 +46,7 @@ export default props => {
               />
             </Fragment>
           )}
-          <Typography variant="subheading" style={{ marginBottom: 24 }}>
+          <Typography variant="subtitle1" style={{ marginBottom: 24 }}>
             {description}
           </Typography>
           <Reviews {...props} />

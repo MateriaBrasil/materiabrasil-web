@@ -30,7 +30,7 @@ export default props => {
     <Fragment>
       <div style={{ overflow: 'auto' }}>
         <Typography
-          variant="title"
+          variant="h6"
           color="textSecondary"
           style={{ float: 'left', marginTop: 8 }}
         >

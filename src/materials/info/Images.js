@@ -11,7 +11,7 @@ export default ({ id, name, listImageUrl, highlightImageUrl }) => {
     <Grid item xs={12} style={{ marginBottom: 16 }}>
       <Card>
         <CardContent>
-          <Typography variant="display1" style={{ marginBottom: 24 }}>
+          <Typography variant="h4" style={{ marginBottom: 24 }}>
             Imagens
           </Typography>
           <Grid container spacing={24}>

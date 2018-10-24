@@ -2,10 +2,10 @@
 
 exports[`with ignoreHighlights renders correctly 1`] = `
 <div
-  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-md-9-62 materials-list-grid"
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-md-9-66 materials-list-grid"
 >
   <div
-    className="MuiGrid-container-1 MuiGrid-spacing-xs-8-22"
+    className="MuiGrid-container-1 MuiGrid-spacing-xs-8-23"
   >
     <div
       currentUser={
@@ -136,10 +136,10 @@ exports[`with ignoreHighlights renders correctly 1`] = `
 
 exports[`without currentUser renders correctly 1`] = `
 <div
-  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-md-9-62 materials-list-grid"
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-md-9-66 materials-list-grid"
 >
   <div
-    className="MuiGrid-container-1 MuiGrid-spacing-xs-8-22"
+    className="MuiGrid-container-1 MuiGrid-spacing-xs-8-23"
   >
     <div
       list={
@@ -252,10 +252,10 @@ exports[`without currentUser renders correctly 1`] = `
 
 exports[`without ignoreHighlights renders correctly 1`] = `
 <div
-  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-md-9-62 materials-list-grid"
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-md-9-66 materials-list-grid"
 >
   <div
-    className="MuiGrid-container-1 MuiGrid-spacing-xs-8-22"
+    className="MuiGrid-container-1 MuiGrid-spacing-xs-8-23"
   >
     <div
       currentUser={

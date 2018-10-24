@@ -2,10 +2,10 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
 >
-  <h1
-    className="MuiTypography-root-92 MuiTypography-headline-97 MuiTypography-colorTextSecondary-114"
+  <h5
+    className="MuiTypography-root-98 MuiTypography-h5-114 MuiTypography-colorTextSecondary-131"
     style={
       Object {
         "display": "inline-block",
@@ -14,10 +14,10 @@ exports[`renders correctly 1`] = `
     }
   >
     Materiais
-  </h1>
+  </h5>
   <div
     cellheight={360}
-    className="MuiGrid-container-1 MuiGrid-spacing-xs-8-22"
+    className="MuiGrid-container-1 MuiGrid-spacing-xs-8-23"
   >
     <div
       ignoreHighlights={true}

@@ -2,7 +2,7 @@
 
 exports[`with current user renders correctly 1`] = `
 <div
-  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
   style={
     Object {
       "marginBottom": 36,
@@ -10,10 +10,10 @@ exports[`with current user renders correctly 1`] = `
   }
 >
   <div
-    className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+    className="MuiPaper-root-99 MuiPaper-elevation1-102 MuiPaper-rounded-100 MuiCard-root-98"
   >
     <div
-      className="MuiCardContent-root-120"
+      className="MuiCardContent-root-126"
     >
       <div
         currentUser={
@@ -44,7 +44,7 @@ exports[`with current user renders correctly 1`] = `
 
 exports[`without current user renders correctly 1`] = `
 <div
-  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
   style={
     Object {
       "marginBottom": 36,
@@ -52,13 +52,13 @@ exports[`without current user renders correctly 1`] = `
   }
 >
   <div
-    className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+    className="MuiPaper-root-99 MuiPaper-elevation1-102 MuiPaper-rounded-100 MuiCard-root-98"
   >
     <div
-      className="MuiCardContent-root-120"
+      className="MuiCardContent-root-126"
     >
       <p
-        className="MuiTypography-root-121 MuiTypography-body1-130 MuiTypography-colorInherit-140"
+        className="MuiTypography-root-127 MuiTypography-body1-136 MuiTypography-colorInherit-156"
       >
         <div
           style={

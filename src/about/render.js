@@ -13,7 +13,7 @@ export default props => routeProps => (
       <TextTitle>Objetivo</TextTitle>
 
       <Typography
-        variant="display2"
+        variant="h3"
         color="inherit"
         className="text"
         style={{

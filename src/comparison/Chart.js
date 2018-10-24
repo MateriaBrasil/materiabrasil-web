@@ -35,7 +35,7 @@ export default ({ list, actions: { close, remove } }) => {
 
   return (
     <Drawer open anchor="bottom" onClose={close}>
-      <Button variant="raised" color="primary" onClick={close}>
+      <Button variant="contained" color="primary" onClick={close}>
         Comparação de materiais
         <Icon style={{ marginLeft: 8 }} />
       </Button>

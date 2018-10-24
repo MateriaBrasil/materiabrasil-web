@@ -15,7 +15,7 @@ export default ({ location: { pathname }, isInstitutionalPage }) => (
     }}
   >
     <Typography
-      variant="subheading"
+      variant="subtitle1"
       color="inherit"
       style={{ display: 'inline-block', alignSelf: 'center' }}
     >

@@ -2,10 +2,10 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="MuiGrid-container-1 MuiGrid-spacing-xs-32-25"
+  className="MuiGrid-container-1 MuiGrid-spacing-xs-32-26"
 >
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-4-70"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-4-75"
   >
     <div
       editPath="/suppliers/1234/avatar"
@@ -14,8 +14,8 @@ exports[`renders correctly 1`] = `
     >
       Avatar
     </div>
-    <h1
-      className="MuiTypography-root-92 MuiTypography-display1-96"
+    <h4
+      className="MuiTypography-root-98 MuiTypography-h4-113"
       style={
         Object {
           "marginBottom": 16,
@@ -24,7 +24,7 @@ exports[`renders correctly 1`] = `
       }
     >
       foo-name
-    </h1>
+    </h4>
     <div
       style={
         Object {
@@ -35,7 +35,7 @@ exports[`renders correctly 1`] = `
       to="/suppliers/1234/edit"
     >
       <button
-        className="MuiButtonBase-root-132 MuiButton-root-116 MuiButton-raised-122 MuiButton-raisedPrimary-123"
+        className="MuiButtonBase-root-159 MuiButton-root-133 MuiButton-contained-144 MuiButton-containedPrimary-145 MuiButton-raised-147 MuiButton-raisedPrimary-148"
         disabled={false}
         onBlur={[Function]}
         onFocus={[Function]}
@@ -51,12 +51,12 @@ exports[`renders correctly 1`] = `
         type="button"
       >
         <span
-          className="MuiButton-label-117"
+          className="MuiButton-label-134"
         >
           Editar perfil
         </span>
         <span
-          className="MuiTouchRipple-root-135"
+          className="MuiTouchRipple-root-191"
         />
       </button>
     </div>
@@ -69,7 +69,7 @@ exports[`renders correctly 1`] = `
       to="/suppliers/1234/questionnaires"
     >
       <button
-        className="MuiButtonBase-root-132 MuiButton-root-116 MuiButton-raised-122 MuiButton-raisedPrimary-123"
+        className="MuiButtonBase-root-159 MuiButton-root-133 MuiButton-contained-144 MuiButton-containedPrimary-145 MuiButton-raised-147 MuiButton-raisedPrimary-148"
         disabled={false}
         onBlur={[Function]}
         onFocus={[Function]}
@@ -85,24 +85,24 @@ exports[`renders correctly 1`] = `
         type="button"
       >
         <span
-          className="MuiButton-label-117"
+          className="MuiButton-label-134"
         >
           Responder questionários
         </span>
         <span
-          className="MuiTouchRipple-root-135"
+          className="MuiTouchRipple-root-191"
         />
       </button>
     </div>
   </div>
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-8-74"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-8-79"
   >
     <div
-      className="MuiPaper-root-143 MuiPaper-elevation2-147 MuiPaper-rounded-144 MuiCard-root-142"
+      className="MuiPaper-root-163 MuiPaper-elevation1-166 MuiPaper-rounded-164 MuiCard-root-162"
     >
       <div
-        className="MuiCardContent-root-170"
+        className="MuiCardContent-root-190"
       >
         <div
           style={
@@ -111,8 +111,8 @@ exports[`renders correctly 1`] = `
             }
           }
         >
-          <h2
-            className="MuiTypography-root-92 MuiTypography-title-98"
+          <h6
+            className="MuiTypography-root-98 MuiTypography-h6-115"
             style={
               Object {
                 "display": "inline-block",
@@ -121,10 +121,10 @@ exports[`renders correctly 1`] = `
           >
             Descrição
             :
-          </h2>
+          </h6>
            
-          <h3
-            className="MuiTypography-root-92 MuiTypography-subheading-99"
+          <h6
+            className="MuiTypography-root-98 MuiTypography-subtitle1-116"
             style={
               Object {
                 "display": "inline-block",
@@ -132,7 +132,7 @@ exports[`renders correctly 1`] = `
             }
           >
             foo-description
-          </h3>
+          </h6>
         </div>
         <div
           style={
@@ -141,8 +141,8 @@ exports[`renders correctly 1`] = `
             }
           }
         >
-          <h2
-            className="MuiTypography-root-92 MuiTypography-title-98"
+          <h6
+            className="MuiTypography-root-98 MuiTypography-h6-115"
             style={
               Object {
                 "display": "inline-block",
@@ -151,10 +151,10 @@ exports[`renders correctly 1`] = `
           >
             Telefone
             :
-          </h2>
+          </h6>
            
-          <h3
-            className="MuiTypography-root-92 MuiTypography-subheading-99"
+          <h6
+            className="MuiTypography-root-98 MuiTypography-subtitle1-116"
             style={
               Object {
                 "display": "inline-block",
@@ -162,7 +162,7 @@ exports[`renders correctly 1`] = `
             }
           >
             0000-0000
-          </h3>
+          </h6>
         </div>
         <div
           style={
@@ -173,7 +173,7 @@ exports[`renders correctly 1`] = `
           to="/suppliers/1234/messages/new"
         >
           <button
-            className="MuiButtonBase-root-132 MuiButton-root-116 MuiButton-raised-122 MuiButton-raisedPrimary-123"
+            className="MuiButtonBase-root-159 MuiButton-root-133 MuiButton-contained-144 MuiButton-containedPrimary-145 MuiButton-raised-147 MuiButton-raisedPrimary-148"
             disabled={false}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -194,12 +194,12 @@ exports[`renders correctly 1`] = `
             type="button"
           >
             <span
-              className="MuiButton-label-117"
+              className="MuiButton-label-134"
             >
               Enviar mensagem
             </span>
             <span
-              className="MuiTouchRipple-root-135"
+              className="MuiTouchRipple-root-191"
             />
           </button>
         </div>
@@ -207,10 +207,10 @@ exports[`renders correctly 1`] = `
     </div>
   </div>
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
   >
-    <h1
-      className="MuiTypography-root-92 MuiTypography-headline-97 MuiTypography-colorTextSecondary-114"
+    <h5
+      className="MuiTypography-root-98 MuiTypography-h5-114 MuiTypography-colorTextSecondary-131"
       style={
         Object {
           "display": "inline-block",
@@ -219,7 +219,7 @@ exports[`renders correctly 1`] = `
       }
     >
       Materiais
-    </h1>
+    </h5>
     <div
       style={
         Object {
@@ -231,7 +231,7 @@ exports[`renders correctly 1`] = `
       to="/suppliers/1234/materials/new"
     >
       <button
-        className="MuiButtonBase-root-132 MuiButton-root-116 MuiButton-raised-122 MuiButton-raisedPrimary-123"
+        className="MuiButtonBase-root-159 MuiButton-root-133 MuiButton-contained-144 MuiButton-containedPrimary-145 MuiButton-raised-147 MuiButton-raisedPrimary-148"
         disabled={false}
         onBlur={[Function]}
         onFocus={[Function]}
@@ -247,12 +247,12 @@ exports[`renders correctly 1`] = `
         type="button"
       >
         <span
-          className="MuiButton-label-117"
+          className="MuiButton-label-134"
         >
           Cadastrar material
         </span>
         <span
-          className="MuiTouchRipple-root-135"
+          className="MuiTouchRipple-root-191"
         />
       </button>
     </div>
@@ -302,10 +302,10 @@ exports[`renders correctly 1`] = `
 
 exports[`with materials renders correctly 1`] = `
 <div
-  className="MuiGrid-container-1 MuiGrid-spacing-xs-32-25"
+  className="MuiGrid-container-1 MuiGrid-spacing-xs-32-26"
 >
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-4-70"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-4-75"
   >
     <div
       editPath={undefined}
@@ -314,8 +314,8 @@ exports[`with materials renders correctly 1`] = `
     >
       Avatar
     </div>
-    <h1
-      className="MuiTypography-root-92 MuiTypography-display1-96"
+    <h4
+      className="MuiTypography-root-98 MuiTypography-h4-113"
       style={
         Object {
           "marginBottom": 16,
@@ -324,7 +324,7 @@ exports[`with materials renders correctly 1`] = `
       }
     >
       foo-name
-    </h1>
+    </h4>
     <div
       style={
         Object {
@@ -334,7 +334,7 @@ exports[`with materials renders correctly 1`] = `
       to="/suppliers/1234/questionnaires"
     >
       <button
-        className="MuiButtonBase-root-132 MuiButton-root-116 MuiButton-raised-122 MuiButton-raisedPrimary-123"
+        className="MuiButtonBase-root-159 MuiButton-root-133 MuiButton-contained-144 MuiButton-containedPrimary-145 MuiButton-raised-147 MuiButton-raisedPrimary-148"
         disabled={false}
         onBlur={[Function]}
         onFocus={[Function]}
@@ -350,24 +350,24 @@ exports[`with materials renders correctly 1`] = `
         type="button"
       >
         <span
-          className="MuiButton-label-117"
+          className="MuiButton-label-134"
         >
           Responder questionários
         </span>
         <span
-          className="MuiTouchRipple-root-135"
+          className="MuiTouchRipple-root-191"
         />
       </button>
     </div>
   </div>
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-8-74"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-8-79"
   >
     <div
-      className="MuiPaper-root-143 MuiPaper-elevation2-147 MuiPaper-rounded-144 MuiCard-root-142"
+      className="MuiPaper-root-163 MuiPaper-elevation1-166 MuiPaper-rounded-164 MuiCard-root-162"
     >
       <div
-        className="MuiCardContent-root-170"
+        className="MuiCardContent-root-190"
       >
         <div
           style={
@@ -376,8 +376,8 @@ exports[`with materials renders correctly 1`] = `
             }
           }
         >
-          <h2
-            className="MuiTypography-root-92 MuiTypography-title-98"
+          <h6
+            className="MuiTypography-root-98 MuiTypography-h6-115"
             style={
               Object {
                 "display": "inline-block",
@@ -386,10 +386,10 @@ exports[`with materials renders correctly 1`] = `
           >
             Descrição
             :
-          </h2>
+          </h6>
            
-          <h3
-            className="MuiTypography-root-92 MuiTypography-subheading-99"
+          <h6
+            className="MuiTypography-root-98 MuiTypography-subtitle1-116"
             style={
               Object {
                 "display": "inline-block",
@@ -397,7 +397,7 @@ exports[`with materials renders correctly 1`] = `
             }
           >
             foo-description
-          </h3>
+          </h6>
         </div>
         <div
           style={
@@ -407,7 +407,7 @@ exports[`with materials renders correctly 1`] = `
           }
         >
           <p
-            className="MuiTypography-root-92 MuiTypography-body1-101 MuiTypography-colorInherit-111"
+            className="MuiTypography-root-98 MuiTypography-body1-107 MuiTypography-colorInherit-127"
           >
             <div
               style={
@@ -436,10 +436,10 @@ exports[`with materials renders correctly 1`] = `
     </div>
   </div>
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
   >
-    <h1
-      className="MuiTypography-root-92 MuiTypography-headline-97 MuiTypography-colorTextSecondary-114"
+    <h5
+      className="MuiTypography-root-98 MuiTypography-h5-114 MuiTypography-colorTextSecondary-131"
       style={
         Object {
           "display": "inline-block",
@@ -448,10 +448,10 @@ exports[`with materials renders correctly 1`] = `
       }
     >
       Materiais
-    </h1>
+    </h5>
     <div
       cellheight={360}
-      className="MuiGrid-container-1 MuiGrid-spacing-xs-8-22"
+      className="MuiGrid-container-1 MuiGrid-spacing-xs-8-23"
     >
       <div
         ignoreHighlights={true}
@@ -542,10 +542,10 @@ exports[`with materials renders correctly 1`] = `
 
 exports[`without currentUser renders correctly 1`] = `
 <div
-  className="MuiGrid-container-1 MuiGrid-spacing-xs-32-25"
+  className="MuiGrid-container-1 MuiGrid-spacing-xs-32-26"
 >
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-4-70"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-4-75"
   >
     <div
       editPath={undefined}
@@ -554,8 +554,8 @@ exports[`without currentUser renders correctly 1`] = `
     >
       Avatar
     </div>
-    <h1
-      className="MuiTypography-root-92 MuiTypography-display1-96"
+    <h4
+      className="MuiTypography-root-98 MuiTypography-h4-113"
       style={
         Object {
           "marginBottom": 16,
@@ -564,7 +564,7 @@ exports[`without currentUser renders correctly 1`] = `
       }
     >
       foo-name
-    </h1>
+    </h4>
     <div
       style={
         Object {
@@ -574,7 +574,7 @@ exports[`without currentUser renders correctly 1`] = `
       to="/suppliers/1234/questionnaires"
     >
       <button
-        className="MuiButtonBase-root-132 MuiButton-root-116 MuiButton-raised-122 MuiButton-raisedPrimary-123"
+        className="MuiButtonBase-root-159 MuiButton-root-133 MuiButton-contained-144 MuiButton-containedPrimary-145 MuiButton-raised-147 MuiButton-raisedPrimary-148"
         disabled={false}
         onBlur={[Function]}
         onFocus={[Function]}
@@ -590,24 +590,24 @@ exports[`without currentUser renders correctly 1`] = `
         type="button"
       >
         <span
-          className="MuiButton-label-117"
+          className="MuiButton-label-134"
         >
           Responder questionários
         </span>
         <span
-          className="MuiTouchRipple-root-135"
+          className="MuiTouchRipple-root-191"
         />
       </button>
     </div>
   </div>
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-8-74"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-8-79"
   >
     <div
-      className="MuiPaper-root-143 MuiPaper-elevation2-147 MuiPaper-rounded-144 MuiCard-root-142"
+      className="MuiPaper-root-163 MuiPaper-elevation1-166 MuiPaper-rounded-164 MuiCard-root-162"
     >
       <div
-        className="MuiCardContent-root-170"
+        className="MuiCardContent-root-190"
       >
         <div
           style={
@@ -616,8 +616,8 @@ exports[`without currentUser renders correctly 1`] = `
             }
           }
         >
-          <h2
-            className="MuiTypography-root-92 MuiTypography-title-98"
+          <h6
+            className="MuiTypography-root-98 MuiTypography-h6-115"
             style={
               Object {
                 "display": "inline-block",
@@ -626,10 +626,10 @@ exports[`without currentUser renders correctly 1`] = `
           >
             Descrição
             :
-          </h2>
+          </h6>
            
-          <h3
-            className="MuiTypography-root-92 MuiTypography-subheading-99"
+          <h6
+            className="MuiTypography-root-98 MuiTypography-subtitle1-116"
             style={
               Object {
                 "display": "inline-block",
@@ -637,7 +637,7 @@ exports[`without currentUser renders correctly 1`] = `
             }
           >
             foo-description
-          </h3>
+          </h6>
         </div>
         <div
           style={
@@ -647,7 +647,7 @@ exports[`without currentUser renders correctly 1`] = `
           }
         >
           <p
-            className="MuiTypography-root-92 MuiTypography-body1-101 MuiTypography-colorInherit-111"
+            className="MuiTypography-root-98 MuiTypography-body1-107 MuiTypography-colorInherit-127"
           >
             <div
               style={
@@ -676,7 +676,7 @@ exports[`without currentUser renders correctly 1`] = `
     </div>
   </div>
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
   />
   <div
     current={

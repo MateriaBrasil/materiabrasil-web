@@ -8,30 +8,8 @@ exports[`renders correctly 1`] = `
     }
   }
 >
-  <div
-    className="MuiCircularProgress-root-1 MuiCircularProgress-colorPrimary-4 MuiCircularProgress-indeterminate-3"
-    role="progressbar"
-    style={
-      Object {
-        "height": 40,
-        "width": 40,
-      }
-    }
-  >
-    <svg
-      className="MuiCircularProgress-svg-6"
-      viewBox="0 0 50 50"
-    >
-      <circle
-        className="MuiCircularProgress-circle-7 MuiCircularProgress-circleIndeterminate-9"
-        cx={25}
-        cy={25}
-        fill="none"
-        r={20}
-        strokeWidth={3.6}
-        style={Object {}}
-      />
-    </svg>
+  <div>
+    CircularProgress
   </div>
 </div>
 `;

@@ -16,8 +16,8 @@ exports[`renders correctly 1`] = `
     to="/about"
   >
     Link - 
-    <h3
-      className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+    <h6
+      className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
       style={
         Object {
           "alignSelf": "center",
@@ -26,7 +26,7 @@ exports[`renders correctly 1`] = `
       }
     >
       Sobre
-    </h3>
+    </h6>
   </div>
   <div
     className="navbar-link"
@@ -40,8 +40,8 @@ exports[`renders correctly 1`] = `
     to="/materials"
   >
     Link - 
-    <h3
-      className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+    <h6
+      className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
       style={
         Object {
           "alignSelf": "center",
@@ -50,7 +50,7 @@ exports[`renders correctly 1`] = `
       }
     >
       Explore
-    </h3>
+    </h6>
   </div>
   <div
     className="navbar-link"
@@ -64,8 +64,8 @@ exports[`renders correctly 1`] = `
     to="/forum"
   >
     Link - 
-    <h3
-      className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+    <h6
+      className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
       style={
         Object {
           "alignSelf": "center",
@@ -74,7 +74,7 @@ exports[`renders correctly 1`] = `
       }
     >
       Fórum
-    </h3>
+    </h6>
   </div>
   <div
     className="navbar-link"
@@ -95,8 +95,8 @@ exports[`renders correctly 1`] = `
     }
   >
     Link - 
-    <h3
-      className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+    <h6
+      className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
       style={
         Object {
           "alignSelf": "center",
@@ -105,7 +105,7 @@ exports[`renders correctly 1`] = `
       }
     >
       Cadastrar fornecedor
-    </h3>
+    </h6>
   </div>
   <div>
     SignIn
@@ -129,8 +129,8 @@ exports[`with current user renders correctly 1`] = `
     to="/about"
   >
     Link - 
-    <h3
-      className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+    <h6
+      className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
       style={
         Object {
           "alignSelf": "center",
@@ -139,7 +139,7 @@ exports[`with current user renders correctly 1`] = `
       }
     >
       Sobre
-    </h3>
+    </h6>
   </div>
   <div
     className="navbar-link"
@@ -153,8 +153,8 @@ exports[`with current user renders correctly 1`] = `
     to="/materials"
   >
     Link - 
-    <h3
-      className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+    <h6
+      className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
       style={
         Object {
           "alignSelf": "center",
@@ -163,7 +163,7 @@ exports[`with current user renders correctly 1`] = `
       }
     >
       Explore
-    </h3>
+    </h6>
   </div>
   <div
     className="navbar-link"
@@ -177,8 +177,8 @@ exports[`with current user renders correctly 1`] = `
     to="/forum"
   >
     Link - 
-    <h3
-      className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+    <h6
+      className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
       style={
         Object {
           "alignSelf": "center",
@@ -187,7 +187,7 @@ exports[`with current user renders correctly 1`] = `
       }
     >
       Fórum
-    </h3>
+    </h6>
   </div>
   <div
     className="navbar-link"
@@ -201,8 +201,8 @@ exports[`with current user renders correctly 1`] = `
     to="/suppliers/new"
   >
     Link - 
-    <h3
-      className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+    <h6
+      className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
       style={
         Object {
           "alignSelf": "center",
@@ -211,7 +211,7 @@ exports[`with current user renders correctly 1`] = `
       }
     >
       Cadastrar fornecedor
-    </h3>
+    </h6>
   </div>
   <div
     className="navbar-link"
@@ -225,8 +225,8 @@ exports[`with current user renders correctly 1`] = `
     to="/profile"
   >
     Link - 
-    <h3
-      className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+    <h6
+      className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
       style={
         Object {
           "alignSelf": "center",
@@ -235,7 +235,7 @@ exports[`with current user renders correctly 1`] = `
       }
     >
       undefined undefined
-    </h3>
+    </h6>
   </div>
   <div
     currentUser={Object {}}
@@ -261,8 +261,8 @@ exports[`with current user with suppliers renders correctly 1`] = `
     to="/about"
   >
     Link - 
-    <h3
-      className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+    <h6
+      className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
       style={
         Object {
           "alignSelf": "center",
@@ -271,7 +271,7 @@ exports[`with current user with suppliers renders correctly 1`] = `
       }
     >
       Sobre
-    </h3>
+    </h6>
   </div>
   <div
     className="navbar-link"
@@ -285,8 +285,8 @@ exports[`with current user with suppliers renders correctly 1`] = `
     to="/materials"
   >
     Link - 
-    <h3
-      className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+    <h6
+      className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
       style={
         Object {
           "alignSelf": "center",
@@ -295,7 +295,7 @@ exports[`with current user with suppliers renders correctly 1`] = `
       }
     >
       Explore
-    </h3>
+    </h6>
   </div>
   <div
     className="navbar-link"
@@ -309,8 +309,8 @@ exports[`with current user with suppliers renders correctly 1`] = `
     to="/forum"
   >
     Link - 
-    <h3
-      className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+    <h6
+      className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
       style={
         Object {
           "alignSelf": "center",
@@ -319,7 +319,7 @@ exports[`with current user with suppliers renders correctly 1`] = `
       }
     >
       Fórum
-    </h3>
+    </h6>
   </div>
   <div
     className="navbar-link"
@@ -333,8 +333,8 @@ exports[`with current user with suppliers renders correctly 1`] = `
     to="/suppliers/undefined"
   >
     Link - 
-    <h3
-      className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+    <h6
+      className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
       style={
         Object {
           "alignSelf": "center",
@@ -355,8 +355,8 @@ exports[`with current user with suppliers renders correctly 1`] = `
     to="/profile"
   >
     Link - 
-    <h3
-      className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+    <h6
+      className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
       style={
         Object {
           "alignSelf": "center",
@@ -365,7 +365,7 @@ exports[`with current user with suppliers renders correctly 1`] = `
       }
     >
       undefined undefined
-    </h3>
+    </h6>
   </div>
   <div
     currentUser={

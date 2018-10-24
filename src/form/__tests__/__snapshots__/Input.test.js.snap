@@ -5,25 +5,23 @@ exports[`renders correctly 1`] = `
   <div
     aria-describedby="name-error-text"
     className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
-    onBlur={[Function]}
-    onFocus={[Function]}
   >
     <label
-      className="MuiFormLabel-root-10 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
+      className="MuiFormLabel-root-12 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
       data-shrink={false}
       htmlFor="name-error"
     >
       foo
     </label>
     <div
-      className="MuiInput-root-15 MuiInput-formControl-16 MuiInput-underline-19"
+      className="MuiInputBase-root-32 MuiInput-root-19 MuiInput-underline-23 MuiInputBase-formControl-33 MuiInput-formControl-20"
+      onClick={[Function]}
     >
       <input
         aria-invalid={false}
-        aria-required={false}
         autoComplete={undefined}
         autoFocus={undefined}
-        className="MuiInput-input-23"
+        className="MuiInputBase-input-42 MuiInput-input-27"
         defaultValue={undefined}
         disabled={false}
         id={undefined}
@@ -35,14 +33,14 @@ exports[`renders correctly 1`] = `
         onKeyUp={undefined}
         placeholder={undefined}
         readOnly={undefined}
-        required={undefined}
+        required={false}
         rows={undefined}
         type="text"
         value={undefined}
       />
     </div>
     <p
-      className="MuiFormHelperText-root-28"
+      className="MuiFormHelperText-root-49"
       id="name-error-text"
     />
   </div>
@@ -54,25 +52,23 @@ exports[`renders correctly with error 1`] = `
   <div
     aria-describedby="name-error-text"
     className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
-    onBlur={[Function]}
-    onFocus={[Function]}
   >
     <label
-      className="MuiFormLabel-root-10 MuiFormLabel-error-13 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
+      className="MuiFormLabel-root-12 MuiFormLabel-error-15 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
       data-shrink={false}
       htmlFor="name-error"
     >
       foo
     </label>
     <div
-      className="MuiInput-root-15 MuiInput-error-20 MuiInput-formControl-16 MuiInput-underline-19"
+      className="MuiInputBase-root-32 MuiInput-root-19 MuiInput-underline-23 MuiInputBase-error-38 MuiInput-error-24 MuiInputBase-formControl-33 MuiInput-formControl-20"
+      onClick={[Function]}
     >
       <input
         aria-invalid={true}
-        aria-required={false}
         autoComplete={undefined}
         autoFocus={undefined}
-        className="MuiInput-input-23"
+        className="MuiInputBase-input-42 MuiInput-input-27"
         defaultValue={undefined}
         disabled={false}
         id={undefined}
@@ -84,14 +80,14 @@ exports[`renders correctly with error 1`] = `
         onKeyUp={undefined}
         placeholder={undefined}
         readOnly={undefined}
-        required={undefined}
+        required={false}
         rows={undefined}
         type="text"
         value={undefined}
       />
     </div>
     <p
-      className="MuiFormHelperText-root-28 MuiFormHelperText-error-29"
+      className="MuiFormHelperText-root-49 MuiFormHelperText-error-50"
       id="name-error-text"
     >
       bar

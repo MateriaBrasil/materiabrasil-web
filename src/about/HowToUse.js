@@ -44,7 +44,7 @@ export default withStyles(styles)(props => {
         <Typography
           color="inherit"
           className="text"
-          variant="display2"
+          variant="h3"
           style={{
             width: '100%',
             position: 'absolute',

@@ -2,7 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
   style={
     Object {
       "marginBottom": 36,
@@ -10,13 +10,13 @@ exports[`renders correctly 1`] = `
   }
 >
   <div
-    className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+    className="MuiPaper-root-99 MuiPaper-elevation1-102 MuiPaper-rounded-100 MuiCard-root-98"
   >
     <div
-      className="MuiCardContent-root-120"
+      className="MuiCardContent-root-126"
     >
-      <h1
-        className="MuiTypography-root-121 MuiTypography-headline-126 MuiTypography-colorTextSecondary-143"
+      <h5
+        className="MuiTypography-root-127 MuiTypography-h5-143 MuiTypography-colorTextSecondary-160"
         style={
           Object {
             "marginBottom": 16,
@@ -24,12 +24,12 @@ exports[`renders correctly 1`] = `
         }
       >
         Endereço
-      </h1>
+      </h5>
       <ul
-        className="MuiList-root-145 MuiList-padding-146"
+        className="MuiList-root-162 MuiList-padding-163"
       >
         <div
-          className="MuiButtonBase-root-159 MuiListItem-root-149 MuiListItem-default-152 MuiListItem-gutters-156 MuiListItem-button-157"
+          className="MuiButtonBase-root-177 MuiListItem-root-166 MuiListItem-default-169 MuiListItem-gutters-173 MuiListItem-button-174"
           onBlur={[Function]}
           onFocus={[Function]}
           onKeyDown={[Function]}
@@ -44,42 +44,45 @@ exports[`renders correctly 1`] = `
           tabIndex="0"
         >
           <div
-            className="MuiAvatar-root-162 MuiAvatar-colorDefault-163"
+            className="MuiAvatar-root-180 MuiAvatar-colorDefault-181"
           >
             <svg
               aria-hidden="true"
-              className="MuiSvgIcon-root-165"
+              className="MuiSvgIcon-root-183"
               color={undefined}
               focusable="false"
+              role="presentation"
               viewBox="0 0 24 24"
             >
-              <g>
-                <path
-                  d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
-                />
-              </g>
+              <path
+                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+              />
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
             </svg>
           </div>
           <div
-            className="MuiListItemText-root-171"
+            className="MuiListItemText-root-192"
           >
-            <h3
-              className="MuiTypography-root-121 MuiTypography-subheading-128 MuiListItemText-primary-174"
+            <span
+              className="MuiTypography-root-127 MuiTypography-subheading-134 MuiListItemText-primary-195"
             >
               undefined
-            </h3>
+            </span>
             <p
-              className="MuiTypography-root-121 MuiTypography-body1-130 MuiTypography-colorTextSecondary-143 MuiListItemText-secondary-175"
+              className="MuiTypography-root-127 MuiTypography-body1-136 MuiTypography-colorTextSecondary-160 MuiListItemText-secondary-196"
             >
               undefined, undefined, undefined
             </p>
           </div>
           <span
-            className="MuiTouchRipple-root-177"
+            className="MuiTouchRipple-root-198"
           />
         </div>
         <div
-          className="MuiButtonBase-root-159 MuiListItem-root-149 MuiListItem-default-152 MuiListItem-gutters-156 MuiListItem-button-157"
+          className="MuiButtonBase-root-177 MuiListItem-root-166 MuiListItem-default-169 MuiListItem-gutters-173 MuiListItem-button-174"
           onBlur={[Function]}
           onFocus={[Function]}
           onKeyDown={[Function]}
@@ -94,38 +97,41 @@ exports[`renders correctly 1`] = `
           tabIndex="0"
         >
           <div
-            className="MuiAvatar-root-162 MuiAvatar-colorDefault-163"
+            className="MuiAvatar-root-180 MuiAvatar-colorDefault-181"
           >
             <svg
               aria-hidden="true"
-              className="MuiSvgIcon-root-165"
+              className="MuiSvgIcon-root-183"
               color={undefined}
               focusable="false"
+              role="presentation"
               viewBox="0 0 24 24"
             >
-              <g>
-                <path
-                  d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
-                />
-              </g>
+              <path
+                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+              />
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
             </svg>
           </div>
           <div
-            className="MuiListItemText-root-171"
+            className="MuiListItemText-root-192"
           >
-            <h3
-              className="MuiTypography-root-121 MuiTypography-subheading-128 MuiListItemText-primary-174"
+            <span
+              className="MuiTypography-root-127 MuiTypography-subheading-134 MuiListItemText-primary-195"
             >
               undefined
-            </h3>
+            </span>
             <p
-              className="MuiTypography-root-121 MuiTypography-body1-130 MuiTypography-colorTextSecondary-143 MuiListItemText-secondary-175"
+              className="MuiTypography-root-127 MuiTypography-body1-136 MuiTypography-colorTextSecondary-160 MuiListItemText-secondary-196"
             >
               undefined, undefined, undefined
             </p>
           </div>
           <span
-            className="MuiTouchRipple-root-177"
+            className="MuiTouchRipple-root-198"
           />
         </div>
       </ul>
@@ -136,7 +142,7 @@ exports[`renders correctly 1`] = `
 
 exports[`when address type is "manufacture" renders correctly 1`] = `
 <div
-  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
   style={
     Object {
       "marginBottom": 36,
@@ -144,13 +150,13 @@ exports[`when address type is "manufacture" renders correctly 1`] = `
   }
 >
   <div
-    className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+    className="MuiPaper-root-99 MuiPaper-elevation1-102 MuiPaper-rounded-100 MuiCard-root-98"
   >
     <div
-      className="MuiCardContent-root-120"
+      className="MuiCardContent-root-126"
     >
-      <h1
-        className="MuiTypography-root-121 MuiTypography-headline-126 MuiTypography-colorTextSecondary-143"
+      <h5
+        className="MuiTypography-root-127 MuiTypography-h5-143 MuiTypography-colorTextSecondary-160"
         style={
           Object {
             "marginBottom": 16,
@@ -158,12 +164,12 @@ exports[`when address type is "manufacture" renders correctly 1`] = `
         }
       >
         Endereço
-      </h1>
+      </h5>
       <ul
-        className="MuiList-root-145 MuiList-padding-146"
+        className="MuiList-root-162 MuiList-padding-163"
       >
         <div
-          className="MuiButtonBase-root-159 MuiListItem-root-149 MuiListItem-default-152 MuiListItem-gutters-156 MuiListItem-button-157"
+          className="MuiButtonBase-root-177 MuiListItem-root-166 MuiListItem-default-169 MuiListItem-gutters-173 MuiListItem-button-174"
           onBlur={[Function]}
           onFocus={[Function]}
           onKeyDown={[Function]}
@@ -178,42 +184,46 @@ exports[`when address type is "manufacture" renders correctly 1`] = `
           tabIndex="0"
         >
           <div
-            className="MuiAvatar-root-162 MuiAvatar-colorDefault-163"
+            className="MuiAvatar-root-180 MuiAvatar-colorDefault-181"
           >
             <svg
               aria-hidden="true"
-              className="MuiSvgIcon-root-165"
+              className="MuiSvgIcon-root-183"
               color={undefined}
               focusable="false"
+              role="presentation"
               viewBox="0 0 24 24"
             >
-              <g>
-                <path
-                  d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"
-                />
-              </g>
+              <path
+                clipRule="evenodd"
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+              <path
+                d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"
+              />
             </svg>
           </div>
           <div
-            className="MuiListItemText-root-171"
+            className="MuiListItemText-root-192"
           >
-            <h3
-              className="MuiTypography-root-121 MuiTypography-subheading-128 MuiListItemText-primary-174"
+            <span
+              className="MuiTypography-root-127 MuiTypography-subheading-134 MuiListItemText-primary-195"
             >
               undefined
-            </h3>
+            </span>
             <p
-              className="MuiTypography-root-121 MuiTypography-body1-130 MuiTypography-colorTextSecondary-143 MuiListItemText-secondary-175"
+              className="MuiTypography-root-127 MuiTypography-body1-136 MuiTypography-colorTextSecondary-160 MuiListItemText-secondary-196"
             >
               undefined, undefined, undefined
             </p>
           </div>
           <span
-            className="MuiTouchRipple-root-177"
+            className="MuiTouchRipple-root-198"
           />
         </div>
         <div
-          className="MuiButtonBase-root-159 MuiListItem-root-149 MuiListItem-default-152 MuiListItem-gutters-156 MuiListItem-button-157"
+          className="MuiButtonBase-root-177 MuiListItem-root-166 MuiListItem-default-169 MuiListItem-gutters-173 MuiListItem-button-174"
           onBlur={[Function]}
           onFocus={[Function]}
           onKeyDown={[Function]}
@@ -228,38 +238,41 @@ exports[`when address type is "manufacture" renders correctly 1`] = `
           tabIndex="0"
         >
           <div
-            className="MuiAvatar-root-162 MuiAvatar-colorDefault-163"
+            className="MuiAvatar-root-180 MuiAvatar-colorDefault-181"
           >
             <svg
               aria-hidden="true"
-              className="MuiSvgIcon-root-165"
+              className="MuiSvgIcon-root-183"
               color={undefined}
               focusable="false"
+              role="presentation"
               viewBox="0 0 24 24"
             >
-              <g>
-                <path
-                  d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
-                />
-              </g>
+              <path
+                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+              />
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
             </svg>
           </div>
           <div
-            className="MuiListItemText-root-171"
+            className="MuiListItemText-root-192"
           >
-            <h3
-              className="MuiTypography-root-121 MuiTypography-subheading-128 MuiListItemText-primary-174"
+            <span
+              className="MuiTypography-root-127 MuiTypography-subheading-134 MuiListItemText-primary-195"
             >
               undefined
-            </h3>
+            </span>
             <p
-              className="MuiTypography-root-121 MuiTypography-body1-130 MuiTypography-colorTextSecondary-143 MuiListItemText-secondary-175"
+              className="MuiTypography-root-127 MuiTypography-body1-136 MuiTypography-colorTextSecondary-160 MuiListItemText-secondary-196"
             >
               undefined, undefined, undefined
             </p>
           </div>
           <span
-            className="MuiTouchRipple-root-177"
+            className="MuiTouchRipple-root-198"
           />
         </div>
       </ul>
@@ -270,7 +283,7 @@ exports[`when address type is "manufacture" renders correctly 1`] = `
 
 exports[`with zip code renders correctly 1`] = `
 <div
-  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
   style={
     Object {
       "marginBottom": 36,
@@ -278,13 +291,13 @@ exports[`with zip code renders correctly 1`] = `
   }
 >
   <div
-    className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+    className="MuiPaper-root-99 MuiPaper-elevation1-102 MuiPaper-rounded-100 MuiCard-root-98"
   >
     <div
-      className="MuiCardContent-root-120"
+      className="MuiCardContent-root-126"
     >
-      <h1
-        className="MuiTypography-root-121 MuiTypography-headline-126 MuiTypography-colorTextSecondary-143"
+      <h5
+        className="MuiTypography-root-127 MuiTypography-h5-143 MuiTypography-colorTextSecondary-160"
         style={
           Object {
             "marginBottom": 16,
@@ -292,12 +305,12 @@ exports[`with zip code renders correctly 1`] = `
         }
       >
         Endereço
-      </h1>
+      </h5>
       <ul
-        className="MuiList-root-145 MuiList-padding-146"
+        className="MuiList-root-162 MuiList-padding-163"
       >
         <div
-          className="MuiButtonBase-root-159 MuiListItem-root-149 MuiListItem-default-152 MuiListItem-gutters-156 MuiListItem-button-157"
+          className="MuiButtonBase-root-177 MuiListItem-root-166 MuiListItem-default-169 MuiListItem-gutters-173 MuiListItem-button-174"
           onBlur={[Function]}
           onFocus={[Function]}
           onKeyDown={[Function]}
@@ -312,42 +325,45 @@ exports[`with zip code renders correctly 1`] = `
           tabIndex="0"
         >
           <div
-            className="MuiAvatar-root-162 MuiAvatar-colorDefault-163"
+            className="MuiAvatar-root-180 MuiAvatar-colorDefault-181"
           >
             <svg
               aria-hidden="true"
-              className="MuiSvgIcon-root-165"
+              className="MuiSvgIcon-root-183"
               color={undefined}
               focusable="false"
+              role="presentation"
               viewBox="0 0 24 24"
             >
-              <g>
-                <path
-                  d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
-                />
-              </g>
+              <path
+                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+              />
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
             </svg>
           </div>
           <div
-            className="MuiListItemText-root-171"
+            className="MuiListItemText-root-192"
           >
-            <h3
-              className="MuiTypography-root-121 MuiTypography-subheading-128 MuiListItemText-primary-174"
+            <span
+              className="MuiTypography-root-127 MuiTypography-subheading-134 MuiListItemText-primary-195"
             >
               undefined - foo-code
-            </h3>
+            </span>
             <p
-              className="MuiTypography-root-121 MuiTypography-body1-130 MuiTypography-colorTextSecondary-143 MuiListItemText-secondary-175"
+              className="MuiTypography-root-127 MuiTypography-body1-136 MuiTypography-colorTextSecondary-160 MuiListItemText-secondary-196"
             >
               undefined, undefined, undefined
             </p>
           </div>
           <span
-            className="MuiTouchRipple-root-177"
+            className="MuiTouchRipple-root-198"
           />
         </div>
         <div
-          className="MuiButtonBase-root-159 MuiListItem-root-149 MuiListItem-default-152 MuiListItem-gutters-156 MuiListItem-button-157"
+          className="MuiButtonBase-root-177 MuiListItem-root-166 MuiListItem-default-169 MuiListItem-gutters-173 MuiListItem-button-174"
           onBlur={[Function]}
           onFocus={[Function]}
           onKeyDown={[Function]}
@@ -362,38 +378,41 @@ exports[`with zip code renders correctly 1`] = `
           tabIndex="0"
         >
           <div
-            className="MuiAvatar-root-162 MuiAvatar-colorDefault-163"
+            className="MuiAvatar-root-180 MuiAvatar-colorDefault-181"
           >
             <svg
               aria-hidden="true"
-              className="MuiSvgIcon-root-165"
+              className="MuiSvgIcon-root-183"
               color={undefined}
               focusable="false"
+              role="presentation"
               viewBox="0 0 24 24"
             >
-              <g>
-                <path
-                  d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
-                />
-              </g>
+              <path
+                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+              />
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
             </svg>
           </div>
           <div
-            className="MuiListItemText-root-171"
+            className="MuiListItemText-root-192"
           >
-            <h3
-              className="MuiTypography-root-121 MuiTypography-subheading-128 MuiListItemText-primary-174"
+            <span
+              className="MuiTypography-root-127 MuiTypography-subheading-134 MuiListItemText-primary-195"
             >
               undefined
-            </h3>
+            </span>
             <p
-              className="MuiTypography-root-121 MuiTypography-body1-130 MuiTypography-colorTextSecondary-143 MuiListItemText-secondary-175"
+              className="MuiTypography-root-127 MuiTypography-body1-136 MuiTypography-colorTextSecondary-160 MuiListItemText-secondary-196"
             >
               undefined, undefined, undefined
             </p>
           </div>
           <span
-            className="MuiTouchRipple-root-177"
+            className="MuiTouchRipple-root-198"
           />
         </div>
       </ul>

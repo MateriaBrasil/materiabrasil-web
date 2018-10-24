@@ -8,7 +8,7 @@ export default props => {
   const { lg, text } = props
   return (
     <Grid item xs={12} lg={lg}>
-      <Typography variant="headline" style={{ marginBottom: 16 }}>
+      <Typography variant="h5" style={{ marginBottom: 16 }}>
         {text}
       </Typography>
       <Avatar {...props} preserveRatio />

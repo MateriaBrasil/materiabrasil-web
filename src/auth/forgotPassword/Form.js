@@ -24,7 +24,7 @@ export default reduxForm({ form: 'forgotPassword' })(props => {
         />
         {error && <Error>{error}</Error>}
         <Button
-          variant="raised"
+          variant="contained"
           color="primary"
           type="submit"
           disabled={creating}

@@ -12,7 +12,7 @@ export default props => {
       to={`/suppliers/${supplier.id}/edit`}
       style={{ textDecoration: 'none', marginRight: '5px' }}
     >
-      <Button variant="raised" color="primary">
+      <Button variant="contained" color="primary">
         Editar perfil
       </Button>
     </Link>

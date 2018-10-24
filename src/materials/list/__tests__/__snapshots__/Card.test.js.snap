@@ -2,7 +2,7 @@
 
 exports[`when query doesnt match renders correctly 1`] = `
 <div
-  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-6-72"
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-6-77"
 >
   <div
     className="Ratio "
@@ -67,11 +67,11 @@ exports[`when query doesnt match renders correctly 1`] = `
               to="/materials/1234"
             >
               Link - 
-              <h3
-                className="MuiTypography-root-92 MuiTypography-subheading-99 MuiTypography-colorInherit-111"
+              <h6
+                className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-colorInherit-127"
               >
                 foo
-              </h3>
+              </h6>
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@ exports[`when query doesnt match renders correctly 1`] = `
 
 exports[`when query matches when highlighted renders correctly 1`] = `
 <div
-  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-12-78"
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-12-83"
 >
   <div
     className="Ratio "
@@ -148,11 +148,11 @@ exports[`when query matches when highlighted renders correctly 1`] = `
               to="/materials/1234"
             >
               Link - 
-              <h3
-                className="MuiTypography-root-92 MuiTypography-subheading-99 MuiTypography-colorInherit-111"
+              <h6
+                className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-colorInherit-127"
               >
                 foo
-              </h3>
+              </h6>
             </div>
           </div>
         </div>
@@ -164,7 +164,7 @@ exports[`when query matches when highlighted renders correctly 1`] = `
 
 exports[`when query matches when not highlighted renders correctly 1`] = `
 <div
-  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-6-72"
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-6-77"
 >
   <div
     className="Ratio "
@@ -229,11 +229,11 @@ exports[`when query matches when not highlighted renders correctly 1`] = `
               to="/materials/1234"
             >
               Link - 
-              <h3
-                className="MuiTypography-root-92 MuiTypography-subheading-99 MuiTypography-colorInherit-111"
+              <h6
+                className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-colorInherit-127"
               >
                 foo
-              </h3>
+              </h6>
             </div>
           </div>
         </div>

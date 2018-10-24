@@ -2,8 +2,8 @@
 
 exports[`with showDestroy renders correctly 1`] = `
 <div
-  cellHeight={360}
-  className="MuiGrid-container-1 MuiGrid-spacing-xs-8-22"
+  cellheight={360}
+  className="MuiGrid-container-1 MuiGrid-spacing-xs-8-23"
 >
   <div
     ignoreHighlights={true}
@@ -24,8 +24,8 @@ exports[`with showDestroy renders correctly 1`] = `
 
 exports[`without showDestroy renders correctly 1`] = `
 <div
-  cellHeight={360}
-  className="MuiGrid-container-1 MuiGrid-spacing-xs-8-22"
+  cellheight={360}
+  className="MuiGrid-container-1 MuiGrid-spacing-xs-8-23"
 >
   <div
     ignoreHighlights={true}

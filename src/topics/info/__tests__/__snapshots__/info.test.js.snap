@@ -3,13 +3,13 @@
 exports[`renders correctly 1`] = `
 Array [
   <div
-    className="MuiPaper-root-2 MuiPaper-elevation2-6 MuiPaper-rounded-3 MuiCard-root-1"
+    className="MuiPaper-root-2 MuiPaper-elevation1-5 MuiPaper-rounded-3 MuiCard-root-1"
 >
     <div
         className="MuiCardContent-root-29"
     >
-        <h1
-            className="MuiTypography-root-30 MuiTypography-display1-34"
+        <h4
+            className="MuiTypography-root-30 MuiTypography-h4-45"
             style={
                 Object {
                     "marginBottom": 8,
@@ -17,7 +17,7 @@ Array [
             }
         >
             foo subject
-        </h1>
+        </h4>
         <span
             className="MuiTypography-root-30 MuiTypography-caption-40"
             style={
@@ -35,8 +35,8 @@ Array [
         </p>
     </div>
 </div>,
-  <h1
-    className="MuiTypography-root-30 MuiTypography-headline-35"
+  <h5
+    className="MuiTypography-root-30 MuiTypography-h5-46"
     style={
         Object {
             "marginBottom": 24,
@@ -45,7 +45,7 @@ Array [
     }
 >
     Respostas
-</h1>,
+</h5>,
   <div
     createdAt="2010-10-10 10:10:10"
     id={1}

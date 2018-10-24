@@ -12,7 +12,7 @@ export default props => {
       <Card>
         <CardContent>
           <Typography
-            variant="headline"
+            variant="h5"
             color="textSecondary"
             style={{ marginBottom: 16 }}
           >

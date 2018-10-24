@@ -19,7 +19,7 @@ export default props => {
         <CardContent>{children}</CardContent>
         <CardActions style={{ paddingBottom: 16 }}>
           <Button
-            variant="raised"
+            variant="contained"
             color="primary"
             type="submit"
             disabled={submitting}

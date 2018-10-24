@@ -17,7 +17,7 @@ export default props => (
         }}
       />
       <Typography
-        variant="display2"
+        variant="h3"
         color="inherit"
         className="text"
         style={{

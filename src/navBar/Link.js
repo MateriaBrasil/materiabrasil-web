@@ -14,7 +14,7 @@ export default ({ to, text, isInstitutionalPage, targetBlank }) => (
     }}
   >
     <Typography
-      variant="subheading"
+      variant="subtitle1"
       color="inherit"
       style={{ display: 'inline-block', alignSelf: 'center' }}
     >

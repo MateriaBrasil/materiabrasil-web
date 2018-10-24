@@ -9,10 +9,10 @@ exports[`renders correctly 1`] = `
     }
   }
 >
-  <h1
-    className="MuiTypography-root-1 MuiTypography-headline-6 MuiTypography-colorError-24"
+  <h5
+    className="MuiTypography-root-1 MuiTypography-h5-17 MuiTypography-colorError-35"
   >
     foo
-  </h1>
+  </h5>
 </div>
 `;
