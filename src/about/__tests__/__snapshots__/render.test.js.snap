@@ -139,7 +139,7 @@ Array [
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 Component-grid-119"
     >
         <img
-            alt="placeholder image"
+            alt=""
             src="https://images.template.net/wp-content/uploads/2016/03/17133511/Vector-Infographic-Report-Template-Premium-Download.jpg"
             style={
                 Object {
@@ -209,7 +209,7 @@ Array [
             }
         >
             <img
-                alt="Jhon Doe - foto"
+                alt="Manuela Yamada - foto"
                 className="MuiAvatar-img-122"
                 sizes={undefined}
                 src="https://via.placeholder.com/200x200"
@@ -225,7 +225,7 @@ Array [
                   }
             }
         >
-            Jhon Doe
+            Manuela Yamada
         </p>
         <p
             style={
@@ -269,7 +269,7 @@ Array [
             }
         >
             <img
-                alt="Jhon Doe - foto"
+                alt="Bernardo Ferracioli - foto"
                 className="MuiAvatar-img-122"
                 sizes={undefined}
                 src="https://via.placeholder.com/200x200"
@@ -285,7 +285,7 @@ Array [
                   }
             }
         >
-            Jhon Doe
+            Bernardo Ferracioli
         </p>
         <p
             style={
@@ -329,7 +329,7 @@ Array [
             }
         >
             <img
-                alt="Jhon Doe - foto"
+                alt="Bruno Temer - foto"
                 className="MuiAvatar-img-122"
                 sizes={undefined}
                 src="https://via.placeholder.com/200x200"
@@ -345,7 +345,7 @@ Array [
                   }
             }
         >
-            Jhon Doe
+            Bruno Temer
         </p>
         <p
             style={
@@ -389,7 +389,7 @@ Array [
             }
         >
             <img
-                alt="Jhon Doe - foto"
+                alt="Pedro Themoteo - foto"
                 className="MuiAvatar-img-122"
                 sizes={undefined}
                 src="https://via.placeholder.com/200x200"
@@ -405,7 +405,7 @@ Array [
                   }
             }
         >
-            Jhon Doe
+            Pedro Themoteo
         </p>
         <p
             style={
@@ -449,7 +449,7 @@ Array [
             }
         >
             <img
-                alt="Jhon Doe - foto"
+                alt="Daniele Valente - foto"
                 className="MuiAvatar-img-122"
                 sizes={undefined}
                 src="https://via.placeholder.com/200x200"
@@ -465,7 +465,7 @@ Array [
                   }
             }
         >
-            Jhon Doe
+            Daniele Valente
         </p>
         <p
             style={
@@ -509,7 +509,7 @@ Array [
             }
         >
             <img
-                alt="Jhon Doe - foto"
+                alt="Elisa Ferreira - foto"
                 className="MuiAvatar-img-122"
                 sizes={undefined}
                 src="https://via.placeholder.com/200x200"
@@ -525,7 +525,7 @@ Array [
                   }
             }
         >
-            Jhon Doe
+            Elisa Ferreira
         </p>
         <p
             style={
@@ -569,7 +569,7 @@ Array [
             }
         >
             <img
-                alt="Jhon Doe - foto"
+                alt="Victor Lanari - foto"
                 className="MuiAvatar-img-122"
                 sizes={undefined}
                 src="https://via.placeholder.com/200x200"
@@ -585,7 +585,7 @@ Array [
                   }
             }
         >
-            Jhon Doe
+            Victor Lanari
         </p>
         <p
             style={
@@ -629,7 +629,7 @@ Array [
             }
         >
             <img
-                alt="Jhon Doe - foto"
+                alt="Dahyna Ribeiro - foto"
                 className="MuiAvatar-img-122"
                 sizes={undefined}
                 src="https://via.placeholder.com/200x200"
@@ -645,7 +645,127 @@ Array [
                   }
             }
         >
-            Jhon Doe
+            Dahyna Ribeiro
+        </p>
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-120"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "0 auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Bernardo Mattos - foto"
+                className="MuiAvatar-img-122"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Bernardo Mattos
+        </p>
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-120"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "0 auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Seasoned - foto"
+                className="MuiAvatar-img-122"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Seasoned
         </p>
         <p
             style={
