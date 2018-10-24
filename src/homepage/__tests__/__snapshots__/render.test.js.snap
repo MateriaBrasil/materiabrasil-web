@@ -11,7 +11,7 @@ Array [
     className="MuiGrid-container-2"
     style={
         Object {
-            "backgroundImage": "url(\\"https://picsum.photos/1920/900/?random\\")",
+            "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
           }
@@ -19,11 +19,6 @@ Array [
 >
     <div
         className="MuiGrid-item-3 MuiGrid-grid-xs-12-40 MuiGrid-grid-sm-8-49 MuiGrid-grid-md-6-60 Component-grid-1"
-        style={
-            Object {
-                "position": "relative",
-              }
-        }
     >
         <h1
             className="MuiTypography-root-93 MuiTypography-display2-96 MuiTypography-colorInherit-112 text"
@@ -54,7 +49,7 @@ Array [
     className="MuiGrid-container-2"
     style={
         Object {
-            "backgroundImage": "url(\\"https://picsum.photos/1920/900/?random\\")",
+            "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
           }
@@ -62,12 +57,6 @@ Array [
 >
     <div
         className="MuiGrid-item-3 MuiGrid-grid-xs-12-40 MuiGrid-grid-sm-8-49 MuiGrid-grid-md-6-60 Component-grid-1"
-        style={
-            Object {
-                "paddingTop": "35%",
-                "position": "relative",
-              }
-        }
     >
         <iframe
             allowFullScreen="true"
@@ -97,7 +86,7 @@ Array [
     className="MuiGrid-container-2"
     style={
         Object {
-            "backgroundImage": "url(\\"https://picsum.photos/1920/900/?random\\")",
+            "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
           }
@@ -105,11 +94,6 @@ Array [
 >
     <div
         className="MuiGrid-item-3 MuiGrid-grid-xs-12-40 MuiGrid-grid-sm-8-49 MuiGrid-grid-md-6-60 Component-grid-1"
-        style={
-            Object {
-                "position": "relative",
-              }
-        }
     >
         <div
             style={

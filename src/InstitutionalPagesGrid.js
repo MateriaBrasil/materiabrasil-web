@@ -23,22 +23,12 @@ export default withStyles(styles)(props => {
     <Grid
       container
       style={{
-        backgroundImage: 'url("https://picsum.photos/1920/900/?random")',
+        backgroundImage: 'url("https://picsum.photos/g/1920/900/?random")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
     >
-      <Grid
-        item
-        xs={12}
-        sm={8}
-        md={6}
-        className={props.classes.grid}
-        style={{
-          ...(props.isVideo && { paddingTop: '35%' }),
-          position: 'relative',
-        }}
-      >
+      <Grid item xs={12} sm={8} md={6} className={props.classes.grid}>
         {props.children}
       </Grid>
     </Grid>
