@@ -8,19 +8,21 @@ Array [
     NavBar
 </div>,
   <div
-    className="MuiGrid-container-2"
+    className="MuiGrid-container-1"
     style={
         Object {
             "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
+            "paddingTop": "35px",
           }
     }
 >
     <div
-        className="MuiGrid-item-3 MuiGrid-grid-xs-12-40 MuiGrid-grid-sm-8-49 MuiGrid-grid-md-6-60 Component-grid-1"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 Component-grid-92"
         style={
             Object {
+                "paddingTop": "5%",
                 "position": "relative",
               }
         }
@@ -39,25 +41,25 @@ Array [
         >
             Objetivo
         </h1>
-        <h1
-            className="MuiTypography-root-93 MuiTypography-display2-96 MuiTypography-colorInherit-112 text"
-            style={
-                Object {
-                    "color": "#fff",
-                    "display": "inline-block",
-                    "fontWeight": 300,
-                    "verticalAlign": "middle",
-                  }
-            }
-        >
-            O objetivo da MateriaMundi oferecer acesso à informação de qualidade e parâmetros para que seus usuários possam escolher alternativas comercialmente disponíveis e socioambiental responsáveis para os desafios do dia a dia, variando desde o que vestimos até como construímos nossas casas.
-            <br />
-            Através da criação de uma comunidade ativa a plataforma permite a criação de conhecimento compartilhado sobre ações práticas para uma forma de projetar, produzir e consumir mais responsável com a sociedade e o meio ambiente.
-        </h1>
     </div>
+    <h1
+        className="MuiTypography-root-93 MuiTypography-display2-96 MuiTypography-colorInherit-112 text"
+        style={
+            Object {
+                "color": "#fff",
+                "display": "inline-block",
+                "fontWeight": 300,
+                "verticalAlign": "middle",
+              }
+        }
+    >
+        O objetivo da MateriaMundi oferecer acesso à informação de qualidade e parâmetros para que seus usuários possam escolher alternativas comercialmente disponíveis e socioambiental responsáveis para os desafios do dia a dia, variando desde o que vestimos até como construímos nossas casas.
+        <br />
+        Através da criação de uma comunidade ativa a plataforma permite a criação de conhecimento compartilhado sobre ações práticas para uma forma de projetar, produzir e consumir mais responsável com a sociedade e o meio ambiente.
+    </h1>
 </div>,
   <div
-    className="MuiGrid-container-2"
+    className="MuiGrid-container-1"
     style={
         Object {
             "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
@@ -68,7 +70,7 @@ Array [
     }
 >
     <div
-        className="MuiGrid-item-3 MuiGrid-grid-xs-12-40 Component-grid-117"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 Component-grid-117"
         style={
             Object {
                 "paddingTop": "5%",
@@ -93,7 +95,7 @@ Array [
         </h1>
     </div>
     <div
-        className="MuiGrid-item-3 MuiGrid-grid-xs-12-40 MuiGrid-grid-sm-8-49 MuiGrid-grid-md-6-60 Component-grid-117"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-8-48 MuiGrid-grid-md-6-59 Component-grid-117"
         style={
             Object {
                 "paddingTop": "35%",
@@ -125,7 +127,7 @@ Array [
         />
     </div>
     <div
-        className="MuiGrid-item-3 MuiGrid-grid-xs-12-40 Component-grid-117"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 Component-grid-117"
     >
         <img
             alt="placeholder image"
@@ -140,19 +142,21 @@ Array [
     </div>
 </div>,
   <div
-    className="MuiGrid-container-2"
+    className="MuiGrid-container-1"
     style={
         Object {
             "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
+            "paddingTop": "35px",
           }
     }
 >
     <div
-        className="MuiGrid-item-3 MuiGrid-grid-xs-12-40 MuiGrid-grid-sm-8-49 MuiGrid-grid-md-6-60 Component-grid-1"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 Component-grid-92"
         style={
             Object {
+                "paddingTop": "5%",
                 "position": "relative",
               }
         }
@@ -172,21 +176,431 @@ Array [
             Equipe
         </h1>
     </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-align-content-xs-center-13 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <img
+            alt="Crew Mmmber image"
+            src="https://via.placeholder.com/150x200"
+            style={
+                Object {
+                    "display": "block",
+                    "margin": "0 auto",
+                    "maxWidth": "100%",
+                  }
+            }
+        />
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Jhon Doe
+        </p>
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-align-content-xs-center-13 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <img
+            alt="Crew Mmmber image"
+            src="https://via.placeholder.com/150x200"
+            style={
+                Object {
+                    "display": "block",
+                    "margin": "0 auto",
+                    "maxWidth": "100%",
+                  }
+            }
+        />
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Jhon Doe
+        </p>
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-align-content-xs-center-13 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <img
+            alt="Crew Mmmber image"
+            src="https://via.placeholder.com/150x200"
+            style={
+                Object {
+                    "display": "block",
+                    "margin": "0 auto",
+                    "maxWidth": "100%",
+                  }
+            }
+        />
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Jhon Doe
+        </p>
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-align-content-xs-center-13 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <img
+            alt="Crew Mmmber image"
+            src="https://via.placeholder.com/150x200"
+            style={
+                Object {
+                    "display": "block",
+                    "margin": "0 auto",
+                    "maxWidth": "100%",
+                  }
+            }
+        />
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Jhon Doe
+        </p>
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-align-content-xs-center-13 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <img
+            alt="Crew Mmmber image"
+            src="https://via.placeholder.com/150x200"
+            style={
+                Object {
+                    "display": "block",
+                    "margin": "0 auto",
+                    "maxWidth": "100%",
+                  }
+            }
+        />
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Jhon Doe
+        </p>
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-align-content-xs-center-13 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <img
+            alt="Crew Mmmber image"
+            src="https://via.placeholder.com/150x200"
+            style={
+                Object {
+                    "display": "block",
+                    "margin": "0 auto",
+                    "maxWidth": "100%",
+                  }
+            }
+        />
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Jhon Doe
+        </p>
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-align-content-xs-center-13 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <img
+            alt="Crew Mmmber image"
+            src="https://via.placeholder.com/150x200"
+            style={
+                Object {
+                    "display": "block",
+                    "margin": "0 auto",
+                    "maxWidth": "100%",
+                  }
+            }
+        />
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Jhon Doe
+        </p>
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-align-content-xs-center-13 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <img
+            alt="Crew Mmmber image"
+            src="https://via.placeholder.com/150x200"
+            style={
+                Object {
+                    "display": "block",
+                    "margin": "0 auto",
+                    "maxWidth": "100%",
+                  }
+            }
+        />
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Jhon Doe
+        </p>
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
 </div>,
   <div
-    className="MuiGrid-container-2"
+    className="MuiGrid-container-1"
     style={
         Object {
             "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
+            "paddingTop": "35px",
           }
     }
 >
     <div
-        className="MuiGrid-item-3 MuiGrid-grid-xs-12-40 MuiGrid-grid-sm-8-49 MuiGrid-grid-md-6-60 Component-grid-1"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 Component-grid-92"
         style={
             Object {
+                "paddingTop": "5%",
                 "position": "relative",
               }
         }
@@ -208,19 +622,21 @@ Array [
     </div>
 </div>,
   <div
-    className="MuiGrid-container-2"
+    className="MuiGrid-container-1"
     style={
         Object {
             "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
+            "paddingTop": "35px",
           }
     }
 >
     <div
-        className="MuiGrid-item-3 MuiGrid-grid-xs-12-40 MuiGrid-grid-sm-8-49 MuiGrid-grid-md-6-60 Component-grid-1"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 Component-grid-92"
         style={
             Object {
+                "paddingTop": "5%",
                 "position": "relative",
               }
         }
