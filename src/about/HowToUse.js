@@ -15,7 +15,7 @@ export default props => (
     <Image>
       <img
         src="https://images.template.net/wp-content/uploads/2016/03/17133511/Vector-Infographic-Report-Template-Premium-Download.jpg"
-        alt="placeholder image"
+        alt=""
         style={{ maxWidth: '100%', padding: '3%' }}
       />
     </Image>

@@ -1,56 +1,77 @@
-const name = 'Jhon Doe'
-const image = 'https://via.placeholder.com/150x200'
-const job = 'Job do integrante'
-const description =
+const temporaryImage = 'https://via.placeholder.com/200x200'
+const temporaryJob = 'Job do integrante'
+const temporaryDescription =
   'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.'
 
 export default [
   {
-    name,
-    image,
-    job,
-    description,
+    id: 1,
+    name: 'Manuela Yamada',
+    image: temporaryImage,
+    job: temporaryJob,
+    description: temporaryDescription,
   },
   {
-    name,
-    image,
-    job,
-    description,
+    id: 2,
+    name: 'Bernardo Ferracioli',
+    image: temporaryImage,
+    job: temporaryJob,
+    description: temporaryDescription,
   },
   {
-    name,
-    image,
-    job,
-    description,
+    id: 3,
+    name: 'Bruno Temer',
+    image: temporaryImage,
+    job: temporaryJob,
+    description: temporaryDescription,
   },
   {
-    name,
-    image,
-    job,
-    description,
+    id: 4,
+    name: 'Pedro Themoteo',
+    image: temporaryImage,
+    job: temporaryJob,
+    description: temporaryDescription,
   },
   {
-    name,
-    image,
-    job,
-    description,
+    id: 5,
+    name: 'Daniele Valente',
+    image: temporaryImage,
+    job: temporaryJob,
+    description: temporaryDescription,
   },
   {
-    name,
-    image,
-    job,
-    description,
+    id: 6,
+    name: 'Elisa Ferreira',
+    image: temporaryImage,
+    job: temporaryJob,
+    description: temporaryDescription,
   },
   {
-    name,
-    image,
-    job,
-    description,
+    id: 7,
+    name: 'Victor Lanari',
+    image: temporaryImage,
+    job: temporaryJob,
+    description: temporaryDescription,
   },
   {
-    name,
-    image,
-    job,
-    description,
+    id: 8,
+    name: 'Dahyna Ribeiro',
+    image: temporaryImage,
+    job: temporaryJob,
+    description: temporaryDescription,
+  },
+  {
+    id: 9,
+    name: 'Bernardo Mattos',
+    image: temporaryImage,
+    job: temporaryJob,
+    description: temporaryDescription,
+  },
+  {
+    id: 10,
+    name: 'Seasoned',
+    image: temporaryImage,
+    job: temporaryJob,
+    description: temporaryDescription,
   },
 ]

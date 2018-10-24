@@ -11,10 +11,10 @@ export default props => {
     <Session {...props}>
       <Title>Equipe</Title>
 
-      {map(List, ({ name, image, job, description }) => {
+      {map(List, ({ id, name, image, job, description }) => {
         return (
           <CrewMember
-            key={name}
+            key={id}
             image={image}
             name={name}
             job={job}

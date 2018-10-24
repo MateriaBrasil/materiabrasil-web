@@ -189,24 +189,33 @@ Array [
         </div>
     </div>
     <div
-        className="MuiGrid-item-2 MuiGrid-align-content-xs-center-13 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
         style={
             Object {
                 "padding": 20,
               }
         }
     >
-        <img
-            alt="Crew Mmmber image"
-            src="https://via.placeholder.com/150x200"
+        <div
+            className="MuiAvatar-root-120"
             style={
                 Object {
                     "display": "block",
+                    "height": 200,
                     "margin": "0 auto",
                     "maxWidth": "100%",
+                    "width": 200,
                   }
             }
-        />
+        >
+            <img
+                alt="Jhon Doe - foto"
+                className="MuiAvatar-img-122"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
         <p
             style={
                 Object {
@@ -240,24 +249,33 @@ Array [
         </p>
     </div>
     <div
-        className="MuiGrid-item-2 MuiGrid-align-content-xs-center-13 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
         style={
             Object {
                 "padding": 20,
               }
         }
     >
-        <img
-            alt="Crew Mmmber image"
-            src="https://via.placeholder.com/150x200"
+        <div
+            className="MuiAvatar-root-120"
             style={
                 Object {
                     "display": "block",
+                    "height": 200,
                     "margin": "0 auto",
                     "maxWidth": "100%",
+                    "width": 200,
                   }
             }
-        />
+        >
+            <img
+                alt="Jhon Doe - foto"
+                className="MuiAvatar-img-122"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
         <p
             style={
                 Object {
@@ -291,24 +309,33 @@ Array [
         </p>
     </div>
     <div
-        className="MuiGrid-item-2 MuiGrid-align-content-xs-center-13 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
         style={
             Object {
                 "padding": 20,
               }
         }
     >
-        <img
-            alt="Crew Mmmber image"
-            src="https://via.placeholder.com/150x200"
+        <div
+            className="MuiAvatar-root-120"
             style={
                 Object {
                     "display": "block",
+                    "height": 200,
                     "margin": "0 auto",
                     "maxWidth": "100%",
+                    "width": 200,
                   }
             }
-        />
+        >
+            <img
+                alt="Jhon Doe - foto"
+                className="MuiAvatar-img-122"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
         <p
             style={
                 Object {
@@ -342,24 +369,33 @@ Array [
         </p>
     </div>
     <div
-        className="MuiGrid-item-2 MuiGrid-align-content-xs-center-13 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
         style={
             Object {
                 "padding": 20,
               }
         }
     >
-        <img
-            alt="Crew Mmmber image"
-            src="https://via.placeholder.com/150x200"
+        <div
+            className="MuiAvatar-root-120"
             style={
                 Object {
                     "display": "block",
+                    "height": 200,
                     "margin": "0 auto",
                     "maxWidth": "100%",
+                    "width": 200,
                   }
             }
-        />
+        >
+            <img
+                alt="Jhon Doe - foto"
+                className="MuiAvatar-img-122"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
         <p
             style={
                 Object {
@@ -393,24 +429,33 @@ Array [
         </p>
     </div>
     <div
-        className="MuiGrid-item-2 MuiGrid-align-content-xs-center-13 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
         style={
             Object {
                 "padding": 20,
               }
         }
     >
-        <img
-            alt="Crew Mmmber image"
-            src="https://via.placeholder.com/150x200"
+        <div
+            className="MuiAvatar-root-120"
             style={
                 Object {
                     "display": "block",
+                    "height": 200,
                     "margin": "0 auto",
                     "maxWidth": "100%",
+                    "width": 200,
                   }
             }
-        />
+        >
+            <img
+                alt="Jhon Doe - foto"
+                className="MuiAvatar-img-122"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
         <p
             style={
                 Object {
@@ -444,24 +489,33 @@ Array [
         </p>
     </div>
     <div
-        className="MuiGrid-item-2 MuiGrid-align-content-xs-center-13 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
         style={
             Object {
                 "padding": 20,
               }
         }
     >
-        <img
-            alt="Crew Mmmber image"
-            src="https://via.placeholder.com/150x200"
+        <div
+            className="MuiAvatar-root-120"
             style={
                 Object {
                     "display": "block",
+                    "height": 200,
                     "margin": "0 auto",
                     "maxWidth": "100%",
+                    "width": 200,
                   }
             }
-        />
+        >
+            <img
+                alt="Jhon Doe - foto"
+                className="MuiAvatar-img-122"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
         <p
             style={
                 Object {
@@ -495,24 +549,33 @@ Array [
         </p>
     </div>
     <div
-        className="MuiGrid-item-2 MuiGrid-align-content-xs-center-13 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
         style={
             Object {
                 "padding": 20,
               }
         }
     >
-        <img
-            alt="Crew Mmmber image"
-            src="https://via.placeholder.com/150x200"
+        <div
+            className="MuiAvatar-root-120"
             style={
                 Object {
                     "display": "block",
+                    "height": 200,
                     "margin": "0 auto",
                     "maxWidth": "100%",
+                    "width": 200,
                   }
             }
-        />
+        >
+            <img
+                alt="Jhon Doe - foto"
+                className="MuiAvatar-img-122"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
         <p
             style={
                 Object {
@@ -546,24 +609,33 @@ Array [
         </p>
     </div>
     <div
-        className="MuiGrid-item-2 MuiGrid-align-content-xs-center-13 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
         style={
             Object {
                 "padding": 20,
               }
         }
     >
-        <img
-            alt="Crew Mmmber image"
-            src="https://via.placeholder.com/150x200"
+        <div
+            className="MuiAvatar-root-120"
             style={
                 Object {
                     "display": "block",
+                    "height": 200,
                     "margin": "0 auto",
                     "maxWidth": "100%",
+                    "width": 200,
                   }
             }
-        />
+        >
+            <img
+                alt="Jhon Doe - foto"
+                className="MuiAvatar-img-122"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
         <p
             style={
                 Object {
