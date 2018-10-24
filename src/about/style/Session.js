@@ -6,7 +6,8 @@ export default props => {
     <Grid
       container
       style={{
-        backgroundImage: 'url("https://picsum.photos/g/1920/900/?random")',
+        backgroundImage:
+          'url("https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")',
         backgroundPosition: 'center',
         paddingTop: '35px',
         backgroundSize: 'cover',

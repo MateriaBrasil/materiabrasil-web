@@ -11,7 +11,7 @@ Array [
     className="MuiGrid-container-1"
     style={
         Object {
-            "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
+            "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
             "paddingTop": "35px",
@@ -27,42 +27,49 @@ Array [
               }
         }
     >
+        <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-8-48 MuiGrid-grid-md-6-59 Component-grid-93"
+        >
+            <h1
+                className="MuiTypography-root-94 MuiTypography-display2-97 MuiTypography-colorInherit-113 text"
+                style={
+                    Object {
+                        "color": "#fff",
+                        "display": "inline-block",
+                        "fontWeight": 300,
+                        "verticalAlign": "middle",
+                      }
+                }
+            >
+                Objetivo
+            </h1>
+        </div>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-8-48 MuiGrid-grid-md-6-59 Component-grid-93"
+    >
         <h1
-            className="MuiTypography-root-93 MuiTypography-display2-96 MuiTypography-colorInherit-112 text"
+            className="MuiTypography-root-94 MuiTypography-display2-97 MuiTypography-colorInherit-113 text"
             style={
                 Object {
                     "color": "#fff",
                     "display": "inline-block",
-                    "fontWeight": 500,
-                    "marginBottom": 40,
+                    "fontWeight": 300,
                     "verticalAlign": "middle",
                   }
             }
         >
-            Objetivo
+            O objetivo da MateriaMundi oferecer acesso à informação de qualidade e parâmetros para que seus usuários possam escolher alternativas comercialmente disponíveis e socioambiental responsáveis para os desafios do dia a dia, variando desde o que vestimos até como construímos nossas casas.
+            <br />
+            Através da criação de uma comunidade ativa a plataforma permite a criação de conhecimento compartilhado sobre ações práticas para uma forma de projetar, produzir e consumir mais responsável com a sociedade e o meio ambiente.
         </h1>
     </div>
-    <h1
-        className="MuiTypography-root-93 MuiTypography-display2-96 MuiTypography-colorInherit-112 text"
-        style={
-            Object {
-                "color": "#fff",
-                "display": "inline-block",
-                "fontWeight": 300,
-                "verticalAlign": "middle",
-              }
-        }
-    >
-        O objetivo da MateriaMundi oferecer acesso à informação de qualidade e parâmetros para que seus usuários possam escolher alternativas comercialmente disponíveis e socioambiental responsáveis para os desafios do dia a dia, variando desde o que vestimos até como construímos nossas casas.
-        <br />
-        Através da criação de uma comunidade ativa a plataforma permite a criação de conhecimento compartilhado sobre ações práticas para uma forma de projetar, produzir e consumir mais responsável com a sociedade e o meio ambiente.
-    </h1>
 </div>,
   <div
     className="MuiGrid-container-1"
     style={
         Object {
-            "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
+            "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
             "paddingTop": "35px",
@@ -70,7 +77,7 @@ Array [
     }
 >
     <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 Component-grid-117"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 Component-grid-92"
         style={
             Object {
                 "paddingTop": "5%",
@@ -78,24 +85,26 @@ Array [
               }
         }
     >
-        <h1
-            className="MuiTypography-root-93 MuiTypography-display2-96 MuiTypography-colorInherit-112 text"
-            style={
-                Object {
-                    "color": "#fff",
-                    "fontWeight": 500,
-                    "position": "absolute",
-                    "top": "8%",
-                    "verticalAlign": "middle",
-                    "width": "100%",
-                  }
-            }
+        <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-8-48 MuiGrid-grid-md-6-59 Component-grid-93"
         >
-            Como usar
-        </h1>
+            <h1
+                className="MuiTypography-root-94 MuiTypography-display2-97 MuiTypography-colorInherit-113 text"
+                style={
+                    Object {
+                        "color": "#fff",
+                        "display": "inline-block",
+                        "fontWeight": 300,
+                        "verticalAlign": "middle",
+                      }
+                }
+            >
+                Como usar
+            </h1>
+        </div>
     </div>
     <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-8-48 MuiGrid-grid-md-6-59 Component-grid-117"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-8-48 MuiGrid-grid-md-6-59 Component-grid-118"
         style={
             Object {
                 "paddingTop": "35%",
@@ -127,7 +136,7 @@ Array [
         />
     </div>
     <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 Component-grid-117"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 Component-grid-119"
     >
         <img
             alt="placeholder image"
@@ -145,7 +154,7 @@ Array [
     className="MuiGrid-container-1"
     style={
         Object {
-            "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
+            "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
             "paddingTop": "35px",
@@ -161,20 +170,23 @@ Array [
               }
         }
     >
-        <h1
-            className="MuiTypography-root-93 MuiTypography-display2-96 MuiTypography-colorInherit-112 text"
-            style={
-                Object {
-                    "color": "#fff",
-                    "display": "inline-block",
-                    "fontWeight": 500,
-                    "marginBottom": 40,
-                    "verticalAlign": "middle",
-                  }
-            }
+        <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-8-48 MuiGrid-grid-md-6-59 Component-grid-93"
         >
-            Equipe
-        </h1>
+            <h1
+                className="MuiTypography-root-94 MuiTypography-display2-97 MuiTypography-colorInherit-113 text"
+                style={
+                    Object {
+                        "color": "#fff",
+                        "display": "inline-block",
+                        "fontWeight": 300,
+                        "verticalAlign": "middle",
+                      }
+                }
+            >
+                Equipe
+            </h1>
+        </div>
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-align-content-xs-center-13 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46 MuiGrid-grid-md-4-57 MuiGrid-grid-lg-3-69"
@@ -589,7 +601,7 @@ Array [
     className="MuiGrid-container-1"
     style={
         Object {
-            "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
+            "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
             "paddingTop": "35px",
@@ -605,27 +617,30 @@ Array [
               }
         }
     >
-        <h1
-            className="MuiTypography-root-93 MuiTypography-display2-96 MuiTypography-colorInherit-112 text"
-            style={
-                Object {
-                    "color": "#fff",
-                    "display": "inline-block",
-                    "fontWeight": 500,
-                    "marginBottom": 40,
-                    "verticalAlign": "middle",
-                  }
-            }
+        <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-8-48 MuiGrid-grid-md-6-59 Component-grid-93"
         >
-            Board
-        </h1>
+            <h1
+                className="MuiTypography-root-94 MuiTypography-display2-97 MuiTypography-colorInherit-113 text"
+                style={
+                    Object {
+                        "color": "#fff",
+                        "display": "inline-block",
+                        "fontWeight": 300,
+                        "verticalAlign": "middle",
+                      }
+                }
+            >
+                Board
+            </h1>
+        </div>
     </div>
 </div>,
   <div
     className="MuiGrid-container-1"
     style={
         Object {
-            "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
+            "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
             "paddingTop": "35px",
@@ -641,20 +656,23 @@ Array [
               }
         }
     >
-        <h1
-            className="MuiTypography-root-93 MuiTypography-display2-96 MuiTypography-colorInherit-112 text"
-            style={
-                Object {
-                    "color": "#fff",
-                    "display": "inline-block",
-                    "fontWeight": 500,
-                    "marginBottom": 40,
-                    "verticalAlign": "middle",
-                  }
-            }
+        <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-8-48 MuiGrid-grid-md-6-59 Component-grid-93"
         >
-            Direcionadores
-        </h1>
+            <h1
+                className="MuiTypography-root-94 MuiTypography-display2-97 MuiTypography-colorInherit-113 text"
+                style={
+                    Object {
+                        "color": "#fff",
+                        "display": "inline-block",
+                        "fontWeight": 300,
+                        "verticalAlign": "middle",
+                      }
+                }
+            >
+                Direcionadores
+            </h1>
+        </div>
     </div>
 </div>,
 ]
