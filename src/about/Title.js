@@ -7,9 +7,9 @@ import gridStyle from './gridStyle'
 
 export default withStyles(gridStyle)(props => (
   <Grid
-    className={props.classes.grid}
-    xs={12}
     item
+    xs={12}
+    className={props.classes.grid}
     style={{
       paddingTop: '5%',
       position: 'relative',

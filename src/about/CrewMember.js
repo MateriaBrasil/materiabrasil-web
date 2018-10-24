@@ -4,7 +4,7 @@ import Avatar from '@material-ui/core/Avatar'
 import Typography from '@material-ui/core/Typography'
 
 export default props => (
-  <Grid xs={12} sm={6} md={4} lg={3} item style={{ padding: 20 }}>
+  <Grid item xs={12} sm={6} md={4} lg={3} style={{ padding: 20 }}>
     <Avatar
       alt={props.name + ' - foto'}
       src={props.image}

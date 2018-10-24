@@ -8,8 +8,8 @@ import gridStyle from './gridStyle'
 export default withStyles(gridStyle)(props => (
   <Grid
     item
-    sm={8}
     xs={12}
+    sm={8}
     md={6}
     className={props.classes.grid}
     style={{
