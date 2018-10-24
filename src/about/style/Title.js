@@ -3,24 +3,9 @@ import Grid from '@material-ui/core/Grid'
 import { withStyles } from '@material-ui/core/styles'
 
 import Paragraph from './Paragraph'
+import Style from './Style'
 
-const styles = theme => ({
-  grid: {
-    [theme.breakpoints.down('md')]: {
-      padding: '100px 0',
-    },
-    [theme.breakpoints.down('xs')]: {
-      padding: '50px 0',
-    },
-    position: 'relative',
-    padding: '100px 0',
-    margin: '0 auto',
-    overflow: 'hidden',
-    textAlign: 'center',
-  },
-})
-
-export default withStyles(styles)(props => (
+export default withStyles(Style)(props => (
   <Grid
     className={props.classes.grid}
     xs={12}
