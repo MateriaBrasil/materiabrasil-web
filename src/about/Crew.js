@@ -1,15 +1,15 @@
 import React from 'react'
 import map from 'lodash/map'
 
-import SessionGrid from './SessionGrid'
-import CrewMember from './CrewMember'
+import Session from './style/Session'
+import CrewMember from './style/CrewMemberStyle'
+import TitleStyle from './style/TitleStyle'
 import List from './CrewMembersList'
-import TitleGrid from './TitleGrid'
 
 export default props => {
   return (
-    <SessionGrid {...props}>
-      <TitleGrid>Equipe</TitleGrid>
+    <Session {...props}>
+      <TitleStyle>Equipe</TitleStyle>
 
       {map(List, ({ name, image, job, description }) => {
         return (
@@ -22,6 +22,6 @@ export default props => {
           />
         )
       })}
-    </SessionGrid>
+    </Session>
   )
 }
