@@ -28,7 +28,17 @@ export default withStyles(styles)(props => {
         backgroundPosition: 'center',
       }}
     >
-      <Grid item xs={12} sm={8} md={6} className={props.classes.grid}>
+      <Grid
+        item
+        xs={12}
+        sm={8}
+        md={6}
+        className={props.classes.grid}
+        style={{
+          ...(props.isVideo && { paddingTop: '35%' }),
+          position: 'relative',
+        }}
+      >
         {props.children}
       </Grid>
     </Grid>

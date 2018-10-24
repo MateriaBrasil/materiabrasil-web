@@ -2,8 +2,8 @@ import React, { Fragment } from 'react'
 import Typography from '@material-ui/core/Typography'
 
 import Grid from '../InstitutionalPagesGrid'
-import Video from '../Video'
 import NavBar from '../navBar/NavBar'
+import HowToUse from './HowToUse'
 import TextTitle from './TextTitle'
 
 export default props => routeProps => (
@@ -36,24 +36,7 @@ export default props => routeProps => (
       </Typography>
     </Grid>
 
-    <Grid isVideo>
-      <Typography
-        variant="display2"
-        color="inherit"
-        className="text"
-        style={{
-          width: '100%',
-          position: 'absolute',
-          top: '8%',
-          color: '#fff',
-          verticalAlign: 'middle',
-          fontWeight: 500,
-        }}
-      >
-        Como usar
-      </Typography>
-      <Video />
-    </Grid>
+    <HowToUse />
 
     <Grid>
       <TextTitle>Equipe</TextTitle>
