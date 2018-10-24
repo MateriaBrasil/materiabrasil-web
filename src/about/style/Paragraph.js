@@ -8,7 +8,7 @@ import Style from './Style'
 export default withStyles(Style)(props => (
   <Grid item xs={12} sm={8} md={6} className={props.classes.grid}>
     <Typography
-      variant="display2"
+      variant="h3"
       color="inherit"
       className="text"
       style={{
