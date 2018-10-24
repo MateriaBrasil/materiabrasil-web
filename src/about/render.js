@@ -1,16 +1,17 @@
 import React, { Fragment } from 'react'
 import Typography from '@material-ui/core/Typography'
 
-import Grid from '../InstitutionalPagesGrid'
+import ExternalGrid from './ExternalGrid'
 import NavBar from '../navBar/NavBar'
+import TitleGrid from './TitleGrid'
 import HowToUse from './HowToUse'
-import TextTitle from './TextTitle'
+import Crew from './Crew'
 
 export default props => routeProps => (
   <Fragment>
     <NavBar {...props} isInstitutionalPage />
-    <Grid>
-      <TextTitle>Objetivo</TextTitle>
+    <ExternalGrid>
+      <TitleGrid>Objetivo</TitleGrid>
 
       <Typography
         variant="display2"
@@ -34,20 +35,18 @@ export default props => routeProps => (
         forma de projetar, produzir e consumir mais responsável com a sociedade
         e o meio ambiente.
       </Typography>
-    </Grid>
+    </ExternalGrid>
 
     <HowToUse />
 
-    <Grid>
-      <TextTitle>Equipe</TextTitle>
-    </Grid>
+    <Crew />
 
-    <Grid>
-      <TextTitle>Board</TextTitle>
-    </Grid>
+    <ExternalGrid>
+      <TitleGrid>Board</TitleGrid>
+    </ExternalGrid>
 
-    <Grid>
-      <TextTitle>Direcionadores</TextTitle>
-    </Grid>
+    <ExternalGrid>
+      <TitleGrid>Direcionadores</TitleGrid>
+    </ExternalGrid>
   </Fragment>
 )
