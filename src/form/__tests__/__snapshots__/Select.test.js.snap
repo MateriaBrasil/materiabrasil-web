@@ -4,8 +4,6 @@ exports[`renders correctly 1`] = `
 <div
   aria-describedby="name-error-text"
   className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
-  onBlur={[Function]}
-  onFocus={[Function]}
 >
   <div
     bar="foo"
@@ -15,7 +13,7 @@ exports[`renders correctly 1`] = `
     select={true}
   >
     <li
-      className="MuiButtonBase-root-17 MuiListItem-root-7 MuiListItem-default-10 MuiListItem-gutters-14 MuiListItem-button-15 MuiMenuItem-root-5"
+      className="MuiButtonBase-root-18 MuiListItem-root-7 MuiListItem-default-10 MuiListItem-gutters-14 MuiListItem-button-15 MuiMenuItem-root-5"
       onBlur={[Function]}
       onFocus={[Function]}
       onKeyDown={[Function]}
@@ -32,11 +30,11 @@ exports[`renders correctly 1`] = `
     >
       foo1-label
       <span
-        className="MuiTouchRipple-root-20"
+        className="MuiTouchRipple-root-29"
       />
     </li>
     <li
-      className="MuiButtonBase-root-17 MuiListItem-root-7 MuiListItem-default-10 MuiListItem-gutters-14 MuiListItem-button-15 MuiMenuItem-root-5"
+      className="MuiButtonBase-root-18 MuiListItem-root-7 MuiListItem-default-10 MuiListItem-gutters-14 MuiListItem-button-15 MuiMenuItem-root-5"
       onBlur={[Function]}
       onFocus={[Function]}
       onKeyDown={[Function]}
@@ -53,11 +51,11 @@ exports[`renders correctly 1`] = `
     >
       foo2-label
       <span
-        className="MuiTouchRipple-root-20"
+        className="MuiTouchRipple-root-29"
       />
     </li>
     <li
-      className="MuiButtonBase-root-17 MuiListItem-root-7 MuiListItem-default-10 MuiListItem-gutters-14 MuiListItem-button-15 MuiMenuItem-root-5"
+      className="MuiButtonBase-root-18 MuiListItem-root-7 MuiListItem-default-10 MuiListItem-gutters-14 MuiListItem-button-15 MuiMenuItem-root-5"
       onBlur={[Function]}
       onFocus={[Function]}
       onKeyDown={[Function]}
@@ -74,12 +72,12 @@ exports[`renders correctly 1`] = `
     >
       foo3-label
       <span
-        className="MuiTouchRipple-root-20"
+        className="MuiTouchRipple-root-29"
       />
     </li>
   </div>
   <p
-    className="MuiFormHelperText-root-27 MuiFormHelperText-error-28"
+    className="MuiFormHelperText-root-21 MuiFormHelperText-error-22"
     id="name-error-text"
   >
     bar

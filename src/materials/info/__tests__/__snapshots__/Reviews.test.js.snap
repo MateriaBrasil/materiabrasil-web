@@ -31,7 +31,7 @@ exports[`renders correctly 1`] = `
   >
     Link - 
     <button
-      className="MuiButtonBase-root-17 MuiButton-root-1"
+      className="MuiButtonBase-root-27 MuiButton-root-1 MuiButton-text-3 MuiButton-flat-6"
       disabled={false}
       onBlur={[Function]}
       onFocus={[Function]}
@@ -57,7 +57,7 @@ exports[`renders correctly 1`] = `
         Avaliar
       </span>
       <span
-        className="MuiTouchRipple-root-20"
+        className="MuiTouchRipple-root-30"
       />
     </button>
   </div>
@@ -95,7 +95,7 @@ exports[`with averageRating renders correctly 1`] = `
   >
     Link - 
     <button
-      className="MuiButtonBase-root-17 MuiButton-root-1"
+      className="MuiButtonBase-root-27 MuiButton-root-1 MuiButton-text-3 MuiButton-flat-6"
       disabled={false}
       onBlur={[Function]}
       onFocus={[Function]}
@@ -121,7 +121,7 @@ exports[`with averageRating renders correctly 1`] = `
         Avaliar
       </span>
       <span
-        className="MuiTouchRipple-root-20"
+        className="MuiTouchRipple-root-30"
       />
     </button>
   </div>
@@ -136,7 +136,7 @@ exports[`with averageRating renders correctly 1`] = `
   >
     Link - 
     <button
-      className="MuiButtonBase-root-17 MuiButton-root-1"
+      className="MuiButtonBase-root-27 MuiButton-root-1 MuiButton-text-3 MuiButton-flat-6"
       disabled={false}
       onBlur={[Function]}
       onFocus={[Function]}
@@ -162,7 +162,7 @@ exports[`with averageRating renders correctly 1`] = `
         Ver avaliações
       </span>
       <span
-        className="MuiTouchRipple-root-20"
+        className="MuiTouchRipple-root-30"
       />
     </button>
   </div>
@@ -193,7 +193,7 @@ exports[`with current user renders correctly 1`] = `
   >
     Link - 
     <button
-      className="MuiButtonBase-root-17 MuiButton-root-1"
+      className="MuiButtonBase-root-27 MuiButton-root-1 MuiButton-text-3 MuiButton-flat-6"
       disabled={false}
       onBlur={[Function]}
       onFocus={[Function]}
@@ -219,7 +219,7 @@ exports[`with current user renders correctly 1`] = `
         Avaliar
       </span>
       <span
-        className="MuiTouchRipple-root-20"
+        className="MuiTouchRipple-root-30"
       />
     </button>
   </div>
