@@ -48,7 +48,7 @@ exports[`renders correctly 1`] = `
       Error
     </div>
     <button
-      className="MuiButtonBase-root-47 MuiButton-root-31 MuiButton-raised-37 MuiButton-raisedPrimary-38"
+      className="MuiButtonBase-root-68 MuiButton-root-42 MuiButton-contained-53 MuiButton-containedPrimary-54 MuiButton-raised-56 MuiButton-raisedPrimary-57"
       disabled={false}
       onBlur={[Function]}
       onFocus={[Function]}
@@ -70,12 +70,12 @@ exports[`renders correctly 1`] = `
       type="submit"
     >
       <span
-        className="MuiButton-label-32"
+        className="MuiButton-label-43"
       >
         Alterar senha
       </span>
       <span
-        className="MuiTouchRipple-root-50"
+        className="MuiTouchRipple-root-71"
       />
     </button>
   </form>
@@ -130,7 +130,7 @@ exports[`with error renders correctly 1`] = `
       Error
     </div>
     <button
-      className="MuiButtonBase-root-47 MuiButton-root-31 MuiButton-raised-37 MuiButton-raisedPrimary-38"
+      className="MuiButtonBase-root-68 MuiButton-root-42 MuiButton-contained-53 MuiButton-containedPrimary-54 MuiButton-raised-56 MuiButton-raisedPrimary-57"
       disabled={false}
       onBlur={[Function]}
       onFocus={[Function]}
@@ -152,12 +152,12 @@ exports[`with error renders correctly 1`] = `
       type="submit"
     >
       <span
-        className="MuiButton-label-32"
+        className="MuiButton-label-43"
       >
         Alterar senha
       </span>
       <span
-        className="MuiTouchRipple-root-50"
+        className="MuiTouchRipple-root-71"
       />
     </button>
   </form>

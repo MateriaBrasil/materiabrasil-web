@@ -14,7 +14,7 @@ export default props => {
     <Grid item xs={12}>
       {(isOwner || materials) && (
         <Typography
-          variant="headline"
+          variant="h5"
           color="textSecondary"
           style={{ display: 'inline-block', marginBottom: 32 }}
         >
@@ -30,7 +30,7 @@ export default props => {
             textDecoration: 'none',
           }}
         >
-          <Button variant="raised" color="primary">
+          <Button variant="contained" color="primary">
             Cadastrar material
           </Button>
         </Link>

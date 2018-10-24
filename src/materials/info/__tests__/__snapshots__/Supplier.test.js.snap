@@ -8,11 +8,11 @@ exports[`renders correctly 1`] = `
     }
   }
 >
-  <h2
-    className="MuiTypography-root-1 MuiTypography-title-7 MuiTypography-colorTextSecondary-23 MuiTypography-gutterBottom-18"
+  <h6
+    className="MuiTypography-root-1 MuiTypography-h6-18 MuiTypography-colorTextSecondary-34 MuiTypography-gutterBottom-28"
   >
     Fornecedor
-  </h2>
+  </h6>
   <div
     pathname={undefined}
     text="para ver o contato do fornecedor."
@@ -30,13 +30,13 @@ exports[`with current user renders correctly 1`] = `
     }
   }
 >
-  <h2
-    className="MuiTypography-root-1 MuiTypography-title-7 MuiTypography-colorTextSecondary-23 MuiTypography-gutterBottom-18"
+  <h6
+    className="MuiTypography-root-1 MuiTypography-h6-18 MuiTypography-colorTextSecondary-34 MuiTypography-gutterBottom-28"
   >
     Fornecedor
-  </h2>
-  <h3
-    className="MuiTypography-root-1 MuiTypography-subheading-8"
+  </h6>
+  <h6
+    className="MuiTypography-root-1 MuiTypography-subtitle1-19"
     style={
       Object {
         "marginBottom": 10,
@@ -53,7 +53,7 @@ exports[`with current user renders correctly 1`] = `
   >
     Link - 
     <button
-      className="MuiButtonBase-root-41 MuiButton-root-25 MuiButton-raised-31 MuiButton-raisedPrimary-32"
+      className="MuiButtonBase-root-62 MuiButton-root-36 MuiButton-contained-47 MuiButton-containedPrimary-48 MuiButton-raised-50 MuiButton-raisedPrimary-51"
       disabled={false}
       onBlur={[Function]}
       onFocus={[Function]}
@@ -69,12 +69,12 @@ exports[`with current user renders correctly 1`] = `
       type="button"
     >
       <span
-        className="MuiButton-label-26"
+        className="MuiButton-label-37"
       >
         Ver perfil
       </span>
       <span
-        className="MuiTouchRipple-root-44"
+        className="MuiTouchRipple-root-65"
       />
     </button>
   </div>

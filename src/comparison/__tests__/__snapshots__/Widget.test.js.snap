@@ -12,7 +12,7 @@ exports[`renders correctly when props.open == false 1`] = `
   }
 >
   <button
-    className="MuiButtonBase-root-17 MuiButton-root-1 MuiButton-raised-7 MuiButton-raisedPrimary-8"
+    className="MuiButtonBase-root-27 MuiButton-root-1 MuiButton-contained-12 MuiButton-containedPrimary-13 MuiButton-raised-15 MuiButton-raisedPrimary-16"
     disabled={false}
     onBlur={[Function]}
     onClick={[Function]}
@@ -34,9 +34,10 @@ exports[`renders correctly when props.open == false 1`] = `
       Comparação de materiais
       <svg
         aria-hidden="true"
-        className="MuiSvgIcon-root-20"
+        className="MuiSvgIcon-root-30"
         color={undefined}
         focusable="false"
+        role="presentation"
         style={
           Object {
             "marginLeft": 8,
@@ -44,15 +45,17 @@ exports[`renders correctly when props.open == false 1`] = `
         }
         viewBox="0 0 24 24"
       >
-        <g>
-          <path
-            d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"
-          />
-        </g>
+        <path
+          d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
       </svg>
     </span>
     <span
-      className="MuiTouchRipple-root-26"
+      className="MuiTouchRipple-root-39"
     />
   </button>
 </div>

@@ -40,7 +40,7 @@ export default class extends Component {
           />
         ) : (
           <Button
-            variant="raised"
+            variant="contained"
             color="primary"
             style={{ marginBottom: 24, marginRight: 24 }}
             onClick={() => this.fileInput.click()}

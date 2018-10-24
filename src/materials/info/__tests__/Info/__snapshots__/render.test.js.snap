@@ -2,10 +2,10 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="MuiGrid-container-1 MuiGrid-spacing-xs-16-23"
+  className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24"
 >
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
     style={
       Object {
         "marginBottom": 16,
@@ -72,7 +72,7 @@ exports[`renders correctly 1`] = `
     </div>
   </div>
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
     style={
       Object {
         "marginBottom": 16,
@@ -80,13 +80,13 @@ exports[`renders correctly 1`] = `
     }
   >
     <div
-      className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+      className="MuiPaper-root-99 MuiPaper-elevation1-102 MuiPaper-rounded-100 MuiCard-root-98"
     >
       <div
-        className="MuiCardContent-root-120"
+        className="MuiCardContent-root-126"
       >
-        <h1
-          className="MuiTypography-root-121 MuiTypography-display1-125"
+        <h4
+          className="MuiTypography-root-127 MuiTypography-h4-142"
           style={
             Object {
               "marginBottom": 24,
@@ -94,15 +94,15 @@ exports[`renders correctly 1`] = `
           }
         >
           Imagens
-        </h1>
+        </h4>
         <div
-          className="MuiGrid-container-1 MuiGrid-spacing-xs-24-24"
+          className="MuiGrid-container-1 MuiGrid-spacing-xs-24-25"
         >
           <div
-            className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-4-70"
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-4-75"
           >
-            <h1
-              className="MuiTypography-root-121 MuiTypography-headline-126"
+            <h5
+              className="MuiTypography-root-127 MuiTypography-h5-143"
               style={
                 Object {
                   "marginBottom": 16,
@@ -110,7 +110,7 @@ exports[`renders correctly 1`] = `
               }
             >
               Imagem para a lista
-            </h1>
+            </h5>
             <div
               to="/materials/undefined/listImage"
             >
@@ -173,10 +173,10 @@ exports[`renders correctly 1`] = `
             </div>
           </div>
           <div
-            className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-8-74"
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-8-79"
           >
-            <h1
-              className="MuiTypography-root-121 MuiTypography-headline-126"
+            <h5
+              className="MuiTypography-root-127 MuiTypography-h5-143"
               style={
                 Object {
                   "marginBottom": 16,
@@ -184,7 +184,7 @@ exports[`renders correctly 1`] = `
               }
             >
               Imagem para os destaques
-            </h1>
+            </h5>
             <div
               to="/materials/undefined/highlightImage"
             >
@@ -251,7 +251,7 @@ exports[`renders correctly 1`] = `
     </div>
   </div>
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-7-73"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-7-78"
     style={
       Object {
         "marginBottom": 16,
@@ -259,10 +259,10 @@ exports[`renders correctly 1`] = `
     }
   >
     <div
-      className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+      className="MuiPaper-root-99 MuiPaper-elevation1-102 MuiPaper-rounded-100 MuiCard-root-98"
     >
       <div
-        className="MuiCardContent-root-120"
+        className="MuiCardContent-root-126"
       >
         <div
           style={
@@ -319,13 +319,13 @@ exports[`renders correctly 1`] = `
             Favorites
           </div>
         </div>
-        <h1
-          className="MuiTypography-root-121 MuiTypography-display1-125"
+        <h4
+          className="MuiTypography-root-127 MuiTypography-h4-142"
         >
           foo
-        </h1>
+        </h4>
         <span
-          className="MuiTypography-root-121 MuiTypography-caption-131"
+          className="MuiTypography-root-127 MuiTypography-caption-137"
           style={
             Object {
               "marginBottom": 16,
@@ -344,7 +344,7 @@ exports[`renders correctly 1`] = `
           to="/materials/undefined/edit"
         >
           <button
-            className="MuiButtonBase-root-161 MuiButton-root-145 MuiButton-raised-151 MuiButton-raisedPrimary-152"
+            className="MuiButtonBase-root-188 MuiButton-root-162 MuiButton-contained-173 MuiButton-containedPrimary-174 MuiButton-raised-176 MuiButton-raisedPrimary-177"
             disabled={false}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -365,12 +365,12 @@ exports[`renders correctly 1`] = `
             type="button"
           >
             <span
-              className="MuiButton-label-146"
+              className="MuiButton-label-163"
             >
               Editar informações gerais
             </span>
             <span
-              className="MuiTouchRipple-root-164"
+              className="MuiTouchRipple-root-191"
             />
           </button>
         </div>
@@ -384,7 +384,7 @@ exports[`renders correctly 1`] = `
           to="/materials/undefined/categories"
         >
           <button
-            className="MuiButtonBase-root-161 MuiButton-root-145 MuiButton-raised-151 MuiButton-raisedPrimary-152"
+            className="MuiButtonBase-root-188 MuiButton-root-162 MuiButton-contained-173 MuiButton-containedPrimary-174 MuiButton-raised-176 MuiButton-raisedPrimary-177"
             disabled={false}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -405,12 +405,12 @@ exports[`renders correctly 1`] = `
             type="button"
           >
             <span
-              className="MuiButton-label-146"
+              className="MuiButton-label-163"
             >
               Editar informações técnicas
             </span>
             <span
-              className="MuiTouchRipple-root-164"
+              className="MuiTouchRipple-root-191"
             />
           </button>
         </div>
@@ -422,7 +422,7 @@ exports[`renders correctly 1`] = `
           }
         >
           <button
-            className="MuiButtonBase-root-161 MuiButton-root-145 MuiButton-raised-151 MuiButton-raisedPrimary-152"
+            className="MuiButtonBase-root-188 MuiButton-root-162 MuiButton-contained-173 MuiButton-containedPrimary-174 MuiButton-raised-176 MuiButton-raisedPrimary-177"
             disabled={false}
             onBlur={[Function]}
             onClick={[Function]}
@@ -445,14 +445,14 @@ exports[`renders correctly 1`] = `
             type="button"
           >
             <span
-              className="MuiButton-label-146"
+              className="MuiButton-label-163"
             >
               Enviar
               
                ficha técnica
             </span>
             <span
-              className="MuiTouchRipple-root-164"
+              className="MuiTouchRipple-root-191"
             />
           </button>
           <input
@@ -473,7 +473,7 @@ exports[`renders correctly 1`] = `
           }
         >
           <button
-            className="MuiButtonBase-root-161 MuiButton-root-145 MuiButton-raised-151 MuiButton-raisedPrimary-152"
+            className="MuiButtonBase-root-188 MuiButton-root-162 MuiButton-contained-173 MuiButton-containedPrimary-174 MuiButton-raised-176 MuiButton-raisedPrimary-177"
             disabled={false}
             onBlur={[Function]}
             onClick={[Function]}
@@ -496,12 +496,12 @@ exports[`renders correctly 1`] = `
             type="button"
           >
             <span
-              className="MuiButton-label-146"
+              className="MuiButton-label-163"
             >
               Enviar Certificações
             </span>
             <span
-              className="MuiTouchRipple-root-164"
+              className="MuiTouchRipple-root-191"
             />
           </button>
           <input
@@ -524,7 +524,7 @@ exports[`renders correctly 1`] = `
           to="/materials/undefined/indicators"
         >
           <button
-            className="MuiButtonBase-root-161 MuiButton-root-145 MuiButton-raised-151 MuiButton-raisedPrimary-152"
+            className="MuiButtonBase-root-188 MuiButton-root-162 MuiButton-contained-173 MuiButton-containedPrimary-174 MuiButton-raised-176 MuiButton-raisedPrimary-177"
             disabled={false}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -545,17 +545,17 @@ exports[`renders correctly 1`] = `
             type="button"
           >
             <span
-              className="MuiButton-label-146"
+              className="MuiButton-label-163"
             >
               Responder questionário
             </span>
             <span
-              className="MuiTouchRipple-root-164"
+              className="MuiTouchRipple-root-191"
             />
           </button>
         </div>
-        <h3
-          className="MuiTypography-root-121 MuiTypography-subheading-128"
+        <h6
+          className="MuiTypography-root-127 MuiTypography-subtitle1-145"
           style={
             Object {
               "marginBottom": 24,
@@ -563,7 +563,7 @@ exports[`renders correctly 1`] = `
           }
         >
           info
-        </h3>
+        </h6>
         <div
           style={
             Object {
@@ -588,7 +588,7 @@ exports[`renders correctly 1`] = `
             to="/materials/undefined/reviews/new"
           >
             <button
-              className="MuiButtonBase-root-161 MuiButton-root-145"
+              className="MuiButtonBase-root-188 MuiButton-root-162 MuiButton-text-164 MuiButton-flat-167"
               disabled={false}
               onBlur={[Function]}
               onFocus={[Function]}
@@ -609,12 +609,12 @@ exports[`renders correctly 1`] = `
               type="button"
             >
               <span
-                className="MuiButton-label-146"
+                className="MuiButton-label-163"
               >
                 Avaliar
               </span>
               <span
-                className="MuiTouchRipple-root-164"
+                className="MuiTouchRipple-root-191"
               />
             </button>
           </div>
@@ -623,7 +623,7 @@ exports[`renders correctly 1`] = `
     </div>
   </div>
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-5-71"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-5-76"
     style={
       Object {
         "marginBottom": 16,
@@ -631,10 +631,10 @@ exports[`renders correctly 1`] = `
     }
   >
     <div
-      className="MuiPaper-root-93 MuiPaper-elevation2-97 MuiPaper-rounded-94 MuiCard-root-92"
+      className="MuiPaper-root-99 MuiPaper-elevation1-102 MuiPaper-rounded-100 MuiCard-root-98"
     >
       <div
-        className="MuiCardContent-root-120"
+        className="MuiCardContent-root-126"
       >
         <div
           averagePrice="100"

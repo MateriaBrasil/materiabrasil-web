@@ -2,10 +2,10 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="MuiGrid-item-2 MuiGrid-grid-xs-12-39"
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
 >
   <p
-    className="MuiTypography-root-92 MuiTypography-body1-101 MuiTypography-colorInherit-111"
+    className="MuiTypography-root-98 MuiTypography-body1-107 MuiTypography-colorInherit-127"
   >
     <div
       style={

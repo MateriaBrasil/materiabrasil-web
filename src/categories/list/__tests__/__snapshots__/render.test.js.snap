@@ -10,8 +10,8 @@ exports[`render correctly 1`] = `
       }
     }
   >
-    <h3
-      className="MuiTypography-root-1 MuiTypography-subheading-8"
+    <h6
+      className="MuiTypography-root-1 MuiTypography-subtitle1-19"
       style={
         Object {
           "marginBottom": 20,
@@ -19,14 +19,14 @@ exports[`render correctly 1`] = `
       }
     >
       Filtros selecionados
-    </h3>
+    </h6>
     <p
       className="MuiTypography-root-1 MuiTypography-body1-10"
     >
       foo-name
     </p>
     <button
-      className="MuiButtonBase-root-41 MuiButton-root-25 MuiButton-outlined-29"
+      className="MuiButtonBase-root-62 MuiButton-root-36 MuiButton-outlined-44"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
@@ -48,12 +48,12 @@ exports[`render correctly 1`] = `
       type="button"
     >
       <span
-        className="MuiButton-label-26"
+        className="MuiButton-label-37"
       >
         Limpar filtros
       </span>
       <span
-        className="MuiTouchRipple-root-44"
+        className="MuiTouchRipple-root-65"
       />
     </button>
   </div>

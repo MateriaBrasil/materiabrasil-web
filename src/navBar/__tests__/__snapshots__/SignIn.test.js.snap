@@ -19,8 +19,8 @@ exports[`renders correctly 1`] = `
   }
 >
   Link - 
-  <h3
-    className="MuiTypography-root-1 MuiTypography-subheading-8 MuiTypography-colorInherit-20"
+  <h6
+    className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
     style={
       Object {
         "alignSelf": "center",
@@ -29,6 +29,6 @@ exports[`renders correctly 1`] = `
     }
   >
     Entrar
-  </h3>
+  </h6>
 </div>
 `;

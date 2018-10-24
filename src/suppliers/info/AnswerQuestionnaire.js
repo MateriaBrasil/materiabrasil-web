@@ -10,7 +10,7 @@ export default props => {
       style={{ textDecoration: 'none' }}
       to={`/suppliers/${id}/questionnaires`}
     >
-      <Button variant="raised" color="primary">
+      <Button variant="contained" color="primary">
         Responder questionários
       </Button>
     </Link>

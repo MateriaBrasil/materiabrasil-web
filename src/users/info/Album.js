@@ -7,7 +7,7 @@ export default ({ name, ...props }) => {
   return (
     <div>
       <Typography
-        variant="headline"
+        variant="h5"
         color="textSecondary"
         style={{ marginBottom: 16 }}
       >

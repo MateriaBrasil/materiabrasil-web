@@ -27,7 +27,7 @@ class Info extends Component {
         <Grid item xs={12} lg={4}>
           <Avatar name={name} editPath={editPath} imageUrl={imageUrl} />
           <Typography
-            variant="display1"
+            variant="h4"
             style={{ marginTop: 16, marginBottom: 16 }}
           >
             {name}

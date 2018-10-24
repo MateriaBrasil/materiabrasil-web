@@ -63,27 +63,25 @@ exports[`renders correctly 1`] = `
       <div
         aria-describedby="name-error-text"
         className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
-        onBlur={[Function]}
-        onFocus={[Function]}
       >
         <label
-          className="MuiFormLabel-root-10 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
+          className="MuiFormLabel-root-12 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
           data-shrink={false}
           htmlFor="name-error"
         >
           Nome do material
         </label>
         <div
-          className="MuiInput-root-15 MuiInput-formControl-16 MuiInput-underline-19"
+          className="MuiInputBase-root-32 MuiInput-root-19 MuiInput-underline-23 MuiInputBase-formControl-33 MuiInput-formControl-20"
+          onClick={[Function]}
           onDragStart={[Function]}
           onDrop={[Function]}
         >
           <input
             aria-invalid={false}
-            aria-required={false}
             autoComplete={undefined}
             autoFocus={undefined}
-            className="MuiInput-input-23"
+            className="MuiInputBase-input-42 MuiInput-input-27"
             defaultValue={undefined}
             disabled={false}
             id={undefined}
@@ -95,14 +93,14 @@ exports[`renders correctly 1`] = `
             onKeyUp={undefined}
             placeholder={undefined}
             readOnly={undefined}
-            required={undefined}
+            required={false}
             rows={undefined}
             type="text"
             value=""
           />
         </div>
         <p
-          className="MuiFormHelperText-root-28"
+          className="MuiFormHelperText-root-49"
           id="name-error-text"
         />
       </div>
@@ -111,27 +109,25 @@ exports[`renders correctly 1`] = `
       <div
         aria-describedby="name-error-text"
         className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
-        onBlur={[Function]}
-        onFocus={[Function]}
       >
         <label
-          className="MuiFormLabel-root-10 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
+          className="MuiFormLabel-root-12 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
           data-shrink={false}
           htmlFor="name-error"
         >
           Código
         </label>
         <div
-          className="MuiInput-root-15 MuiInput-formControl-16 MuiInput-underline-19"
+          className="MuiInputBase-root-32 MuiInput-root-19 MuiInput-underline-23 MuiInputBase-formControl-33 MuiInput-formControl-20"
+          onClick={[Function]}
           onDragStart={[Function]}
           onDrop={[Function]}
         >
           <input
             aria-invalid={false}
-            aria-required={false}
             autoComplete={undefined}
             autoFocus={undefined}
-            className="MuiInput-input-23"
+            className="MuiInputBase-input-42 MuiInput-input-27"
             defaultValue={undefined}
             disabled={false}
             id={undefined}
@@ -143,14 +139,14 @@ exports[`renders correctly 1`] = `
             onKeyUp={undefined}
             placeholder={undefined}
             readOnly={undefined}
-            required={undefined}
+            required={false}
             rows={undefined}
             type="text"
             value=""
           />
         </div>
         <p
-          className="MuiFormHelperText-root-28"
+          className="MuiFormHelperText-root-49"
           id="name-error-text"
         />
       </div>
@@ -159,32 +155,26 @@ exports[`renders correctly 1`] = `
       <div
         aria-describedby="name-error-text"
         className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
-        onBlur={[Function]}
-        onFocus={[Function]}
       >
         <label
-          className="MuiFormLabel-root-10 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
+          className="MuiFormLabel-root-12 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
           data-shrink={false}
           htmlFor="name-error"
         >
           Descrição
         </label>
         <div
-          className="MuiInput-root-15 MuiInput-formControl-16 MuiInput-multiline-21 MuiInput-underline-19"
+          className="MuiInputBase-root-32 MuiInput-root-19 MuiInput-underline-23 MuiInputBase-formControl-33 MuiInput-formControl-20 MuiInputBase-multiline-40 MuiInput-multiline-25"
+          onClick={[Function]}
           onDragStart={[Function]}
           onDrop={[Function]}
         >
           <div
-            className="Textarea-root-32"
-            style={
-              Object {
-                "height": 19,
-              }
-            }
+            className="MuiTextarea-root-57"
           >
             <textarea
               aria-hidden="true"
-              className="Textarea-shadow-34 Textarea-textarea-33"
+              className="MuiTextarea-textarea-58 MuiTextarea-shadow-59"
               readOnly={true}
               rows="1"
               tabIndex={-1}
@@ -192,7 +182,7 @@ exports[`renders correctly 1`] = `
             />
             <textarea
               aria-hidden="true"
-              className="Textarea-shadow-34 Textarea-textarea-33"
+              className="MuiTextarea-textarea-58 MuiTextarea-shadow-59"
               defaultValue={undefined}
               readOnly={true}
               rows={1}
@@ -201,10 +191,9 @@ exports[`renders correctly 1`] = `
             />
             <textarea
               aria-invalid={false}
-              aria-required={false}
               autoComplete={undefined}
               autoFocus={undefined}
-              className="Textarea-textarea-33 MuiInput-input-23 MuiInput-inputMultiline-25"
+              className="MuiTextarea-textarea-58 MuiInputBase-input-42 MuiInput-input-27 MuiInputBase-inputMultiline-44 MuiInput-inputMultiline-29"
               defaultValue={undefined}
               disabled={false}
               id={undefined}
@@ -216,15 +205,19 @@ exports[`renders correctly 1`] = `
               onKeyUp={undefined}
               placeholder={undefined}
               readOnly={undefined}
-              required={undefined}
+              required={false}
               rows={1}
-              type="text"
+              style={
+                Object {
+                  "height": 19,
+                }
+              }
               value=""
             />
           </div>
         </div>
         <p
-          className="MuiFormHelperText-root-28"
+          className="MuiFormHelperText-root-49"
           id="name-error-text"
         />
       </div>
@@ -233,27 +226,25 @@ exports[`renders correctly 1`] = `
       <div
         aria-describedby="name-error-text"
         className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
-        onBlur={[Function]}
-        onFocus={[Function]}
       >
         <label
-          className="MuiFormLabel-root-10 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
+          className="MuiFormLabel-root-12 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
           data-shrink={false}
           htmlFor="name-error"
         >
           Disponibilidade
         </label>
         <div
-          className="MuiInput-root-15 MuiInput-formControl-16 MuiInput-underline-19"
+          className="MuiInputBase-root-32 MuiInput-root-19 MuiInput-underline-23 MuiInputBase-formControl-33 MuiInput-formControl-20"
+          onClick={[Function]}
           onDragStart={[Function]}
           onDrop={[Function]}
         >
           <input
             aria-invalid={false}
-            aria-required={false}
             autoComplete={undefined}
             autoFocus={undefined}
-            className="MuiInput-input-23"
+            className="MuiInputBase-input-42 MuiInput-input-27"
             defaultValue={undefined}
             disabled={false}
             id={undefined}
@@ -265,14 +256,14 @@ exports[`renders correctly 1`] = `
             onKeyUp={undefined}
             placeholder="Estados do Brasil e/ou países"
             readOnly={undefined}
-            required={undefined}
+            required={false}
             rows={undefined}
             type="text"
             value=""
           />
         </div>
         <p
-          className="MuiFormHelperText-root-28"
+          className="MuiFormHelperText-root-49"
           id="name-error-text"
         />
       </div>
@@ -281,27 +272,25 @@ exports[`renders correctly 1`] = `
       <div
         aria-describedby="name-error-text"
         className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
-        onBlur={[Function]}
-        onFocus={[Function]}
       >
         <label
-          className="MuiFormLabel-root-10 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
+          className="MuiFormLabel-root-12 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
           data-shrink={false}
           htmlFor="name-error"
         >
           Unidade de venda
         </label>
         <div
-          className="MuiInput-root-15 MuiInput-formControl-16 MuiInput-underline-19"
+          className="MuiInputBase-root-32 MuiInput-root-19 MuiInput-underline-23 MuiInputBase-formControl-33 MuiInput-formControl-20"
+          onClick={[Function]}
           onDragStart={[Function]}
           onDrop={[Function]}
         >
           <input
             aria-invalid={false}
-            aria-required={false}
             autoComplete={undefined}
             autoFocus={undefined}
-            className="MuiInput-input-23"
+            className="MuiInputBase-input-42 MuiInput-input-27"
             defaultValue={undefined}
             disabled={false}
             id={undefined}
@@ -313,14 +302,14 @@ exports[`renders correctly 1`] = `
             onKeyUp={undefined}
             placeholder="(ex: metro, m2, bobina, embalagem com 6, etc)"
             readOnly={undefined}
-            required={undefined}
+            required={false}
             rows={undefined}
             type="text"
             value=""
           />
         </div>
         <p
-          className="MuiFormHelperText-root-28"
+          className="MuiFormHelperText-root-49"
           id="name-error-text"
         />
       </div>
@@ -329,27 +318,25 @@ exports[`renders correctly 1`] = `
       <div
         aria-describedby="name-error-text"
         className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
-        onBlur={[Function]}
-        onFocus={[Function]}
       >
         <label
-          className="MuiFormLabel-root-10 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
+          className="MuiFormLabel-root-12 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
           data-shrink={false}
           htmlFor="name-error"
         >
           Preço médio (por unidade de venda)
         </label>
         <div
-          className="MuiInput-root-15 MuiInput-formControl-16 MuiInput-underline-19"
+          className="MuiInputBase-root-32 MuiInput-root-19 MuiInput-underline-23 MuiInputBase-formControl-33 MuiInput-formControl-20"
+          onClick={[Function]}
           onDragStart={[Function]}
           onDrop={[Function]}
         >
           <input
             aria-invalid={false}
-            aria-required={false}
             autoComplete={undefined}
             autoFocus={undefined}
-            className="MuiInput-input-23"
+            className="MuiInputBase-input-42 MuiInput-input-27"
             defaultValue={undefined}
             disabled={false}
             id={undefined}
@@ -361,14 +348,14 @@ exports[`renders correctly 1`] = `
             onKeyUp={undefined}
             placeholder={undefined}
             readOnly={undefined}
-            required={undefined}
+            required={false}
             rows={undefined}
             type="text"
             value=""
           />
         </div>
         <p
-          className="MuiFormHelperText-root-28"
+          className="MuiFormHelperText-root-49"
           id="name-error-text"
         />
       </div>
@@ -377,27 +364,25 @@ exports[`renders correctly 1`] = `
       <div
         aria-describedby="name-error-text"
         className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
-        onBlur={[Function]}
-        onFocus={[Function]}
       >
         <label
-          className="MuiFormLabel-root-10 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
+          className="MuiFormLabel-root-12 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
           data-shrink={false}
           htmlFor="name-error"
         >
           Pedido mínimo
         </label>
         <div
-          className="MuiInput-root-15 MuiInput-formControl-16 MuiInput-underline-19"
+          className="MuiInputBase-root-32 MuiInput-root-19 MuiInput-underline-23 MuiInputBase-formControl-33 MuiInput-formControl-20"
+          onClick={[Function]}
           onDragStart={[Function]}
           onDrop={[Function]}
         >
           <input
             aria-invalid={false}
-            aria-required={false}
             autoComplete={undefined}
             autoFocus={undefined}
-            className="MuiInput-input-23 MuiInput-inputType-26"
+            className="MuiInputBase-input-42 MuiInput-input-27 MuiInputBase-inputType-45 MuiInput-inputType-30"
             defaultValue={undefined}
             disabled={false}
             id={undefined}
@@ -409,14 +394,14 @@ exports[`renders correctly 1`] = `
             onKeyUp={undefined}
             placeholder={undefined}
             readOnly={undefined}
-            required={undefined}
+            required={false}
             rows={undefined}
             type="number"
             value=""
           />
         </div>
         <p
-          className="MuiFormHelperText-root-28"
+          className="MuiFormHelperText-root-49"
           id="name-error-text"
         />
       </div>
@@ -425,27 +410,25 @@ exports[`renders correctly 1`] = `
       <div
         aria-describedby="name-error-text"
         className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
-        onBlur={[Function]}
-        onFocus={[Function]}
       >
         <label
-          className="MuiFormLabel-root-10 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
+          className="MuiFormLabel-root-12 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
           data-shrink={false}
           htmlFor="name-error"
         >
           Pedido máximo
         </label>
         <div
-          className="MuiInput-root-15 MuiInput-formControl-16 MuiInput-underline-19"
+          className="MuiInputBase-root-32 MuiInput-root-19 MuiInput-underline-23 MuiInputBase-formControl-33 MuiInput-formControl-20"
+          onClick={[Function]}
           onDragStart={[Function]}
           onDrop={[Function]}
         >
           <input
             aria-invalid={false}
-            aria-required={false}
             autoComplete={undefined}
             autoFocus={undefined}
-            className="MuiInput-input-23 MuiInput-inputType-26"
+            className="MuiInputBase-input-42 MuiInput-input-27 MuiInputBase-inputType-45 MuiInput-inputType-30"
             defaultValue={undefined}
             disabled={false}
             id={undefined}
@@ -457,14 +440,14 @@ exports[`renders correctly 1`] = `
             onKeyUp={undefined}
             placeholder={undefined}
             readOnly={undefined}
-            required={undefined}
+            required={false}
             rows={undefined}
             type="number"
             value=""
           />
         </div>
         <p
-          className="MuiFormHelperText-root-28"
+          className="MuiFormHelperText-root-49"
           id="name-error-text"
         />
       </div>
@@ -473,27 +456,25 @@ exports[`renders correctly 1`] = `
       <div
         aria-describedby="name-error-text"
         className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
-        onBlur={[Function]}
-        onFocus={[Function]}
       >
         <label
-          className="MuiFormLabel-root-10 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
+          className="MuiFormLabel-root-12 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
           data-shrink={false}
           htmlFor="name-error"
         >
           NCM
         </label>
         <div
-          className="MuiInput-root-15 MuiInput-formControl-16 MuiInput-underline-19"
+          className="MuiInputBase-root-32 MuiInput-root-19 MuiInput-underline-23 MuiInputBase-formControl-33 MuiInput-formControl-20"
+          onClick={[Function]}
           onDragStart={[Function]}
           onDrop={[Function]}
         >
           <input
             aria-invalid={false}
-            aria-required={false}
             autoComplete={undefined}
             autoFocus={undefined}
-            className="MuiInput-input-23"
+            className="MuiInputBase-input-42 MuiInput-input-27"
             defaultValue={undefined}
             disabled={false}
             id={undefined}
@@ -505,14 +486,14 @@ exports[`renders correctly 1`] = `
             onKeyUp={undefined}
             placeholder="Oito dígitos, no modelo 19.05.31.00"
             readOnly={undefined}
-            required={undefined}
+            required={false}
             rows={undefined}
             type="text"
             value=""
           />
         </div>
         <p
-          className="MuiFormHelperText-root-28"
+          className="MuiFormHelperText-root-49"
           id="name-error-text"
         />
       </div>
@@ -521,27 +502,25 @@ exports[`renders correctly 1`] = `
       <div
         aria-describedby="name-error-text"
         className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
-        onBlur={[Function]}
-        onFocus={[Function]}
       >
         <label
-          className="MuiFormLabel-root-10 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
+          className="MuiFormLabel-root-12 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
           data-shrink={false}
           htmlFor="name-error"
         >
           SH
         </label>
         <div
-          className="MuiInput-root-15 MuiInput-formControl-16 MuiInput-underline-19"
+          className="MuiInputBase-root-32 MuiInput-root-19 MuiInput-underline-23 MuiInputBase-formControl-33 MuiInput-formControl-20"
+          onClick={[Function]}
           onDragStart={[Function]}
           onDrop={[Function]}
         >
           <input
             aria-invalid={false}
-            aria-required={false}
             autoComplete={undefined}
             autoFocus={undefined}
-            className="MuiInput-input-23"
+            className="MuiInputBase-input-42 MuiInput-input-27"
             defaultValue={undefined}
             disabled={false}
             id={undefined}
@@ -553,14 +532,14 @@ exports[`renders correctly 1`] = `
             onKeyUp={undefined}
             placeholder="Seis dígitos, no modelo 0103.91"
             readOnly={undefined}
-            required={undefined}
+            required={false}
             rows={undefined}
             type="text"
             value=""
           />
         </div>
         <p
-          className="MuiFormHelperText-root-28"
+          className="MuiFormHelperText-root-49"
           id="name-error-text"
         />
       </div>
@@ -569,32 +548,26 @@ exports[`renders correctly 1`] = `
       <div
         aria-describedby="name-error-text"
         className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
-        onBlur={[Function]}
-        onFocus={[Function]}
       >
         <label
-          className="MuiFormLabel-root-10 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
+          className="MuiFormLabel-root-12 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
           data-shrink={false}
           htmlFor="name-error"
         >
           Certificações
         </label>
         <div
-          className="MuiInput-root-15 MuiInput-formControl-16 MuiInput-multiline-21 MuiInput-underline-19"
+          className="MuiInputBase-root-32 MuiInput-root-19 MuiInput-underline-23 MuiInputBase-formControl-33 MuiInput-formControl-20 MuiInputBase-multiline-40 MuiInput-multiline-25"
+          onClick={[Function]}
           onDragStart={[Function]}
           onDrop={[Function]}
         >
           <div
-            className="Textarea-root-32"
-            style={
-              Object {
-                "height": 19,
-              }
-            }
+            className="MuiTextarea-root-57"
           >
             <textarea
               aria-hidden="true"
-              className="Textarea-shadow-34 Textarea-textarea-33"
+              className="MuiTextarea-textarea-58 MuiTextarea-shadow-59"
               readOnly={true}
               rows="1"
               tabIndex={-1}
@@ -602,7 +575,7 @@ exports[`renders correctly 1`] = `
             />
             <textarea
               aria-hidden="true"
-              className="Textarea-shadow-34 Textarea-textarea-33"
+              className="MuiTextarea-textarea-58 MuiTextarea-shadow-59"
               defaultValue={undefined}
               readOnly={true}
               rows={1}
@@ -611,10 +584,9 @@ exports[`renders correctly 1`] = `
             />
             <textarea
               aria-invalid={false}
-              aria-required={false}
               autoComplete={undefined}
               autoFocus={undefined}
-              className="Textarea-textarea-33 MuiInput-input-23 MuiInput-inputMultiline-25"
+              className="MuiTextarea-textarea-58 MuiInputBase-input-42 MuiInput-input-27 MuiInputBase-inputMultiline-44 MuiInput-inputMultiline-29"
               defaultValue={undefined}
               disabled={false}
               id={undefined}
@@ -626,15 +598,19 @@ exports[`renders correctly 1`] = `
               onKeyUp={undefined}
               placeholder="Lista de certificações"
               readOnly={undefined}
-              required={undefined}
+              required={false}
               rows={1}
-              type="text"
+              style={
+                Object {
+                  "height": 19,
+                }
+              }
               value=""
             />
           </div>
         </div>
         <p
-          className="MuiFormHelperText-root-28"
+          className="MuiFormHelperText-root-49"
           id="name-error-text"
         />
       </div>
@@ -643,32 +619,26 @@ exports[`renders correctly 1`] = `
       <div
         aria-describedby="name-error-text"
         className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
-        onBlur={[Function]}
-        onFocus={[Function]}
       >
         <label
-          className="MuiFormLabel-root-10 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
+          className="MuiFormLabel-root-12 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
           data-shrink={false}
           htmlFor="name-error"
         >
           Prêmios
         </label>
         <div
-          className="MuiInput-root-15 MuiInput-formControl-16 MuiInput-multiline-21 MuiInput-underline-19"
+          className="MuiInputBase-root-32 MuiInput-root-19 MuiInput-underline-23 MuiInputBase-formControl-33 MuiInput-formControl-20 MuiInputBase-multiline-40 MuiInput-multiline-25"
+          onClick={[Function]}
           onDragStart={[Function]}
           onDrop={[Function]}
         >
           <div
-            className="Textarea-root-32"
-            style={
-              Object {
-                "height": 19,
-              }
-            }
+            className="MuiTextarea-root-57"
           >
             <textarea
               aria-hidden="true"
-              className="Textarea-shadow-34 Textarea-textarea-33"
+              className="MuiTextarea-textarea-58 MuiTextarea-shadow-59"
               readOnly={true}
               rows="1"
               tabIndex={-1}
@@ -676,7 +646,7 @@ exports[`renders correctly 1`] = `
             />
             <textarea
               aria-hidden="true"
-              className="Textarea-shadow-34 Textarea-textarea-33"
+              className="MuiTextarea-textarea-58 MuiTextarea-shadow-59"
               defaultValue={undefined}
               readOnly={true}
               rows={1}
@@ -685,10 +655,9 @@ exports[`renders correctly 1`] = `
             />
             <textarea
               aria-invalid={false}
-              aria-required={false}
               autoComplete={undefined}
               autoFocus={undefined}
-              className="Textarea-textarea-33 MuiInput-input-23 MuiInput-inputMultiline-25"
+              className="MuiTextarea-textarea-58 MuiInputBase-input-42 MuiInput-input-27 MuiInputBase-inputMultiline-44 MuiInput-inputMultiline-29"
               defaultValue={undefined}
               disabled={false}
               id={undefined}
@@ -700,15 +669,19 @@ exports[`renders correctly 1`] = `
               onKeyUp={undefined}
               placeholder="Lista de prêmios"
               readOnly={undefined}
-              required={undefined}
+              required={false}
               rows={1}
-              type="text"
+              style={
+                Object {
+                  "height": 19,
+                }
+              }
               value=""
             />
           </div>
         </div>
         <p
-          className="MuiFormHelperText-root-28"
+          className="MuiFormHelperText-root-49"
           id="name-error-text"
         />
       </div>
@@ -717,27 +690,25 @@ exports[`renders correctly 1`] = `
       <div
         aria-describedby="name-error-text"
         className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
-        onBlur={[Function]}
-        onFocus={[Function]}
       >
         <label
-          className="MuiFormLabel-root-10 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
+          className="MuiFormLabel-root-12 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
           data-shrink={false}
           htmlFor="name-error"
         >
           Densidade
         </label>
         <div
-          className="MuiInput-root-15 MuiInput-formControl-16 MuiInput-underline-19"
+          className="MuiInputBase-root-32 MuiInput-root-19 MuiInput-underline-23 MuiInputBase-formControl-33 MuiInput-formControl-20"
+          onClick={[Function]}
           onDragStart={[Function]}
           onDrop={[Function]}
         >
           <input
             aria-invalid={false}
-            aria-required={false}
             autoComplete={undefined}
             autoFocus={undefined}
-            className="MuiInput-input-23"
+            className="MuiInputBase-input-42 MuiInput-input-27"
             defaultValue={undefined}
             disabled={false}
             id={undefined}
@@ -749,14 +720,14 @@ exports[`renders correctly 1`] = `
             onKeyUp={undefined}
             placeholder="Densidade"
             readOnly={undefined}
-            required={undefined}
+            required={false}
             rows={undefined}
             type="text"
             value=""
           />
         </div>
         <p
-          className="MuiFormHelperText-root-28"
+          className="MuiFormHelperText-root-49"
           id="name-error-text"
         />
       </div>
@@ -765,27 +736,25 @@ exports[`renders correctly 1`] = `
       <div
         aria-describedby="name-error-text"
         className="MuiFormControl-root-1 MuiFormControl-fullWidth-4"
-        onBlur={[Function]}
-        onFocus={[Function]}
       >
         <label
-          className="MuiFormLabel-root-10 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
+          className="MuiFormLabel-root-12 MuiInputLabel-root-5 MuiInputLabel-formControl-6 MuiInputLabel-animated-9"
           data-shrink={false}
           htmlFor="name-error"
         >
           Dimensões
         </label>
         <div
-          className="MuiInput-root-15 MuiInput-formControl-16 MuiInput-underline-19"
+          className="MuiInputBase-root-32 MuiInput-root-19 MuiInput-underline-23 MuiInputBase-formControl-33 MuiInput-formControl-20"
+          onClick={[Function]}
           onDragStart={[Function]}
           onDrop={[Function]}
         >
           <input
             aria-invalid={false}
-            aria-required={false}
             autoComplete={undefined}
             autoFocus={undefined}
-            className="MuiInput-input-23"
+            className="MuiInputBase-input-42 MuiInput-input-27"
             defaultValue={undefined}
             disabled={false}
             id={undefined}
@@ -797,14 +766,14 @@ exports[`renders correctly 1`] = `
             onKeyUp={undefined}
             placeholder="Dimensões"
             readOnly={undefined}
-            required={undefined}
+            required={false}
             rows={undefined}
             type="text"
             value=""
           />
         </div>
         <p
-          className="MuiFormHelperText-root-28"
+          className="MuiFormHelperText-root-49"
           id="name-error-text"
         />
       </div>
@@ -817,11 +786,11 @@ exports[`renders correctly 1`] = `
         }
       }
     >
-      <h1
-        className="MuiTypography-root-35 MuiTypography-headline-40 MuiTypography-colorError-58"
+      <h5
+        className="MuiTypography-root-60 MuiTypography-h5-76 MuiTypography-colorError-94"
       >
         foo-error
-      </h1>
+      </h5>
     </div>
   </form>
 </div>

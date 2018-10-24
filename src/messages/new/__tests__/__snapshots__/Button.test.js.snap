@@ -10,7 +10,7 @@ exports[`renders correctly 1`] = `
   to="/suppliers/123/messages/new"
 >
   <button
-    className="MuiButtonBase-root-17 MuiButton-root-1 MuiButton-raised-7 MuiButton-raisedPrimary-8"
+    className="MuiButtonBase-root-27 MuiButton-root-1 MuiButton-contained-12 MuiButton-containedPrimary-13 MuiButton-raised-15 MuiButton-raisedPrimary-16"
     disabled={false}
     onBlur={[Function]}
     onFocus={[Function]}
@@ -36,7 +36,7 @@ exports[`renders correctly 1`] = `
       Enviar mensagem
     </span>
     <span
-      className="MuiTouchRipple-root-20"
+      className="MuiTouchRipple-root-30"
     />
   </button>
 </div>

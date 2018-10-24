@@ -15,7 +15,7 @@ export default props => {
     <Fragment>
       <Card>
         <CardContent>
-          <Typography variant="display1" style={{ marginBottom: 8 }}>
+          <Typography variant="h4" style={{ marginBottom: 8 }}>
             {subject}
           </Typography>
           <Typography variant="caption" style={{ marginBottom: 24 }}>
@@ -25,7 +25,7 @@ export default props => {
         </CardContent>
       </Card>
       <Typography
-        variant="headline"
+        variant="h5"
         style={{ marginTop: 24, marginBottom: 24 }}
       >
         Respostas

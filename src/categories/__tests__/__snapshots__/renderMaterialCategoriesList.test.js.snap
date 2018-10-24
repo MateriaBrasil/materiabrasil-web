@@ -20,7 +20,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <span
-        className="MuiButtonBase-root-21 MuiIconButton-root-15 MuiSwitchBase-root-11 MuiCheckbox-root-6 MuiCheckbox-colorSecondary-10"
+        className="MuiButtonBase-root-23 MuiIconButton-root-17 MuiSwitchBase-root-13 MuiCheckbox-root-7 MuiCheckbox-colorSecondary-12"
         onBlur={[Function]}
         onFocus={[Function]}
         onKeyDown={[Function]}
@@ -35,13 +35,14 @@ exports[`renders correctly 1`] = `
         tabIndex={null}
       >
         <span
-          className="MuiIconButton-label-20"
+          className="MuiIconButton-label-22"
         >
           <svg
             aria-hidden="true"
-            className="MuiSvgIcon-root-24"
+            className="MuiSvgIcon-root-26"
             color={undefined}
             focusable="false"
+            role="presentation"
             viewBox="0 0 24 24"
           >
             <path
@@ -49,23 +50,27 @@ exports[`renders correctly 1`] = `
             />
           </svg>
           <input
+            autoFocus={undefined}
             checked={false}
-            className="MuiSwitchBase-input-14"
+            className="MuiSwitchBase-input-16"
+            data-indeterminate={false}
             disabled={undefined}
             id={undefined}
             name="category-root-1234"
             onChange={[Function]}
+            readOnly={undefined}
+            required={undefined}
             tabIndex={undefined}
             type="checkbox"
             value="foo"
           />
         </span>
         <span
-          className="MuiTouchRipple-root-30"
+          className="MuiTouchRipple-root-70"
         />
       </span>
       <span
-        className="MuiTypography-root-37 MuiTypography-body1-46 MuiFormControlLabel-label-5"
+        className="MuiTypography-root-35 MuiTypography-body1-44 MuiFormControlLabel-label-6"
       >
         foo
       </span>
@@ -79,7 +84,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <span
-        className="MuiButtonBase-root-21 MuiIconButton-root-15 MuiSwitchBase-root-11 MuiCheckbox-root-6 MuiCheckbox-colorSecondary-10"
+        className="MuiButtonBase-root-23 MuiIconButton-root-17 MuiSwitchBase-root-13 MuiCheckbox-root-7 MuiCheckbox-colorSecondary-12"
         onBlur={[Function]}
         onFocus={[Function]}
         onKeyDown={[Function]}
@@ -94,13 +99,14 @@ exports[`renders correctly 1`] = `
         tabIndex={null}
       >
         <span
-          className="MuiIconButton-label-20"
+          className="MuiIconButton-label-22"
         >
           <svg
             aria-hidden="true"
-            className="MuiSvgIcon-root-24"
+            className="MuiSvgIcon-root-26"
             color={undefined}
             focusable="false"
+            role="presentation"
             viewBox="0 0 24 24"
           >
             <path
@@ -108,23 +114,27 @@ exports[`renders correctly 1`] = `
             />
           </svg>
           <input
+            autoFocus={undefined}
             checked={false}
-            className="MuiSwitchBase-input-14"
+            className="MuiSwitchBase-input-16"
+            data-indeterminate={false}
             disabled={undefined}
             id={undefined}
             name="category-root-4321"
             onChange={[Function]}
+            readOnly={undefined}
+            required={undefined}
             tabIndex={undefined}
             type="checkbox"
             value="bar"
           />
         </span>
         <span
-          className="MuiTouchRipple-root-30"
+          className="MuiTouchRipple-root-70"
         />
       </span>
       <span
-        className="MuiTypography-root-37 MuiTypography-body1-46 MuiFormControlLabel-label-5"
+        className="MuiTypography-root-35 MuiTypography-body1-44 MuiFormControlLabel-label-6"
       >
         bar
       </span>

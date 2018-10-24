@@ -5,7 +5,7 @@ import renderDestroyIcon from './renderDestroyIcon'
 import Card from '../materials/list/Card'
 
 export default ({ showDestroy, parentId }) => list => (
-  <Grid container spacing={8} cellHeight={360}>
+  <Grid container spacing={8} cellheight={360}>
     {list.map(({ id, favoritable, destroying }, index) => {
       return (
         <Card

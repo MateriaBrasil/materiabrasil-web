@@ -24,78 +24,93 @@ exports[`renders correctly 1`] = `
       </h2>
     </div>
     <div
-      className="MuiDialogContent-root-26"
+      className="MuiDialogContent-root-37"
     >
       <div>
         <svg
           aria-hidden="true"
-          className="MuiSvgIcon-root-27 MuiSvgIcon-colorPrimary-28"
+          className="MuiSvgIcon-root-38 MuiSvgIcon-colorPrimary-39"
           color={undefined}
           focusable="false"
           onClick={[Function]}
+          role="presentation"
           viewBox="0 0 24 24"
         >
-          <g>
-            <path
-              d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
-            />
-          </g>
+          <path
+            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
         </svg>
         <svg
           aria-hidden="true"
-          className="MuiSvgIcon-root-27 MuiSvgIcon-colorPrimary-28"
+          className="MuiSvgIcon-root-38 MuiSvgIcon-colorPrimary-39"
           color={undefined}
           focusable="false"
           onClick={[Function]}
+          role="presentation"
           viewBox="0 0 24 24"
         >
-          <g>
-            <path
-              d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
-            />
-          </g>
+          <path
+            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
         </svg>
         <svg
           aria-hidden="true"
-          className="MuiSvgIcon-root-27 MuiSvgIcon-colorPrimary-28"
+          className="MuiSvgIcon-root-38 MuiSvgIcon-colorPrimary-39"
           color={undefined}
           focusable="false"
           onClick={[Function]}
+          role="presentation"
           viewBox="0 0 24 24"
         >
-          <g>
-            <path
-              d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
-            />
-          </g>
+          <path
+            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
         </svg>
         <svg
           aria-hidden="true"
-          className="MuiSvgIcon-root-27 MuiSvgIcon-colorPrimary-28"
+          className="MuiSvgIcon-root-38 MuiSvgIcon-colorPrimary-39"
           color={undefined}
           focusable="false"
           onClick={[Function]}
+          role="presentation"
           viewBox="0 0 24 24"
         >
-          <g>
-            <path
-              d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
-            />
-          </g>
+          <path
+            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
         </svg>
         <svg
           aria-hidden="true"
-          className="MuiSvgIcon-root-27 MuiSvgIcon-colorPrimary-28"
+          className="MuiSvgIcon-root-38 MuiSvgIcon-colorPrimary-39"
           color={undefined}
           focusable="false"
           onClick={[Function]}
+          role="presentation"
           viewBox="0 0 24 24"
         >
-          <g>
-            <path
-              d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
-            />
-          </g>
+          <path
+            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
         </svg>
       </div>
       <input
@@ -121,10 +136,10 @@ exports[`renders correctly 1`] = `
       <div />
     </div>
     <div
-      className="MuiDialogActions-root-33"
+      className="MuiDialogActions-root-47"
     >
       <button
-        className="MuiButtonBase-root-51 MuiButton-root-35 MuiButton-flatPrimary-37 MuiDialogActions-action-34"
+        className="MuiButtonBase-root-75 MuiButton-root-49 MuiButton-text-51 MuiButton-textPrimary-52 MuiButton-flat-54 MuiButton-flatPrimary-55 MuiDialogActions-action-48"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -141,16 +156,16 @@ exports[`renders correctly 1`] = `
         type="button"
       >
         <span
-          className="MuiButton-label-36"
+          className="MuiButton-label-50"
         >
           Fechar
         </span>
         <span
-          className="MuiTouchRipple-root-54"
+          className="MuiTouchRipple-root-78"
         />
       </button>
       <button
-        className="MuiButtonBase-root-51 MuiButton-root-35 MuiButton-flatPrimary-37 MuiDialogActions-action-34"
+        className="MuiButtonBase-root-75 MuiButton-root-49 MuiButton-text-51 MuiButton-textPrimary-52 MuiButton-flat-54 MuiButton-flatPrimary-55 MuiDialogActions-action-48"
         disabled={false}
         onBlur={[Function]}
         onFocus={[Function]}
@@ -166,12 +181,12 @@ exports[`renders correctly 1`] = `
         type="submit"
       >
         <span
-          className="MuiButton-label-36"
+          className="MuiButton-label-50"
         >
           Enviar
         </span>
         <span
-          className="MuiTouchRipple-root-54"
+          className="MuiTouchRipple-root-78"
         />
       </button>
     </div>
@@ -203,78 +218,93 @@ exports[`with error renders correctly 1`] = `
       </h2>
     </div>
     <div
-      className="MuiDialogContent-root-26"
+      className="MuiDialogContent-root-37"
     >
       <div>
         <svg
           aria-hidden="true"
-          className="MuiSvgIcon-root-27 MuiSvgIcon-colorPrimary-28"
+          className="MuiSvgIcon-root-38 MuiSvgIcon-colorPrimary-39"
           color={undefined}
           focusable="false"
           onClick={[Function]}
+          role="presentation"
           viewBox="0 0 24 24"
         >
-          <g>
-            <path
-              d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
-            />
-          </g>
+          <path
+            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
         </svg>
         <svg
           aria-hidden="true"
-          className="MuiSvgIcon-root-27 MuiSvgIcon-colorPrimary-28"
+          className="MuiSvgIcon-root-38 MuiSvgIcon-colorPrimary-39"
           color={undefined}
           focusable="false"
           onClick={[Function]}
+          role="presentation"
           viewBox="0 0 24 24"
         >
-          <g>
-            <path
-              d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
-            />
-          </g>
+          <path
+            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
         </svg>
         <svg
           aria-hidden="true"
-          className="MuiSvgIcon-root-27 MuiSvgIcon-colorPrimary-28"
+          className="MuiSvgIcon-root-38 MuiSvgIcon-colorPrimary-39"
           color={undefined}
           focusable="false"
           onClick={[Function]}
+          role="presentation"
           viewBox="0 0 24 24"
         >
-          <g>
-            <path
-              d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
-            />
-          </g>
+          <path
+            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
         </svg>
         <svg
           aria-hidden="true"
-          className="MuiSvgIcon-root-27 MuiSvgIcon-colorPrimary-28"
+          className="MuiSvgIcon-root-38 MuiSvgIcon-colorPrimary-39"
           color={undefined}
           focusable="false"
           onClick={[Function]}
+          role="presentation"
           viewBox="0 0 24 24"
         >
-          <g>
-            <path
-              d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
-            />
-          </g>
+          <path
+            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
         </svg>
         <svg
           aria-hidden="true"
-          className="MuiSvgIcon-root-27 MuiSvgIcon-colorPrimary-28"
+          className="MuiSvgIcon-root-38 MuiSvgIcon-colorPrimary-39"
           color={undefined}
           focusable="false"
           onClick={[Function]}
+          role="presentation"
           viewBox="0 0 24 24"
         >
-          <g>
-            <path
-              d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
-            />
-          </g>
+          <path
+            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
         </svg>
       </div>
       <input
@@ -302,10 +332,10 @@ exports[`with error renders correctly 1`] = `
       </div>
     </div>
     <div
-      className="MuiDialogActions-root-33"
+      className="MuiDialogActions-root-47"
     >
       <button
-        className="MuiButtonBase-root-51 MuiButton-root-35 MuiButton-flatPrimary-37 MuiDialogActions-action-34"
+        className="MuiButtonBase-root-75 MuiButton-root-49 MuiButton-text-51 MuiButton-textPrimary-52 MuiButton-flat-54 MuiButton-flatPrimary-55 MuiDialogActions-action-48"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -322,16 +352,16 @@ exports[`with error renders correctly 1`] = `
         type="button"
       >
         <span
-          className="MuiButton-label-36"
+          className="MuiButton-label-50"
         >
           Fechar
         </span>
         <span
-          className="MuiTouchRipple-root-54"
+          className="MuiTouchRipple-root-78"
         />
       </button>
       <button
-        className="MuiButtonBase-root-51 MuiButton-root-35 MuiButton-flatPrimary-37 MuiDialogActions-action-34"
+        className="MuiButtonBase-root-75 MuiButton-root-49 MuiButton-text-51 MuiButton-textPrimary-52 MuiButton-flat-54 MuiButton-flatPrimary-55 MuiDialogActions-action-48"
         disabled={false}
         onBlur={[Function]}
         onFocus={[Function]}
@@ -347,12 +377,12 @@ exports[`with error renders correctly 1`] = `
         type="submit"
       >
         <span
-          className="MuiButton-label-36"
+          className="MuiButton-label-50"
         >
           Enviar
         </span>
         <span
-          className="MuiTouchRipple-root-54"
+          className="MuiTouchRipple-root-78"
         />
       </button>
     </div>
