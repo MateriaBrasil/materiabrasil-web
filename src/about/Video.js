@@ -3,9 +3,9 @@ import Grid from '@material-ui/core/Grid'
 import { withStyles } from '@material-ui/core/styles'
 
 import Video from '../Video'
-import Style from './Style'
+import gridStyle from './gridStyle'
 
-export default withStyles(Style)(props => (
+export default withStyles(gridStyle)(props => (
   <Grid
     item
     sm={8}
