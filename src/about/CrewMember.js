@@ -2,6 +2,7 @@ import React from 'react'
 import Grid from '@material-ui/core/Grid'
 import Avatar from '@material-ui/core/Avatar'
 import Typography from '@material-ui/core/Typography'
+import Colors from '../Colors'
 
 export default props => (
   <Grid item xs={12} sm={6} md={4} lg={3} style={{ padding: 20 }}>
@@ -17,16 +18,16 @@ export default props => (
       }}
     />
     <Typography
-      style={{ textAlign: 'center', color: 'white', fontWeight: 500 }}
+      style={{ textAlign: 'center', color: Colors.white, fontWeight: 500 }}
     >
       {props.name}
     </Typography>
     <Typography
-      style={{ textAlign: 'center', color: 'white', margin: '10px 0' }}
+      style={{ textAlign: 'center', color: Colors.white, margin: '10px 0' }}
     >
       {props.job}
     </Typography>
-    <Typography style={{ textAlign: 'center', color: 'white' }}>
+    <Typography style={{ textAlign: 'center', color: Colors.white }}>
       {props.description}
     </Typography>
   </Grid>

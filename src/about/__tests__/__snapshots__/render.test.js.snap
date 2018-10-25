@@ -31,7 +31,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128"
             style={
                 Object {
-                    "color": "#fff",
+                    "color": "white",
                     "display": "inline-block",
                     "fontWeight": 500,
                     "verticalAlign": "middle",
@@ -60,7 +60,7 @@ Array [
                 className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
                 style={
                     Object {
-                        "color": "#fff",
+                        "color": "white",
                         "display": "inline-block",
                         "fontWeight": 300,
                         "verticalAlign": "middle",
@@ -98,7 +98,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128"
             style={
                 Object {
-                    "color": "#fff",
+                    "color": "white",
                     "display": "inline-block",
                     "fontWeight": 500,
                     "verticalAlign": "middle",
@@ -179,7 +179,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128"
             style={
                 Object {
-                    "color": "#fff",
+                    "color": "white",
                     "display": "inline-block",
                     "fontWeight": 500,
                     "verticalAlign": "middle",
@@ -854,7 +854,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128"
             style={
                 Object {
-                    "color": "#fff",
+                    "color": "white",
                     "display": "inline-block",
                     "fontWeight": 500,
                     "verticalAlign": "middle",
@@ -886,7 +886,7 @@ Array [
                     className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
                     style={
                         Object {
-                            "color": "#fff",
+                            "color": "white",
                             "display": "inline-block",
                             "fontWeight": 300,
                             "verticalAlign": "middle",
@@ -1233,7 +1233,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128"
             style={
                 Object {
-                    "color": "#fff",
+                    "color": "white",
                     "display": "inline-block",
                     "fontWeight": 500,
                     "verticalAlign": "middle",
@@ -1259,7 +1259,7 @@ Array [
             padding="0 0"
             style={
                 Object {
-                    "color": "#fff",
+                    "color": "white",
                     "display": "inline-block",
                     "fontWeight": 500,
                     "marginTop": "5%",
@@ -1289,7 +1289,7 @@ Array [
                 className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
                 style={
                     Object {
-                        "color": "#fff",
+                        "color": "white",
                         "display": "inline-block",
                         "fontWeight": 300,
                         "verticalAlign": "middle",
@@ -1316,7 +1316,7 @@ Array [
             padding="0 0"
             style={
                 Object {
-                    "color": "#fff",
+                    "color": "white",
                     "display": "inline-block",
                     "fontWeight": 500,
                     "marginTop": "5%",
@@ -1346,7 +1346,7 @@ Array [
                 className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
                 style={
                     Object {
-                        "color": "#fff",
+                        "color": "white",
                         "display": "inline-block",
                         "fontWeight": 300,
                         "verticalAlign": "middle",
@@ -1373,7 +1373,7 @@ Array [
             padding="0 0"
             style={
                 Object {
-                    "color": "#fff",
+                    "color": "white",
                     "display": "inline-block",
                     "fontWeight": 500,
                     "marginTop": "5%",
@@ -1403,7 +1403,7 @@ Array [
                 className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
                 style={
                     Object {
-                        "color": "#fff",
+                        "color": "white",
                         "display": "inline-block",
                         "fontWeight": 300,
                         "verticalAlign": "middle",
@@ -1609,7 +1609,7 @@ Array [
             padding="0 0"
             style={
                 Object {
-                    "color": "#fff",
+                    "color": "white",
                     "display": "inline-block",
                     "fontWeight": 300,
                     "marginLeft": "50%",

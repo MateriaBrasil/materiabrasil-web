@@ -1,6 +1,7 @@
 import React from 'react'
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
+import Colors from '../Colors'
 
 export default props => (
   <Grid
@@ -18,7 +19,7 @@ export default props => (
       color="inherit"
       padding="0 0"
       style={{
-        color: '#fff',
+        color: Colors.white,
         display: 'inline-block',
         verticalAlign: 'middle',
         marginTop: '5%',
