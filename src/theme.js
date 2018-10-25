@@ -1,6 +1,8 @@
 import { createMuiTheme } from '@material-ui/core/styles'
 import fill from 'lodash/fill'
 
+import Colors from './Colors'
+
 export default createMuiTheme({
   typography: {
     useNextVariants: true,
@@ -10,10 +12,10 @@ export default createMuiTheme({
       default: '#eee',
     },
     primary: {
-      main: '#239eb1',
+      main: Colors.bondiBlue,
     },
     secondary: {
-      main: '#ea6740',
+      main: Colors.seaBuckthorn,
     },
   },
   shadows: fill(Array(25), `0 0px 1px #999`),
