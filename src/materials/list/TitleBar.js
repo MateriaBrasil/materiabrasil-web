@@ -3,6 +3,7 @@ import Typography from '@material-ui/core/Typography'
 import Link from 'react-router-dom/Link'
 
 import Rating from './Rating'
+import Colors from '../../Colors'
 import './TitleBar.css'
 
 export default props => {
@@ -14,7 +15,7 @@ export default props => {
       <div className="title-bar-text">
         <Link
           to={`/materials/${id}`}
-          style={{ textDecoration: 'none', color: 'white', display: 'block' }}
+          style={{ textDecoration: 'none', color: Colors.white, display: 'block' }}
         >
           <Typography variant="subtitle1" color="inherit">
             {name}

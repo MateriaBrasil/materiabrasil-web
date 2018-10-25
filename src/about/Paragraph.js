@@ -4,6 +4,7 @@ import Grid from '@material-ui/core/Grid'
 import { withStyles } from '@material-ui/core/styles'
 
 import gridStyle from './gridStyle'
+import Colors from '../Colors';
 
 export default withStyles(gridStyle)(props => (
   <Grid
@@ -22,7 +23,7 @@ export default withStyles(gridStyle)(props => (
         variant="h5"
         color="inherit"
         style={{
-          color: '#fff',
+          color: Colors.white,
           display: 'inline-block',
           verticalAlign: 'middle',
           fontWeight: 300,

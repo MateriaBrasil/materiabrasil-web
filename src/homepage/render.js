@@ -5,6 +5,7 @@ import Typography from '@material-ui/core/Typography'
 import Grid from '../InstitutionalPagesGrid'
 import Video from '../Video'
 import NavBar from '../navBar/NavBar'
+import Colors from '../Colors'
 
 export default props => routeProps => (
   <Fragment>
@@ -15,7 +16,7 @@ export default props => routeProps => (
         color="inherit"
         className="text"
         style={{
-          color: '#fff',
+          color: Colors.white,
           display: 'inline-block',
           verticalAlign: 'middle',
           fontWeight: 300,
@@ -52,7 +53,7 @@ export default props => routeProps => (
       </Link>
       <Typography
         style={{
-          color: '#fff',
+          color: Colors.white,
           position: 'absolute',
           bottom: 20,
           width: '100%',
