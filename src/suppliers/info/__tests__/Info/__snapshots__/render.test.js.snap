@@ -67,33 +67,7 @@ exports[`renders correctly 1`] = `
         }
       }
       to="/suppliers/1234/questionnaires"
-    >
-      <button
-        className="MuiButtonBase-root-159 MuiButton-root-133 MuiButton-contained-144 MuiButton-containedPrimary-145 MuiButton-raised-147 MuiButton-raisedPrimary-148"
-        disabled={false}
-        onBlur={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        onTouchStart={[Function]}
-        tabIndex="0"
-        type="button"
-      >
-        <span
-          className="MuiButton-label-134"
-        >
-          Responder questionários
-        </span>
-        <span
-          className="MuiTouchRipple-root-191"
-        />
-      </button>
-    </div>
+    />
   </div>
   <div
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-8-79"
@@ -332,33 +306,7 @@ exports[`with materials renders correctly 1`] = `
         }
       }
       to="/suppliers/1234/questionnaires"
-    >
-      <button
-        className="MuiButtonBase-root-159 MuiButton-root-133 MuiButton-contained-144 MuiButton-containedPrimary-145 MuiButton-raised-147 MuiButton-raisedPrimary-148"
-        disabled={false}
-        onBlur={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        onTouchStart={[Function]}
-        tabIndex="0"
-        type="button"
-      >
-        <span
-          className="MuiButton-label-134"
-        >
-          Responder questionários
-        </span>
-        <span
-          className="MuiTouchRipple-root-191"
-        />
-      </button>
-    </div>
+    />
   </div>
   <div
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-8-79"
@@ -572,33 +520,7 @@ exports[`without currentUser renders correctly 1`] = `
         }
       }
       to="/suppliers/1234/questionnaires"
-    >
-      <button
-        className="MuiButtonBase-root-159 MuiButton-root-133 MuiButton-contained-144 MuiButton-containedPrimary-145 MuiButton-raised-147 MuiButton-raisedPrimary-148"
-        disabled={false}
-        onBlur={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        onTouchStart={[Function]}
-        tabIndex="0"
-        type="button"
-      >
-        <span
-          className="MuiButton-label-134"
-        >
-          Responder questionários
-        </span>
-        <span
-          className="MuiTouchRipple-root-191"
-        />
-      </button>
-    </div>
+    />
   </div>
   <div
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-8-79"
