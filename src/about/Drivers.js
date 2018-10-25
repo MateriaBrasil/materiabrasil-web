@@ -56,8 +56,9 @@ export default () => (
       obrigatório pois entendemos que muitas vezes os custos para tal são
       impeditivos para empresas menores."
     </Paragraph>
-
+    <br />
     <DriversButtons />
+    <br />
 
     <DrivesListOfNames />
   </Session>

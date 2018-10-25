@@ -3,7 +3,7 @@ import Button from '@material-ui/core/Button'
 import Link from 'react-router-dom/Link'
 
 export default props => (
-  <Link to={`/materials`} style={{ textDecoration: 'none', marginRight: 24 }}>
+  <Link to={`/materials`} style={{ textDecoration: 'none' }}>
     <Button
       variant="contained"
       color={props.color}

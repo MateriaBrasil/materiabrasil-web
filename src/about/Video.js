@@ -13,7 +13,7 @@ export default withStyles(gridStyle)(props => (
     md={6}
     className={props.classes.grid}
     style={{
-      paddingTop: '35%',
+      padding: '30%',
       position: 'relative',
     }}
   >
