@@ -20,6 +20,7 @@ export default props => routeProps => (
           display: 'inline-block',
           verticalAlign: 'middle',
           fontWeight: 300,
+          padding: '0 20px',
         }}
       >
         Na <span style={{ fontWeight: 400 }}>Materia</span>
@@ -59,6 +60,7 @@ export default props => routeProps => (
           width: '100%',
           textAlign: 'center',
           fontFamily: 'roboto',
+          padding: '0 20px',
         }}
       >
         Apoio: Instituto C&A; <br />
