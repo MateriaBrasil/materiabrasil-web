@@ -10,10 +10,8 @@ export default withStyles(gridStyle)(props => (
     item
     xs={12}
     style={{
-      padding: '100px 0',
       padding: '0 0',
       position: 'relative',
-
       margin: '0 auto',
       overflow: 'hidden',
       textAlign: 'center',
