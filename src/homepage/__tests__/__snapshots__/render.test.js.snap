@@ -32,6 +32,7 @@ Array [
                     "color": "#fff",
                     "display": "inline-block",
                     "fontWeight": 300,
+                    "padding": "0 20px",
                     "verticalAlign": "middle",
                   }
             }
@@ -164,6 +165,7 @@ Array [
                     "bottom": 20,
                     "color": "#fff",
                     "fontFamily": "roboto",
+                    "padding": "0 20px",
                     "position": "absolute",
                     "textAlign": "center",
                     "width": "100%",
