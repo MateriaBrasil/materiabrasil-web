@@ -19,6 +19,7 @@ export default props => routeProps => (
           display: 'inline-block',
           verticalAlign: 'middle',
           fontWeight: 300,
+          padding: '0 20px',
         }}
       >
         Na <span style={{ fontWeight: 400 }}>Materia</span>
@@ -44,12 +45,13 @@ export default props => routeProps => (
             fontSize: 40,
             padding: '15px 50px',
             background: '#fff',
+            marginBottom: 50,
           }}
         >
           Explore
         </Button>
       </Link>
-      <p
+      <Typography
         style={{
           color: '#fff',
           position: 'absolute',
@@ -57,13 +59,14 @@ export default props => routeProps => (
           width: '100%',
           textAlign: 'center',
           fontFamily: 'roboto',
+          padding: '0 20px',
         }}
       >
         Apoio: Instituto C&A; <br />
         Parceiros: Good Tech Lab, Fab City Global, Materiom;
         <br />
         Membro: Sistema B Brasil e CE100 Global Ellen MacArthur Foundation.
-      </p>
+      </Typography>
     </Grid>
   </Fragment>
 )
