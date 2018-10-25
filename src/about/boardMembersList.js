@@ -1,6 +1,3 @@
-const temporaryImage = 'https://via.placeholder.com/200x200'
-const temporaryJob = 'Job do integrante'
-
 export default [
   {
     id: 1,
