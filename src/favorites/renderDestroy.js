@@ -4,7 +4,7 @@ import DeleteIcon from '@material-ui/icons/Delete'
 
 import Loading from './Loading'
 import onClick from '../onClick'
-import Colors from '../Colors';
+import Colors from '../Colors'
 
 export default ({ id, destroying }) => (destroy, { destroyed }) =>
   destroying ? (

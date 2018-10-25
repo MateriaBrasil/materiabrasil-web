@@ -4,7 +4,7 @@ import Grid from '@material-ui/core/Grid'
 import { withStyles } from '@material-ui/core/styles'
 
 import gridStyle from './gridStyle'
-import Colors from '../Colors';
+import Colors from '../Colors'
 
 export default withStyles(gridStyle)(props => (
   <Grid

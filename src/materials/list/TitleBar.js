@@ -15,7 +15,11 @@ export default props => {
       <div className="title-bar-text">
         <Link
           to={`/materials/${id}`}
-          style={{ textDecoration: 'none', color: Colors.white, display: 'block' }}
+          style={{
+            textDecoration: 'none',
+            color: Colors.white,
+            display: 'block',
+          }}
         >
           <Typography variant="subtitle1" color="inherit">
             {name}
