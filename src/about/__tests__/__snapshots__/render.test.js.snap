@@ -848,8 +848,339 @@ Array [
                   }
             }
         >
-            Board
+            Nosso board
         </h3>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+    >
+        <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-6-63 Component-grid-134"
+        >
+            <h5
+                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                style={
+                    Object {
+                        "color": "#fff",
+                        "display": "inline-block",
+                        "fontWeight": 300,
+                        "verticalAlign": "middle",
+                      }
+                }
+            >
+                Sabemos que nada nesse mundo se faz sozinho! Por isso a MateriaMundi conta com um Conselho Consultivo que nos ajuda a ter integrar diferentes perspectivas e conhecimentos no projeto. Conheça os profissionais que doam o seu tempo de forma voluntária para fazer este sonho coletivo acontecer!
+            </h5>
+        </div>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Margarida Lunetta - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://lh6.googleusercontent.com/BBN6N20unckTJoeEFYB3qT93EbTlmprR0fi5WYNVTVUoZ-CtOiSUcttA5CIICRhKTOvUU1C4643nyw=w1920-h1008"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Margarida Lunetta
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Gestora do programa Transformação Circular da Fundação C&A
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Arnoud Passenier - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://lh6.googleusercontent.com/L49lKzovMGDESQh8OOvaZdBU--fC84U7AKHmtylrnnrYcK5Rp81X8mTJneY6zTSVXs9AI5F4L_WHvpU93RyW=w1920-h1008"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Arnoud Passenier
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Gestor Sênior do programa de Economia Circular do governo da Holanda
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Luisa Santiago - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://lh6.googleusercontent.com/LnSC7MuQGVmk9leH1mC0jHOuXidEQSVxALSpxNKqmAyzaL5ALHivY0w3e3tcGKBllKLMlDxx8JzEM7cxk1iE=w1920-h1008"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Luisa Santiago
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Diretora Executiva Ellen MacArthur Foundation Brasil
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Tomás de Lara - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://lh6.googleusercontent.com/hyBHnU0aZbM_nOyyBFjaidpbAFDDxhWqib21PZk2ryORM3LjoIOj58KXhD8Ro0R2XRCLHsxVDdT0LzbtdYP0=w1920-h1008"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Tomás de Lara
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lead Cidades + B Global Sistema B Brasil
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Taciana Abreu - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://lh3.googleusercontent.com/jAnSyqgv1wLHPHXMUuikVjT26Up4wrPwVfrt-bmTBj6Q4BuZQyAfQWWx_r35LklfcE87Tmb4ZnoKElcm35sg=w1920-h1008"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Taciana Abreu
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Articuladora Yunus Negócios Sociais Brasil e Head de Marketing Farm Rio
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        />
     </div>
 </div>,
   <div
