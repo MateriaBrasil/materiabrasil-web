@@ -3,6 +3,7 @@ import Grid from '@material-ui/core/Grid'
 import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 import Typography from '@material-ui/core/Typography'
+import Hidden from '@material-ui/core/Hidden'
 
 import NewFavorite from '../../favorites/New'
 import Reviews from './Reviews'
@@ -39,11 +40,13 @@ export default props => {
               />
               <TechnicalSpecificationUpload {...props} />
               <CertificationsUpload {...props} />
-              <EditButton
-                {...props}
-                path="indicators"
-                label="Responder questionário"
-              />
+              <Hidden xsUp>
+                <EditButton
+                  {...props}
+                  path="indicators"
+                  label="Responder questionário"
+                />
+              </Hidden>
             </Fragment>
           )}
           <Typography variant="subtitle1" style={{ marginBottom: 24 }}>
