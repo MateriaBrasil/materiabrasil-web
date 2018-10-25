@@ -28,7 +28,7 @@ exports[`renders correctly 1`] = `
       accept="image/*"
       acceptStyle={
         Object {
-          "border": "2px solid #239eb1",
+          "border": "2px solid #049DAC",
         }
       }
       disableClick={false}
@@ -153,7 +153,7 @@ exports[`with file renders correctly 1`] = `
       accept="image/*"
       acceptStyle={
         Object {
-          "border": "2px solid #239eb1",
+          "border": "2px solid #049DAC",
         }
       }
       disableClick={true}
