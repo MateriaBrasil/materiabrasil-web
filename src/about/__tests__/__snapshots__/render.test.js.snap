@@ -1444,11 +1444,7 @@ Array [
                     Object {
                         "borderRadius": 7,
                         "fontSize": 30,
-                        "fontWeight": "30px",
-                        "marginBottom": "5px",
-                        "marginLeft": "5px",
-                        "marginRight": "5px",
-                        "marginTop": "5px",
+                        "margin": 5,
                         "textTransform": "lowercase",
                       }
                 }
@@ -1492,11 +1488,7 @@ Array [
                     Object {
                         "borderRadius": 7,
                         "fontSize": 30,
-                        "fontWeight": "30px",
-                        "marginBottom": "5px",
-                        "marginLeft": "5px",
-                        "marginRight": "5px",
-                        "marginTop": "5px",
+                        "margin": 5,
                         "textTransform": "lowercase",
                       }
                 }
@@ -1540,10 +1532,7 @@ Array [
                     Object {
                         "borderRadius": 7,
                         "fontSize": 30,
-                        "marginBottom": "5px",
-                        "marginLeft": "5px",
-                        "marginRight": "5px",
-                        "marginTop": "5px",
+                        "margin": 5,
                         "textTransform": "lowercase",
                       }
                 }
@@ -1587,11 +1576,7 @@ Array [
                     Object {
                         "borderRadius": 7,
                         "fontSize": 30,
-                        "fontWeight": "30px",
-                        "marginBottom": "5px",
-                        "marginLeft": "5px",
-                        "marginRight": "5px",
-                        "marginTop": "5px",
+                        "margin": 5,
                         "textTransform": "lowercase",
                       }
                 }
