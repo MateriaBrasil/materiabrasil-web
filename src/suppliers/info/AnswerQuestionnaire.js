@@ -11,7 +11,7 @@ export default props => {
       style={{ textDecoration: 'none' }}
       to={`/suppliers/${id}/questionnaires`}
     >
-      <Hidden lgUp mdUp smUp xlUp xsUp>
+      <Hidden xsUp>
         <Button variant="contained" color="primary">
           Responder questionários
         </Button>

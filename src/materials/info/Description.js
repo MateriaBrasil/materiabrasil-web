@@ -40,7 +40,7 @@ export default props => {
               />
               <TechnicalSpecificationUpload {...props} />
               <CertificationsUpload {...props} />
-              <Hidden lgUp mdUp smUp xlUp xsUp>
+              <Hidden xsUp>
                 <EditButton
                   {...props}
                   path="indicators"
