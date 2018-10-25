@@ -139,6 +139,7 @@ Array [
                         "borderRadius": 7,
                         "fontSize": 40,
                         "fontWeight": 100,
+                        "marginBottom": 50,
                         "padding": "15px 50px",
                         "textTransform": "lowercase",
                       }
@@ -157,6 +158,7 @@ Array [
             </button>
         </div>
         <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
                     "bottom": 20,

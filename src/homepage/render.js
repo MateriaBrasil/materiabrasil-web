@@ -44,12 +44,13 @@ export default props => routeProps => (
             fontSize: 40,
             padding: '15px 50px',
             background: '#fff',
+            marginBottom: 50,
           }}
         >
           Explore
         </Button>
       </Link>
-      <p
+      <Typography
         style={{
           color: '#fff',
           position: 'absolute',
@@ -63,7 +64,7 @@ export default props => routeProps => (
         Parceiros: Good Tech Lab, Fab City Global, Materiom;
         <br />
         Membro: Sistema B Brasil e CE100 Global Ellen MacArthur Foundation.
-      </p>
+      </Typography>
     </Grid>
   </Fragment>
 )
