@@ -229,29 +229,6 @@ Array [
         >
             Manuela Yamada
         </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "margin": "10px 0",
-                    "textAlign": "center",
-                  }
-            }
-        >
-            Job do integrante
-        </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "textAlign": "center",
-                  }
-            }
-        >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
-        </p>
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -292,29 +269,6 @@ Array [
             }
         >
             Bernardo Ferracioli
-        </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "margin": "10px 0",
-                    "textAlign": "center",
-                  }
-            }
-        >
-            Job do integrante
-        </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "textAlign": "center",
-                  }
-            }
-        >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
         </p>
     </div>
     <div
@@ -357,29 +311,6 @@ Array [
         >
             Bruno Temer
         </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "margin": "10px 0",
-                    "textAlign": "center",
-                  }
-            }
-        >
-            Job do integrante
-        </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "textAlign": "center",
-                  }
-            }
-        >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
-        </p>
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -420,29 +351,6 @@ Array [
             }
         >
             Pedro Themoteo
-        </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "margin": "10px 0",
-                    "textAlign": "center",
-                  }
-            }
-        >
-            Job do integrante
-        </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "textAlign": "center",
-                  }
-            }
-        >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
         </p>
     </div>
     <div
@@ -485,29 +393,6 @@ Array [
         >
             Daniele Valente
         </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "margin": "10px 0",
-                    "textAlign": "center",
-                  }
-            }
-        >
-            Job do integrante
-        </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "textAlign": "center",
-                  }
-            }
-        >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
-        </p>
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -548,29 +433,6 @@ Array [
             }
         >
             Elisa Ferreira
-        </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "margin": "10px 0",
-                    "textAlign": "center",
-                  }
-            }
-        >
-            Job do integrante
-        </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "textAlign": "center",
-                  }
-            }
-        >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
         </p>
     </div>
     <div
@@ -613,29 +475,6 @@ Array [
         >
             Victor Lanari
         </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "margin": "10px 0",
-                    "textAlign": "center",
-                  }
-            }
-        >
-            Job do integrante
-        </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "textAlign": "center",
-                  }
-            }
-        >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
-        </p>
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -676,29 +515,6 @@ Array [
             }
         >
             Dahyna Ribeiro
-        </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "margin": "10px 0",
-                    "textAlign": "center",
-                  }
-            }
-        >
-            Job do integrante
-        </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "textAlign": "center",
-                  }
-            }
-        >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
         </p>
     </div>
     <div
@@ -741,29 +557,6 @@ Array [
         >
             Bernardo Mattos
         </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "margin": "10px 0",
-                    "textAlign": "center",
-                  }
-            }
-        >
-            Job do integrante
-        </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "textAlign": "center",
-                  }
-            }
-        >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
-        </p>
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -804,29 +597,6 @@ Array [
             }
         >
             Seasoned
-        </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "margin": "10px 0",
-                    "textAlign": "center",
-                  }
-            }
-        >
-            Job do integrante
-        </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "textAlign": "center",
-                  }
-            }
-        >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
         </p>
     </div>
 </div>,
@@ -938,27 +708,6 @@ Array [
         >
             Margarida Lunetta
         </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "margin": "10px 0",
-                    "textAlign": "center",
-                  }
-            }
-        >
-            Gestora do programa Transformação Circular da Fundação C&A
-        </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "textAlign": "center",
-                  }
-            }
-        />
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -1000,27 +749,6 @@ Array [
         >
             Arnoud Passenier
         </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "margin": "10px 0",
-                    "textAlign": "center",
-                  }
-            }
-        >
-            Gestor Sênior do programa de Economia Circular do governo da Holanda
-        </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "textAlign": "center",
-                  }
-            }
-        />
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -1062,27 +790,6 @@ Array [
         >
             Luisa Santiago
         </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "margin": "10px 0",
-                    "textAlign": "center",
-                  }
-            }
-        >
-            Diretora Executiva Ellen MacArthur Foundation Brasil
-        </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "textAlign": "center",
-                  }
-            }
-        />
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -1124,27 +831,6 @@ Array [
         >
             Tomás de Lara
         </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "margin": "10px 0",
-                    "textAlign": "center",
-                  }
-            }
-        >
-            Lead Cidades + B Global Sistema B Brasil
-        </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "textAlign": "center",
-                  }
-            }
-        />
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -1186,27 +872,6 @@ Array [
         >
             Taciana Abreu
         </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "margin": "10px 0",
-                    "textAlign": "center",
-                  }
-            }
-        >
-            Articuladora Yunus Negócios Sociais Brasil e Head de Marketing Farm Rio
-        </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "textAlign": "center",
-                  }
-            }
-        />
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -1248,27 +913,6 @@ Array [
         >
             Bernardo Ferracioli
         </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "margin": "10px 0",
-                    "textAlign": "center",
-                  }
-            }
-        >
-            texto pendente
-        </p>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
-            style={
-                Object {
-                    "color": "white",
-                    "textAlign": "center",
-                  }
-            }
-        />
     </div>
 </div>,
   <div
