@@ -5,6 +5,7 @@ import IconButton from '@material-ui/core/IconButton'
 
 import Menu from './Menu'
 import Links from './Links'
+import Colors from '../Colors'
 
 export default class extends Component {
   state = {
@@ -28,7 +29,13 @@ export default class extends Component {
           matches ? (
             <Fragment>
               <IconButton onClick={this.handleClick}>
-                <MenuIcon />
+                <MenuIcon
+                  style={{
+                    ...(this.props.isInstitutionalPage && {
+                      color: Colors.white,
+                    }),
+                  }}
+                />
               </IconButton>
               <Menu
                 {...this.props}
