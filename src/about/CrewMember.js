@@ -22,13 +22,5 @@ export default props => (
     >
       {props.name}
     </Typography>
-    <Typography
-      style={{ textAlign: 'center', color: Colors.white, margin: '10px 0' }}
-    >
-      {props.job}
-    </Typography>
-    <Typography style={{ textAlign: 'center', color: Colors.white }}>
-      {props.description}
-    </Typography>
   </Grid>
 )
