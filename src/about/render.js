@@ -2,11 +2,11 @@ import React, { Fragment } from 'react'
 
 import NavBar from '../navBar/NavBar'
 import Goal from './Goal'
-import HowToUse from './HowToUse'
-import Crew from './Crew'
-import Board from './Board'
-import Drivers from './Drivers'
+import HowToUse from './howToUse/HowToUse'
+import Crew from './crew/Crew'
+import Board from './board/Board'
 
+import Drivers from './drivers/Drivers'
 export default props => routeProps => (
   <Fragment>
     <NavBar {...props} isInstitutionalPage />
