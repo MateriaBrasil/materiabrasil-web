@@ -11,10 +11,14 @@ Array [
     className="MuiGrid-container-1"
     style={
         Object {
+            "alignContent": "center",
             "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
-            "paddingTop": "35px",
+            "paddingBottom": "10%",
+            "paddingLeft": "5%",
+            "paddingRight": "5%",
+            "paddingTop": "10%",
           }
     }
 >
@@ -22,13 +26,12 @@ Array [
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
         style={
             Object {
-                "paddingTop": "5%",
                 "position": "relative",
               }
         }
     >
-        <h3
-            className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128"
+        <h4
+            className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
             style={
                 Object {
                     "color": "white",
@@ -38,50 +41,45 @@ Array [
                   }
             }
         >
+            <br />
             Objetivo
-        </h3>
+        </h4>
     </div>
     <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
-        style={
-            Object {
-                "margin": "0 auto",
-                "overflow": "hidden",
-                "padding": "0 0",
-                "position": "relative",
-                "textAlign": "center",
-              }
-        }
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
     >
-        <div
-            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-6-63 Component-grid-134"
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 300,
+                    "marginLeft": "1%",
+                    "marginRight": "1%",
+                    "padding": "0 6%",
+                    "verticalAlign": "middle",
+                  }
+            }
         >
-            <h5
-                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-                style={
-                    Object {
-                        "color": "white",
-                        "display": "inline-block",
-                        "fontWeight": 300,
-                        "verticalAlign": "middle",
-                      }
-                }
-            >
-                O objetivo da MateriaMundi oferecer acesso à informação de qualidade e parâmetros para que seus usuários possam escolher alternativas comercialmente disponíveis e socioambiental responsáveis para os desafios do dia a dia, variando desde o que vestimos até como construímos nossas casas.
-                <br />
-                Através da criação de uma comunidade ativa a plataforma permite a criação de conhecimento compartilhado sobre ações práticas para uma forma de projetar, produzir e consumir mais responsável com a sociedade e o meio ambiente.
-            </h5>
-        </div>
+            O objetivo da MateriaMundi oferecer acesso à informação de qualidade e parâmetros para que seus usuários possam escolher alternativas comercialmente disponíveis e socioambiental responsáveis para os desafios do dia a dia, variando desde o que vestimos até como construímos nossas casas.
+            <br />
+            Através da criação de uma comunidade ativa a plataforma permite a criação de conhecimento compartilhado sobre ações práticas para uma forma de projetar, produzir e consumir mais responsável com a sociedade e o meio ambiente.
+        </h5>
     </div>
 </div>,
   <div
     className="MuiGrid-container-1"
     style={
         Object {
+            "alignContent": "center",
             "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
-            "paddingTop": "35px",
+            "paddingBottom": "10%",
+            "paddingLeft": "5%",
+            "paddingRight": "5%",
+            "paddingTop": "10%",
           }
     }
 >
@@ -89,13 +87,12 @@ Array [
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
         style={
             Object {
-                "paddingTop": "5%",
                 "position": "relative",
               }
         }
     >
-        <h3
-            className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128"
+        <h4
+            className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
             style={
                 Object {
                     "color": "white",
@@ -106,13 +103,13 @@ Array [
             }
         >
             Como usar
-        </h3>
+        </h4>
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-6-63 Component-grid-135"
         style={
             Object {
-                "paddingTop": "35%",
+                "padding": "30%",
                 "position": "relative",
               }
         }
@@ -159,10 +156,14 @@ Array [
     className="MuiGrid-container-1"
     style={
         Object {
+            "alignContent": "center",
             "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
-            "paddingTop": "35px",
+            "paddingBottom": "10%",
+            "paddingLeft": "5%",
+            "paddingRight": "5%",
+            "paddingTop": "10%",
           }
     }
 >
@@ -170,13 +171,12 @@ Array [
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
         style={
             Object {
-                "paddingTop": "5%",
                 "position": "relative",
               }
         }
     >
-        <h3
-            className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128"
+        <h4
+            className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
             style={
                 Object {
                     "color": "white",
@@ -187,7 +187,7 @@ Array [
             }
         >
             Equipe
-        </h3>
+        </h4>
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -604,10 +604,14 @@ Array [
     className="MuiGrid-container-1"
     style={
         Object {
+            "alignContent": "center",
             "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
-            "paddingTop": "35px",
+            "paddingBottom": "10%",
+            "paddingLeft": "5%",
+            "paddingRight": "5%",
+            "paddingTop": "10%",
           }
     }
 >
@@ -615,13 +619,12 @@ Array [
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
         style={
             Object {
-                "paddingTop": "5%",
                 "position": "relative",
               }
         }
     >
-        <h3
-            className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128"
+        <h4
+            className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
             style={
                 Object {
                     "color": "white",
@@ -632,40 +635,30 @@ Array [
             }
         >
             Nosso board
-        </h3>
+        </h4>
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
     >
         <div
-            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
-            style={
-                Object {
-                    "margin": "0 auto",
-                    "overflow": "hidden",
-                    "padding": "0 0",
-                    "position": "relative",
-                    "textAlign": "center",
-                  }
-            }
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
         >
-            <div
-                className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-6-63 Component-grid-134"
+            <h5
+                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                style={
+                    Object {
+                        "color": "white",
+                        "display": "inline-block",
+                        "fontWeight": 300,
+                        "marginLeft": "1%",
+                        "marginRight": "1%",
+                        "padding": "0 6%",
+                        "verticalAlign": "middle",
+                      }
+                }
             >
-                <h5
-                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-                    style={
-                        Object {
-                            "color": "white",
-                            "display": "inline-block",
-                            "fontWeight": 300,
-                            "verticalAlign": "middle",
-                          }
-                    }
-                >
-                    Sabemos que nada nesse mundo se faz sozinho! Por isso a MateriaMundi conta com um Conselho Consultivo que nos ajuda a ter integrar diferentes perspectivas e conhecimentos no projeto. Conheça os profissionais que doam o seu tempo de forma voluntária para fazer este sonho coletivo acontecer!
-                </h5>
-            </div>
+                Sabemos que nada nesse mundo se faz sozinho! Por isso a MateriaMundi conta com um Conselho Consultivo que nos ajuda a ter integrar diferentes perspectivas e conhecimentos no projeto. Conheça os profissionais que doam o seu tempo de forma voluntária para fazer este sonho coletivo acontecer!
+            </h5>
         </div>
     </div>
     <div
@@ -919,10 +912,14 @@ Array [
     className="MuiGrid-container-1"
     style={
         Object {
+            "alignContent": "center",
             "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
-            "paddingTop": "35px",
+            "paddingBottom": "10%",
+            "paddingLeft": "5%",
+            "paddingRight": "5%",
+            "paddingTop": "10%",
           }
     }
 >
@@ -930,13 +927,12 @@ Array [
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
         style={
             Object {
-                "paddingTop": "5%",
                 "position": "relative",
               }
         }
     >
-        <h3
-            className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128"
+        <h4
+            className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
             style={
                 Object {
                     "color": "white",
@@ -947,7 +943,7 @@ Array [
             }
         >
             Direcionadores
-        </h3>
+        </h4>
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
@@ -977,34 +973,24 @@ Array [
         </h5>
     </div>
     <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
-        style={
-            Object {
-                "margin": "0 auto",
-                "overflow": "hidden",
-                "padding": "0 0",
-                "position": "relative",
-                "textAlign": "center",
-              }
-        }
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
     >
-        <div
-            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-6-63 Component-grid-134"
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 300,
+                    "marginLeft": "1%",
+                    "marginRight": "1%",
+                    "padding": "0 6%",
+                    "verticalAlign": "middle",
+                  }
+            }
         >
-            <h5
-                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-                style={
-                    Object {
-                        "color": "white",
-                        "display": "inline-block",
-                        "fontWeight": 300,
-                        "verticalAlign": "middle",
-                      }
-                }
-            >
-                Na MateriaMundi acreditamos que não existe uma só resposta aos desafios de construir uma forma mais responsável de projetar, produzir e consumir, e que as escolhas mais apropriadas irão variar de acordo com o contexto no qual se está inseridos. Por este motivo criamos os nossos Direcionadores de Responsabilidade Socioambiental. Os Direcionadores foram desenvolvidos para auxiliar o usuário a escolher de forma consciente entre diversas opções, baseando-se em informações sobre o que determinada empresa/produto faz para obter um impacto positivo. Através da análise qualitativa e da pontuação de cada produto, material e serviço em cada direcionador o usuário pode comparar alternativas, priorizando o aspecto socioambiental mais relevante para o seu projeto em seu contexto.
-            </h5>
-        </div>
+            Na MateriaMundi acreditamos que não existe uma só resposta aos desafios de construir uma forma mais responsável de projetar, produzir e consumir, e que as escolhas mais apropriadas irão variar de acordo com o contexto no qual se está inseridos. Por este motivo criamos os nossos Direcionadores de Responsabilidade Socioambiental. Os Direcionadores foram desenvolvidos para auxiliar o usuário a escolher de forma consciente entre diversas opções, baseando-se em informações sobre o que determinada empresa/produto faz para obter um impacto positivo. Através da análise qualitativa e da pontuação de cada produto, material e serviço em cada direcionador o usuário pode comparar alternativas, priorizando o aspecto socioambiental mais relevante para o seu projeto em seu contexto.
+        </h5>
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
@@ -1034,34 +1020,24 @@ Array [
         </h5>
     </div>
     <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
-        style={
-            Object {
-                "margin": "0 auto",
-                "overflow": "hidden",
-                "padding": "0 0",
-                "position": "relative",
-                "textAlign": "center",
-              }
-        }
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
     >
-        <div
-            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-6-63 Component-grid-134"
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 300,
+                    "marginLeft": "1%",
+                    "marginRight": "1%",
+                    "padding": "0 6%",
+                    "verticalAlign": "middle",
+                  }
+            }
         >
-            <h5
-                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-                style={
-                    Object {
-                        "color": "white",
-                        "display": "inline-block",
-                        "fontWeight": 300,
-                        "verticalAlign": "middle",
-                      }
-                }
-            >
-                Os quatro direcionadores são divididos em duas vertentes, dois analisam aspectos sociais e dois aspectos ambientais, e cada um possui pontuação de 0 à 4, sendo zero a nota mínima e quatro a nota máxima. Cada material, produto e serviço apresentado na plataforma passa por essa auto-avaliação que é composta por 81 perguntas com objetivo de analisar seu impacto positivo. Essas análise fica disponível para você de forma descritiva, sendo possível ver cada uma das perguntas e respostas e também em forma quantitativa, através do gráfico de impacto. Para auxiliar a tomada de decisão sobre qual alternativa utilizar disponibilizamos uma ferramenta de comparação, onde os gráficos podem ser sobrepostos e uma análise comparativa pode ser feita.
-            </h5>
-        </div>
+            Os quatro direcionadores são divididos em duas vertentes, dois analisam aspectos sociais e dois aspectos ambientais, e cada um possui pontuação de 0 à 4, sendo zero a nota mínima e quatro a nota máxima. Cada material, produto e serviço apresentado na plataforma passa por essa auto-avaliação que é composta por 81 perguntas com objetivo de analisar seu impacto positivo. Essas análise fica disponível para você de forma descritiva, sendo possível ver cada uma das perguntas e respostas e também em forma quantitativa, através do gráfico de impacto. Para auxiliar a tomada de decisão sobre qual alternativa utilizar disponibilizamos uma ferramenta de comparação, onde os gráficos podem ser sobrepostos e uma análise comparativa pode ser feita.
+        </h5>
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
@@ -1091,42 +1067,38 @@ Array [
         </h5>
     </div>
     <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+    >
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 300,
+                    "marginLeft": "1%",
+                    "marginRight": "1%",
+                    "padding": "0 6%",
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            A MateriaMundi acredita em seus usuários e mesmo se porventura acontecer de uma informação não ser verídica, acreditamos no poder da comunidade para regular o coletivo e garantir a integridade da plataforma. Por isso optamos por um processo de auto-avaliação, onde cada empresa é convidada a responder voluntariamente as 81 perguntas, sem um processo de auditoria. Para garantir um canal apropriado para feed-back onde toda a comunidade possa fornecer e colher informações, na página de cada produto disponibilizamos uma área para comentários e avaliação. A plataforma oferece ainda como opção a possibilidade de anexar documentos comprobatórios caso a empresa possua. Não tornamos a comprovação um item obrigatório pois entendemos que muitas vezes os custos para tal são impeditivos para empresas menores."
+        </h5>
+    </div>
+    <br />
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-6-63 Component-grid-140"
         style={
             Object {
-                "margin": "0 auto",
-                "overflow": "hidden",
-                "padding": "0 0",
-                "position": "relative",
-                "textAlign": "center",
+                "marginBottom": "5%",
+                "marginTop": "5%",
               }
         }
     >
         <div
-            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-6-63 Component-grid-134"
-        >
-            <h5
-                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-                style={
-                    Object {
-                        "color": "white",
-                        "display": "inline-block",
-                        "fontWeight": 300,
-                        "verticalAlign": "middle",
-                      }
-                }
-            >
-                A MateriaMundi acredita em seus usuários e mesmo se porventura acontecer de uma informação não ser verídica, acreditamos no poder da comunidade para regular o coletivo e garantir a integridade da plataforma. Por isso optamos por um processo de auto-avaliação, onde cada empresa é convidada a responder voluntariamente as 81 perguntas, sem um processo de auditoria. Para garantir um canal apropriado para feed-back onde toda a comunidade possa fornecer e colher informações, na página de cada produto disponibilizamos uma área para comentários e avaliação. A plataforma oferece ainda como opção a possibilidade de anexar documentos comprobatórios caso a empresa possua. Não tornamos a comprovação um item obrigatório pois entendemos que muitas vezes os custos para tal são impeditivos para empresas menores."
-            </h5>
-        </div>
-    </div>
-    <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-140"
-    >
-        <div
             style={
                 Object {
-                    "marginRight": 24,
                     "textDecoration": "none",
                   }
             }
@@ -1170,7 +1142,6 @@ Array [
         <div
             style={
                 Object {
-                    "marginRight": 24,
                     "textDecoration": "none",
                   }
             }
@@ -1214,7 +1185,6 @@ Array [
         <div
             style={
                 Object {
-                    "marginRight": 24,
                     "textDecoration": "none",
                   }
             }
@@ -1258,7 +1228,6 @@ Array [
         <div
             style={
                 Object {
-                    "marginRight": 24,
                     "textDecoration": "none",
                   }
             }
@@ -1300,8 +1269,9 @@ Array [
             </button>
         </div>
     </div>
+    <br />
     <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-10-39"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
         style={
             Object {
                 "margin": "0 0",
@@ -1310,73 +1280,215 @@ Array [
               }
         }
     >
-        <h4
-            className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
-            padding="0 0"
+        <ul
             style={
                 Object {
-                    "color": "white",
-                    "display": "inline-block",
-                    "fontWeight": 300,
-                    "marginLeft": "50%",
-                    "marginTop": "5%",
-                    "verticalAlign": "middle",
+                    "listStyle": "none",
+                    "padding": 0,
                   }
             }
         >
-            <ul>
-                <li>
-                    <span>
-                        Aldo Ometto
-                    </span>
-                </li>
-                <li>
-                    <span>
-                        Weber Amaral
-                    </span>
-                </li>
-                <li>
-                    <span>
-                        Juliana Sardinha
-                    </span>
-                </li>
-                <li>
-                    <span>
-                        Rosangela Sardinha
-                    </span>
-                </li>
-                <li>
-                    <span>
-                        Luiza Maia de Castro
-                    </span>
-                </li>
-                <li>
-                    <span>
-                        Isadora Ribeiro
-                    </span>
-                </li>
-                <li>
-                    <span>
-                        Tomás de Lara
-                    </span>
-                </li>
-                <li>
-                    <span>
-                        Manuela Yamada
-                    </span>
-                </li>
-                <li>
-                    <span>
-                        Bruno Temer
-                    </span>
-                </li>
-                <li>
-                    <span>
-                        Jéssica Galdino"
-                    </span>
-                </li>
-            </ul>
-        </h4>
+            <li
+                style={
+                    Object {
+                        "textAlign": "center",
+                      }
+                }
+            >
+                <h5
+                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                    style={
+                        Object {
+                            "color": "#fff",
+                            "fontWeight": 500,
+                            "margin": "30px",
+                          }
+                    }
+                >
+                    Aldo Ometto
+                </h5>
+            </li>
+            <li
+                style={
+                    Object {
+                        "textAlign": "center",
+                      }
+                }
+            >
+                <h5
+                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                    style={
+                        Object {
+                            "color": "#fff",
+                            "fontWeight": 500,
+                            "margin": "30px",
+                          }
+                    }
+                >
+                    Weber Amaral
+                </h5>
+            </li>
+            <li
+                style={
+                    Object {
+                        "textAlign": "center",
+                      }
+                }
+            >
+                <h5
+                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                    style={
+                        Object {
+                            "color": "#fff",
+                            "fontWeight": 500,
+                            "margin": "30px",
+                          }
+                    }
+                >
+                    Juliana Sardinha
+                </h5>
+            </li>
+            <li
+                style={
+                    Object {
+                        "textAlign": "center",
+                      }
+                }
+            >
+                <h5
+                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                    style={
+                        Object {
+                            "color": "#fff",
+                            "fontWeight": 500,
+                            "margin": "30px",
+                          }
+                    }
+                >
+                    Rosangela Sardinha
+                </h5>
+            </li>
+            <li
+                style={
+                    Object {
+                        "textAlign": "center",
+                      }
+                }
+            >
+                <h5
+                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                    style={
+                        Object {
+                            "color": "#fff",
+                            "fontWeight": 500,
+                            "margin": "30px",
+                          }
+                    }
+                >
+                    Luiza Maia de Castro
+                </h5>
+            </li>
+            <li
+                style={
+                    Object {
+                        "textAlign": "center",
+                      }
+                }
+            >
+                <h5
+                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                    style={
+                        Object {
+                            "color": "#fff",
+                            "fontWeight": 500,
+                            "margin": "30px",
+                          }
+                    }
+                >
+                    Isadora Ribeiro
+                </h5>
+            </li>
+            <li
+                style={
+                    Object {
+                        "textAlign": "center",
+                      }
+                }
+            >
+                <h5
+                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                    style={
+                        Object {
+                            "color": "#fff",
+                            "fontWeight": 500,
+                            "margin": "30px",
+                          }
+                    }
+                >
+                    Tomás de Lara
+                </h5>
+            </li>
+            <li
+                style={
+                    Object {
+                        "textAlign": "center",
+                      }
+                }
+            >
+                <h5
+                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                    style={
+                        Object {
+                            "color": "#fff",
+                            "fontWeight": 500,
+                            "margin": "30px",
+                          }
+                    }
+                >
+                    Manuela Yamada
+                </h5>
+            </li>
+            <li
+                style={
+                    Object {
+                        "textAlign": "center",
+                      }
+                }
+            >
+                <h5
+                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                    style={
+                        Object {
+                            "color": "#fff",
+                            "fontWeight": 500,
+                            "margin": "30px",
+                          }
+                    }
+                >
+                    Bruno Temer
+                </h5>
+            </li>
+            <li
+                style={
+                    Object {
+                        "textAlign": "center",
+                      }
+                }
+            >
+                <h5
+                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                    style={
+                        Object {
+                            "color": "#fff",
+                            "fontWeight": 500,
+                            "margin": "30px",
+                          }
+                    }
+                >
+                    Jéssica Galdino
+                </h5>
+            </li>
+        </ul>
     </div>
 </div>,
 ]

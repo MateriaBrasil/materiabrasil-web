@@ -1,19 +1,19 @@
 import React from 'react'
 import map from 'lodash/map'
 
-import Session from './Session'
-import CrewMember from './CrewMember'
-import Title from './Title'
-import List from './crewMembersList'
+import Session from '../Session'
+import Member from '../Member'
+import Title from '../Title'
+import membersList from './membersList'
 
 export default props => {
   return (
     <Session {...props}>
       <Title>Equipe</Title>
 
-      {map(List, ({ id, name, image, job, description }) => {
+      {map(membersList, ({ id, name, image, job, description }) => {
         return (
-          <CrewMember
+          <Member
             key={id}
             image={image}
             name={name}

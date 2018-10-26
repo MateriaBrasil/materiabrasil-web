@@ -12,12 +12,11 @@ export default withStyles(gridStyle)(props => (
     xs={12}
     className={props.classes.grid}
     style={{
-      paddingTop: '5%',
       position: 'relative',
     }}
   >
     <Typography
-      variant="h3"
+      variant="h4"
       color="inherit"
       style={{
         color: Colors.white,

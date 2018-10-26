@@ -7,30 +7,21 @@ import gridStyle from './gridStyle'
 import Colors from '../Colors'
 
 export default withStyles(gridStyle)(props => (
-  <Grid
-    item
-    xs={12}
-    style={{
-      padding: '0 0',
-      position: 'relative',
-      margin: '0 auto',
-      overflow: 'hidden',
-      textAlign: 'center',
-    }}
-  >
-    <Grid item xs={12} sm={8} md={6} className={props.classes.grid}>
-      <Typography
-        variant="h5"
-        color="inherit"
-        style={{
-          color: Colors.white,
-          display: 'inline-block',
-          verticalAlign: 'middle',
-          fontWeight: 300,
-        }}
-      >
-        {props.children}
-      </Typography>
-    </Grid>
+  <Grid item xs={12} className={props.classes.grid}>
+    <Typography
+      variant="h5"
+      color="inherit"
+      style={{
+        color: Colors.white,
+        display: 'inline-block',
+        verticalAlign: 'middle',
+        fontWeight: 300,
+        marginLeft: '1%',
+        marginRight: '1%',
+        padding: '0 6%',
+      }}
+    >
+      {props.children}
+    </Typography>
   </Grid>
 ))

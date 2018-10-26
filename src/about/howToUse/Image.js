@@ -2,7 +2,7 @@ import React from 'react'
 import Grid from '@material-ui/core/Grid'
 import { withStyles } from '@material-ui/core/styles'
 
-import gridStyle from './gridStyle'
+import gridStyle from '../gridStyle'
 
 export default withStyles(gridStyle)(props => (
   <Grid item xs={12} className={props.classes.grid}>
