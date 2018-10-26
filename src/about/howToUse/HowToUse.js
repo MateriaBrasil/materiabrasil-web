@@ -1,10 +1,10 @@
 import React from 'react'
 
-import Session from './Session'
-import Title from './Title'
-import VideoStyle from './Video'
+import Session from '../Session'
+import Title from '../Title'
+import Video from '../../Video'
+import VideoStyle from './VideoStyle'
 import Image from './Image'
-import Video from '../Video'
 
 export default () => (
   <Session>
