@@ -685,7 +685,7 @@ Array [
                 alt="Margarida Lunetta - foto"
                 className="MuiAvatar-img-139"
                 sizes={undefined}
-                src="https://s3.amazonaws.com/materiamundi-us/static/driversCrew/Margarida.png"
+                src="https://s3.amazonaws.com/materiamundi-us/static/conselho/margarida_lunetta.png"
                 srcSet={undefined}
             />
         </div>
@@ -726,7 +726,7 @@ Array [
                 alt="Arnoud Passenier - foto"
                 className="MuiAvatar-img-139"
                 sizes={undefined}
-                src="https://s3.amazonaws.com/materiamundi-us/static/driversCrew/Arnoud.png"
+                src="https://s3.amazonaws.com/materiamundi-us/static/conselho/arnoud_passenier.png"
                 srcSet={undefined}
             />
         </div>
@@ -767,7 +767,7 @@ Array [
                 alt="Luisa Santiago - foto"
                 className="MuiAvatar-img-139"
                 sizes={undefined}
-                src="https://s3.amazonaws.com/materiamundi-us/static/driversCrew/Luisa.png"
+                src="https://s3.amazonaws.com/materiamundi-us/static/conselho/luisa_santiago.png"
                 srcSet={undefined}
             />
         </div>
@@ -808,7 +808,7 @@ Array [
                 alt="Tomás de Lara - foto"
                 className="MuiAvatar-img-139"
                 sizes={undefined}
-                src="https://s3.amazonaws.com/materiamundi-us/static/driversCrew/Tom%C3%A1s.png"
+                src="https://s3.amazonaws.com/materiamundi-us/static/conselho/tomas_de_lara.jpg"
                 srcSet={undefined}
             />
         </div>
@@ -849,7 +849,7 @@ Array [
                 alt="Taciana Abreu - foto"
                 className="MuiAvatar-img-139"
                 sizes={undefined}
-                src="https://s3.amazonaws.com/materiamundi-us/static/driversCrew/Taciana.png"
+                src="https://s3.amazonaws.com/materiamundi-us/static/conselho/taciana_abreu.png"
                 srcSet={undefined}
             />
         </div>
@@ -864,6 +864,47 @@ Array [
             }
         >
             Taciana Abreu
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Bernardo Ferracioli - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/conselho/bernardo_ferracioli.png"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Bernardo Ferracioli
         </p>
     </div>
 </div>,
