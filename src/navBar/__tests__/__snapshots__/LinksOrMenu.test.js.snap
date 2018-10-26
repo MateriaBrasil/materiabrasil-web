@@ -168,6 +168,11 @@ Array [
             color={undefined}
             focusable="false"
             role="presentation"
+            style={
+                Object {
+                    "color": undefined,
+                  }
+            }
             viewBox="0 0 24 24"
         >
             <path
