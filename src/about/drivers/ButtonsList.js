@@ -2,8 +2,8 @@ import React from 'react'
 import Grid from '@material-ui/core/Grid'
 import { withStyles } from '@material-ui/core/styles'
 
-import gridStyle from './gridStyle'
-import DriversButton from './DriversButton'
+import gridStyle from '../gridStyle'
+import Button from './Button'
 
 export default withStyles(gridStyle)(props => (
   <Grid
@@ -17,9 +17,9 @@ export default withStyles(gridStyle)(props => (
       marginBottom: '5%',
     }}
   >
-    <DriversButton color="default" text="Clickable 1" />
-    <DriversButton color="primary" text="Clickable 2" />
-    <DriversButton color="secondary" text="Clickable 3" />
-    <DriversButton color="default" text="Clickable 4" />
+    <Button color="default" text="Clickable 1" />
+    <Button color="primary" text="Clickable 2" />
+    <Button color="secondary" text="Clickable 3" />
+    <Button color="default" text="Clickable 4" />
   </Grid>
 ))
