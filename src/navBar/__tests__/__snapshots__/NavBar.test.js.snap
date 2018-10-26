@@ -89,6 +89,11 @@ exports[`with current user renders correctly 1`] = `
             color={undefined}
             focusable="false"
             role="presentation"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
             viewBox="0 0 24 24"
           >
             <path
@@ -198,6 +203,11 @@ exports[`without current user renders correctly 1`] = `
             color={undefined}
             focusable="false"
             role="presentation"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
             viewBox="0 0 24 24"
           >
             <path
