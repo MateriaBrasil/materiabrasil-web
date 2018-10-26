@@ -29,9 +29,10 @@ Array [
             className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128 text"
             style={
                 Object {
-                    "color": "#fff",
+                    "color": "white",
                     "display": "inline-block",
                     "fontWeight": 300,
+                    "padding": "0 20px",
                     "verticalAlign": "middle",
                   }
             }
@@ -162,8 +163,9 @@ Array [
             style={
                 Object {
                     "bottom": 20,
-                    "color": "#fff",
+                    "color": "white",
                     "fontFamily": "roboto",
+                    "padding": "0 20px",
                     "position": "absolute",
                     "textAlign": "center",
                     "width": "100%",

@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 
 import Ratio from './Ratio'
+import Colors from '../Colors'
 
 export default props => {
   const { name, imageUrl, editPath, width = 400, height = 400 } = props
@@ -21,7 +22,7 @@ export default props => {
           display: 'inline-block',
           marginRight: 16,
           borderRadius: 2,
-          backgroundColor: '#ddd',
+          backgroundColor: Colors.alto,
         }}
         src={imageUrl === '' || !imageUrl ? defaultSrc : imageUrl}
         alt={name}

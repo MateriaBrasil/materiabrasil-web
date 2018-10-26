@@ -1,11 +1,12 @@
 import React from 'react'
 import Link from 'react-router-dom/Link'
 import Typography from '@material-ui/core/Typography'
+import Colors from '../Colors'
 import './Logo.css'
 
 export default props => (
   <div className="logo" style={{ flex: 1 }}>
-    <Link to="/" style={{ textDecoration: 'none', color: 'black' }}>
+    <Link to="/" style={{ textDecoration: 'none', color: Colors.black }}>
       <img
         className="image"
         src="/images/logo-small.jpg"
@@ -23,7 +24,7 @@ export default props => (
         style={{
           display: 'inline-block',
           verticalAlign: 'middle',
-          ...(props.isInstitutionalPage && { color: 'white' }),
+          ...(props.isInstitutionalPage && { color: Colors.white }),
         }}
       >
         Materia

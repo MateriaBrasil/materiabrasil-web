@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'react-router-dom/Link'
 import Typography from '@material-ui/core/Typography'
+import Colors from '../Colors'
 import './Link.css'
 
 export default ({ to, text, isInstitutionalPage, targetBlank }) => (
@@ -10,7 +11,7 @@ export default ({ to, text, isInstitutionalPage, targetBlank }) => (
     target={targetBlank ? '_blank' : '_self'}
     style={{
       textDecoration: 'none',
-      color: isInstitutionalPage ? 'white' : 'black',
+      color: isInstitutionalPage ? Colors.white : Colors.black,
     }}
   >
     <Typography

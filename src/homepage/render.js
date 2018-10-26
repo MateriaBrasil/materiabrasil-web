@@ -5,6 +5,7 @@ import Typography from '@material-ui/core/Typography'
 import Grid from '../InstitutionalPagesGrid'
 import Video from '../Video'
 import NavBar from '../navBar/NavBar'
+import Colors from '../Colors'
 
 export default props => routeProps => (
   <Fragment>
@@ -15,10 +16,11 @@ export default props => routeProps => (
         color="inherit"
         className="text"
         style={{
-          color: '#fff',
+          color: Colors.white,
           display: 'inline-block',
           verticalAlign: 'middle',
           fontWeight: 300,
+          padding: '0 20px',
         }}
       >
         Na <span style={{ fontWeight: 400 }}>Materia</span>
@@ -52,12 +54,13 @@ export default props => routeProps => (
       </Link>
       <Typography
         style={{
-          color: '#fff',
+          color: Colors.white,
           position: 'absolute',
           bottom: 20,
           width: '100%',
           textAlign: 'center',
           fontFamily: 'roboto',
+          padding: '0 20px',
         }}
       >
         Apoio: Instituto C&A; <br />
