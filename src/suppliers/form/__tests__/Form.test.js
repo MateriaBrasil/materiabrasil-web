@@ -3,8 +3,11 @@ import renderer from 'react-test-renderer'
 import { Provider } from 'react-redux'
 
 import createStore from '../../../store/createStore'
-
 import Form from '../Form'
+
+jest.mock('materials/Dialog', () => props => (
+  <div {...props}>Dialog - {props.children}</div>
+))
 
 it('renders correctly', () => {
   const reducer = () => ({})
