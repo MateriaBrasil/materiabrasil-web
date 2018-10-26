@@ -1,0 +1,1789 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div
+    isInstitutionalPage={true}
+>
+    NavBar
+</div>,
+  <div
+    className="MuiGrid-container-1"
+    style={
+        Object {
+            "alignContent": "center",
+            "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
+            "backgroundPosition": "center",
+            "backgroundSize": "cover",
+            "paddingBottom": "10%",
+            "paddingLeft": "5%",
+            "paddingRight": "5%",
+            "paddingTop": "10%",
+          }
+    }
+>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
+        style={
+            Object {
+                "position": "relative",
+              }
+        }
+    >
+        <h4
+            className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 500,
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            <br />
+            Objetivo
+        </h4>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+    >
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 300,
+                    "marginLeft": "1%",
+                    "marginRight": "1%",
+                    "padding": "0 6%",
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            O objetivo da MateriaMundi oferecer acesso à informação de qualidade e parâmetros para que seus usuários possam escolher alternativas comercialmente disponíveis e socioambiental responsáveis para os desafios do dia a dia, variando desde o que vestimos até como construímos nossas casas.
+            <br />
+            Através da criação de uma comunidade ativa a plataforma permite a criação de conhecimento compartilhado sobre ações práticas para uma forma de projetar, produzir e consumir mais responsável com a sociedade e o meio ambiente.
+        </h5>
+    </div>
+</div>,
+  <div
+    className="MuiGrid-container-1"
+    style={
+        Object {
+            "alignContent": "center",
+            "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
+            "backgroundPosition": "center",
+            "backgroundSize": "cover",
+            "paddingBottom": "10%",
+            "paddingLeft": "5%",
+            "paddingRight": "5%",
+            "paddingTop": "10%",
+          }
+    }
+>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
+        style={
+            Object {
+                "position": "relative",
+              }
+        }
+    >
+        <h4
+            className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 500,
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Como usar
+        </h4>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-6-63 Component-grid-135"
+        style={
+            Object {
+                "padding": "30%",
+                "position": "relative",
+              }
+        }
+    >
+        <iframe
+            allowFullScreen="true"
+            frameBorder="0"
+            height="100%"
+            mozallowfullscreen="true"
+            src="https://player.vimeo.com/video/140946149"
+            style={
+                Object {
+                    "border": 0,
+                    "height": "100%",
+                    "left": 0,
+                    "maxHeight": "540",
+                    "maxWidth": "960",
+                    "position": "absolute",
+                    "top": 0,
+                    "width": "100%",
+                  }
+            }
+            title="Vídeo de introdução ao Materia Brasil"
+            webkitallowfullscreen="true"
+            width="100%"
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-136"
+    >
+        <img
+            alt=""
+            src="https://images.template.net/wp-content/uploads/2016/03/17133511/Vector-Infographic-Report-Template-Premium-Download.jpg"
+            style={
+                Object {
+                    "maxWidth": "100%",
+                    "padding": "3%",
+                  }
+            }
+        />
+    </div>
+</div>,
+  <div
+    className="MuiGrid-container-1"
+    style={
+        Object {
+            "alignContent": "center",
+            "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
+            "backgroundPosition": "center",
+            "backgroundSize": "cover",
+            "paddingBottom": "10%",
+            "paddingLeft": "5%",
+            "paddingRight": "5%",
+            "paddingTop": "10%",
+          }
+    }
+>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
+        style={
+            Object {
+                "position": "relative",
+              }
+        }
+    >
+        <h4
+            className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 500,
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Equipe
+        </h4>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Manuela Yamada - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Manuela Yamada
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Bernardo Ferracioli - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Bernardo Ferracioli
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Bruno Temer - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Bruno Temer
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Pedro Themoteo - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Pedro Themoteo
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Daniele Valente - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Daniele Valente
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Elisa Ferreira - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Elisa Ferreira
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Victor Lanari - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Victor Lanari
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Dahyna Ribeiro - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Dahyna Ribeiro
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Bernardo Mattos - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Bernardo Mattos
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Seasoned - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://via.placeholder.com/200x200"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Seasoned
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Job do integrante
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in congue dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.
+        </p>
+    </div>
+</div>,
+  <div
+    className="MuiGrid-container-1"
+    style={
+        Object {
+            "alignContent": "center",
+            "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
+            "backgroundPosition": "center",
+            "backgroundSize": "cover",
+            "paddingBottom": "10%",
+            "paddingLeft": "5%",
+            "paddingRight": "5%",
+            "paddingTop": "10%",
+          }
+    }
+>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
+        style={
+            Object {
+                "position": "relative",
+              }
+        }
+    >
+        <h4
+            className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 500,
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Nosso board
+        </h4>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+    >
+        <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+        >
+            <h5
+                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                style={
+                    Object {
+                        "color": "white",
+                        "display": "inline-block",
+                        "fontWeight": 300,
+                        "marginLeft": "1%",
+                        "marginRight": "1%",
+                        "padding": "0 6%",
+                        "verticalAlign": "middle",
+                      }
+                }
+            >
+                Sabemos que nada nesse mundo se faz sozinho! Por isso a MateriaMundi conta com um Conselho Consultivo que nos ajuda a ter integrar diferentes perspectivas e conhecimentos no projeto. Conheça os profissionais que doam o seu tempo de forma voluntária para fazer este sonho coletivo acontecer!
+            </h5>
+        </div>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Margarida Lunetta - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://lh6.googleusercontent.com/BBN6N20unckTJoeEFYB3qT93EbTlmprR0fi5WYNVTVUoZ-CtOiSUcttA5CIICRhKTOvUU1C4643nyw=w1920-h1008"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Margarida Lunetta
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Gestora do programa Transformação Circular da Fundação C&A
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Arnoud Passenier - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://lh6.googleusercontent.com/L49lKzovMGDESQh8OOvaZdBU--fC84U7AKHmtylrnnrYcK5Rp81X8mTJneY6zTSVXs9AI5F4L_WHvpU93RyW=w1920-h1008"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Arnoud Passenier
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Gestor Sênior do programa de Economia Circular do governo da Holanda
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Luisa Santiago - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://lh6.googleusercontent.com/LnSC7MuQGVmk9leH1mC0jHOuXidEQSVxALSpxNKqmAyzaL5ALHivY0w3e3tcGKBllKLMlDxx8JzEM7cxk1iE=w1920-h1008"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Luisa Santiago
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Diretora Executiva Ellen MacArthur Foundation Brasil
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Tomás de Lara - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://lh6.googleusercontent.com/hyBHnU0aZbM_nOyyBFjaidpbAFDDxhWqib21PZk2ryORM3LjoIOj58KXhD8Ro0R2XRCLHsxVDdT0LzbtdYP0=w1920-h1008"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Tomás de Lara
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lead Cidades + B Global Sistema B Brasil
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Taciana Abreu - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://lh3.googleusercontent.com/jAnSyqgv1wLHPHXMUuikVjT26Up4wrPwVfrt-bmTBj6Q4BuZQyAfQWWx_r35LklfcE87Tmb4ZnoKElcm35sg=w1920-h1008"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Taciana Abreu
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "margin": "10px 0",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Articuladora Yunus Negócios Sociais Brasil e Head de Marketing Farm Rio
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+</div>,
+  <div
+    className="MuiGrid-container-1"
+    style={
+        Object {
+            "alignContent": "center",
+            "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
+            "backgroundPosition": "center",
+            "backgroundSize": "cover",
+            "paddingBottom": "10%",
+            "paddingLeft": "5%",
+            "paddingRight": "5%",
+            "paddingTop": "10%",
+          }
+    }
+>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
+        style={
+            Object {
+                "position": "relative",
+              }
+        }
+    >
+        <h4
+            className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 500,
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Direcionadores
+        </h4>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+        style={
+            Object {
+                "margin": "0 0",
+                "padding": "0 0",
+                "position": "relative",
+                "textAlign": "center",
+              }
+        }
+    >
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+            padding="0 0"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 500,
+                    "marginTop": "5%",
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Para que servem os direcionadores de responsabilidade socioambiental da MateriaMundi?
+        </h5>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+    >
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 300,
+                    "marginLeft": "1%",
+                    "marginRight": "1%",
+                    "padding": "0 6%",
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Na MateriaMundi acreditamos que não existe uma só resposta aos desafios de construir uma forma mais responsável de projetar, produzir e consumir, e que as escolhas mais apropriadas irão variar de acordo com o contexto no qual se está inseridos. Por este motivo criamos os nossos Direcionadores de Responsabilidade Socioambiental. Os Direcionadores foram desenvolvidos para auxiliar o usuário a escolher de forma consciente entre diversas opções, baseando-se em informações sobre o que determinada empresa/produto faz para obter um impacto positivo. Através da análise qualitativa e da pontuação de cada produto, material e serviço em cada direcionador o usuário pode comparar alternativas, priorizando o aspecto socioambiental mais relevante para o seu projeto em seu contexto.
+        </h5>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+        style={
+            Object {
+                "margin": "0 0",
+                "padding": "0 0",
+                "position": "relative",
+                "textAlign": "center",
+              }
+        }
+    >
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+            padding="0 0"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 500,
+                    "marginTop": "5%",
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Como funciona?
+        </h5>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+    >
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 300,
+                    "marginLeft": "1%",
+                    "marginRight": "1%",
+                    "padding": "0 6%",
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Os quatro direcionadores são divididos em duas vertentes, dois analisam aspectos sociais e dois aspectos ambientais, e cada um possui pontuação de 0 à 4, sendo zero a nota mínima e quatro a nota máxima. Cada material, produto e serviço apresentado na plataforma passa por essa auto-avaliação que é composta por 81 perguntas com objetivo de analisar seu impacto positivo. Essas análise fica disponível para você de forma descritiva, sendo possível ver cada uma das perguntas e respostas e também em forma quantitativa, através do gráfico de impacto. Para auxiliar a tomada de decisão sobre qual alternativa utilizar disponibilizamos uma ferramenta de comparação, onde os gráficos podem ser sobrepostos e uma análise comparativa pode ser feita.
+        </h5>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+        style={
+            Object {
+                "margin": "0 0",
+                "padding": "0 0",
+                "position": "relative",
+                "textAlign": "center",
+              }
+        }
+    >
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+            padding="0 0"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 500,
+                    "marginTop": "5%",
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            O que garante a veracidade das informações?
+        </h5>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+    >
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 300,
+                    "marginLeft": "1%",
+                    "marginRight": "1%",
+                    "padding": "0 6%",
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            A MateriaMundi acredita em seus usuários e mesmo se porventura acontecer de uma informação não ser verídica, acreditamos no poder da comunidade para regular o coletivo e garantir a integridade da plataforma. Por isso optamos por um processo de auto-avaliação, onde cada empresa é convidada a responder voluntariamente as 81 perguntas, sem um processo de auditoria. Para garantir um canal apropriado para feed-back onde toda a comunidade possa fornecer e colher informações, na página de cada produto disponibilizamos uma área para comentários e avaliação. A plataforma oferece ainda como opção a possibilidade de anexar documentos comprobatórios caso a empresa possua. Não tornamos a comprovação um item obrigatório pois entendemos que muitas vezes os custos para tal são impeditivos para empresas menores."
+        </h5>
+    </div>
+    <br />
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-6-63 Component-grid-140"
+        style={
+            Object {
+                "marginBottom": "5%",
+                "marginTop": "5%",
+              }
+        }
+    >
+        <div
+            style={
+                Object {
+                    "textDecoration": "none",
+                  }
+            }
+            to="/materials"
+        >
+            Link - 
+            <button
+                className="MuiButtonBase-root-167 MuiButton-root-141 MuiButton-contained-152 MuiButton-raised-155"
+                disabled={false}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                style={
+                    Object {
+                        "borderRadius": 7,
+                        "fontSize": 30,
+                        "margin": 5,
+                        "textTransform": "lowercase",
+                      }
+                }
+                tabIndex="0"
+                type="button"
+            >
+                <span
+                    className="MuiButton-label-142"
+                >
+                    Clickable 1
+                </span>
+                <span
+                    className="MuiTouchRipple-root-170"
+                />
+            </button>
+        </div>
+        <div
+            style={
+                Object {
+                    "textDecoration": "none",
+                  }
+            }
+            to="/materials"
+        >
+            Link - 
+            <button
+                className="MuiButtonBase-root-167 MuiButton-root-141 MuiButton-contained-152 MuiButton-containedPrimary-153 MuiButton-raised-155 MuiButton-raisedPrimary-156"
+                disabled={false}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                style={
+                    Object {
+                        "borderRadius": 7,
+                        "fontSize": 30,
+                        "margin": 5,
+                        "textTransform": "lowercase",
+                      }
+                }
+                tabIndex="0"
+                type="button"
+            >
+                <span
+                    className="MuiButton-label-142"
+                >
+                    Clickable 2
+                </span>
+                <span
+                    className="MuiTouchRipple-root-170"
+                />
+            </button>
+        </div>
+        <div
+            style={
+                Object {
+                    "textDecoration": "none",
+                  }
+            }
+            to="/materials"
+        >
+            Link - 
+            <button
+                className="MuiButtonBase-root-167 MuiButton-root-141 MuiButton-contained-152 MuiButton-containedSecondary-154 MuiButton-raised-155 MuiButton-raisedSecondary-157"
+                disabled={false}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                style={
+                    Object {
+                        "borderRadius": 7,
+                        "fontSize": 30,
+                        "margin": 5,
+                        "textTransform": "lowercase",
+                      }
+                }
+                tabIndex="0"
+                type="button"
+            >
+                <span
+                    className="MuiButton-label-142"
+                >
+                    Clickable 3
+                </span>
+                <span
+                    className="MuiTouchRipple-root-170"
+                />
+            </button>
+        </div>
+        <div
+            style={
+                Object {
+                    "textDecoration": "none",
+                  }
+            }
+            to="/materials"
+        >
+            Link - 
+            <button
+                className="MuiButtonBase-root-167 MuiButton-root-141 MuiButton-contained-152 MuiButton-raised-155"
+                disabled={false}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                style={
+                    Object {
+                        "borderRadius": 7,
+                        "fontSize": 30,
+                        "margin": 5,
+                        "textTransform": "lowercase",
+                      }
+                }
+                tabIndex="0"
+                type="button"
+            >
+                <span
+                    className="MuiButton-label-142"
+                >
+                    Clickable 4
+                </span>
+                <span
+                    className="MuiTouchRipple-root-170"
+                />
+            </button>
+        </div>
+    </div>
+    <br />
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+        style={
+            Object {
+                "margin": "0 0",
+                "padding": "0 0",
+                "position": "relative",
+              }
+        }
+    >
+        <ul
+            style={
+                Object {
+                    "listStyle": "none",
+                    "padding": 0,
+                  }
+            }
+        >
+            <li
+                style={
+                    Object {
+                        "textAlign": "center",
+                      }
+                }
+            >
+                <h5
+                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                    style={
+                        Object {
+                            "color": "#fff",
+                            "fontWeight": 500,
+                            "margin": "30px",
+                          }
+                    }
+                >
+                    Aldo Ometto
+                </h5>
+            </li>
+            <li
+                style={
+                    Object {
+                        "textAlign": "center",
+                      }
+                }
+            >
+                <h5
+                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                    style={
+                        Object {
+                            "color": "#fff",
+                            "fontWeight": 500,
+                            "margin": "30px",
+                          }
+                    }
+                >
+                    Weber Amaral
+                </h5>
+            </li>
+            <li
+                style={
+                    Object {
+                        "textAlign": "center",
+                      }
+                }
+            >
+                <h5
+                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                    style={
+                        Object {
+                            "color": "#fff",
+                            "fontWeight": 500,
+                            "margin": "30px",
+                          }
+                    }
+                >
+                    Juliana Sardinha
+                </h5>
+            </li>
+            <li
+                style={
+                    Object {
+                        "textAlign": "center",
+                      }
+                }
+            >
+                <h5
+                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                    style={
+                        Object {
+                            "color": "#fff",
+                            "fontWeight": 500,
+                            "margin": "30px",
+                          }
+                    }
+                >
+                    Rosangela Sardinha
+                </h5>
+            </li>
+            <li
+                style={
+                    Object {
+                        "textAlign": "center",
+                      }
+                }
+            >
+                <h5
+                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                    style={
+                        Object {
+                            "color": "#fff",
+                            "fontWeight": 500,
+                            "margin": "30px",
+                          }
+                    }
+                >
+                    Luiza Maia de Castro
+                </h5>
+            </li>
+            <li
+                style={
+                    Object {
+                        "textAlign": "center",
+                      }
+                }
+            >
+                <h5
+                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                    style={
+                        Object {
+                            "color": "#fff",
+                            "fontWeight": 500,
+                            "margin": "30px",
+                          }
+                    }
+                >
+                    Isadora Ribeiro
+                </h5>
+            </li>
+            <li
+                style={
+                    Object {
+                        "textAlign": "center",
+                      }
+                }
+            >
+                <h5
+                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                    style={
+                        Object {
+                            "color": "#fff",
+                            "fontWeight": 500,
+                            "margin": "30px",
+                          }
+                    }
+                >
+                    Tomás de Lara
+                </h5>
+            </li>
+            <li
+                style={
+                    Object {
+                        "textAlign": "center",
+                      }
+                }
+            >
+                <h5
+                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                    style={
+                        Object {
+                            "color": "#fff",
+                            "fontWeight": 500,
+                            "margin": "30px",
+                          }
+                    }
+                >
+                    Manuela Yamada
+                </h5>
+            </li>
+            <li
+                style={
+                    Object {
+                        "textAlign": "center",
+                      }
+                }
+            >
+                <h5
+                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                    style={
+                        Object {
+                            "color": "#fff",
+                            "fontWeight": 500,
+                            "margin": "30px",
+                          }
+                    }
+                >
+                    Bruno Temer
+                </h5>
+            </li>
+            <li
+                style={
+                    Object {
+                        "textAlign": "center",
+                      }
+                }
+            >
+                <h5
+                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                    style={
+                        Object {
+                            "color": "#fff",
+                            "fontWeight": 500,
+                            "margin": "30px",
+                          }
+                    }
+                >
+                    Jéssica Galdino"
+                </h5>
+            </li>
+        </ul>
+    </div>
+</div>,
+]
+`;
