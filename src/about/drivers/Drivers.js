@@ -1,11 +1,11 @@
 import React from 'react'
 
-import Session from './Session'
-import Title from './Title'
-import Paragraph from './Paragraph'
-import DriversButtons from './DriversButtons'
-import Subtitle from './Subtitle'
-import DrivesListOfNames from './DrivesListOfNames'
+import Session from '../Session'
+import Title from '../Title'
+import Paragraph from '../Paragraph'
+import ButtonsList from './ButtonsList'
+import Subtitle from '../Subtitle'
+import NameList from './NameList'
 
 export default () => (
   <Session>
@@ -57,9 +57,9 @@ export default () => (
       impeditivos para empresas menores."
     </Paragraph>
     <br />
-    <DriversButtons />
+    <ButtonsList />
     <br />
 
-    <DrivesListOfNames />
+    <NameList />
   </Session>
 )
