@@ -213,7 +213,7 @@ Array [
                 alt="Manuela Yamada - foto"
                 className="MuiAvatar-img-139"
                 sizes={undefined}
-                src="https://via.placeholder.com/200x200"
+                src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Manuela_Yamada.jpg"
                 srcSet={undefined}
             />
         </div>
@@ -277,7 +277,7 @@ Array [
                 alt="Bernardo Ferracioli - foto"
                 className="MuiAvatar-img-139"
                 sizes={undefined}
-                src="https://via.placeholder.com/200x200"
+                src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bernardo_Ferracioli.jpg"
                 srcSet={undefined}
             />
         </div>
@@ -341,7 +341,7 @@ Array [
                 alt="Bruno Temer - foto"
                 className="MuiAvatar-img-139"
                 sizes={undefined}
-                src="https://via.placeholder.com/200x200"
+                src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bruno_Temer.jpg"
                 srcSet={undefined}
             />
         </div>
@@ -405,7 +405,7 @@ Array [
                 alt="Pedro Themoteo - foto"
                 className="MuiAvatar-img-139"
                 sizes={undefined}
-                src="https://via.placeholder.com/200x200"
+                src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Pedro_Themoteo.jpg"
                 srcSet={undefined}
             />
         </div>
@@ -469,7 +469,7 @@ Array [
                 alt="Daniele Valente - foto"
                 className="MuiAvatar-img-139"
                 sizes={undefined}
-                src="https://via.placeholder.com/200x200"
+                src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Daniele_Valente.jpg"
                 srcSet={undefined}
             />
         </div>
@@ -533,7 +533,7 @@ Array [
                 alt="Elisa Ferreira - foto"
                 className="MuiAvatar-img-139"
                 sizes={undefined}
-                src="https://via.placeholder.com/200x200"
+                src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Elisa_Ferreira.jpg"
                 srcSet={undefined}
             />
         </div>
@@ -597,7 +597,7 @@ Array [
                 alt="Victor Lanari - foto"
                 className="MuiAvatar-img-139"
                 sizes={undefined}
-                src="https://via.placeholder.com/200x200"
+                src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Victor_Lanari.jpg"
                 srcSet={undefined}
             />
         </div>
@@ -661,7 +661,7 @@ Array [
                 alt="Dahyna Ribeiro - foto"
                 className="MuiAvatar-img-139"
                 sizes={undefined}
-                src="https://via.placeholder.com/200x200"
+                src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Dahyna_Irribaren.jpg"
                 srcSet={undefined}
             />
         </div>
@@ -725,7 +725,7 @@ Array [
                 alt="Bernardo Mattos - foto"
                 className="MuiAvatar-img-139"
                 sizes={undefined}
-                src="https://via.placeholder.com/200x200"
+                src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bernardo_Mattos.jpg"
                 srcSet={undefined}
             />
         </div>
@@ -789,7 +789,7 @@ Array [
                 alt="Seasoned - foto"
                 className="MuiAvatar-img-139"
                 sizes={undefined}
-                src="https://via.placeholder.com/200x200"
+                src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Seasoned.jpg"
                 srcSet={undefined}
             />
         </div>
