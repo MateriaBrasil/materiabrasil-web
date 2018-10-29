@@ -12,10 +12,6 @@ jest.mock('croods', () => ({
   ),
 }))
 
-jest.mock('react-router-dom/Redirect', () => props => (
-  <div {...props}>Redirect</div>
-))
-
 jest.mock('../info/render', () => props => info => <div {...props}>Info</div>)
 
 describe('without id', () => {
