@@ -1277,218 +1277,475 @@ Array [
                 "margin": "0 0",
                 "padding": "0 0",
                 "position": "relative",
+                "textAlign": "center",
               }
         }
     >
-        <ul
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+            padding="0 0"
             style={
                 Object {
-                    "listStyle": "none",
-                    "padding": 0,
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 500,
+                    "marginTop": "5%",
+                    "verticalAlign": "middle",
                   }
             }
         >
-            <li
-                style={
-                    Object {
-                        "textAlign": "center",
-                      }
-                }
-            >
-                <h5
-                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-                    style={
-                        Object {
-                            "color": "#fff",
-                            "fontWeight": 500,
-                            "margin": "30px",
-                          }
-                    }
-                >
-                    Aldo Ometto
-                </h5>
-            </li>
-            <li
-                style={
-                    Object {
-                        "textAlign": "center",
-                      }
-                }
-            >
-                <h5
-                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-                    style={
-                        Object {
-                            "color": "#fff",
-                            "fontWeight": 500,
-                            "margin": "30px",
-                          }
-                    }
-                >
-                    Weber Amaral
-                </h5>
-            </li>
-            <li
-                style={
-                    Object {
-                        "textAlign": "center",
-                      }
-                }
-            >
-                <h5
-                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-                    style={
-                        Object {
-                            "color": "#fff",
-                            "fontWeight": 500,
-                            "margin": "30px",
-                          }
-                    }
-                >
-                    Juliana Sardinha
-                </h5>
-            </li>
-            <li
-                style={
-                    Object {
-                        "textAlign": "center",
-                      }
-                }
-            >
-                <h5
-                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-                    style={
-                        Object {
-                            "color": "#fff",
-                            "fontWeight": 500,
-                            "margin": "30px",
-                          }
-                    }
-                >
-                    Rosangela Sardinha
-                </h5>
-            </li>
-            <li
-                style={
-                    Object {
-                        "textAlign": "center",
-                      }
-                }
-            >
-                <h5
-                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-                    style={
-                        Object {
-                            "color": "#fff",
-                            "fontWeight": 500,
-                            "margin": "30px",
-                          }
-                    }
-                >
-                    Luiza Maia de Castro
-                </h5>
-            </li>
-            <li
-                style={
-                    Object {
-                        "textAlign": "center",
-                      }
-                }
-            >
-                <h5
-                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-                    style={
-                        Object {
-                            "color": "#fff",
-                            "fontWeight": 500,
-                            "margin": "30px",
-                          }
-                    }
-                >
-                    Isadora Ribeiro
-                </h5>
-            </li>
-            <li
-                style={
-                    Object {
-                        "textAlign": "center",
-                      }
-                }
-            >
-                <h5
-                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-                    style={
-                        Object {
-                            "color": "#fff",
-                            "fontWeight": 500,
-                            "margin": "30px",
-                          }
-                    }
-                >
-                    Tomás de Lara
-                </h5>
-            </li>
-            <li
-                style={
-                    Object {
-                        "textAlign": "center",
-                      }
-                }
-            >
-                <h5
-                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-                    style={
-                        Object {
-                            "color": "#fff",
-                            "fontWeight": 500,
-                            "margin": "30px",
-                          }
-                    }
-                >
-                    Manuela Yamada
-                </h5>
-            </li>
-            <li
-                style={
-                    Object {
-                        "textAlign": "center",
-                      }
-                }
-            >
-                <h5
-                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-                    style={
-                        Object {
-                            "color": "#fff",
-                            "fontWeight": 500,
-                            "margin": "30px",
-                          }
-                    }
-                >
-                    Bruno Temer
-                </h5>
-            </li>
-            <li
-                style={
-                    Object {
-                        "textAlign": "center",
-                      }
-                }
-            >
-                <h5
-                    className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-                    style={
-                        Object {
-                            "color": "#fff",
-                            "fontWeight": 500,
-                            "margin": "30px",
-                          }
-                    }
-                >
-                    Jéssica Galdino
-                </h5>
-            </li>
-        </ul>
+            Desenvolvedores
+        </h5>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+    >
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 300,
+                    "marginLeft": "1%",
+                    "marginRight": "1%",
+                    "padding": "0 6%",
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Para o desenvolvimento desses direcionadores a MateriaMundi contou com uma equipe de consultores especialistas em diversas áreas.
+        </h5>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+    >
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 300,
+                    "marginLeft": "1%",
+                    "marginRight": "1%",
+                    "padding": "0 6%",
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Conheça o nosso time!
+        </h5>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Aldo Ometto - USP - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/aldo_ometto.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Aldo Ometto - USP
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Weber Amaral - USP - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/weber_amaral.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Weber Amaral - USP
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Juliana Sardinha - Efficacia Empresarial - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/juliana_sardinha.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Juliana Sardinha - Efficacia Empresarial
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Rosângela de Carvalho - Efficacia Empresarial - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/rosangela_de_carvalho.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Rosângela de Carvalho - Efficacia Empresarial
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Jéssica Galdino - Emboé - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/jessica_galdino_de_freitas.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Jéssica Galdino - Emboé
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Manuela Yamada - MateriaBrasil - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/manuela_yamada.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Manuela Yamada - MateriaBrasil
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Bruno Temer - MateriaBrasil - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/bruno_temer.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Bruno Temer - MateriaBrasil
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Isadora Timbó - Gitec Brasil - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/isadora_ribeiro.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Isadora Timbó - Gitec Brasil
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Luiza Maia - Gitec Brasil - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/luiza_maia.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Luiza Maia - Gitec Brasil
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Tomás de Lara - Sistema B Brasil - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/tomas_de_lara.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Tomás de Lara - Sistema B Brasil
+        </p>
     </div>
 </div>,
 ]
