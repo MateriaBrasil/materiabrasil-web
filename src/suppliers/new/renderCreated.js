@@ -1,6 +1,4 @@
 import React from 'react'
-import Redirect from 'react-router-dom/Redirect'
+import Created from './Created'
 
-export default props => supplier => (
-  <Redirect to={`/suppliers/${supplier.id}?reload=true`} />
-)
+export default props => supplier => <Created {...props} supplier={supplier} />
