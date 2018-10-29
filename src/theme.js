@@ -6,6 +6,7 @@ import Colors from './Colors'
 export default createMuiTheme({
   typography: {
     useNextVariants: true,
+    fontFamily: 'Open Sans',
   },
   palette: {
     background: {
