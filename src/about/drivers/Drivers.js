@@ -54,7 +54,7 @@ export default () => (
       oferece ainda como opção a possibilidade de anexar documentos
       comprobatórios caso a empresa possua. Não tornamos a comprovação um item
       obrigatório pois entendemos que muitas vezes os custos para tal são
-      impeditivos para empresas menores."
+      impeditivos para empresas menores.
     </Paragraph>
     <br />
     <ButtonsList />
