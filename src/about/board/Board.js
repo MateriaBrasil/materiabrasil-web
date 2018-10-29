@@ -19,6 +19,6 @@ export default () => (
         acontecer!
       </Paragraph>
     </Grid>
-    <Members membersList={membersList} />
+    <Members list={membersList} />
   </Session>
 )

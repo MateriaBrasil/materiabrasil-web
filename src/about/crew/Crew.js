@@ -9,7 +9,7 @@ export default props => {
   return (
     <Session {...props}>
       <Title>Equipe</Title>
-      <Members membersList={membersList} />
+      <Members list={membersList} />
     </Session>
   )
 }

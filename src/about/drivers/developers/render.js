@@ -3,7 +3,7 @@ import React, { Fragment } from 'react'
 import Members from '../../Members'
 import Subtitle from '../../Subtitle'
 import Paragraph from '../../Paragraph'
-import membersList from './developersList'
+import developersList from './developersList'
 
 export default () => {
   return (
@@ -14,7 +14,7 @@ export default () => {
         uma equipe de consultores especialistas em diversas áreas.
       </Paragraph>
       <Paragraph>Conheça o nosso time!</Paragraph>
-      <Members membersList={membersList} />
+      <Members list={developersList} />
     </Fragment>
   )
 }
