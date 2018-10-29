@@ -1,11 +1,10 @@
 import React from 'react'
 import Grid from '@material-ui/core/Grid'
-import map from 'lodash/map'
 
 import Session from '../Session'
 import Title from '../Title'
 import Paragraph from '../Paragraph'
-import Member from '../Member'
+import Members from '../Members'
 import membersList from './membersList'
 
 export default () => (
@@ -20,8 +19,6 @@ export default () => (
         acontecer!
       </Paragraph>
     </Grid>
-    {map(membersList, ({ id, name, image, job }) => {
-      return <Member key={id} image={image} name={name} job={job} />
-    })}
+    <Members list={membersList} />
   </Session>
 )
