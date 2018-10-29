@@ -5,7 +5,7 @@ import Title from '../Title'
 import Paragraph from '../Paragraph'
 import ButtonsList from './ButtonsList'
 import Subtitle from '../Subtitle'
-import NameList from './NameList'
+import Developers from './developers/render'
 
 export default () => (
   <Session>
@@ -59,7 +59,6 @@ export default () => (
     <br />
     <ButtonsList />
     <br />
-
-    <NameList />
+    <Developers />
   </Session>
 )
