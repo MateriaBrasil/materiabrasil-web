@@ -2,8 +2,15 @@
 
 exports[`renders correctly 1`] = `
 <div
-  to="/suppliers/1234?reload=true"
+  foo="bar"
+  supplier={
+    Object {
+      "bar": "foo",
+      "id": 1234,
+      "suppliers": Array [],
+    }
+  }
 >
-  Redirect
+  Created
 </div>
 `;

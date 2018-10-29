@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  to="/suppliers/123?reload=true"
+>
+  Redirect
+</div>
+`;
