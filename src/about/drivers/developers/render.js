@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react'
 import map from 'lodash/map'
 
-import Member from '../../Member'
+import Members from '../../Members'
 import Subtitle from '../../Subtitle'
 import Paragraph from '../../Paragraph'
 import membersList from './developersList'
 
-export default props => {
+export default () => {
   return (
     <Fragment>
       <Subtitle>Desenvolvedores</Subtitle>
@@ -15,17 +15,7 @@ export default props => {
         uma equipe de consultores especialistas em diversas áreas.
       </Paragraph>
       <Paragraph>Conheça o nosso time!</Paragraph>
-      {map(membersList, ({ id, name, image, job, description }) => {
-        return (
-          <Member
-            key={id}
-            image={image}
-            name={name}
-            job={job}
-            description={description}
-          />
-        )
-      })}
+      <Members membersList={membersList} />
     </Fragment>
   )
 }
