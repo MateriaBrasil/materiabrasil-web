@@ -40,6 +40,6 @@ export default [
     name: 'Bernardo Ferracioli',
     image:
       'https://s3.amazonaws.com/materiamundi-us/static/conselho/bernardo_ferracioli.png',
-    job: 'texto pendente',
+    job: 'Diretor Financeiro da MateriaBrasil',
   },
 ]
