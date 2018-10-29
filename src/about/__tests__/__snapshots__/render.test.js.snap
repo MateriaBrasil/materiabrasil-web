@@ -229,6 +229,16 @@ Array [
         >
             Manuela Yamada
         </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -270,6 +280,16 @@ Array [
         >
             Bernardo Ferracioli
         </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -311,6 +331,16 @@ Array [
         >
             Bruno Temer
         </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -352,6 +382,16 @@ Array [
         >
             Pedro Themoteo
         </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -393,6 +433,16 @@ Array [
         >
             Daniele Valente
         </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -434,6 +484,16 @@ Array [
         >
             Elisa Ferreira
         </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -475,6 +535,16 @@ Array [
         >
             Victor Lanari
         </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -516,6 +586,16 @@ Array [
         >
             Dahyna Ribeiro
         </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -557,6 +637,16 @@ Array [
         >
             Bernardo Mattos
         </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -598,6 +688,16 @@ Array [
         >
             Seasoned
         </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
     </div>
 </div>,
   <div
@@ -701,6 +801,18 @@ Array [
         >
             Margarida Lunetta
         </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Gestora do programa Transformação Circular da Fundação C&A
+        </p>
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -741,6 +853,18 @@ Array [
             }
         >
             Arnoud Passenier
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Gestor Sênior do programa de Economia Circular do governo da Holanda
         </p>
     </div>
     <div
@@ -783,6 +907,18 @@ Array [
         >
             Luisa Santiago
         </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Diretora Executiva Ellen MacArthur Foundation Brasil
+        </p>
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -823,6 +959,18 @@ Array [
             }
         >
             Tomás de Lara
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lead Cidades + B Global Sistema B Brasil
         </p>
     </div>
     <div
@@ -865,6 +1013,18 @@ Array [
         >
             Taciana Abreu
         </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Articuladora Yunus Negócios Sociais Brasil e Head de Marketing Farm Rio
+        </p>
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -905,6 +1065,18 @@ Array [
             }
         >
             Bernardo Ferracioli
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Diretor Financeiro da MateriaBrasil
         </p>
     </div>
 </div>,
@@ -1083,7 +1255,7 @@ Array [
                   }
             }
         >
-            A MateriaMundi acredita em seus usuários e mesmo se porventura acontecer de uma informação não ser verídica, acreditamos no poder da comunidade para regular o coletivo e garantir a integridade da plataforma. Por isso optamos por um processo de auto-avaliação, onde cada empresa é convidada a responder voluntariamente as 81 perguntas, sem um processo de auditoria. Para garantir um canal apropriado para feed-back onde toda a comunidade possa fornecer e colher informações, na página de cada produto disponibilizamos uma área para comentários e avaliação. A plataforma oferece ainda como opção a possibilidade de anexar documentos comprobatórios caso a empresa possua. Não tornamos a comprovação um item obrigatório pois entendemos que muitas vezes os custos para tal são impeditivos para empresas menores."
+            A MateriaMundi acredita em seus usuários e mesmo se porventura acontecer de uma informação não ser verídica, acreditamos no poder da comunidade para regular o coletivo e garantir a integridade da plataforma. Por isso optamos por um processo de auto-avaliação, onde cada empresa é convidada a responder voluntariamente as 81 perguntas, sem um processo de auditoria. Para garantir um canal apropriado para feed-back onde toda a comunidade possa fornecer e colher informações, na página de cada produto disponibilizamos uma área para comentários e avaliação. A plataforma oferece ainda como opção a possibilidade de anexar documentos comprobatórios caso a empresa possua. Não tornamos a comprovação um item obrigatório pois entendemos que muitas vezes os custos para tal são impeditivos para empresas menores.
         </h5>
     </div>
     <br />
@@ -1377,6 +1549,16 @@ Array [
         >
             Aldo Ometto - USP
         </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -1418,6 +1600,16 @@ Array [
         >
             Weber Amaral - USP
         </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -1459,6 +1651,16 @@ Array [
         >
             Juliana Sardinha - Efficacia Empresarial
         </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -1500,6 +1702,16 @@ Array [
         >
             Rosângela de Carvalho - Efficacia Empresarial
         </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -1541,6 +1753,16 @@ Array [
         >
             Jéssica Galdino - Emboé
         </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -1582,6 +1804,16 @@ Array [
         >
             Manuela Yamada - MateriaBrasil
         </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -1623,6 +1855,16 @@ Array [
         >
             Bruno Temer - MateriaBrasil
         </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -1664,6 +1906,16 @@ Array [
         >
             Isadora Timbó - Gitec Brasil
         </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -1705,6 +1957,16 @@ Array [
         >
             Luiza Maia - Gitec Brasil
         </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -1746,6 +2008,16 @@ Array [
         >
             Tomás de Lara - Sistema B Brasil
         </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
     </div>
 </div>,
 ]
