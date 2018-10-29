@@ -1,5 +1,4 @@
 import React from 'react'
-import map from 'lodash/map'
 
 import Session from '../Session'
 import Members from '../Members'

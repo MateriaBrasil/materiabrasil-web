@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react'
-import map from 'lodash/map'
 
 import Members from '../../Members'
 import Subtitle from '../../Subtitle'

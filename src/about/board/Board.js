@@ -1,6 +1,5 @@
 import React from 'react'
 import Grid from '@material-ui/core/Grid'
-import map from 'lodash/map'
 
 import Session from '../Session'
 import Title from '../Title'
