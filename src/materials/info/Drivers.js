@@ -44,18 +44,20 @@ export default props => {
           <AddIcon style={{ marginRight: 10 }} /> Comparar
         </Button>
       </div>
-      <RadarChart width={320} height={320} outerRadius="50%" data={data}>
-        <PolarGrid />
-        <PolarAngleAxis dataKey="subject" />
-        <PolarRadiusAxis angle={45} domain={[0, 10]} />
-        <Radar
-          name="Mike"
-          dataKey="value"
-          stroke="#239eb1"
-          fill="#239eb1"
-          fillOpacity={0.6}
-        />
-      </RadarChart>
+      <div align='center' >
+        <RadarChart width={320} height={320} outerRadius="50%" data={data}>
+          <PolarGrid />
+          <PolarAngleAxis dataKey="subject" />
+          <PolarRadiusAxis angle={45} domain={[0, 10]} />
+          <Radar
+            name="Mike"
+            dataKey="value"
+            stroke="#239eb1"
+            fill="#239eb1"
+            fillOpacity={0.6}
+          />
+        </RadarChart>
+      </div>
     </Fragment>
   )
 }
