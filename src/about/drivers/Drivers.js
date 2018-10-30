@@ -3,7 +3,7 @@ import React from 'react'
 import Session from '../Session'
 import Title from '../Title'
 import Paragraph from '../Paragraph'
-import ButtonsList from './ButtonsList'
+import SymbolsList from './SymbolsList'
 import Subtitle from '../Subtitle'
 import Developers from './developers/render'
 
@@ -57,7 +57,7 @@ export default () => (
       impeditivos para empresas menores.
     </Paragraph>
     <br />
-    <ButtonsList />
+    <SymbolsList />
     <br />
     <Developers />
   </Session>
