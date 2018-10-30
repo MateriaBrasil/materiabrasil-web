@@ -106,7 +106,7 @@ Array [
         </h4>
     </div>
     <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-6-63 Component-grid-135"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-8-65 Component-grid-135"
         style={
             Object {
                 "padding": "30%",
@@ -1260,7 +1260,7 @@ Array [
     </div>
     <br />
     <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-6-63 Component-grid-140"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-8-65 Component-grid-140"
         style={
             Object {
                 "marginBottom": "5%",
