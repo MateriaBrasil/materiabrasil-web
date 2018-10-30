@@ -1,9 +1,9 @@
 import React from 'react'
 
-import FileDownloadIcon from '../FileDownloadIcon'
+import TechnicalSpecificationIcon from '../TechnicalSpecificationIcon'
 
 export default ({ technicalSpecificationUrl, style }) => (
-  <FileDownloadIcon
+  <TechnicalSpecificationIcon
     url={technicalSpecificationUrl}
     style={style}
     tooltip="Baixar ficha técnica"
