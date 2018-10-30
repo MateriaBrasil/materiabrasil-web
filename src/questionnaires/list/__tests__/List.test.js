@@ -15,10 +15,12 @@ const list = [
           {
             id: 1,
             description: 'option10',
+            value: 1,
           },
           {
             id: 2,
             description: 'option11',
+            value: 2,
           },
         ],
       },
@@ -28,10 +30,12 @@ const list = [
           {
             id: 1,
             description: 'option20',
+            value: 3,
           },
           {
             id: 2,
             description: 'option21',
+            value: 4,
           },
         ],
       },

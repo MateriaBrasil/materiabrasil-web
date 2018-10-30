@@ -482,9 +482,17 @@ exports[`renders correctly 1`] = `
         </div>
       </div>
       <div
-        query="(min-width: 991px)"
+        list={
+          Array [
+            Object {
+              "id": 1,
+              "name": "foo",
+            },
+          ]
+        }
+        remove={undefined}
       >
-        Media - 
+        ChipsContainer - 
       </div>
     </div>
   </div>

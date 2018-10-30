@@ -7,6 +7,10 @@ jest.mock('@material-ui/core/Drawer', () => props => (
   <div {...props}>Drawer - {props.children}</div>
 ))
 
+jest.mock('../ChipsContainer', () => props => (
+  <div {...props}>ChipsContainer - {props.children}</div>
+))
+
 jest.mock('react-media', () => props => (
   <div {...props}>Media - {props.children}</div>
 ))
