@@ -1268,178 +1268,22 @@ Array [
               }
         }
     >
-        <div
-            style={
-                Object {
-                    "textDecoration": "none",
-                  }
-            }
-            to="/materials"
-        >
-            Link - 
-            <button
-                className="MuiButtonBase-root-167 MuiButton-root-141 MuiButton-contained-152 MuiButton-raised-155"
-                disabled={false}
-                onBlur={[Function]}
-                onFocus={[Function]}
-                onKeyDown={[Function]}
-                onKeyUp={[Function]}
-                onMouseDown={[Function]}
-                onMouseLeave={[Function]}
-                onMouseUp={[Function]}
-                onTouchEnd={[Function]}
-                onTouchMove={[Function]}
-                onTouchStart={[Function]}
-                style={
-                    Object {
-                        "borderRadius": 7,
-                        "fontSize": 30,
-                        "margin": 5,
-                        "textTransform": "lowercase",
-                      }
-                }
-                tabIndex="0"
-                type="button"
-            >
-                <span
-                    className="MuiButton-label-142"
-                >
-                    Clickable 1
-                </span>
-                <span
-                    className="MuiTouchRipple-root-170"
-                />
-            </button>
-        </div>
-        <div
-            style={
-                Object {
-                    "textDecoration": "none",
-                  }
-            }
-            to="/materials"
-        >
-            Link - 
-            <button
-                className="MuiButtonBase-root-167 MuiButton-root-141 MuiButton-contained-152 MuiButton-containedPrimary-153 MuiButton-raised-155 MuiButton-raisedPrimary-156"
-                disabled={false}
-                onBlur={[Function]}
-                onFocus={[Function]}
-                onKeyDown={[Function]}
-                onKeyUp={[Function]}
-                onMouseDown={[Function]}
-                onMouseLeave={[Function]}
-                onMouseUp={[Function]}
-                onTouchEnd={[Function]}
-                onTouchMove={[Function]}
-                onTouchStart={[Function]}
-                style={
-                    Object {
-                        "borderRadius": 7,
-                        "fontSize": 30,
-                        "margin": 5,
-                        "textTransform": "lowercase",
-                      }
-                }
-                tabIndex="0"
-                type="button"
-            >
-                <span
-                    className="MuiButton-label-142"
-                >
-                    Clickable 2
-                </span>
-                <span
-                    className="MuiTouchRipple-root-170"
-                />
-            </button>
-        </div>
-        <div
-            style={
-                Object {
-                    "textDecoration": "none",
-                  }
-            }
-            to="/materials"
-        >
-            Link - 
-            <button
-                className="MuiButtonBase-root-167 MuiButton-root-141 MuiButton-contained-152 MuiButton-containedSecondary-154 MuiButton-raised-155 MuiButton-raisedSecondary-157"
-                disabled={false}
-                onBlur={[Function]}
-                onFocus={[Function]}
-                onKeyDown={[Function]}
-                onKeyUp={[Function]}
-                onMouseDown={[Function]}
-                onMouseLeave={[Function]}
-                onMouseUp={[Function]}
-                onTouchEnd={[Function]}
-                onTouchMove={[Function]}
-                onTouchStart={[Function]}
-                style={
-                    Object {
-                        "borderRadius": 7,
-                        "fontSize": 30,
-                        "margin": 5,
-                        "textTransform": "lowercase",
-                      }
-                }
-                tabIndex="0"
-                type="button"
-            >
-                <span
-                    className="MuiButton-label-142"
-                >
-                    Clickable 3
-                </span>
-                <span
-                    className="MuiTouchRipple-root-170"
-                />
-            </button>
-        </div>
-        <div
-            style={
-                Object {
-                    "textDecoration": "none",
-                  }
-            }
-            to="/materials"
-        >
-            Link - 
-            <button
-                className="MuiButtonBase-root-167 MuiButton-root-141 MuiButton-contained-152 MuiButton-raised-155"
-                disabled={false}
-                onBlur={[Function]}
-                onFocus={[Function]}
-                onKeyDown={[Function]}
-                onKeyUp={[Function]}
-                onMouseDown={[Function]}
-                onMouseLeave={[Function]}
-                onMouseUp={[Function]}
-                onTouchEnd={[Function]}
-                onTouchMove={[Function]}
-                onTouchStart={[Function]}
-                style={
-                    Object {
-                        "borderRadius": 7,
-                        "fontSize": 30,
-                        "margin": 5,
-                        "textTransform": "lowercase",
-                      }
-                }
-                tabIndex="0"
-                type="button"
-            >
-                <span
-                    className="MuiButton-label-142"
-                >
-                    Clickable 4
-                </span>
-                <span
-                    className="MuiTouchRipple-root-170"
-                />
-            </button>
-        </div>
+        <img
+            onClick={[Function]}
+            src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-02.png"
+        />
+        <img
+            onClick={[Function]}
+            src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-03.png"
+        />
+        <img
+            onClick={[Function]}
+            src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-04.png"
+        />
+        <img
+            onClick={[Function]}
+            src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-05.png"
+        />
     </div>
     <br />
     <div
