@@ -9,7 +9,7 @@ exports[`renders correctly 1`] = `
       "textDecoration": "none",
     }
   }
-  target="_self"
+  target={undefined}
   to="/foo"
 >
   Link - 

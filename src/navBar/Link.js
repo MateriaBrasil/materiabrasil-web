@@ -8,7 +8,7 @@ export default ({ to, text, isInstitutionalPage, targetBlank }) => (
   <Link
     className="navbar-link"
     to={to}
-    target={targetBlank ? '_blank' : '_self'}
+    target={targetBlank ? '_blank' : undefined}
     style={{
       textDecoration: 'none',
       color: isInstitutionalPage ? Colors.white : Colors.black,

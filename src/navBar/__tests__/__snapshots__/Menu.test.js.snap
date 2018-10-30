@@ -19,7 +19,7 @@ exports[`renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
-      target="_self"
+      target={undefined}
       to="/about"
     >
       Link - 
@@ -46,7 +46,7 @@ exports[`renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
-      target="_self"
+      target={undefined}
       to="/materials"
     >
       Link - 
@@ -100,7 +100,7 @@ exports[`renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
-      target="_self"
+      target={undefined}
       to="/forum"
     >
       Link - 
@@ -129,7 +129,7 @@ exports[`renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
-      target="_self"
+      target={undefined}
       to={
         Object {
           "pathname": "/auth/sign-up",
@@ -183,7 +183,7 @@ exports[`with current user renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
-      target="_self"
+      target={undefined}
       to="/about"
     >
       Link - 
@@ -210,7 +210,7 @@ exports[`with current user renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
-      target="_self"
+      target={undefined}
       to="/materials"
     >
       Link - 
@@ -264,7 +264,7 @@ exports[`with current user renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
-      target="_self"
+      target={undefined}
       to="/forum"
     >
       Link - 
@@ -291,7 +291,7 @@ exports[`with current user renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
-      target="_self"
+      target={undefined}
       to="/suppliers/new"
     >
       Link - 
@@ -318,7 +318,7 @@ exports[`with current user renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
-      target="_self"
+      target={undefined}
       to="/profile"
     >
       Link - 
@@ -365,7 +365,7 @@ exports[`with current user with suppliers renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
-      target="_self"
+      target={undefined}
       to="/about"
     >
       Link - 
@@ -392,7 +392,7 @@ exports[`with current user with suppliers renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
-      target="_self"
+      target={undefined}
       to="/materials"
     >
       Link - 
@@ -446,7 +446,7 @@ exports[`with current user with suppliers renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
-      target="_self"
+      target={undefined}
       to="/forum"
     >
       Link - 
@@ -473,7 +473,7 @@ exports[`with current user with suppliers renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
-      target="_self"
+      target={undefined}
       to="/suppliers/undefined"
     >
       Link - 
@@ -498,7 +498,7 @@ exports[`with current user with suppliers renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
-      target="_self"
+      target={undefined}
       to="/profile"
     >
       Link - 
