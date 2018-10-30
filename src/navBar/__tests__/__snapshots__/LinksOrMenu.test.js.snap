@@ -12,7 +12,7 @@ exports[`when dont match renders correctly 1`] = `
         "textDecoration": "none",
       }
     }
-    target="_self"
+    target={undefined}
     to="/about"
   >
     Link - 
@@ -36,7 +36,7 @@ exports[`when dont match renders correctly 1`] = `
         "textDecoration": "none",
       }
     }
-    target="_self"
+    target={undefined}
     to="/materials"
   >
     Link - 
@@ -60,7 +60,7 @@ exports[`when dont match renders correctly 1`] = `
         "textDecoration": "none",
       }
     }
-    target="_self"
+    target={undefined}
     to="/forum"
   >
     Link - 
@@ -84,7 +84,7 @@ exports[`when dont match renders correctly 1`] = `
         "textDecoration": "none",
       }
     }
-    target="_self"
+    target={undefined}
     to={
       Object {
         "pathname": "/auth/sign-up",
@@ -219,7 +219,7 @@ Array [
                     "textDecoration": "none",
                   }
             }
-            target="_self"
+            target={undefined}
             to="/about"
         >
             Link - 
@@ -262,7 +262,7 @@ Array [
                     "textDecoration": "none",
                   }
             }
-            target="_self"
+            target={undefined}
             to="/materials"
         >
             Link - 
@@ -348,7 +348,7 @@ Array [
                     "textDecoration": "none",
                   }
             }
-            target="_self"
+            target={undefined}
             to="/forum"
         >
             Link - 
@@ -392,7 +392,7 @@ Array [
                     "textDecoration": "none",
                   }
             }
-            target="_self"
+            target={undefined}
             to={
                 Object {
                     "pathname": "/auth/sign-up",
