@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import Typography from '@material-ui/core/Typography'
 import Button from '@material-ui/core/Button'
-import Icon from '@material-ui/core/Icon'
+import AddIcon from '@material-ui/icons/Add'
 import {
   Radar,
   RadarChart,
@@ -41,7 +41,7 @@ export default props => {
           style={{ float: 'right' }}
           onClick={addComparison(props)}
         >
-          <Icon style={{ marginRight: 10 }}>add_circle</Icon> Comparar
+          <AddIcon style={{ marginRight: 10 }} /> Comparar
         </Button>
       </div>
       <RadarChart width={320} height={320} outerRadius="50%" data={data}>
