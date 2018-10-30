@@ -19,7 +19,7 @@ export default withStyles(gridStyle)(props => (
       variant="h4"
       color="inherit"
       style={{
-        color: Colors.white,
+        color: props.colored ? Colors.black : Colors.white,
         display: 'inline-block',
         verticalAlign: 'middle',
         fontWeight: 500,
