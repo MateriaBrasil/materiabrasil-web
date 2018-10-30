@@ -484,7 +484,7 @@ exports[`renders correctly 1`] = `
       <div
         query="(min-width: 991px)"
       >
-        Media - 
+        Media
       </div>
     </div>
   </div>
