@@ -44,7 +44,7 @@ export default props => {
           <AddIcon style={{ marginRight: 10 }} /> Comparar
         </Button>
       </div>
-      <div align='center' >
+      <div align="center">
         <RadarChart width={320} height={320} outerRadius="50%" data={data}>
           <PolarGrid />
           <PolarAngleAxis dataKey="subject" />
