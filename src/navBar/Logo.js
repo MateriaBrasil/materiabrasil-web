@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'react-router-dom/Link'
-import Typography from '@material-ui/core/Typography'
 import Colors from '../Colors'
 import './Logo.css'
 
@@ -9,27 +8,15 @@ export default props => (
     <Link to="/" style={{ textDecoration: 'none', color: Colors.black }}>
       <img
         className="image"
-        src="/images/logo-small.jpg"
+        src="/images/logo.png"
         alt="logo"
         style={{
           display: 'inline-block',
           marginRight: 10,
           verticalAlign: 'middle',
+          width: '280px',
         }}
       />
-      <Typography
-        variant="h3"
-        color="inherit"
-        className="text"
-        style={{
-          display: 'inline-block',
-          verticalAlign: 'middle',
-          ...(props.isInstitutionalPage && { color: Colors.white }),
-        }}
-      >
-        Materia
-        <span style={{ fontWeight: 300 }}>Mundi</span>
-      </Typography>
     </Link>
   </div>
 )

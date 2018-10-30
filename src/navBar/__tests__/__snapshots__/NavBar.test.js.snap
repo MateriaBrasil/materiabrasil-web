@@ -28,35 +28,16 @@ exports[`with current user renders correctly 1`] = `
         <img
           alt="logo"
           className="image"
-          src="/images/logo-small.jpg"
+          src="/images/logo.png"
           style={
             Object {
               "display": "inline-block",
               "marginRight": 10,
               "verticalAlign": "middle",
+              "width": "280px",
             }
           }
         />
-        <h3
-          className="MuiTypography-root-41 MuiTypography-h3-55 MuiTypography-colorInherit-70 text"
-          style={
-            Object {
-              "display": "inline-block",
-              "verticalAlign": "middle",
-            }
-          }
-        >
-          Materia
-          <span
-            style={
-              Object {
-                "fontWeight": 300,
-              }
-            }
-          >
-            Mundi
-          </span>
-        </h3>
       </div>
     </div>
     <div
@@ -64,7 +45,7 @@ exports[`with current user renders correctly 1`] = `
     >
       Media - 
       <button
-        className="MuiButtonBase-root-82 MuiIconButton-root-76"
+        className="MuiButtonBase-root-47 MuiIconButton-root-41"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -81,11 +62,11 @@ exports[`with current user renders correctly 1`] = `
         type="button"
       >
         <span
-          className="MuiIconButton-label-81"
+          className="MuiIconButton-label-46"
         >
           <svg
             aria-hidden="true"
-            className="MuiSvgIcon-root-85"
+            className="MuiSvgIcon-root-50"
             color={undefined}
             focusable="false"
             role="presentation"
@@ -106,7 +87,7 @@ exports[`with current user renders correctly 1`] = `
           </svg>
         </span>
         <span
-          className="MuiTouchRipple-root-98"
+          className="MuiTouchRipple-root-63"
         />
       </button>
     </div>
@@ -142,35 +123,16 @@ exports[`without current user renders correctly 1`] = `
         <img
           alt="logo"
           className="image"
-          src="/images/logo-small.jpg"
+          src="/images/logo.png"
           style={
             Object {
               "display": "inline-block",
               "marginRight": 10,
               "verticalAlign": "middle",
+              "width": "280px",
             }
           }
         />
-        <h3
-          className="MuiTypography-root-41 MuiTypography-h3-55 MuiTypography-colorInherit-70 text"
-          style={
-            Object {
-              "display": "inline-block",
-              "verticalAlign": "middle",
-            }
-          }
-        >
-          Materia
-          <span
-            style={
-              Object {
-                "fontWeight": 300,
-              }
-            }
-          >
-            Mundi
-          </span>
-        </h3>
       </div>
     </div>
     <div
@@ -178,7 +140,7 @@ exports[`without current user renders correctly 1`] = `
     >
       Media - 
       <button
-        className="MuiButtonBase-root-82 MuiIconButton-root-76"
+        className="MuiButtonBase-root-47 MuiIconButton-root-41"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -195,11 +157,11 @@ exports[`without current user renders correctly 1`] = `
         type="button"
       >
         <span
-          className="MuiIconButton-label-81"
+          className="MuiIconButton-label-46"
         >
           <svg
             aria-hidden="true"
-            className="MuiSvgIcon-root-85"
+            className="MuiSvgIcon-root-50"
             color={undefined}
             focusable="false"
             role="presentation"
@@ -220,7 +182,7 @@ exports[`without current user renders correctly 1`] = `
           </svg>
         </span>
         <span
-          className="MuiTouchRipple-root-98"
+          className="MuiTouchRipple-root-63"
         />
       </button>
     </div>
