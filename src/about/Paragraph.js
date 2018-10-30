@@ -6,13 +6,13 @@ import { withStyles } from '@material-ui/core/styles'
 import gridStyle from './gridStyle'
 import Colors from '../Colors'
 
-export default withStyles(gridStyle)(props => (
+export default withStyles(gridStyle)(({ color = Colors.white, ...props }) => (
   <Grid item xs={12} className={props.classes.grid}>
     <Typography
       variant="h5"
       color="inherit"
       style={{
-        color: Colors.white,
+        color: props.color ? Colors.black : color,
         display: 'inline-block',
         verticalAlign: 'middle',
         fontWeight: 300,
