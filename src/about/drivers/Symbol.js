@@ -27,8 +27,8 @@ export default class extends Component {
           aria-labelledby="responsive-dialog-title"
           onClose={this.handleClose}
         >
-          <Title colored>{this.props.title}</Title>
-          <Paragraph colored>{this.props.desc}</Paragraph>
+          <Title color>{this.props.title}</Title>
+          <Paragraph color>{this.props.desc}</Paragraph>
         </Dialog>
       </Fragment>
     )
