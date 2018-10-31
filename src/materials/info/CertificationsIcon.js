@@ -1,10 +1,13 @@
 import React from 'react'
-import FileDownloadIcon from '../FileDownloadIcon'
+import CloudDownload from '@material-ui/icons/CloudDownload'
+import IconButtonWithTooltip from '../IconButtonWithTooltip'
 
 export default ({ certificationsUrl, style }) => (
-  <FileDownloadIcon
+  <IconButtonWithTooltip
+    tooltip="Baixar certificações"
     url={certificationsUrl}
     style={style}
-    tooltip="Baixar certificações"
-  />
+  >
+    <CloudDownload color="inherit" />
+  </IconButtonWithTooltip>
 )
