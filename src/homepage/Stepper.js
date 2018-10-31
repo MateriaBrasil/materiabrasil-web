@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import map from 'lodash/map'
 import { withStyles } from '@material-ui/core/styles'
 import Stepper from '@material-ui/core/Stepper'
 import Step from '@material-ui/core/Step'
@@ -12,16 +13,18 @@ const styles = theme => ({
     position: 'fixed',
     right: 0,
     top: 200,
-    boxShadow: 'none'
+    boxShadow: 'none',
   },
   label: {
-      color: "#fff"
-  }
+    color: '#fff',
+  },
 })
-
-function getSteps() {
-  return ['Select campaign settings', 'Create an ad group', 'Create an ad']
-}
+const steps = [
+  { id: 'explore', name: 'Explore' },
+  { id: 'how_to_use_it', name: 'How to use it' },
+  { id: 'drivers', name: 'Drivers' },
+  { id: 'curated_by', name: 'Curated by' },
+]
 
 class VerticalLinearStepper extends React.Component {
   state = {
@@ -31,23 +34,28 @@ class VerticalLinearStepper extends React.Component {
   handleStep = step => () => {
     this.setState({
       activeStep: step,
-    });
-  };
+    })
+    document.getElementById(steps[step].id).scrollIntoView({
+      behavior: 'smooth',
+    })
+  }
 
   render() {
     const { activeStep } = this.state
 
     return (
-      <Stepper activeStep={activeStep} orientation="vertical" className={this.props.classes.root}>
-        <Step key="1" onClick={this.handleStep(0)}>
-          <StepLabel className={this.props.classes.label}>Step 1</StepLabel>
-        </Step>
-        <Step key="2" onClick={this.handleStep(1)}>
-          <StepLabel className={this.props.classes.label}>Step 2</StepLabel>
-        </Step>
-        <Step key="3" onClick={this.handleStep(2)}>
-          <StepLabel className={this.props.classes.label}>Step 3</StepLabel>
-        </Step>
+      <Stepper
+        activeStep={activeStep}
+        orientation="vertical"
+        className={this.props.classes.root}
+      >
+        {map(steps, ({ name }, index) => {
+          return (
+            <Step key={index} onClick={this.handleStep(index)}>
+              <StepLabel className={this.props.classes.label}>{name}</StepLabel>
+            </Step>
+          )
+        })}
       </Stepper>
     )
   }
