@@ -26,9 +26,13 @@ exports[`with current user renders correctly 1`] = `
   }
 >
   <div
+    className="Component-underlineOnHover-1"
     to="/suppliers/undefined"
   >
     Link - 
+    <p
+      className="MuiTypography-root-2 MuiTypography-body1-11 MuiTypography-colorPrimary-32"
+    />
   </div>
 </div>
 `;
