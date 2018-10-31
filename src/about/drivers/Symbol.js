@@ -24,7 +24,11 @@ export default class extends Component {
     return (
       <Fragment>
         <ButtonStyle>
-          <img src={this.props.imageUrl} onClick={this.handleClickOpen} />
+          <img
+            src={this.props.imageUrl}
+            alt={this.props.title}
+            onClick={this.handleClickOpen}
+          />
         </ButtonStyle>
 
         <Dialog
