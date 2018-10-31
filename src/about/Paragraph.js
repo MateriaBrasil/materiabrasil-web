@@ -18,6 +18,7 @@ export default withStyles(gridStyle)(({ color = Colors.white, ...props }) => (
         fontWeight: 300,
         marginLeft: '1%',
         marginRight: '1%',
+        marginBottom: '2%',
         padding: '0 6%',
       }}
     >
