@@ -34,5 +34,16 @@ export default createMuiTheme({
         paddingTop: 12,
       },
     },
+    MuiStepIcon: {
+      root: {
+        color: 'orange',
+      },
+      completed: {
+        color: 'orange',
+      },
+      active: {
+        color: 'orange',
+      },
+    },
   },
 })
