@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import Media from 'react-media'
+import Waypoint from 'react-waypoint'
 import PropTypes from 'prop-types'
 import map from 'lodash/map'
 import { withStyles } from '@material-ui/core/styles'
 import Stepper from '@material-ui/core/Stepper'
 import Step from '@material-ui/core/Step'
 import StepLabel from '@material-ui/core/StepLabel'
+
+import Explore from './Explore'
+import HowToUseIt from './HowToUseIt'
+import Drivers from './Drivers'
+import CuratedBy from './CuratedBy'
 
 const styles = theme => ({
   root: {
@@ -19,6 +26,7 @@ const styles = theme => ({
     color: '#fff',
   },
 })
+
 const steps = [
   { id: 'explore', name: 'Explore' },
   { id: 'how_to_use_it', name: 'How to use it' },
@@ -42,21 +50,50 @@ class VerticalLinearStepper extends React.Component {
 
   render() {
     const { activeStep } = this.state
-
     return (
-      <Stepper
-        activeStep={activeStep}
-        orientation="vertical"
-        className={this.props.classes.root}
-      >
-        {map(steps, ({ name }, index) => {
-          return (
-            <Step key={index} onClick={this.handleStep(index)}>
-              <StepLabel className={this.props.classes.label}>{name}</StepLabel>
-            </Step>
-          )
-        })}
-      </Stepper>
+      <Fragment>
+        <Media query="(min-width: 960px)">
+          {matches =>
+            matches ? (
+              <Stepper
+                activeStep={activeStep}
+                orientation="vertical"
+                className={this.props.classes.root}
+              >
+                {map(steps, ({ name }, index) => {
+                  return (
+                    <Step key={index} onClick={this.handleStep(index)}>
+                      <StepLabel className={this.props.classes.label}>
+                        {name}
+                      </StepLabel>
+                    </Step>
+                  )
+                })}
+              </Stepper>
+            ) : null
+          }
+        </Media>
+        <Waypoint onEnter={() => this.handleStep(0)}>
+          <div>
+            <Explore />
+          </div>
+        </Waypoint>
+        <Waypoint onEnter={() => this.handleStep(1)}>
+          <div>
+            <HowToUseIt />
+          </div>
+        </Waypoint>
+        <Waypoint onEnter={() => this.handleStep(2)}>
+          <div>
+            <Drivers />
+          </div>
+        </Waypoint>
+        <Waypoint onEnter={() => this.handleStep(3)}>
+          <div>
+            <CuratedBy />
+          </div>
+        </Waypoint>
+      </Fragment>
     )
   }
 }
