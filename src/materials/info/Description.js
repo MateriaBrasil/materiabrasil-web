@@ -12,6 +12,7 @@ import TechnicalSpecificationUpload from './TechnicalSpecificationUpload'
 import CertificationsUpload from './CertificationsUpload'
 import CertificationsIcon from './CertificationsIcon'
 import EditButton from './EditButton'
+import Supplier from './Supplier'
 
 export default props => {
   const { code, description, name, technicalSpecificationUrl } = props
@@ -30,6 +31,7 @@ export default props => {
           <Typography variant="caption" style={{ marginBottom: 16 }}>
             {code}
           </Typography>
+          <Supplier {...props} />
           {editable && (
             <Fragment>
               <EditButton {...props} label="Editar informações gerais" />
