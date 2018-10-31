@@ -1,0 +1,2178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div>
+    NavBar
+</div>,
+  <div
+    className="MuiGrid-container-1"
+    style={
+        Object {
+            "alignContent": "center",
+            "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
+            "backgroundPosition": "center",
+            "backgroundSize": "cover",
+            "paddingBottom": "10%",
+            "paddingLeft": "5%",
+            "paddingRight": "5%",
+            "paddingTop": "10%",
+          }
+    }
+>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
+        style={
+            Object {
+                "position": "relative",
+              }
+        }
+    >
+        <h4
+            className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 600,
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            <br />
+            Objetivo
+        </h4>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+    >
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 300,
+                    "marginBottom": "2%",
+                    "marginLeft": "1%",
+                    "marginRight": "1%",
+                    "padding": "0 6%",
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            O objetivo da MateriaMundi oferecer acesso à informação de qualidade e parâmetros para que seus usuários possam escolher alternativas comercialmente disponíveis e socioambiental responsáveis para os desafios do dia a dia, variando desde o que vestimos até como construímos nossas casas.
+            <br />
+            Através da criação de uma comunidade ativa a plataforma permite a criação de conhecimento compartilhado sobre ações práticas para uma forma de projetar, produzir e consumir mais responsável com a sociedade e o meio ambiente.
+        </h5>
+    </div>
+</div>,
+  <div
+    className="MuiGrid-container-1"
+    style={
+        Object {
+            "alignContent": "center",
+            "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
+            "backgroundPosition": "center",
+            "backgroundSize": "cover",
+            "paddingBottom": "10%",
+            "paddingLeft": "5%",
+            "paddingRight": "5%",
+            "paddingTop": "10%",
+          }
+    }
+>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
+        style={
+            Object {
+                "position": "relative",
+              }
+        }
+    >
+        <h4
+            className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 600,
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Como usar
+        </h4>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-8-65 Component-grid-135"
+        style={
+            Object {
+                "padding": "30%",
+                "position": "relative",
+              }
+        }
+    >
+        <iframe
+            allowFullScreen="true"
+            frameBorder="0"
+            height="100%"
+            mozallowfullscreen="true"
+            src="https://player.vimeo.com/video/140946149"
+            style={
+                Object {
+                    "border": 0,
+                    "height": "100%",
+                    "left": 0,
+                    "maxHeight": "540",
+                    "maxWidth": "960",
+                    "position": "absolute",
+                    "top": 0,
+                    "width": "100%",
+                  }
+            }
+            title="Vídeo de introdução ao Materia Brasil"
+            webkitallowfullscreen="true"
+            width="100%"
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-136"
+    >
+        <img
+            alt=""
+            src="https://images.template.net/wp-content/uploads/2016/03/17133511/Vector-Infographic-Report-Template-Premium-Download.jpg"
+            style={
+                Object {
+                    "maxWidth": "100%",
+                    "padding": "3%",
+                  }
+            }
+        />
+    </div>
+</div>,
+  <div
+    className="MuiGrid-container-1"
+    style={
+        Object {
+            "alignContent": "center",
+            "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
+            "backgroundPosition": "center",
+            "backgroundSize": "cover",
+            "paddingBottom": "10%",
+            "paddingLeft": "5%",
+            "paddingRight": "5%",
+            "paddingTop": "10%",
+          }
+    }
+>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
+        style={
+            Object {
+                "position": "relative",
+              }
+        }
+    >
+        <h4
+            className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 600,
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Equipe
+        </h4>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Manuela Yamada - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Manuela_Yamada.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Manuela Yamada
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Bernardo Ferracioli - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bernardo_Ferracioli.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Bernardo Ferracioli
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Bruno Temer - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bruno_Temer.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Bruno Temer
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Pedro Themoteo - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Pedro_Themoteo.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Pedro Themoteo
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Daniele Valente - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Daniele_Valente.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Daniele Valente
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Elisa Ferreira - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Elisa_Ferreira.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Elisa Ferreira
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Victor Lanari - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Victor_Lanari.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Victor Lanari
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Dahyna Ribeiro - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Dahyna_Irribaren.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Dahyna Ribeiro
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Bernardo Mattos - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bernardo_Mattos.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Bernardo Mattos
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Seasoned - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Seasoned.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Seasoned
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+</div>,
+  <div
+    className="MuiGrid-container-1"
+    style={
+        Object {
+            "alignContent": "center",
+            "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
+            "backgroundPosition": "center",
+            "backgroundSize": "cover",
+            "paddingBottom": "10%",
+            "paddingLeft": "5%",
+            "paddingRight": "5%",
+            "paddingTop": "10%",
+          }
+    }
+>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
+        style={
+            Object {
+                "position": "relative",
+              }
+        }
+    >
+        <h4
+            className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 600,
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Nosso board
+        </h4>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+    >
+        <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+        >
+            <h5
+                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                style={
+                    Object {
+                        "color": "white",
+                        "display": "inline-block",
+                        "fontWeight": 300,
+                        "marginBottom": "2%",
+                        "marginLeft": "1%",
+                        "marginRight": "1%",
+                        "padding": "0 6%",
+                        "verticalAlign": "middle",
+                      }
+                }
+            >
+                Sabemos que nada nesse mundo se faz sozinho! Por isso a MateriaMundi conta com um Conselho Consultivo que nos ajuda a ter integrar diferentes perspectivas e conhecimentos no projeto. Conheça os profissionais que doam o seu tempo de forma voluntária para fazer este sonho coletivo acontecer!
+            </h5>
+        </div>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Margarida Lunetta - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/conselho/margarida_lunetta.png"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Margarida Lunetta
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Gestora do programa Transformação Circular da Fundação C&A
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Arnoud Passenier - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/conselho/arnoud_passenier.png"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Arnoud Passenier
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Gestor Sênior do programa de Economia Circular do governo da Holanda
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Luisa Santiago - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/conselho/luisa_santiago.png"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Luisa Santiago
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Diretora Executiva Ellen MacArthur Foundation Brasil
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Tomás de Lara - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/conselho/tomas_de_lara.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Tomás de Lara
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Lead Cidades + B Global Sistema B Brasil
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Taciana Abreu - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/conselho/taciana_abreu.png"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Taciana Abreu
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Articuladora Yunus Negócios Sociais Brasil e Head de Marketing Farm Rio
+        </p>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Bernardo Ferracioli - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/conselho/bernardo_ferracioli.png"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Bernardo Ferracioli
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Diretor Financeiro da MateriaBrasil
+        </p>
+    </div>
+</div>,
+  <div
+    className="MuiGrid-container-1"
+    style={
+        Object {
+            "alignContent": "center",
+            "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
+            "backgroundPosition": "center",
+            "backgroundSize": "cover",
+            "paddingBottom": "10%",
+            "paddingLeft": "5%",
+            "paddingRight": "5%",
+            "paddingTop": "10%",
+          }
+    }
+>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
+        style={
+            Object {
+                "position": "relative",
+              }
+        }
+    >
+        <h4
+            className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 600,
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Direcionadores
+        </h4>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+        style={
+            Object {
+                "margin": "0 0",
+                "padding": "0 0",
+                "position": "relative",
+                "textAlign": "center",
+              }
+        }
+    >
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+            padding="0 0"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 600,
+                    "marginBottom": "2%",
+                    "marginTop": "2%",
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Para que servem os direcionadores de responsabilidade socioambiental da MateriaMundi?
+        </h5>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+    >
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 300,
+                    "marginBottom": "2%",
+                    "marginLeft": "1%",
+                    "marginRight": "1%",
+                    "padding": "0 6%",
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Na MateriaMundi acreditamos que não existe uma só resposta aos desafios de construir uma forma mais responsável de projetar, produzir e consumir, e que as escolhas mais apropriadas irão variar de acordo com o contexto no qual se está inseridos. Por este motivo criamos os nossos Direcionadores de Responsabilidade Socioambiental. Os Direcionadores foram desenvolvidos para auxiliar o usuário a escolher de forma consciente entre diversas opções, baseando-se em informações sobre o que determinada empresa/produto faz para obter um impacto positivo. Através da análise qualitativa e da pontuação de cada produto, material e serviço em cada direcionador o usuário pode comparar alternativas, priorizando o aspecto socioambiental mais relevante para o seu projeto em seu contexto.
+        </h5>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+        style={
+            Object {
+                "margin": "0 0",
+                "padding": "0 0",
+                "position": "relative",
+                "textAlign": "center",
+              }
+        }
+    >
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+            padding="0 0"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 600,
+                    "marginBottom": "2%",
+                    "marginTop": "2%",
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Como funciona?
+        </h5>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+    >
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 300,
+                    "marginBottom": "2%",
+                    "marginLeft": "1%",
+                    "marginRight": "1%",
+                    "padding": "0 6%",
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Os quatro direcionadores são divididos em duas vertentes, dois analisam aspectos sociais e dois aspectos ambientais, e cada um possui pontuação de 0 à 4, sendo zero a nota mínima e quatro a nota máxima. Cada material, produto e serviço apresentado na plataforma passa por essa auto-avaliação que é composta por 81 perguntas com objetivo de analisar seu impacto positivo. Essas análise fica disponível para você de forma descritiva, sendo possível ver cada uma das perguntas e respostas e também em forma quantitativa, através do gráfico de impacto. Para auxiliar a tomada de decisão sobre qual alternativa utilizar disponibilizamos uma ferramenta de comparação, onde os gráficos podem ser sobrepostos e uma análise comparativa pode ser feita.
+        </h5>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+        style={
+            Object {
+                "margin": "0 0",
+                "padding": "0 0",
+                "position": "relative",
+                "textAlign": "center",
+              }
+        }
+    >
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+            padding="0 0"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 600,
+                    "marginBottom": "2%",
+                    "marginTop": "2%",
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            O que garante a veracidade das informações?
+        </h5>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+    >
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 300,
+                    "marginBottom": "2%",
+                    "marginLeft": "1%",
+                    "marginRight": "1%",
+                    "padding": "0 6%",
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            A MateriaMundi acredita em seus usuários e mesmo se porventura acontecer de uma informação não ser verídica, acreditamos no poder da comunidade para regular o coletivo e garantir a integridade da plataforma. Por isso optamos por um processo de auto-avaliação, onde cada empresa é convidada a responder voluntariamente as 81 perguntas, sem um processo de auditoria. Para garantir um canal apropriado para feed-back onde toda a comunidade possa fornecer e colher informações, na página de cada produto disponibilizamos uma área para comentários e avaliação. A plataforma oferece ainda como opção a possibilidade de anexar documentos comprobatórios caso a empresa possua. Não tornamos a comprovação um item obrigatório pois entendemos que muitas vezes os custos para tal são impeditivos para empresas menores.
+        </h5>
+    </div>
+    <br />
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-8-65 Component-grid-140"
+        style={
+            Object {
+                "marginBottom": "5%",
+                "marginTop": "5%",
+              }
+        }
+    >
+        <button
+            backgroundColor="transparent"
+            className="MuiButtonBase-root-168 MuiButton-root-142 MuiButton-text-144 MuiButton-flat-147 Component-opacityOnHover-141"
+            disabled={false}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex="0"
+            type="button"
+        >
+            <span
+                className="MuiButton-label-143"
+            >
+                <img
+                    onClick={[Function]}
+                    src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-02.png"
+                />
+            </span>
+            <span
+                className="MuiTouchRipple-root-185"
+            />
+        </button>
+        <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+            style={
+                Object {
+                    "margin": "0 0",
+                    "padding": "0 0",
+                    "position": "relative",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            <h5
+                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                padding="0 0"
+                style={
+                    Object {
+                        "color": "white",
+                        "display": "inline-block",
+                        "fontWeight": 600,
+                        "marginBottom": "2%",
+                        "marginTop": "2%",
+                        "verticalAlign": "middle",
+                      }
+                }
+            >
+                Materialidade
+            </h5>
+        </div>
+        <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+        >
+            <h5
+                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                style={
+                    Object {
+                        "color": "white",
+                        "display": "inline-block",
+                        "fontWeight": 300,
+                        "marginBottom": "2%",
+                        "marginLeft": "1%",
+                        "marginRight": "1%",
+                        "padding": "0 6%",
+                        "verticalAlign": "middle",
+                      }
+                }
+            >
+                Neste direcionador analisamos o processo de fabricação utilizado pela empresa e seus impactos.
+            </h5>
+        </div>
+        <br />
+        <button
+            backgroundColor="transparent"
+            className="MuiButtonBase-root-168 MuiButton-root-142 MuiButton-text-144 MuiButton-flat-147 Component-opacityOnHover-141"
+            disabled={false}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex="0"
+            type="button"
+        >
+            <span
+                className="MuiButton-label-143"
+            >
+                <img
+                    onClick={[Function]}
+                    src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-03.png"
+                />
+            </span>
+            <span
+                className="MuiTouchRipple-root-185"
+            />
+        </button>
+        <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+            style={
+                Object {
+                    "margin": "0 0",
+                    "padding": "0 0",
+                    "position": "relative",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            <h5
+                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                padding="0 0"
+                style={
+                    Object {
+                        "color": "white",
+                        "display": "inline-block",
+                        "fontWeight": 600,
+                        "marginBottom": "2%",
+                        "marginTop": "2%",
+                        "verticalAlign": "middle",
+                      }
+                }
+            >
+                Manufatura
+            </h5>
+        </div>
+        <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+        >
+            <h5
+                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                style={
+                    Object {
+                        "color": "white",
+                        "display": "inline-block",
+                        "fontWeight": 300,
+                        "marginBottom": "2%",
+                        "marginLeft": "1%",
+                        "marginRight": "1%",
+                        "padding": "0 6%",
+                        "verticalAlign": "middle",
+                      }
+                }
+            >
+                Neste direcionador analisamos a composição do produto e a forma como foi projetado.
+            </h5>
+        </div>
+        <br />
+        <button
+            backgroundColor="transparent"
+            className="MuiButtonBase-root-168 MuiButton-root-142 MuiButton-text-144 MuiButton-flat-147 Component-opacityOnHover-141"
+            disabled={false}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex="0"
+            type="button"
+        >
+            <span
+                className="MuiButton-label-143"
+            >
+                <img
+                    onClick={[Function]}
+                    src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-04.png"
+                />
+            </span>
+            <span
+                className="MuiTouchRipple-root-185"
+            />
+        </button>
+        <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+            style={
+                Object {
+                    "margin": "0 0",
+                    "padding": "0 0",
+                    "position": "relative",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            <h5
+                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                padding="0 0"
+                style={
+                    Object {
+                        "color": "white",
+                        "display": "inline-block",
+                        "fontWeight": 600,
+                        "marginBottom": "2%",
+                        "marginTop": "2%",
+                        "verticalAlign": "middle",
+                      }
+                }
+            >
+                Gestão e governança
+            </h5>
+        </div>
+        <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+        >
+            <h5
+                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                style={
+                    Object {
+                        "color": "white",
+                        "display": "inline-block",
+                        "fontWeight": 300,
+                        "marginBottom": "2%",
+                        "marginLeft": "1%",
+                        "marginRight": "1%",
+                        "padding": "0 6%",
+                        "verticalAlign": "middle",
+                      }
+                }
+            >
+                Neste direcionador analisamos como a empresa está estruturada e como se relaciona com seus colaboradores.
+            </h5>
+        </div>
+        <br />
+        <button
+            backgroundColor="transparent"
+            className="MuiButtonBase-root-168 MuiButton-root-142 MuiButton-text-144 MuiButton-flat-147 Component-opacityOnHover-141"
+            disabled={false}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex="0"
+            type="button"
+        >
+            <span
+                className="MuiButton-label-143"
+            >
+                <img
+                    onClick={[Function]}
+                    src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-05.png"
+                />
+            </span>
+            <span
+                className="MuiTouchRipple-root-185"
+            />
+        </button>
+        <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+            style={
+                Object {
+                    "margin": "0 0",
+                    "padding": "0 0",
+                    "position": "relative",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            <h5
+                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                padding="0 0"
+                style={
+                    Object {
+                        "color": "white",
+                        "display": "inline-block",
+                        "fontWeight": 600,
+                        "marginBottom": "2%",
+                        "marginTop": "2%",
+                        "verticalAlign": "middle",
+                      }
+                }
+            >
+                Humano Social
+            </h5>
+        </div>
+        <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+        >
+            <h5
+                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                style={
+                    Object {
+                        "color": "white",
+                        "display": "inline-block",
+                        "fontWeight": 300,
+                        "marginBottom": "2%",
+                        "marginLeft": "1%",
+                        "marginRight": "1%",
+                        "padding": "0 6%",
+                        "verticalAlign": "middle",
+                      }
+                }
+            >
+                Neste direcionador analisamos como a empresa contribui para melhor a sociedade na qual está inserida.
+            </h5>
+        </div>
+        <br />
+    </div>
+    <br />
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
+        style={
+            Object {
+                "position": "relative",
+              }
+        }
+    >
+        <h4
+            className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 600,
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Desenvolvedores
+        </h4>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+    >
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 300,
+                    "marginBottom": "2%",
+                    "marginLeft": "1%",
+                    "marginRight": "1%",
+                    "padding": "0 6%",
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Para o desenvolvimento desses direcionadores a MateriaMundi contou com uma equipe de consultores especialistas em diversas áreas.
+        </h5>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+        style={
+            Object {
+                "margin": "0 0",
+                "padding": "0 0",
+                "position": "relative",
+                "textAlign": "center",
+              }
+        }
+    >
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+            padding="0 0"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 600,
+                    "marginBottom": "2%",
+                    "marginTop": "2%",
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Conheça o nosso time!
+        </h5>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Aldo Ometto - USP - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/aldo_ometto.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Aldo Ometto - USP
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Weber Amaral - USP - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/weber_amaral.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Weber Amaral - USP
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Juliana Sardinha - Efficacia Empresarial - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/juliana_sardinha.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Juliana Sardinha - Efficacia Empresarial
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Rosângela de Carvalho - Efficacia Empresarial - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/rosangela_de_carvalho.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Rosângela de Carvalho - Efficacia Empresarial
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Jéssica Galdino - Emboé - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/jessica_galdino_de_freitas.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Jéssica Galdino - Emboé
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Manuela Yamada - MateriaBrasil - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/manuela_yamada.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Manuela Yamada - MateriaBrasil
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Bruno Temer - MateriaBrasil - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/bruno_temer.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Bruno Temer - MateriaBrasil
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Isadora Timbó - Gitec Brasil - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/isadora_ribeiro.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Isadora Timbó - Gitec Brasil
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Luiza Maia - Gitec Brasil - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/luiza_maia.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Luiza Maia - Gitec Brasil
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            className="MuiAvatar-root-137"
+            style={
+                Object {
+                    "display": "block",
+                    "height": 200,
+                    "margin": "10px auto",
+                    "maxWidth": "100%",
+                    "width": 200,
+                  }
+            }
+        >
+            <img
+                alt="Tomás de Lara - Sistema B Brasil - foto"
+                className="MuiAvatar-img-139"
+                sizes={undefined}
+                src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/tomas_de_lara.jpg"
+                srcSet={undefined}
+            />
+        </div>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Tomás de Lara - Sistema B Brasil
+        </p>
+        <p
+            className="MuiTypography-root-99 MuiTypography-body1-108"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        />
+    </div>
+</div>,
+]
+`;
