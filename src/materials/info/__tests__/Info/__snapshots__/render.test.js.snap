@@ -642,7 +642,32 @@ exports[`renders correctly 1`] = `
     >
       <div
         className="MuiCardContent-root-126"
-      />
+      >
+        <div
+          style={
+            Object {
+              "overflow": "auto",
+            }
+          }
+        >
+          <h6
+            className="MuiTypography-root-127 MuiTypography-h6-144 MuiTypography-colorTextSecondary-160"
+            style={
+              Object {
+                "float": "left",
+                "marginTop": 8,
+              }
+            }
+          >
+            Características
+          </h6>
+        </div>
+        <p
+          className="MuiTypography-root-127 MuiTypography-body1-136"
+        >
+          Este material ainda não possui indicadores
+        </p>
+      </div>
     </div>
   </div>
   <div

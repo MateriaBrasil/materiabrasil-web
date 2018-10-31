@@ -15,9 +15,7 @@ import addComparison from './addComparison'
 export default props => {
   const { firstDriver, secondDriver, thirdDriver, fourthDriver } = props
 
-  if (!(firstDriver && secondDriver && thirdDriver && fourthDriver)) {
-    return null
-  }
+  const hasDrivers = firstDriver || secondDriver || thirdDriver || fourthDriver
 
   const data = [
     { subject: 'Driver #1', value: firstDriver },
@@ -36,32 +34,38 @@ export default props => {
         >
           Características
         </Typography>
-        <Button
-          color="primary"
-          style={{ float: 'right' }}
-          onClick={addComparison(props)}
-        >
-          <AddIcon style={{ marginRight: 10 }} /> Comparar
-        </Button>
+        {hasDrivers && (
+          <Button
+            color="primary"
+            style={{ float: 'right' }}
+            onClick={addComparison(props)}
+          >
+            <AddIcon style={{ marginRight: 10 }} /> Comparar
+          </Button>
+        )}
       </div>
-      <RadarChart
-        width={320}
-        height={320}
-        outerRadius="50%"
-        data={data}
-        style={{ margin: '0 auto' }}
-      >
-        <PolarGrid />
-        <PolarAngleAxis dataKey="subject" />
-        <PolarRadiusAxis angle={45} domain={[0, 10]} />
-        <Radar
-          name="Mike"
-          dataKey="value"
-          stroke="#239eb1"
-          fill="#239eb1"
-          fillOpacity={0.6}
-        />
-      </RadarChart>
+      {hasDrivers ? (
+        <RadarChart
+          width={320}
+          height={320}
+          outerRadius="50%"
+          data={data}
+          style={{ margin: '0 auto' }}
+        >
+          <PolarGrid />
+          <PolarAngleAxis dataKey="subject" />
+          <PolarRadiusAxis angle={45} domain={[0, 10]} />
+          <Radar
+            name="Mike"
+            dataKey="value"
+            stroke="#239eb1"
+            fill="#239eb1"
+            fillOpacity={0.6}
+          />
+        </RadarChart>
+      ) : (
+        <Typography>Este material ainda não possui indicadores</Typography>
+      )}
     </Fragment>
   )
 }
