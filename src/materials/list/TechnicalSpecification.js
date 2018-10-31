@@ -1,11 +1,13 @@
 import React from 'react'
-
-import TechnicalSpecificationIcon from '../TechnicalSpecificationIcon'
+import InsertChart from '@material-ui/icons/InsertChart'
+import IconButtonWithTooltip from '../IconButtonWithTooltip'
 
 export default ({ technicalSpecificationUrl, style }) => (
-  <TechnicalSpecificationIcon
+  <IconButtonWithTooltip
+    tooltip="Baixar ficha técnica"
     url={technicalSpecificationUrl}
     style={style}
-    tooltip="Baixar ficha técnica"
-  />
+  >
+    <InsertChart color="inherit" />
+  </IconButtonWithTooltip>
 )
