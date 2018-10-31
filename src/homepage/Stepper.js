@@ -43,8 +43,15 @@ class VerticalLinearStepper extends React.Component {
     this.setState({
       activeStep: step,
     })
+
     document.getElementById(steps[step].id).scrollIntoView({
       behavior: 'smooth',
+    })
+  }
+
+  handleScroll = step => {
+    this.setState({
+      activeStep: step,
     })
   }
 
@@ -73,22 +80,38 @@ class VerticalLinearStepper extends React.Component {
             ) : null
           }
         </Media>
-        <Waypoint onEnter={() => this.handleStep(0)}>
+        <Waypoint
+          onEnter={() => {
+            this.handleScroll(0)
+          }}
+        >
           <div>
             <Explore />
           </div>
         </Waypoint>
-        <Waypoint onEnter={() => this.handleStep(1)}>
+        <Waypoint
+          onEnter={() => {
+            this.handleScroll(1)
+          }}
+        >
           <div>
             <HowToUseIt />
           </div>
         </Waypoint>
-        <Waypoint onEnter={() => this.handleStep(2)}>
+        <Waypoint
+          onEnter={() => {
+            this.handleScroll(2)
+          }}
+        >
           <div>
             <Drivers />
           </div>
         </Waypoint>
-        <Waypoint onEnter={() => this.handleStep(3)}>
+        <Waypoint
+          onEnter={() => {
+            this.handleScroll(3)
+          }}
+        >
           <div>
             <CuratedBy />
           </div>
