@@ -35,14 +35,11 @@ export default createMuiTheme({
       },
     },
     MuiStepIcon: {
-      root: {
-        color: 'orange',
-      },
       completed: {
-        color: 'orange',
+        color: 'black !important',
       },
       active: {
-        color: 'orange',
+        color: 'black !important',
       },
     },
   },
