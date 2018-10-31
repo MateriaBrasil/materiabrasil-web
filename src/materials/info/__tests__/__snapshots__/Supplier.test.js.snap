@@ -8,11 +8,6 @@ exports[`renders correctly 1`] = `
     }
   }
 >
-  <h6
-    className="MuiTypography-root-1 MuiTypography-h6-18 MuiTypography-colorTextSecondary-34 MuiTypography-gutterBottom-28"
-  >
-    Fornecedor
-  </h6>
   <div
     pathname={undefined}
     text="para ver o contato do fornecedor."
@@ -30,53 +25,14 @@ exports[`with current user renders correctly 1`] = `
     }
   }
 >
-  <h6
-    className="MuiTypography-root-1 MuiTypography-h6-18 MuiTypography-colorTextSecondary-34 MuiTypography-gutterBottom-28"
-  >
-    Fornecedor
-  </h6>
-  <h6
-    className="MuiTypography-root-1 MuiTypography-subtitle1-19"
-    style={
-      Object {
-        "marginBottom": 10,
-      }
-    }
-  />
   <div
-    style={
-      Object {
-        "textDecoration": "none",
-      }
-    }
+    className="Component-underlineOnHover-1"
     to="/suppliers/undefined"
   >
     Link - 
-    <button
-      className="MuiButtonBase-root-62 MuiButton-root-36 MuiButton-contained-47 MuiButton-containedPrimary-48 MuiButton-raised-50 MuiButton-raisedPrimary-51"
-      disabled={false}
-      onBlur={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      tabIndex="0"
-      type="button"
-    >
-      <span
-        className="MuiButton-label-37"
-      >
-        Ver perfil
-      </span>
-      <span
-        className="MuiTouchRipple-root-65"
-      />
-    </button>
+    <p
+      className="MuiTypography-root-2 MuiTypography-body1-11 MuiTypography-colorPrimary-32"
+    />
   </div>
 </div>
 `;

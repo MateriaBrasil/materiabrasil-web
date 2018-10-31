@@ -2,10 +2,10 @@
 
 exports[`with current user renders correctly 1`] = `
 <div
-  className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-md-8-65"
   style={
     Object {
-      "marginBottom": 36,
+      "margin": "0 auto 36px auto",
     }
   }
 >
@@ -44,10 +44,10 @@ exports[`with current user renders correctly 1`] = `
 
 exports[`without current user renders correctly 1`] = `
 <div
-  className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-md-8-65"
   style={
     Object {
-      "marginBottom": 36,
+      "margin": "0 auto 36px auto",
     }
   }
 >

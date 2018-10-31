@@ -11,7 +11,7 @@ export default props => {
   const { currentUser } = props
 
   return (
-    <Grid item xs={12} style={{ marginBottom: 36 }}>
+    <Grid item xs={12} md={8} style={{ margin: '0 auto 36px auto' }}>
       <Card>
         <CardContent>
           {currentUser ? <New {...props} /> : <NoCurrentUser {...props} />}

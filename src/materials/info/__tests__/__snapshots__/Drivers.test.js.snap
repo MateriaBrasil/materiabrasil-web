@@ -79,6 +79,7 @@ Array [
         Object {
             "cursor": "default",
             "height": 320,
+            "margin": "0 auto",
             "position": "relative",
             "width": 320,
           }
