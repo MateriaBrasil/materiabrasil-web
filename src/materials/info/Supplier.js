@@ -13,6 +13,7 @@ const style = {
     },
   },
 }
+
 export default withStyles(style)(props => {
   const { supplierId, supplierName } = props
   const { currentUser, location } = props
