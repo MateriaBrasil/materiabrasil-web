@@ -9,7 +9,7 @@ import Colors from '../Colors'
 
 export default props => routeProps => (
   <Fragment>
-    <NavBar {...props} isInstitutionalPage="true" />
+    <NavBar />
     <Grid>
       <Typography
         variant="h3"

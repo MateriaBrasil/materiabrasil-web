@@ -8,17 +8,7 @@ import Logo from './Logo'
 
 export default withRouter(props => {
   return (
-    <AppBar
-      position={props.isInstitutionalPage ? 'absolute' : 'static'}
-      color="inherit"
-      elevation={0}
-      style={{
-        ...(props.isInstitutionalPage && {
-          backgroundColor: 'transparent',
-          boxShadow: '0px 0px 0px 0px',
-        }),
-      }}
-    >
+    <AppBar position={'absolute'} color="inherit" elevation={0}>
       <Toolbar>
         <Logo {...props} />
         <LinksOrMenu {...props} />
