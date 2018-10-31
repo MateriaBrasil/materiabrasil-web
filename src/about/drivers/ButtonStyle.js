@@ -11,11 +11,8 @@ const style = {
   },
 }
 
-export default withStyles(style)(props => (
-  <Button
-    backgroundColor="transparent"
-    className={props.classes.opacityOnHover}
-  >
-    {props.children}
+export default withStyles(style)(({ classes, children }) => (
+  <Button backgroundColor="transparent" className={classes.opacityOnHover}>
+    {children}
   </Button>
 ))
