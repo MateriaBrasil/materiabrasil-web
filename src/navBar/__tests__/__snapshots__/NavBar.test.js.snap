@@ -2,8 +2,7 @@
 
 exports[`with current user renders correctly 1`] = `
 <header
-  className="MuiPaper-root-10 MuiPaper-elevation0-12 MuiAppBar-root-1 MuiAppBar-positionStatic-5"
-  style={Object {}}
+  className="MuiPaper-root-10 MuiPaper-elevation0-12 MuiAppBar-root-1 MuiAppBar-positionAbsolute-3"
 >
   <div
     className="MuiToolbar-root-37 MuiToolbar-regular-39 MuiToolbar-gutters-38"
@@ -97,8 +96,7 @@ exports[`with current user renders correctly 1`] = `
 
 exports[`without current user renders correctly 1`] = `
 <header
-  className="MuiPaper-root-10 MuiPaper-elevation0-12 MuiAppBar-root-1 MuiAppBar-positionStatic-5"
-  style={Object {}}
+  className="MuiPaper-root-10 MuiPaper-elevation0-12 MuiAppBar-root-1 MuiAppBar-positionAbsolute-3"
 >
   <div
     className="MuiToolbar-root-37 MuiToolbar-regular-39 MuiToolbar-gutters-38"

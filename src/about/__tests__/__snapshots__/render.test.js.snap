@@ -2,9 +2,7 @@
 
 exports[`renders correctly 1`] = `
 Array [
-  <div
-    isInstitutionalPage={true}
->
+  <div>
     NavBar
 </div>,
   <div
