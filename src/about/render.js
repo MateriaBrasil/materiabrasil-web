@@ -9,7 +9,7 @@ import Board from './board/Board'
 import Drivers from './drivers/Drivers'
 export default props => routeProps => (
   <Fragment>
-    <NavBar {...props} isInstitutionalPage />
+    <NavBar />
     <Goal />
     <HowToUse />
     <Crew />
