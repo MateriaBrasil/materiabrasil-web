@@ -1267,6 +1267,7 @@ Array [
         }
     >
         <button
+            backgroundColor="transparent"
             className="MuiButtonBase-root-168 MuiButton-root-142 MuiButton-text-144 MuiButton-flat-147 Component-opacityOnHover-141"
             disabled={false}
             onBlur={[Function]}
@@ -1295,6 +1296,7 @@ Array [
             />
         </button>
         <button
+            backgroundColor="transparent"
             className="MuiButtonBase-root-168 MuiButton-root-142 MuiButton-text-144 MuiButton-flat-147 Component-opacityOnHover-141"
             disabled={false}
             onBlur={[Function]}
@@ -1323,6 +1325,7 @@ Array [
             />
         </button>
         <button
+            backgroundColor="transparent"
             className="MuiButtonBase-root-168 MuiButton-root-142 MuiButton-text-144 MuiButton-flat-147 Component-opacityOnHover-141"
             disabled={false}
             onBlur={[Function]}
@@ -1351,6 +1354,7 @@ Array [
             />
         </button>
         <button
+            backgroundColor="transparent"
             className="MuiButtonBase-root-168 MuiButton-root-142 MuiButton-text-144 MuiButton-flat-147 Component-opacityOnHover-141"
             disabled={false}
             onBlur={[Function]}
