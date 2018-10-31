@@ -34,7 +34,7 @@ Array [
                 Object {
                     "color": "white",
                     "display": "inline-block",
-                    "fontWeight": 500,
+                    "fontWeight": 600,
                     "verticalAlign": "middle",
                   }
             }
@@ -53,6 +53,7 @@ Array [
                     "color": "white",
                     "display": "inline-block",
                     "fontWeight": 300,
+                    "marginBottom": "2%",
                     "marginLeft": "1%",
                     "marginRight": "1%",
                     "padding": "0 6%",
@@ -95,7 +96,7 @@ Array [
                 Object {
                     "color": "white",
                     "display": "inline-block",
-                    "fontWeight": 500,
+                    "fontWeight": 600,
                     "verticalAlign": "middle",
                   }
             }
@@ -179,7 +180,7 @@ Array [
                 Object {
                     "color": "white",
                     "display": "inline-block",
-                    "fontWeight": 500,
+                    "fontWeight": 600,
                     "verticalAlign": "middle",
                   }
             }
@@ -727,7 +728,7 @@ Array [
                 Object {
                     "color": "white",
                     "display": "inline-block",
-                    "fontWeight": 500,
+                    "fontWeight": 600,
                     "verticalAlign": "middle",
                   }
             }
@@ -748,6 +749,7 @@ Array [
                         "color": "white",
                         "display": "inline-block",
                         "fontWeight": 300,
+                        "marginBottom": "2%",
                         "marginLeft": "1%",
                         "marginRight": "1%",
                         "padding": "0 6%",
@@ -1107,7 +1109,7 @@ Array [
                 Object {
                     "color": "white",
                     "display": "inline-block",
-                    "fontWeight": 500,
+                    "fontWeight": 600,
                     "verticalAlign": "middle",
                   }
             }
@@ -1133,8 +1135,9 @@ Array [
                 Object {
                     "color": "white",
                     "display": "inline-block",
-                    "fontWeight": 500,
-                    "marginTop": "5%",
+                    "fontWeight": 600,
+                    "marginBottom": "2%",
+                    "marginTop": "2%",
                     "verticalAlign": "middle",
                   }
             }
@@ -1152,6 +1155,7 @@ Array [
                     "color": "white",
                     "display": "inline-block",
                     "fontWeight": 300,
+                    "marginBottom": "2%",
                     "marginLeft": "1%",
                     "marginRight": "1%",
                     "padding": "0 6%",
@@ -1180,8 +1184,9 @@ Array [
                 Object {
                     "color": "white",
                     "display": "inline-block",
-                    "fontWeight": 500,
-                    "marginTop": "5%",
+                    "fontWeight": 600,
+                    "marginBottom": "2%",
+                    "marginTop": "2%",
                     "verticalAlign": "middle",
                   }
             }
@@ -1199,6 +1204,7 @@ Array [
                     "color": "white",
                     "display": "inline-block",
                     "fontWeight": 300,
+                    "marginBottom": "2%",
                     "marginLeft": "1%",
                     "marginRight": "1%",
                     "padding": "0 6%",
@@ -1227,8 +1233,9 @@ Array [
                 Object {
                     "color": "white",
                     "display": "inline-block",
-                    "fontWeight": 500,
-                    "marginTop": "5%",
+                    "fontWeight": 600,
+                    "marginBottom": "2%",
+                    "marginTop": "2%",
                     "verticalAlign": "middle",
                   }
             }
@@ -1246,6 +1253,7 @@ Array [
                     "color": "white",
                     "display": "inline-block",
                     "fontWeight": 300,
+                    "marginBottom": "2%",
                     "marginLeft": "1%",
                     "marginRight": "1%",
                     "padding": "0 6%",
@@ -1270,20 +1278,263 @@ Array [
             onClick={[Function]}
             src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-02.png"
         />
+        <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+            style={
+                Object {
+                    "margin": "0 0",
+                    "padding": "0 0",
+                    "position": "relative",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            <h5
+                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                padding="0 0"
+                style={
+                    Object {
+                        "color": "white",
+                        "display": "inline-block",
+                        "fontWeight": 600,
+                        "marginBottom": "2%",
+                        "marginTop": "2%",
+                        "verticalAlign": "middle",
+                      }
+                }
+            >
+                Materialidade
+            </h5>
+        </div>
+        <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+        >
+            <h5
+                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                style={
+                    Object {
+                        "color": "white",
+                        "display": "inline-block",
+                        "fontWeight": 300,
+                        "marginBottom": "2%",
+                        "marginLeft": "1%",
+                        "marginRight": "1%",
+                        "padding": "0 6%",
+                        "verticalAlign": "middle",
+                      }
+                }
+            >
+                Neste direcionador analisamos o processo de fabricação utilizado pela empresa e seus impactos.
+            </h5>
+        </div>
+        <br />
         <img
             onClick={[Function]}
             src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-03.png"
         />
+        <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+            style={
+                Object {
+                    "margin": "0 0",
+                    "padding": "0 0",
+                    "position": "relative",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            <h5
+                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                padding="0 0"
+                style={
+                    Object {
+                        "color": "white",
+                        "display": "inline-block",
+                        "fontWeight": 600,
+                        "marginBottom": "2%",
+                        "marginTop": "2%",
+                        "verticalAlign": "middle",
+                      }
+                }
+            >
+                Manufatura
+            </h5>
+        </div>
+        <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+        >
+            <h5
+                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                style={
+                    Object {
+                        "color": "white",
+                        "display": "inline-block",
+                        "fontWeight": 300,
+                        "marginBottom": "2%",
+                        "marginLeft": "1%",
+                        "marginRight": "1%",
+                        "padding": "0 6%",
+                        "verticalAlign": "middle",
+                      }
+                }
+            >
+                Neste direcionador analisamos a composição do produto e a forma como foi projetado.
+            </h5>
+        </div>
+        <br />
         <img
             onClick={[Function]}
             src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-04.png"
         />
+        <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+            style={
+                Object {
+                    "margin": "0 0",
+                    "padding": "0 0",
+                    "position": "relative",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            <h5
+                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                padding="0 0"
+                style={
+                    Object {
+                        "color": "white",
+                        "display": "inline-block",
+                        "fontWeight": 600,
+                        "marginBottom": "2%",
+                        "marginTop": "2%",
+                        "verticalAlign": "middle",
+                      }
+                }
+            >
+                Gestão e governança
+            </h5>
+        </div>
+        <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+        >
+            <h5
+                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                style={
+                    Object {
+                        "color": "white",
+                        "display": "inline-block",
+                        "fontWeight": 300,
+                        "marginBottom": "2%",
+                        "marginLeft": "1%",
+                        "marginRight": "1%",
+                        "padding": "0 6%",
+                        "verticalAlign": "middle",
+                      }
+                }
+            >
+                Neste direcionador analisamos como a empresa está estruturada e como se relaciona com seus colaboradores.
+            </h5>
+        </div>
+        <br />
         <img
             onClick={[Function]}
             src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-05.png"
         />
+        <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+            style={
+                Object {
+                    "margin": "0 0",
+                    "padding": "0 0",
+                    "position": "relative",
+                    "textAlign": "center",
+                  }
+            }
+        >
+            <h5
+                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                padding="0 0"
+                style={
+                    Object {
+                        "color": "white",
+                        "display": "inline-block",
+                        "fontWeight": 600,
+                        "marginBottom": "2%",
+                        "marginTop": "2%",
+                        "verticalAlign": "middle",
+                      }
+                }
+            >
+                Humano Social
+            </h5>
+        </div>
+        <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+        >
+            <h5
+                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+                style={
+                    Object {
+                        "color": "white",
+                        "display": "inline-block",
+                        "fontWeight": 300,
+                        "marginBottom": "2%",
+                        "marginLeft": "1%",
+                        "marginRight": "1%",
+                        "padding": "0 6%",
+                        "verticalAlign": "middle",
+                      }
+                }
+            >
+                Neste direcionador analisamos como a empresa contribui para melhor a sociedade na qual está inserida.
+            </h5>
+        </div>
+        <br />
     </div>
     <br />
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
+        style={
+            Object {
+                "position": "relative",
+              }
+        }
+    >
+        <h4
+            className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 600,
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Desenvolvedores
+        </h4>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+    >
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 300,
+                    "marginBottom": "2%",
+                    "marginLeft": "1%",
+                    "marginRight": "1%",
+                    "padding": "0 6%",
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Para o desenvolvimento desses direcionadores a MateriaMundi contou com uma equipe de consultores especialistas em diversas áreas.
+        </h5>
+    </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
         style={
@@ -1302,48 +1553,9 @@ Array [
                 Object {
                     "color": "white",
                     "display": "inline-block",
-                    "fontWeight": 500,
-                    "marginTop": "5%",
-                    "verticalAlign": "middle",
-                  }
-            }
-        >
-            Desenvolvedores
-        </h5>
-    </div>
-    <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
-    >
-        <h5
-            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-            style={
-                Object {
-                    "color": "white",
-                    "display": "inline-block",
-                    "fontWeight": 300,
-                    "marginLeft": "1%",
-                    "marginRight": "1%",
-                    "padding": "0 6%",
-                    "verticalAlign": "middle",
-                  }
-            }
-        >
-            Para o desenvolvimento desses direcionadores a MateriaMundi contou com uma equipe de consultores especialistas em diversas áreas.
-        </h5>
-    </div>
-    <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
-    >
-        <h5
-            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-            style={
-                Object {
-                    "color": "white",
-                    "display": "inline-block",
-                    "fontWeight": 300,
-                    "marginLeft": "1%",
-                    "marginRight": "1%",
-                    "padding": "0 6%",
+                    "fontWeight": 600,
+                    "marginBottom": "2%",
+                    "marginTop": "2%",
                     "verticalAlign": "middle",
                   }
             }
