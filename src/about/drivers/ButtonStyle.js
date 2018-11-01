@@ -12,7 +12,9 @@ const style = {
 }
 
 export default withStyles(style)(({ classes, children }) => (
-  <Button backgroundColor="transparent" className={classes.opacityOnHover}>
-    {children}
-  </Button>
+  <div style={{ textAlign: 'center' }}>
+    <Button backgroundColor="transparent" className={classes.opacityOnHover}>
+      {children}
+    </Button>
+  </div>
 ))
