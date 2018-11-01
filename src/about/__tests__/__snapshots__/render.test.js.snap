@@ -1282,7 +1282,7 @@ Array [
         >
             <button
                 backgroundColor="transparent"
-                className="MuiButtonBase-root-169 MuiButton-root-143 MuiButton-text-145 MuiButton-flat-148 Component-opacityOnHover-142"
+                className="MuiButtonBase-root-168 MuiButton-root-142 MuiButton-text-144 MuiButton-flat-147 Component-opacityOnHover-141"
                 disabled={false}
                 onBlur={[Function]}
                 onFocus={[Function]}
@@ -1298,7 +1298,7 @@ Array [
                 type="button"
             >
                 <span
-                    className="MuiButton-label-144"
+                    className="MuiButton-label-143"
                 >
                     <img
                         onClick={[Function]}
@@ -1311,12 +1311,12 @@ Array [
             </button>
         </div>
         <h5
-            className="MuiTypography-root-99 MuiTypography-h5-115 Symbol-style-141"
+            className="MuiTypography-root-99 MuiTypography-h5-115 Component-style-171"
         >
             Materialidade
         </h5>
         <h6
-            className="MuiTypography-root-99 MuiTypography-h6-116 Symbol-style-141"
+            className="MuiTypography-root-99 MuiTypography-h6-116 Component-style-171"
             style={
                 Object {
                     "fontWeight": 300,
@@ -1343,7 +1343,7 @@ Array [
         >
             <button
                 backgroundColor="transparent"
-                className="MuiButtonBase-root-169 MuiButton-root-143 MuiButton-text-145 MuiButton-flat-148 Component-opacityOnHover-142"
+                className="MuiButtonBase-root-168 MuiButton-root-142 MuiButton-text-144 MuiButton-flat-147 Component-opacityOnHover-141"
                 disabled={false}
                 onBlur={[Function]}
                 onFocus={[Function]}
@@ -1359,7 +1359,7 @@ Array [
                 type="button"
             >
                 <span
-                    className="MuiButton-label-144"
+                    className="MuiButton-label-143"
                 >
                     <img
                         onClick={[Function]}
@@ -1372,12 +1372,12 @@ Array [
             </button>
         </div>
         <h5
-            className="MuiTypography-root-99 MuiTypography-h5-115 Symbol-style-141"
+            className="MuiTypography-root-99 MuiTypography-h5-115 Component-style-171"
         >
             Manufatura
         </h5>
         <h6
-            className="MuiTypography-root-99 MuiTypography-h6-116 Symbol-style-141"
+            className="MuiTypography-root-99 MuiTypography-h6-116 Component-style-171"
             style={
                 Object {
                     "fontWeight": 300,
@@ -1404,7 +1404,7 @@ Array [
         >
             <button
                 backgroundColor="transparent"
-                className="MuiButtonBase-root-169 MuiButton-root-143 MuiButton-text-145 MuiButton-flat-148 Component-opacityOnHover-142"
+                className="MuiButtonBase-root-168 MuiButton-root-142 MuiButton-text-144 MuiButton-flat-147 Component-opacityOnHover-141"
                 disabled={false}
                 onBlur={[Function]}
                 onFocus={[Function]}
@@ -1420,7 +1420,7 @@ Array [
                 type="button"
             >
                 <span
-                    className="MuiButton-label-144"
+                    className="MuiButton-label-143"
                 >
                     <img
                         onClick={[Function]}
@@ -1433,12 +1433,12 @@ Array [
             </button>
         </div>
         <h5
-            className="MuiTypography-root-99 MuiTypography-h5-115 Symbol-style-141"
+            className="MuiTypography-root-99 MuiTypography-h5-115 Component-style-171"
         >
             Gestão e governança
         </h5>
         <h6
-            className="MuiTypography-root-99 MuiTypography-h6-116 Symbol-style-141"
+            className="MuiTypography-root-99 MuiTypography-h6-116 Component-style-171"
             style={
                 Object {
                     "fontWeight": 300,
@@ -1465,7 +1465,7 @@ Array [
         >
             <button
                 backgroundColor="transparent"
-                className="MuiButtonBase-root-169 MuiButton-root-143 MuiButton-text-145 MuiButton-flat-148 Component-opacityOnHover-142"
+                className="MuiButtonBase-root-168 MuiButton-root-142 MuiButton-text-144 MuiButton-flat-147 Component-opacityOnHover-141"
                 disabled={false}
                 onBlur={[Function]}
                 onFocus={[Function]}
@@ -1481,7 +1481,7 @@ Array [
                 type="button"
             >
                 <span
-                    className="MuiButton-label-144"
+                    className="MuiButton-label-143"
                 >
                     <img
                         onClick={[Function]}
@@ -1494,12 +1494,12 @@ Array [
             </button>
         </div>
         <h5
-            className="MuiTypography-root-99 MuiTypography-h5-115 Symbol-style-141"
+            className="MuiTypography-root-99 MuiTypography-h5-115 Component-style-171"
         >
             Humano Social
         </h5>
         <h6
-            className="MuiTypography-root-99 MuiTypography-h6-116 Symbol-style-141"
+            className="MuiTypography-root-99 MuiTypography-h6-116 Component-style-171"
             style={
                 Object {
                     "fontWeight": 300,
