@@ -14,6 +14,7 @@ import CuratedBy from './CuratedBy'
 import Section from './Section'
 import steps from './steps'
 import handleStep from './handleStep'
+import handleScroll from './handleScroll'
 
 const styles = theme => ({
   root: {
@@ -37,42 +38,21 @@ class VerticalLinearStepper extends React.Component {
     super(props)
     this.state = { activeStep: 0 }
     this.handleStep = handleStep.bind(this)
-  }
-
-  handleScroll = step => {
-    this.setState({
-      activeStep: step,
-    })
+    this.handleScroll = handleScroll.bind(this)
   }
 
   renderSections = () => (
     <Fragment>
-      <Section
-        handleScroll={() => {
-          this.handleScroll(0)
-        }}
-      >
+      <Section handleScroll={this.handleScroll(0)}>
         <Explore />
       </Section>
-      <Section
-        onEnter={() => {
-          this.handleScroll(1)
-        }}
-      >
+      <Section handleScroll={this.handleScroll(1)}>
         <HowToUseIt />
       </Section>
-      <Section
-        onEnter={() => {
-          this.handleScroll(2)
-        }}
-      >
+      <Section handleScroll={this.handleScroll(2)}>
         <Drivers />
       </Section>
-      <Section
-        onEnter={() => {
-          this.handleScroll(3)
-        }}
-      >
+      <Section handleScroll={this.handleScroll(3)}>
         <CuratedBy />
       </Section>
     </Fragment>

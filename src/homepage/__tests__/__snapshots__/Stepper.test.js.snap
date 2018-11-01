@@ -10,21 +10,21 @@ Array [
     </div>
 </div>,
   <div
-    onEnter={[Function]}
+    handleScroll={[Function]}
 >
     <div>
         HowToUseIt
     </div>
 </div>,
   <div
-    onEnter={[Function]}
+    handleScroll={[Function]}
 >
     <div>
         Drivers
     </div>
 </div>,
   <div
-    onEnter={[Function]}
+    handleScroll={[Function]}
 >
     <div>
         CuratedBy
@@ -244,21 +244,21 @@ Array [
     </div>
 </div>,
   <div
-    onEnter={[Function]}
+    handleScroll={[Function]}
 >
     <div>
         HowToUseIt
     </div>
 </div>,
   <div
-    onEnter={[Function]}
+    handleScroll={[Function]}
 >
     <div>
         Drivers
     </div>
 </div>,
   <div
-    onEnter={[Function]}
+    handleScroll={[Function]}
 >
     <div>
         CuratedBy
