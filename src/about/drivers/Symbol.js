@@ -1,21 +1,12 @@
 import React, { Component } from 'react'
-import { withStyles } from '@material-ui/core/styles'
 import Grid from '@material-ui/core/Grid'
 import Dialog from '@material-ui/core/Dialog'
-import Typography from '@material-ui/core/Typography'
 
-import Colors from '../../Colors'
 import Button from './Button'
+import NameAndDescription from './NameAndDescription'
+import Title from '../Title'
 
-const styles = theme => ({
-  style: {
-    textAlign: 'center',
-    color: Colors.white,
-    fontWeight: 600,
-  },
-})
-
-class Symbol extends Component {
+export default class extends Component {
   state = {
     open: false,
   }
@@ -41,29 +32,19 @@ class Symbol extends Component {
         >
           <img src={this.props.imageUrl} onClick={this.handleClickOpen} />
         </Button>
-        <Typography variant="h5" className={this.props.classes.style}>
-          {this.props.title}
-        </Typography>
-        <Typography
-          variant="h6"
-          className={this.props.classes.style}
-          style={{
-            fontWeight: 300,
-          }}
-        >
-          {this.props.desc}
-        </Typography>
+
+        <NameAndDescription>
+          {this.props}
+        </NameAndDescription>
 
         <Dialog
           open={this.state.open}
           aria-labelledby="responsive-dialog-title"
           onClose={this.handleClose}
         >
-          TO DO...
+          <Title color>PERGUNTAS DOS QUESTIONÁRIOS:</Title>
         </Dialog>
       </Grid>
     )
   }
 }
-
-export default withStyles(styles)(Symbol)
