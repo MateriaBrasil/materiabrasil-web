@@ -9,11 +9,9 @@ import StepLabel from '@material-ui/core/StepLabel'
 
 import Explore from './Explore'
 import HowToUseIt from './HowToUseIt'
-import Drivers from './Drivers'
-import CuratedBy from './CuratedBy'
+import Introduction from './Introduction'
 import Section from './Section'
 import steps from './steps'
-import handleStep from './handleStep'
 import handleScroll from './handleScroll'
 
 const styles = theme => ({
@@ -37,7 +35,6 @@ class VerticalLinearStepper extends React.Component {
   constructor(props) {
     super(props)
     this.state = { activeStep: 0 }
-    this.handleStep = handleStep.bind(this)
     this.handleScroll = handleScroll.bind(this)
   }
 
@@ -50,10 +47,7 @@ class VerticalLinearStepper extends React.Component {
         <HowToUseIt />
       </Section>
       <Section handleScroll={this.handleScroll(2)}>
-        <Drivers />
-      </Section>
-      <Section handleScroll={this.handleScroll(3)}>
-        <CuratedBy />
+        <Introduction />
       </Section>
     </Fragment>
   )
@@ -66,11 +60,7 @@ class VerticalLinearStepper extends React.Component {
     >
       {map(steps, ({ name }, index) => {
         return (
-          <Step
-            key={index}
-            className={this.props.classes.step}
-            onClick={this.handleStep(index)}
-          >
+          <Step key={index} className={this.props.classes.step}>
             <StepLabel className={this.props.classes.label}>{name}</StepLabel>
           </Step>
         )

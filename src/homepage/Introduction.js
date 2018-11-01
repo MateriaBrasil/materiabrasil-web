@@ -7,7 +7,7 @@ import Grid from '../InstitutionalPagesGrid'
 import Colors from '../Colors'
 
 export default () => (
-  <Grid id="drivers">
+  <Grid id="introduction">
     <Link to={`/materials`} style={{ textDecoration: 'none' }}>
       <Button
         variant="contained"

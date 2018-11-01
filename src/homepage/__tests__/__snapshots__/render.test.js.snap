@@ -106,7 +106,7 @@ Array [
   <div>
     <div
         className="MuiGrid-container-5"
-        id="drivers"
+        id="introduction"
         style={
             Object {
                 "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
@@ -189,52 +189,6 @@ Array [
                 <br />
                 Membro: Sistema B Brasil e CE100 Global Ellen MacArthur Foundation.
             </p>
-        </div>
-    </div>
-</div>,
-  <div>
-    <div
-        className="MuiGrid-container-5"
-        id="curated_by"
-        style={
-            Object {
-                "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
-                "backgroundPosition": "center",
-                "backgroundSize": "cover",
-              }
-        }
-    >
-        <div
-            className="MuiGrid-item-6 MuiGrid-grid-xs-12-45 MuiGrid-grid-sm-8-55 MuiGrid-grid-md-6-67 Component-grid-4"
-            style={
-                Object {
-                    "paddingTop": "35%",
-                    "position": "relative",
-                  }
-            }
-        >
-            <iframe
-                allowFullScreen="true"
-                frameBorder="0"
-                height="100%"
-                mozallowfullscreen="true"
-                src="https://player.vimeo.com/video/140946149"
-                style={
-                    Object {
-                        "border": 0,
-                        "height": "100%",
-                        "left": 0,
-                        "maxHeight": "540",
-                        "maxWidth": "960",
-                        "position": "absolute",
-                        "top": 0,
-                        "width": "100%",
-                      }
-                }
-                title="Vídeo de introdução ao Materia Brasil"
-                webkitallowfullscreen="true"
-                width="100%"
-            />
         </div>
     </div>
 </div>,
