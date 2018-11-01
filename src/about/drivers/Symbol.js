@@ -1,12 +1,21 @@
 import React, { Component } from 'react'
+import { withStyles } from '@material-ui/core/styles'
 import Grid from '@material-ui/core/Grid'
 import Dialog from '@material-ui/core/Dialog'
 import Typography from '@material-ui/core/Typography'
 
 import Colors from '../../Colors'
-import ButtonStyle from './ButtonStyle'
+import Button from './Button'
 
-export default class extends Component {
+const styles = theme => ({
+  style: {
+    textAlign: 'center',
+    color: Colors.white,
+    fontWeight: 600,
+  },
+})
+
+class Symbol extends Component {
   state = {
     open: false,
   }
@@ -24,29 +33,21 @@ export default class extends Component {
   render() {
     return (
       <Grid item xs={12} sm={6} md={4} lg={3} style={{ padding: 20 }}>
-        <ButtonStyle
+        <Button
           style={{
             display: 'block',
             height: 200,
           }}
         >
           <img src={this.props.imageUrl} onClick={this.handleClickOpen} />
-        </ButtonStyle>
-        <Typography
-          variant="h5"
-          style={{
-            textAlign: 'center',
-            color: Colors.white,
-            fontWeight: 500,
-          }}
-        >
+        </Button>
+        <Typography variant="h5" className={this.props.classes.style}>
           {this.props.title}
         </Typography>
         <Typography
           variant="h6"
+          className={this.props.classes.style}
           style={{
-            textAlign: 'center',
-            color: Colors.white,
             fontWeight: 300,
           }}
         >
@@ -57,8 +58,12 @@ export default class extends Component {
           open={this.state.open}
           aria-labelledby="responsive-dialog-title"
           onClose={this.handleClose}
-        />
+        >
+          TO DO...
+        </Dialog>
       </Grid>
     )
   }
 }
+
+export default withStyles(styles)(Symbol)
