@@ -58,6 +58,39 @@ class VerticalLinearStepper extends React.Component {
     })
   }
 
+  renderSections = () => (
+    <Fragment>
+      <Section
+        handleScroll={() => {
+          this.handleScroll(0)
+        }}
+      >
+        <Explore />
+      </Section>
+      <Section
+        onEnter={() => {
+          this.handleScroll(1)
+        }}
+      >
+        <HowToUseIt />
+      </Section>
+      <Section
+        onEnter={() => {
+          this.handleScroll(2)
+        }}
+      >
+        <Drivers />
+      </Section>
+      <Section
+        onEnter={() => {
+          this.handleScroll(3)
+        }}
+      >
+        <CuratedBy />
+      </Section>
+    </Fragment>
+  )
+
   render() {
     const { activeStep } = this.state
     return (
@@ -87,34 +120,7 @@ class VerticalLinearStepper extends React.Component {
             ) : null
           }
         </Media>
-        <Section
-          handleScroll={() => {
-            this.handleScroll(0)
-          }}
-        >
-          <Explore />
-        </Section>
-        <Section
-          onEnter={() => {
-            this.handleScroll(1)
-          }}
-        >
-          <HowToUseIt />
-        </Section>
-        <Section
-          onEnter={() => {
-            this.handleScroll(2)
-          }}
-        >
-          <Drivers />
-        </Section>
-        <Section
-          onEnter={() => {
-            this.handleScroll(3)
-          }}
-        >
-          <CuratedBy />
-        </Section>
+        {this.renderSections()}
       </Fragment>
     )
   }
