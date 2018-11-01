@@ -20,7 +20,7 @@ const styles = theme => ({
     background: 'transparent',
     position: 'fixed',
     right: 0,
-    top: 200,
+    top: '40%',
     boxShadow: 'none',
   },
   step: {
