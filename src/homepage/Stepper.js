@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
 import Media from 'react-media'
-import Waypoint from 'react-waypoint'
 import PropTypes from 'prop-types'
 import map from 'lodash/map'
 import { withStyles } from '@material-ui/core/styles'
@@ -12,6 +11,7 @@ import Explore from './Explore'
 import HowToUseIt from './HowToUseIt'
 import Drivers from './Drivers'
 import CuratedBy from './CuratedBy'
+import Section from './Section'
 
 const styles = theme => ({
   root: {
@@ -87,42 +87,34 @@ class VerticalLinearStepper extends React.Component {
             ) : null
           }
         </Media>
-        <Waypoint
-          onEnter={() => {
+        <Section
+          handleScroll={() => {
             this.handleScroll(0)
           }}
         >
-          <div>
-            <Explore />
-          </div>
-        </Waypoint>
-        <Waypoint
+          <Explore />
+        </Section>
+        <Section
           onEnter={() => {
             this.handleScroll(1)
           }}
         >
-          <div>
-            <HowToUseIt />
-          </div>
-        </Waypoint>
-        <Waypoint
+          <HowToUseIt />
+        </Section>
+        <Section
           onEnter={() => {
             this.handleScroll(2)
           }}
         >
-          <div>
-            <Drivers />
-          </div>
-        </Waypoint>
-        <Waypoint
+          <Drivers />
+        </Section>
+        <Section
           onEnter={() => {
             this.handleScroll(3)
           }}
         >
-          <div>
-            <CuratedBy />
-          </div>
-        </Waypoint>
+          <CuratedBy />
+        </Section>
       </Fragment>
     )
   }
