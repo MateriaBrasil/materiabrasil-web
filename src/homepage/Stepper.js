@@ -91,34 +91,32 @@ class VerticalLinearStepper extends React.Component {
     </Fragment>
   )
 
+  renderStepper = activeStep => (
+    <Stepper
+      activeStep={activeStep}
+      orientation="vertical"
+      className={this.props.classes.root}
+    >
+      {map(steps, ({ name }, index) => {
+        return (
+          <Step
+            key={index}
+            className={this.props.classes.step}
+            onClick={this.handleStep(index)}
+          >
+            <StepLabel className={this.props.classes.label}>{name}</StepLabel>
+          </Step>
+        )
+      })}
+    </Stepper>
+  )
+
   render() {
     const { activeStep } = this.state
     return (
       <Fragment>
         <Media query="(min-width: 960px)">
-          {matches =>
-            matches ? (
-              <Stepper
-                activeStep={activeStep}
-                orientation="vertical"
-                className={this.props.classes.root}
-              >
-                {map(steps, ({ name }, index) => {
-                  return (
-                    <Step
-                      key={index}
-                      className={this.props.classes.step}
-                      onClick={this.handleStep(index)}
-                    >
-                      <StepLabel className={this.props.classes.label}>
-                        {name}
-                      </StepLabel>
-                    </Step>
-                  )
-                })}
-              </Stepper>
-            ) : null
-          }
+          {matches => (matches ? this.renderStepper(activeStep) : null)}
         </Media>
         {this.renderSections()}
       </Fragment>
