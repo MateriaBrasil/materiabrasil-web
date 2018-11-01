@@ -7,6 +7,11 @@ Array [
 </div>,
   <div
     className="content"
+    style={
+        Object {
+            "paddingTop": "140px",
+          }
+    }
 >
     <div>
         <div>
@@ -24,6 +29,11 @@ Array [
 </div>,
   <div
     className="content"
+    style={
+        Object {
+            "paddingTop": "140px",
+          }
+    }
 >
     <div>
         <div>

@@ -9,6 +9,11 @@ Array [
 </div>,
   <div
     className="content"
+    style={
+        Object {
+            "paddingTop": "140px",
+          }
+    }
 >
     <div
         foo="bar"
