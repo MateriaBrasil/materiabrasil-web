@@ -1266,330 +1266,284 @@ Array [
     </div>
     <br />
     <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-8-65 Component-grid-140"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
         style={
             Object {
-                "marginBottom": "5%",
-                "marginTop": "5%",
+                "padding": 20,
               }
         }
     >
-        <button
-            backgroundColor="transparent"
-            className="MuiButtonBase-root-168 MuiButton-root-142 MuiButton-text-144 MuiButton-flat-147 Component-opacityOnHover-141"
-            disabled={false}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-            onMouseDown={[Function]}
-            onMouseLeave={[Function]}
-            onMouseUp={[Function]}
-            onTouchEnd={[Function]}
-            onTouchMove={[Function]}
-            onTouchStart={[Function]}
-            tabIndex="0"
-            type="button"
-        >
-            <span
-                className="MuiButton-label-143"
-            >
-                <img
-                    onClick={[Function]}
-                    src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-02.png"
-                />
-            </span>
-            <span
-                className="MuiTouchRipple-root-185"
-            />
-        </button>
         <div
-            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
             style={
                 Object {
-                    "margin": "0 0",
-                    "padding": "0 0",
-                    "position": "relative",
                     "textAlign": "center",
                   }
             }
         >
-            <h5
-                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-                padding="0 0"
-                style={
-                    Object {
-                        "color": "white",
-                        "display": "inline-block",
-                        "fontWeight": 600,
-                        "marginBottom": "2%",
-                        "marginTop": "2%",
-                        "verticalAlign": "middle",
-                      }
-                }
+            <button
+                backgroundColor="transparent"
+                className="MuiButtonBase-root-168 MuiButton-root-142 MuiButton-text-144 MuiButton-flat-147 Component-opacityOnHover-141"
+                disabled={false}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex="0"
+                type="button"
             >
-                Materialidade
-            </h5>
-        </div>
-        <div
-            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
-        >
-            <h5
-                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-                style={
-                    Object {
-                        "color": "white",
-                        "display": "inline-block",
-                        "fontWeight": 300,
-                        "marginBottom": "2%",
-                        "marginLeft": "1%",
-                        "marginRight": "1%",
-                        "padding": "0 6%",
-                        "verticalAlign": "middle",
-                      }
-                }
-            >
-                Neste direcionador analisamos o processo de fabricação utilizado pela empresa e seus impactos.
-            </h5>
-        </div>
-        <br />
-        <button
-            backgroundColor="transparent"
-            className="MuiButtonBase-root-168 MuiButton-root-142 MuiButton-text-144 MuiButton-flat-147 Component-opacityOnHover-141"
-            disabled={false}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-            onMouseDown={[Function]}
-            onMouseLeave={[Function]}
-            onMouseUp={[Function]}
-            onTouchEnd={[Function]}
-            onTouchMove={[Function]}
-            onTouchStart={[Function]}
-            tabIndex="0"
-            type="button"
-        >
-            <span
-                className="MuiButton-label-143"
-            >
-                <img
-                    onClick={[Function]}
-                    src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-03.png"
+                <span
+                    className="MuiButton-label-143"
+                >
+                    <img
+                        onClick={[Function]}
+                        src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-02.png"
+                    />
+                </span>
+                <span
+                    className="MuiTouchRipple-root-185"
                 />
-            </span>
-            <span
-                className="MuiTouchRipple-root-185"
-            />
-        </button>
-        <div
-            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+            </button>
+        </div>
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115"
             style={
                 Object {
-                    "margin": "0 0",
-                    "padding": "0 0",
-                    "position": "relative",
+                    "color": "white",
+                    "fontWeight": 500,
                     "textAlign": "center",
                   }
             }
         >
-            <h5
-                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-                padding="0 0"
-                style={
-                    Object {
-                        "color": "white",
-                        "display": "inline-block",
-                        "fontWeight": 600,
-                        "marginBottom": "2%",
-                        "marginTop": "2%",
-                        "verticalAlign": "middle",
-                      }
-                }
-            >
-                Manufatura
-            </h5>
-        </div>
-        <div
-            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
-        >
-            <h5
-                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-                style={
-                    Object {
-                        "color": "white",
-                        "display": "inline-block",
-                        "fontWeight": 300,
-                        "marginBottom": "2%",
-                        "marginLeft": "1%",
-                        "marginRight": "1%",
-                        "padding": "0 6%",
-                        "verticalAlign": "middle",
-                      }
-                }
-            >
-                Neste direcionador analisamos a composição do produto e a forma como foi projetado.
-            </h5>
-        </div>
-        <br />
-        <button
-            backgroundColor="transparent"
-            className="MuiButtonBase-root-168 MuiButton-root-142 MuiButton-text-144 MuiButton-flat-147 Component-opacityOnHover-141"
-            disabled={false}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-            onMouseDown={[Function]}
-            onMouseLeave={[Function]}
-            onMouseUp={[Function]}
-            onTouchEnd={[Function]}
-            onTouchMove={[Function]}
-            onTouchStart={[Function]}
-            tabIndex="0"
-            type="button"
-        >
-            <span
-                className="MuiButton-label-143"
-            >
-                <img
-                    onClick={[Function]}
-                    src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-04.png"
-                />
-            </span>
-            <span
-                className="MuiTouchRipple-root-185"
-            />
-        </button>
-        <div
-            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+            Materialidade
+        </h5>
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
             style={
                 Object {
-                    "margin": "0 0",
-                    "padding": "0 0",
-                    "position": "relative",
+                    "color": "white",
+                    "fontWeight": 300,
                     "textAlign": "center",
                   }
             }
         >
-            <h5
-                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-                padding="0 0"
-                style={
-                    Object {
-                        "color": "white",
-                        "display": "inline-block",
-                        "fontWeight": 600,
-                        "marginBottom": "2%",
-                        "marginTop": "2%",
-                        "verticalAlign": "middle",
-                      }
-                }
-            >
-                Gestão e governança
-            </h5>
-        </div>
+            Neste direcionador analisamos o processo de fabricação utilizado pela empresa e seus impactos.
+        </h6>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
         <div
-            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
-        >
-            <h5
-                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-                style={
-                    Object {
-                        "color": "white",
-                        "display": "inline-block",
-                        "fontWeight": 300,
-                        "marginBottom": "2%",
-                        "marginLeft": "1%",
-                        "marginRight": "1%",
-                        "padding": "0 6%",
-                        "verticalAlign": "middle",
-                      }
-                }
-            >
-                Neste direcionador analisamos como a empresa está estruturada e como se relaciona com seus colaboradores.
-            </h5>
-        </div>
-        <br />
-        <button
-            backgroundColor="transparent"
-            className="MuiButtonBase-root-168 MuiButton-root-142 MuiButton-text-144 MuiButton-flat-147 Component-opacityOnHover-141"
-            disabled={false}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-            onMouseDown={[Function]}
-            onMouseLeave={[Function]}
-            onMouseUp={[Function]}
-            onTouchEnd={[Function]}
-            onTouchMove={[Function]}
-            onTouchStart={[Function]}
-            tabIndex="0"
-            type="button"
-        >
-            <span
-                className="MuiButton-label-143"
-            >
-                <img
-                    onClick={[Function]}
-                    src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-05.png"
-                />
-            </span>
-            <span
-                className="MuiTouchRipple-root-185"
-            />
-        </button>
-        <div
-            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
             style={
                 Object {
-                    "margin": "0 0",
-                    "padding": "0 0",
-                    "position": "relative",
                     "textAlign": "center",
                   }
             }
         >
-            <h5
-                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-                padding="0 0"
-                style={
-                    Object {
-                        "color": "white",
-                        "display": "inline-block",
-                        "fontWeight": 600,
-                        "marginBottom": "2%",
-                        "marginTop": "2%",
-                        "verticalAlign": "middle",
-                      }
-                }
+            <button
+                backgroundColor="transparent"
+                className="MuiButtonBase-root-168 MuiButton-root-142 MuiButton-text-144 MuiButton-flat-147 Component-opacityOnHover-141"
+                disabled={false}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex="0"
+                type="button"
             >
-                Humano Social
-            </h5>
+                <span
+                    className="MuiButton-label-143"
+                >
+                    <img
+                        onClick={[Function]}
+                        src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-03.png"
+                    />
+                </span>
+                <span
+                    className="MuiTouchRipple-root-185"
+                />
+            </button>
         </div>
-        <div
-            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
         >
-            <h5
-                className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-                style={
-                    Object {
-                        "color": "white",
-                        "display": "inline-block",
-                        "fontWeight": 300,
-                        "marginBottom": "2%",
-                        "marginLeft": "1%",
-                        "marginRight": "1%",
-                        "padding": "0 6%",
-                        "verticalAlign": "middle",
-                      }
-                }
+            Manufatura
+        </h5>
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 300,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Neste direcionador analisamos a composição do produto e a forma como foi projetado.
+        </h6>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            style={
+                Object {
+                    "textAlign": "center",
+                  }
+            }
+        >
+            <button
+                backgroundColor="transparent"
+                className="MuiButtonBase-root-168 MuiButton-root-142 MuiButton-text-144 MuiButton-flat-147 Component-opacityOnHover-141"
+                disabled={false}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex="0"
+                type="button"
             >
-                Neste direcionador analisamos como a empresa contribui para melhor a sociedade na qual está inserida.
-            </h5>
+                <span
+                    className="MuiButton-label-143"
+                >
+                    <img
+                        onClick={[Function]}
+                        src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-04.png"
+                    />
+                </span>
+                <span
+                    className="MuiTouchRipple-root-185"
+                />
+            </button>
         </div>
-        <br />
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Gestão e governança
+        </h5>
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 300,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Neste direcionador analisamos como a empresa está estruturada e como se relaciona com seus colaboradores.
+        </h6>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
+        style={
+            Object {
+                "padding": 20,
+              }
+        }
+    >
+        <div
+            style={
+                Object {
+                    "textAlign": "center",
+                  }
+            }
+        >
+            <button
+                backgroundColor="transparent"
+                className="MuiButtonBase-root-168 MuiButton-root-142 MuiButton-text-144 MuiButton-flat-147 Component-opacityOnHover-141"
+                disabled={false}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex="0"
+                type="button"
+            >
+                <span
+                    className="MuiButton-label-143"
+                >
+                    <img
+                        onClick={[Function]}
+                        src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-05.png"
+                    />
+                </span>
+                <span
+                    className="MuiTouchRipple-root-185"
+                />
+            </button>
+        </div>
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 500,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Humano Social
+        </h5>
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            style={
+                Object {
+                    "color": "white",
+                    "fontWeight": 300,
+                    "textAlign": "center",
+                  }
+            }
+        >
+            Neste direcionador analisamos como a empresa contribui para melhor a sociedade na qual está inserida.
+        </h6>
     </div>
     <br />
     <div
