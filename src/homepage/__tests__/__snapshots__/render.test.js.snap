@@ -12,7 +12,7 @@ Array [
 </div>,
   <div>
     <div
-        className="MuiGrid-container-4"
+        className="MuiGrid-container-5"
         id="explore"
         style={
             Object {
@@ -23,7 +23,7 @@ Array [
         }
     >
         <div
-            className="MuiGrid-item-5 MuiGrid-grid-xs-12-44 MuiGrid-grid-sm-8-54 MuiGrid-grid-md-6-66 Component-grid-3"
+            className="MuiGrid-item-6 MuiGrid-grid-xs-12-45 MuiGrid-grid-sm-8-55 MuiGrid-grid-md-6-67 Component-grid-4"
             style={
                 Object {
                     "position": "relative",
@@ -31,7 +31,7 @@ Array [
             }
         >
             <h3
-                className="MuiTypography-root-101 MuiTypography-h3-115 MuiTypography-colorInherit-130 text"
+                className="MuiTypography-root-102 MuiTypography-h3-116 MuiTypography-colorInherit-131 text"
                 style={
                     Object {
                         "color": "white",
@@ -59,7 +59,7 @@ Array [
 </div>,
   <div>
     <div
-        className="MuiGrid-container-4"
+        className="MuiGrid-container-5"
         id="how_to_use_it"
         style={
             Object {
@@ -70,7 +70,7 @@ Array [
         }
     >
         <div
-            className="MuiGrid-item-5 MuiGrid-grid-xs-12-44 MuiGrid-grid-sm-8-54 MuiGrid-grid-md-6-66 Component-grid-3"
+            className="MuiGrid-item-6 MuiGrid-grid-xs-12-45 MuiGrid-grid-sm-8-55 MuiGrid-grid-md-6-67 Component-grid-4"
             style={
                 Object {
                     "paddingTop": "35%",
@@ -105,7 +105,7 @@ Array [
 </div>,
   <div>
     <div
-        className="MuiGrid-container-4"
+        className="MuiGrid-container-5"
         id="drivers"
         style={
             Object {
@@ -116,7 +116,7 @@ Array [
         }
     >
         <div
-            className="MuiGrid-item-5 MuiGrid-grid-xs-12-44 MuiGrid-grid-sm-8-54 MuiGrid-grid-md-6-66 Component-grid-3"
+            className="MuiGrid-item-6 MuiGrid-grid-xs-12-45 MuiGrid-grid-sm-8-55 MuiGrid-grid-md-6-67 Component-grid-4"
             style={
                 Object {
                     "position": "relative",
@@ -133,7 +133,7 @@ Array [
             >
                 Link - 
                 <button
-                    className="MuiButtonBase-root-162 MuiButton-root-136 MuiButton-contained-147 MuiButton-raised-150 MuiButton-sizeLarge-160"
+                    className="MuiButtonBase-root-163 MuiButton-root-137 MuiButton-contained-148 MuiButton-raised-151 MuiButton-sizeLarge-161"
                     disabled={false}
                     onBlur={[Function]}
                     onFocus={[Function]}
@@ -160,17 +160,17 @@ Array [
                     type="button"
                 >
                     <span
-                        className="MuiButton-label-137"
+                        className="MuiButton-label-138"
                     >
                         Explore
                     </span>
                     <span
-                        className="MuiTouchRipple-root-165"
+                        className="MuiTouchRipple-root-166"
                     />
                 </button>
             </div>
             <p
-                className="MuiTypography-root-101 MuiTypography-body1-110"
+                className="MuiTypography-root-102 MuiTypography-body1-111"
                 style={
                     Object {
                         "bottom": 20,
@@ -194,7 +194,7 @@ Array [
 </div>,
   <div>
     <div
-        className="MuiGrid-container-4"
+        className="MuiGrid-container-5"
         id="curated_by"
         style={
             Object {
@@ -205,7 +205,7 @@ Array [
         }
     >
         <div
-            className="MuiGrid-item-5 MuiGrid-grid-xs-12-44 MuiGrid-grid-sm-8-54 MuiGrid-grid-md-6-66 Component-grid-3"
+            className="MuiGrid-item-6 MuiGrid-grid-xs-12-45 MuiGrid-grid-sm-8-55 MuiGrid-grid-md-6-67 Component-grid-4"
             style={
                 Object {
                     "paddingTop": "35%",
