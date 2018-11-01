@@ -1266,7 +1266,6 @@ Array [
               }
         }
     >
-<<<<<<< HEAD
         <button
             backgroundColor="transparent"
             className="MuiButtonBase-root-168 MuiButton-root-142 MuiButton-text-144 MuiButton-flat-147 Component-opacityOnHover-141"
@@ -1288,6 +1287,7 @@ Array [
                 className="MuiButton-label-143"
             >
                 <img
+                    alt="Materialidade"
                     onClick={[Function]}
                     src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-02.png"
                 />
@@ -1317,6 +1317,7 @@ Array [
                 className="MuiButton-label-143"
             >
                 <img
+                    alt="Manufatura"
                     onClick={[Function]}
                     src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-03.png"
                 />
@@ -1346,6 +1347,7 @@ Array [
                 className="MuiButton-label-143"
             >
                 <img
+                    alt="Gestão e governança"
                     onClick={[Function]}
                     src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-04.png"
                 />
@@ -1375,6 +1377,7 @@ Array [
                 className="MuiButton-label-143"
             >
                 <img
+                    alt="Humano Social"
                     onClick={[Function]}
                     src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-05.png"
                 />
@@ -1383,28 +1386,6 @@ Array [
                 className="MuiTouchRipple-root-185"
             />
         </button>
-=======
-        <img
-            alt="Materialidade"
-            onClick={[Function]}
-            src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-02.png"
-        />
-        <img
-            alt="Manufatura"
-            onClick={[Function]}
-            src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-03.png"
-        />
-        <img
-            alt="Gestão e governança"
-            onClick={[Function]}
-            src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-04.png"
-        />
-        <img
-            alt="Humano Social"
-            onClick={[Function]}
-            src="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-05.png"
-        />
->>>>>>> update snapshots
     </div>
     <br />
     <div

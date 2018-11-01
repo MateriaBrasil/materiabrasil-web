@@ -5,7 +5,7 @@ import Stepper from './Stepper'
 
 export default props => () => (
   <Fragment>
-    <NavBar {...props} isInstitutionalPage="true" />
+    <NavBar />
     <Stepper {...props} />
   </Fragment>
 )
