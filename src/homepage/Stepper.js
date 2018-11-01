@@ -22,6 +22,9 @@ const styles = theme => ({
     top: 200,
     boxShadow: 'none',
   },
+  step: {
+    cursor: 'pointer',
+  },
   label: {
     color: '#fff',
   },
@@ -69,7 +72,11 @@ class VerticalLinearStepper extends React.Component {
               >
                 {map(steps, ({ name }, index) => {
                   return (
-                    <Step key={index} onClick={this.handleStep(index)}>
+                    <Step
+                      key={index}
+                      className={this.props.classes.step}
+                      onClick={this.handleStep(index)}
+                    >
                       <StepLabel className={this.props.classes.label}>
                         {name}
                       </StepLabel>

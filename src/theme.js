@@ -42,5 +42,15 @@ export default createMuiTheme({
         color: 'black !important',
       },
     },
+    MuiStepLabel: {
+      root: {
+        cursor: 'pointer !important',
+      },
+    },
+    MuiStepConnector: {
+      vertical: {
+        padding: 0,
+      },
+    },
   },
 })
