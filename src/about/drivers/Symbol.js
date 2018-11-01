@@ -33,9 +33,7 @@ export default class extends Component {
           <img src={this.props.imageUrl} onClick={this.handleClickOpen} />
         </Button>
 
-        <NameAndDescription>
-          {this.props}
-        </NameAndDescription>
+        <NameAndDescription>{this.props}</NameAndDescription>
 
         <Dialog
           open={this.state.open}
