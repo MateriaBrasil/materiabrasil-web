@@ -1,0 +1,268 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when dont match renders correctly 1`] = `
+Array [
+  <div
+    handleScroll={[Function]}
+>
+    <div>
+        Explore
+    </div>
+</div>,
+  <div
+    onEnter={[Function]}
+>
+    <div>
+        HowToUseIt
+    </div>
+</div>,
+  <div
+    onEnter={[Function]}
+>
+    <div>
+        Drivers
+    </div>
+</div>,
+  <div
+    onEnter={[Function]}
+>
+    <div>
+        CuratedBy
+    </div>
+</div>,
+]
+`;
+
+exports[`when matches renders correctly 1`] = `
+Array [
+  <div
+    className="MuiPaper-root-8 MuiPaper-elevation0-10 MuiStepper-root-4 MuiStepper-vertical-6 VerticalLinearStepper-root-1"
+>
+    <div
+        className="MuiStep-root-35 MuiStep-vertical-37 VerticalLinearStepper-step-2"
+        onClick={[Function]}
+    >
+        <span
+            className="MuiStepLabel-root-40 MuiStepLabel-vertical-42 VerticalLinearStepper-label-3"
+        >
+            <span
+                className="MuiStepLabel-iconContainer-48"
+            >
+                <svg
+                    aria-hidden="true"
+                    className="MuiSvgIcon-root-56 MuiStepIcon-root-51 MuiStepIcon-active-53"
+                    color={undefined}
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                >
+                    <circle
+                        cx="12"
+                        cy="12"
+                        r="12"
+                    />
+                    <text
+                        className="MuiStepIcon-text-52"
+                        textAnchor="middle"
+                        x="12"
+                        y="16"
+                    >
+                        1
+                    </text>
+                </svg>
+            </span>
+            <span
+                className="MuiStepLabel-labelContainer-50"
+            >
+                <span
+                    className="MuiTypography-root-65 MuiTypography-body1-74 MuiStepLabel-label-43 MuiStepLabel-active-44"
+                >
+                    Explore
+                </span>
+            </span>
+        </span>
+    </div>
+    <div
+        className="MuiStepConnector-root-100 MuiStepConnector-vertical-102 MuiStepConnector-disabled-106"
+    >
+        <span
+            className="MuiStepConnector-line-107 MuiStepConnector-lineVertical-109"
+        />
+    </div>
+    <div
+        className="MuiStep-root-35 MuiStep-vertical-37 VerticalLinearStepper-step-2"
+        onClick={[Function]}
+    >
+        <span
+            className="MuiStepLabel-root-40 MuiStepLabel-vertical-42 MuiStepLabel-disabled-47 VerticalLinearStepper-label-3"
+        >
+            <span
+                className="MuiStepLabel-iconContainer-48"
+            >
+                <svg
+                    aria-hidden="true"
+                    className="MuiSvgIcon-root-56 MuiStepIcon-root-51"
+                    color={undefined}
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                >
+                    <circle
+                        cx="12"
+                        cy="12"
+                        r="12"
+                    />
+                    <text
+                        className="MuiStepIcon-text-52"
+                        textAnchor="middle"
+                        x="12"
+                        y="16"
+                    >
+                        2
+                    </text>
+                </svg>
+            </span>
+            <span
+                className="MuiStepLabel-labelContainer-50"
+            >
+                <span
+                    className="MuiTypography-root-65 MuiTypography-body1-74 MuiStepLabel-label-43"
+                >
+                    How to use it
+                </span>
+            </span>
+        </span>
+    </div>
+    <div
+        className="MuiStepConnector-root-100 MuiStepConnector-vertical-102 MuiStepConnector-disabled-106"
+    >
+        <span
+            className="MuiStepConnector-line-107 MuiStepConnector-lineVertical-109"
+        />
+    </div>
+    <div
+        className="MuiStep-root-35 MuiStep-vertical-37 VerticalLinearStepper-step-2"
+        onClick={[Function]}
+    >
+        <span
+            className="MuiStepLabel-root-40 MuiStepLabel-vertical-42 MuiStepLabel-disabled-47 VerticalLinearStepper-label-3"
+        >
+            <span
+                className="MuiStepLabel-iconContainer-48"
+            >
+                <svg
+                    aria-hidden="true"
+                    className="MuiSvgIcon-root-56 MuiStepIcon-root-51"
+                    color={undefined}
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                >
+                    <circle
+                        cx="12"
+                        cy="12"
+                        r="12"
+                    />
+                    <text
+                        className="MuiStepIcon-text-52"
+                        textAnchor="middle"
+                        x="12"
+                        y="16"
+                    >
+                        3
+                    </text>
+                </svg>
+            </span>
+            <span
+                className="MuiStepLabel-labelContainer-50"
+            >
+                <span
+                    className="MuiTypography-root-65 MuiTypography-body1-74 MuiStepLabel-label-43"
+                >
+                    Drivers
+                </span>
+            </span>
+        </span>
+    </div>
+    <div
+        className="MuiStepConnector-root-100 MuiStepConnector-vertical-102 MuiStepConnector-disabled-106"
+    >
+        <span
+            className="MuiStepConnector-line-107 MuiStepConnector-lineVertical-109"
+        />
+    </div>
+    <div
+        className="MuiStep-root-35 MuiStep-vertical-37 VerticalLinearStepper-step-2"
+        onClick={[Function]}
+    >
+        <span
+            className="MuiStepLabel-root-40 MuiStepLabel-vertical-42 MuiStepLabel-disabled-47 VerticalLinearStepper-label-3"
+        >
+            <span
+                className="MuiStepLabel-iconContainer-48"
+            >
+                <svg
+                    aria-hidden="true"
+                    className="MuiSvgIcon-root-56 MuiStepIcon-root-51"
+                    color={undefined}
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                >
+                    <circle
+                        cx="12"
+                        cy="12"
+                        r="12"
+                    />
+                    <text
+                        className="MuiStepIcon-text-52"
+                        textAnchor="middle"
+                        x="12"
+                        y="16"
+                    >
+                        4
+                    </text>
+                </svg>
+            </span>
+            <span
+                className="MuiStepLabel-labelContainer-50"
+            >
+                <span
+                    className="MuiTypography-root-65 MuiTypography-body1-74 MuiStepLabel-label-43"
+                >
+                    Curated by
+                </span>
+            </span>
+        </span>
+    </div>
+</div>,
+  <div
+    handleScroll={[Function]}
+>
+    <div>
+        Explore
+    </div>
+</div>,
+  <div
+    onEnter={[Function]}
+>
+    <div>
+        HowToUseIt
+    </div>
+</div>,
+  <div
+    onEnter={[Function]}
+>
+    <div>
+        Drivers
+    </div>
+</div>,
+  <div
+    onEnter={[Function]}
+>
+    <div>
+        CuratedBy
+    </div>
+</div>,
+]
+`;

@@ -12,6 +12,8 @@ import HowToUseIt from './HowToUseIt'
 import Drivers from './Drivers'
 import CuratedBy from './CuratedBy'
 import Section from './Section'
+import steps from './steps'
+import handleStep from './handleStep'
 
 const styles = theme => ({
   root: {
@@ -30,26 +32,11 @@ const styles = theme => ({
   },
 })
 
-const steps = [
-  { id: 'explore', name: 'Explore' },
-  { id: 'how_to_use_it', name: 'How to use it' },
-  { id: 'drivers', name: 'Drivers' },
-  { id: 'curated_by', name: 'Curated by' },
-]
-
 class VerticalLinearStepper extends React.Component {
-  state = {
-    activeStep: 0,
-  }
-
-  handleStep = step => () => {
-    this.setState({
-      activeStep: step,
-    })
-
-    document.getElementById(steps[step].id).scrollIntoView({
-      behavior: 'smooth',
-    })
+  constructor(props) {
+    super(props)
+    this.state = { activeStep: 0 }
+    this.handleStep = handleStep.bind(this)
   }
 
   handleScroll = step => {
