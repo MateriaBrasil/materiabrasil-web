@@ -6,10 +6,7 @@ import Paragraph from './Paragraph'
 
 export default () => (
   <Session>
-    <Title>
-      <br />
-      Objetivo
-    </Title>
+    <Title>Objetivo</Title>
     <Paragraph>
       O objetivo da MateriaMundi oferecer acesso à informação de qualidade e
       parâmetros para que seus usuários possam escolher alternativas
