@@ -1,11 +1,5 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
-import NavBar from '../navBar/NavBar'
-import Stepper from './Stepper'
+import Home from './Home'
 
-export default props => () => (
-  <Fragment>
-    <NavBar />
-    <Stepper {...props} />
-  </Fragment>
-)
+export default props => routeProps => <Home />
