@@ -5,6 +5,7 @@ exports[`render correctly 1`] = `
   name="favorites"
   parentId={undefined}
   render={[Function]}
+  renderCreated={[Function]}
 >
   New - 
   <div
