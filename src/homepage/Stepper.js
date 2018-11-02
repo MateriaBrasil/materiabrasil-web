@@ -1,27 +1,41 @@
-import React, { Fragment } from 'react'
-import Media from 'react-media'
-import Sessions from './Sessions'
-import SessionsWithStepper from './SessionsWithStepper'
-import handleScroll from './handleScroll'
+import React from 'react'
+import map from 'lodash/map'
+import { withStyles } from '@material-ui/core/styles'
+import Stepper from '@material-ui/core/Stepper'
+import Step from '@material-ui/core/Step'
+import StepLabel from '@material-ui/core/StepLabel'
 
-export default class extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = { activeStep: 0 }
-    this.handleScroll = handleScroll.bind(this)
-  }
+import steps from './steps'
 
-  render() {
-    const { activeStep } = this.state
-    return (
-      <Fragment>
-        <Media query="(min-width: 960px)">
-          {matches =>
-            matches ? <SessionsWithStepper activeStep={activeStep} /> : null
-          }
-        </Media>
-        <Sessions handleScroll={this.handleScroll} />
-      </Fragment>
-    )
-  }
-}
+const style = theme => ({
+  root: {
+    width: '214px',
+    background: 'transparent',
+    position: 'fixed',
+    right: 0,
+    top: '40%',
+    boxShadow: 'none',
+  },
+  step: {
+    cursor: 'pointer',
+  },
+  label: {
+    color: '#fff',
+  },
+})
+
+export default withStyles(style)(props => (
+  <Stepper
+    activeStep={props.activeStep}
+    orientation="vertical"
+    className={props.classes.root}
+  >
+    {map(steps, ({ name }, index) => {
+      return (
+        <Step key={index} className={props.classes.step}>
+          <StepLabel className={props.classes.label}>{name}</StepLabel>
+        </Step>
+      )
+    })}
+  </Stepper>
+))

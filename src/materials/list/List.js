@@ -19,7 +19,7 @@ export default class extends Component {
   }
 
   render() {
-    const { list, currentUser } = this.props
+    const { list } = this.props
 
     if (isEmpty(list)) {
       return <Error color="default">Nenhum material encontrado.</Error>
@@ -34,7 +34,7 @@ export default class extends Component {
               <Card
                 key={id}
                 material={material}
-                renderIcons={renderIcons({ currentUser, id, material })}
+                renderIcons={renderIcons({ ...this.props, id, material })}
                 {...this.props}
               />
             )
