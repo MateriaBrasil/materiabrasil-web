@@ -14,9 +14,17 @@ it('renders correctly', () => {
     location: {},
     currentUser: { suppliers: [] },
     supplier: { id: 123 },
+    snackbar: {
+      actions: {
+        setMessage: jest.fn(),
+      },
+    },
   }
 
   const tree = renderer.create(<Created {...props} />).toJSON()
   expect(tree).toMatchSnapshot()
   expect(setCurrentUser).toHaveBeenCalledWith({ suppliers: [props.supplier] })
+  expect(props.snackbar.actions.setMessage).toHaveBeenCalledWith(
+    'Fornecedor cadastrado com sucesso',
+  )
 })

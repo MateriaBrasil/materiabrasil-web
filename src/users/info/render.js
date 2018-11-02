@@ -23,7 +23,12 @@ export default props => infoProps => {
   return (
     <Grid container spacing={32}>
       <Grid item xs={12} lg={4}>
-        <Avatar name={name} editPath={editPath} imageUrl={imageUrl} />
+        <Avatar
+          {...props}
+          name={name}
+          editPath={editPath}
+          imageUrl={imageUrl}
+        />
         <div style={{ marginTop: 30 }}>
           <Typography style={{ marginTop: 16, marginBottom: 16 }} variant="h4">
             {name}

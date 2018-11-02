@@ -34,7 +34,7 @@ export default props => {
       <Route
         exact
         path="/suppliers/:id/messages/success"
-        render={renderSuccessMessage({ ...props })}
+        render={renderSuccessMessage(props)}
       />
       <Route
         exact

@@ -5,7 +5,7 @@ import renderNewMessage from '../messages/renderNew'
 import renderSuccessMessage from '../messages/renderSuccess'
 import renderInfo from './renderInfo'
 import renderEdit from './renderEdit'
-import renderImageUpload from '../imageUpload/render'
+import renderAvatarUpload from './renderAvatarUpload'
 
 export default props => {
   const { currentUser } = props
@@ -29,7 +29,7 @@ export default props => {
       <Route
         exact
         path="/profile/avatar"
-        render={renderImageUpload({ ...idProps, redirectUrl: '/profile' })}
+        render={renderAvatarUpload({ ...idProps, redirectUrl: '/profile' })}
       />
       <Route path="/profile" render={renderInfo(idProps)} />
     </Fragment>

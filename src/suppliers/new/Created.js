@@ -4,14 +4,14 @@ import Redirect from 'react-router-dom/Redirect'
 export default class extends Component {
   constructor(props) {
     super(props)
+    const { currentUser, supplier, setCurrentUser, snackbar } = props
 
-    const { currentUser, supplier, setCurrentUser } = props
-    const newCurrentUser = {
+    setCurrentUser({
       ...currentUser,
       suppliers: [...currentUser.suppliers, supplier],
-    }
+    })
 
-    setCurrentUser(newCurrentUser)
+    snackbar.actions.setMessage('Fornecedor cadastrado com sucesso')
   }
 
   render() {
