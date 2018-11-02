@@ -16,6 +16,6 @@ export default () => (
       equipe de consultores especialistas em diversas áreas.
     </Paragraph>
     <Subtitle>Conheça o nosso time!</Subtitle>
-    <Members list={developersList} color={Colors.black}/>
+    <Members list={developersList} color={Colors.black} />
   </Session>
 )

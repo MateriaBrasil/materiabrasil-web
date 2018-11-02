@@ -5,9 +5,7 @@ import Title from './Title'
 import Paragraph from './Paragraph'
 
 export default () => (
-  <Session
-    id="goal"
-  >
+  <Session id="goal">
     <Title color>
       <br />
       Objetivo

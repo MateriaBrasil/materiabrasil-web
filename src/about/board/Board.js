@@ -20,6 +20,6 @@ export default () => (
         acontecer!
       </Paragraph>
     </Grid>
-    <Members list={membersList} color={Colors.black}/>
+    <Members list={membersList} color={Colors.black} />
   </Session>
 )

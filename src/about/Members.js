@@ -7,7 +7,9 @@ export default props => {
   return (
     <Fragment>
       {map(props.list, ({ id, name, image, job }) => {
-        return <Member key={id} image={image} name={name} job={job} {...props}/>
+        return (
+          <Member key={id} image={image} name={name} job={job} {...props} />
+        )
       })}
     </Fragment>
   )

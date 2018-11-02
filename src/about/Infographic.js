@@ -6,9 +6,7 @@ import Session from './Session'
 import gridStyle from './gridStyle'
 
 export default withStyles(gridStyle)(props => (
-  <Session
-    id="infographic"
-  >
+  <Session id="infographic">
     <Grid item xs={12} className={props.classes.grid}>
       <img
         src="https://images.template.net/wp-content/uploads/2016/03/17133511/Vector-Infographic-Report-Template-Premium-Download.jpg"
