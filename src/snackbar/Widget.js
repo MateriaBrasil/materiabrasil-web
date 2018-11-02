@@ -3,10 +3,16 @@ import Snackbar from '@material-ui/core/Snackbar'
 import IconButton from '@material-ui/core/IconButton'
 import CloseIcon from '@material-ui/icons/Close'
 import { withStyles } from '@material-ui/core/styles'
+import Typography from '@material-ui/core/Typography'
+
+import Colors from '../Colors'
 
 const styles = theme => ({
   close: {
     padding: theme.spacing.unit / 2,
+  },
+  message: {
+    color: Colors.white,
   },
 })
 
@@ -25,7 +31,11 @@ export default withStyles(styles)(props => {
       ContentProps={{
         'aria-describedby': 'message-id',
       }}
-      message={<span id="message-id">{message}</span>}
+      message={
+        <Typography id="message-id" className={classes.message}>
+          {message}
+        </Typography>
+      }
       action={[
         <IconButton
           key="close"

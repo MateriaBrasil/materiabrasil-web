@@ -16,7 +16,7 @@ export default props => routeProps => {
         ...routeProps,
         redirectUrl,
       })}
-      renderUpdated={renderUpdated(redirectUrl)}
+      renderUpdated={renderUpdated({ ...props, ...routeProps, redirectUrl })}
     />
   )
 }
