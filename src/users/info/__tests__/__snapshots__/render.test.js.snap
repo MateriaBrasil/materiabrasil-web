@@ -8,6 +8,11 @@ exports[`when user looks at another user profile renders correctly 1`] = `
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-4-75"
   >
     <div
+      currentUser={
+        Object {
+          "id": 1234,
+        }
+      }
       editPath={false}
       imageUrl={undefined}
       name="foo-name foo-last"
@@ -183,6 +188,11 @@ exports[`when user looks at her own profile renders correctly 1`] = `
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-4-75"
   >
     <div
+      currentUser={
+        Object {
+          "id": 1234,
+        }
+      }
       editPath="/profile/avatar"
       imageUrl={undefined}
       name="foo-name foo-last"

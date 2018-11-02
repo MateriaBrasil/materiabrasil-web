@@ -8,7 +8,11 @@ jest.mock('react-router-dom/Redirect', () => props => (
 ))
 
 it('renders correctly', () => {
-  const Component = renderCreated({ foo: 'bar' })
+  const snackbar = { actions: { setMessage: jest.fn() } }
+  const Component = renderCreated({ foo: 'bar', snackbar })
   const tree = renderer.create(<Component bar="foo" id={1234} />).toJSON()
   expect(tree).toMatchSnapshot()
+  expect(snackbar.actions.setMessage).toHaveBeenCalledWith(
+    'Material cadastrado com sucesso',
+  )
 })

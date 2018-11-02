@@ -23,21 +23,15 @@ exports[`renders correctly 1`] = `
   }
   renderUpdated={
     <div
-      0="/"
-      1="m"
-      10="/"
-      11="1"
-      12="2"
-      13="3"
-      14="4"
-      2="a"
-      3="t"
-      4="e"
-      5="r"
-      6="i"
-      7="a"
-      8="l"
-      9="s"
+      foo="bar"
+      match={
+        Object {
+          "params": Object {
+            "id": 1234,
+          },
+        }
+      }
+      redirectUrl="/materials/1234"
     >
       renderUpdated
     </div>
