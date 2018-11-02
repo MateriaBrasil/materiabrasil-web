@@ -4,7 +4,7 @@ import { MemoryRouter } from 'react-router-dom'
 
 import Router from '../Router'
 
-jest.mock('../../imageUpload/render', () => props => routeProps => (
+jest.mock('../../imageUpload/render', () => props => (
   <div>renderImageUpload</div>
 ))
 jest.mock('../renderInfo', () => props => routeProps => <div>renderInfo</div>)
