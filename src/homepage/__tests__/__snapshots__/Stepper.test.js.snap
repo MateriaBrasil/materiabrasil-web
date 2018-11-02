@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`when dont match renders correctly 1`] = `
+exports[`when it does not match renders correctly 1`] = `
 Array [
   <div
     handleScroll={[Function]}
@@ -26,7 +26,7 @@ Array [
 ]
 `;
 
-exports[`when matches renders correctly 1`] = `
+exports[`when it matches renders correctly 1`] = `
 Array [
   <div
     className="MuiPaper-root-8 MuiPaper-elevation0-10 MuiStepper-root-4 MuiStepper-vertical-6 Component-root-1"
