@@ -16,38 +16,30 @@ import renderError from './renderError'
 import Screen from './Screen'
 import theme from './theme'
 
+import Providers from './Providers'
+
 export default class extends Component {
   render() {
     return (
-      <Provider store={store}>
-        <CroodsProvider
-          baseUrl={process.env.REACT_APP_API_URL}
-          headers={headers}
-          afterSuccess={afterSuccess}
-          renderLoading={renderLoading}
-          renderError={renderError}
-        >
-          <MuiThemeProvider theme={theme}>
-            <Auth
-              render={authProps => (
-                <Comparison
-                  render={comparisonProps => (
-                    <Snackbar
-                      render={snackbarProps => (
-                        <Screen
-                          {...authProps}
-                          comparison={comparisonProps}
-                          snackbar={snackbarProps}
-                        />
-                      )}
+      <Providers>
+        <Auth
+          render={authProps => (
+            <Comparison
+              render={comparisonProps => (
+                <Snackbar
+                  render={snackbarProps => (
+                    <Screen
+                      {...authProps}
+                      comparison={comparisonProps}
+                      snackbar={snackbarProps}
                     />
                   )}
                 />
               )}
             />
-          </MuiThemeProvider>
-        </CroodsProvider>
-      </Provider>
+          )}
+        />
+      </Providers>
     )
   }
 }
