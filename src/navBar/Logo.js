@@ -22,7 +22,7 @@ export default withStyles(styles)(props => {
     <div className="logo" style={{ flex: 1 }}>
       <Link to="/" style={{ textDecoration: 'none', color: Colors.black }}>
         <img
-          className={props.classes.logo + " image"}
+          className={props.classes.logo + ' image'}
           src="/images/logo.png"
           alt="logo"
         />

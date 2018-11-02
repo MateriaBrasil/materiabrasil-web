@@ -14,7 +14,7 @@ const styles = theme => ({
 
 export default withStyles(styles)(props => {
   return (
-    <div className={(props.classes.navbarPadding + ' content')}>
+    <div className={props.classes.navbarPadding + ' content'}>
       {props.children}
     </div>
   )
