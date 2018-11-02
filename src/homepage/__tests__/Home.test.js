@@ -1,7 +1,17 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-import Stepper from '../Stepper'
+import Home from '../Home'
+
+jest.mock('react-router-dom/Link', () => props => (
+  <div {...props}>Link - {props.children}</div>
+))
+
+jest.mock('react-media', () => props => (
+  <div {...props}>Media - {props.children}</div>
+))
+
+jest.mock('../../navBar/NavBar', () => props => <div {...props}>NavBar</div>)
 
 const createMockMediaMatcher = matches => () => ({
   matches,
@@ -26,7 +36,7 @@ describe('when it matches', () => {
   it('renders correctly', () => {
     window.matchMedia = createMockMediaMatcher(true)
     const props = {}
-    const tree = renderer.create(<Stepper {...props} />).toJSON()
+    const tree = renderer.create(<Home {...props} />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 })
@@ -35,7 +45,7 @@ describe('when it does not match', () => {
   it('renders correctly', () => {
     window.matchMedia = createMockMediaMatcher(false)
     const props = {}
-    const tree = renderer.create(<Stepper {...props} />).toJSON()
+    const tree = renderer.create(<Home {...props} />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 })
