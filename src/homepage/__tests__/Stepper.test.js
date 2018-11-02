@@ -22,7 +22,7 @@ afterAll(() => {
   window.matchMedia = originalMatchMedia
 })
 
-describe('when matches', () => {
+describe('when it matches', () => {
   it('renders correctly', () => {
     window.matchMedia = createMockMediaMatcher(true)
     const props = {}
