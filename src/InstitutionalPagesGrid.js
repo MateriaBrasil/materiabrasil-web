@@ -21,6 +21,7 @@ const styles = theme => ({
 export default withStyles(styles)(props => {
   return (
     <Grid
+      id={props.id}
       container
       style={{
         backgroundImage: 'url("https://picsum.photos/g/1920/900/?random")',

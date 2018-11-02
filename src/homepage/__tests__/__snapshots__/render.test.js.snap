@@ -6,176 +6,190 @@ Array [
     NavBar
 </div>,
   <div
-    className="MuiGrid-container-2"
-    style={
-        Object {
-            "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
-            "backgroundPosition": "center",
-            "backgroundSize": "cover",
-          }
-    }
+    query="(min-width: 960px)"
 >
-    <div
-        className="MuiGrid-item-3 MuiGrid-grid-xs-12-42 MuiGrid-grid-sm-8-52 MuiGrid-grid-md-6-64 Component-grid-1"
-        style={
-            Object {
-                "position": "relative",
-              }
-        }
-    >
-        <h3
-            className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128 text"
-            style={
-                Object {
-                    "color": "white",
-                    "display": "inline-block",
-                    "fontWeight": 300,
-                    "padding": "0 20px",
-                    "verticalAlign": "middle",
-                  }
-            }
-        >
-            Na 
-            <span
-                style={
-                    Object {
-                        "fontWeight": 400,
-                      }
-                }
-            >
-                Materia
-            </span>
-            Mundi, nós ajudamos indústrias e consumidores a implementar ações para uma economia circular aplicada.
-        </h3>
-    </div>
+    Media - 
 </div>,
-  <div
-    className="MuiGrid-container-2"
-    style={
-        Object {
-            "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
-            "backgroundPosition": "center",
-            "backgroundSize": "cover",
-          }
-    }
->
+  <div>
     <div
-        className="MuiGrid-item-3 MuiGrid-grid-xs-12-42 MuiGrid-grid-sm-8-52 MuiGrid-grid-md-6-64 Component-grid-1"
+        className="MuiGrid-container-2"
+        id="introduction"
         style={
             Object {
-                "paddingTop": "35%",
-                "position": "relative",
-              }
-        }
-    >
-        <iframe
-            allowFullScreen="true"
-            frameBorder="0"
-            height="100%"
-            mozallowfullscreen="true"
-            src="https://player.vimeo.com/video/140946149"
-            style={
-                Object {
-                    "border": 0,
-                    "height": "100%",
-                    "left": 0,
-                    "maxHeight": "540",
-                    "maxWidth": "960",
-                    "position": "absolute",
-                    "top": 0,
-                    "width": "100%",
-                  }
-            }
-            title="Vídeo de introdução ao Materia Brasil"
-            webkitallowfullscreen="true"
-            width="100%"
-        />
-    </div>
-</div>,
-  <div
-    className="MuiGrid-container-2"
-    style={
-        Object {
-            "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
-            "backgroundPosition": "center",
-            "backgroundSize": "cover",
-          }
-    }
->
-    <div
-        className="MuiGrid-item-3 MuiGrid-grid-xs-12-42 MuiGrid-grid-sm-8-52 MuiGrid-grid-md-6-64 Component-grid-1"
-        style={
-            Object {
-                "position": "relative",
+                "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
+                "backgroundPosition": "center",
+                "backgroundSize": "cover",
               }
         }
     >
         <div
+            className="MuiGrid-item-3 MuiGrid-grid-xs-12-42 MuiGrid-grid-sm-8-52 MuiGrid-grid-md-6-64 Component-grid-1"
             style={
                 Object {
-                    "textDecoration": "none",
+                    "position": "relative",
                   }
             }
-            to="/materials"
         >
-            Link - 
-            <button
-                className="MuiButtonBase-root-160 MuiButton-root-134 MuiButton-contained-145 MuiButton-raised-148 MuiButton-sizeLarge-158"
-                disabled={false}
-                onBlur={[Function]}
-                onFocus={[Function]}
-                onKeyDown={[Function]}
-                onKeyUp={[Function]}
-                onMouseDown={[Function]}
-                onMouseLeave={[Function]}
-                onMouseUp={[Function]}
-                onTouchEnd={[Function]}
-                onTouchMove={[Function]}
-                onTouchStart={[Function]}
+            <h3
+                className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128 text"
                 style={
                     Object {
-                        "background": "#fff",
-                        "borderRadius": 7,
-                        "fontSize": 40,
-                        "fontWeight": 100,
-                        "marginBottom": 50,
-                        "padding": "15px 50px",
-                        "textTransform": "lowercase",
+                        "color": "white",
+                        "display": "inline-block",
+                        "fontWeight": 300,
+                        "padding": "0 20px",
+                        "verticalAlign": "middle",
                       }
                 }
-                tabIndex="0"
-                type="button"
             >
+                Na 
                 <span
-                    className="MuiButton-label-135"
+                    style={
+                        Object {
+                            "fontWeight": 400,
+                          }
+                    }
                 >
-                    Explore
+                    Materia
                 </span>
-                <span
-                    className="MuiTouchRipple-root-163"
-                />
-            </button>
+                Mundi, nós ajudamos indústrias e consumidores a implementar ações para uma economia circular aplicada.
+            </h3>
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+    </div>
+</div>,
+  <div>
+    <div
+        className="MuiGrid-container-2"
+        id="how_to_use_it"
+        style={
+            Object {
+                "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
+                "backgroundPosition": "center",
+                "backgroundSize": "cover",
+              }
+        }
+    >
+        <div
+            className="MuiGrid-item-3 MuiGrid-grid-xs-12-42 MuiGrid-grid-sm-8-52 MuiGrid-grid-md-6-64 Component-grid-1"
             style={
                 Object {
-                    "bottom": 20,
-                    "color": "white",
-                    "fontFamily": "roboto",
-                    "padding": "0 20px",
-                    "position": "absolute",
-                    "textAlign": "center",
-                    "width": "100%",
+                    "paddingTop": "35%",
+                    "position": "relative",
                   }
             }
         >
-            Apoio: Instituto C&A; 
-            <br />
-            Parceiros: Good Tech Lab, Fab City Global, Materiom;
-            <br />
-            Membro: Sistema B Brasil e CE100 Global Ellen MacArthur Foundation.
-        </p>
+            <iframe
+                allowFullScreen="true"
+                frameBorder="0"
+                height="100%"
+                mozallowfullscreen="true"
+                src="https://player.vimeo.com/video/140946149"
+                style={
+                    Object {
+                        "border": 0,
+                        "height": "100%",
+                        "left": 0,
+                        "maxHeight": "540",
+                        "maxWidth": "960",
+                        "position": "absolute",
+                        "top": 0,
+                        "width": "100%",
+                      }
+                }
+                title="Vídeo de introdução ao Materia Brasil"
+                webkitallowfullscreen="true"
+                width="100%"
+            />
+        </div>
+    </div>
+</div>,
+  <div>
+    <div
+        className="MuiGrid-container-2"
+        id="explore"
+        style={
+            Object {
+                "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
+                "backgroundPosition": "center",
+                "backgroundSize": "cover",
+              }
+        }
+    >
+        <div
+            className="MuiGrid-item-3 MuiGrid-grid-xs-12-42 MuiGrid-grid-sm-8-52 MuiGrid-grid-md-6-64 Component-grid-1"
+            style={
+                Object {
+                    "position": "relative",
+                  }
+            }
+        >
+            <div
+                style={
+                    Object {
+                        "textDecoration": "none",
+                      }
+                }
+                to="/materials"
+            >
+                Link - 
+                <button
+                    className="MuiButtonBase-root-160 MuiButton-root-134 MuiButton-contained-145 MuiButton-raised-148 MuiButton-sizeLarge-158"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                        Object {
+                            "background": "#fff",
+                            "borderRadius": 7,
+                            "fontSize": 40,
+                            "fontWeight": 100,
+                            "marginBottom": 50,
+                            "padding": "15px 50px",
+                            "textTransform": "lowercase",
+                          }
+                    }
+                    tabIndex="0"
+                    type="button"
+                >
+                    <span
+                        className="MuiButton-label-135"
+                    >
+                        Explore
+                    </span>
+                    <span
+                        className="MuiTouchRipple-root-163"
+                    />
+                </button>
+            </div>
+            <p
+                className="MuiTypography-root-99 MuiTypography-body1-108"
+                style={
+                    Object {
+                        "bottom": 20,
+                        "color": "white",
+                        "fontFamily": "roboto",
+                        "padding": "0 20px",
+                        "position": "absolute",
+                        "textAlign": "center",
+                        "width": "100%",
+                      }
+                }
+            >
+                Apoio: Instituto C&A; 
+                <br />
+                Parceiros: Good Tech Lab, Fab City Global, Materiom;
+                <br />
+                Membro: Sistema B Brasil e CE100 Global Ellen MacArthur Foundation.
+            </p>
+        </div>
     </div>
 </div>,
 ]

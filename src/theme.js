@@ -34,5 +34,18 @@ export default createMuiTheme({
         paddingTop: 12,
       },
     },
+    MuiStepIcon: {
+      completed: {
+        color: 'black !important',
+      },
+      active: {
+        color: 'black !important',
+      },
+    },
+    MuiStepConnector: {
+      vertical: {
+        padding: 0,
+      },
+    },
   },
 })
