@@ -36,7 +36,6 @@ export default () => (
         bottom: 20,
         width: '100%',
         textAlign: 'center',
-        fontFamily: 'roboto',
         padding: '0 20px',
       }}
     >
