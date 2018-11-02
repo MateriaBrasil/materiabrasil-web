@@ -26,16 +26,8 @@ exports[`with current user renders correctly 1`] = `
       >
         <img
           alt="logo"
-          className="image"
+          className="Component-logo-41 image"
           src="/images/logo.png"
-          style={
-            Object {
-              "display": "inline-block",
-              "marginRight": 10,
-              "verticalAlign": "middle",
-              "width": "280px",
-            }
-          }
         />
       </div>
     </div>
@@ -44,7 +36,7 @@ exports[`with current user renders correctly 1`] = `
     >
       Media - 
       <button
-        className="MuiButtonBase-root-47 MuiIconButton-root-41"
+        className="MuiButtonBase-root-48 MuiIconButton-root-42"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -61,11 +53,11 @@ exports[`with current user renders correctly 1`] = `
         type="button"
       >
         <span
-          className="MuiIconButton-label-46"
+          className="MuiIconButton-label-47"
         >
           <svg
             aria-hidden="true"
-            className="MuiSvgIcon-root-50"
+            className="MuiSvgIcon-root-51"
             color={undefined}
             focusable="false"
             role="presentation"
@@ -86,7 +78,7 @@ exports[`with current user renders correctly 1`] = `
           </svg>
         </span>
         <span
-          className="MuiTouchRipple-root-63"
+          className="MuiTouchRipple-root-64"
         />
       </button>
     </div>
@@ -120,16 +112,8 @@ exports[`without current user renders correctly 1`] = `
       >
         <img
           alt="logo"
-          className="image"
+          className="Component-logo-41 image"
           src="/images/logo.png"
-          style={
-            Object {
-              "display": "inline-block",
-              "marginRight": 10,
-              "verticalAlign": "middle",
-              "width": "280px",
-            }
-          }
         />
       </div>
     </div>
@@ -138,7 +122,7 @@ exports[`without current user renders correctly 1`] = `
     >
       Media - 
       <button
-        className="MuiButtonBase-root-47 MuiIconButton-root-41"
+        className="MuiButtonBase-root-48 MuiIconButton-root-42"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -155,11 +139,11 @@ exports[`without current user renders correctly 1`] = `
         type="button"
       >
         <span
-          className="MuiIconButton-label-46"
+          className="MuiIconButton-label-47"
         >
           <svg
             aria-hidden="true"
-            className="MuiSvgIcon-root-50"
+            className="MuiSvgIcon-root-51"
             color={undefined}
             focusable="false"
             role="presentation"
@@ -180,7 +164,7 @@ exports[`without current user renders correctly 1`] = `
           </svg>
         </span>
         <span
-          className="MuiTouchRipple-root-63"
+          className="MuiTouchRipple-root-64"
         />
       </button>
     </div>

@@ -13,37 +13,28 @@ export default props => {
   return (
     <div className="navbar-links">
       <Link to="/about" text="Sobre" {...props} />
+      <Link
+        to={'http://materiabrasil.com.br/'}
+        text="Escritórios"
+        targetBlank="true"
+      />
       <Link to="/materials" text="Explore" {...props} />
-
-      {props.isInstitutionalPage && (
+      <Link to="/forum" text="Fórum" {...props} />
+      {currentUser ? (
+        <Fragment>
+          <SupplierLink suppliers={suppliers} {...props} />
+          <Link to="/profile" text={name} {...props} />
+        </Fragment>
+      ) : (
         <Link
-          to={'http://materiabrasil.com.br/'}
-          text="Escritórios"
-          targetBlank="true"
+          to={{
+            pathname: '/auth/sign-up',
+            state: { referrer: '/suppliers/new' },
+          }}
+          text="Cadastrar fornecedor"
           {...props}
         />
       )}
-
-      <Link to="/forum" text="Fórum" {...props} />
-
-      {currentUser
-        ? !props.isInstitutionalPage && (
-            <Fragment>
-              <SupplierLink suppliers={suppliers} {...props} />
-              <Link to="/profile" text={name} {...props} />
-            </Fragment>
-          )
-        : !props.isInstitutionalPage && (
-            <Link
-              to={{
-                pathname: '/auth/sign-up',
-                state: { referrer: '/suppliers/new' },
-              }}
-              text="Cadastrar fornecedor"
-              {...props}
-            />
-          )}
-
       {currentUser ? <SignOut {...props} /> : <SignIn {...props} />}
     </div>
   )

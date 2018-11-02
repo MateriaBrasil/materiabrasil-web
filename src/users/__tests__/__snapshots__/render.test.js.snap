@@ -8,7 +8,7 @@ Array [
     NavBar
 </div>,
   <div
-    className="content"
+    className="Component-navbarPadding-1 content"
 >
     <div
         bar="foo"
