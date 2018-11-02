@@ -34,7 +34,12 @@ export default class extends Component {
               <Card
                 key={id}
                 material={material}
-                renderIcons={renderIcons({ currentUser, id, material })}
+                renderIcons={renderIcons({
+                  ...this.props,
+                  currentUser,
+                  id,
+                  material,
+                })}
                 {...this.props}
               />
             )
