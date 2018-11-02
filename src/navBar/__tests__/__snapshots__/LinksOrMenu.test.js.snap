@@ -36,6 +36,30 @@ exports[`when dont match renders correctly 1`] = `
         "textDecoration": "none",
       }
     }
+    target="_blank"
+    to="http://materiabrasil.com.br/"
+  >
+    Link - 
+    <h6
+      className="MuiTypography-root-32 MuiTypography-subtitle1-50 MuiTypography-colorInherit-61"
+      style={
+        Object {
+          "alignSelf": "center",
+          "display": "inline-block",
+        }
+      }
+    >
+      Escritórios
+    </h6>
+  </div>
+  <div
+    className="navbar-link"
+    style={
+      Object {
+        "color": "black",
+        "textDecoration": "none",
+      }
+    }
     target={undefined}
     to="/materials"
   >
@@ -262,8 +286,8 @@ Array [
                     "textDecoration": "none",
                   }
             }
-            target={undefined}
-            to="/materials"
+            target="_blank"
+            to="http://materiabrasil.com.br/"
         >
             Link - 
             <h6
@@ -275,7 +299,7 @@ Array [
                       }
                 }
             >
-                Explore
+                Escritórios
             </h6>
         </div>
         <span
@@ -305,8 +329,8 @@ Array [
                     "textDecoration": "none",
                   }
             }
-            target="_blank"
-            to="http://materiabrasil.com.br/"
+            target={undefined}
+            to="/materials"
         >
             Link - 
             <h6
@@ -318,7 +342,7 @@ Array [
                       }
                 }
             >
-                Escritórios
+                Explore
             </h6>
         </div>
         <span

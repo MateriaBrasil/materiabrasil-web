@@ -6,12 +6,7 @@ Array [
     NavBar
 </div>,
   <div
-    className="content"
-    style={
-        Object {
-            "paddingTop": "140px",
-          }
-    }
+    className="Component-navbarPadding-1 content"
 >
     <div>
         <div>
@@ -28,12 +23,7 @@ Array [
     NavBar
 </div>,
   <div
-    className="content"
-    style={
-        Object {
-            "paddingTop": "140px",
-          }
-    }
+    className="Component-navbarPadding-1 content"
 >
     <div>
         <div>

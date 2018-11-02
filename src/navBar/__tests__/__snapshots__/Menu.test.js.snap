@@ -46,33 +46,6 @@ exports[`renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
-      target={undefined}
-      to="/materials"
-    >
-      Link - 
-      <h6
-        className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
-        style={
-          Object {
-            "alignSelf": "center",
-            "display": "inline-block",
-          }
-        }
-      >
-        Explore
-      </h6>
-    </div>
-  </div>
-  <div>
-    MenuItem - 
-    <div
-      className="navbar-link"
-      style={
-        Object {
-          "color": "black",
-          "textDecoration": "none",
-        }
-      }
       target="_blank"
       to="http://materiabrasil.com.br/"
     >
@@ -87,6 +60,33 @@ exports[`renders correctly 1`] = `
         }
       >
         Escritórios
+      </h6>
+    </div>
+  </div>
+  <div>
+    MenuItem - 
+    <div
+      className="navbar-link"
+      style={
+        Object {
+          "color": "black",
+          "textDecoration": "none",
+        }
+      }
+      target={undefined}
+      to="/materials"
+    >
+      Link - 
+      <h6
+        className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
+        style={
+          Object {
+            "alignSelf": "center",
+            "display": "inline-block",
+          }
+        }
+      >
+        Explore
       </h6>
     </div>
   </div>
@@ -210,33 +210,6 @@ exports[`with current user renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
-      target={undefined}
-      to="/materials"
-    >
-      Link - 
-      <h6
-        className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
-        style={
-          Object {
-            "alignSelf": "center",
-            "display": "inline-block",
-          }
-        }
-      >
-        Explore
-      </h6>
-    </div>
-  </div>
-  <div>
-    MenuItem - 
-    <div
-      className="navbar-link"
-      style={
-        Object {
-          "color": "black",
-          "textDecoration": "none",
-        }
-      }
       target="_blank"
       to="http://materiabrasil.com.br/"
     >
@@ -251,6 +224,33 @@ exports[`with current user renders correctly 1`] = `
         }
       >
         Escritórios
+      </h6>
+    </div>
+  </div>
+  <div>
+    MenuItem - 
+    <div
+      className="navbar-link"
+      style={
+        Object {
+          "color": "black",
+          "textDecoration": "none",
+        }
+      }
+      target={undefined}
+      to="/materials"
+    >
+      Link - 
+      <h6
+        className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
+        style={
+          Object {
+            "alignSelf": "center",
+            "display": "inline-block",
+          }
+        }
+      >
+        Explore
       </h6>
     </div>
   </div>
@@ -392,33 +392,6 @@ exports[`with current user with suppliers renders correctly 1`] = `
           "textDecoration": "none",
         }
       }
-      target={undefined}
-      to="/materials"
-    >
-      Link - 
-      <h6
-        className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
-        style={
-          Object {
-            "alignSelf": "center",
-            "display": "inline-block",
-          }
-        }
-      >
-        Explore
-      </h6>
-    </div>
-  </div>
-  <div>
-    MenuItem - 
-    <div
-      className="navbar-link"
-      style={
-        Object {
-          "color": "black",
-          "textDecoration": "none",
-        }
-      }
       target="_blank"
       to="http://materiabrasil.com.br/"
     >
@@ -433,6 +406,33 @@ exports[`with current user with suppliers renders correctly 1`] = `
         }
       >
         Escritórios
+      </h6>
+    </div>
+  </div>
+  <div>
+    MenuItem - 
+    <div
+      className="navbar-link"
+      style={
+        Object {
+          "color": "black",
+          "textDecoration": "none",
+        }
+      }
+      target={undefined}
+      to="/materials"
+    >
+      Link - 
+      <h6
+        className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
+        style={
+          Object {
+            "alignSelf": "center",
+            "display": "inline-block",
+          }
+        }
+      >
+        Explore
       </h6>
     </div>
   </div>
