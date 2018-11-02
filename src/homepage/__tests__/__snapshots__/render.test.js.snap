@@ -12,8 +12,8 @@ Array [
 </div>,
   <div>
     <div
-        className="MuiGrid-container-5"
-        id="explore"
+        className="MuiGrid-container-2"
+        id="introduction"
         style={
             Object {
                 "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
@@ -23,7 +23,7 @@ Array [
         }
     >
         <div
-            className="MuiGrid-item-6 MuiGrid-grid-xs-12-45 MuiGrid-grid-sm-8-55 MuiGrid-grid-md-6-67 Component-grid-4"
+            className="MuiGrid-item-3 MuiGrid-grid-xs-12-42 MuiGrid-grid-sm-8-52 MuiGrid-grid-md-6-64 Component-grid-1"
             style={
                 Object {
                     "position": "relative",
@@ -31,7 +31,7 @@ Array [
             }
         >
             <h3
-                className="MuiTypography-root-102 MuiTypography-h3-116 MuiTypography-colorInherit-131 text"
+                className="MuiTypography-root-99 MuiTypography-h3-113 MuiTypography-colorInherit-128 text"
                 style={
                     Object {
                         "color": "white",
@@ -59,7 +59,7 @@ Array [
 </div>,
   <div>
     <div
-        className="MuiGrid-container-5"
+        className="MuiGrid-container-2"
         id="how_to_use_it"
         style={
             Object {
@@ -70,7 +70,7 @@ Array [
         }
     >
         <div
-            className="MuiGrid-item-6 MuiGrid-grid-xs-12-45 MuiGrid-grid-sm-8-55 MuiGrid-grid-md-6-67 Component-grid-4"
+            className="MuiGrid-item-3 MuiGrid-grid-xs-12-42 MuiGrid-grid-sm-8-52 MuiGrid-grid-md-6-64 Component-grid-1"
             style={
                 Object {
                     "paddingTop": "35%",
@@ -105,8 +105,8 @@ Array [
 </div>,
   <div>
     <div
-        className="MuiGrid-container-5"
-        id="introduction"
+        className="MuiGrid-container-2"
+        id="explore"
         style={
             Object {
                 "backgroundImage": "url(\\"https://picsum.photos/g/1920/900/?random\\")",
@@ -116,7 +116,7 @@ Array [
         }
     >
         <div
-            className="MuiGrid-item-6 MuiGrid-grid-xs-12-45 MuiGrid-grid-sm-8-55 MuiGrid-grid-md-6-67 Component-grid-4"
+            className="MuiGrid-item-3 MuiGrid-grid-xs-12-42 MuiGrid-grid-sm-8-52 MuiGrid-grid-md-6-64 Component-grid-1"
             style={
                 Object {
                     "position": "relative",
@@ -133,7 +133,7 @@ Array [
             >
                 Link - 
                 <button
-                    className="MuiButtonBase-root-163 MuiButton-root-137 MuiButton-contained-148 MuiButton-raised-151 MuiButton-sizeLarge-161"
+                    className="MuiButtonBase-root-160 MuiButton-root-134 MuiButton-contained-145 MuiButton-raised-148 MuiButton-sizeLarge-158"
                     disabled={false}
                     onBlur={[Function]}
                     onFocus={[Function]}
@@ -160,17 +160,17 @@ Array [
                     type="button"
                 >
                     <span
-                        className="MuiButton-label-138"
+                        className="MuiButton-label-135"
                     >
                         Explore
                     </span>
                     <span
-                        className="MuiTouchRipple-root-166"
+                        className="MuiTouchRipple-root-163"
                     />
                 </button>
             </div>
             <p
-                className="MuiTypography-root-102 MuiTypography-body1-111"
+                className="MuiTypography-root-99 MuiTypography-body1-108"
                 style={
                     Object {
                         "bottom": 20,

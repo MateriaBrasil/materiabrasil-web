@@ -6,7 +6,7 @@ Array [
     handleScroll={[Function]}
 >
     <div>
-        Explore
+        Introduction
     </div>
 </div>,
   <div
@@ -20,7 +20,7 @@ Array [
     handleScroll={[Function]}
 >
     <div>
-        Introduction
+        Explore
     </div>
 </div>,
 ]
@@ -29,13 +29,13 @@ Array [
 exports[`when matches renders correctly 1`] = `
 Array [
   <div
-    className="MuiPaper-root-8 MuiPaper-elevation0-10 MuiStepper-root-4 MuiStepper-vertical-6 VerticalLinearStepper-root-1"
+    className="MuiPaper-root-8 MuiPaper-elevation0-10 MuiStepper-root-4 MuiStepper-vertical-6 Component-root-1"
 >
     <div
-        className="MuiStep-root-35 MuiStep-vertical-37 VerticalLinearStepper-step-2"
+        className="MuiStep-root-35 MuiStep-vertical-37 Component-step-2"
     >
         <span
-            className="MuiStepLabel-root-40 MuiStepLabel-vertical-42 VerticalLinearStepper-label-3"
+            className="MuiStepLabel-root-40 MuiStepLabel-vertical-42 Component-label-3"
         >
             <span
                 className="MuiStepLabel-iconContainer-48"
@@ -82,10 +82,10 @@ Array [
         />
     </div>
     <div
-        className="MuiStep-root-35 MuiStep-vertical-37 VerticalLinearStepper-step-2"
+        className="MuiStep-root-35 MuiStep-vertical-37 Component-step-2"
     >
         <span
-            className="MuiStepLabel-root-40 MuiStepLabel-vertical-42 MuiStepLabel-disabled-47 VerticalLinearStepper-label-3"
+            className="MuiStepLabel-root-40 MuiStepLabel-vertical-42 MuiStepLabel-disabled-47 Component-label-3"
         >
             <span
                 className="MuiStepLabel-iconContainer-48"
@@ -132,10 +132,10 @@ Array [
         />
     </div>
     <div
-        className="MuiStep-root-35 MuiStep-vertical-37 VerticalLinearStepper-step-2"
+        className="MuiStep-root-35 MuiStep-vertical-37 Component-step-2"
     >
         <span
-            className="MuiStepLabel-root-40 MuiStepLabel-vertical-42 MuiStepLabel-disabled-47 VerticalLinearStepper-label-3"
+            className="MuiStepLabel-root-40 MuiStepLabel-vertical-42 MuiStepLabel-disabled-47 Component-label-3"
         >
             <span
                 className="MuiStepLabel-iconContainer-48"
@@ -179,7 +179,7 @@ Array [
     handleScroll={[Function]}
 >
     <div>
-        Explore
+        Introduction
     </div>
 </div>,
   <div
@@ -193,7 +193,7 @@ Array [
     handleScroll={[Function]}
 >
     <div>
-        Introduction
+        Explore
     </div>
 </div>,
 ]
