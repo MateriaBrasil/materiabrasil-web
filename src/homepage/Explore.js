@@ -7,7 +7,10 @@ import HomepageGrid from './HomepageGrid'
 import Colors from '../Colors'
 
 export default () => (
-  <HomepageGrid id="explore">
+  <HomepageGrid
+    id="explore"
+    backgroundImage="url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-2.jpg')"
+  >
     <Link to={`/materials`} style={{ textDecoration: 'none' }}>
       <Button
         variant="contained"

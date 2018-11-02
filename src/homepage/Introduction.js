@@ -5,7 +5,10 @@ import HomepageGrid from './HomepageGrid'
 import Colors from '../Colors'
 
 export default () => (
-  <HomepageGrid id="introduction">
+  <HomepageGrid
+    id="introduction"
+    backgroundImage="url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-1.jpg')"
+  >
     <Typography
       variant="h3"
       color="inherit"

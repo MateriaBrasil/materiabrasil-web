@@ -2,6 +2,8 @@ import React from 'react'
 import Grid from '@material-ui/core/Grid'
 import { withStyles } from '@material-ui/core/styles'
 
+import Colors from '../Colors'
+
 const styles = theme => ({
   grid: {
     textAlign: 'center',
@@ -24,7 +26,7 @@ export default withStyles(styles)(props => {
       id={props.id}
       container
       style={{
-        backgroundImage: 'url("https://picsum.photos/g/1920/900/?random")',
+        background: props.backgroundImage || Colors.grayNurse,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
