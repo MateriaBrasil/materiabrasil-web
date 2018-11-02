@@ -4,19 +4,15 @@ import { Edit } from 'croods'
 import renderImageUpload from './renderImageUpload'
 import renderUpdated from './renderUpdated'
 
-export default props => routeProps => {
+export default props => {
   const { id, name, redirectUrl = '/' } = props
 
   return (
     <Edit
       id={id}
       name={name}
-      render={renderImageUpload({
-        ...props,
-        ...routeProps,
-        redirectUrl,
-      })}
-      renderUpdated={renderUpdated(redirectUrl)}
+      render={renderImageUpload({ ...props, redirectUrl })}
+      renderUpdated={renderUpdated({ ...props, redirectUrl })}
     />
   )
 }

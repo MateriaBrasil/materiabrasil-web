@@ -1,4 +1,5 @@
 import React from 'react'
-import Redirect from 'react-router-dom/Redirect'
 
-export default redirectUrl => () => <Redirect to={redirectUrl} />
+import Updated from './Updated'
+
+export default props => updated => <Updated {...props} updated={updated} />
