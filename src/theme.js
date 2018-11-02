@@ -2,11 +2,20 @@ import { createMuiTheme } from '@material-ui/core/styles'
 import fill from 'lodash/fill'
 
 import Colors from './Colors'
+import './fonts.css'
+
+const titleStyle = {
+  fontFamily: 'Gotham Rounded',
+}
 
 export default createMuiTheme({
   typography: {
     useNextVariants: true,
     fontFamily: 'Open Sans',
+    h1: titleStyle,
+    h2: titleStyle,
+    h3: titleStyle,
+    h4: titleStyle,
   },
   palette: {
     background: {
