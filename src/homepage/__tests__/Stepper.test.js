@@ -31,7 +31,7 @@ describe('when it matches', () => {
   })
 })
 
-describe('when dont match', () => {
+describe('when it does not match', () => {
   it('renders correctly', () => {
     window.matchMedia = createMockMediaMatcher(false)
     const props = {}
