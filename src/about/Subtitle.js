@@ -22,8 +22,9 @@ export default props => (
         color: Colors.white,
         display: 'inline-block',
         verticalAlign: 'middle',
-        marginTop: '5%',
-        fontWeight: 500,
+        marginTop: '2%',
+        marginBottom: '2%',
+        fontWeight: 600,
       }}
     >
       {props.children}

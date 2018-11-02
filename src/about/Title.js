@@ -22,7 +22,7 @@ export default withStyles(gridStyle)(({ color = Colors.white, ...props }) => (
         color: props.color ? Colors.black : color,
         display: 'inline-block',
         verticalAlign: 'middle',
-        fontWeight: 500,
+        fontWeight: 600,
       }}
     >
       {props.children}
