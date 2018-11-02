@@ -5,10 +5,12 @@ import Title from '../Title'
 import Paragraph from '../Paragraph'
 import SymbolsList from './SymbolsList'
 import Subtitle from '../Subtitle'
-import Developers from './developers/render'
 
 export default () => (
-  <Session>
+  <Session
+    id="drivers"
+    backgroundImage="url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-5.jpg')"
+  >
     <Title>Direcionadores</Title>
     <Subtitle>
       Para que servem os direcionadores de responsabilidade socioambiental da
@@ -58,7 +60,5 @@ export default () => (
     </Paragraph>
     <br />
     <SymbolsList />
-    <br />
-    <Developers />
   </Session>
 )

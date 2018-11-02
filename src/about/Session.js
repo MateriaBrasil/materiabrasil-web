@@ -1,13 +1,14 @@
 import React from 'react'
 import Grid from '@material-ui/core/Grid'
 
+import Colors from '../Colors'
+
 export default props => {
   return (
     <Grid
       container
       style={{
-        backgroundImage:
-          'url("https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")',
+        background: props.backgroundImage || Colors.grayNurse,
         backgroundPosition: 'center',
         paddingTop: '10%',
         paddingBottom: '10%',

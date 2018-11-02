@@ -18,12 +18,20 @@ export default props => (
       }}
     />
     <Typography
-      style={{ textAlign: 'center', color: Colors.white, fontWeight: 500 }}
+      style={{
+        textAlign: 'center',
+        color: props.color ? props.color : Colors.white,
+        fontWeight: 500,
+      }}
     >
       {props.name}
     </Typography>
     <Typography
-      style={{ textAlign: 'center', color: Colors.white, fontWeight: 500 }}
+      style={{
+        textAlign: 'center',
+        color: props.color ? props.color : Colors.white,
+        fontWeight: 500,
+      }}
     >
       {props.job}
     </Typography>
