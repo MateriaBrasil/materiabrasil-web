@@ -204,7 +204,7 @@ Array [
                             dy="0em"
                             x={160}
                         >
-                            Driver #1
+                            Materialidade
                         </tspan>
                     </text>
                 </g>
@@ -233,7 +233,7 @@ Array [
                             dy="0em"
                             x={245.5}
                         >
-                            Driver #2
+                            Manufatura
                         </tspan>
                     </text>
                 </g>
@@ -262,7 +262,7 @@ Array [
                             dy="0em"
                             x={160}
                         >
-                            Driver #3
+                            Gestão e governança
                         </tspan>
                     </text>
                 </g>
@@ -291,7 +291,7 @@ Array [
                             dy="0em"
                             x={74.5}
                         >
-                            Driver #4
+                            Humano social
                         </tspan>
                     </text>
                 </g>

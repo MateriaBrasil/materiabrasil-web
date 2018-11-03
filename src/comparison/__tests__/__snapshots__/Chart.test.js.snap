@@ -206,7 +206,7 @@ exports[`renders correctly 1`] = `
                       dy="0em"
                       x={160}
                     >
-                      Driver #0
+                      Materialidade
                     </tspan>
                   </text>
                 </g>
@@ -235,7 +235,7 @@ exports[`renders correctly 1`] = `
                       dy="0em"
                       x={245.5}
                     >
-                      Driver #1
+                      Manufatura
                     </tspan>
                   </text>
                 </g>
@@ -264,7 +264,7 @@ exports[`renders correctly 1`] = `
                       dy="0em"
                       x={160}
                     >
-                      Driver #2
+                      Gestão e governança
                     </tspan>
                   </text>
                 </g>
@@ -293,7 +293,7 @@ exports[`renders correctly 1`] = `
                       dy="0em"
                       x={74.5}
                     >
-                      Driver #3
+                      Humano social
                     </tspan>
                   </text>
                 </g>
