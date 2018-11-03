@@ -24,7 +24,7 @@ export default class extends Component {
     const { anchorEl } = this.state
     const open = Boolean(anchorEl)
     return (
-      <Media query="(max-width:960px)">
+      <Media query="(max-width:1024px)">
         {matches =>
           matches ? (
             <Fragment>

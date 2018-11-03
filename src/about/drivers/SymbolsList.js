@@ -9,25 +9,25 @@ export default withStyles(gridStyle)(props => (
     <Symbol
       imageUrl="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-02.png"
       title="Materialidade"
-      desc="Neste direcionador analisamos o processo de fabricação utilizado pela
+      description="Neste direcionador analisamos o processo de fabricação utilizado pela
       empresa e seus impactos."
     />
     <Symbol
       imageUrl="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-03.png"
       title="Manufatura"
-      desc="Neste direcionador analisamos a composição do produto e a forma como foi
+      description="Neste direcionador analisamos a composição do produto e a forma como foi
       projetado."
     />
     <Symbol
       imageUrl="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-04.png"
       title="Gestão e governança"
-      desc="Neste direcionador analisamos como a empresa está estruturada e como se
+      description="Neste direcionador analisamos como a empresa está estruturada e como se
       relaciona com seus colaboradores."
     />
     <Symbol
       imageUrl="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-05.png"
       title="Humano Social"
-      desc="Neste direcionador analisamos como a empresa contribui para melhor a
+      description="Neste direcionador analisamos como a empresa contribui para melhor a
       sociedade na qual está inserida."
     />
   </Fragment>

@@ -1,24 +1,48 @@
 import React from 'react'
 import Grid from '@material-ui/core/Grid'
-import Avatar from '@material-ui/core/Avatar'
-import MemberTypography from './MemberTypography'
+import Typography from '@material-ui/core/Typography'
+import { withStyles } from '@material-ui/core/styles'
 
-export default props => (
-  <Grid item xs={12} sm={6} md={4} lg={3} style={{ padding: 20 }}>
-    <Avatar
-      alt={props.name + ' - foto'}
-      src={props.image}
-      style={{
-        maxWidth: '100%',
-        display: 'block',
-        margin: '10px auto',
-        width: 200,
-        height: 200,
-      }}
-    />
-    <MemberTypography {...props} variant="h6">
-      {props.name}
-    </MemberTypography>
-    <MemberTypography {...props}>{props.job}</MemberTypography>
-  </Grid>
-)
+import Colors from '../Colors'
+
+const styles = theme => ({
+  name: {
+    textAlign: 'center',
+    fontSize: 14,
+    [theme.breakpoints.up('lg')]: {
+      fontSize: 20,
+    },
+  },
+  job: {
+    textAlign: 'center',
+    fontSize: 10,
+    [theme.breakpoints.up('lg')]: {
+      fontSize: 14,
+    },
+  },
+})
+
+export default withStyles(styles)(({ classes, name, image, job, color }) => {
+  const style = { color: color || Colors.white }
+
+  return (
+    <Grid item xs={6} sm={4} md={3} lg={2} style={{ padding: 20 }}>
+      <img
+        alt={name}
+        src={image}
+        style={{
+          display: 'block',
+          margin: '10px auto',
+          width: '100%',
+          borderRadius: '50%',
+        }}
+      />
+      <Typography variant="h6" className={classes.name} style={style}>
+        {name}
+      </Typography>
+      <Typography className={classes.job} style={style}>
+        {job}
+      </Typography>
+    </Grid>
+  )
+})

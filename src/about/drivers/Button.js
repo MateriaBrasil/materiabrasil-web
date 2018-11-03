@@ -3,7 +3,7 @@ import Button from '@material-ui/core/Button'
 import { withStyles } from '@material-ui/core/styles'
 
 const style = {
-  opacityOnHover: {
+  button: {
     '&:hover': {
       opacity: 0.7,
       backgroundColor: 'transparent',
@@ -13,8 +13,6 @@ const style = {
 
 export default withStyles(style)(({ classes, children }) => (
   <div style={{ textAlign: 'center' }}>
-    <Button backgroundColor="transparent" className={classes.opacityOnHover}>
-      {children}
-    </Button>
+    <Button className={classes.button}>{children}</Button>
   </div>
 ))
