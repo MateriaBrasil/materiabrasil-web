@@ -8,22 +8,14 @@ const styles = theme => ({
   style: {
     textAlign: 'center',
     color: Colors.white,
-    fontWeight: 600,
   },
 })
 
-export default withStyles(styles)(({ classes, children }) => (
+export default withStyles(styles)(({ classes, title, children }) => (
   <Fragment>
     <Typography variant="h6" className={classes.style}>
-      {children.title}
+      {title}
     </Typography>
-    <Typography
-      className={classes.style}
-      style={{
-        fontWeight: 300,
-      }}
-    >
-      {children.desc}
-    </Typography>
+    <Typography className={classes.style}>{children}</Typography>
   </Fragment>
 ))

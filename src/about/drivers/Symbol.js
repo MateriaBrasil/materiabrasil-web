@@ -22,6 +22,8 @@ export default class extends Component {
   }
 
   render() {
+    const { imageUrl, title, description } = this.props
+
     return (
       <Grid item xs={12} sm={6} md={4} lg={3} style={{ padding: 20 }}>
         <Button
@@ -30,10 +32,10 @@ export default class extends Component {
             height: 200,
           }}
         >
-          <img src={this.props.imageUrl} onClick={this.handleClickOpen} />
+          <img src={imageUrl} onClick={this.handleClickOpen} alt={title} />
         </Button>
 
-        <NameAndDescription>{this.props}</NameAndDescription>
+        <NameAndDescription title={title}>{description}</NameAndDescription>
 
         <Dialog
           open={this.state.open}

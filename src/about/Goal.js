@@ -26,7 +26,7 @@ export default () => (
           textAlign: 'center',
         }}
       >
-        O objetivo da MateriaMundi é oferecer acesso à informação de qualidade e
+        O objetivo da MateriaMundi é oferecer acesso a informação de qualidade e
         parâmetros para que seus usuários possam escolher alternativas
         comercialmente disponíveis e socioambientalmente responsáveis para os
         desafios do dia-a-dia, variando desde o que vestimos até como
