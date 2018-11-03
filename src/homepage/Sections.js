@@ -1,12 +1,13 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
+import Colors from '../Colors'
 import Explore from './Explore'
 import HowToUseIt from './HowToUseIt'
 import Introduction from './Introduction'
 import Section from './Section'
 
 export default props => (
-  <Fragment>
+  <div style={{ backgroundColor: Colors.grayNurse }}>
     <Section handleScroll={props.handleScroll(0)}>
       <Introduction />
     </Section>
@@ -16,5 +17,5 @@ export default props => (
     <Section handleScroll={props.handleScroll(2)}>
       <Explore />
     </Section>
-  </Fragment>
+  </div>
 )

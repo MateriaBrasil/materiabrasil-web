@@ -3,12 +3,13 @@ import Grid from '@material-ui/core/Grid'
 
 import Colors from '../Colors'
 
-export default props => {
+export default ({ style, backgroundImage, ...props }) => {
   return (
     <Grid
       container
+      {...props}
       style={{
-        background: props.backgroundImage || Colors.grayNurse,
+        background: backgroundImage || Colors.grayNurse,
         backgroundPosition: 'center',
         paddingTop: '10%',
         paddingBottom: '10%',
@@ -16,9 +17,8 @@ export default props => {
         paddingLeft: '5%',
         backgroundSize: 'cover',
         alignContent: 'center',
+        ...style,
       }}
-    >
-      {props.children}
-    </Grid>
+    />
   )
 }

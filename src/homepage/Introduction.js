@@ -4,10 +4,13 @@ import Typography from '@material-ui/core/Typography'
 import Grid from './Grid'
 import Colors from '../Colors'
 
+const polygon = 'polygon(0 0, 100% 0%, 100% 86%, 0% 100%)'
+
 export default () => (
   <Grid
     id="introduction"
     backgroundImage="url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-7.jpg')"
+    style={{ '-webkit-clip-path': polygon, clipPath: polygon }}
   >
     <Typography
       variant="h3"

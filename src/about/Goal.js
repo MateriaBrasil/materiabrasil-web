@@ -4,10 +4,13 @@ import Section from './Section'
 import Title from './Title'
 import Paragraph from './Paragraph'
 
+const polygon = 'polygon(0 0, 100% 0, 100% 100%, 0 92%)'
+
 export default () => (
   <Section
     id="goal"
     backgroundImage="url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-8.jpg')"
+    style={{ '-webkit-clip-path': polygon, clipPath: polygon }}
   >
     <Title>
       <br />

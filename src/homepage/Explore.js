@@ -6,10 +6,13 @@ import Typography from '@material-ui/core/Typography'
 import Grid from './Grid'
 import Colors from '../Colors'
 
+const polygon = 'polygon(0 0, 100% 12%, 100% 100%, 0% 100%)'
+
 export default () => (
   <Grid
     id="explore"
     backgroundImage="url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-6.jpg')"
+    style={{ '-webkit-clip-path': polygon, clipPath: polygon }}
   >
     <Link to={`/materials`} style={{ textDecoration: 'none' }}>
       <Button

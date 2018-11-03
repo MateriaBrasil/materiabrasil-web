@@ -1,5 +1,6 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
+import Colors from '../Colors'
 import NavBar from '../navBar/NavBar'
 import Goal from './Goal'
 import HowToUse from './howToUse/render'
@@ -9,7 +10,7 @@ import Drivers from './drivers/Drivers'
 import Developers from './developers/render'
 
 export default props => routeProps => (
-  <Fragment>
+  <div style={{ backgroundColor: Colors.grayNurse }}>
     <NavBar />
     <Goal />
     <HowToUse />
@@ -17,5 +18,5 @@ export default props => routeProps => (
     <Board />
     <Drivers />
     <Developers />
-  </Fragment>
+  </div>
 )

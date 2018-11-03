@@ -6,10 +6,17 @@ import Paragraph from '../Paragraph'
 import SymbolsList from './SymbolsList'
 import Subtitle from '../Subtitle'
 
+const polygon = 'polygon(0 0, 100% 8%, 100% 100%, 0 92%)'
+
 export default () => (
   <Section
     id="drivers"
     backgroundImage="url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-5.jpg')"
+    style={{
+      '-webkit-clip-path': polygon,
+      clipPath: polygon,
+      paddingBottom: 300,
+    }}
   >
     <Title>Direcionadores</Title>
     <Subtitle>

@@ -29,6 +29,7 @@ export default withStyles(styles)(props => {
         background: props.backgroundImage || Colors.grayNurse,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
+        ...props.style,
       }}
     >
       <Grid

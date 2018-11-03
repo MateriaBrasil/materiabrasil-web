@@ -6,24 +6,32 @@ Array [
     NavBar
 </div>,
   <div
-    handleScroll={[Function]}
+    style={
+        Object {
+            "backgroundColor": "#E9EAE9",
+          }
+    }
 >
-    <div>
-        Introduction
+    <div
+        handleScroll={[Function]}
+    >
+        <div>
+            Introduction
+        </div>
     </div>
-</div>,
-  <div
-    handleScroll={[Function]}
->
-    <div>
-        HowToUseIt
+    <div
+        handleScroll={[Function]}
+    >
+        <div>
+            HowToUseIt
+        </div>
     </div>
-</div>,
-  <div
-    handleScroll={[Function]}
->
-    <div>
-        Explore
+    <div
+        handleScroll={[Function]}
+    >
+        <div>
+            Explore
+        </div>
     </div>
 </div>,
 ]
@@ -35,24 +43,32 @@ Array [
     NavBar
 </div>,
   <div
-    handleScroll={[Function]}
+    style={
+        Object {
+            "backgroundColor": "#E9EAE9",
+          }
+    }
 >
-    <div>
-        Introduction
+    <div
+        handleScroll={[Function]}
+    >
+        <div>
+            Introduction
+        </div>
     </div>
-</div>,
-  <div
-    handleScroll={[Function]}
->
-    <div>
-        HowToUseIt
+    <div
+        handleScroll={[Function]}
+    >
+        <div>
+            HowToUseIt
+        </div>
     </div>
-</div>,
-  <div
-    handleScroll={[Function]}
->
-    <div>
-        Explore
+    <div
+        handleScroll={[Function]}
+    >
+        <div>
+            Explore
+        </div>
     </div>
 </div>,
 ]
