@@ -11,6 +11,8 @@ const polygon = 'polygon(0 0, 100% 12%, 100% 100%, 0% 100%)'
 export default () => (
   <Grid
     id="explore"
+    title="Explore"
+    image="/images/polygon-2.png"
     backgroundImage="url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-6.jpg')"
     style={{ '-webkit-clip-path': polygon, clipPath: polygon }}
   >

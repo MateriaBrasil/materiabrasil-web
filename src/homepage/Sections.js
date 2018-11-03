@@ -2,7 +2,7 @@ import React from 'react'
 
 import Colors from '../Colors'
 import Explore from './Explore'
-import HowToUseIt from './HowToUseIt'
+import WhatItIs from './WhatItIs'
 import Introduction from './Introduction'
 import Section from './Section'
 
@@ -12,7 +12,7 @@ export default props => (
       <Introduction />
     </Section>
     <Section handleScroll={props.handleScroll(1)}>
-      <HowToUseIt />
+      <WhatItIs />
     </Section>
     <Section handleScroll={props.handleScroll(2)}>
       <Explore />
