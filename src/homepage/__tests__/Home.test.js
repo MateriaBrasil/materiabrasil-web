@@ -16,7 +16,7 @@ const createMockMediaMatcher = matches => () => ({
 })
 
 jest.mock('../Explore', () => props => <div {...props}>Explore</div>)
-jest.mock('../HowToUseIt', () => props => <div {...props}>HowToUseIt</div>)
+jest.mock('../WhatItIs', () => props => <div {...props}>WhatItIs</div>)
 jest.mock('../Introduction', () => props => <div {...props}>Introduction</div>)
 jest.mock('../Section', () => props => <div {...props}>{props.children}</div>)
 

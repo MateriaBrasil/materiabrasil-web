@@ -12,11 +12,11 @@ exports[`renders correctly 1`] = `
     NavBar
   </div>
   <div
-    className="MuiGrid-container-1"
+    className="MuiGrid-container-1 MuiGrid-justify-xs-center-18"
     id="goal"
     style={
       Object {
-        "-webkit-clip-path": "polygon(0 0, 100% 0, 100% 100%, 0 92%)",
+        "WebkitClipPath": "polygon(0 0, 100% 0, 100% 100%, 0 92%)",
         "alignContent": "center",
         "background": "url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-8.jpg')",
         "backgroundPosition": "center",
@@ -30,49 +30,24 @@ exports[`renders correctly 1`] = `
     }
   >
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
-      style={
-        Object {
-          "position": "relative",
-        }
-      }
-    >
-      <h4
-        className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
-        style={
-          Object {
-            "color": "white",
-            "display": "inline-block",
-            "fontWeight": 600,
-            "verticalAlign": "middle",
-          }
-        }
-      >
-        <br />
-        Objetivo
-      </h4>
-    </div>
-    <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-md-8-65"
     >
       <h5
-        className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+        className="MuiTypography-root-98 MuiTypography-h5-114 MuiTypography-colorInherit-127"
         style={
           Object {
             "color": "white",
-            "display": "inline-block",
-            "fontWeight": 300,
-            "marginBottom": "2%",
-            "marginLeft": "1%",
-            "marginRight": "1%",
-            "padding": "0 6%",
-            "verticalAlign": "middle",
+            "fontFamily": "Gotham Rounded",
+            "marginTop": 75,
+            "padding": "0 20px",
+            "textAlign": "center",
           }
         }
       >
-        O objetivo da MateriaMundi oferecer acesso à informação de qualidade e parâmetros para que seus usuários possam escolher alternativas comercialmente disponíveis e socioambiental responsáveis para os desafios do dia a dia, variando desde o que vestimos até como construímos nossas casas.
+        O objetivo da MateriaMundi é oferecer acesso à informação de qualidade e parâmetros para que seus usuários possam escolher alternativas comercialmente disponíveis e socioambientalmente responsáveis para os desafios do dia-a-dia, variando desde o que vestimos até como construímos nossas casas.
         <br />
-        Através da criação de uma comunidade ativa a plataforma permite a criação de conhecimento compartilhado sobre ações práticas para uma forma de projetar, produzir e consumir mais responsável com a sociedade e o meio ambiente.
+        <br />
+        Através de uma comunidade ativa, a plataforma permite a criação de conhecimento compartilhado sobre ações práticas para uma forma de projetar, produzir e consumir mais responsável com a sociedade e o meio ambiente.
       </h5>
     </div>
   </div>
@@ -93,7 +68,7 @@ exports[`renders correctly 1`] = `
     }
   >
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-133"
       style={
         Object {
           "position": "relative",
@@ -101,7 +76,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <h4
-        className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
+        className="MuiTypography-root-98 MuiTypography-h4-113 MuiTypography-colorInherit-127"
         style={
           Object {
             "color": true,
@@ -139,7 +114,7 @@ exports[`renders correctly 1`] = `
     id="crew"
     style={
       Object {
-        "-webkit-clip-path": "polygon(0 8%, 100% 0, 100% 92%, 0 100%)",
+        "WebkitClipPath": "polygon(0 8%, 100% 0, 100% 92%, 0 100%)",
         "alignContent": "center",
         "background": "url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-2.jpg')",
         "backgroundPosition": "center",
@@ -153,7 +128,7 @@ exports[`renders correctly 1`] = `
     }
   >
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-133"
       style={
         Object {
           "position": "relative",
@@ -161,7 +136,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <h4
-        className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
+        className="MuiTypography-root-98 MuiTypography-h4-113 MuiTypography-colorInherit-127"
         style={
           Object {
             "color": "white",
@@ -183,7 +158,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        className="MuiAvatar-root-135"
+        className="MuiAvatar-root-134"
         style={
           Object {
             "display": "block",
@@ -196,14 +171,14 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="Manuela Yamada - foto"
-          className="MuiAvatar-img-137"
+          className="MuiAvatar-img-136"
           sizes={undefined}
           src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Manuela_Yamada.jpg"
           srcSet={undefined}
         />
       </div>
       <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116"
+        className="MuiTypography-root-98 MuiTypography-h6-115"
         image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Manuela_Yamada.jpg"
         job={undefined}
         name="Manuela Yamada"
@@ -218,7 +193,7 @@ exports[`renders correctly 1`] = `
         Manuela Yamada
       </h6>
       <p
-        className="MuiTypography-root-99 MuiTypography-body1-108"
+        className="MuiTypography-root-98 MuiTypography-body1-107"
         image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Manuela_Yamada.jpg"
         job={undefined}
         name="Manuela Yamada"
@@ -240,7 +215,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        className="MuiAvatar-root-135"
+        className="MuiAvatar-root-134"
         style={
           Object {
             "display": "block",
@@ -253,14 +228,14 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="Bernardo Ferracioli - foto"
-          className="MuiAvatar-img-137"
+          className="MuiAvatar-img-136"
           sizes={undefined}
           src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bernardo_Ferracioli.jpg"
           srcSet={undefined}
         />
       </div>
       <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116"
+        className="MuiTypography-root-98 MuiTypography-h6-115"
         image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bernardo_Ferracioli.jpg"
         job={undefined}
         name="Bernardo Ferracioli"
@@ -275,7 +250,7 @@ exports[`renders correctly 1`] = `
         Bernardo Ferracioli
       </h6>
       <p
-        className="MuiTypography-root-99 MuiTypography-body1-108"
+        className="MuiTypography-root-98 MuiTypography-body1-107"
         image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bernardo_Ferracioli.jpg"
         job={undefined}
         name="Bernardo Ferracioli"
@@ -297,7 +272,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        className="MuiAvatar-root-135"
+        className="MuiAvatar-root-134"
         style={
           Object {
             "display": "block",
@@ -310,14 +285,14 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="Bruno Temer - foto"
-          className="MuiAvatar-img-137"
+          className="MuiAvatar-img-136"
           sizes={undefined}
           src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bruno_Temer.jpg"
           srcSet={undefined}
         />
       </div>
       <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116"
+        className="MuiTypography-root-98 MuiTypography-h6-115"
         image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bruno_Temer.jpg"
         job={undefined}
         name="Bruno Temer"
@@ -332,7 +307,7 @@ exports[`renders correctly 1`] = `
         Bruno Temer
       </h6>
       <p
-        className="MuiTypography-root-99 MuiTypography-body1-108"
+        className="MuiTypography-root-98 MuiTypography-body1-107"
         image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bruno_Temer.jpg"
         job={undefined}
         name="Bruno Temer"
@@ -354,7 +329,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        className="MuiAvatar-root-135"
+        className="MuiAvatar-root-134"
         style={
           Object {
             "display": "block",
@@ -367,14 +342,14 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="Pedro Themoteo - foto"
-          className="MuiAvatar-img-137"
+          className="MuiAvatar-img-136"
           sizes={undefined}
           src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Pedro_Themoteo.jpg"
           srcSet={undefined}
         />
       </div>
       <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116"
+        className="MuiTypography-root-98 MuiTypography-h6-115"
         image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Pedro_Themoteo.jpg"
         job={undefined}
         name="Pedro Themoteo"
@@ -389,7 +364,7 @@ exports[`renders correctly 1`] = `
         Pedro Themoteo
       </h6>
       <p
-        className="MuiTypography-root-99 MuiTypography-body1-108"
+        className="MuiTypography-root-98 MuiTypography-body1-107"
         image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Pedro_Themoteo.jpg"
         job={undefined}
         name="Pedro Themoteo"
@@ -411,7 +386,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        className="MuiAvatar-root-135"
+        className="MuiAvatar-root-134"
         style={
           Object {
             "display": "block",
@@ -424,14 +399,14 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="Daniele Valente - foto"
-          className="MuiAvatar-img-137"
+          className="MuiAvatar-img-136"
           sizes={undefined}
           src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Daniele_Valente.jpg"
           srcSet={undefined}
         />
       </div>
       <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116"
+        className="MuiTypography-root-98 MuiTypography-h6-115"
         image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Daniele_Valente.jpg"
         job={undefined}
         name="Daniele Valente"
@@ -446,7 +421,7 @@ exports[`renders correctly 1`] = `
         Daniele Valente
       </h6>
       <p
-        className="MuiTypography-root-99 MuiTypography-body1-108"
+        className="MuiTypography-root-98 MuiTypography-body1-107"
         image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Daniele_Valente.jpg"
         job={undefined}
         name="Daniele Valente"
@@ -468,7 +443,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        className="MuiAvatar-root-135"
+        className="MuiAvatar-root-134"
         style={
           Object {
             "display": "block",
@@ -481,14 +456,14 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="Elisa Ferreira - foto"
-          className="MuiAvatar-img-137"
+          className="MuiAvatar-img-136"
           sizes={undefined}
           src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Elisa_Ferreira.jpg"
           srcSet={undefined}
         />
       </div>
       <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116"
+        className="MuiTypography-root-98 MuiTypography-h6-115"
         image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Elisa_Ferreira.jpg"
         job={undefined}
         name="Elisa Ferreira"
@@ -503,7 +478,7 @@ exports[`renders correctly 1`] = `
         Elisa Ferreira
       </h6>
       <p
-        className="MuiTypography-root-99 MuiTypography-body1-108"
+        className="MuiTypography-root-98 MuiTypography-body1-107"
         image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Elisa_Ferreira.jpg"
         job={undefined}
         name="Elisa Ferreira"
@@ -525,7 +500,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        className="MuiAvatar-root-135"
+        className="MuiAvatar-root-134"
         style={
           Object {
             "display": "block",
@@ -538,14 +513,14 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="Victor Lanari - foto"
-          className="MuiAvatar-img-137"
+          className="MuiAvatar-img-136"
           sizes={undefined}
           src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Victor_Lanari.jpg"
           srcSet={undefined}
         />
       </div>
       <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116"
+        className="MuiTypography-root-98 MuiTypography-h6-115"
         image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Victor_Lanari.jpg"
         job={undefined}
         name="Victor Lanari"
@@ -560,7 +535,7 @@ exports[`renders correctly 1`] = `
         Victor Lanari
       </h6>
       <p
-        className="MuiTypography-root-99 MuiTypography-body1-108"
+        className="MuiTypography-root-98 MuiTypography-body1-107"
         image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Victor_Lanari.jpg"
         job={undefined}
         name="Victor Lanari"
@@ -582,7 +557,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        className="MuiAvatar-root-135"
+        className="MuiAvatar-root-134"
         style={
           Object {
             "display": "block",
@@ -595,14 +570,14 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="Dahyna Ribeiro - foto"
-          className="MuiAvatar-img-137"
+          className="MuiAvatar-img-136"
           sizes={undefined}
           src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Dahyna_Irribaren.jpg"
           srcSet={undefined}
         />
       </div>
       <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116"
+        className="MuiTypography-root-98 MuiTypography-h6-115"
         image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Dahyna_Irribaren.jpg"
         job={undefined}
         name="Dahyna Ribeiro"
@@ -617,7 +592,7 @@ exports[`renders correctly 1`] = `
         Dahyna Ribeiro
       </h6>
       <p
-        className="MuiTypography-root-99 MuiTypography-body1-108"
+        className="MuiTypography-root-98 MuiTypography-body1-107"
         image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Dahyna_Irribaren.jpg"
         job={undefined}
         name="Dahyna Ribeiro"
@@ -639,7 +614,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        className="MuiAvatar-root-135"
+        className="MuiAvatar-root-134"
         style={
           Object {
             "display": "block",
@@ -652,14 +627,14 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="Bernardo Mattos - foto"
-          className="MuiAvatar-img-137"
+          className="MuiAvatar-img-136"
           sizes={undefined}
           src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bernardo_Mattos.jpg"
           srcSet={undefined}
         />
       </div>
       <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116"
+        className="MuiTypography-root-98 MuiTypography-h6-115"
         image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bernardo_Mattos.jpg"
         job={undefined}
         name="Bernardo Mattos"
@@ -674,7 +649,7 @@ exports[`renders correctly 1`] = `
         Bernardo Mattos
       </h6>
       <p
-        className="MuiTypography-root-99 MuiTypography-body1-108"
+        className="MuiTypography-root-98 MuiTypography-body1-107"
         image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bernardo_Mattos.jpg"
         job={undefined}
         name="Bernardo Mattos"
@@ -696,7 +671,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        className="MuiAvatar-root-135"
+        className="MuiAvatar-root-134"
         style={
           Object {
             "display": "block",
@@ -709,14 +684,14 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="Seasoned - foto"
-          className="MuiAvatar-img-137"
+          className="MuiAvatar-img-136"
           sizes={undefined}
           src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Seasoned.jpg"
           srcSet={undefined}
         />
       </div>
       <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116"
+        className="MuiTypography-root-98 MuiTypography-h6-115"
         image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Seasoned.jpg"
         job={undefined}
         name="Seasoned"
@@ -731,7 +706,7 @@ exports[`renders correctly 1`] = `
         Seasoned
       </h6>
       <p
-        className="MuiTypography-root-99 MuiTypography-body1-108"
+        className="MuiTypography-root-98 MuiTypography-body1-107"
         image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Seasoned.jpg"
         job={undefined}
         name="Seasoned"
@@ -762,7 +737,7 @@ exports[`renders correctly 1`] = `
     }
   >
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-133"
       style={
         Object {
           "position": "relative",
@@ -770,7 +745,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <h4
-        className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
+        className="MuiTypography-root-98 MuiTypography-h4-113 MuiTypography-colorInherit-127"
         style={
           Object {
             "color": true,
@@ -787,10 +762,10 @@ exports[`renders correctly 1`] = `
       className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
     >
       <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-137"
       >
-        <h5
-          className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+        <p
+          className="MuiTypography-root-98 MuiTypography-body1-107 MuiTypography-colorInherit-127"
           style={
             Object {
               "color": true,
@@ -805,7 +780,7 @@ exports[`renders correctly 1`] = `
           }
         >
           Sabemos que nada nesse mundo se faz sozinho! Por isso a MateriaMundi conta com um Conselho Consultivo que nos ajuda a ter integrar diferentes perspectivas e conhecimentos no projeto. Conheça os profissionais que doam o seu tempo de forma voluntária para fazer este sonho coletivo acontecer!
-        </h5>
+        </p>
       </div>
     </div>
     <div
@@ -817,7 +792,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        className="MuiAvatar-root-135"
+        className="MuiAvatar-root-134"
         style={
           Object {
             "display": "block",
@@ -830,14 +805,14 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="Margarida Lunetta - foto"
-          className="MuiAvatar-img-137"
+          className="MuiAvatar-img-136"
           sizes={undefined}
           src="https://s3.amazonaws.com/materiamundi-us/static/conselho/margarida_lunetta.png"
           srcSet={undefined}
         />
       </div>
       <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116"
+        className="MuiTypography-root-98 MuiTypography-h6-115"
         image="https://s3.amazonaws.com/materiamundi-us/static/conselho/margarida_lunetta.png"
         job="Gestora do programa Transformação Circular da Fundação C&A"
         name="Margarida Lunetta"
@@ -852,7 +827,7 @@ exports[`renders correctly 1`] = `
         Margarida Lunetta
       </h6>
       <p
-        className="MuiTypography-root-99 MuiTypography-body1-108"
+        className="MuiTypography-root-98 MuiTypography-body1-107"
         image="https://s3.amazonaws.com/materiamundi-us/static/conselho/margarida_lunetta.png"
         job="Gestora do programa Transformação Circular da Fundação C&A"
         name="Margarida Lunetta"
@@ -876,7 +851,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        className="MuiAvatar-root-135"
+        className="MuiAvatar-root-134"
         style={
           Object {
             "display": "block",
@@ -889,14 +864,14 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="Arnoud Passenier - foto"
-          className="MuiAvatar-img-137"
+          className="MuiAvatar-img-136"
           sizes={undefined}
           src="https://s3.amazonaws.com/materiamundi-us/static/conselho/arnoud_passenier.png"
           srcSet={undefined}
         />
       </div>
       <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116"
+        className="MuiTypography-root-98 MuiTypography-h6-115"
         image="https://s3.amazonaws.com/materiamundi-us/static/conselho/arnoud_passenier.png"
         job="Gestor Sênior do programa de Economia Circular do governo da Holanda"
         name="Arnoud Passenier"
@@ -911,7 +886,7 @@ exports[`renders correctly 1`] = `
         Arnoud Passenier
       </h6>
       <p
-        className="MuiTypography-root-99 MuiTypography-body1-108"
+        className="MuiTypography-root-98 MuiTypography-body1-107"
         image="https://s3.amazonaws.com/materiamundi-us/static/conselho/arnoud_passenier.png"
         job="Gestor Sênior do programa de Economia Circular do governo da Holanda"
         name="Arnoud Passenier"
@@ -935,7 +910,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        className="MuiAvatar-root-135"
+        className="MuiAvatar-root-134"
         style={
           Object {
             "display": "block",
@@ -948,14 +923,14 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="Luisa Santiago - foto"
-          className="MuiAvatar-img-137"
+          className="MuiAvatar-img-136"
           sizes={undefined}
           src="https://s3.amazonaws.com/materiamundi-us/static/conselho/luisa_santiago.png"
           srcSet={undefined}
         />
       </div>
       <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116"
+        className="MuiTypography-root-98 MuiTypography-h6-115"
         image="https://s3.amazonaws.com/materiamundi-us/static/conselho/luisa_santiago.png"
         job="Diretora Executiva Ellen MacArthur Foundation Brasil"
         name="Luisa Santiago"
@@ -970,7 +945,7 @@ exports[`renders correctly 1`] = `
         Luisa Santiago
       </h6>
       <p
-        className="MuiTypography-root-99 MuiTypography-body1-108"
+        className="MuiTypography-root-98 MuiTypography-body1-107"
         image="https://s3.amazonaws.com/materiamundi-us/static/conselho/luisa_santiago.png"
         job="Diretora Executiva Ellen MacArthur Foundation Brasil"
         name="Luisa Santiago"
@@ -994,7 +969,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        className="MuiAvatar-root-135"
+        className="MuiAvatar-root-134"
         style={
           Object {
             "display": "block",
@@ -1007,14 +982,14 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="Tomás de Lara - foto"
-          className="MuiAvatar-img-137"
+          className="MuiAvatar-img-136"
           sizes={undefined}
           src="https://s3.amazonaws.com/materiamundi-us/static/conselho/tomas_de_lara.jpg"
           srcSet={undefined}
         />
       </div>
       <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116"
+        className="MuiTypography-root-98 MuiTypography-h6-115"
         image="https://s3.amazonaws.com/materiamundi-us/static/conselho/tomas_de_lara.jpg"
         job="Lead Cidades + B Global Sistema B Brasil"
         name="Tomás de Lara"
@@ -1029,7 +1004,7 @@ exports[`renders correctly 1`] = `
         Tomás de Lara
       </h6>
       <p
-        className="MuiTypography-root-99 MuiTypography-body1-108"
+        className="MuiTypography-root-98 MuiTypography-body1-107"
         image="https://s3.amazonaws.com/materiamundi-us/static/conselho/tomas_de_lara.jpg"
         job="Lead Cidades + B Global Sistema B Brasil"
         name="Tomás de Lara"
@@ -1053,7 +1028,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        className="MuiAvatar-root-135"
+        className="MuiAvatar-root-134"
         style={
           Object {
             "display": "block",
@@ -1066,14 +1041,14 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="Taciana Abreu - foto"
-          className="MuiAvatar-img-137"
+          className="MuiAvatar-img-136"
           sizes={undefined}
           src="https://s3.amazonaws.com/materiamundi-us/static/conselho/taciana_abreu.png"
           srcSet={undefined}
         />
       </div>
       <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116"
+        className="MuiTypography-root-98 MuiTypography-h6-115"
         image="https://s3.amazonaws.com/materiamundi-us/static/conselho/taciana_abreu.png"
         job="Articuladora Yunus Negócios Sociais Brasil e Head de Marketing Farm Rio"
         name="Taciana Abreu"
@@ -1088,7 +1063,7 @@ exports[`renders correctly 1`] = `
         Taciana Abreu
       </h6>
       <p
-        className="MuiTypography-root-99 MuiTypography-body1-108"
+        className="MuiTypography-root-98 MuiTypography-body1-107"
         image="https://s3.amazonaws.com/materiamundi-us/static/conselho/taciana_abreu.png"
         job="Articuladora Yunus Negócios Sociais Brasil e Head de Marketing Farm Rio"
         name="Taciana Abreu"
@@ -1112,7 +1087,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        className="MuiAvatar-root-135"
+        className="MuiAvatar-root-134"
         style={
           Object {
             "display": "block",
@@ -1125,14 +1100,14 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="Bernardo Ferracioli - foto"
-          className="MuiAvatar-img-137"
+          className="MuiAvatar-img-136"
           sizes={undefined}
           src="https://s3.amazonaws.com/materiamundi-us/static/conselho/bernardo_ferracioli.png"
           srcSet={undefined}
         />
       </div>
       <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116"
+        className="MuiTypography-root-98 MuiTypography-h6-115"
         image="https://s3.amazonaws.com/materiamundi-us/static/conselho/bernardo_ferracioli.png"
         job="Diretor Financeiro da MateriaBrasil"
         name="Bernardo Ferracioli"
@@ -1147,7 +1122,7 @@ exports[`renders correctly 1`] = `
         Bernardo Ferracioli
       </h6>
       <p
-        className="MuiTypography-root-99 MuiTypography-body1-108"
+        className="MuiTypography-root-98 MuiTypography-body1-107"
         image="https://s3.amazonaws.com/materiamundi-us/static/conselho/bernardo_ferracioli.png"
         job="Diretor Financeiro da MateriaBrasil"
         name="Bernardo Ferracioli"
@@ -1168,7 +1143,7 @@ exports[`renders correctly 1`] = `
     id="drivers"
     style={
       Object {
-        "-webkit-clip-path": "polygon(0 0, 100% 8%, 100% 100%, 0 92%)",
+        "WebkitClipPath": "polygon(0 0, 100% 8%, 100% 100%, 0 92%)",
         "alignContent": "center",
         "background": "url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-5.jpg')",
         "backgroundPosition": "center",
@@ -1182,7 +1157,7 @@ exports[`renders correctly 1`] = `
     }
   >
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-133"
       style={
         Object {
           "position": "relative",
@@ -1190,7 +1165,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <h4
-        className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
+        className="MuiTypography-root-98 MuiTypography-h4-113 MuiTypography-colorInherit-127"
         style={
           Object {
             "color": "white",
@@ -1214,8 +1189,8 @@ exports[`renders correctly 1`] = `
         }
       }
     >
-      <h5
-        className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+      <h6
+        className="MuiTypography-root-98 MuiTypography-h6-115 MuiTypography-colorInherit-127"
         padding="0 0"
         style={
           Object {
@@ -1229,13 +1204,13 @@ exports[`renders correctly 1`] = `
         }
       >
         Para que servem os direcionadores de responsabilidade socioambiental da MateriaMundi?
-      </h5>
+      </h6>
     </div>
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-137"
     >
-      <h5
-        className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+      <p
+        className="MuiTypography-root-98 MuiTypography-body1-107 MuiTypography-colorInherit-127"
         style={
           Object {
             "color": "white",
@@ -1250,7 +1225,7 @@ exports[`renders correctly 1`] = `
         }
       >
         Na MateriaMundi acreditamos que não existe uma só resposta aos desafios de construir uma forma mais responsável de projetar, produzir e consumir, e que as escolhas mais apropriadas irão variar de acordo com o contexto no qual se está inseridos. Por este motivo criamos os nossos Direcionadores de Responsabilidade Socioambiental. Os Direcionadores foram desenvolvidos para auxiliar o usuário a escolher de forma consciente entre diversas opções, baseando-se em informações sobre o que determinada empresa/produto faz para obter um impacto positivo. Através da análise qualitativa e da pontuação de cada produto, material e serviço em cada direcionador o usuário pode comparar alternativas, priorizando o aspecto socioambiental mais relevante para o seu projeto em seu contexto.
-      </h5>
+      </p>
     </div>
     <div
       className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
@@ -1263,8 +1238,8 @@ exports[`renders correctly 1`] = `
         }
       }
     >
-      <h5
-        className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+      <h6
+        className="MuiTypography-root-98 MuiTypography-h6-115 MuiTypography-colorInherit-127"
         padding="0 0"
         style={
           Object {
@@ -1278,13 +1253,13 @@ exports[`renders correctly 1`] = `
         }
       >
         Como funciona?
-      </h5>
+      </h6>
     </div>
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-137"
     >
-      <h5
-        className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+      <p
+        className="MuiTypography-root-98 MuiTypography-body1-107 MuiTypography-colorInherit-127"
         style={
           Object {
             "color": "white",
@@ -1299,7 +1274,7 @@ exports[`renders correctly 1`] = `
         }
       >
         Os quatro direcionadores são divididos em duas vertentes, dois analisam aspectos sociais e dois aspectos ambientais, e cada um possui pontuação de 0 à 4, sendo zero a nota mínima e quatro a nota máxima. Cada material, produto e serviço apresentado na plataforma passa por essa auto-avaliação que é composta por 81 perguntas com objetivo de analisar seu impacto positivo. Essas análise fica disponível para você de forma descritiva, sendo possível ver cada uma das perguntas e respostas e também em forma quantitativa, através do gráfico de impacto. Para auxiliar a tomada de decisão sobre qual alternativa utilizar disponibilizamos uma ferramenta de comparação, onde os gráficos podem ser sobrepostos e uma análise comparativa pode ser feita.
-      </h5>
+      </p>
     </div>
     <div
       className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
@@ -1312,8 +1287,8 @@ exports[`renders correctly 1`] = `
         }
       }
     >
-      <h5
-        className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+      <h6
+        className="MuiTypography-root-98 MuiTypography-h6-115 MuiTypography-colorInherit-127"
         padding="0 0"
         style={
           Object {
@@ -1327,13 +1302,13 @@ exports[`renders correctly 1`] = `
         }
       >
         O que garante a veracidade das informações?
-      </h5>
+      </h6>
     </div>
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-137"
     >
-      <h5
-        className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+      <p
+        className="MuiTypography-root-98 MuiTypography-body1-107 MuiTypography-colorInherit-127"
         style={
           Object {
             "color": "white",
@@ -1348,7 +1323,7 @@ exports[`renders correctly 1`] = `
         }
       >
         A MateriaMundi acredita em seus usuários e mesmo se porventura acontecer de uma informação não ser verídica, acreditamos no poder da comunidade para regular o coletivo e garantir a integridade da plataforma. Por isso optamos por um processo de auto-avaliação, onde cada empresa é convidada a responder voluntariamente as 81 perguntas, sem um processo de auditoria. Para garantir um canal apropriado para feed-back onde toda a comunidade possa fornecer e colher informações, na página de cada produto disponibilizamos uma área para comentários e avaliação. A plataforma oferece ainda como opção a possibilidade de anexar documentos comprobatórios caso a empresa possua. Não tornamos a comprovação um item obrigatório pois entendemos que muitas vezes os custos para tal são impeditivos para empresas menores.
-      </h5>
+      </p>
     </div>
     <br />
     <div
@@ -1396,13 +1371,13 @@ exports[`renders correctly 1`] = `
           />
         </button>
       </div>
-      <h5
-        className="MuiTypography-root-99 MuiTypography-h5-115 Component-style-169"
+      <h6
+        className="MuiTypography-root-98 MuiTypography-h6-115 Component-style-169"
       >
         Materialidade
-      </h5>
-      <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116 Component-style-169"
+      </h6>
+      <p
+        className="MuiTypography-root-98 MuiTypography-body1-107 Component-style-169"
         style={
           Object {
             "fontWeight": 300,
@@ -1410,7 +1385,7 @@ exports[`renders correctly 1`] = `
         }
       >
         Neste direcionador analisamos o processo de fabricação utilizado pela empresa e seus impactos.
-      </h6>
+      </p>
     </div>
     <div
       className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -1457,13 +1432,13 @@ exports[`renders correctly 1`] = `
           />
         </button>
       </div>
-      <h5
-        className="MuiTypography-root-99 MuiTypography-h5-115 Component-style-169"
+      <h6
+        className="MuiTypography-root-98 MuiTypography-h6-115 Component-style-169"
       >
         Manufatura
-      </h5>
-      <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116 Component-style-169"
+      </h6>
+      <p
+        className="MuiTypography-root-98 MuiTypography-body1-107 Component-style-169"
         style={
           Object {
             "fontWeight": 300,
@@ -1471,7 +1446,7 @@ exports[`renders correctly 1`] = `
         }
       >
         Neste direcionador analisamos a composição do produto e a forma como foi projetado.
-      </h6>
+      </p>
     </div>
     <div
       className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -1518,13 +1493,13 @@ exports[`renders correctly 1`] = `
           />
         </button>
       </div>
-      <h5
-        className="MuiTypography-root-99 MuiTypography-h5-115 Component-style-169"
+      <h6
+        className="MuiTypography-root-98 MuiTypography-h6-115 Component-style-169"
       >
         Gestão e governança
-      </h5>
-      <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116 Component-style-169"
+      </h6>
+      <p
+        className="MuiTypography-root-98 MuiTypography-body1-107 Component-style-169"
         style={
           Object {
             "fontWeight": 300,
@@ -1532,7 +1507,7 @@ exports[`renders correctly 1`] = `
         }
       >
         Neste direcionador analisamos como a empresa está estruturada e como se relaciona com seus colaboradores.
-      </h6>
+      </p>
     </div>
     <div
       className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -1579,13 +1554,13 @@ exports[`renders correctly 1`] = `
           />
         </button>
       </div>
-      <h5
-        className="MuiTypography-root-99 MuiTypography-h5-115 Component-style-169"
+      <h6
+        className="MuiTypography-root-98 MuiTypography-h6-115 Component-style-169"
       >
         Humano Social
-      </h5>
-      <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116 Component-style-169"
+      </h6>
+      <p
+        className="MuiTypography-root-98 MuiTypography-body1-107 Component-style-169"
         style={
           Object {
             "fontWeight": 300,
@@ -1593,7 +1568,7 @@ exports[`renders correctly 1`] = `
         }
       >
         Neste direcionador analisamos como a empresa contribui para melhor a sociedade na qual está inserida.
-      </h6>
+      </p>
     </div>
   </div>
   <div
@@ -1613,7 +1588,7 @@ exports[`renders correctly 1`] = `
     }
   >
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-133"
       style={
         Object {
           "position": "relative",
@@ -1621,7 +1596,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <h4
-        className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
+        className="MuiTypography-root-98 MuiTypography-h4-113 MuiTypography-colorInherit-127"
         style={
           Object {
             "color": true,
@@ -1635,10 +1610,10 @@ exports[`renders correctly 1`] = `
       </h4>
     </div>
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-137"
     >
-      <h5
-        className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
+      <p
+        className="MuiTypography-root-98 MuiTypography-body1-107 MuiTypography-colorInherit-127"
         style={
           Object {
             "color": true,
@@ -1653,7 +1628,7 @@ exports[`renders correctly 1`] = `
         }
       >
         Para o desenvolvimento desses direcionadores a MateriaMundi contou com uma equipe de consultores especialistas em diversas áreas.
-      </h5>
+      </p>
     </div>
     <div
       className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -1664,7 +1639,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        className="MuiAvatar-root-135"
+        className="MuiAvatar-root-134"
         style={
           Object {
             "display": "block",
@@ -1677,14 +1652,14 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="Aldo Ometto - foto"
-          className="MuiAvatar-img-137"
+          className="MuiAvatar-img-136"
           sizes={undefined}
           src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/aldo_ometto.jpg"
           srcSet={undefined}
         />
       </div>
       <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116"
+        className="MuiTypography-root-98 MuiTypography-h6-115"
         image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/aldo_ometto.jpg"
         job="USP"
         name="Aldo Ometto"
@@ -1699,7 +1674,7 @@ exports[`renders correctly 1`] = `
         Aldo Ometto
       </h6>
       <p
-        className="MuiTypography-root-99 MuiTypography-body1-108"
+        className="MuiTypography-root-98 MuiTypography-body1-107"
         image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/aldo_ometto.jpg"
         job="USP"
         name="Aldo Ometto"
@@ -1723,7 +1698,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        className="MuiAvatar-root-135"
+        className="MuiAvatar-root-134"
         style={
           Object {
             "display": "block",
@@ -1736,14 +1711,14 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="Weber Amaral - foto"
-          className="MuiAvatar-img-137"
+          className="MuiAvatar-img-136"
           sizes={undefined}
           src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/weber_amaral.jpg"
           srcSet={undefined}
         />
       </div>
       <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116"
+        className="MuiTypography-root-98 MuiTypography-h6-115"
         image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/weber_amaral.jpg"
         job="USP"
         name="Weber Amaral"
@@ -1758,7 +1733,7 @@ exports[`renders correctly 1`] = `
         Weber Amaral
       </h6>
       <p
-        className="MuiTypography-root-99 MuiTypography-body1-108"
+        className="MuiTypography-root-98 MuiTypography-body1-107"
         image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/weber_amaral.jpg"
         job="USP"
         name="Weber Amaral"
@@ -1782,7 +1757,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        className="MuiAvatar-root-135"
+        className="MuiAvatar-root-134"
         style={
           Object {
             "display": "block",
@@ -1795,14 +1770,14 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="Juliana Sardinha - foto"
-          className="MuiAvatar-img-137"
+          className="MuiAvatar-img-136"
           sizes={undefined}
           src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/juliana_sardinha.jpg"
           srcSet={undefined}
         />
       </div>
       <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116"
+        className="MuiTypography-root-98 MuiTypography-h6-115"
         image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/juliana_sardinha.jpg"
         job="Efficacia Empresarial"
         name="Juliana Sardinha"
@@ -1817,7 +1792,7 @@ exports[`renders correctly 1`] = `
         Juliana Sardinha
       </h6>
       <p
-        className="MuiTypography-root-99 MuiTypography-body1-108"
+        className="MuiTypography-root-98 MuiTypography-body1-107"
         image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/juliana_sardinha.jpg"
         job="Efficacia Empresarial"
         name="Juliana Sardinha"
@@ -1841,7 +1816,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        className="MuiAvatar-root-135"
+        className="MuiAvatar-root-134"
         style={
           Object {
             "display": "block",
@@ -1854,14 +1829,14 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="Rosângela de Carvalho - foto"
-          className="MuiAvatar-img-137"
+          className="MuiAvatar-img-136"
           sizes={undefined}
           src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/rosangela_de_carvalho.jpg"
           srcSet={undefined}
         />
       </div>
       <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116"
+        className="MuiTypography-root-98 MuiTypography-h6-115"
         image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/rosangela_de_carvalho.jpg"
         job="Efficacia Empresarial"
         name="Rosângela de Carvalho"
@@ -1876,7 +1851,7 @@ exports[`renders correctly 1`] = `
         Rosângela de Carvalho
       </h6>
       <p
-        className="MuiTypography-root-99 MuiTypography-body1-108"
+        className="MuiTypography-root-98 MuiTypography-body1-107"
         image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/rosangela_de_carvalho.jpg"
         job="Efficacia Empresarial"
         name="Rosângela de Carvalho"
@@ -1900,7 +1875,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        className="MuiAvatar-root-135"
+        className="MuiAvatar-root-134"
         style={
           Object {
             "display": "block",
@@ -1913,14 +1888,14 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="Jéssica Galdino - foto"
-          className="MuiAvatar-img-137"
+          className="MuiAvatar-img-136"
           sizes={undefined}
           src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/jessica_galdino_de_freitas.jpg"
           srcSet={undefined}
         />
       </div>
       <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116"
+        className="MuiTypography-root-98 MuiTypography-h6-115"
         image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/jessica_galdino_de_freitas.jpg"
         job="Emboé"
         name="Jéssica Galdino"
@@ -1935,7 +1910,7 @@ exports[`renders correctly 1`] = `
         Jéssica Galdino
       </h6>
       <p
-        className="MuiTypography-root-99 MuiTypography-body1-108"
+        className="MuiTypography-root-98 MuiTypography-body1-107"
         image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/jessica_galdino_de_freitas.jpg"
         job="Emboé"
         name="Jéssica Galdino"
@@ -1959,7 +1934,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        className="MuiAvatar-root-135"
+        className="MuiAvatar-root-134"
         style={
           Object {
             "display": "block",
@@ -1972,14 +1947,14 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="Manuela Yamada - foto"
-          className="MuiAvatar-img-137"
+          className="MuiAvatar-img-136"
           sizes={undefined}
           src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/manuela_yamada.jpg"
           srcSet={undefined}
         />
       </div>
       <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116"
+        className="MuiTypography-root-98 MuiTypography-h6-115"
         image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/manuela_yamada.jpg"
         job="MateriaBrasil"
         name="Manuela Yamada"
@@ -1994,7 +1969,7 @@ exports[`renders correctly 1`] = `
         Manuela Yamada
       </h6>
       <p
-        className="MuiTypography-root-99 MuiTypography-body1-108"
+        className="MuiTypography-root-98 MuiTypography-body1-107"
         image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/manuela_yamada.jpg"
         job="MateriaBrasil"
         name="Manuela Yamada"
@@ -2018,7 +1993,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        className="MuiAvatar-root-135"
+        className="MuiAvatar-root-134"
         style={
           Object {
             "display": "block",
@@ -2031,14 +2006,14 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="Bruno Temer - foto"
-          className="MuiAvatar-img-137"
+          className="MuiAvatar-img-136"
           sizes={undefined}
           src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/bruno_temer.jpg"
           srcSet={undefined}
         />
       </div>
       <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116"
+        className="MuiTypography-root-98 MuiTypography-h6-115"
         image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/bruno_temer.jpg"
         job="MateriaBrasil"
         name="Bruno Temer"
@@ -2053,7 +2028,7 @@ exports[`renders correctly 1`] = `
         Bruno Temer
       </h6>
       <p
-        className="MuiTypography-root-99 MuiTypography-body1-108"
+        className="MuiTypography-root-98 MuiTypography-body1-107"
         image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/bruno_temer.jpg"
         job="MateriaBrasil"
         name="Bruno Temer"
@@ -2077,7 +2052,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        className="MuiAvatar-root-135"
+        className="MuiAvatar-root-134"
         style={
           Object {
             "display": "block",
@@ -2090,14 +2065,14 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="Isadora Timbó - foto"
-          className="MuiAvatar-img-137"
+          className="MuiAvatar-img-136"
           sizes={undefined}
           src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/isadora_ribeiro.jpg"
           srcSet={undefined}
         />
       </div>
       <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116"
+        className="MuiTypography-root-98 MuiTypography-h6-115"
         image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/isadora_ribeiro.jpg"
         job="Gitec Brasil"
         name="Isadora Timbó"
@@ -2112,7 +2087,7 @@ exports[`renders correctly 1`] = `
         Isadora Timbó
       </h6>
       <p
-        className="MuiTypography-root-99 MuiTypography-body1-108"
+        className="MuiTypography-root-98 MuiTypography-body1-107"
         image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/isadora_ribeiro.jpg"
         job="Gitec Brasil"
         name="Isadora Timbó"
@@ -2136,7 +2111,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        className="MuiAvatar-root-135"
+        className="MuiAvatar-root-134"
         style={
           Object {
             "display": "block",
@@ -2149,14 +2124,14 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="Luiza Maia - foto"
-          className="MuiAvatar-img-137"
+          className="MuiAvatar-img-136"
           sizes={undefined}
           src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/luiza_maia.jpg"
           srcSet={undefined}
         />
       </div>
       <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116"
+        className="MuiTypography-root-98 MuiTypography-h6-115"
         image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/luiza_maia.jpg"
         job="Gitec Brasil"
         name="Luiza Maia"
@@ -2171,7 +2146,7 @@ exports[`renders correctly 1`] = `
         Luiza Maia
       </h6>
       <p
-        className="MuiTypography-root-99 MuiTypography-body1-108"
+        className="MuiTypography-root-98 MuiTypography-body1-107"
         image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/luiza_maia.jpg"
         job="Gitec Brasil"
         name="Luiza Maia"
@@ -2195,7 +2170,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <div
-        className="MuiAvatar-root-135"
+        className="MuiAvatar-root-134"
         style={
           Object {
             "display": "block",
@@ -2208,14 +2183,14 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="Tomás de Lara - foto"
-          className="MuiAvatar-img-137"
+          className="MuiAvatar-img-136"
           sizes={undefined}
           src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/tomas_de_lara.jpg"
           srcSet={undefined}
         />
       </div>
       <h6
-        className="MuiTypography-root-99 MuiTypography-h6-116"
+        className="MuiTypography-root-98 MuiTypography-h6-115"
         image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/tomas_de_lara.jpg"
         job="Sistema B Brasil"
         name="Tomás de Lara"
@@ -2230,7 +2205,7 @@ exports[`renders correctly 1`] = `
         Tomás de Lara
       </h6>
       <p
-        className="MuiTypography-root-99 MuiTypography-body1-108"
+        className="MuiTypography-root-98 MuiTypography-body1-107"
         image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/tomas_de_lara.jpg"
         job="Sistema B Brasil"
         name="Tomás de Lara"
