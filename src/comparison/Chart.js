@@ -18,18 +18,17 @@ import {
 
 import ChipsContainer from './ChipsContainer'
 import Colors from './Colors'
+import drivers from '../drivers'
 
 export default ({ list, actions: { close, remove } }) => {
-  const drivers = ['firstDriver', 'secondDriver', 'thirdDriver', 'fourthDriver']
-
   const data = map(drivers, (driver, index) =>
     reduce(
       list,
       (object, material) => ({
         ...object,
-        [material.id]: get(material, driver),
+        [material.id]: get(material, driver.key),
       }),
-      { subject: `Driver #${index}` },
+      { subject: driver.name },
     ),
   )
 

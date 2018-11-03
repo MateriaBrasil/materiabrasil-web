@@ -10,18 +10,25 @@ import {
   PolarRadiusAxis,
 } from 'recharts'
 
+import drivers from '../../drivers'
 import addComparison from './addComparison'
 
 export default props => {
-  const { firstDriver, secondDriver, thirdDriver, fourthDriver } = props
+  const {
+    materialityDriver,
+    manufactureDriver,
+    managementDriver,
+    socialDriver,
+  } = props
 
-  const hasDrivers = firstDriver || secondDriver || thirdDriver || fourthDriver
+  const hasDrivers =
+    materialityDriver && manufactureDriver && managementDriver && socialDriver
 
   const data = [
-    { subject: 'Driver #1', value: firstDriver },
-    { subject: 'Driver #2', value: secondDriver },
-    { subject: 'Driver #3', value: thirdDriver },
-    { subject: 'Driver #4', value: fourthDriver },
+    { subject: drivers[0].name, value: materialityDriver },
+    { subject: drivers[1].name, value: manufactureDriver },
+    { subject: drivers[2].name, value: managementDriver },
+    { subject: drivers[3].name, value: socialDriver },
   ]
 
   return (
