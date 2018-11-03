@@ -2,14 +2,27 @@ import React from 'react'
 import Link from 'react-router-dom/Link'
 import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'
+import { withStyles } from '@material-ui/core/styles'
 
 import SectionTitle from './SectionTitle'
 import Grid from './Grid'
 import Colors from '../Colors'
 
-const polygon = 'polygon(0 0, 100% 12%, 100% 100%, 0% 100%)'
+const polygon = 'polygon(0 0, 100% 6%, 100% 100%, 0% 100%)'
 
-export default () => (
+const styles = theme => ({
+  button: {
+    borderRadius: 7,
+    fontWeight: 100,
+    textTransform: 'lowercase',
+    fontSize: 40,
+    padding: '15px 50px',
+    background: '#fff',
+    marginBottom: 50,
+  },
+})
+
+export default withStyles(styles)(({ classes }) => (
   <div style={{ position: 'relative' }}>
     <SectionTitle image="/images/polygon-3.png">Comece agora</SectionTitle>
     <Grid
@@ -25,15 +38,7 @@ export default () => (
           variant="contained"
           color="default"
           size="large"
-          style={{
-            borderRadius: 7,
-            fontWeight: 100,
-            textTransform: 'lowercase',
-            fontSize: 40,
-            padding: '15px 50px',
-            background: '#fff',
-            marginBottom: 50,
-          }}
+          className={classes.button}
         >
           Explore
         </Button>
@@ -55,4 +60,4 @@ export default () => (
       </Typography>
     </Grid>
   </div>
-)
+))
