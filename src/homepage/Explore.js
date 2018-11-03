@@ -3,11 +3,14 @@ import Link from 'react-router-dom/Link'
 import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'
 
-import Grid from '../InstitutionalPagesGrid'
+import HomepageGrid from './HomepageGrid'
 import Colors from '../Colors'
 
 export default () => (
-  <Grid id="explore">
+  <HomepageGrid
+    id="explore"
+    backgroundImage="url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-2.jpg')"
+  >
     <Link to={`/materials`} style={{ textDecoration: 'none' }}>
       <Button
         variant="contained"
@@ -41,5 +44,5 @@ export default () => (
       <br />
       Membro: Sistema B Brasil e CE100 Global Ellen MacArthur Foundation.
     </Typography>
-  </Grid>
+  </HomepageGrid>
 )

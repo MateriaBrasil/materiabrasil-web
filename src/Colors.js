@@ -6,4 +6,5 @@ export default {
   bondiBlue: '#049DAC',
   cinnabar: '#E3411E',
   alto: '#ddd',
+  grayNurse: '#E9EAE9',
 }

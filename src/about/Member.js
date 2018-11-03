@@ -1,8 +1,7 @@
 import React from 'react'
 import Grid from '@material-ui/core/Grid'
 import Avatar from '@material-ui/core/Avatar'
-import Typography from '@material-ui/core/Typography'
-import Colors from '../Colors'
+import MemberTypography from './MemberTypography'
 
 export default props => (
   <Grid item xs={12} sm={6} md={4} lg={3} style={{ padding: 20 }}>
@@ -17,15 +16,7 @@ export default props => (
         height: 200,
       }}
     />
-    <Typography
-      style={{ textAlign: 'center', color: Colors.white, fontWeight: 500 }}
-    >
-      {props.name}
-    </Typography>
-    <Typography
-      style={{ textAlign: 'center', color: Colors.white, fontWeight: 500 }}
-    >
-      {props.job}
-    </Typography>
+    <MemberTypography {...props}>{props.name}</MemberTypography>
+    <MemberTypography {...props}>{props.job}</MemberTypography>
   </Grid>
 )

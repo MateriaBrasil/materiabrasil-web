@@ -5,12 +5,12 @@ import Title from './Title'
 import Paragraph from './Paragraph'
 
 export default () => (
-  <Session>
-    <Title>
+  <Session id="goal">
+    <Title color>
       <br />
       Objetivo
     </Title>
-    <Paragraph>
+    <Paragraph color>
       O objetivo da MateriaMundi oferecer acesso à informação de qualidade e
       parâmetros para que seus usuários possam escolher alternativas
       comercialmente disponíveis e socioambiental responsáveis para os desafios

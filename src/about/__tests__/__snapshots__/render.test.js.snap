@@ -10,7 +10,7 @@ Array [
     style={
         Object {
             "alignContent": "center",
-            "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
+            "background": "#E9EAE9",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
             "paddingBottom": "10%",
@@ -32,7 +32,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
             style={
                 Object {
-                    "color": "white",
+                    "color": true,
                     "display": "inline-block",
                     "fontWeight": 600,
                     "verticalAlign": "middle",
@@ -50,7 +50,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
             style={
                 Object {
-                    "color": "white",
+                    "color": true,
                     "display": "inline-block",
                     "fontWeight": 300,
                     "marginBottom": "2%",
@@ -72,7 +72,7 @@ Array [
     style={
         Object {
             "alignContent": "center",
-            "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
+            "background": "url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-3.jpg')",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
             "paddingBottom": "10%",
@@ -136,6 +136,22 @@ Array [
             width="100%"
         />
     </div>
+</div>,
+  <div
+    className="MuiGrid-container-1"
+    style={
+        Object {
+            "alignContent": "center",
+            "background": "#E9EAE9",
+            "backgroundPosition": "center",
+            "backgroundSize": "cover",
+            "paddingBottom": "10%",
+            "paddingLeft": "5%",
+            "paddingRight": "5%",
+            "paddingTop": "10%",
+          }
+    }
+>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-136"
     >
@@ -156,7 +172,7 @@ Array [
     style={
         Object {
             "alignContent": "center",
-            "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
+            "background": "url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-4.jpg')",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
             "paddingBottom": "10%",
@@ -704,7 +720,7 @@ Array [
     style={
         Object {
             "alignContent": "center",
-            "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
+            "background": "#E9EAE9",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
             "paddingBottom": "10%",
@@ -726,7 +742,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
             style={
                 Object {
-                    "color": "white",
+                    "color": true,
                     "display": "inline-block",
                     "fontWeight": 600,
                     "verticalAlign": "middle",
@@ -746,7 +762,7 @@ Array [
                 className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
                 style={
                     Object {
-                        "color": "white",
+                        "color": true,
                         "display": "inline-block",
                         "fontWeight": 300,
                         "marginBottom": "2%",
@@ -793,7 +809,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -805,7 +821,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -846,7 +862,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -858,7 +874,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -899,7 +915,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -911,7 +927,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -952,7 +968,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -964,7 +980,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1005,7 +1021,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1017,7 +1033,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1058,7 +1074,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1070,7 +1086,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1085,7 +1101,7 @@ Array [
     style={
         Object {
             "alignContent": "center",
-            "backgroundImage": "url(\\"https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\\")",
+            "background": "url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-5.jpg')",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
             "paddingBottom": "10%",
@@ -1509,7 +1525,22 @@ Array [
             Neste direcionador analisamos como a empresa contribui para melhor a sociedade na qual está inserida.
         </h6>
     </div>
-    <br />
+</div>,
+  <div
+    className="MuiGrid-container-1"
+    style={
+        Object {
+            "alignContent": "center",
+            "background": "#E9EAE9",
+            "backgroundPosition": "center",
+            "backgroundSize": "cover",
+            "paddingBottom": "10%",
+            "paddingLeft": "5%",
+            "paddingRight": "5%",
+            "paddingTop": "10%",
+          }
+    }
+>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
         style={
@@ -1522,7 +1553,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
             style={
                 Object {
-                    "color": "white",
+                    "color": true,
                     "display": "inline-block",
                     "fontWeight": 600,
                     "verticalAlign": "middle",
@@ -1539,7 +1570,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
             style={
                 Object {
-                    "color": "white",
+                    "color": true,
                     "display": "inline-block",
                     "fontWeight": 300,
                     "marginBottom": "2%",
@@ -1613,7 +1644,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1625,7 +1656,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1664,7 +1695,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1676,7 +1707,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1715,7 +1746,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1727,7 +1758,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1766,7 +1797,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1778,7 +1809,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1817,7 +1848,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1829,7 +1860,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1868,7 +1899,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1880,7 +1911,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1919,7 +1950,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1931,7 +1962,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1970,7 +2001,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1982,7 +2013,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -2021,7 +2052,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -2033,7 +2064,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -2072,7 +2103,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -2084,7 +2115,7 @@ Array [
             className="MuiTypography-root-99 MuiTypography-body1-108"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }

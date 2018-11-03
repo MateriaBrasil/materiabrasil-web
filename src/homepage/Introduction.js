@@ -1,11 +1,14 @@
 import React from 'react'
 import Typography from '@material-ui/core/Typography'
 
-import Grid from '../InstitutionalPagesGrid'
+import HomepageGrid from './HomepageGrid'
 import Colors from '../Colors'
 
 export default () => (
-  <Grid id="introduction">
+  <HomepageGrid
+    id="introduction"
+    backgroundImage="url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-1.jpg')"
+  >
     <Typography
       variant="h3"
       color="inherit"
@@ -21,5 +24,5 @@ export default () => (
       <span style={{ fontWeight: 'bold' }}>Mundi</span>, nós ajudamos indústrias
       e consumidores a implementar ações para uma economia circular aplicada.
     </Typography>
-  </Grid>
+  </HomepageGrid>
 )
