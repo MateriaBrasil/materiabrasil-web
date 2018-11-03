@@ -3,7 +3,7 @@ import Grid from '@material-ui/core/Grid'
 
 import Colors from '../Colors'
 
-export default ({ style, backgroundImage, ...props }) => {
+export default ({ backgroundImage, style, ...props }) => {
   return (
     <Grid
       container
