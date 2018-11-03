@@ -2,7 +2,7 @@ import React from 'react'
 
 export default props => (
   <iframe
-    src="https://player.vimeo.com/video/140946149"
+    src="https://player.vimeo.com/video/140946149?title=0&byline=0&portrait=0"
     frameBorder="0"
     width="100%"
     height="100%"

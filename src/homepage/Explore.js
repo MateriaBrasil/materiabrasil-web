@@ -1,12 +1,10 @@
 import React from 'react'
 import Link from 'react-router-dom/Link'
 import Button from '@material-ui/core/Button'
-import Typography from '@material-ui/core/Typography'
 import { withStyles } from '@material-ui/core/styles'
 
 import SectionTitle from './SectionTitle'
 import Grid from './Grid'
-import Colors from '../Colors'
 
 const polygon = 'polygon(0 0, 100% 6%, 100% 100%, 0% 100%)'
 
@@ -43,21 +41,6 @@ export default withStyles(styles)(({ classes }) => (
           Explore
         </Button>
       </Link>
-      <Typography
-        style={{
-          color: Colors.white,
-          position: 'absolute',
-          bottom: 20,
-          width: '100%',
-          textAlign: 'center',
-          padding: '0 20px',
-        }}
-      >
-        Apoio: Instituto C&A; <br />
-        Parceiros: Good Tech Lab, Fab City Global, Materiom;
-        <br />
-        Membro: Sistema B Brasil e CE100 Global Ellen MacArthur Foundation.
-      </Typography>
     </Grid>
   </div>
 ))

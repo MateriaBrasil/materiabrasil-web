@@ -11,5 +11,201 @@ exports[`renders correctly 1`] = `
   <div>
     Router
   </div>
+  <div
+    className="MuiGrid-container-1"
+    style={
+      Object {
+        "backgroundColor": "white",
+        "padding": "40px 0",
+      }
+    }
+  >
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-2-73"
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    >
+      <h4
+        className="MuiTypography-root-98 MuiTypography-h4-113"
+        style={
+          Object {
+            "height": 70,
+            "paddingLeft": 30,
+            "paddingTop": 30,
+            "textAlign": "left",
+          }
+        }
+      >
+        Apoio
+      </h4>
+      <img
+        alt="Instituto C&A"
+        src="/images/partners/ic&a.png"
+        style={
+          Object {
+            "maxWidth": "100%",
+          }
+        }
+        title="Instituto C&A"
+      />
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-4-33 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-2-73"
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    >
+      <h4
+        className="MuiTypography-root-98 MuiTypography-h4-113"
+        style={
+          Object {
+            "height": 70,
+            "paddingLeft": 30,
+            "paddingTop": 30,
+            "textAlign": "left",
+          }
+        }
+      >
+        Parceiros
+      </h4>
+      <img
+        alt="Good Tech Lab"
+        src="/images/partners/gtl.png"
+        style={
+          Object {
+            "maxWidth": "100%",
+          }
+        }
+        title="Good Tech Lab"
+      />
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-4-33 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-2-73"
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    >
+      <h4
+        className="MuiTypography-root-98 MuiTypography-h4-113"
+        style={
+          Object {
+            "height": 70,
+            "paddingLeft": 30,
+            "paddingTop": 30,
+            "textAlign": "left",
+          }
+        }
+      />
+      <img
+        alt="Fab City Global"
+        src="/images/partners/fab-city.png"
+        style={
+          Object {
+            "maxWidth": "100%",
+          }
+        }
+        title="Fab City Global"
+      />
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-4-33 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-2-73"
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    >
+      <h4
+        className="MuiTypography-root-98 MuiTypography-h4-113"
+        style={
+          Object {
+            "height": 70,
+            "paddingLeft": 30,
+            "paddingTop": 30,
+            "textAlign": "left",
+          }
+        }
+      />
+      <img
+        alt="Materiom"
+        src="/images/partners/materiom.png"
+        style={
+          Object {
+            "maxWidth": "100%",
+          }
+        }
+        title="Materiom"
+      />
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-4-33 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-2-73"
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    >
+      <h4
+        className="MuiTypography-root-98 MuiTypography-h4-113"
+        style={
+          Object {
+            "height": 70,
+            "paddingLeft": 30,
+            "paddingTop": 30,
+            "textAlign": "left",
+          }
+        }
+      >
+        Membro
+      </h4>
+      <img
+        alt="Sistema B Brasil"
+        src="/images/partners/sistema-b.png"
+        style={
+          Object {
+            "maxWidth": "100%",
+          }
+        }
+        title="Sistema B Brasil"
+      />
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-4-33 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-2-73"
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    >
+      <h4
+        className="MuiTypography-root-98 MuiTypography-h4-113"
+        style={
+          Object {
+            "height": 70,
+            "paddingLeft": 30,
+            "paddingTop": 30,
+            "textAlign": "left",
+          }
+        }
+      />
+      <img
+        alt="CE100 Global Ellen MacArthur"
+        src="/images/partners/ce100.png"
+        style={
+          Object {
+            "maxWidth": "100%",
+          }
+        }
+        title="CE100 Global Ellen MacArthur"
+      />
+    </div>
+  </div>
 </div>
 `;
