@@ -8,6 +8,7 @@ const styles = theme => ({
   style: {
     textAlign: 'center',
     color: Colors.white,
+    marginBottom: 10,
   },
 })
 

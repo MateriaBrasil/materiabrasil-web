@@ -11,8 +11,8 @@ export default ({ backgroundImage, style, ...props }) => {
       style={{
         background: backgroundImage || Colors.grayNurse,
         backgroundPosition: 'center',
-        paddingTop: '15%',
-        paddingBottom: '15%',
+        paddingTop: '25%',
+        paddingBottom: '25%',
         paddingRight: '5%',
         paddingLeft: '5%',
         backgroundSize: 'cover',

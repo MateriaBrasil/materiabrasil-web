@@ -1,31 +1,45 @@
 import React from 'react'
 import Typography from '@material-ui/core/Typography'
 import Grid from '@material-ui/core/Grid'
+import { withStyles } from '@material-ui/core/styles'
 
 import Section from './Section'
 import Colors from '../Colors'
 
-const polygon = 'polygon(0 0, 100% 0, 100% 100%, 0 92%)'
+const polygon = 'polygon(0 0, 100% 0, 100% 100%, 0 98%)'
+const largePolygon = 'polygon(0 0, 100% 0, 100% 100%, 0 95%)'
 
-export default () => (
+const styles = theme => ({
+  section: {
+    WebkitClipPath: polygon,
+    clipPath: polygon,
+    [theme.breakpoints.up('lg')]: {
+      WebkitClipPath: largePolygon,
+      clipPath: largePolygon,
+    },
+  },
+  text: {
+    fontFamily: 'Gotham Rounded',
+    marginTop: 75,
+    padding: '0 20px',
+    color: Colors.white,
+    textAlign: 'center',
+    fontSize: 16,
+    [theme.breakpoints.up('lg')]: {
+      fontSize: 24,
+    },
+  },
+})
+
+export default withStyles(styles)(({ classes }) => (
   <Section
     id="goal"
     backgroundImage="url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-8.jpg')"
-    style={{ WebkitClipPath: polygon, clipPath: polygon }}
     justify="center"
+    className={classes.section}
   >
     <Grid item xs={12} md={8}>
-      <Typography
-        variant="h5"
-        color="inherit"
-        style={{
-          fontFamily: 'Gotham Rounded',
-          marginTop: 75,
-          padding: '0 20px',
-          color: Colors.white,
-          textAlign: 'center',
-        }}
-      >
+      <Typography variant="h4" className={classes.text}>
         O objetivo da MateriaMundi é oferecer acesso a informação de qualidade e
         parâmetros para que seus usuários possam escolher alternativas
         comercialmente disponíveis e socioambientalmente responsáveis para os
@@ -40,4 +54,4 @@ export default () => (
       </Typography>
     </Grid>
   </Section>
-)
+))

@@ -6,21 +6,28 @@ import { withStyles } from '@material-ui/core/styles'
 import gridStyle from './gridStyle'
 import Colors from '../Colors'
 
-export default withStyles(gridStyle)(({ color = Colors.white, ...props }) => (
-  <Grid item xs={12} className={props.classes.grid}>
+const styles = theme => ({
+  text: {
+    display: 'inline-block',
+    verticalAlign: 'middle',
+    marginLeft: '1%',
+    marginRight: '1%',
+    marginBottom: '2%',
+    padding: '0 6%',
+    fontSize: 14,
+    [theme.breakpoints.up('lg')]: {
+      fontSize: 20,
+    },
+  },
+  ...gridStyle(theme),
+})
+
+export default withStyles(styles)(({ classes, ...props }) => (
+  <Grid item xs={12} className={classes.grid}>
     <Typography
       variant="h6"
-      color="inherit"
-      style={{
-        color: props.color ? Colors.black : color,
-        display: 'inline-block',
-        verticalAlign: 'middle',
-        fontWeight: 300,
-        marginLeft: '1%',
-        marginRight: '1%',
-        marginBottom: '2%',
-        padding: '0 6%',
-      }}
+      className={classes.text}
+      style={{ color: props.color ? Colors.black : Colors.white }}
     >
       {props.children}
     </Typography>

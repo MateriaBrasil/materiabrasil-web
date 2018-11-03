@@ -1,4 +1,5 @@
 import React from 'react'
+import { withStyles } from '@material-ui/core/styles'
 
 import SectionTitle from 'homepage/SectionTitle'
 import Section from '../Section'
@@ -6,19 +7,28 @@ import Paragraph from '../Paragraph'
 import SymbolsList from './SymbolsList'
 import Subtitle from '../Subtitle'
 
-const polygon = 'polygon(0 0, 100% 8%, 100% 92%, 0 100%)'
+const polygon = 'polygon(0 0, 100% 0.5%, 100% 99.5%, 0 100%)'
+const largePolygon = 'polygon(0 0, 100% 4%, 100% 96%, 0 100%)'
 
-export default () => (
+const styles = theme => ({
+  section: {
+    WebkitClipPath: polygon,
+    clipPath: polygon,
+    [theme.breakpoints.up('lg')]: {
+      WebkitClipPath: largePolygon,
+      clipPath: largePolygon,
+      paddingBottom: 300,
+    },
+  },
+})
+
+export default withStyles(styles)(({ classes }) => (
   <div style={{ position: 'relative' }}>
     <SectionTitle image="/images/polygon-2.png">Direcionadores</SectionTitle>
     <Section
       id="drivers"
+      className={classes.section}
       backgroundImage="url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-5.jpg')"
-      style={{
-        WebkitClipPath: polygon,
-        clipPath: polygon,
-        paddingBottom: 300,
-      }}
     >
       <Subtitle>
         Para que servem os direcionadores de responsabilidade socioambiental da
@@ -71,4 +81,4 @@ export default () => (
       <SymbolsList />
     </Section>
   </div>
-)
+))
