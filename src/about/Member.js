@@ -16,7 +16,9 @@ export default props => (
         height: 200,
       }}
     />
-    <MemberTypography {...props}>{props.name}</MemberTypography>
+    <MemberTypography {...props} variant="h6">
+      {props.name}
+    </MemberTypography>
     <MemberTypography {...props}>{props.job}</MemberTypography>
   </Grid>
 )

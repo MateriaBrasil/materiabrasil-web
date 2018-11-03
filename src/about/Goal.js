@@ -1,16 +1,19 @@
 import React from 'react'
 
-import Session from './Session'
+import Section from './Section'
 import Title from './Title'
 import Paragraph from './Paragraph'
 
 export default () => (
-  <Session id="goal">
-    <Title color>
+  <Section
+    id="goal"
+    backgroundImage="url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-8.jpg')"
+  >
+    <Title>
       <br />
       Objetivo
     </Title>
-    <Paragraph color>
+    <Paragraph>
       O objetivo da MateriaMundi oferecer acesso à informação de qualidade e
       parâmetros para que seus usuários possam escolher alternativas
       comercialmente disponíveis e socioambiental responsáveis para os desafios
@@ -22,5 +25,5 @@ export default () => (
       projetar, produzir e consumir mais responsável com a sociedade e o meio
       ambiente.
     </Paragraph>
-  </Session>
+  </Section>
 )

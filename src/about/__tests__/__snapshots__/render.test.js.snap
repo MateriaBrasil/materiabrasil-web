@@ -10,69 +10,7 @@ Array [
     style={
         Object {
             "alignContent": "center",
-            "background": "#E9EAE9",
-            "backgroundPosition": "center",
-            "backgroundSize": "cover",
-            "paddingBottom": "10%",
-            "paddingLeft": "5%",
-            "paddingRight": "5%",
-            "paddingTop": "10%",
-          }
-    }
->
-    <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
-        style={
-            Object {
-                "position": "relative",
-              }
-        }
-    >
-        <h4
-            className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
-            style={
-                Object {
-                    "color": true,
-                    "display": "inline-block",
-                    "fontWeight": 600,
-                    "verticalAlign": "middle",
-                  }
-            }
-        >
-            <br />
-            Objetivo
-        </h4>
-    </div>
-    <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
-    >
-        <h5
-            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-            style={
-                Object {
-                    "color": true,
-                    "display": "inline-block",
-                    "fontWeight": 300,
-                    "marginBottom": "2%",
-                    "marginLeft": "1%",
-                    "marginRight": "1%",
-                    "padding": "0 6%",
-                    "verticalAlign": "middle",
-                  }
-            }
-        >
-            O objetivo da MateriaMundi oferecer acesso à informação de qualidade e parâmetros para que seus usuários possam escolher alternativas comercialmente disponíveis e socioambiental responsáveis para os desafios do dia a dia, variando desde o que vestimos até como construímos nossas casas.
-            <br />
-            Através da criação de uma comunidade ativa a plataforma permite a criação de conhecimento compartilhado sobre ações práticas para uma forma de projetar, produzir e consumir mais responsável com a sociedade e o meio ambiente.
-        </h5>
-    </div>
-</div>,
-  <div
-    className="MuiGrid-container-1"
-    style={
-        Object {
-            "alignContent": "center",
-            "background": "url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-3.jpg')",
+            "background": "url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-8.jpg')",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
             "paddingBottom": "10%",
@@ -101,40 +39,32 @@ Array [
                   }
             }
         >
-            Como usar
+            <br />
+            Objetivo
         </h4>
     </div>
     <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-8-65 Component-grid-135"
-        style={
-            Object {
-                "padding": "30%",
-                "position": "relative",
-              }
-        }
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-134"
     >
-        <iframe
-            allowFullScreen="true"
-            frameBorder="0"
-            height="100%"
-            mozallowfullscreen="true"
-            src="https://player.vimeo.com/video/140946149"
+        <h5
+            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
             style={
                 Object {
-                    "border": 0,
-                    "height": "100%",
-                    "left": 0,
-                    "maxHeight": "540",
-                    "maxWidth": "960",
-                    "position": "absolute",
-                    "top": 0,
-                    "width": "100%",
+                    "color": "white",
+                    "display": "inline-block",
+                    "fontWeight": 300,
+                    "marginBottom": "2%",
+                    "marginLeft": "1%",
+                    "marginRight": "1%",
+                    "padding": "0 6%",
+                    "verticalAlign": "middle",
                   }
             }
-            title="Vídeo de introdução ao Materia Brasil"
-            webkitallowfullscreen="true"
-            width="100%"
-        />
+        >
+            O objetivo da MateriaMundi oferecer acesso à informação de qualidade e parâmetros para que seus usuários possam escolher alternativas comercialmente disponíveis e socioambiental responsáveis para os desafios do dia a dia, variando desde o que vestimos até como construímos nossas casas.
+            <br />
+            Através da criação de uma comunidade ativa a plataforma permite a criação de conhecimento compartilhado sobre ações práticas para uma forma de projetar, produzir e consumir mais responsável com a sociedade e o meio ambiente.
+        </h5>
     </div>
 </div>,
   <div
@@ -153,7 +83,34 @@ Array [
     }
 >
     <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-136"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 Component-grid-98"
+        style={
+            Object {
+                "position": "relative",
+              }
+        }
+    >
+        <h4
+            className="MuiTypography-root-99 MuiTypography-h4-114 MuiTypography-colorInherit-128"
+            style={
+                Object {
+                    "color": true,
+                    "display": "inline-block",
+                    "fontWeight": 600,
+                    "verticalAlign": "middle",
+                  }
+            }
+        >
+            Como usar
+        </h4>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+        style={
+            Object {
+                "textAlign": "center",
+              }
+        }
     >
         <img
             alt=""
@@ -172,7 +129,7 @@ Array [
     style={
         Object {
             "alignContent": "center",
-            "background": "url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-4.jpg')",
+            "background": "url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-2.jpg')",
             "backgroundPosition": "center",
             "backgroundSize": "cover",
             "paddingBottom": "10%",
@@ -213,7 +170,7 @@ Array [
         }
     >
         <div
-            className="MuiAvatar-root-137"
+            className="MuiAvatar-root-135"
             style={
                 Object {
                     "display": "block",
@@ -226,14 +183,17 @@ Array [
         >
             <img
                 alt="Manuela Yamada - foto"
-                className="MuiAvatar-img-139"
+                className="MuiAvatar-img-137"
                 sizes={undefined}
                 src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Manuela_Yamada.jpg"
                 srcSet={undefined}
             />
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Manuela_Yamada.jpg"
+            job={undefined}
+            name="Manuela Yamada"
             style={
                 Object {
                     "color": "white",
@@ -243,9 +203,12 @@ Array [
             }
         >
             Manuela Yamada
-        </p>
+        </h6>
         <p
             className="MuiTypography-root-99 MuiTypography-body1-108"
+            image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Manuela_Yamada.jpg"
+            job={undefined}
+            name="Manuela Yamada"
             style={
                 Object {
                     "color": "white",
@@ -264,7 +227,7 @@ Array [
         }
     >
         <div
-            className="MuiAvatar-root-137"
+            className="MuiAvatar-root-135"
             style={
                 Object {
                     "display": "block",
@@ -277,14 +240,17 @@ Array [
         >
             <img
                 alt="Bernardo Ferracioli - foto"
-                className="MuiAvatar-img-139"
+                className="MuiAvatar-img-137"
                 sizes={undefined}
                 src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bernardo_Ferracioli.jpg"
                 srcSet={undefined}
             />
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bernardo_Ferracioli.jpg"
+            job={undefined}
+            name="Bernardo Ferracioli"
             style={
                 Object {
                     "color": "white",
@@ -294,9 +260,12 @@ Array [
             }
         >
             Bernardo Ferracioli
-        </p>
+        </h6>
         <p
             className="MuiTypography-root-99 MuiTypography-body1-108"
+            image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bernardo_Ferracioli.jpg"
+            job={undefined}
+            name="Bernardo Ferracioli"
             style={
                 Object {
                     "color": "white",
@@ -315,7 +284,7 @@ Array [
         }
     >
         <div
-            className="MuiAvatar-root-137"
+            className="MuiAvatar-root-135"
             style={
                 Object {
                     "display": "block",
@@ -328,14 +297,17 @@ Array [
         >
             <img
                 alt="Bruno Temer - foto"
-                className="MuiAvatar-img-139"
+                className="MuiAvatar-img-137"
                 sizes={undefined}
                 src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bruno_Temer.jpg"
                 srcSet={undefined}
             />
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bruno_Temer.jpg"
+            job={undefined}
+            name="Bruno Temer"
             style={
                 Object {
                     "color": "white",
@@ -345,9 +317,12 @@ Array [
             }
         >
             Bruno Temer
-        </p>
+        </h6>
         <p
             className="MuiTypography-root-99 MuiTypography-body1-108"
+            image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bruno_Temer.jpg"
+            job={undefined}
+            name="Bruno Temer"
             style={
                 Object {
                     "color": "white",
@@ -366,7 +341,7 @@ Array [
         }
     >
         <div
-            className="MuiAvatar-root-137"
+            className="MuiAvatar-root-135"
             style={
                 Object {
                     "display": "block",
@@ -379,14 +354,17 @@ Array [
         >
             <img
                 alt="Pedro Themoteo - foto"
-                className="MuiAvatar-img-139"
+                className="MuiAvatar-img-137"
                 sizes={undefined}
                 src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Pedro_Themoteo.jpg"
                 srcSet={undefined}
             />
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Pedro_Themoteo.jpg"
+            job={undefined}
+            name="Pedro Themoteo"
             style={
                 Object {
                     "color": "white",
@@ -396,9 +374,12 @@ Array [
             }
         >
             Pedro Themoteo
-        </p>
+        </h6>
         <p
             className="MuiTypography-root-99 MuiTypography-body1-108"
+            image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Pedro_Themoteo.jpg"
+            job={undefined}
+            name="Pedro Themoteo"
             style={
                 Object {
                     "color": "white",
@@ -417,7 +398,7 @@ Array [
         }
     >
         <div
-            className="MuiAvatar-root-137"
+            className="MuiAvatar-root-135"
             style={
                 Object {
                     "display": "block",
@@ -430,14 +411,17 @@ Array [
         >
             <img
                 alt="Daniele Valente - foto"
-                className="MuiAvatar-img-139"
+                className="MuiAvatar-img-137"
                 sizes={undefined}
                 src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Daniele_Valente.jpg"
                 srcSet={undefined}
             />
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Daniele_Valente.jpg"
+            job={undefined}
+            name="Daniele Valente"
             style={
                 Object {
                     "color": "white",
@@ -447,9 +431,12 @@ Array [
             }
         >
             Daniele Valente
-        </p>
+        </h6>
         <p
             className="MuiTypography-root-99 MuiTypography-body1-108"
+            image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Daniele_Valente.jpg"
+            job={undefined}
+            name="Daniele Valente"
             style={
                 Object {
                     "color": "white",
@@ -468,7 +455,7 @@ Array [
         }
     >
         <div
-            className="MuiAvatar-root-137"
+            className="MuiAvatar-root-135"
             style={
                 Object {
                     "display": "block",
@@ -481,14 +468,17 @@ Array [
         >
             <img
                 alt="Elisa Ferreira - foto"
-                className="MuiAvatar-img-139"
+                className="MuiAvatar-img-137"
                 sizes={undefined}
                 src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Elisa_Ferreira.jpg"
                 srcSet={undefined}
             />
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Elisa_Ferreira.jpg"
+            job={undefined}
+            name="Elisa Ferreira"
             style={
                 Object {
                     "color": "white",
@@ -498,9 +488,12 @@ Array [
             }
         >
             Elisa Ferreira
-        </p>
+        </h6>
         <p
             className="MuiTypography-root-99 MuiTypography-body1-108"
+            image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Elisa_Ferreira.jpg"
+            job={undefined}
+            name="Elisa Ferreira"
             style={
                 Object {
                     "color": "white",
@@ -519,7 +512,7 @@ Array [
         }
     >
         <div
-            className="MuiAvatar-root-137"
+            className="MuiAvatar-root-135"
             style={
                 Object {
                     "display": "block",
@@ -532,14 +525,17 @@ Array [
         >
             <img
                 alt="Victor Lanari - foto"
-                className="MuiAvatar-img-139"
+                className="MuiAvatar-img-137"
                 sizes={undefined}
                 src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Victor_Lanari.jpg"
                 srcSet={undefined}
             />
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Victor_Lanari.jpg"
+            job={undefined}
+            name="Victor Lanari"
             style={
                 Object {
                     "color": "white",
@@ -549,9 +545,12 @@ Array [
             }
         >
             Victor Lanari
-        </p>
+        </h6>
         <p
             className="MuiTypography-root-99 MuiTypography-body1-108"
+            image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Victor_Lanari.jpg"
+            job={undefined}
+            name="Victor Lanari"
             style={
                 Object {
                     "color": "white",
@@ -570,7 +569,7 @@ Array [
         }
     >
         <div
-            className="MuiAvatar-root-137"
+            className="MuiAvatar-root-135"
             style={
                 Object {
                     "display": "block",
@@ -583,14 +582,17 @@ Array [
         >
             <img
                 alt="Dahyna Ribeiro - foto"
-                className="MuiAvatar-img-139"
+                className="MuiAvatar-img-137"
                 sizes={undefined}
                 src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Dahyna_Irribaren.jpg"
                 srcSet={undefined}
             />
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Dahyna_Irribaren.jpg"
+            job={undefined}
+            name="Dahyna Ribeiro"
             style={
                 Object {
                     "color": "white",
@@ -600,9 +602,12 @@ Array [
             }
         >
             Dahyna Ribeiro
-        </p>
+        </h6>
         <p
             className="MuiTypography-root-99 MuiTypography-body1-108"
+            image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Dahyna_Irribaren.jpg"
+            job={undefined}
+            name="Dahyna Ribeiro"
             style={
                 Object {
                     "color": "white",
@@ -621,7 +626,7 @@ Array [
         }
     >
         <div
-            className="MuiAvatar-root-137"
+            className="MuiAvatar-root-135"
             style={
                 Object {
                     "display": "block",
@@ -634,14 +639,17 @@ Array [
         >
             <img
                 alt="Bernardo Mattos - foto"
-                className="MuiAvatar-img-139"
+                className="MuiAvatar-img-137"
                 sizes={undefined}
                 src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bernardo_Mattos.jpg"
                 srcSet={undefined}
             />
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bernardo_Mattos.jpg"
+            job={undefined}
+            name="Bernardo Mattos"
             style={
                 Object {
                     "color": "white",
@@ -651,9 +659,12 @@ Array [
             }
         >
             Bernardo Mattos
-        </p>
+        </h6>
         <p
             className="MuiTypography-root-99 MuiTypography-body1-108"
+            image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bernardo_Mattos.jpg"
+            job={undefined}
+            name="Bernardo Mattos"
             style={
                 Object {
                     "color": "white",
@@ -672,7 +683,7 @@ Array [
         }
     >
         <div
-            className="MuiAvatar-root-137"
+            className="MuiAvatar-root-135"
             style={
                 Object {
                     "display": "block",
@@ -685,14 +696,17 @@ Array [
         >
             <img
                 alt="Seasoned - foto"
-                className="MuiAvatar-img-139"
+                className="MuiAvatar-img-137"
                 sizes={undefined}
                 src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Seasoned.jpg"
                 srcSet={undefined}
             />
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Seasoned.jpg"
+            job={undefined}
+            name="Seasoned"
             style={
                 Object {
                     "color": "white",
@@ -702,9 +716,12 @@ Array [
             }
         >
             Seasoned
-        </p>
+        </h6>
         <p
             className="MuiTypography-root-99 MuiTypography-body1-108"
+            image="https://s3.amazonaws.com/materiamundi-us/static/equipe/Seasoned.jpg"
+            job={undefined}
+            name="Seasoned"
             style={
                 Object {
                     "color": "white",
@@ -786,7 +803,7 @@ Array [
         }
     >
         <div
-            className="MuiAvatar-root-137"
+            className="MuiAvatar-root-135"
             style={
                 Object {
                     "display": "block",
@@ -799,14 +816,17 @@ Array [
         >
             <img
                 alt="Margarida Lunetta - foto"
-                className="MuiAvatar-img-139"
+                className="MuiAvatar-img-137"
                 sizes={undefined}
                 src="https://s3.amazonaws.com/materiamundi-us/static/conselho/margarida_lunetta.png"
                 srcSet={undefined}
             />
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            image="https://s3.amazonaws.com/materiamundi-us/static/conselho/margarida_lunetta.png"
+            job="Gestora do programa Transformação Circular da Fundação C&A"
+            name="Margarida Lunetta"
             style={
                 Object {
                     "color": "black",
@@ -816,9 +836,12 @@ Array [
             }
         >
             Margarida Lunetta
-        </p>
+        </h6>
         <p
             className="MuiTypography-root-99 MuiTypography-body1-108"
+            image="https://s3.amazonaws.com/materiamundi-us/static/conselho/margarida_lunetta.png"
+            job="Gestora do programa Transformação Circular da Fundação C&A"
+            name="Margarida Lunetta"
             style={
                 Object {
                     "color": "black",
@@ -839,7 +862,7 @@ Array [
         }
     >
         <div
-            className="MuiAvatar-root-137"
+            className="MuiAvatar-root-135"
             style={
                 Object {
                     "display": "block",
@@ -852,14 +875,17 @@ Array [
         >
             <img
                 alt="Arnoud Passenier - foto"
-                className="MuiAvatar-img-139"
+                className="MuiAvatar-img-137"
                 sizes={undefined}
                 src="https://s3.amazonaws.com/materiamundi-us/static/conselho/arnoud_passenier.png"
                 srcSet={undefined}
             />
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            image="https://s3.amazonaws.com/materiamundi-us/static/conselho/arnoud_passenier.png"
+            job="Gestor Sênior do programa de Economia Circular do governo da Holanda"
+            name="Arnoud Passenier"
             style={
                 Object {
                     "color": "black",
@@ -869,9 +895,12 @@ Array [
             }
         >
             Arnoud Passenier
-        </p>
+        </h6>
         <p
             className="MuiTypography-root-99 MuiTypography-body1-108"
+            image="https://s3.amazonaws.com/materiamundi-us/static/conselho/arnoud_passenier.png"
+            job="Gestor Sênior do programa de Economia Circular do governo da Holanda"
+            name="Arnoud Passenier"
             style={
                 Object {
                     "color": "black",
@@ -892,7 +921,7 @@ Array [
         }
     >
         <div
-            className="MuiAvatar-root-137"
+            className="MuiAvatar-root-135"
             style={
                 Object {
                     "display": "block",
@@ -905,14 +934,17 @@ Array [
         >
             <img
                 alt="Luisa Santiago - foto"
-                className="MuiAvatar-img-139"
+                className="MuiAvatar-img-137"
                 sizes={undefined}
                 src="https://s3.amazonaws.com/materiamundi-us/static/conselho/luisa_santiago.png"
                 srcSet={undefined}
             />
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            image="https://s3.amazonaws.com/materiamundi-us/static/conselho/luisa_santiago.png"
+            job="Diretora Executiva Ellen MacArthur Foundation Brasil"
+            name="Luisa Santiago"
             style={
                 Object {
                     "color": "black",
@@ -922,9 +954,12 @@ Array [
             }
         >
             Luisa Santiago
-        </p>
+        </h6>
         <p
             className="MuiTypography-root-99 MuiTypography-body1-108"
+            image="https://s3.amazonaws.com/materiamundi-us/static/conselho/luisa_santiago.png"
+            job="Diretora Executiva Ellen MacArthur Foundation Brasil"
+            name="Luisa Santiago"
             style={
                 Object {
                     "color": "black",
@@ -945,7 +980,7 @@ Array [
         }
     >
         <div
-            className="MuiAvatar-root-137"
+            className="MuiAvatar-root-135"
             style={
                 Object {
                     "display": "block",
@@ -958,14 +993,17 @@ Array [
         >
             <img
                 alt="Tomás de Lara - foto"
-                className="MuiAvatar-img-139"
+                className="MuiAvatar-img-137"
                 sizes={undefined}
                 src="https://s3.amazonaws.com/materiamundi-us/static/conselho/tomas_de_lara.jpg"
                 srcSet={undefined}
             />
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            image="https://s3.amazonaws.com/materiamundi-us/static/conselho/tomas_de_lara.jpg"
+            job="Lead Cidades + B Global Sistema B Brasil"
+            name="Tomás de Lara"
             style={
                 Object {
                     "color": "black",
@@ -975,9 +1013,12 @@ Array [
             }
         >
             Tomás de Lara
-        </p>
+        </h6>
         <p
             className="MuiTypography-root-99 MuiTypography-body1-108"
+            image="https://s3.amazonaws.com/materiamundi-us/static/conselho/tomas_de_lara.jpg"
+            job="Lead Cidades + B Global Sistema B Brasil"
+            name="Tomás de Lara"
             style={
                 Object {
                     "color": "black",
@@ -998,7 +1039,7 @@ Array [
         }
     >
         <div
-            className="MuiAvatar-root-137"
+            className="MuiAvatar-root-135"
             style={
                 Object {
                     "display": "block",
@@ -1011,14 +1052,17 @@ Array [
         >
             <img
                 alt="Taciana Abreu - foto"
-                className="MuiAvatar-img-139"
+                className="MuiAvatar-img-137"
                 sizes={undefined}
                 src="https://s3.amazonaws.com/materiamundi-us/static/conselho/taciana_abreu.png"
                 srcSet={undefined}
             />
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            image="https://s3.amazonaws.com/materiamundi-us/static/conselho/taciana_abreu.png"
+            job="Articuladora Yunus Negócios Sociais Brasil e Head de Marketing Farm Rio"
+            name="Taciana Abreu"
             style={
                 Object {
                     "color": "black",
@@ -1028,9 +1072,12 @@ Array [
             }
         >
             Taciana Abreu
-        </p>
+        </h6>
         <p
             className="MuiTypography-root-99 MuiTypography-body1-108"
+            image="https://s3.amazonaws.com/materiamundi-us/static/conselho/taciana_abreu.png"
+            job="Articuladora Yunus Negócios Sociais Brasil e Head de Marketing Farm Rio"
+            name="Taciana Abreu"
             style={
                 Object {
                     "color": "black",
@@ -1051,7 +1098,7 @@ Array [
         }
     >
         <div
-            className="MuiAvatar-root-137"
+            className="MuiAvatar-root-135"
             style={
                 Object {
                     "display": "block",
@@ -1064,14 +1111,17 @@ Array [
         >
             <img
                 alt="Bernardo Ferracioli - foto"
-                className="MuiAvatar-img-139"
+                className="MuiAvatar-img-137"
                 sizes={undefined}
                 src="https://s3.amazonaws.com/materiamundi-us/static/conselho/bernardo_ferracioli.png"
                 srcSet={undefined}
             />
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            image="https://s3.amazonaws.com/materiamundi-us/static/conselho/bernardo_ferracioli.png"
+            job="Diretor Financeiro da MateriaBrasil"
+            name="Bernardo Ferracioli"
             style={
                 Object {
                     "color": "black",
@@ -1081,9 +1131,12 @@ Array [
             }
         >
             Bernardo Ferracioli
-        </p>
+        </h6>
         <p
             className="MuiTypography-root-99 MuiTypography-body1-108"
+            image="https://s3.amazonaws.com/materiamundi-us/static/conselho/bernardo_ferracioli.png"
+            job="Diretor Financeiro da MateriaBrasil"
+            name="Bernardo Ferracioli"
             style={
                 Object {
                     "color": "black",
@@ -1298,7 +1351,7 @@ Array [
         >
             <button
                 backgroundColor="transparent"
-                className="MuiButtonBase-root-168 MuiButton-root-142 MuiButton-text-144 MuiButton-flat-147 Component-opacityOnHover-141"
+                className="MuiButtonBase-root-166 MuiButton-root-140 MuiButton-text-142 MuiButton-flat-145 Component-opacityOnHover-139"
                 disabled={false}
                 onBlur={[Function]}
                 onFocus={[Function]}
@@ -1314,7 +1367,7 @@ Array [
                 type="button"
             >
                 <span
-                    className="MuiButton-label-143"
+                    className="MuiButton-label-141"
                 >
                     <img
                         onClick={[Function]}
@@ -1322,17 +1375,17 @@ Array [
                     />
                 </span>
                 <span
-                    className="MuiTouchRipple-root-186"
+                    className="MuiTouchRipple-root-184"
                 />
             </button>
         </div>
         <h5
-            className="MuiTypography-root-99 MuiTypography-h5-115 Component-style-171"
+            className="MuiTypography-root-99 MuiTypography-h5-115 Component-style-169"
         >
             Materialidade
         </h5>
         <h6
-            className="MuiTypography-root-99 MuiTypography-h6-116 Component-style-171"
+            className="MuiTypography-root-99 MuiTypography-h6-116 Component-style-169"
             style={
                 Object {
                     "fontWeight": 300,
@@ -1359,7 +1412,7 @@ Array [
         >
             <button
                 backgroundColor="transparent"
-                className="MuiButtonBase-root-168 MuiButton-root-142 MuiButton-text-144 MuiButton-flat-147 Component-opacityOnHover-141"
+                className="MuiButtonBase-root-166 MuiButton-root-140 MuiButton-text-142 MuiButton-flat-145 Component-opacityOnHover-139"
                 disabled={false}
                 onBlur={[Function]}
                 onFocus={[Function]}
@@ -1375,7 +1428,7 @@ Array [
                 type="button"
             >
                 <span
-                    className="MuiButton-label-143"
+                    className="MuiButton-label-141"
                 >
                     <img
                         onClick={[Function]}
@@ -1383,17 +1436,17 @@ Array [
                     />
                 </span>
                 <span
-                    className="MuiTouchRipple-root-186"
+                    className="MuiTouchRipple-root-184"
                 />
             </button>
         </div>
         <h5
-            className="MuiTypography-root-99 MuiTypography-h5-115 Component-style-171"
+            className="MuiTypography-root-99 MuiTypography-h5-115 Component-style-169"
         >
             Manufatura
         </h5>
         <h6
-            className="MuiTypography-root-99 MuiTypography-h6-116 Component-style-171"
+            className="MuiTypography-root-99 MuiTypography-h6-116 Component-style-169"
             style={
                 Object {
                     "fontWeight": 300,
@@ -1420,7 +1473,7 @@ Array [
         >
             <button
                 backgroundColor="transparent"
-                className="MuiButtonBase-root-168 MuiButton-root-142 MuiButton-text-144 MuiButton-flat-147 Component-opacityOnHover-141"
+                className="MuiButtonBase-root-166 MuiButton-root-140 MuiButton-text-142 MuiButton-flat-145 Component-opacityOnHover-139"
                 disabled={false}
                 onBlur={[Function]}
                 onFocus={[Function]}
@@ -1436,7 +1489,7 @@ Array [
                 type="button"
             >
                 <span
-                    className="MuiButton-label-143"
+                    className="MuiButton-label-141"
                 >
                     <img
                         onClick={[Function]}
@@ -1444,17 +1497,17 @@ Array [
                     />
                 </span>
                 <span
-                    className="MuiTouchRipple-root-186"
+                    className="MuiTouchRipple-root-184"
                 />
             </button>
         </div>
         <h5
-            className="MuiTypography-root-99 MuiTypography-h5-115 Component-style-171"
+            className="MuiTypography-root-99 MuiTypography-h5-115 Component-style-169"
         >
             Gestão e governança
         </h5>
         <h6
-            className="MuiTypography-root-99 MuiTypography-h6-116 Component-style-171"
+            className="MuiTypography-root-99 MuiTypography-h6-116 Component-style-169"
             style={
                 Object {
                     "fontWeight": 300,
@@ -1481,7 +1534,7 @@ Array [
         >
             <button
                 backgroundColor="transparent"
-                className="MuiButtonBase-root-168 MuiButton-root-142 MuiButton-text-144 MuiButton-flat-147 Component-opacityOnHover-141"
+                className="MuiButtonBase-root-166 MuiButton-root-140 MuiButton-text-142 MuiButton-flat-145 Component-opacityOnHover-139"
                 disabled={false}
                 onBlur={[Function]}
                 onFocus={[Function]}
@@ -1497,7 +1550,7 @@ Array [
                 type="button"
             >
                 <span
-                    className="MuiButton-label-143"
+                    className="MuiButton-label-141"
                 >
                     <img
                         onClick={[Function]}
@@ -1505,17 +1558,17 @@ Array [
                     />
                 </span>
                 <span
-                    className="MuiTouchRipple-root-186"
+                    className="MuiTouchRipple-root-184"
                 />
             </button>
         </div>
         <h5
-            className="MuiTypography-root-99 MuiTypography-h5-115 Component-style-171"
+            className="MuiTypography-root-99 MuiTypography-h5-115 Component-style-169"
         >
             Humano Social
         </h5>
         <h6
-            className="MuiTypography-root-99 MuiTypography-h6-116 Component-style-171"
+            className="MuiTypography-root-99 MuiTypography-h6-116 Component-style-169"
             style={
                 Object {
                     "fontWeight": 300,
@@ -1585,34 +1638,6 @@ Array [
         </h5>
     </div>
     <div
-        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
-        style={
-            Object {
-                "margin": "0 0",
-                "padding": "0 0",
-                "position": "relative",
-                "textAlign": "center",
-              }
-        }
-    >
-        <h5
-            className="MuiTypography-root-99 MuiTypography-h5-115 MuiTypography-colorInherit-128"
-            padding="0 0"
-            style={
-                Object {
-                    "color": "white",
-                    "display": "inline-block",
-                    "fontWeight": 600,
-                    "marginBottom": "2%",
-                    "marginTop": "2%",
-                    "verticalAlign": "middle",
-                  }
-            }
-        >
-            Conheça o nosso time!
-        </h5>
-    </div>
-    <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
         style={
             Object {
@@ -1621,7 +1646,7 @@ Array [
         }
     >
         <div
-            className="MuiAvatar-root-137"
+            className="MuiAvatar-root-135"
             style={
                 Object {
                     "display": "block",
@@ -1633,15 +1658,18 @@ Array [
             }
         >
             <img
-                alt="Aldo Ometto - USP - foto"
-                className="MuiAvatar-img-139"
+                alt="Aldo Ometto - foto"
+                className="MuiAvatar-img-137"
                 sizes={undefined}
                 src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/aldo_ometto.jpg"
                 srcSet={undefined}
             />
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/aldo_ometto.jpg"
+            job="USP"
+            name="Aldo Ometto"
             style={
                 Object {
                     "color": "black",
@@ -1650,10 +1678,13 @@ Array [
                   }
             }
         >
-            Aldo Ometto - USP
-        </p>
+            Aldo Ometto
+        </h6>
         <p
             className="MuiTypography-root-99 MuiTypography-body1-108"
+            image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/aldo_ometto.jpg"
+            job="USP"
+            name="Aldo Ometto"
             style={
                 Object {
                     "color": "black",
@@ -1661,7 +1692,9 @@ Array [
                     "textAlign": "center",
                   }
             }
-        />
+        >
+            USP
+        </p>
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -1672,7 +1705,7 @@ Array [
         }
     >
         <div
-            className="MuiAvatar-root-137"
+            className="MuiAvatar-root-135"
             style={
                 Object {
                     "display": "block",
@@ -1684,15 +1717,18 @@ Array [
             }
         >
             <img
-                alt="Weber Amaral - USP - foto"
-                className="MuiAvatar-img-139"
+                alt="Weber Amaral - foto"
+                className="MuiAvatar-img-137"
                 sizes={undefined}
                 src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/weber_amaral.jpg"
                 srcSet={undefined}
             />
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/weber_amaral.jpg"
+            job="USP"
+            name="Weber Amaral"
             style={
                 Object {
                     "color": "black",
@@ -1701,10 +1737,13 @@ Array [
                   }
             }
         >
-            Weber Amaral - USP
-        </p>
+            Weber Amaral
+        </h6>
         <p
             className="MuiTypography-root-99 MuiTypography-body1-108"
+            image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/weber_amaral.jpg"
+            job="USP"
+            name="Weber Amaral"
             style={
                 Object {
                     "color": "black",
@@ -1712,7 +1751,9 @@ Array [
                     "textAlign": "center",
                   }
             }
-        />
+        >
+            USP
+        </p>
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -1723,7 +1764,7 @@ Array [
         }
     >
         <div
-            className="MuiAvatar-root-137"
+            className="MuiAvatar-root-135"
             style={
                 Object {
                     "display": "block",
@@ -1735,15 +1776,18 @@ Array [
             }
         >
             <img
-                alt="Juliana Sardinha - Efficacia Empresarial - foto"
-                className="MuiAvatar-img-139"
+                alt="Juliana Sardinha - foto"
+                className="MuiAvatar-img-137"
                 sizes={undefined}
                 src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/juliana_sardinha.jpg"
                 srcSet={undefined}
             />
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/juliana_sardinha.jpg"
+            job="Efficacia Empresarial"
+            name="Juliana Sardinha"
             style={
                 Object {
                     "color": "black",
@@ -1752,10 +1796,13 @@ Array [
                   }
             }
         >
-            Juliana Sardinha - Efficacia Empresarial
-        </p>
+            Juliana Sardinha
+        </h6>
         <p
             className="MuiTypography-root-99 MuiTypography-body1-108"
+            image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/juliana_sardinha.jpg"
+            job="Efficacia Empresarial"
+            name="Juliana Sardinha"
             style={
                 Object {
                     "color": "black",
@@ -1763,7 +1810,9 @@ Array [
                     "textAlign": "center",
                   }
             }
-        />
+        >
+            Efficacia Empresarial
+        </p>
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -1774,7 +1823,7 @@ Array [
         }
     >
         <div
-            className="MuiAvatar-root-137"
+            className="MuiAvatar-root-135"
             style={
                 Object {
                     "display": "block",
@@ -1786,15 +1835,18 @@ Array [
             }
         >
             <img
-                alt="Rosângela de Carvalho - Efficacia Empresarial - foto"
-                className="MuiAvatar-img-139"
+                alt="Rosângela de Carvalho - foto"
+                className="MuiAvatar-img-137"
                 sizes={undefined}
                 src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/rosangela_de_carvalho.jpg"
                 srcSet={undefined}
             />
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/rosangela_de_carvalho.jpg"
+            job="Efficacia Empresarial"
+            name="Rosângela de Carvalho"
             style={
                 Object {
                     "color": "black",
@@ -1803,10 +1855,13 @@ Array [
                   }
             }
         >
-            Rosângela de Carvalho - Efficacia Empresarial
-        </p>
+            Rosângela de Carvalho
+        </h6>
         <p
             className="MuiTypography-root-99 MuiTypography-body1-108"
+            image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/rosangela_de_carvalho.jpg"
+            job="Efficacia Empresarial"
+            name="Rosângela de Carvalho"
             style={
                 Object {
                     "color": "black",
@@ -1814,7 +1869,9 @@ Array [
                     "textAlign": "center",
                   }
             }
-        />
+        >
+            Efficacia Empresarial
+        </p>
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -1825,7 +1882,7 @@ Array [
         }
     >
         <div
-            className="MuiAvatar-root-137"
+            className="MuiAvatar-root-135"
             style={
                 Object {
                     "display": "block",
@@ -1837,15 +1894,18 @@ Array [
             }
         >
             <img
-                alt="Jéssica Galdino - Emboé - foto"
-                className="MuiAvatar-img-139"
+                alt="Jéssica Galdino - foto"
+                className="MuiAvatar-img-137"
                 sizes={undefined}
                 src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/jessica_galdino_de_freitas.jpg"
                 srcSet={undefined}
             />
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/jessica_galdino_de_freitas.jpg"
+            job="Emboé"
+            name="Jéssica Galdino"
             style={
                 Object {
                     "color": "black",
@@ -1854,10 +1914,13 @@ Array [
                   }
             }
         >
-            Jéssica Galdino - Emboé
-        </p>
+            Jéssica Galdino
+        </h6>
         <p
             className="MuiTypography-root-99 MuiTypography-body1-108"
+            image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/jessica_galdino_de_freitas.jpg"
+            job="Emboé"
+            name="Jéssica Galdino"
             style={
                 Object {
                     "color": "black",
@@ -1865,7 +1928,9 @@ Array [
                     "textAlign": "center",
                   }
             }
-        />
+        >
+            Emboé
+        </p>
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -1876,7 +1941,7 @@ Array [
         }
     >
         <div
-            className="MuiAvatar-root-137"
+            className="MuiAvatar-root-135"
             style={
                 Object {
                     "display": "block",
@@ -1888,15 +1953,18 @@ Array [
             }
         >
             <img
-                alt="Manuela Yamada - MateriaBrasil - foto"
-                className="MuiAvatar-img-139"
+                alt="Manuela Yamada - foto"
+                className="MuiAvatar-img-137"
                 sizes={undefined}
                 src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/manuela_yamada.jpg"
                 srcSet={undefined}
             />
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/manuela_yamada.jpg"
+            job="MateriaBrasil"
+            name="Manuela Yamada"
             style={
                 Object {
                     "color": "black",
@@ -1905,10 +1973,13 @@ Array [
                   }
             }
         >
-            Manuela Yamada - MateriaBrasil
-        </p>
+            Manuela Yamada
+        </h6>
         <p
             className="MuiTypography-root-99 MuiTypography-body1-108"
+            image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/manuela_yamada.jpg"
+            job="MateriaBrasil"
+            name="Manuela Yamada"
             style={
                 Object {
                     "color": "black",
@@ -1916,7 +1987,9 @@ Array [
                     "textAlign": "center",
                   }
             }
-        />
+        >
+            MateriaBrasil
+        </p>
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -1927,7 +2000,7 @@ Array [
         }
     >
         <div
-            className="MuiAvatar-root-137"
+            className="MuiAvatar-root-135"
             style={
                 Object {
                     "display": "block",
@@ -1939,15 +2012,18 @@ Array [
             }
         >
             <img
-                alt="Bruno Temer - MateriaBrasil - foto"
-                className="MuiAvatar-img-139"
+                alt="Bruno Temer - foto"
+                className="MuiAvatar-img-137"
                 sizes={undefined}
                 src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/bruno_temer.jpg"
                 srcSet={undefined}
             />
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/bruno_temer.jpg"
+            job="MateriaBrasil"
+            name="Bruno Temer"
             style={
                 Object {
                     "color": "black",
@@ -1956,10 +2032,13 @@ Array [
                   }
             }
         >
-            Bruno Temer - MateriaBrasil
-        </p>
+            Bruno Temer
+        </h6>
         <p
             className="MuiTypography-root-99 MuiTypography-body1-108"
+            image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/bruno_temer.jpg"
+            job="MateriaBrasil"
+            name="Bruno Temer"
             style={
                 Object {
                     "color": "black",
@@ -1967,7 +2046,9 @@ Array [
                     "textAlign": "center",
                   }
             }
-        />
+        >
+            MateriaBrasil
+        </p>
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -1978,7 +2059,7 @@ Array [
         }
     >
         <div
-            className="MuiAvatar-root-137"
+            className="MuiAvatar-root-135"
             style={
                 Object {
                     "display": "block",
@@ -1990,15 +2071,18 @@ Array [
             }
         >
             <img
-                alt="Isadora Timbó - Gitec Brasil - foto"
-                className="MuiAvatar-img-139"
+                alt="Isadora Timbó - foto"
+                className="MuiAvatar-img-137"
                 sizes={undefined}
                 src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/isadora_ribeiro.jpg"
                 srcSet={undefined}
             />
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/isadora_ribeiro.jpg"
+            job="Gitec Brasil"
+            name="Isadora Timbó"
             style={
                 Object {
                     "color": "black",
@@ -2007,10 +2091,13 @@ Array [
                   }
             }
         >
-            Isadora Timbó - Gitec Brasil
-        </p>
+            Isadora Timbó
+        </h6>
         <p
             className="MuiTypography-root-99 MuiTypography-body1-108"
+            image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/isadora_ribeiro.jpg"
+            job="Gitec Brasil"
+            name="Isadora Timbó"
             style={
                 Object {
                     "color": "black",
@@ -2018,7 +2105,9 @@ Array [
                     "textAlign": "center",
                   }
             }
-        />
+        >
+            Gitec Brasil
+        </p>
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -2029,7 +2118,7 @@ Array [
         }
     >
         <div
-            className="MuiAvatar-root-137"
+            className="MuiAvatar-root-135"
             style={
                 Object {
                     "display": "block",
@@ -2041,15 +2130,18 @@ Array [
             }
         >
             <img
-                alt="Luiza Maia - Gitec Brasil - foto"
-                className="MuiAvatar-img-139"
+                alt="Luiza Maia - foto"
+                className="MuiAvatar-img-137"
                 sizes={undefined}
                 src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/luiza_maia.jpg"
                 srcSet={undefined}
             />
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/luiza_maia.jpg"
+            job="Gitec Brasil"
+            name="Luiza Maia"
             style={
                 Object {
                     "color": "black",
@@ -2058,10 +2150,13 @@ Array [
                   }
             }
         >
-            Luiza Maia - Gitec Brasil
-        </p>
+            Luiza Maia
+        </h6>
         <p
             className="MuiTypography-root-99 MuiTypography-body1-108"
+            image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/luiza_maia.jpg"
+            job="Gitec Brasil"
+            name="Luiza Maia"
             style={
                 Object {
                     "color": "black",
@@ -2069,7 +2164,9 @@ Array [
                     "textAlign": "center",
                   }
             }
-        />
+        >
+            Gitec Brasil
+        </p>
     </div>
     <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74"
@@ -2080,7 +2177,7 @@ Array [
         }
     >
         <div
-            className="MuiAvatar-root-137"
+            className="MuiAvatar-root-135"
             style={
                 Object {
                     "display": "block",
@@ -2092,15 +2189,18 @@ Array [
             }
         >
             <img
-                alt="Tomás de Lara - Sistema B Brasil - foto"
-                className="MuiAvatar-img-139"
+                alt="Tomás de Lara - foto"
+                className="MuiAvatar-img-137"
                 sizes={undefined}
                 src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/tomas_de_lara.jpg"
                 srcSet={undefined}
             />
         </div>
-        <p
-            className="MuiTypography-root-99 MuiTypography-body1-108"
+        <h6
+            className="MuiTypography-root-99 MuiTypography-h6-116"
+            image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/tomas_de_lara.jpg"
+            job="Sistema B Brasil"
+            name="Tomás de Lara"
             style={
                 Object {
                     "color": "black",
@@ -2109,10 +2209,13 @@ Array [
                   }
             }
         >
-            Tomás de Lara - Sistema B Brasil
-        </p>
+            Tomás de Lara
+        </h6>
         <p
             className="MuiTypography-root-99 MuiTypography-body1-108"
+            image="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/tomas_de_lara.jpg"
+            job="Sistema B Brasil"
+            name="Tomás de Lara"
             style={
                 Object {
                     "color": "black",
@@ -2120,7 +2223,9 @@ Array [
                     "textAlign": "center",
                   }
             }
-        />
+        >
+            Sistema B Brasil
+        </p>
     </div>
 </div>,
 ]
