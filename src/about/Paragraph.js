@@ -9,6 +9,7 @@ import Colors from '../Colors'
 export default withStyles(gridStyle)(({ color = Colors.white, ...props }) => (
   <Grid item xs={12} className={props.classes.grid}>
     <Typography
+      variant="h6"
       color="inherit"
       style={{
         color: props.color ? Colors.black : color,
