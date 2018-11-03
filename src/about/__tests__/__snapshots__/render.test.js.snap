@@ -829,7 +829,7 @@ Array [
             name="Margarida Lunetta"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -844,7 +844,7 @@ Array [
             name="Margarida Lunetta"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -888,7 +888,7 @@ Array [
             name="Arnoud Passenier"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -903,7 +903,7 @@ Array [
             name="Arnoud Passenier"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -947,7 +947,7 @@ Array [
             name="Luisa Santiago"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -962,7 +962,7 @@ Array [
             name="Luisa Santiago"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1006,7 +1006,7 @@ Array [
             name="Tomás de Lara"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1021,7 +1021,7 @@ Array [
             name="Tomás de Lara"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1065,7 +1065,7 @@ Array [
             name="Taciana Abreu"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1080,7 +1080,7 @@ Array [
             name="Taciana Abreu"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1124,7 +1124,7 @@ Array [
             name="Bernardo Ferracioli"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1139,7 +1139,7 @@ Array [
             name="Bernardo Ferracioli"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1672,7 +1672,7 @@ Array [
             name="Aldo Ometto"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1687,7 +1687,7 @@ Array [
             name="Aldo Ometto"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1731,7 +1731,7 @@ Array [
             name="Weber Amaral"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1746,7 +1746,7 @@ Array [
             name="Weber Amaral"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1790,7 +1790,7 @@ Array [
             name="Juliana Sardinha"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1805,7 +1805,7 @@ Array [
             name="Juliana Sardinha"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1849,7 +1849,7 @@ Array [
             name="Rosângela de Carvalho"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1864,7 +1864,7 @@ Array [
             name="Rosângela de Carvalho"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1908,7 +1908,7 @@ Array [
             name="Jéssica Galdino"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1923,7 +1923,7 @@ Array [
             name="Jéssica Galdino"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1967,7 +1967,7 @@ Array [
             name="Manuela Yamada"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -1982,7 +1982,7 @@ Array [
             name="Manuela Yamada"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -2026,7 +2026,7 @@ Array [
             name="Bruno Temer"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -2041,7 +2041,7 @@ Array [
             name="Bruno Temer"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -2085,7 +2085,7 @@ Array [
             name="Isadora Timbó"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -2100,7 +2100,7 @@ Array [
             name="Isadora Timbó"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -2144,7 +2144,7 @@ Array [
             name="Luiza Maia"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -2159,7 +2159,7 @@ Array [
             name="Luiza Maia"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -2203,7 +2203,7 @@ Array [
             name="Tomás de Lara"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
@@ -2218,7 +2218,7 @@ Array [
             name="Tomás de Lara"
             style={
                 Object {
-                    "color": "white",
+                    "color": "black",
                     "fontWeight": 500,
                     "textAlign": "center",
                   }
