@@ -1,13 +1,13 @@
 import React from 'react'
 
-import Session from '../Session'
+import Section from '../Section'
 import Title from '../Title'
 import Paragraph from '../Paragraph'
 import SymbolsList from './SymbolsList'
 import Subtitle from '../Subtitle'
 
 export default () => (
-  <Session
+  <Section
     id="drivers"
     backgroundImage="url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-5.jpg')"
   >
@@ -60,5 +60,5 @@ export default () => (
     </Paragraph>
     <br />
     <SymbolsList />
-  </Session>
+  </Section>
 )

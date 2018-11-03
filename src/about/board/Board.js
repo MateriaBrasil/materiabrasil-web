@@ -2,14 +2,14 @@ import React from 'react'
 import Grid from '@material-ui/core/Grid'
 
 import Colors from '../../Colors'
-import Session from '../Session'
+import Section from '../Section'
 import Title from '../Title'
 import Paragraph from '../Paragraph'
 import Members from '../Members'
 import membersList from './membersList'
 
 export default () => (
-  <Session id="board">
+  <Section id="board">
     <Title color>Nosso board</Title>
     <Grid item xs={12}>
       <Paragraph color>
@@ -21,5 +21,5 @@ export default () => (
       </Paragraph>
     </Grid>
     <Members list={membersList} color={Colors.black} />
-  </Session>
+  </Section>
 )

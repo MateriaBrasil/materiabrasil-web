@@ -1,11 +1,11 @@
 import React from 'react'
 
-import Session from './Session'
+import Section from './Section'
 import Title from './Title'
 import Paragraph from './Paragraph'
 
 export default () => (
-  <Session id="goal">
+  <Section id="goal">
     <Title color>
       <br />
       Objetivo
@@ -22,5 +22,5 @@ export default () => (
       projetar, produzir e consumir mais responsável com a sociedade e o meio
       ambiente.
     </Paragraph>
-  </Session>
+  </Section>
 )

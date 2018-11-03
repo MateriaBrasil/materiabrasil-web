@@ -1,10 +1,10 @@
 import React from 'react'
 
-import HomepageGrid from './HomepageGrid'
+import Grid from './Grid'
 import Video from '../Video'
 
 export default () => (
-  <HomepageGrid isVideo id="how_to_use_it">
+  <Grid isVideo id="how_to_use_it">
     <Video />
-  </HomepageGrid>
+  </Grid>
 )
