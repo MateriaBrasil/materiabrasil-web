@@ -12,7 +12,7 @@ export default props => {
     <Section
       id="crew"
       backgroundImage="url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-2.jpg')"
-      style={{ '-webkit-clip-path': polygon, clipPath: polygon }}
+      style={{ WebkitClipPath: polygon, clipPath: polygon }}
       {...props}
     >
       <Title>Equipe</Title>

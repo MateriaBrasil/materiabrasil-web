@@ -2,8 +2,6 @@ import React from 'react'
 import Grid from '@material-ui/core/Grid'
 import { withStyles } from '@material-ui/core/styles'
 
-import SectionTitle from './SectionTitle'
-
 import Colors from '../Colors'
 
 const styles = theme => ({
@@ -34,11 +32,6 @@ export default withStyles(styles)(props => {
         ...props.style,
       }}
     >
-      {props.title && (
-        <Grid item xs={12}>
-          <SectionTitle {...props}>{props.title}</SectionTitle>
-        </Grid>
-      )}
       <Grid
         item
         xs={12}

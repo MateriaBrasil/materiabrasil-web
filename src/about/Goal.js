@@ -11,7 +11,7 @@ export default () => (
   <Section
     id="goal"
     backgroundImage="url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-8.jpg')"
-    style={{ '-webkit-clip-path': polygon, clipPath: polygon }}
+    style={{ WebkitClipPath: polygon, clipPath: polygon }}
     justify="center"
   >
     <Grid item xs={12} md={8}>

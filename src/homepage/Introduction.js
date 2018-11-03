@@ -10,7 +10,7 @@ export default () => (
   <Grid
     id="introduction"
     backgroundImage="url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-7.jpg')"
-    style={{ '-webkit-clip-path': polygon, clipPath: polygon }}
+    style={{ WebkitClipPath: polygon, clipPath: polygon }}
   >
     <Typography
       variant="h3"
