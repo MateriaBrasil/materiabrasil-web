@@ -9,7 +9,7 @@ export default props => {
   return (
     <Section
       id="crew"
-      backgroundImage="url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-4.jpg')"
+      backgroundImage="url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-2.jpg')"
       {...props}
     >
       <Title>Equipe</Title>

@@ -7,7 +7,7 @@ import Colors from '../Colors'
 export default () => (
   <Grid
     id="introduction"
-    backgroundImage="url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-1.jpg')"
+    backgroundImage="url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-7.jpg')"
   >
     <Typography
       variant="h3"

@@ -9,7 +9,7 @@ import Colors from '../Colors'
 export default () => (
   <Grid
     id="explore"
-    backgroundImage="url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-2.jpg')"
+    backgroundImage="url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-6.jpg')"
   >
     <Link to={`/materials`} style={{ textDecoration: 'none' }}>
       <Button
