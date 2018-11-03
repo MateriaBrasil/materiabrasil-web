@@ -15,7 +15,7 @@ export default props => (
     }}
   >
     <Typography
-      variant="h5"
+      variant="h6"
       color="inherit"
       padding="0 0"
       style={{

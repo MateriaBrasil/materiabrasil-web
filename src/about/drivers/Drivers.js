@@ -13,7 +13,7 @@ export default () => (
     id="drivers"
     backgroundImage="url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-5.jpg')"
     style={{
-      '-webkit-clip-path': polygon,
+      WebkitClipPath: polygon,
       clipPath: polygon,
       paddingBottom: 300,
     }}

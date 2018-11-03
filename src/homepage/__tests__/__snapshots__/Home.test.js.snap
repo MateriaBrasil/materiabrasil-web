@@ -23,7 +23,7 @@ Array [
         handleScroll={[Function]}
     >
         <div>
-            HowToUseIt
+            WhatItIs
         </div>
     </div>
     <div
@@ -60,7 +60,7 @@ Array [
         handleScroll={[Function]}
     >
         <div>
-            HowToUseIt
+            WhatItIs
         </div>
     </div>
     <div

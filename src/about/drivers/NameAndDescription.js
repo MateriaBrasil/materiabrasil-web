@@ -14,11 +14,10 @@ const styles = theme => ({
 
 export default withStyles(styles)(({ classes, children }) => (
   <Fragment>
-    <Typography variant="h5" className={classes.style}>
+    <Typography variant="h6" className={classes.style}>
       {children.title}
     </Typography>
     <Typography
-      variant="h6"
       className={classes.style}
       style={{
         fontWeight: 300,
