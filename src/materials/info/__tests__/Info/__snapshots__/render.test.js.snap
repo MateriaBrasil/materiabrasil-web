@@ -417,7 +417,7 @@ exports[`renders correctly 1`] = `
               Editar informações gerais
             </span>
             <span
-              className="MuiTouchRipple-root-191"
+              className="MuiTouchRipple-root-192"
             />
           </button>
         </div>
@@ -457,7 +457,7 @@ exports[`renders correctly 1`] = `
               Editar informações técnicas
             </span>
             <span
-              className="MuiTouchRipple-root-191"
+              className="MuiTouchRipple-root-192"
             />
           </button>
         </div>
@@ -499,7 +499,7 @@ exports[`renders correctly 1`] = `
                ficha técnica
             </span>
             <span
-              className="MuiTouchRipple-root-191"
+              className="MuiTouchRipple-root-192"
             />
           </button>
           <input
@@ -548,7 +548,7 @@ exports[`renders correctly 1`] = `
               Enviar Certificações
             </span>
             <span
-              className="MuiTouchRipple-root-191"
+              className="MuiTouchRipple-root-192"
             />
           </button>
           <input
@@ -621,7 +621,7 @@ exports[`renders correctly 1`] = `
                 Avaliar
               </span>
               <span
-                className="MuiTouchRipple-root-191"
+                className="MuiTouchRipple-root-192"
               />
             </button>
           </div>

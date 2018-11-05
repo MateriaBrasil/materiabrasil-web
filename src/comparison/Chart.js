@@ -7,6 +7,7 @@ import Grid from '@material-ui/core/Grid'
 import map from 'lodash/map'
 import reduce from 'lodash/reduce'
 import get from 'lodash/get'
+import { withStyles } from '@material-ui/core/styles'
 import {
   Radar,
   RadarChart,
@@ -14,72 +15,77 @@ import {
   PolarAngleAxis,
   PolarRadiusAxis,
   Legend,
+  ResponsiveContainer,
 } from 'recharts'
 
 import ChipsContainer from './ChipsContainer'
 import Colors from './Colors'
 import drivers from '../drivers'
+import chartsStyle from '../chartsStyle'
 
-export default ({ list, actions: { close, remove } }) => {
-  const data = map(drivers, (driver, index) =>
-    reduce(
-      list,
-      (object, material) => ({
-        ...object,
-        [material.id]: get(material, driver.key),
-      }),
-      { subject: driver.name },
-    ),
-  )
+export default withStyles(chartsStyle)(
+  ({ list, classes, actions: { close, remove } }) => {
+    const data = map(drivers, (driver, index) =>
+      reduce(
+        list,
+        (object, material) => ({
+          ...object,
+          [material.id]: get(material, driver.key),
+        }),
+        { subject: driver.name },
+      ),
+    )
 
-  return (
-    <Drawer open anchor="bottom" onClose={close}>
-      <Button variant="contained" color="primary" onClick={close}>
-        Comparação de materiais
-        <Icon style={{ marginLeft: 8 }} />
-      </Button>
-      <Paper>
-        <Grid
-          container
-          spacing={16}
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-          }}
-        >
+    return (
+      <Drawer open anchor="bottom" onClose={close}>
+        <Button variant="contained" color="primary" onClick={close}>
+          Comparação de materiais
+          <Icon style={{ marginLeft: 8 }} />
+        </Button>
+        <Paper>
           <Grid
-            item
-            lg={4}
-            md={4}
-            xs={12}
-            style={{ textAlign: 'center', marginBottom: 30 }}
+            container
+            spacing={16}
+            style={{
+              display: 'flex',
+              justifyContent: 'center',
+            }}
           >
-            <RadarChart
-              width={320}
-              height={320}
-              style={{ display: 'inline-flex' }}
-              outerRadius="50%"
-              data={data}
+            <Grid
+              item
+              lg={4}
+              md={4}
+              xs={12}
+              style={{ textAlign: 'center', marginBottom: 30 }}
             >
-              <PolarGrid />
-              <PolarAngleAxis dataKey="subject" />
-              <PolarRadiusAxis angle={45} domain={[0, 10]} />
-              {map(list, ({ id, name }, index) => (
-                <Radar
-                  key={id}
-                  name={name}
-                  dataKey={id}
-                  stroke={Colors[index]}
-                  fill={Colors[index]}
-                  fillOpacity={0.5}
-                />
-              ))}
-              <Legend />
-            </RadarChart>
+              <ResponsiveContainer width="100%" height={320}>
+                <RadarChart
+                  style={{ display: 'inline-flex' }}
+                  outerRadius="50%"
+                  data={data}
+                  className={classes.radar}
+                >
+                  <PolarGrid />
+                  <PolarAngleAxis dataKey="subject" />
+                  <PolarRadiusAxis angle={45} domain={[0, 10]} />
+                  {map(list, ({ id, name }, index) => (
+                    <Radar
+                      key={id}
+                      name={name}
+                      dataKey={id}
+                      stroke={Colors[index]}
+                      fill={Colors[index]}
+                      fillOpacity={0.5}
+                    />
+                  ))}
+                  <Legend />
+                </RadarChart>
+              </ResponsiveContainer>
+            </Grid>
+            <ChipsContainer list={list} remove={remove} />
           </Grid>
-          <ChipsContainer list={list} remove={remove} />
-        </Grid>
-      </Paper>
-    </Drawer>
-  )
-}
+        </Paper>
+      </Drawer>
+    )
+  },
+)
