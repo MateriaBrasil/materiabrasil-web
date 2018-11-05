@@ -11,6 +11,7 @@ export default props => routeProps => {
     <Info
       id={id}
       name="suppliers"
+      disableCache
       render={renderInfo({ ...props, ...routeProps })}
     />
   )
