@@ -14,19 +14,9 @@ import {
 
 import drivers from '../../drivers'
 import addComparison from './addComparison'
+import chartsStyle from '../../chartsStyle'
 
-const styles = theme => ({
-  radar: {
-    fontSize: '8px',
-    fontFamily: 'Open Sans',
-    margin: '0 auto',
-    [theme.breakpoints.up('sm')]: {
-      fontSize: '14px',
-    },
-  },
-})
-
-export default withStyles(styles)(props => {
+export default withStyles(chartsStyle)(props => {
   const {
     materialityDriver,
     manufactureDriver,

@@ -21,19 +21,9 @@ import {
 import ChipsContainer from './ChipsContainer'
 import Colors from './Colors'
 import drivers from '../drivers'
+import chartsStyle from '../chartsStyle'
 
-const styles = theme => ({
-  radar: {
-    fontSize: '8px',
-    fontFamily: 'Open Sans',
-    margin: '0 auto',
-    [theme.breakpoints.up('sm')]: {
-      fontSize: '14px',
-    },
-  },
-})
-
-export default withStyles(styles)(
+export default withStyles(chartsStyle)(
   ({ list, classes, actions: { close, remove } }) => {
     const data = map(drivers, (driver, index) =>
       reduce(
