@@ -260,6 +260,11 @@ exports[`renders correctly 1`] = `
   >
     <div
       className="MuiPaper-root-99 MuiPaper-elevation1-102 MuiPaper-rounded-100 MuiCard-root-98"
+      style={
+        Object {
+          "marginBottom": 16,
+        }
+      }
     >
       <div
         className="MuiCardContent-root-126"
@@ -628,6 +633,38 @@ exports[`renders correctly 1`] = `
         </div>
       </div>
     </div>
+    <div
+      current={
+        Object {
+          "averagePrice": "100",
+          "code": "999",
+          "description": "info",
+          "imageUrl": "bar",
+          "manufacturingLocation": "Foo City/FO",
+          "name": "foo",
+          "properties": "Foo properties",
+          "salesLocation": "Bar City/BR",
+          "supplierContact": "foo@bar.com",
+          "supplierId": 1234,
+          "supplierName": "Foo Supplier",
+          "technicalSpecification_url": "http://foo",
+        }
+      }
+      currentUser={
+        Object {
+          "suppliers": Array [
+            Object {
+              "id": 1234,
+            },
+          ],
+        }
+      }
+      id={undefined}
+      location={Object {}}
+      type="materials"
+    >
+      Comments
+    </div>
   </div>
   <div
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-5-76"
@@ -669,38 +706,6 @@ exports[`renders correctly 1`] = `
         </p>
       </div>
     </div>
-  </div>
-  <div
-    current={
-      Object {
-        "averagePrice": "100",
-        "code": "999",
-        "description": "info",
-        "imageUrl": "bar",
-        "manufacturingLocation": "Foo City/FO",
-        "name": "foo",
-        "properties": "Foo properties",
-        "salesLocation": "Bar City/BR",
-        "supplierContact": "foo@bar.com",
-        "supplierId": 1234,
-        "supplierName": "Foo Supplier",
-        "technicalSpecification_url": "http://foo",
-      }
-    }
-    currentUser={
-      Object {
-        "suppliers": Array [
-          Object {
-            "id": 1234,
-          },
-        ],
-      }
-    }
-    id={undefined}
-    location={Object {}}
-    type="materials"
-  >
-    Comments
   </div>
 </div>
 `;
