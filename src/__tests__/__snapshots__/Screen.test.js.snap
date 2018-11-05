@@ -46,7 +46,8 @@ exports[`renders correctly 1`] = `
         src="/images/partners/ic&a.png"
         style={
           Object {
-            "maxWidth": "100%",
+            "maxWidth": "170px",
+            "width": "100%",
           }
         }
         title="Instituto C&A"
@@ -78,7 +79,8 @@ exports[`renders correctly 1`] = `
         src="/images/partners/gtl.png"
         style={
           Object {
-            "maxWidth": "100%",
+            "maxWidth": "170px",
+            "width": "100%",
           }
         }
         title="Good Tech Lab"
@@ -108,7 +110,8 @@ exports[`renders correctly 1`] = `
         src="/images/partners/fab-city.png"
         style={
           Object {
-            "maxWidth": "100%",
+            "maxWidth": "170px",
+            "width": "100%",
           }
         }
         title="Fab City Global"
@@ -138,7 +141,8 @@ exports[`renders correctly 1`] = `
         src="/images/partners/materiom.png"
         style={
           Object {
-            "maxWidth": "100%",
+            "maxWidth": "170px",
+            "width": "100%",
           }
         }
         title="Materiom"
@@ -170,7 +174,8 @@ exports[`renders correctly 1`] = `
         src="/images/partners/sistema-b.png"
         style={
           Object {
-            "maxWidth": "100%",
+            "maxWidth": "170px",
+            "width": "100%",
           }
         }
         title="Sistema B Brasil"
@@ -200,7 +205,8 @@ exports[`renders correctly 1`] = `
         src="/images/partners/ce100.png"
         style={
           Object {
-            "maxWidth": "100%",
+            "maxWidth": "170px",
+            "width": "100%",
           }
         }
         title="CE100 Global Ellen MacArthur"
