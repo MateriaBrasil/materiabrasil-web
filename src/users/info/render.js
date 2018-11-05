@@ -22,7 +22,7 @@ export default props => infoProps => {
 
   return (
     <Grid container spacing={32}>
-      <Grid item xs={12} lg={4}>
+      <Grid item xs={12} lg={3}>
         <Avatar
           {...props}
           name={name}
@@ -42,7 +42,7 @@ export default props => infoProps => {
           )}
         </div>
       </Grid>
-      <Grid item xs={12} lg={8}>
+      <Grid item xs={12} lg={9}>
         <Card>
           <CardContent>
             {currentUser &&
