@@ -2,12 +2,27 @@
 
 exports[`renders correctly 1`] = `
 <div
+  bar="foo"
   current={
     Object {
-      "bar": "foo",
+      "imageUrl": "list-url",
+      "name": "foo-name",
     }
   }
-  foo="bar"
+  info={
+    Object {
+      "imageUrl": "list-url",
+      "name": "foo-name",
+    }
+  }
+  infoProps={
+    Object {
+      "info": Object {
+        "imageUrl": "list-url",
+        "name": "foo-name",
+      },
+    }
+  }
 >
   Info
 </div>
