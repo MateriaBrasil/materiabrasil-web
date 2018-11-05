@@ -2,18 +2,31 @@ import React, { Fragment } from 'react'
 import Typography from '@material-ui/core/Typography'
 import Button from '@material-ui/core/Button'
 import AddIcon from '@material-ui/icons/Add'
+import { withStyles } from '@material-ui/core/styles'
 import {
   Radar,
   RadarChart,
   PolarGrid,
   PolarAngleAxis,
   PolarRadiusAxis,
+  ResponsiveContainer,
 } from 'recharts'
 
 import drivers from '../../drivers'
 import addComparison from './addComparison'
 
-export default props => {
+const styles = theme => ({
+  radar: {
+    fontSize: '8px',
+    fontFamily: 'Open Sans',
+    margin: '0 auto',
+    [theme.breakpoints.up('sm')]: {
+      fontSize: '14px',
+    },
+  },
+})
+
+export default withStyles(styles)(props => {
   const {
     materialityDriver,
     manufactureDriver,
@@ -52,27 +65,27 @@ export default props => {
         )}
       </div>
       {hasDrivers ? (
-        <RadarChart
-          width={320}
-          height={320}
-          outerRadius="50%"
-          data={data}
-          style={{ margin: '0 auto' }}
-        >
-          <PolarGrid />
-          <PolarAngleAxis dataKey="subject" />
-          <PolarRadiusAxis angle={45} domain={[0, 10]} />
-          <Radar
-            name="Mike"
-            dataKey="value"
-            stroke="#239eb1"
-            fill="#239eb1"
-            fillOpacity={0.6}
-          />
-        </RadarChart>
+        <ResponsiveContainer width="100%" height={320}>
+          <RadarChart
+            outerRadius="50%"
+            data={data}
+            className={props.classes.radar}
+          >
+            <PolarGrid />
+            <PolarAngleAxis dataKey="subject" />
+            <PolarRadiusAxis angle={45} domain={[0, 10]} />
+            <Radar
+              name="Mike"
+              dataKey="value"
+              stroke="#239eb1"
+              fill="#239eb1"
+              fillOpacity={0.6}
+            />
+          </RadarChart>
+        </ResponsiveContainer>
       ) : (
         <Typography>Este material ainda não possui indicadores</Typography>
       )}
     </Fragment>
   )
-}
+})
