@@ -2273,10 +2273,10 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-croods@0.10.1:
-  version "0.10.1"
-  resolved "https://registry.yarnpkg.com/croods/-/croods-0.10.1.tgz#3d33ae60e81bf14b583ed07e3ad73fff0154e011"
-  integrity sha512-FxKkUIdL5rNHsyew+zHkZoBDu39PWwc06mOZFLJ68mdDXY769szjpXpcdjDS2O4vJLdSO83yTtraZ3c3df9t/w==
+croods@0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/croods/-/croods-0.11.0.tgz#f02fb8072579f85bb05b6816b62ff5afc3dbc45e"
+  integrity sha512-w7CV3DqzVDGQ/ttOH+uZ0BW5hRS/fCf8ofUHtWPSgtL4gw6EOeRX1tCVNyTsQp2qJg5o0GQQmrQNvE7pxrlaxA==
   dependencies:
     lodash "^4.17.10"
     lodash-humps "^3.1.2"
