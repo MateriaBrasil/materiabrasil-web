@@ -22,7 +22,7 @@ export default ({ headline, title, alt, style, fullWidth, ...props }) => (
       {...props}
       title={title || alt}
       alt={alt || title}
-      style={{ maxWidth: '100%', ...style }}
+      style={{ width: '100%', maxWidth: '170px', ...style }}
     />
   </Grid>
 )
