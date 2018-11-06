@@ -456,7 +456,7 @@ Array [
                     }
                 >
                     <img
-                        alt="Dahyna Ribeiro"
+                        alt="Dahyna Iribarren"
                         src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Dahyna_Irribaren.jpg"
                         style={
                             Object {
@@ -475,7 +475,7 @@ Array [
                               }
                         }
                     >
-                        Dahyna Ribeiro
+                        Dahyna Iribarren
                     </h6>
                     <p
                         className="MuiTypography-root-102 MuiTypography-body1-111 Component-job-142"
