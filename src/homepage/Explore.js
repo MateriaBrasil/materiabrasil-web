@@ -17,7 +17,7 @@ const styles = theme => ({
     padding: '15px 50px',
     marginBottom: 50,
     '&:hover': {
-      backgroundColor: 'rgba(255,255,255,0.6)',
+      opacity: 0.7,
     },
   },
 })
