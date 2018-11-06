@@ -450,7 +450,7 @@ exports[`renders correctly 1`] = `
         }
       >
         <img
-          alt="Dahyna Ribeiro"
+          alt="Dahyna Iribarren"
           src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Dahyna_Irribaren.jpg"
           style={
             Object {
@@ -469,7 +469,7 @@ exports[`renders correctly 1`] = `
             }
           }
         >
-          Dahyna Ribeiro
+          Dahyna Iribarren
         </h6>
         <p
           className="MuiTypography-root-100 MuiTypography-body1-109 Component-job-140"
