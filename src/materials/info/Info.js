@@ -26,7 +26,7 @@ export default class extends Component {
       <Fragment>
         <Helmet>
           <title>{name}</title>
-          <meta name="og:image" content={listImageUrl} />
+          <meta property="og:image" content={listImageUrl} />
         </Helmet>
         <Grid container spacing={16}>
           <CoverImage {...current} editable={editable} />

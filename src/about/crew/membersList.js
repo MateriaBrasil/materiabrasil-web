@@ -43,7 +43,7 @@ export default [
   },
   {
     id: 8,
-    name: 'Dahyna Ribeiro',
+    name: 'Dahyna Iribarren',
     image:
       'https://s3.amazonaws.com/materiamundi-us/static/equipe/Dahyna_Irribaren.jpg',
   },

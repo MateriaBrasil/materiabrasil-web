@@ -1,8 +1,8 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 
+import NavbarAndContent from '../NavBarAndContent'
 import Colors from '../Colors'
-import NavBar from '../navBar/NavBar'
 import Goal from './Goal'
 import HowToUse from './HowToUse'
 import Crew from './crew/Crew'
@@ -11,16 +11,17 @@ import Drivers from './drivers/Drivers'
 import Developers from './developers/Developers'
 
 export default props => routeProps => (
-  <div style={{ backgroundColor: Colors.grayNurse }}>
-    <Helmet>
-      <title>Sobre</title>
-    </Helmet>
-    <NavBar />
-    <Goal />
-    <HowToUse />
-    <Crew />
-    <Board />
-    <Drivers />
-    <Developers />
-  </div>
+  <NavbarAndContent institutional {...props}>
+    <div style={{ backgroundColor: Colors.grayNurse }}>
+      <Helmet>
+        <title>Sobre</title>
+      </Helmet>
+      <Goal />
+      <HowToUse />
+      <Crew />
+      <Board />
+      <Drivers />
+      <Developers />
+    </div>
+  </NavbarAndContent>
 )

@@ -11,15 +11,16 @@ export default props => (
     <div style={{ flexGrow: 1 }}>
       <Helmet>
         <title>Materiamundi</title>
+        <meta name="keywords" content="MateriaMundi" />
         <meta
-          name="description"
+          property="og:description"
           content="Ações para uma economia circular aplicada"
         />
-        <meta name="keywords" content="MateriaMundi" />
-        <meta name="og:type" content="website" />
-        <meta name="og:url" content={window.location.href} />
+        <meta property="og:title" content="Materiamundi" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={window.location.href} />
         <meta
-          name="og:image"
+          property="og:image"
           content="https://s3.amazonaws.com/materiamundi-us/static/materiamundi_logo_fb.png"
         />
         <meta name="author" content="MateriaMundi" />
