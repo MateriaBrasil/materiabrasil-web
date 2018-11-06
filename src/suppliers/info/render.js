@@ -1,16 +1,15 @@
-import React, { Fragment } from 'react'
-import { Helmet } from 'react-helmet'
+import React from 'react'
+import FragmentWithHelmet from '../../FragmentWithHelmet'
 
 import Info from './Info'
 
 export default props => (info, infoProps) => {
   return (
-    <Fragment>
-      <Helmet>
-        <title>{infoProps.info.name}</title>
-        <meta name="og:image" content={infoProps.info.imageUrl} />
-      </Helmet>
+    <FragmentWithHelmet
+      title={infoProps.info.name}
+      ogImage={infoProps.info.imageUrl}
+    >
       <Info current={info} {...props} {...infoProps} />
-    </Fragment>
+    </FragmentWithHelmet>
   )
 }

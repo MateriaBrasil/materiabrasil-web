@@ -1,13 +1,10 @@
-import React, { Fragment } from 'react'
-import { Helmet } from 'react-helmet'
+import React from 'react'
+import FragmentWithHelmet from '../../FragmentWithHelmet'
 
 import SignUp from './SignUp'
 
 export default props => routeProps => (
-  <Fragment>
-    <Helmet>
-      <title>Cadastre-se</title>
-    </Helmet>
+  <FragmentWithHelmet title="Cadastre-se">
     <SignUp {...props} {...routeProps} />
-  </Fragment>
+  </FragmentWithHelmet>
 )
