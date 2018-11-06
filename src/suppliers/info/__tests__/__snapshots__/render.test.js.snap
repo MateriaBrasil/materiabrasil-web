@@ -5,22 +5,13 @@ exports[`renders correctly 1`] = `
   bar="foo"
   current={
     Object {
-      "imageUrl": "list-url",
-      "name": "foo-name",
+      "bar": "foo",
     }
   }
   info={
     Object {
       "imageUrl": "list-url",
       "name": "foo-name",
-    }
-  }
-  infoProps={
-    Object {
-      "info": Object {
-        "imageUrl": "list-url",
-        "name": "foo-name",
-      },
     }
   }
 >

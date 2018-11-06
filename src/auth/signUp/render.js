@@ -1,10 +1,10 @@
 import React from 'react'
-import FragmentWithHelmet from '../../FragmentWithHelmet'
+import Helmet from '../../Helmet'
 
 import SignUp from './SignUp'
 
 export default props => routeProps => (
-  <FragmentWithHelmet title="Cadastre-se">
+  <Helmet title="Cadastre-se">
     <SignUp {...props} {...routeProps} />
-  </FragmentWithHelmet>
+  </Helmet>
 )
