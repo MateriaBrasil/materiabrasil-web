@@ -20,7 +20,7 @@ export default props => infoProps => {
   const name = `${firstName} ${lastName}`
   const album = albums[0]
   const editPath = currentUser && currentUser.id === id && '/profile/avatar'
-  
+
   return (
     <Fragment>
       <Helmet>
