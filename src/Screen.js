@@ -11,11 +11,12 @@ export default props => (
     <div style={{ flexGrow: 1 }}>
       <Helmet>
         <title>Materiamundi</title>
+        <meta name="keywords" content="MateriaMundi" />
         <meta
-          name="description"
+          name="og:description"
           content="Ações para uma economia circular aplicada"
         />
-        <meta name="keywords" content="MateriaMundi" />
+        <meta name="og:title" content="Materiamundi" />
         <meta name="og:type" content="website" />
         <meta name="og:url" content={window.location.href} />
         <meta
