@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 import NavbarAndContent from '../NavBarAndContent'
 import Colors from '../Colors'
@@ -12,6 +13,9 @@ import Developers from './developers/Developers'
 export default props => routeProps => (
   <NavbarAndContent institutional {...props}>
     <div style={{ backgroundColor: Colors.grayNurse }}>
+      <Helmet>
+        <title>Sobre</title>
+      </Helmet>
       <Goal />
       <HowToUse />
       <Crew />

@@ -2,12 +2,18 @@
 
 exports[`renders correctly 1`] = `
 <div
+  bar="foo"
   current={
     Object {
       "bar": "foo",
     }
   }
-  foo="bar"
+  info={
+    Object {
+      "listImageUrl": "list-url",
+      "name": "foo-name",
+    }
+  }
 >
   Info
 </div>
