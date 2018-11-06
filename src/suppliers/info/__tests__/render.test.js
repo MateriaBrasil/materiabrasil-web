@@ -18,8 +18,6 @@ it('renders correctly', () => {
   const info = {
     bar: 'foo',
   }
-  const tree = renderer
-    .create(render(props)(info, infoProps))
-    .toJSON()
+  const tree = renderer.create(render(props)(info, infoProps)).toJSON()
   expect(tree).toMatchSnapshot()
 })

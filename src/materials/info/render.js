@@ -5,10 +5,7 @@ import Info from './Info'
 
 export default props => (info, infoProps) => {
   return (
-    <Helmet
-      title={infoProps.info.name}
-      ogImage={infoProps.info.listImageUrl}
-    >
+    <Helmet title={infoProps.info.name} ogImage={infoProps.info.listImageUrl}>
       <Info current={info} {...props} {...infoProps} />
     </Helmet>
   )
