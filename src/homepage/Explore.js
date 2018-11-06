@@ -15,8 +15,10 @@ const styles = theme => ({
     textTransform: 'lowercase',
     fontSize: 40,
     padding: '15px 50px',
-    background: '#fff',
     marginBottom: 50,
+    '&:hover': {
+      backgroundColor: 'rgba(255,255,255,0.6)',
+    },
   },
 })
 
