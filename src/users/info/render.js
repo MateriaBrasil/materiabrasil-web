@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Link from 'react-router-dom/Link'
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
 import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 import Button from '@material-ui/core/Button'
+import { Helmet } from 'react-helmet'
 
 import Avatar from '../../imageUpload/Avatar'
 import Album from './Album'
@@ -21,86 +22,95 @@ export default props => infoProps => {
   const editPath = currentUser && currentUser.id === id && '/profile/avatar'
 
   return (
-    <Grid container spacing={32}>
-      <Grid item xs={12} sm={4} md={4} lg={3} xl={2}>
-        <Avatar
-          {...props}
-          name={name}
-          editPath={editPath}
-          imageUrl={imageUrl}
-        />
-        <div style={{ marginTop: 30 }}>
-          <Typography style={{ marginTop: 16, marginBottom: 16 }} variant="h4">
-            {name}
-          </Typography>
-          {editPath && (
-            <Link style={{ textDecoration: 'none' }} to="/profile/edit">
-              <Button variant="contained" color="primary">
-                Editar perfil
-              </Button>
-            </Link>
-          )}
-        </div>
-      </Grid>
-      <Grid item xs={12} sm={8} md={8} lg={9} xl={10}>
-        <Card>
-          <CardContent>
-            {currentUser &&
-              currentUser.id === id && (
-                <PropertyWithValue
-                  title="Email"
-                  value={email}
-                  style={{ marginTop: 16 }}
-                />
-              )}
-            <PropertyWithValue
-              title="Website"
-              value={website}
-              style={{ marginTop: 16 }}
-            />
-            <PropertyWithValue
-              title="Bio"
-              value={bio}
-              style={{ marginTop: 16 }}
-            />
-            <PropertyWithValue
-              title="Organização"
-              value={company}
-              style={{ marginTop: 16 }}
-            />
-            <PropertyWithValue
-              title="Cargo"
-              value={workTitle}
-              style={{ marginTop: 16 }}
-            />
-            <PropertyWithValue
-              title="Cidade"
-              value={city}
-              style={{ marginTop: 16 }}
-            />
-            <PropertyWithValue
-              title="Estado"
-              value={state}
-              style={{ marginTop: 16 }}
-            />
-            <PropertyWithValue
-              title="País"
-              value={country}
-              style={{ marginTop: 16 }}
-            />
-            <MessageButton id={id} type="users" />
-          </CardContent>
-        </Card>
-      </Grid>
-      <Grid item xs={12}>
-        {album && (
-          <Album
-            {...album}
-            parentId={currentUser.id}
-            showDestroy={!!editPath}
+    <Fragment>
+      <Helmet>
+        <title>{name}</title>
+        <meta name="og:image" content={imageUrl} />
+      </Helmet>
+      <Grid container spacing={32}>
+        <Grid item xs={12} sm={4} md={4} lg={3} xl={2}>
+          <Avatar
+            {...props}
+            name={name}
+            editPath={editPath}
+            imageUrl={imageUrl}
           />
-        )}
+          <div style={{ marginTop: 30 }}>
+            <Typography
+              style={{ marginTop: 16, marginBottom: 16 }}
+              variant="h4"
+            >
+              {name}
+            </Typography>
+            {editPath && (
+              <Link style={{ textDecoration: 'none' }} to="/profile/edit">
+                <Button variant="contained" color="primary">
+                  Editar perfil
+                </Button>
+              </Link>
+            )}
+          </div>
+        </Grid>
+        <Grid item xs={12} sm={8} md={8} lg={9} xl={10}>
+          <Card>
+            <CardContent>
+              {currentUser &&
+                currentUser.id === id && (
+                  <PropertyWithValue
+                    title="Email"
+                    value={email}
+                    style={{ marginTop: 16 }}
+                  />
+                )}
+              <PropertyWithValue
+                title="Website"
+                value={website}
+                style={{ marginTop: 16 }}
+              />
+              <PropertyWithValue
+                title="Bio"
+                value={bio}
+                style={{ marginTop: 16 }}
+              />
+              <PropertyWithValue
+                title="Organização"
+                value={company}
+                style={{ marginTop: 16 }}
+              />
+              <PropertyWithValue
+                title="Cargo"
+                value={workTitle}
+                style={{ marginTop: 16 }}
+              />
+              <PropertyWithValue
+                title="Cidade"
+                value={city}
+                style={{ marginTop: 16 }}
+              />
+              <PropertyWithValue
+                title="Estado"
+                value={state}
+                style={{ marginTop: 16 }}
+              />
+              <PropertyWithValue
+                title="País"
+                value={country}
+                style={{ marginTop: 16 }}
+              />
+              <MessageButton id={id} type="users" />
+            </CardContent>
+          </Card>
+        </Grid>
+        <Grid item xs={12}>
+          {album && (
+            <Album
+              {...album}
+              parentId={currentUser.id}
+              showDestroy={!!editPath}
+            />
+          )}
+        </Grid>
       </Grid>
-    </Grid>
+    </Fragment>
   )
 }

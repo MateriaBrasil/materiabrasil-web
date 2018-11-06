@@ -6,7 +6,18 @@ import render from '../render'
 jest.mock('../Info', () => props => <div {...props}>Info</div>)
 
 it('renders correctly', () => {
-  const Component = render({ foo: 'bar' })
-  const tree = renderer.create(<Component bar="foo" />).toJSON()
+  const props = {
+    bar: 'foo',
+  }
+  const infoProps = {
+    info: {
+      name: 'foo-name',
+      imageUrl: 'list-url',
+    },
+  }
+  const info = {
+    bar: 'foo',
+  }
+  const tree = renderer.create(render(props)(info, infoProps)).toJSON()
   expect(tree).toMatchSnapshot()
 })

@@ -81,17 +81,50 @@ exports[`renders correctly 1`] = `
         className="MuiGrid-item-4 MuiGrid-grid-xs-12-43"
         style={
           Object {
+            "marginBottom": 30,
             "textAlign": "center",
           }
         }
       >
+        <h4
+          className="MuiTypography-root-100 MuiTypography-h4-115"
+        >
+          Fornecedor
+        </h4>
         <img
           alt=""
-          src="https://images.template.net/wp-content/uploads/2016/03/17133511/Vector-Infographic-Report-Template-Premium-Download.jpg"
+          src="images/infograph1.png"
           style={
             Object {
-              "maxWidth": "100%",
+              "maxWidth": "800px",
               "padding": "3%",
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+      <div
+        className="MuiGrid-item-4 MuiGrid-grid-xs-12-43"
+        style={
+          Object {
+            "marginBottom": 30,
+            "textAlign": "center",
+          }
+        }
+      >
+        <h4
+          className="MuiTypography-root-100 MuiTypography-h4-115"
+        >
+          Usuário
+        </h4>
+        <img
+          alt=""
+          src="images/infograph2.png"
+          style={
+            Object {
+              "maxWidth": "800px",
+              "padding": "3%",
+              "width": "100%",
             }
           }
         />
