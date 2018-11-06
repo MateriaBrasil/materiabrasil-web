@@ -27,7 +27,7 @@ class Info extends Component {
       <Fragment>
         <Helmet>
           <title>{name}</title>
-          <meta name="og:image" content={imageUrl} />
+          <meta property="og:image" content={imageUrl} />
         </Helmet>
         <Grid container spacing={32}>
           <Grid item xs={12} sm={4} md={4} lg={3} xl={2}>
