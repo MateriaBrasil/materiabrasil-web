@@ -2,29 +2,11 @@ import React from 'react'
 import { withStyles } from '@material-ui/core/styles'
 
 import './Content.css'
+import styles from './styles'
 
-const styles = theme => ({
-  navbarPadding: {
-    paddingTop: '124px',
-    [theme.breakpoints.down('md')]: {
-      paddingTop: '80px',
-    },
-  },
-  institutional: {
-    padding: '0',
-  },
-})
+export default withStyles(styles)(({ classes, children, institutional }) => {
+  const external = classes.institutional + ' content'
+  const internal = classes.navbarPadding + ' content'
 
-export default withStyles(styles)(props => {
-  return (
-    <div
-      className={
-        props.institutional
-          ? props.classes.institutional + ' content'
-          : props.classes.navbarPadding + ' content'
-      }
-    >
-      {props.children}
-    </div>
-  )
+  return <div className={institutional ? external : internal}>{children}</div>
 })
