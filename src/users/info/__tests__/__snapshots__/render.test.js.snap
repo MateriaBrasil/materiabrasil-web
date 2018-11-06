@@ -5,7 +5,7 @@ exports[`when user looks at another user profile renders correctly 1`] = `
   className="MuiGrid-container-1 MuiGrid-spacing-xs-32-26"
 >
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-4-75"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-4-47 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-2-87"
   >
     <div
       currentUser={
@@ -40,7 +40,7 @@ exports[`when user looks at another user profile renders correctly 1`] = `
     </div>
   </div>
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-8-79"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-8-65 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-10-95"
   >
     <div
       className="MuiPaper-root-163 MuiPaper-elevation1-166 MuiPaper-rounded-164 MuiCard-root-162"
@@ -185,7 +185,7 @@ exports[`when user looks at her own profile renders correctly 1`] = `
   className="MuiGrid-container-1 MuiGrid-spacing-xs-32-26"
 >
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-4-75"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-4-47 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-2-87"
   >
     <div
       currentUser={
@@ -254,7 +254,7 @@ exports[`when user looks at her own profile renders correctly 1`] = `
     </div>
   </div>
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-8-79"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-8-65 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-10-95"
   >
     <div
       className="MuiPaper-root-163 MuiPaper-elevation1-166 MuiPaper-rounded-164 MuiCard-root-162"
