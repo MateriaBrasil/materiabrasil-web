@@ -14,7 +14,7 @@ export default props => {
   const { id, description, email, phone, reach } = current
 
   return (
-    <Grid item xs={12} lg={8}>
+    <Grid item xs={12} sm={8} md={8} lg={9} xl={10}>
       <Card>
         <CardContent>
           <PropertyWithValue
