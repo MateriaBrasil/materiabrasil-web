@@ -10,11 +10,20 @@ const styles = theme => ({
       paddingTop: '80px',
     },
   },
+  institutional: {
+    padding: '0',
+  },
 })
 
 export default withStyles(styles)(props => {
   return (
-    <div className={props.classes.navbarPadding + ' content'}>
+    <div
+      className={
+        props.institutional
+          ? props.classes.institutional + ' content'
+          : props.classes.navbarPadding + ' content'
+      }
+    >
       {props.children}
     </div>
   )
