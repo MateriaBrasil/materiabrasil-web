@@ -1,6 +1,6 @@
 import React from 'react'
 
-import NaveBarAndContent from '../NavBarAndContent'
+import NavbarAndContent from '../NavBarAndContent'
 import Colors from '../Colors'
 import Goal from './Goal'
 import HowToUse from './HowToUse'
@@ -10,7 +10,7 @@ import Drivers from './drivers/Drivers'
 import Developers from './developers/Developers'
 
 export default props => routeProps => (
-  <NaveBarAndContent institutional {...props}>
+  <NavbarAndContent institutional {...props}>
     <div style={{ backgroundColor: Colors.grayNurse }}>
       <Goal />
       <HowToUse />
@@ -19,5 +19,5 @@ export default props => routeProps => (
       <Drivers />
       <Developers />
     </div>
-  </NaveBarAndContent>
+  </NavbarAndContent>
 )
