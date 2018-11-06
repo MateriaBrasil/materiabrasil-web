@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 import Colors from '../Colors'
 import NavBar from '../navBar/NavBar'
@@ -11,6 +12,9 @@ import Developers from './developers/Developers'
 
 export default props => routeProps => (
   <div style={{ backgroundColor: Colors.grayNurse }}>
+    <Helmet>
+      <title>Sobre</title>
+    </Helmet>
     <NavBar />
     <Goal />
     <HowToUse />
