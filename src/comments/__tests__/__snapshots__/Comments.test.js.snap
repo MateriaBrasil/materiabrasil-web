@@ -2,41 +2,32 @@
 
 exports[`with current user renders correctly 1`] = `
 <div
-  className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-md-8-65"
-  style={
-    Object {
-      "margin": "0 auto 36px auto",
-    }
-  }
+  className="MuiPaper-root-2 MuiPaper-elevation1-5 MuiPaper-rounded-3 MuiCard-root-1"
 >
   <div
-    className="MuiPaper-root-99 MuiPaper-elevation1-102 MuiPaper-rounded-100 MuiCard-root-98"
+    className="MuiCardContent-root-29"
   >
     <div
-      className="MuiCardContent-root-126"
+      currentUser={
+        Object {
+          "email": "foo@bar.com",
+          "name": "foo",
+        }
+      }
+      location={Object {}}
     >
-      <div
-        currentUser={
-          Object {
-            "email": "foo@bar.com",
-            "name": "foo",
-          }
+      New - 
+    </div>
+    <div
+      currentUser={
+        Object {
+          "email": "foo@bar.com",
+          "name": "foo",
         }
-        location={Object {}}
-      >
-        New - 
-      </div>
-      <div
-        currentUser={
-          Object {
-            "email": "foo@bar.com",
-            "name": "foo",
-          }
-        }
-        location={Object {}}
-      >
-        List - 
-      </div>
+      }
+      location={Object {}}
+    >
+      List - 
     </div>
   </div>
 </div>
@@ -44,50 +35,41 @@ exports[`with current user renders correctly 1`] = `
 
 exports[`without current user renders correctly 1`] = `
 <div
-  className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-md-8-65"
-  style={
-    Object {
-      "margin": "0 auto 36px auto",
-    }
-  }
+  className="MuiPaper-root-2 MuiPaper-elevation1-5 MuiPaper-rounded-3 MuiCard-root-1"
 >
   <div
-    className="MuiPaper-root-99 MuiPaper-elevation1-102 MuiPaper-rounded-100 MuiCard-root-98"
+    className="MuiCardContent-root-29"
   >
-    <div
-      className="MuiCardContent-root-126"
+    <p
+      className="MuiTypography-root-30 MuiTypography-body1-39 MuiTypography-colorInherit-59"
     >
-      <p
-        className="MuiTypography-root-127 MuiTypography-body1-136 MuiTypography-colorInherit-156"
-      >
-        <div
-          style={
-            Object {
-              "textDecoration": "none",
-            }
-          }
-          to={
-            Object {
-              "pathname": "/auth/sign-up",
-              "state": Object {
-                "referrer": undefined,
-              },
-            }
-          }
-        >
-          Link - 
-          Cadastre-se
-        </div>
-         
-        <span>
-          para deixar comentários.
-        </span>
-      </p>
       <div
-        location={Object {}}
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
+        to={
+          Object {
+            "pathname": "/auth/sign-up",
+            "state": Object {
+              "referrer": undefined,
+            },
+          }
+        }
       >
-        List - 
+        Link - 
+        Cadastre-se
       </div>
+       
+      <span>
+        para deixar comentários.
+      </span>
+    </p>
+    <div
+      location={Object {}}
+    >
+      List - 
     </div>
   </div>
 </div>

@@ -25,9 +25,11 @@ export default class extends Component {
       <Grid container spacing={16}>
         <CoverImage {...current} editable={editable} />
         {editable && <Images {...this.props} {...current} />}
-        <Description {...this.props} {...current} editable={editable} />
+        <Grid item xs={12} lg={7} style={{ marginBottom: 16 }}>
+          <Description {...this.props} {...current} editable={editable} />
+          <Comments id={id} type="materials" {...this.props} />
+        </Grid>
         <Sidebar {...this.props} {...current} />
-        <Comments id={id} type="materials" {...this.props} />
       </Grid>
     )
   }
