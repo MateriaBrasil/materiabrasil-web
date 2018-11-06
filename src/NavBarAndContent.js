@@ -6,6 +6,6 @@ import NavBar from './navBar/NavBar'
 export default props => (
   <Fragment>
     <NavBar {...props} />
-    <Content>{props.children}</Content>
+    <Content {...props}>{props.children}</Content>
   </Fragment>
 )
