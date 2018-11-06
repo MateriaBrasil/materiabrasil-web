@@ -63,10 +63,12 @@ export default class extends Component {
 
   render() {
     const { file, uploading } = this.state
-    const { updating, ...props } = this.props
+    const { width, height, updating, ...props } = this.props // eslint-disable-line no-unused-vars
+
     return (
       <Dialog
         {...props}
+        fullScreen
         onUpload={this.onUpload}
         disabled={!file || updating || uploading}
         cancelDisabled={updating || uploading}
