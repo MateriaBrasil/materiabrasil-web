@@ -1,7 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div>
-  Home
-</div>
+Array [
+  <div
+    institutional={true}
+>
+    NavBar
+</div>,
+  <div
+    className="Component-institutional-2 content"
+>
+    <div>
+        Home
+    </div>
+</div>,
+]
 `;
