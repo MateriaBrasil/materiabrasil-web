@@ -13,14 +13,14 @@ export default props => (
         <title>Materiamundi</title>
         <meta name="keywords" content="MateriaMundi" />
         <meta
-          name="og:description"
+          property="og:description"
           content="Ações para uma economia circular aplicada"
         />
-        <meta name="og:title" content="Materiamundi" />
-        <meta name="og:type" content="website" />
-        <meta name="og:url" content={window.location.href} />
+        <meta property="og:title" content="Materiamundi" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={window.location.href} />
         <meta
-          name="og:image"
+          property="og:image"
           content="https://s3.amazonaws.com/materiamundi-us/static/materiamundi_logo_fb.png"
         />
         <meta name="author" content="MateriaMundi" />
