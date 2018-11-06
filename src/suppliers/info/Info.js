@@ -1,12 +1,12 @@
 import React, { Component, Fragment } from 'react'
 import Grid from '@material-ui/core/Grid'
-import Typography from '@material-ui/core/Typography'
 import { Helmet } from 'react-helmet'
 
 import checkReloadAndFetch from '../../checkReloadAndFetch'
 import Avatar from '../../imageUpload/Avatar'
 import Addresses from '../../addresses/Addresses'
 
+import Name from './Name'
 import EditProfile from './EditProfile'
 import InfoCard from './InfoCard'
 import Materials from './Materials'
@@ -32,12 +32,7 @@ class Info extends Component {
         <Grid container spacing={32}>
           <Grid item xs={12} sm={4} md={4} lg={3} xl={2}>
             <Avatar name={name} editPath={editPath} imageUrl={imageUrl} />
-            <Typography
-              variant="h4"
-              style={{ marginTop: 16, marginBottom: 16 }}
-            >
-              {name}
-            </Typography>
+            <Name text={name} />
             <EditProfile currentUser={currentUser} supplier={current} />
             <AnswerQuestionnaire id={id} />
           </Grid>
