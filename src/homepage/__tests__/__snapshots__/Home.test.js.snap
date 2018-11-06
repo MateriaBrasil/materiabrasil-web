@@ -1,75 +1,65 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`when it does not match renders correctly 1`] = `
-Array [
-  <div>
-    NavBar
-</div>,
-  <div
-    style={
-        Object {
-            "backgroundColor": "#E5E6E5",
-          }
+<div
+  style={
+    Object {
+      "backgroundColor": "#E5E6E5",
     }
+  }
 >
-    <div
-        handleScroll={[Function]}
-    >
-        <div>
-            Introduction
-        </div>
+  <div
+    handleScroll={[Function]}
+  >
+    <div>
+      Introduction
     </div>
-    <div
-        handleScroll={[Function]}
-    >
-        <div>
-            WhatItIs
-        </div>
+  </div>
+  <div
+    handleScroll={[Function]}
+  >
+    <div>
+      WhatItIs
     </div>
-    <div
-        handleScroll={[Function]}
-    >
-        <div>
-            Explore
-        </div>
+  </div>
+  <div
+    handleScroll={[Function]}
+  >
+    <div>
+      Explore
     </div>
-</div>,
-]
+  </div>
+</div>
 `;
 
 exports[`when it matches renders correctly 1`] = `
-Array [
-  <div>
-    NavBar
-</div>,
-  <div
-    style={
-        Object {
-            "backgroundColor": "#E5E6E5",
-          }
+<div
+  style={
+    Object {
+      "backgroundColor": "#E5E6E5",
     }
+  }
 >
-    <div
-        handleScroll={[Function]}
-    >
-        <div>
-            Introduction
-        </div>
+  <div
+    handleScroll={[Function]}
+  >
+    <div>
+      Introduction
     </div>
-    <div
-        handleScroll={[Function]}
-    >
-        <div>
-            WhatItIs
-        </div>
+  </div>
+  <div
+    handleScroll={[Function]}
+  >
+    <div>
+      WhatItIs
     </div>
-    <div
-        handleScroll={[Function]}
-    >
-        <div>
-            Explore
-        </div>
+  </div>
+  <div
+    handleScroll={[Function]}
+  >
+    <div>
+      Explore
     </div>
-</div>,
-]
+  </div>
+</div>
 `;
