@@ -5,7 +5,7 @@ exports[`renders correctly 1`] = `
   className="MuiGrid-container-1 MuiGrid-spacing-xs-32-26"
 >
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-4-75"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-4-47 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-2-87"
   >
     <div
       editPath="/suppliers/1234/avatar"
@@ -70,7 +70,7 @@ exports[`renders correctly 1`] = `
     />
   </div>
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-8-79"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-8-65 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-10-95"
   >
     <div
       className="MuiPaper-root-163 MuiPaper-elevation1-166 MuiPaper-rounded-164 MuiCard-root-162"
@@ -279,7 +279,7 @@ exports[`with materials renders correctly 1`] = `
   className="MuiGrid-container-1 MuiGrid-spacing-xs-32-26"
 >
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-4-75"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-4-47 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-2-87"
   >
     <div
       editPath={undefined}
@@ -309,7 +309,7 @@ exports[`with materials renders correctly 1`] = `
     />
   </div>
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-8-79"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-8-65 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-10-95"
   >
     <div
       className="MuiPaper-root-163 MuiPaper-elevation1-166 MuiPaper-rounded-164 MuiCard-root-162"
@@ -493,7 +493,7 @@ exports[`without currentUser renders correctly 1`] = `
   className="MuiGrid-container-1 MuiGrid-spacing-xs-32-26"
 >
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-4-75"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-4-47 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-2-87"
   >
     <div
       editPath={undefined}
@@ -523,7 +523,7 @@ exports[`without currentUser renders correctly 1`] = `
     />
   </div>
   <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-8-79"
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-8-65 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-10-95"
   >
     <div
       className="MuiPaper-root-163 MuiPaper-elevation1-166 MuiPaper-rounded-164 MuiCard-root-162"

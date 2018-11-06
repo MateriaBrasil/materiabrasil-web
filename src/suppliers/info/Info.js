@@ -24,7 +24,7 @@ class Info extends Component {
 
     return (
       <Grid container spacing={32}>
-        <Grid item xs={12} lg={4}>
+        <Grid item xs={12} sm={4} md={4} lg={3} xl={2}>
           <Avatar name={name} editPath={editPath} imageUrl={imageUrl} />
           <Typography variant="h4" style={{ marginTop: 16, marginBottom: 16 }}>
             {name}
