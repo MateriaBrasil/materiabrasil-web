@@ -11,6 +11,10 @@ jest.mock('../../../form/TextField', () => props => (
   <div {...props}>Text Field</div>
 ))
 
+jest.mock('materials/Dialog', () => props => (
+  <div {...props}>Dialog - {props.children}</div>
+))
+
 it('renders correctly', () => {
   const onSubmit = jest.fn()
   const handleSubmit = jest.fn()

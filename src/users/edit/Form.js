@@ -1,12 +1,9 @@
 import React from 'react'
 import { reduxForm } from 'redux-form'
-import Card from '@material-ui/core/Card'
-import CardContent from '@material-ui/core/CardContent'
 
+import Dialog from 'materials/Dialog'
 import Error from 'Error'
 import TextField from '../../form/TextField'
-import Submit from '../../form/Submit'
-import SingleColumn from '../../SingleColumn'
 import Loading from '../../Loading'
 
 export default reduxForm({ form: 'profile' })(props => {
@@ -15,33 +12,21 @@ export default reduxForm({ form: 'profile' })(props => {
   const error = reduxFormError || updateError
 
   return (
-    <SingleColumn>
-      <Card>
-        <CardContent>
-          <form onSubmit={handleSubmit(onSubmit)}>
-            <TextField name="firstName" label="Nome" type="text" />
-            <TextField name="lastName" label="Sobrenome" type="text" />
-            <TextField name="email" label="Email" type="email" />
-            <TextField name="bio" label="Sobre você" type="text" multiline />
-            <TextField name="city" label="Cidade" type="text" />
-            <TextField name="state" label="Estado" type="text" />
-            <TextField name="country" label="País" type="text" />
-            <TextField
-              name="company"
-              label="Empresa / Organização"
-              type="text"
-            />
-            <TextField name="workTitle" label="Cargo" type="text" />
-            <TextField name="website" label="Site" type="text" />
-            {updating ? (
-              <Loading />
-            ) : (
-              <Submit callToAction="Atualizar perfil" disabled={updating} />
-            )}
-            <Error>{error}</Error>
-          </form>
-        </CardContent>
-      </Card>
-    </SingleColumn>
+    <Dialog {...props} title="Editar perfil" callToAction="ATUALIZAR PERFIL">
+      <form onSubmit={handleSubmit(onSubmit)}>
+        <TextField name="firstName" label="Nome" type="text" />
+        <TextField name="lastName" label="Sobrenome" type="text" />
+        <TextField name="email" label="Email" type="email" />
+        <TextField name="bio" label="Sobre você" type="text" multiline />
+        <TextField name="city" label="Cidade" type="text" />
+        <TextField name="state" label="Estado" type="text" />
+        <TextField name="country" label="País" type="text" />
+        <TextField name="company" label="Empresa / Organização" type="text" />
+        <TextField name="workTitle" label="Cargo" type="text" />
+        <TextField name="website" label="Site" type="text" />
+        {updating && <Loading />}
+        <Error>{error}</Error>
+      </form>
+    </Dialog>
   )
 })

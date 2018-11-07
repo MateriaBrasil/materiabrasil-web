@@ -2,292 +2,236 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="MuiGrid-container-1 MuiGrid-spacing-xs-32-26"
+  callToAction="ATUALIZAR PERFIL"
+  handleSubmit={[Function]}
+  onSubmit={[Function]}
+  title="Editar perfil"
+  updateError="foo-error"
 >
-  <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-6-63"
-    style={
-      Object {
-        "margin": "0 auto",
-      }
-    }
+  Dialog - 
+  <form
+    onSubmit={undefined}
   >
     <div
-      className="MuiPaper-root-99 MuiPaper-elevation1-102 MuiPaper-rounded-100 MuiCard-root-98"
+      label="Nome"
+      name="firstName"
+      type="text"
     >
-      <div
-        className="MuiCardContent-root-126"
-      >
-        <form
-          onSubmit={undefined}
-        >
-          <div
-            label="Nome"
-            name="firstName"
-            type="text"
-          >
-            Text Field
-          </div>
-          <div
-            label="Sobrenome"
-            name="lastName"
-            type="text"
-          >
-            Text Field
-          </div>
-          <div
-            label="Email"
-            name="email"
-            type="email"
-          >
-            Text Field
-          </div>
-          <div
-            label="Sobre você"
-            multiline={true}
-            name="bio"
-            type="text"
-          >
-            Text Field
-          </div>
-          <div
-            label="Cidade"
-            name="city"
-            type="text"
-          >
-            Text Field
-          </div>
-          <div
-            label="Estado"
-            name="state"
-            type="text"
-          >
-            Text Field
-          </div>
-          <div
-            label="País"
-            name="country"
-            type="text"
-          >
-            Text Field
-          </div>
-          <div
-            label="Empresa / Organização"
-            name="company"
-            type="text"
-          >
-            Text Field
-          </div>
-          <div
-            label="Cargo"
-            name="workTitle"
-            type="text"
-          >
-            Text Field
-          </div>
-          <div
-            label="Site"
-            name="website"
-            type="text"
-          >
-            Text Field
-          </div>
-          <div
-            style={
-              Object {
-                "textAlign": "right",
-              }
-            }
-          >
-            <button
-              className="MuiButtonBase-root-153 MuiButton-root-127 MuiButton-contained-138 MuiButton-containedPrimary-139 MuiButton-raised-141 MuiButton-raisedPrimary-142"
-              disabled={false}
-              onBlur={[Function]}
-              onFocus={[Function]}
-              onKeyDown={[Function]}
-              onKeyUp={[Function]}
-              onMouseDown={[Function]}
-              onMouseLeave={[Function]}
-              onMouseUp={[Function]}
-              onTouchEnd={[Function]}
-              onTouchMove={[Function]}
-              onTouchStart={[Function]}
-              tabIndex="0"
-              type="submit"
-            >
-              <span
-                className="MuiButton-label-128"
-              >
-                Atualizar perfil
-              </span>
-              <span
-                className="MuiTouchRipple-root-191"
-              />
-            </button>
-          </div>
-          <div
-            style={
-              Object {
-                "padding": 20,
-                "textAlign": "center",
-              }
-            }
-          >
-            <h5
-              className="MuiTypography-root-156 MuiTypography-h5-172 MuiTypography-colorError-190"
-            >
-              foo-error
-            </h5>
-          </div>
-        </form>
-      </div>
+      Text Field
     </div>
-  </div>
+    <div
+      label="Sobrenome"
+      name="lastName"
+      type="text"
+    >
+      Text Field
+    </div>
+    <div
+      label="Email"
+      name="email"
+      type="email"
+    >
+      Text Field
+    </div>
+    <div
+      label="Sobre você"
+      multiline={true}
+      name="bio"
+      type="text"
+    >
+      Text Field
+    </div>
+    <div
+      label="Cidade"
+      name="city"
+      type="text"
+    >
+      Text Field
+    </div>
+    <div
+      label="Estado"
+      name="state"
+      type="text"
+    >
+      Text Field
+    </div>
+    <div
+      label="País"
+      name="country"
+      type="text"
+    >
+      Text Field
+    </div>
+    <div
+      label="Empresa / Organização"
+      name="company"
+      type="text"
+    >
+      Text Field
+    </div>
+    <div
+      label="Cargo"
+      name="workTitle"
+      type="text"
+    >
+      Text Field
+    </div>
+    <div
+      label="Site"
+      name="website"
+      type="text"
+    >
+      Text Field
+    </div>
+    <div
+      style={
+        Object {
+          "padding": 20,
+          "textAlign": "center",
+        }
+      }
+    >
+      <h5
+        className="MuiTypography-root-1 MuiTypography-h5-17 MuiTypography-colorError-35"
+      >
+        foo-error
+      </h5>
+    </div>
+  </form>
 </div>
 `;
 
 exports[`when updating renders correctly 1`] = `
 <div
-  className="MuiGrid-container-1 MuiGrid-spacing-xs-32-26"
+  callToAction="ATUALIZAR PERFIL"
+  handleSubmit={[Function]}
+  onSubmit={[Function]}
+  title="Editar perfil"
+  updateError="foo-error"
+  updating={true}
 >
-  <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-8-51 MuiGrid-grid-md-6-63"
-    style={
-      Object {
-        "margin": "0 auto",
-      }
-    }
+  Dialog - 
+  <form
+    onSubmit={undefined}
   >
     <div
-      className="MuiPaper-root-99 MuiPaper-elevation1-102 MuiPaper-rounded-100 MuiCard-root-98"
+      label="Nome"
+      name="firstName"
+      type="text"
+    >
+      Text Field
+    </div>
+    <div
+      label="Sobrenome"
+      name="lastName"
+      type="text"
+    >
+      Text Field
+    </div>
+    <div
+      label="Email"
+      name="email"
+      type="email"
+    >
+      Text Field
+    </div>
+    <div
+      label="Sobre você"
+      multiline={true}
+      name="bio"
+      type="text"
+    >
+      Text Field
+    </div>
+    <div
+      label="Cidade"
+      name="city"
+      type="text"
+    >
+      Text Field
+    </div>
+    <div
+      label="Estado"
+      name="state"
+      type="text"
+    >
+      Text Field
+    </div>
+    <div
+      label="País"
+      name="country"
+      type="text"
+    >
+      Text Field
+    </div>
+    <div
+      label="Empresa / Organização"
+      name="company"
+      type="text"
+    >
+      Text Field
+    </div>
+    <div
+      label="Cargo"
+      name="workTitle"
+      type="text"
+    >
+      Text Field
+    </div>
+    <div
+      label="Site"
+      name="website"
+      type="text"
+    >
+      Text Field
+    </div>
+    <div
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
     >
       <div
-        className="MuiCardContent-root-126"
+        className="MuiCircularProgress-root-36 MuiCircularProgress-colorPrimary-39 MuiCircularProgress-indeterminate-38"
+        role="progressbar"
+        style={
+          Object {
+            "height": 40,
+            "width": 40,
+          }
+        }
       >
-        <form
-          onSubmit={undefined}
+        <svg
+          className="MuiCircularProgress-svg-41"
+          viewBox="22 22 44 44"
         >
-          <div
-            label="Nome"
-            name="firstName"
-            type="text"
-          >
-            Text Field
-          </div>
-          <div
-            label="Sobrenome"
-            name="lastName"
-            type="text"
-          >
-            Text Field
-          </div>
-          <div
-            label="Email"
-            name="email"
-            type="email"
-          >
-            Text Field
-          </div>
-          <div
-            label="Sobre você"
-            multiline={true}
-            name="bio"
-            type="text"
-          >
-            Text Field
-          </div>
-          <div
-            label="Cidade"
-            name="city"
-            type="text"
-          >
-            Text Field
-          </div>
-          <div
-            label="Estado"
-            name="state"
-            type="text"
-          >
-            Text Field
-          </div>
-          <div
-            label="País"
-            name="country"
-            type="text"
-          >
-            Text Field
-          </div>
-          <div
-            label="Empresa / Organização"
-            name="company"
-            type="text"
-          >
-            Text Field
-          </div>
-          <div
-            label="Cargo"
-            name="workTitle"
-            type="text"
-          >
-            Text Field
-          </div>
-          <div
-            label="Site"
-            name="website"
-            type="text"
-          >
-            Text Field
-          </div>
-          <div
-            style={
-              Object {
-                "textAlign": "center",
-              }
-            }
-          >
-            <div
-              className="MuiCircularProgress-root-198 MuiCircularProgress-colorPrimary-201 MuiCircularProgress-indeterminate-200"
-              role="progressbar"
-              style={
-                Object {
-                  "height": 40,
-                  "width": 40,
-                }
-              }
-            >
-              <svg
-                className="MuiCircularProgress-svg-203"
-                viewBox="22 22 44 44"
-              >
-                <circle
-                  className="MuiCircularProgress-circle-204 MuiCircularProgress-circleIndeterminate-206"
-                  cx={44}
-                  cy={44}
-                  fill="none"
-                  r={20.2}
-                  strokeWidth={3.6}
-                  style={Object {}}
-                />
-              </svg>
-            </div>
-          </div>
-          <div
-            style={
-              Object {
-                "padding": 20,
-                "textAlign": "center",
-              }
-            }
-          >
-            <h5
-              className="MuiTypography-root-156 MuiTypography-h5-172 MuiTypography-colorError-190"
-            >
-              foo-error
-            </h5>
-          </div>
-        </form>
+          <circle
+            className="MuiCircularProgress-circle-42 MuiCircularProgress-circleIndeterminate-44"
+            cx={44}
+            cy={44}
+            fill="none"
+            r={20.2}
+            strokeWidth={3.6}
+            style={Object {}}
+          />
+        </svg>
       </div>
     </div>
-  </div>
+    <div
+      style={
+        Object {
+          "padding": 20,
+          "textAlign": "center",
+        }
+      }
+    >
+      <h5
+        className="MuiTypography-root-1 MuiTypography-h5-17 MuiTypography-colorError-35"
+      >
+        foo-error
+      </h5>
+    </div>
+  </form>
 </div>
 `;
