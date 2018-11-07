@@ -33,7 +33,7 @@ export default props => list => {
                 const fullCity = `${city}, ${state}, ${country}`
 
                 return (
-                  <ListItem key={id} button>
+                  <ListItem key={id}>
                     <Avatar>
                       {addressType === 'manufacture' ? (
                         <BuildIcon />
