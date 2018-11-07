@@ -3,7 +3,7 @@
 exports[`renders correctly 1`] = `
 <div
   aria-labelledby="responsive-dialog-title"
-  fullScreen={false}
+  fullScreen={true}
   fullWidth={true}
   maxWidth="md"
   onBackdropClick={[Function]}
@@ -128,7 +128,7 @@ exports[`renders correctly 1`] = `
 exports[`with file renders correctly 1`] = `
 <div
   aria-labelledby="responsive-dialog-title"
-  fullScreen={false}
+  fullScreen={true}
   fullWidth={true}
   maxWidth="md"
   onBackdropClick={[Function]}
