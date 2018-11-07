@@ -21,6 +21,7 @@ export default class extends Component {
     const { id, supplierId, name, listImageUrl } = current
     const { suppliers } = currentUser || {}
     const editable = find(suppliers, supplier => supplier.id === supplierId)
+    document.documentElement.scrollTop = 0
 
     return (
       <Fragment>
@@ -37,7 +38,6 @@ export default class extends Component {
           </Grid>
           <Sidebar {...this.props} {...current} />
         </Grid>
-        {(document.body.scrollTop = document.documentElement.scrollTop = 0)}
       </Fragment>
     )
   }
