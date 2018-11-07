@@ -123,7 +123,7 @@ exports[`renders correctly 1`] = `
               domain={
                 Array [
                   0,
-                  10,
+                  4,
                 ]
               }
             >
