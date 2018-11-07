@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import omit from 'lodash/omit'
 
 import Dialog from './Dialog'
 import ZoomControls from './ZoomControls'
@@ -63,10 +64,13 @@ export default class extends Component {
 
   render() {
     const { file, uploading } = this.state
-    const { updating, ...props } = this.props
+    const { updating } = this.props
+    const dialogProps = omit(this.props, ['width', 'height'])
+
     return (
       <Dialog
-        {...props}
+        {...dialogProps}
+        fullScreen
         onUpload={this.onUpload}
         disabled={!file || updating || uploading}
         cancelDisabled={updating || uploading}
