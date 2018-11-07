@@ -37,6 +37,7 @@ export default class extends Component {
           </Grid>
           <Sidebar {...this.props} {...current} />
         </Grid>
+        {(document.body.scrollTop = document.documentElement.scrollTop = 0)}
       </Fragment>
     )
   }

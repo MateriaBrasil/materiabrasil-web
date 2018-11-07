@@ -1,711 +1,714 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div
-  className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24"
+Array [
+  <div
+    className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24"
 >
-  <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
-    style={
-      Object {
-        "marginBottom": 16,
-      }
-    }
-  >
     <div
-      to="/materials/undefined/coverImage"
-    >
-      <div
-        className="Ratio "
-        name="foo"
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
         style={
-          Object {
-            "display": "block",
-            "maxHeight": 640,
-            "maxWidth": 1920,
-            "overflow": "hidden",
-          }
-        }
-      >
-        <div
-          className="Ratio-ratio "
-          style={
             Object {
-              "height": 0,
-              "paddingTop": "33.333333333333336%",
-              "position": "relative",
-              "width": "100%",
-            }
-          }
+                "marginBottom": 16,
+              }
+        }
+    >
+        <div
+            to="/materials/undefined/coverImage"
         >
-          <div
-            className="Ratio-content "
+            <div
+                className="Ratio "
+                name="foo"
+                style={
+                    Object {
+                        "display": "block",
+                        "maxHeight": 640,
+                        "maxWidth": 1920,
+                        "overflow": "hidden",
+                      }
+                }
+            >
+                <div
+                    className="Ratio-ratio "
+                    style={
+                        Object {
+                            "height": 0,
+                            "paddingTop": "33.333333333333336%",
+                            "position": "relative",
+                            "width": "100%",
+                          }
+                    }
+                >
+                    <div
+                        className="Ratio-content "
+                        style={
+                            Object {
+                                "height": "100%",
+                                "left": 0,
+                                "position": "absolute",
+                                "top": 0,
+                                "width": "100%",
+                              }
+                        }
+                    >
+                        <img
+                            alt="foo"
+                            src="https://via.placeholder.com/1920x640"
+                            style={
+                                Object {
+                                    "backgroundColor": "#ddd",
+                                    "borderRadius": 2,
+                                    "display": "inline-block",
+                                    "height": "auto",
+                                    "marginRight": 16,
+                                    "maxWidth": "100%",
+                                    "width": "100%",
+                                  }
+                            }
+                            title="Clique para editar"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+        style={
+            Object {
+                "marginBottom": 16,
+              }
+        }
+    >
+        <div
+            className="MuiPaper-root-99 MuiPaper-elevation1-102 MuiPaper-rounded-100 MuiCard-root-98"
+        >
+            <div
+                className="MuiCardContent-root-126"
+            >
+                <h4
+                    className="MuiTypography-root-127 MuiTypography-h4-142"
+                    style={
+                        Object {
+                            "marginBottom": 24,
+                          }
+                    }
+                >
+                    Imagens
+                </h4>
+                <div
+                    className="MuiGrid-container-1 MuiGrid-spacing-xs-24-25"
+                >
+                    <div
+                        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-4-75"
+                    >
+                        <h5
+                            className="MuiTypography-root-127 MuiTypography-h5-143"
+                            style={
+                                Object {
+                                    "marginBottom": 16,
+                                  }
+                            }
+                        >
+                            Imagem para a lista
+                        </h5>
+                        <div
+                            to="/materials/undefined/listImage"
+                        >
+                            <div
+                                className="Ratio "
+                                lg={4}
+                                name="foo"
+                                style={
+                                    Object {
+                                        "display": "block",
+                                        "maxHeight": 540,
+                                        "maxWidth": 720,
+                                        "overflow": "hidden",
+                                      }
+                                }
+                                text="Imagem para a lista"
+                            >
+                                <div
+                                    className="Ratio-ratio "
+                                    style={
+                                        Object {
+                                            "height": 0,
+                                            "paddingTop": "75%",
+                                            "position": "relative",
+                                            "width": "100%",
+                                          }
+                                    }
+                                >
+                                    <div
+                                        className="Ratio-content "
+                                        style={
+                                            Object {
+                                                "height": "100%",
+                                                "left": 0,
+                                                "position": "absolute",
+                                                "top": 0,
+                                                "width": "100%",
+                                              }
+                                        }
+                                    >
+                                        <img
+                                            alt="foo"
+                                            src="https://via.placeholder.com/720x540"
+                                            style={
+                                                Object {
+                                                    "backgroundColor": "#ddd",
+                                                    "borderRadius": 2,
+                                                    "display": "inline-block",
+                                                    "height": "auto",
+                                                    "marginRight": 16,
+                                                    "maxWidth": "100%",
+                                                    "width": "100%",
+                                                  }
+                                            }
+                                            title="Clique para editar"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-8-79"
+                    >
+                        <h5
+                            className="MuiTypography-root-127 MuiTypography-h5-143"
+                            style={
+                                Object {
+                                    "marginBottom": 16,
+                                  }
+                            }
+                        >
+                            Imagem para os destaques
+                        </h5>
+                        <div
+                            to="/materials/undefined/highlightImage"
+                        >
+                            <div
+                                className="Ratio "
+                                lg={8}
+                                name="foo"
+                                style={
+                                    Object {
+                                        "display": "block",
+                                        "maxHeight": 720,
+                                        "maxWidth": 1920,
+                                        "overflow": "hidden",
+                                      }
+                                }
+                                text="Imagem para os destaques"
+                            >
+                                <div
+                                    className="Ratio-ratio "
+                                    style={
+                                        Object {
+                                            "height": 0,
+                                            "paddingTop": "37.5%",
+                                            "position": "relative",
+                                            "width": "100%",
+                                          }
+                                    }
+                                >
+                                    <div
+                                        className="Ratio-content "
+                                        style={
+                                            Object {
+                                                "height": "100%",
+                                                "left": 0,
+                                                "position": "absolute",
+                                                "top": 0,
+                                                "width": "100%",
+                                              }
+                                        }
+                                    >
+                                        <img
+                                            alt="foo"
+                                            src="https://via.placeholder.com/1920x720"
+                                            style={
+                                                Object {
+                                                    "backgroundColor": "#ddd",
+                                                    "borderRadius": 2,
+                                                    "display": "inline-block",
+                                                    "height": "auto",
+                                                    "marginRight": 16,
+                                                    "maxWidth": "100%",
+                                                    "width": "100%",
+                                                  }
+                                            }
+                                            title="Clique para editar"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-7-78"
+        style={
+            Object {
+                "marginBottom": 16,
+              }
+        }
+    >
+        <div
+            className="MuiPaper-root-99 MuiPaper-elevation1-102 MuiPaper-rounded-100 MuiCard-root-98"
             style={
-              Object {
-                "height": "100%",
-                "left": 0,
-                "position": "absolute",
-                "top": 0,
-                "width": "100%",
-              }
-            }
-          >
-            <img
-              alt="foo"
-              src="https://via.placeholder.com/1920x640"
-              style={
                 Object {
-                  "backgroundColor": "#ddd",
-                  "borderRadius": 2,
-                  "display": "inline-block",
-                  "height": "auto",
-                  "marginRight": 16,
-                  "maxWidth": "100%",
-                  "width": "100%",
-                }
-              }
-              title="Clique para editar"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
-    style={
-      Object {
-        "marginBottom": 16,
-      }
-    }
-  >
-    <div
-      className="MuiPaper-root-99 MuiPaper-elevation1-102 MuiPaper-rounded-100 MuiCard-root-98"
-    >
-      <div
-        className="MuiCardContent-root-126"
-      >
-        <h4
-          className="MuiTypography-root-127 MuiTypography-h4-142"
-          style={
-            Object {
-              "marginBottom": 24,
+                    "marginBottom": 16,
+                  }
             }
-          }
         >
-          Imagens
-        </h4>
-        <div
-          className="MuiGrid-container-1 MuiGrid-spacing-xs-24-25"
-        >
-          <div
-            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-4-75"
-          >
-            <h5
-              className="MuiTypography-root-127 MuiTypography-h5-143"
-              style={
-                Object {
-                  "marginBottom": 16,
-                }
-              }
-            >
-              Imagem para a lista
-            </h5>
             <div
-              to="/materials/undefined/listImage"
+                className="MuiCardContent-root-126"
             >
-              <div
-                className="Ratio "
-                lg={4}
-                name="foo"
-                style={
-                  Object {
-                    "display": "block",
-                    "maxHeight": 540,
-                    "maxWidth": 720,
-                    "overflow": "hidden",
-                  }
-                }
-                text="Imagem para a lista"
-              >
                 <div
-                  className="Ratio-ratio "
-                  style={
-                    Object {
-                      "height": 0,
-                      "paddingTop": "75%",
-                      "position": "relative",
-                      "width": "100%",
-                    }
-                  }
-                >
-                  <div
-                    className="Ratio-content "
                     style={
-                      Object {
-                        "height": "100%",
-                        "left": 0,
-                        "position": "absolute",
-                        "top": 0,
-                        "width": "100%",
-                      }
-                    }
-                  >
-                    <img
-                      alt="foo"
-                      src="https://via.placeholder.com/720x540"
-                      style={
                         Object {
-                          "backgroundColor": "#ddd",
-                          "borderRadius": 2,
-                          "display": "inline-block",
-                          "height": "auto",
-                          "marginRight": 16,
-                          "maxWidth": "100%",
-                          "width": "100%",
+                            "float": "right",
+                          }
+                    }
+                >
+                    <div
+                        averagePrice="100"
+                        code="999"
+                        current={
+                            Object {
+                                "averagePrice": "100",
+                                "code": "999",
+                                "description": "info",
+                                "imageUrl": "bar",
+                                "manufacturingLocation": "Foo City/FO",
+                                "name": "foo",
+                                "properties": "Foo properties",
+                                "salesLocation": "Bar City/BR",
+                                "supplierContact": "foo@bar.com",
+                                "supplierId": 1234,
+                                "supplierName": "Foo Supplier",
+                                "technicalSpecification_url": "http://foo",
+                              }
                         }
-                      }
-                      title="Clique para editar"
-                    />
-                  </div>
+                        currentUser={
+                            Object {
+                                "suppliers": Array [
+                                  Object {
+                                    "id": 1234,
+                                  },
+                                ],
+                              }
+                        }
+                        description="info"
+                        editable={
+                            Object {
+                                "id": 1234,
+                              }
+                        }
+                        imageUrl="bar"
+                        location={Object {}}
+                        manufacturingLocation="Foo City/FO"
+                        name="foo"
+                        properties="Foo properties"
+                        salesLocation="Bar City/BR"
+                        supplierContact="foo@bar.com"
+                        supplierId={1234}
+                        supplierName="Foo Supplier"
+                        technicalSpecification_url="http://foo"
+                    >
+                        Favorites
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-8-79"
-          >
-            <h5
-              className="MuiTypography-root-127 MuiTypography-h5-143"
-              style={
-                Object {
-                  "marginBottom": 16,
-                }
-              }
-            >
-              Imagem para os destaques
-            </h5>
-            <div
-              to="/materials/undefined/highlightImage"
-            >
-              <div
-                className="Ratio "
-                lg={8}
-                name="foo"
-                style={
-                  Object {
-                    "display": "block",
-                    "maxHeight": 720,
-                    "maxWidth": 1920,
-                    "overflow": "hidden",
-                  }
-                }
-                text="Imagem para os destaques"
-              >
+                <h4
+                    className="MuiTypography-root-127 MuiTypography-h4-142"
+                >
+                    foo
+                </h4>
+                <span
+                    className="MuiTypography-root-127 MuiTypography-caption-137"
+                    style={
+                        Object {
+                            "marginBottom": 16,
+                          }
+                    }
+                >
+                    999
+                </span>
                 <div
-                  className="Ratio-ratio "
-                  style={
-                    Object {
-                      "height": 0,
-                      "paddingTop": "37.5%",
-                      "position": "relative",
-                      "width": "100%",
-                    }
-                  }
-                >
-                  <div
-                    className="Ratio-content "
-                    style={
-                      Object {
-                        "height": "100%",
-                        "left": 0,
-                        "position": "absolute",
-                        "top": 0,
-                        "width": "100%",
-                      }
-                    }
-                  >
-                    <img
-                      alt="foo"
-                      src="https://via.placeholder.com/1920x720"
-                      style={
+                    averagePrice="100"
+                    code="999"
+                    current={
                         Object {
-                          "backgroundColor": "#ddd",
-                          "borderRadius": 2,
-                          "display": "inline-block",
-                          "height": "auto",
-                          "marginRight": 16,
-                          "maxWidth": "100%",
-                          "width": "100%",
-                        }
-                      }
-                      title="Clique para editar"
-                    />
-                  </div>
+                            "averagePrice": "100",
+                            "code": "999",
+                            "description": "info",
+                            "imageUrl": "bar",
+                            "manufacturingLocation": "Foo City/FO",
+                            "name": "foo",
+                            "properties": "Foo properties",
+                            "salesLocation": "Bar City/BR",
+                            "supplierContact": "foo@bar.com",
+                            "supplierId": 1234,
+                            "supplierName": "Foo Supplier",
+                            "technicalSpecification_url": "http://foo",
+                          }
+                    }
+                    currentUser={
+                        Object {
+                            "suppliers": Array [
+                              Object {
+                                "id": 1234,
+                              },
+                            ],
+                          }
+                    }
+                    description="info"
+                    editable={
+                        Object {
+                            "id": 1234,
+                          }
+                    }
+                    imageUrl="bar"
+                    location={Object {}}
+                    manufacturingLocation="Foo City/FO"
+                    name="foo"
+                    properties="Foo properties"
+                    salesLocation="Bar City/BR"
+                    supplierContact="foo@bar.com"
+                    supplierId={1234}
+                    supplierName="Foo Supplier"
+                    technicalSpecification_url="http://foo"
+                >
+                    Supplier
                 </div>
-              </div>
+                <div
+                    style={
+                        Object {
+                            "marginRight": 24,
+                            "textDecoration": "none",
+                          }
+                    }
+                    to="/materials/undefined/edit"
+                >
+                    <button
+                        className="MuiButtonBase-root-188 MuiButton-root-162 MuiButton-contained-173 MuiButton-containedPrimary-174 MuiButton-raised-176 MuiButton-raisedPrimary-177"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        style={
+                            Object {
+                                "marginBottom": 24,
+                              }
+                        }
+                        tabIndex="0"
+                        type="button"
+                    >
+                        <span
+                            className="MuiButton-label-163"
+                        >
+                            Editar informações gerais
+                        </span>
+                        <span
+                            className="MuiTouchRipple-root-192"
+                        />
+                    </button>
+                </div>
+                <div
+                    style={
+                        Object {
+                            "marginRight": 24,
+                            "textDecoration": "none",
+                          }
+                    }
+                    to="/materials/undefined/categories"
+                >
+                    <button
+                        className="MuiButtonBase-root-188 MuiButton-root-162 MuiButton-contained-173 MuiButton-containedPrimary-174 MuiButton-raised-176 MuiButton-raisedPrimary-177"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        style={
+                            Object {
+                                "marginBottom": 24,
+                              }
+                        }
+                        tabIndex="0"
+                        type="button"
+                    >
+                        <span
+                            className="MuiButton-label-163"
+                        >
+                            Editar informações técnicas
+                        </span>
+                        <span
+                            className="MuiTouchRipple-root-192"
+                        />
+                    </button>
+                </div>
+                <div
+                    style={
+                        Object {
+                            "display": "inline-block",
+                          }
+                    }
+                >
+                    <button
+                        className="MuiButtonBase-root-188 MuiButton-root-162 MuiButton-contained-173 MuiButton-containedPrimary-174 MuiButton-raised-176 MuiButton-raisedPrimary-177"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        style={
+                            Object {
+                                "marginBottom": 24,
+                                "marginRight": 24,
+                              }
+                        }
+                        tabIndex="0"
+                        type="button"
+                    >
+                        <span
+                            className="MuiButton-label-163"
+                        >
+                            Enviar
+                            
+                             ficha técnica
+                        </span>
+                        <span
+                            className="MuiTouchRipple-root-192"
+                        />
+                    </button>
+                    <input
+                        onChange={[Function]}
+                        style={
+                            Object {
+                                "display": "none",
+                              }
+                        }
+                        type="file"
+                    />
+                </div>
+                <div
+                    style={
+                        Object {
+                            "display": "inline-block",
+                          }
+                    }
+                >
+                    <button
+                        className="MuiButtonBase-root-188 MuiButton-root-162 MuiButton-contained-173 MuiButton-containedPrimary-174 MuiButton-raised-176 MuiButton-raisedPrimary-177"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        style={
+                            Object {
+                                "marginBottom": 24,
+                                "marginRight": 24,
+                              }
+                        }
+                        tabIndex="0"
+                        type="button"
+                    >
+                        <span
+                            className="MuiButton-label-163"
+                        >
+                            Enviar Certificações
+                        </span>
+                        <span
+                            className="MuiTouchRipple-root-192"
+                        />
+                    </button>
+                    <input
+                        onChange={[Function]}
+                        style={
+                            Object {
+                                "display": "none",
+                              }
+                        }
+                        type="file"
+                    />
+                </div>
+                <h6
+                    className="MuiTypography-root-127 MuiTypography-subtitle1-145"
+                    style={
+                        Object {
+                            "marginBottom": 24,
+                          }
+                    }
+                >
+                    info
+                </h6>
+                <div
+                    style={
+                        Object {
+                            "marginBottom": 20,
+                          }
+                    }
+                >
+                    <div
+                        style={
+                            Object {
+                                "display": "inline-block ",
+                              }
+                        }
+                    />
+                    <div
+                        style={
+                            Object {
+                                "color": "black",
+                                "textDecoration": "none",
+                              }
+                        }
+                        to="/materials/undefined/reviews/new"
+                    >
+                        <button
+                            className="MuiButtonBase-root-188 MuiButton-root-162 MuiButton-text-164 MuiButton-flat-167"
+                            disabled={false}
+                            onBlur={[Function]}
+                            onFocus={[Function]}
+                            onKeyDown={[Function]}
+                            onKeyUp={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseLeave={[Function]}
+                            onMouseUp={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                            style={
+                                Object {
+                                    "marginTop": -10,
+                                  }
+                            }
+                            tabIndex="0"
+                            type="button"
+                        >
+                            <span
+                                className="MuiButton-label-163"
+                            >
+                                Avaliar
+                            </span>
+                            <span
+                                className="MuiTouchRipple-root-192"
+                            />
+                        </button>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-7-78"
-    style={
-      Object {
-        "marginBottom": 16,
-      }
-    }
-  >
-    <div
-      className="MuiPaper-root-99 MuiPaper-elevation1-102 MuiPaper-rounded-100 MuiCard-root-98"
-      style={
-        Object {
-          "marginBottom": 16,
-        }
-      }
-    >
-      <div
-        className="MuiCardContent-root-126"
-      >
         <div
-          style={
-            Object {
-              "float": "right",
-            }
-          }
-        >
-          <div
-            averagePrice="100"
-            code="999"
             current={
-              Object {
-                "averagePrice": "100",
-                "code": "999",
-                "description": "info",
-                "imageUrl": "bar",
-                "manufacturingLocation": "Foo City/FO",
-                "name": "foo",
-                "properties": "Foo properties",
-                "salesLocation": "Bar City/BR",
-                "supplierContact": "foo@bar.com",
-                "supplierId": 1234,
-                "supplierName": "Foo Supplier",
-                "technicalSpecification_url": "http://foo",
-              }
+                Object {
+                    "averagePrice": "100",
+                    "code": "999",
+                    "description": "info",
+                    "imageUrl": "bar",
+                    "manufacturingLocation": "Foo City/FO",
+                    "name": "foo",
+                    "properties": "Foo properties",
+                    "salesLocation": "Bar City/BR",
+                    "supplierContact": "foo@bar.com",
+                    "supplierId": 1234,
+                    "supplierName": "Foo Supplier",
+                    "technicalSpecification_url": "http://foo",
+                  }
             }
             currentUser={
-              Object {
-                "suppliers": Array [
-                  Object {
-                    "id": 1234,
-                  },
-                ],
-              }
+                Object {
+                    "suppliers": Array [
+                      Object {
+                        "id": 1234,
+                      },
+                    ],
+                  }
             }
-            description="info"
-            editable={
-              Object {
-                "id": 1234,
-              }
-            }
-            imageUrl="bar"
+            id={undefined}
             location={Object {}}
-            manufacturingLocation="Foo City/FO"
-            name="foo"
-            properties="Foo properties"
-            salesLocation="Bar City/BR"
-            supplierContact="foo@bar.com"
-            supplierId={1234}
-            supplierName="Foo Supplier"
-            technicalSpecification_url="http://foo"
-          >
-            Favorites
-          </div>
+            type="materials"
+        >
+            Comments
         </div>
-        <h4
-          className="MuiTypography-root-127 MuiTypography-h4-142"
-        >
-          foo
-        </h4>
-        <span
-          className="MuiTypography-root-127 MuiTypography-caption-137"
-          style={
-            Object {
-              "marginBottom": 16,
-            }
-          }
-        >
-          999
-        </span>
-        <div
-          averagePrice="100"
-          code="999"
-          current={
-            Object {
-              "averagePrice": "100",
-              "code": "999",
-              "description": "info",
-              "imageUrl": "bar",
-              "manufacturingLocation": "Foo City/FO",
-              "name": "foo",
-              "properties": "Foo properties",
-              "salesLocation": "Bar City/BR",
-              "supplierContact": "foo@bar.com",
-              "supplierId": 1234,
-              "supplierName": "Foo Supplier",
-              "technicalSpecification_url": "http://foo",
-            }
-          }
-          currentUser={
-            Object {
-              "suppliers": Array [
-                Object {
-                  "id": 1234,
-                },
-              ],
-            }
-          }
-          description="info"
-          editable={
-            Object {
-              "id": 1234,
-            }
-          }
-          imageUrl="bar"
-          location={Object {}}
-          manufacturingLocation="Foo City/FO"
-          name="foo"
-          properties="Foo properties"
-          salesLocation="Bar City/BR"
-          supplierContact="foo@bar.com"
-          supplierId={1234}
-          supplierName="Foo Supplier"
-          technicalSpecification_url="http://foo"
-        >
-          Supplier
-        </div>
-        <div
-          style={
-            Object {
-              "marginRight": 24,
-              "textDecoration": "none",
-            }
-          }
-          to="/materials/undefined/edit"
-        >
-          <button
-            className="MuiButtonBase-root-188 MuiButton-root-162 MuiButton-contained-173 MuiButton-containedPrimary-174 MuiButton-raised-176 MuiButton-raisedPrimary-177"
-            disabled={false}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-            onMouseDown={[Function]}
-            onMouseLeave={[Function]}
-            onMouseUp={[Function]}
-            onTouchEnd={[Function]}
-            onTouchMove={[Function]}
-            onTouchStart={[Function]}
-            style={
-              Object {
-                "marginBottom": 24,
-              }
-            }
-            tabIndex="0"
-            type="button"
-          >
-            <span
-              className="MuiButton-label-163"
-            >
-              Editar informações gerais
-            </span>
-            <span
-              className="MuiTouchRipple-root-192"
-            />
-          </button>
-        </div>
-        <div
-          style={
-            Object {
-              "marginRight": 24,
-              "textDecoration": "none",
-            }
-          }
-          to="/materials/undefined/categories"
-        >
-          <button
-            className="MuiButtonBase-root-188 MuiButton-root-162 MuiButton-contained-173 MuiButton-containedPrimary-174 MuiButton-raised-176 MuiButton-raisedPrimary-177"
-            disabled={false}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-            onMouseDown={[Function]}
-            onMouseLeave={[Function]}
-            onMouseUp={[Function]}
-            onTouchEnd={[Function]}
-            onTouchMove={[Function]}
-            onTouchStart={[Function]}
-            style={
-              Object {
-                "marginBottom": 24,
-              }
-            }
-            tabIndex="0"
-            type="button"
-          >
-            <span
-              className="MuiButton-label-163"
-            >
-              Editar informações técnicas
-            </span>
-            <span
-              className="MuiTouchRipple-root-192"
-            />
-          </button>
-        </div>
-        <div
-          style={
-            Object {
-              "display": "inline-block",
-            }
-          }
-        >
-          <button
-            className="MuiButtonBase-root-188 MuiButton-root-162 MuiButton-contained-173 MuiButton-containedPrimary-174 MuiButton-raised-176 MuiButton-raisedPrimary-177"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-            onMouseDown={[Function]}
-            onMouseLeave={[Function]}
-            onMouseUp={[Function]}
-            onTouchEnd={[Function]}
-            onTouchMove={[Function]}
-            onTouchStart={[Function]}
-            style={
-              Object {
-                "marginBottom": 24,
-                "marginRight": 24,
-              }
-            }
-            tabIndex="0"
-            type="button"
-          >
-            <span
-              className="MuiButton-label-163"
-            >
-              Enviar
-              
-               ficha técnica
-            </span>
-            <span
-              className="MuiTouchRipple-root-192"
-            />
-          </button>
-          <input
-            onChange={[Function]}
-            style={
-              Object {
-                "display": "none",
-              }
-            }
-            type="file"
-          />
-        </div>
-        <div
-          style={
-            Object {
-              "display": "inline-block",
-            }
-          }
-        >
-          <button
-            className="MuiButtonBase-root-188 MuiButton-root-162 MuiButton-contained-173 MuiButton-containedPrimary-174 MuiButton-raised-176 MuiButton-raisedPrimary-177"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-            onMouseDown={[Function]}
-            onMouseLeave={[Function]}
-            onMouseUp={[Function]}
-            onTouchEnd={[Function]}
-            onTouchMove={[Function]}
-            onTouchStart={[Function]}
-            style={
-              Object {
-                "marginBottom": 24,
-                "marginRight": 24,
-              }
-            }
-            tabIndex="0"
-            type="button"
-          >
-            <span
-              className="MuiButton-label-163"
-            >
-              Enviar Certificações
-            </span>
-            <span
-              className="MuiTouchRipple-root-192"
-            />
-          </button>
-          <input
-            onChange={[Function]}
-            style={
-              Object {
-                "display": "none",
-              }
-            }
-            type="file"
-          />
-        </div>
-        <h6
-          className="MuiTypography-root-127 MuiTypography-subtitle1-145"
-          style={
-            Object {
-              "marginBottom": 24,
-            }
-          }
-        >
-          info
-        </h6>
-        <div
-          style={
-            Object {
-              "marginBottom": 20,
-            }
-          }
-        >
-          <div
-            style={
-              Object {
-                "display": "inline-block ",
-              }
-            }
-          />
-          <div
-            style={
-              Object {
-                "color": "black",
-                "textDecoration": "none",
-              }
-            }
-            to="/materials/undefined/reviews/new"
-          >
-            <button
-              className="MuiButtonBase-root-188 MuiButton-root-162 MuiButton-text-164 MuiButton-flat-167"
-              disabled={false}
-              onBlur={[Function]}
-              onFocus={[Function]}
-              onKeyDown={[Function]}
-              onKeyUp={[Function]}
-              onMouseDown={[Function]}
-              onMouseLeave={[Function]}
-              onMouseUp={[Function]}
-              onTouchEnd={[Function]}
-              onTouchMove={[Function]}
-              onTouchStart={[Function]}
-              style={
-                Object {
-                  "marginTop": -10,
-                }
-              }
-              tabIndex="0"
-              type="button"
-            >
-              <span
-                className="MuiButton-label-163"
-              >
-                Avaliar
-              </span>
-              <span
-                className="MuiTouchRipple-root-192"
-              />
-            </button>
-          </div>
-        </div>
-      </div>
     </div>
     <div
-      current={
-        Object {
-          "averagePrice": "100",
-          "code": "999",
-          "description": "info",
-          "imageUrl": "bar",
-          "manufacturingLocation": "Foo City/FO",
-          "name": "foo",
-          "properties": "Foo properties",
-          "salesLocation": "Bar City/BR",
-          "supplierContact": "foo@bar.com",
-          "supplierId": 1234,
-          "supplierName": "Foo Supplier",
-          "technicalSpecification_url": "http://foo",
-        }
-      }
-      currentUser={
-        Object {
-          "suppliers": Array [
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-5-76"
+        style={
             Object {
-              "id": 1234,
-            },
-          ],
-        }
-      }
-      id={undefined}
-      location={Object {}}
-      type="materials"
-    >
-      Comments
-    </div>
-  </div>
-  <div
-    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-5-76"
-    style={
-      Object {
-        "marginBottom": 16,
-      }
-    }
-  >
-    <div
-      className="MuiPaper-root-99 MuiPaper-elevation1-102 MuiPaper-rounded-100 MuiCard-root-98"
-    >
-      <div
-        className="MuiCardContent-root-126"
-      >
-        <div
-          style={
-            Object {
-              "overflow": "auto",
-            }
-          }
-        >
-          <h6
-            className="MuiTypography-root-127 MuiTypography-h6-144 MuiTypography-colorTextSecondary-160"
-            style={
-              Object {
-                "float": "left",
-                "marginTop": 8,
+                "marginBottom": 16,
               }
-            }
-          >
-            Características
-          </h6>
-        </div>
-        <p
-          className="MuiTypography-root-127 MuiTypography-body1-136"
+        }
+    >
+        <div
+            className="MuiPaper-root-99 MuiPaper-elevation1-102 MuiPaper-rounded-100 MuiCard-root-98"
         >
-          Este material ainda não possui indicadores
-        </p>
-      </div>
+            <div
+                className="MuiCardContent-root-126"
+            >
+                <div
+                    style={
+                        Object {
+                            "overflow": "auto",
+                          }
+                    }
+                >
+                    <h6
+                        className="MuiTypography-root-127 MuiTypography-h6-144 MuiTypography-colorTextSecondary-160"
+                        style={
+                            Object {
+                                "float": "left",
+                                "marginTop": 8,
+                              }
+                        }
+                    >
+                        Características
+                    </h6>
+                </div>
+                <p
+                    className="MuiTypography-root-127 MuiTypography-body1-136"
+                >
+                    Este material ainda não possui indicadores
+                </p>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
+</div>,
+  "0",
+]
 `;
