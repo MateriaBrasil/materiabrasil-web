@@ -10,17 +10,20 @@ import renderSuppliers from './suppliers/render'
 import renderTopics from './topics/render'
 import renderAbout from './about/render'
 import renderHomepage from './homepage/render'
+import ScrollToTop from './ScrollToTop'
 
 export default props => (
-  <Switch>
-    <Route path="/auth" render={renderAuth(props)} />
-    <Route path="/users" render={renderUsers(props)} />
-    <Route path="/profile" render={renderUsers(props)} />
-    <Route path="/search" render={renderSearch(props)} />
-    <Route path="/suppliers" render={renderSuppliers(props)} />
-    <Route path="/forum" render={renderTopics(props)} />
-    <Route path="/materials" render={renderMaterials(props)} />
-    <Route path="/about" render={renderAbout(props)} />
-    <Route path="/" render={renderHomepage(props)} />
-  </Switch>
+  <ScrollToTop>
+    <Switch>
+      <Route path="/auth" render={renderAuth(props)} />
+      <Route path="/users" render={renderUsers(props)} />
+      <Route path="/profile" render={renderUsers(props)} />
+      <Route path="/search" render={renderSearch(props)} />
+      <Route path="/suppliers" render={renderSuppliers(props)} />
+      <Route path="/forum" render={renderTopics(props)} />
+      <Route path="/materials" render={renderMaterials(props)} />
+      <Route path="/about" render={renderAbout(props)} />
+      <Route path="/" render={renderHomepage(props)} />
+    </Switch>
+  </ScrollToTop>
 )
