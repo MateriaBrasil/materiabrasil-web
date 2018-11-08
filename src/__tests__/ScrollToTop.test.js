@@ -1,7 +1,7 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import ScrollToTop from '../ScrollToTop'
 import { MemoryRouter } from 'react-router'
+import ScrollToTop from '../ScrollToTop'
 
 jest.mock('react-router-dom', () => ({ withRouter: Component => Component }))
 
