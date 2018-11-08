@@ -14,6 +14,10 @@ jest.mock('../../form/TextField', () => props => (
   <div {...props}>{props.children}</div>
 ))
 
+jest.mock('materials/Dialog', () => props => (
+  <div {...props}>Dialog - {props.children}</div>
+))
+
 jest.mock('../../Error', () => jest.fn(props => <div {...props} />))
 
 it('renders correctly', () => {

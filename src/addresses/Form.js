@@ -2,18 +2,21 @@ import React from 'react'
 import { reduxForm } from 'redux-form'
 import { required } from 'redux-form-validators'
 
+import Dialog from 'materials/Dialog'
 import Error from 'Error'
 import TextField from '../form/TextField'
 import SelectField from '../form/SelectField'
-import Submit from '../form/Submit'
 
 export default reduxForm({ form: 'addresses' })(props => {
-  const { handleSubmit, onSubmit, error: reduxFormError, createError } = props
-  const { creating, invalid } = props
+  const { error: reduxFormError, createError } = props
   const error = reduxFormError || createError
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} style={{ marginBottom: 30 }}>
+    <Dialog
+      {...props}
+      title="Adicionar Endereço"
+      callToAction="ADICIONAR ENDEREÇO"
+    >
       <SelectField
         name="addressType"
         label="Tipo"
@@ -50,11 +53,7 @@ export default reduxForm({ form: 'addresses' })(props => {
       />
       <TextField name="zipCode" label="CEP" type="text" />
       <TextField name="phoneNumber" label="Telefone para contato" type="text" />
-      <Submit
-        callToAction="Adicionar endereço"
-        disabled={creating || invalid}
-      />
       <Error>{error}</Error>
-    </form>
+    </Dialog>
   )
 })

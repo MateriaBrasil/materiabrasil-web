@@ -9,6 +9,7 @@ import renderNew from './renderNew'
 import renderEdit from './renderEdit'
 import renderInfo from './renderInfo'
 import renderImageUpload from './renderImageUpload'
+import renderNewAddress from '../addresses/New'
 import renderQuestionnaires from '../questionnaires/renderList'
 
 export default props => {
@@ -40,6 +41,11 @@ export default props => {
         exact
         path="/suppliers/:id/avatar"
         render={renderImageUpload(props)}
+      />
+      <Route
+        exact
+        path="/suppliers/:id/address"
+        render={renderNewAddress(props)}
       />
       <Route exact path="/suppliers/:id/edit" render={renderEdit(props)} />
     </Fragment>

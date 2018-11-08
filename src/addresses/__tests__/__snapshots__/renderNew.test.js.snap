@@ -2,39 +2,19 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
-  style={
+  createError={undefined}
+  creating={undefined}
+  foo="bar"
+  id={123}
+  match={
     Object {
-      "marginBottom": 36,
+      "params": Object {
+        "id": 123,
+      },
     }
   }
+  onSubmit={[Function]}
 >
-  <div
-    className="MuiPaper-root-99 MuiPaper-elevation1-102 MuiPaper-rounded-100 MuiCard-root-98"
-  >
-    <div
-      className="MuiCardContent-root-126"
-    >
-      <h5
-        className="MuiTypography-root-127 MuiTypography-h5-143 MuiTypography-colorTextSecondary-160"
-        style={
-          Object {
-            "marginBottom": 16,
-          }
-        }
-      >
-        Adicionar endereço
-      </h5>
-      <div
-        createError={undefined}
-        creating={undefined}
-        foo="bar"
-        id={123}
-        onSubmit={[Function]}
-      >
-        Form - 
-      </div>
-    </div>
-  </div>
+  Form - 
 </div>
 `;
