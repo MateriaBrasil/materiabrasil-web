@@ -3,18 +3,21 @@ import renderer from 'react-test-renderer'
 import ScrollToTop from '../ScrollToTop'
 import { MemoryRouter } from 'react-router'
 
-it('when the component is updated', () => {
-  const event = { preventDefault: jest.fn() }
-  global.window.scrollTo = jest.fn()
-  const props = {
-    location: [{ pathname: '/' }],
-  }
-  const component = renderer.create(
-    <MemoryRouter initialEntries={[{ pathname: '/', key: 'testKey' }]}>
-      <ScrollToTop {...props}>foo</ScrollToTop>
-    </MemoryRouter>,
-  )
-  console.log(component)
+jest.mock('react-router-dom', () => ({ withRouter: Component => Component }))
 
-  expect(action).toHaveBeenCalledWith()
+describe('when the locations has changed', () => {
+  it('scroll to top', () => {
+    global.window.scrollTo = jest.fn()
+    const rendered = renderer.create(
+      <MemoryRouter initialEntries={[{ pathname: '/foo', key: 'testKey' }]}>
+        <ScrollToTop location="foo">foo</ScrollToTop>
+      </MemoryRouter>,
+    )
+    rendered.update(
+      <MemoryRouter initialEntries={[{ pathname: '/bar', key: 'testKey' }]}>
+        <ScrollToTop location="bar">foo</ScrollToTop>
+      </MemoryRouter>,
+    )
+    expect(global.window.scrollTo).toHaveBeenCalledWith(0, 0)
+  })
 })
