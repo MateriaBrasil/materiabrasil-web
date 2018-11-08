@@ -1,11 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
-<div
-  name="addresses"
-  render={[Function]}
-  renderCreated={[Function]}
->
-  New - 
-</div>
-`;
+exports[`renders correctly 1`] = `null`;
