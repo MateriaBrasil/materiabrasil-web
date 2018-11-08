@@ -63,7 +63,7 @@ export default withStyles(chartsStyle)(props => {
           >
             <PolarGrid />
             <PolarAngleAxis dataKey="subject" />
-            <PolarRadiusAxis angle={45} domain={[0, 4]} />
+            <PolarRadiusAxis domain={[0, 4]} tick={false} />
             <Radar
               name="Mike"
               dataKey="value"

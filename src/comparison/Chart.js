@@ -67,7 +67,7 @@ export default withStyles(chartsStyle)(
                 >
                   <PolarGrid />
                   <PolarAngleAxis dataKey="subject" />
-                  <PolarRadiusAxis angle={45} domain={[0, 4]} />
+                  <PolarRadiusAxis tick={false} domain={[0, 4]} />
                   {map(list, ({ id, name }, index) => (
                     <Radar
                       key={id}
