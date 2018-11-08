@@ -112,13 +112,13 @@ Array [
             PolarAngleAxis - 
         </div>
         <div
-            angle={45}
             domain={
                 Array [
                     0,
                     4,
                   ]
             }
+            tick={false}
         >
             PolarAngleAxis - 
         </div>

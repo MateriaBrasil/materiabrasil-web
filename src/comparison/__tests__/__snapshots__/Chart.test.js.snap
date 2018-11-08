@@ -119,13 +119,13 @@ exports[`renders correctly 1`] = `
               PolarAngleAxis - 
             </div>
             <div
-              angle={45}
               domain={
                 Array [
                   0,
                   4,
                 ]
               }
+              tick={false}
             >
               PolarAngleAxis - 
             </div>
