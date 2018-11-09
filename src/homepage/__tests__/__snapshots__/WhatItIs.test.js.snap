@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <div
+    className="Component-div-1"
+  >
+    <img
+      alt="polygon"
+      className="Component-image-2"
+      src="/images/polygon-1.png"
+    />
+    <h3
+      className="MuiTypography-root-4 MuiTypography-h3-18 Component-text-3"
+    >
+      A MateriaMundi
+    </h3>
+  </div>
+  <div
+    className="MuiGrid-container-40"
+    id="how_to_use_it"
+    style={
+      Object {
+        "background": "#E5E6E5",
+        "backgroundPosition": "center",
+        "backgroundSize": "cover",
+      }
+    }
+  >
+    <div
+      className="MuiGrid-item-41 MuiGrid-grid-xs-12-80 MuiGrid-grid-sm-8-90 MuiGrid-grid-md-6-102 Component-grid-39"
+      style={
+        Object {
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "paddingTop": "35%",
+          }
+        }
+      >
+        <iframe
+          allowFullScreen="true"
+          frameBorder="0"
+          height="100%"
+          mozallowfullscreen="true"
+          src="https://player.vimeo.com/video/140946149?title=0&byline=0&portrait=0"
+          style={
+            Object {
+              "border": 0,
+              "height": "100%",
+              "left": 0,
+              "maxHeight": "540",
+              "maxWidth": "960",
+              "position": "absolute",
+              "top": 0,
+              "width": "100%",
+            }
+          }
+          title="Vídeo de introdução ao Materia Brasil"
+          webkitallowfullscreen="true"
+          width="100%"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
