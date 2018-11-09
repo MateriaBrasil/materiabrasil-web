@@ -24,10 +24,10 @@ export default class extends Component {
 
   render() {
     const { imageUrl, title, description } = this.props
-    const btnStyle = { display: 'block', height: 200, }
+    const btnStyle = { display: 'block', height: 200 }
     return (
       <Grid item xs={12} sm={6} md={4} lg={3} style={{ padding: 20 }}>
-        <Button style={btnStyle} >
+        <Button style={btnStyle}>
           <img src={imageUrl} onClick={this.handleClickOpen} alt={title} />
         </Button>
         <NameAndDescription title={title}>{description}</NameAndDescription>
