@@ -84,19 +84,19 @@ Array [
             Array [
                 Object {
                   "subject": "Materialidade",
-                  "value": 50,
+                  "value": 4,
                 },
                 Object {
                   "subject": "Manufatura",
-                  "value": 50,
+                  "value": 4,
                 },
                 Object {
                   "subject": "Gestão e governança",
-                  "value": 50,
+                  "value": 4,
                 },
                 Object {
                   "subject": "Humano social",
-                  "value": 50,
+                  "value": 4,
                 },
               ]
         }

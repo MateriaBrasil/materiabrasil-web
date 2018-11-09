@@ -24,14 +24,27 @@ export default withStyles(chartsStyle)(props => {
     socialDriver,
   } = props
 
+  const DRIVER_MIN_NUMBER = 0
+  const DRIVER_MAX_NUMBER = 4
+
+  const normalizedNumber = number =>
+    number > DRIVER_MAX_NUMBER ? DRIVER_MAX_NUMBER : number
+
+  const isValidNumber = number =>
+    normalizedNumber(number) >= DRIVER_MIN_NUMBER &&
+    normalizedNumber(number) <= DRIVER_MAX_NUMBER
+
   const hasDrivers =
-    materialityDriver && manufactureDriver && managementDriver && socialDriver
+    isValidNumber(materialityDriver) &&
+    isValidNumber(manufactureDriver) &&
+    isValidNumber(managementDriver) &&
+    isValidNumber(socialDriver)
 
   const data = [
-    { subject: drivers[0].name, value: materialityDriver },
-    { subject: drivers[1].name, value: manufactureDriver },
-    { subject: drivers[2].name, value: managementDriver },
-    { subject: drivers[3].name, value: socialDriver },
+    { subject: drivers[0].name, value: normalizedNumber(materialityDriver) },
+    { subject: drivers[1].name, value: normalizedNumber(manufactureDriver) },
+    { subject: drivers[2].name, value: normalizedNumber(managementDriver) },
+    { subject: drivers[3].name, value: normalizedNumber(socialDriver) },
   ]
 
   return (
