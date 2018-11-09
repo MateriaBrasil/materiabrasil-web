@@ -3,70 +3,60 @@ export default [
     id: 1,
     name: 'Aldo Ometto',
     job: 'USP',
-    image:
-      'https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/aldo_ometto.jpg',
+    image: '/images/members/aldo_ometto.png',
   },
   {
     id: 2,
     name: 'Weber Amaral',
     job: 'USP',
-    image:
-      'https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/weber_amaral.jpg',
+    image: '/images/members/weber_amaral.png',
   },
   {
     id: 3,
     name: 'Juliana Sardinha',
     job: 'Efficacia Empresarial',
-    image:
-      'https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/juliana_sardinha.jpg',
+    image: '/images/members/juliana_sardinha.png',
   },
   {
     id: 4,
     name: 'Rosângela de Carvalho',
     job: 'Efficacia Empresarial',
-    image:
-      'https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/rosangela_de_carvalho.jpg',
+    image: '/images/members/rosangela_de_carvalho.png',
   },
   {
     id: 5,
     name: 'Jéssica Galdino',
     job: 'Emboé',
-    image:
-      'https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/jessica_galdino_de_freitas.jpg',
+    image: '/images/members/jessica_galdino.png',
   },
   {
     id: 6,
     name: 'Manuela Yamada',
     job: 'MateriaBrasil',
-    image:
-      'https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/manuela_yamada.jpg',
+    image: '/images/members/manuela_yamada.png',
   },
   {
     id: 7,
     name: 'Bruno Temer',
     job: 'MateriaBrasil',
-    image:
-      'https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/bruno_temer.jpg',
+    image: '/images/members/bruno_temer.png',
   },
   {
     id: 8,
     name: 'Isadora Timbó',
     job: 'Gitec Brasil',
-    image:
-      'https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/isadora_ribeiro.jpg',
+    image: '/images/members/isadora_timbo.png',
   },
   {
     id: 9,
     name: 'Luiza Maia',
     job: 'Gitec Brasil',
-    image:
-      'https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/luiza_maia.jpg',
+    image: '/images/members/luiza_maia.png',
   },
   {
     id: 10,
     name: 'Tomás de Lara',
     job: 'Sistema B Brasil',
-    image:
-      'https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/tomas_de_lara.jpg',
+    image: '/images/members/tomas_de_lara.png',
   },
 ]
