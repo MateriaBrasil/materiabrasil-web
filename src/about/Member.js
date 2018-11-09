@@ -34,7 +34,6 @@ export default withStyles(styles)(({ classes, name, image, job, color }) => {
           display: 'block',
           margin: '10px auto',
           width: '100%',
-          borderRadius: '50%',
         }}
       />
       <Typography variant="h6" className={classes.name} style={style}>
