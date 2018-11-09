@@ -43,7 +43,7 @@ export default class extends Component {
           open={this.state.open}
           aria-labelledby="responsive-dialog-title"
           onClose={this.handleClose}
-          fullScreen={window.innerWidth < 961 ? true : false}
+          fullScreen={window.innerWidth < 961}
           scroll="body"
         >
           {this.props.children}
