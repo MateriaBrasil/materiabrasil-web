@@ -184,10 +184,9 @@ Array [
                 >
                     <img
                         alt="Manuela Yamada"
-                        src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Manuela_Yamada.jpg"
+                        src="/images/members/manuela_yamada.png"
                         style={
                             Object {
-                                "borderRadius": "50%",
                                 "display": "block",
                                 "margin": "10px auto",
                                 "width": "100%",
@@ -223,10 +222,9 @@ Array [
                 >
                     <img
                         alt="Bernardo Ferracioli"
-                        src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bernardo_Ferracioli.jpg"
+                        src="/images/members/bernardo_ferracioli.png"
                         style={
                             Object {
-                                "borderRadius": "50%",
                                 "display": "block",
                                 "margin": "10px auto",
                                 "width": "100%",
@@ -262,10 +260,9 @@ Array [
                 >
                     <img
                         alt="Bruno Temer"
-                        src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bruno_Temer.jpg"
+                        src="/images/members/bruno_temer.png"
                         style={
                             Object {
-                                "borderRadius": "50%",
                                 "display": "block",
                                 "margin": "10px auto",
                                 "width": "100%",
@@ -301,10 +298,9 @@ Array [
                 >
                     <img
                         alt="Pedro Themoteo"
-                        src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Pedro_Themoteo.jpg"
+                        src="/images/members/pedro_themoteo.png"
                         style={
                             Object {
-                                "borderRadius": "50%",
                                 "display": "block",
                                 "margin": "10px auto",
                                 "width": "100%",
@@ -340,10 +336,9 @@ Array [
                 >
                     <img
                         alt="Daniele Valente"
-                        src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Daniele_Valente.jpg"
+                        src="/images/members/daniele_valente.png"
                         style={
                             Object {
-                                "borderRadius": "50%",
                                 "display": "block",
                                 "margin": "10px auto",
                                 "width": "100%",
@@ -379,10 +374,9 @@ Array [
                 >
                     <img
                         alt="Elisa Ferreira"
-                        src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Elisa_Ferreira.jpg"
+                        src="/images/members/elisa_ferreira.png"
                         style={
                             Object {
-                                "borderRadius": "50%",
                                 "display": "block",
                                 "margin": "10px auto",
                                 "width": "100%",
@@ -418,10 +412,9 @@ Array [
                 >
                     <img
                         alt="Victor Lanari"
-                        src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Victor_Lanari.jpg"
+                        src="/images/members/victor_lanari.png"
                         style={
                             Object {
-                                "borderRadius": "50%",
                                 "display": "block",
                                 "margin": "10px auto",
                                 "width": "100%",
@@ -457,10 +450,9 @@ Array [
                 >
                     <img
                         alt="Dahyna Iribarren"
-                        src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Dahyna_Irribaren.jpg"
+                        src="/images/members/dahyna_iribarren.png"
                         style={
                             Object {
-                                "borderRadius": "50%",
                                 "display": "block",
                                 "margin": "10px auto",
                                 "width": "100%",
@@ -496,10 +488,9 @@ Array [
                 >
                     <img
                         alt="Bernardo Mattos"
-                        src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Bernardo_Mattos.jpg"
+                        src="/images/members/bernardo_mattos.png"
                         style={
                             Object {
-                                "borderRadius": "50%",
                                 "display": "block",
                                 "margin": "10px auto",
                                 "width": "100%",
@@ -535,10 +526,9 @@ Array [
                 >
                     <img
                         alt="Seasoned"
-                        src="https://s3.amazonaws.com/materiamundi-us/static/equipe/Seasoned.jpg"
+                        src="/images/members/seasoned.png"
                         style={
                             Object {
-                                "borderRadius": "50%",
                                 "display": "block",
                                 "margin": "10px auto",
                                 "width": "100%",
@@ -627,10 +617,9 @@ Array [
                 >
                     <img
                         alt="Margarida Lunetta"
-                        src="https://s3.amazonaws.com/materiamundi-us/static/conselho/margarida_lunetta.png"
+                        src="/images/members/margarida_lunetta.png"
                         style={
                             Object {
-                                "borderRadius": "50%",
                                 "display": "block",
                                 "margin": "10px auto",
                                 "width": "100%",
@@ -668,10 +657,9 @@ Array [
                 >
                     <img
                         alt="Arnoud Passenier"
-                        src="https://s3.amazonaws.com/materiamundi-us/static/conselho/arnoud_passenier.png"
+                        src="/images/members/arnoud_passenier.png"
                         style={
                             Object {
-                                "borderRadius": "50%",
                                 "display": "block",
                                 "margin": "10px auto",
                                 "width": "100%",
@@ -709,10 +697,9 @@ Array [
                 >
                     <img
                         alt="Luisa Santiago"
-                        src="https://s3.amazonaws.com/materiamundi-us/static/conselho/luisa_santiago.png"
+                        src="/images/members/luisa_santiago.png"
                         style={
                             Object {
-                                "borderRadius": "50%",
                                 "display": "block",
                                 "margin": "10px auto",
                                 "width": "100%",
@@ -750,10 +737,9 @@ Array [
                 >
                     <img
                         alt="Tomás de Lara"
-                        src="https://s3.amazonaws.com/materiamundi-us/static/conselho/tomas_de_lara.jpg"
+                        src="/images/members/tomas_de_lara.png"
                         style={
                             Object {
-                                "borderRadius": "50%",
                                 "display": "block",
                                 "margin": "10px auto",
                                 "width": "100%",
@@ -791,10 +777,9 @@ Array [
                 >
                     <img
                         alt="Taciana Abreu"
-                        src="https://s3.amazonaws.com/materiamundi-us/static/conselho/taciana_abreu.png"
+                        src="/images/members/taciana_abreu.png"
                         style={
                             Object {
-                                "borderRadius": "50%",
                                 "display": "block",
                                 "margin": "10px auto",
                                 "width": "100%",
@@ -832,10 +817,9 @@ Array [
                 >
                     <img
                         alt="Bernardo Ferracioli"
-                        src="https://s3.amazonaws.com/materiamundi-us/static/conselho/bernardo_ferracioli.png"
+                        src="/images/members/bernardo_ferracioli.png"
                         style={
                             Object {
-                                "borderRadius": "50%",
                                 "display": "block",
                                 "margin": "10px auto",
                                 "width": "100%",
@@ -1316,10 +1300,9 @@ Array [
                 >
                     <img
                         alt="Aldo Ometto"
-                        src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/aldo_ometto.jpg"
+                        src="/images/members/aldo_ometto.png"
                         style={
                             Object {
-                                "borderRadius": "50%",
                                 "display": "block",
                                 "margin": "10px auto",
                                 "width": "100%",
@@ -1357,10 +1340,9 @@ Array [
                 >
                     <img
                         alt="Weber Amaral"
-                        src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/weber_amaral.jpg"
+                        src="/images/members/weber_amaral.png"
                         style={
                             Object {
-                                "borderRadius": "50%",
                                 "display": "block",
                                 "margin": "10px auto",
                                 "width": "100%",
@@ -1398,10 +1380,9 @@ Array [
                 >
                     <img
                         alt="Juliana Sardinha"
-                        src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/juliana_sardinha.jpg"
+                        src="/images/members/juliana_sardinha.png"
                         style={
                             Object {
-                                "borderRadius": "50%",
                                 "display": "block",
                                 "margin": "10px auto",
                                 "width": "100%",
@@ -1439,10 +1420,9 @@ Array [
                 >
                     <img
                         alt="Rosângela de Carvalho"
-                        src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/rosangela_de_carvalho.jpg"
+                        src="/images/members/rosangela_de_carvalho.png"
                         style={
                             Object {
-                                "borderRadius": "50%",
                                 "display": "block",
                                 "margin": "10px auto",
                                 "width": "100%",
@@ -1480,10 +1460,9 @@ Array [
                 >
                     <img
                         alt="Jéssica Galdino"
-                        src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/jessica_galdino_de_freitas.jpg"
+                        src="/images/members/jessica_galdino.png"
                         style={
                             Object {
-                                "borderRadius": "50%",
                                 "display": "block",
                                 "margin": "10px auto",
                                 "width": "100%",
@@ -1521,10 +1500,9 @@ Array [
                 >
                     <img
                         alt="Manuela Yamada"
-                        src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/manuela_yamada.jpg"
+                        src="/images/members/manuela_yamada.png"
                         style={
                             Object {
-                                "borderRadius": "50%",
                                 "display": "block",
                                 "margin": "10px auto",
                                 "width": "100%",
@@ -1562,10 +1540,9 @@ Array [
                 >
                     <img
                         alt="Bruno Temer"
-                        src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/bruno_temer.jpg"
+                        src="/images/members/bruno_temer.png"
                         style={
                             Object {
-                                "borderRadius": "50%",
                                 "display": "block",
                                 "margin": "10px auto",
                                 "width": "100%",
@@ -1603,10 +1580,9 @@ Array [
                 >
                     <img
                         alt="Isadora Timbó"
-                        src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/isadora_ribeiro.jpg"
+                        src="/images/members/isadora_timbo.png"
                         style={
                             Object {
-                                "borderRadius": "50%",
                                 "display": "block",
                                 "margin": "10px auto",
                                 "width": "100%",
@@ -1644,10 +1620,9 @@ Array [
                 >
                     <img
                         alt="Luiza Maia"
-                        src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/luiza_maia.jpg"
+                        src="/images/members/luiza_maia.png"
                         style={
                             Object {
-                                "borderRadius": "50%",
                                 "display": "block",
                                 "margin": "10px auto",
                                 "width": "100%",
@@ -1685,10 +1660,9 @@ Array [
                 >
                     <img
                         alt="Tomás de Lara"
-                        src="https://s3.amazonaws.com/materiamundi-us/static/desenvolvedores/tomas_de_lara.jpg"
+                        src="/images/members/tomas_de_lara.png"
                         style={
                             Object {
-                                "borderRadius": "50%",
                                 "display": "block",
                                 "margin": "10px auto",
                                 "width": "100%",

@@ -2,61 +2,51 @@ export default [
   {
     id: 1,
     name: 'Manuela Yamada',
-    image:
-      'https://s3.amazonaws.com/materiamundi-us/static/equipe/Manuela_Yamada.jpg',
+    image: '/images/members/manuela_yamada.png',
   },
   {
     id: 2,
     name: 'Bernardo Ferracioli',
-    image:
-      'https://s3.amazonaws.com/materiamundi-us/static/equipe/Bernardo_Ferracioli.jpg',
+    image: '/images/members/bernardo_ferracioli.png',
   },
   {
     id: 3,
     name: 'Bruno Temer',
-    image:
-      'https://s3.amazonaws.com/materiamundi-us/static/equipe/Bruno_Temer.jpg',
+    image: '/images/members/bruno_temer.png',
   },
   {
     id: 4,
     name: 'Pedro Themoteo',
-    image:
-      'https://s3.amazonaws.com/materiamundi-us/static/equipe/Pedro_Themoteo.jpg',
+    image: '/images/members/pedro_themoteo.png',
   },
   {
     id: 5,
     name: 'Daniele Valente',
-    image:
-      'https://s3.amazonaws.com/materiamundi-us/static/equipe/Daniele_Valente.jpg',
+    image: '/images/members/daniele_valente.png',
   },
   {
     id: 6,
     name: 'Elisa Ferreira',
-    image:
-      'https://s3.amazonaws.com/materiamundi-us/static/equipe/Elisa_Ferreira.jpg',
+    image: '/images/members/elisa_ferreira.png',
   },
   {
     id: 7,
     name: 'Victor Lanari',
-    image:
-      'https://s3.amazonaws.com/materiamundi-us/static/equipe/Victor_Lanari.jpg',
+    image: '/images/members/victor_lanari.png',
   },
   {
     id: 8,
     name: 'Dahyna Iribarren',
-    image:
-      'https://s3.amazonaws.com/materiamundi-us/static/equipe/Dahyna_Irribaren.jpg',
+    image: '/images/members/dahyna_iribarren.png',
   },
   {
     id: 9,
     name: 'Bernardo Mattos',
-    image:
-      'https://s3.amazonaws.com/materiamundi-us/static/equipe/Bernardo_Mattos.jpg',
+    image: '/images/members/bernardo_mattos.png',
   },
   {
     id: 10,
     name: 'Seasoned',
-    image:
-      'https://s3.amazonaws.com/materiamundi-us/static/equipe/Seasoned.jpg',
+    image: '/images/members/seasoned.png',
   },
 ]
