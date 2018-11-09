@@ -36,7 +36,7 @@ export default class extends Component {
           aria-labelledby="responsive-dialog-title"
           onClose={this.handleClose}
           fullScreen={window.innerWidth < 961}
-          scroll="body"
+          scroll={window.innerWidth < 600 ? 'body' : 'paper'}
         >
           {this.props.children}
           <DialogActions>
