@@ -4,7 +4,6 @@ import Dialog from '@material-ui/core/Dialog'
 
 import Button from './Button'
 import NameAndDescription from './NameAndDescription'
-import Title from '../Title'
 
 export default class extends Component {
   state = {
@@ -42,7 +41,7 @@ export default class extends Component {
           aria-labelledby="responsive-dialog-title"
           onClose={this.handleClose}
         >
-          <Title color>PERGUNTAS DOS QUESTIONÁRIOS:</Title>
+          {this.props.children}
         </Dialog>
       </Grid>
     )
