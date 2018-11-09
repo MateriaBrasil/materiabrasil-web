@@ -16,7 +16,7 @@ export default ({ list, title }) => (
     </Typography>
     {map(list, ({ id, question }) => {
       return (
-        <Typography key={id} style={{ padding: '10px 20px' }}>
+        <Typography key={id} style={{ padding: '20px 30px' }}>
           {question}
         </Typography>
       )
