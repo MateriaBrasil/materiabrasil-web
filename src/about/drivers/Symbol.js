@@ -24,7 +24,6 @@ export default class extends Component {
 
   render() {
     const { imageUrl, title, description } = this.props
-    console.log(window.innerWidth)
 
     return (
       <Grid item xs={12} sm={6} md={4} lg={3} style={{ padding: 20 }}>
