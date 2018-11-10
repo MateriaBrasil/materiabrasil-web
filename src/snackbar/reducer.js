@@ -11,7 +11,7 @@ const reducers = {
     ...state,
     message: action.message,
   }),
-  CLEAR_MESSAGE: (state, action) => ({
+  CLEAR_MESSAGE: state => ({
     ...state,
     message: null,
   }),
