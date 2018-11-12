@@ -19,8 +19,7 @@ export default props => infoProps => {
   const { imageUrl } = infoProps
   const name = `${firstName} ${lastName}`
   const album = albums[0]
-  const editPath =
-    currentUser && id && currentUser.id === id && '/profile/avatar'
+  const editPath = currentUser && currentUser.id === id && '/profile/avatar'
 
   return (
     <Fragment>
@@ -56,7 +55,6 @@ export default props => infoProps => {
           <Card>
             <CardContent>
               {currentUser &&
-                id &&
                 currentUser.id === id && (
                   <PropertyWithValue
                     title="Email"
@@ -104,13 +102,14 @@ export default props => infoProps => {
           </Card>
         </Grid>
         <Grid item xs={12}>
-          {album && (
-            <Album
-              {...album}
-              parentId={currentUser.id}
-              showDestroy={!!editPath}
-            />
-          )}
+          {album &&
+            currentUser && (
+              <Album
+                {...album}
+                parentId={currentUser.id}
+                showDestroy={!!editPath}
+              />
+            )}
         </Grid>
       </Grid>
     </Fragment>
