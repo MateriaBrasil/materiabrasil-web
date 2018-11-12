@@ -209,7 +209,7 @@ Array [
         </svg>
     </span>
     <span
-        className="MuiTouchRipple-root-67"
+        className="MuiTouchRipple-root-71"
     />
 </button>,
   <div
@@ -223,6 +223,7 @@ Array [
     <li
         className="MuiButtonBase-root-7 MuiListItem-root-21 MuiListItem-default-24 MuiListItem-gutters-28 MuiListItem-button-29 MuiMenuItem-root-19"
         onBlur={[Function]}
+        onClick={[Function]}
         onFocus={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
@@ -260,12 +261,13 @@ Array [
             </h6>
         </div>
         <span
-            className="MuiTouchRipple-root-67"
+            className="MuiTouchRipple-root-71"
         />
     </li>
     <li
         className="MuiButtonBase-root-7 MuiListItem-root-21 MuiListItem-default-24 MuiListItem-gutters-28 MuiListItem-button-29 MuiMenuItem-root-19"
         onBlur={[Function]}
+        onClick={[Function]}
         onFocus={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
@@ -303,12 +305,13 @@ Array [
             </h6>
         </div>
         <span
-            className="MuiTouchRipple-root-67"
+            className="MuiTouchRipple-root-71"
         />
     </li>
     <li
         className="MuiButtonBase-root-7 MuiListItem-root-21 MuiListItem-default-24 MuiListItem-gutters-28 MuiListItem-button-29 MuiMenuItem-root-19"
         onBlur={[Function]}
+        onClick={[Function]}
         onFocus={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
@@ -346,12 +349,13 @@ Array [
             </h6>
         </div>
         <span
-            className="MuiTouchRipple-root-67"
+            className="MuiTouchRipple-root-71"
         />
     </li>
     <li
         className="MuiButtonBase-root-7 MuiListItem-root-21 MuiListItem-default-24 MuiListItem-gutters-28 MuiListItem-button-29 MuiMenuItem-root-19"
         onBlur={[Function]}
+        onClick={[Function]}
         onFocus={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
@@ -389,110 +393,117 @@ Array [
             </h6>
         </div>
         <span
-            className="MuiTouchRipple-root-67"
+            className="MuiTouchRipple-root-71"
         />
     </li>
-    <li
-        className="MuiButtonBase-root-7 MuiListItem-root-21 MuiListItem-default-24 MuiListItem-gutters-28 MuiListItem-button-29 MuiMenuItem-root-19"
+    <ul
+        className="MuiList-root-67 MuiList-padding-68"
         onBlur={[Function]}
-        onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        onTouchStart={[Function]}
-        role="menuitem"
-        tabIndex={-1}
+        role="menu"
     >
-        <div
-            className="navbar-link"
-            style={
-                Object {
-                    "color": "black",
-                    "textDecoration": "none",
-                  }
-            }
-            target={undefined}
-            to={
-                Object {
-                    "pathname": "/auth/sign-up",
-                    "state": Object {
-                      "referrer": "/suppliers/new",
-                    },
-                  }
-            }
+        <li
+            className="MuiButtonBase-root-7 MuiListItem-root-21 MuiListItem-default-24 MuiListItem-gutters-28 MuiListItem-button-29 MuiMenuItem-root-19"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            role="menuitem"
+            tabIndex={0}
         >
-            Link - 
-            <h6
-                className="MuiTypography-root-32 MuiTypography-subtitle1-50 MuiTypography-colorInherit-61"
+            <div
+                className="navbar-link"
                 style={
                     Object {
-                        "alignSelf": "center",
-                        "display": "inline-block",
+                        "color": "black",
+                        "textDecoration": "none",
+                      }
+                }
+                target={undefined}
+                to={
+                    Object {
+                        "pathname": "/auth/sign-up",
+                        "state": Object {
+                          "referrer": "/suppliers/new",
+                        },
                       }
                 }
             >
-                Cadastrar fornecedor
-            </h6>
-        </div>
-        <span
-            className="MuiTouchRipple-root-67"
-        />
-    </li>
-    <li
-        className="MuiButtonBase-root-7 MuiListItem-root-21 MuiListItem-default-24 MuiListItem-gutters-28 MuiListItem-button-29 MuiMenuItem-root-19"
-        onBlur={[Function]}
-        onClick={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        onTouchStart={[Function]}
-        role="menuitem"
-        tabIndex={-1}
-    >
-        <div
-            className="navbar-link"
-            style={
-                Object {
-                    "color": "black",
-                    "textDecoration": "none",
-                  }
-            }
-            to={
-                Object {
-                    "pathname": "/auth/sign-in",
-                    "state": Object {
-                      "referrer": "foo-path",
-                    },
-                  }
-            }
+                Link - 
+                <h6
+                    className="MuiTypography-root-32 MuiTypography-subtitle1-50 MuiTypography-colorInherit-61"
+                    style={
+                        Object {
+                            "alignSelf": "center",
+                            "display": "inline-block",
+                          }
+                    }
+                >
+                    Cadastrar fornecedor
+                </h6>
+            </div>
+            <span
+                className="MuiTouchRipple-root-71"
+            />
+        </li>
+        <li
+            className="MuiButtonBase-root-7 MuiListItem-root-21 MuiListItem-default-24 MuiListItem-gutters-28 MuiListItem-button-29 MuiMenuItem-root-19"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            role="menuitem"
+            tabIndex={-1}
         >
-            Link - 
-            <h6
-                className="MuiTypography-root-32 MuiTypography-subtitle1-50 MuiTypography-colorInherit-61"
+            <div
+                className="navbar-link"
                 style={
                     Object {
-                        "alignSelf": "center",
-                        "display": "inline-block",
+                        "color": "black",
+                        "textDecoration": "none",
+                      }
+                }
+                to={
+                    Object {
+                        "pathname": "/auth/sign-in",
+                        "state": Object {
+                          "referrer": "foo-path",
+                        },
                       }
                 }
             >
-                Entrar
-            </h6>
-        </div>
-        <span
-            className="MuiTouchRipple-root-67"
-        />
-    </li>
+                Link - 
+                <h6
+                    className="MuiTypography-root-32 MuiTypography-subtitle1-50 MuiTypography-colorInherit-61"
+                    style={
+                        Object {
+                            "alignSelf": "center",
+                            "display": "inline-block",
+                          }
+                    }
+                >
+                    Entrar
+                </h6>
+            </div>
+            <span
+                className="MuiTouchRipple-root-71"
+            />
+        </li>
+    </ul>
 </div>,
 ]
 `;
