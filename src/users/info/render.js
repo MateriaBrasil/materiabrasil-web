@@ -56,6 +56,7 @@ export default props => infoProps => {
           <Card>
             <CardContent>
               {currentUser &&
+                id &&
                 currentUser.id === id && (
                   <PropertyWithValue
                     title="Email"
