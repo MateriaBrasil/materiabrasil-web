@@ -1,5 +1,6 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import Menu from '@material-ui/core/Menu'
+import MenuList from '@material-ui/core/MenuList'
 import MenuItem from '@material-ui/core/MenuItem'
 
 import SignOut from '../auth/signOut/SignOut'
@@ -23,36 +24,36 @@ export default props => {
       open={open}
       onClose={handleClose}
     >
-      <MenuItem>
+      <MenuItem onClick={handleClose}>
         <Link to="/about" text="Sobre" />
       </MenuItem>
-      <MenuItem>
+      <MenuItem onClick={handleClose}>
         <Link
           to={'http://materiabrasil.com.br/'}
           text="Escritórios"
           targetBlank="true"
         />
       </MenuItem>
-      <MenuItem>
+      <MenuItem onClick={handleClose}>
         <Link to="/materials" text="Explore" />
       </MenuItem>
-      <MenuItem>
+      <MenuItem onClick={handleClose}>
         <Link to="/forum" text="Fórum" />
       </MenuItem>
       {currentUser ? (
-        <Fragment>
-          <MenuItem>
+        <MenuList>
+          <MenuItem onClick={handleClose}>
             <SupplierLink suppliers={suppliers} />
           </MenuItem>
-          <MenuItem>
+          <MenuItem onClick={handleClose}>
             <Link to="/profile" text={name} />
           </MenuItem>
-          <MenuItem>
+          <MenuItem onClick={handleClose}>
             <SignOut {...props} />
           </MenuItem>
-        </Fragment>
+        </MenuList>
       ) : (
-        <Fragment>
+        <MenuList>
           <MenuItem onClick={handleClose}>
             <Link
               to={{
@@ -65,7 +66,7 @@ export default props => {
           <MenuItem onClick={handleClose}>
             <SignIn {...props} />
           </MenuItem>
-        </Fragment>
+        </MenuList>
       )}
     </Menu>
   )
