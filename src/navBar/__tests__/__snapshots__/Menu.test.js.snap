@@ -9,7 +9,9 @@ exports[`renders correctly 1`] = `
   open={undefined}
 >
   Menu - 
-  <div>
+  <div
+    onClick={undefined}
+  >
     MenuItem - 
     <div
       className="navbar-link"
@@ -36,7 +38,9 @@ exports[`renders correctly 1`] = `
       </h6>
     </div>
   </div>
-  <div>
+  <div
+    onClick={undefined}
+  >
     MenuItem - 
     <div
       className="navbar-link"
@@ -63,7 +67,9 @@ exports[`renders correctly 1`] = `
       </h6>
     </div>
   </div>
-  <div>
+  <div
+    onClick={undefined}
+  >
     MenuItem - 
     <div
       className="navbar-link"
@@ -90,7 +96,9 @@ exports[`renders correctly 1`] = `
       </h6>
     </div>
   </div>
-  <div>
+  <div
+    onClick={undefined}
+  >
     MenuItem - 
     <div
       className="navbar-link"
@@ -117,50 +125,61 @@ exports[`renders correctly 1`] = `
       </h6>
     </div>
   </div>
-  <div
-    onClick={undefined}
+  <ul
+    className="MuiList-root-36 MuiList-padding-37"
+    onBlur={[Function]}
+    onKeyDown={[Function]}
+    role="menu"
   >
-    MenuItem - 
     <div
-      className="navbar-link"
-      style={
-        Object {
-          "color": "black",
-          "textDecoration": "none",
-        }
-      }
-      target={undefined}
-      to={
-        Object {
-          "pathname": "/auth/sign-up",
-          "state": Object {
-            "referrer": "/suppliers/new",
-          },
-        }
-      }
+      onClick={undefined}
+      onFocus={[Function]}
+      tabIndex={0}
     >
-      Link - 
-      <h6
-        className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
+      MenuItem - 
+      <div
+        className="navbar-link"
         style={
           Object {
-            "alignSelf": "center",
-            "display": "inline-block",
+            "color": "black",
+            "textDecoration": "none",
+          }
+        }
+        target={undefined}
+        to={
+          Object {
+            "pathname": "/auth/sign-up",
+            "state": Object {
+              "referrer": "/suppliers/new",
+            },
           }
         }
       >
-        Cadastrar fornecedor
-      </h6>
+        Link - 
+        <h6
+          className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
+          style={
+            Object {
+              "alignSelf": "center",
+              "display": "inline-block",
+            }
+          }
+        >
+          Cadastrar fornecedor
+        </h6>
+      </div>
     </div>
-  </div>
-  <div
-    onClick={undefined}
-  >
-    MenuItem - 
-    <div>
-      SignIn
+    <div
+      onClick={undefined}
+      onFocus={[Function]}
+      tabIndex={-1}
+    >
+      MenuItem - 
+      <div>
+        SignIn
+      </div>
     </div>
-  </div>
+  </ul>
 </div>
 `;
 
@@ -173,7 +192,9 @@ exports[`with current user renders correctly 1`] = `
   open={undefined}
 >
   Menu - 
-  <div>
+  <div
+    onClick={undefined}
+  >
     MenuItem - 
     <div
       className="navbar-link"
@@ -200,7 +221,9 @@ exports[`with current user renders correctly 1`] = `
       </h6>
     </div>
   </div>
-  <div>
+  <div
+    onClick={undefined}
+  >
     MenuItem - 
     <div
       className="navbar-link"
@@ -227,7 +250,9 @@ exports[`with current user renders correctly 1`] = `
       </h6>
     </div>
   </div>
-  <div>
+  <div
+    onClick={undefined}
+  >
     MenuItem - 
     <div
       className="navbar-link"
@@ -254,7 +279,9 @@ exports[`with current user renders correctly 1`] = `
       </h6>
     </div>
   </div>
-  <div>
+  <div
+    onClick={undefined}
+  >
     MenuItem - 
     <div
       className="navbar-link"
@@ -281,68 +308,87 @@ exports[`with current user renders correctly 1`] = `
       </h6>
     </div>
   </div>
-  <div>
-    MenuItem - 
+  <ul
+    className="MuiList-root-36 MuiList-padding-37"
+    onBlur={[Function]}
+    onKeyDown={[Function]}
+    role="menu"
+  >
     <div
-      className="navbar-link"
-      style={
-        Object {
-          "color": "black",
-          "textDecoration": "none",
-        }
-      }
-      target={undefined}
-      to="/suppliers/new"
+      onClick={undefined}
+      onFocus={[Function]}
+      tabIndex={0}
     >
-      Link - 
-      <h6
-        className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
+      MenuItem - 
+      <div
+        className="navbar-link"
         style={
           Object {
-            "alignSelf": "center",
-            "display": "inline-block",
+            "color": "black",
+            "textDecoration": "none",
           }
         }
+        target={undefined}
+        to="/suppliers/new"
       >
-        Cadastrar fornecedor
-      </h6>
+        Link - 
+        <h6
+          className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
+          style={
+            Object {
+              "alignSelf": "center",
+              "display": "inline-block",
+            }
+          }
+        >
+          Cadastrar fornecedor
+        </h6>
+      </div>
     </div>
-  </div>
-  <div>
-    MenuItem - 
     <div
-      className="navbar-link"
-      style={
-        Object {
-          "color": "black",
-          "textDecoration": "none",
-        }
-      }
-      target={undefined}
-      to="/profile"
+      onClick={undefined}
+      onFocus={[Function]}
+      tabIndex={-1}
     >
-      Link - 
-      <h6
-        className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
+      MenuItem - 
+      <div
+        className="navbar-link"
         style={
           Object {
-            "alignSelf": "center",
-            "display": "inline-block",
+            "color": "black",
+            "textDecoration": "none",
           }
         }
+        target={undefined}
+        to="/profile"
       >
-        undefined undefined
-      </h6>
+        Link - 
+        <h6
+          className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
+          style={
+            Object {
+              "alignSelf": "center",
+              "display": "inline-block",
+            }
+          }
+        >
+          undefined undefined
+        </h6>
+      </div>
     </div>
-  </div>
-  <div>
-    MenuItem - 
     <div
-      currentUser={Object {}}
+      onClick={undefined}
+      onFocus={[Function]}
+      tabIndex={-1}
     >
-      SignOut
+      MenuItem - 
+      <div
+        currentUser={Object {}}
+      >
+        SignOut
+      </div>
     </div>
-  </div>
+  </ul>
 </div>
 `;
 
@@ -355,7 +401,9 @@ exports[`with current user with suppliers renders correctly 1`] = `
   open={undefined}
 >
   Menu - 
-  <div>
+  <div
+    onClick={undefined}
+  >
     MenuItem - 
     <div
       className="navbar-link"
@@ -382,7 +430,9 @@ exports[`with current user with suppliers renders correctly 1`] = `
       </h6>
     </div>
   </div>
-  <div>
+  <div
+    onClick={undefined}
+  >
     MenuItem - 
     <div
       className="navbar-link"
@@ -409,7 +459,9 @@ exports[`with current user with suppliers renders correctly 1`] = `
       </h6>
     </div>
   </div>
-  <div>
+  <div
+    onClick={undefined}
+  >
     MenuItem - 
     <div
       className="navbar-link"
@@ -436,7 +488,9 @@ exports[`with current user with suppliers renders correctly 1`] = `
       </h6>
     </div>
   </div>
-  <div>
+  <div
+    onClick={undefined}
+  >
     MenuItem - 
     <div
       className="navbar-link"
@@ -463,72 +517,91 @@ exports[`with current user with suppliers renders correctly 1`] = `
       </h6>
     </div>
   </div>
-  <div>
-    MenuItem - 
+  <ul
+    className="MuiList-root-36 MuiList-padding-37"
+    onBlur={[Function]}
+    onKeyDown={[Function]}
+    role="menu"
+  >
     <div
-      className="navbar-link"
-      style={
-        Object {
-          "color": "black",
-          "textDecoration": "none",
-        }
-      }
-      target={undefined}
-      to="/suppliers/undefined"
+      onClick={undefined}
+      onFocus={[Function]}
+      tabIndex={0}
     >
-      Link - 
-      <h6
-        className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
+      MenuItem - 
+      <div
+        className="navbar-link"
         style={
           Object {
-            "alignSelf": "center",
-            "display": "inline-block",
+            "color": "black",
+            "textDecoration": "none",
           }
         }
-      />
+        target={undefined}
+        to="/suppliers/undefined"
+      >
+        Link - 
+        <h6
+          className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
+          style={
+            Object {
+              "alignSelf": "center",
+              "display": "inline-block",
+            }
+          }
+        />
+      </div>
     </div>
-  </div>
-  <div>
-    MenuItem - 
     <div
-      className="navbar-link"
-      style={
-        Object {
-          "color": "black",
-          "textDecoration": "none",
-        }
-      }
-      target={undefined}
-      to="/profile"
+      onClick={undefined}
+      onFocus={[Function]}
+      tabIndex={-1}
     >
-      Link - 
-      <h6
-        className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
+      MenuItem - 
+      <div
+        className="navbar-link"
         style={
           Object {
-            "alignSelf": "center",
-            "display": "inline-block",
+            "color": "black",
+            "textDecoration": "none",
+          }
+        }
+        target={undefined}
+        to="/profile"
+      >
+        Link - 
+        <h6
+          className="MuiTypography-root-1 MuiTypography-subtitle1-19 MuiTypography-colorInherit-30"
+          style={
+            Object {
+              "alignSelf": "center",
+              "display": "inline-block",
+            }
+          }
+        >
+          undefined undefined
+        </h6>
+      </div>
+    </div>
+    <div
+      onClick={undefined}
+      onFocus={[Function]}
+      tabIndex={-1}
+    >
+      MenuItem - 
+      <div
+        currentUser={
+          Object {
+            "suppliers": Array [
+              Object {},
+              Object {},
+            ],
           }
         }
       >
-        undefined undefined
-      </h6>
+        SignOut
+      </div>
     </div>
-  </div>
-  <div>
-    MenuItem - 
-    <div
-      currentUser={
-        Object {
-          "suppliers": Array [
-            Object {},
-            Object {},
-          ],
-        }
-      }
-    >
-      SignOut
-    </div>
-  </div>
+  </ul>
 </div>
 `;
