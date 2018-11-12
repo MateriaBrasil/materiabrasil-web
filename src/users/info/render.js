@@ -102,14 +102,7 @@ export default props => infoProps => {
           </Card>
         </Grid>
         <Grid item xs={12}>
-          {album &&
-            currentUser && (
-              <Album
-                {...album}
-                parentId={currentUser.id}
-                showDestroy={!!editPath}
-              />
-            )}
+          {album && <Album {...album} parentId={id} showDestroy={!!editPath} />}
         </Grid>
       </Grid>
     </Fragment>
