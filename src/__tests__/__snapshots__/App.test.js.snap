@@ -10,15 +10,30 @@ exports[`renders correctly 1`] = `
 >
   Provider - 
   <div
-    id="currentUser"
-    name="currentUser"
-    parseResponse={[Function]}
-    path="/auth/validate_token"
-    render={[Function]}
-    renderError={false}
-    renderLoading={false}
+    comparison={
+      Object {
+        "actions": Object {
+          "add": [Function],
+          "close": [Function],
+          "open": [Function],
+          "remove": [Function],
+          "reset": [Function],
+        },
+        "list": Array [],
+        "open": false,
+      }
+    }
+    snackbar={
+      Object {
+        "actions": Object {
+          "clearMessage": [Function],
+          "setMessage": [Function],
+        },
+        "message": null,
+      }
+    }
   >
-    Info - 
+    Screen
   </div>
 </div>
 `;
