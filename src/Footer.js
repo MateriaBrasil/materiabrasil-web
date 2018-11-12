@@ -28,16 +28,16 @@ const styles = theme => ({
   },
 })
 
-export default withStyles(styles)(props => (
-  <div className={props.classes.container}>
+export default withStyles(styles)(({ classes }) => (
+  <div className={classes.container}>
     <div>
-      <Typography variant="h4" className={props.classes.title}>
+      <Typography variant="h4" className={classes.title}>
         Apoio
       </Typography>
       <FooterImage title="Instituto C&A" src="/images/partners/ic&a.png" />
     </div>
     <div>
-      <Typography variant="h4" className={props.classes.title}>
+      <Typography variant="h4" className={classes.title}>
         Parceiros
       </Typography>
       <FooterImage title="Good Tech Lab" src="/images/partners/gtl.png" />
@@ -49,7 +49,7 @@ export default withStyles(styles)(props => (
       <FooterImage title="IED" src="/images/partners/ied.png" />
     </div>
     <div>
-      <Typography variant="h4" className={props.classes.title}>
+      <Typography variant="h4" className={classes.title}>
         Membro
       </Typography>
       <FooterImage
