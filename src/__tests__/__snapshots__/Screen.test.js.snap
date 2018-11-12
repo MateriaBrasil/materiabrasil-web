@@ -12,138 +12,103 @@ exports[`renders correctly 1`] = `
     Router
   </div>
   <div
-    style={
-      Object {
-        "backgroundColor": "white",
-        "display": "flex",
-        "flexWrap": "wrap",
-        "justifyContent": "space-between",
-        "padding": "40px 0",
-      }
-    }
+    className="Component-container-1"
   >
     <div>
       <h4
-        className="MuiTypography-root-1 MuiTypography-h4-16"
-        style={
-          Object {
-            "flexBasis": "100%",
-            "height": 70,
-            "paddingLeft": 30,
-            "paddingTop": 30,
-            "textAlign": "left",
-          }
-        }
+        className="MuiTypography-root-3 MuiTypography-h4-18 Component-title-2"
       >
         Apoio
       </h4>
       <img
         alt="Instituto C&A"
-        src="/images/partners/ic&a.png"
-        style={
+        className="Component-image-38"
+        classes={
           Object {
-            "maxWidth": "170px",
-            "width": "100%",
+            "image": "Component-image-38",
           }
         }
+        src="/images/partners/ic&a.png"
         title="Instituto C&A"
       />
     </div>
     <div>
       <h4
-        className="MuiTypography-root-1 MuiTypography-h4-16"
-        style={
-          Object {
-            "flexBasis": "100%",
-            "height": 70,
-            "paddingLeft": 30,
-            "paddingTop": 30,
-            "textAlign": "left",
-          }
-        }
+        className="MuiTypography-root-3 MuiTypography-h4-18 Component-title-2"
       >
         Parceiros
       </h4>
       <img
         alt="Good Tech Lab"
-        src="/images/partners/gtl.png"
-        style={
+        className="Component-image-38"
+        classes={
           Object {
-            "maxWidth": "170px",
-            "width": "100%",
+            "image": "Component-image-38",
           }
         }
+        src="/images/partners/gtl.png"
         title="Good Tech Lab"
       />
       <img
         alt="Fab City Global"
-        src="/images/partners/fab-city.png"
-        style={
+        className="Component-image-38"
+        classes={
           Object {
-            "maxWidth": "170px",
-            "width": "100%",
+            "image": "Component-image-38",
           }
         }
+        src="/images/partners/fab-city.png"
         title="Fab City Global"
       />
       <img
         alt="Materiom"
-        src="/images/partners/materiom.png"
-        style={
+        className="Component-image-38"
+        classes={
           Object {
-            "maxWidth": "170px",
-            "width": "100%",
+            "image": "Component-image-38",
           }
         }
+        src="/images/partners/materiom.png"
         title="Materiom"
       />
       <img
         alt="IED"
-        src="/images/partners/ied.png"
-        style={
+        className="Component-image-38"
+        classes={
           Object {
-            "maxWidth": "170px",
-            "width": "100%",
+            "image": "Component-image-38",
           }
         }
+        src="/images/partners/ied.png"
         title="IED"
       />
     </div>
     <div>
       <h4
-        className="MuiTypography-root-1 MuiTypography-h4-16"
-        style={
-          Object {
-            "flexBasis": "100%",
-            "height": 70,
-            "paddingLeft": 30,
-            "paddingTop": 30,
-            "textAlign": "left",
-          }
-        }
+        className="MuiTypography-root-3 MuiTypography-h4-18 Component-title-2"
       >
         Membro
       </h4>
       <img
         alt="Sistema B Brasil"
-        src="/images/partners/sistema-b.png"
-        style={
+        className="Component-image-38"
+        classes={
           Object {
-            "maxWidth": "170px",
-            "width": "100%",
+            "image": "Component-image-38",
           }
         }
+        src="/images/partners/sistema-b.png"
         title="Sistema B Brasil"
       />
       <img
         alt="CE100 Global Ellen MacArthur"
-        src="/images/partners/ce100.png"
-        style={
+        className="Component-image-38"
+        classes={
           Object {
-            "maxWidth": "170px",
-            "width": "100%",
+            "image": "Component-image-38",
           }
         }
+        src="/images/partners/ce100.png"
         title="CE100 Global Ellen MacArthur"
       />
     </div>
