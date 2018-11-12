@@ -4,7 +4,9 @@ exports[`renders correctly 1`] = `
 <div
   style={
     Object {
+      "padding": "40px",
       "textAlign": "center",
+      "width": "100%",
     }
   }
 >
