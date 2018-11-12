@@ -25,8 +25,9 @@ describe('with @snackbar/CLEAR_MESSAGE action type', () => {
   const action = { type: '@snackbar/CLEAR_MESSAGE' }
 
   it('returns as expected', () => {
-    expect(reducer(state)).toMatchObject({
+    expect(reducer(state, action)).toMatchObject({
       ...state,
+      message: null,
     })
   })
 })
