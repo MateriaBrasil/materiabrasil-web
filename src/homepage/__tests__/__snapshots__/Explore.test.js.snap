@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <div
+    className="Component-div-2"
+  >
+    <img
+      alt="polygon"
+      className="Component-image-3"
+      src="/images/polygon-3.png"
+    />
+    <h3
+      className="MuiTypography-root-5 MuiTypography-h3-19 Component-text-4"
+    >
+      Comece agora
+    </h3>
+  </div>
+  <div
+    className="MuiGrid-container-41"
+    id="explore"
+    style={
+      Object {
+        "WebkitClipPath": "polygon(0 0, 100% 6%, 100% 100%, 0% 100%)",
+        "background": "url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-6.jpg')",
+        "backgroundPosition": "center",
+        "backgroundSize": "cover",
+        "clipPath": "polygon(0 0, 100% 6%, 100% 100%, 0% 100%)",
+      }
+    }
+  >
+    <div
+      className="MuiGrid-item-42 MuiGrid-grid-xs-12-81 MuiGrid-grid-sm-8-91 MuiGrid-grid-md-6-103 Component-grid-40"
+      style={
+        Object {
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
+        to="/materials"
+      >
+        Link - 
+        <button
+          className="MuiButtonBase-root-164 MuiButton-root-138 MuiButton-contained-149 MuiButton-raised-152 MuiButton-sizeLarge-162 Component-button-1"
+          disabled={false}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="button"
+        >
+          <span
+            className="MuiButton-label-139"
+          >
+            Explore
+          </span>
+          <span
+            className="MuiTouchRipple-root-167"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

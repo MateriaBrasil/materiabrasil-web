@@ -11,6 +11,10 @@ jest.mock('croods', () => ({
   Info: ({ children, ...props }) => <div {...props}>Info - {children}</div>,
 }))
 
+jest.mock('auth/Auth', () => ({ render, ...props }) => render(props))
+
+jest.mock('../Screen', () => props => <div {...props}>Screen</div>)
+
 it('renders correctly', () => {
   const tree = renderer.create(<App />).toJSON()
   expect(tree).toMatchSnapshot()
