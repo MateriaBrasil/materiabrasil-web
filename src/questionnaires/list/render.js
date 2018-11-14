@@ -1,5 +1,11 @@
 import React from 'react'
+import { List } from 'croods'
+import renderList from './renderQuestionnairesAnswers'
 
-import List from './List'
-
-export default props => list => <List {...props} list={list} />
+export default props => questionnaires => (
+  <List
+    name="answers"
+    path={`/suppliers/${props.match.params.id}/answers`}
+    render={renderList({ ...props, questionnaires })}
+  />
+)
