@@ -10,9 +10,10 @@ import Radio from '@material-ui/core/Radio'
 import FormControlLabel from '@material-ui/core/FormControlLabel'
 import Typography from '@material-ui/core/Typography'
 import Dialog from 'materials/Dialog'
+import createWithParams from './createWithParams'
 
 export default props => {
-  const { list, questionnairesAnswers, setquestionnairesAnswers } = props
+  const { list, questionnairesAnswers, create } = props
 
   return (
     <Dialog {...props} title="Responder questionários" callToAction="Salvar">
@@ -56,6 +57,12 @@ export default props => {
                           <FormControlLabel
                             value={option.value}
                             key={option.value}
+                            onChange={createWithParams(
+                              create,
+                              props.match.params.id,
+                              option.id,
+                              question.id,
+                            )}
                             control={<Radio />}
                             label={option.description}
                           />

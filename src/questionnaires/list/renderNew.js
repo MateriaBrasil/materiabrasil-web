@@ -3,5 +3,5 @@ import List from './List'
 
 export default props => ({ create }) => {
   const { questionnaires } = props
-  return <List {...props} list={questionnaires} />
+  return <List {...props} create={create} list={questionnaires} />
 }

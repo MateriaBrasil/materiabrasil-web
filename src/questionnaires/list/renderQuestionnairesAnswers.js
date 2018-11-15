@@ -4,19 +4,13 @@ import { New } from 'croods'
 import renderNew from './renderNew'
 import renderCreated from './renderCreated'
 
-export default parentProps => (questionnairesAnswers, { actions }) => {
-  const props = {
-    ...parentProps,
-    setquestionnairesAnswers: actions.setList,
-    questionnairesAnswers,
-  }
-
+export default parentProps => props => {
   return (
     <New
       name="questionnairesAnswers"
-      path="/material_categories"
-      render={renderNew(props)}
-      renderCreated={renderCreated(props)}
+      path="/answers"
+      render={renderNew({ ...props, ...parentProps })}
+      renderCreated={renderCreated({ ...props, ...parentProps })}
     />
   )
 }
