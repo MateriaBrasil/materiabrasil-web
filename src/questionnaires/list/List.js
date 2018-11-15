@@ -1,5 +1,6 @@
 import React from 'react'
 import map from 'lodash/map'
+import find from 'lodash/find'
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
 import FormGroup from '@material-ui/core/FormGroup'
@@ -16,7 +17,7 @@ export default props => {
   return (
     <Dialog {...props} title="Responder questionários" callToAction="Salvar">
       <List style={{ width: '100%' }}>
-        {map(props.list, questionnaire => {
+        {map(list, questionnaire => {
           const { name, questions } = questionnaire
 
           return (
@@ -32,6 +33,15 @@ export default props => {
               {map(questions, question => {
                 const { options, description } = question
 
+                const answer = find(
+                  questionnairesAnswers,
+                  ({ questionId }) => questionId === question.id,
+                )
+
+                const answerOption =
+                  answer &&
+                  find(question.options, ({ id }) => id === answer.optionId)
+
                 return (
                   <FormGroup key={description}>
                     <Typography variant="subtitle1">{description}</Typography>
@@ -40,10 +50,11 @@ export default props => {
                         key={description}
                         aria-label="Questionnarie Options"
                         name="questionnaire-options"
+                        value={answerOption ? answerOption.value : undefined}
                       >
                         {map(options, option => (
                           <FormControlLabel
-                            value={toString(option.value)}
+                            value={option.value}
                             key={option.value}
                             control={<Radio />}
                             label={option.description}
