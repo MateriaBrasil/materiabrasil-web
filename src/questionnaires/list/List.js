@@ -19,59 +19,53 @@ export default props => {
   return (
     <Dialog {...props} title="Responder questionários" callToAction="Salvar">
       <List style={{ width: '100%' }}>
-        {map(questionnaires, questionnaire => {
-          const { name, questions } = questionnaire
+        {map(questionnaires, questionnaire => (
+          <ListItem
+            key={questionnaire.name}
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'flex-start',
+            }}
+          >
+            <Typography variant="h5">{questionnaire.name}</Typography>
+            {map(questionnaire.questions, question => {
+              const { options, description } = question
 
-          return (
-            <ListItem
-              key={name}
-              style={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'flex-start',
-              }}
-            >
-              <Typography variant="h5">{name}</Typography>
-              {map(questions, question => {
-                const { options, description } = question
+              const answer = findAnswer(questionnairesAnswers, question)
+              const answerOption = findOption(answer, question)
 
-                const answer = findAnswer(questionnairesAnswers, question)
-                const answerOption = findOption(answer, question)
-
-                return (
-                  <FormGroup key={description}>
-                    <Typography variant="subtitle1">{description}</Typography>
-                    <FormControl component="fieldset">
-                      <RadioGroup
-                        key={description}
-                        aria-label="Questionnarie Options"
-                        name="questionnaire-options"
-                        value={answerOption ? answerOption.value : undefined}
-                      >
-                        {map(options, option => {
-                          return (
-                            <FormControlLabel
-                              value={option.value}
-                              key={option.value}
-                              onChange={createWithParams(
-                                create,
-                                props.match.params.id,
-                                option.id,
-                                question.id,
-                              )}
-                              control={<Radio />}
-                              label={option.description}
-                            />
-                          )
-                        })}
-                      </RadioGroup>
-                    </FormControl>
-                  </FormGroup>
-                )
-              })}
-            </ListItem>
-          )
-        })}
+              return (
+                <FormGroup key={description}>
+                  <Typography variant="subtitle1">{description}</Typography>
+                  <FormControl component="fieldset">
+                    <RadioGroup
+                      key={description}
+                      aria-label="Questionnarie Options"
+                      name="questionnaire-options"
+                      value={answerOption ? answerOption.value : undefined}
+                    >
+                      {map(options, option => (
+                        <FormControlLabel
+                          value={option.value}
+                          key={option.value}
+                          onChange={createWithParams(
+                            create,
+                            props.match.params.id,
+                            option.id,
+                            question.id,
+                          )}
+                          control={<Radio />}
+                          label={option.description}
+                        />
+                      ))}
+                    </RadioGroup>
+                  </FormControl>
+                </FormGroup>
+              )
+            })}
+          </ListItem>
+        ))}
       </List>
     </Dialog>
   )
