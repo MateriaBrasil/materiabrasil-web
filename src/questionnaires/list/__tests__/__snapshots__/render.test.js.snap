@@ -2,13 +2,8 @@
 
 exports[`renders correctly 1`] = `
 <div
-  foo="bar"
-  list={
-    Object {
-      "bar": "foo",
-    }
-  }
->
-  List
-</div>
+  name="answers"
+  path="/suppliers/123/answers"
+  render={[Function]}
+/>
 `;
