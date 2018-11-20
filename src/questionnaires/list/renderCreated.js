@@ -1,6 +1,6 @@
 import React from 'react'
-import List from './List'
+import Created from './Created'
 
-export default props => ({ create }) => {
-  return <List {...props} />
+export default props => created => {
+  return <Created {...props} created={created} />
 }
