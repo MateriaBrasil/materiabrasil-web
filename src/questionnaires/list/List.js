@@ -13,12 +13,12 @@ import Dialog from 'materials/Dialog'
 import createWithParams from './createWithParams'
 
 export default props => {
-  const { list, questionnairesAnswers, create } = props
+  const { questionnaires, questionnairesAnswers, create } = props
 
   return (
     <Dialog {...props} title="Responder questionários" callToAction="Salvar">
       <List style={{ width: '100%' }}>
-        {map(list, questionnaire => {
+        {map(questionnaires, questionnaire => {
           const { name, questions } = questionnaire
 
           return (
@@ -53,20 +53,22 @@ export default props => {
                         name="questionnaire-options"
                         value={answerOption ? answerOption.value : undefined}
                       >
-                        {map(options, option => (
-                          <FormControlLabel
-                            value={option.value}
-                            key={option.value}
-                            onChange={createWithParams(
-                              create,
-                              props.match.params.id,
-                              option.id,
-                              question.id,
-                            )}
-                            control={<Radio />}
-                            label={option.description}
-                          />
-                        ))}
+                        {map(options, option => {
+                          return (
+                            <FormControlLabel
+                              value={option.value}
+                              key={option.value}
+                              onChange={createWithParams(
+                                create,
+                                props.match.params.id,
+                                option.id,
+                                question.id,
+                              )}
+                              control={<Radio />}
+                              label={option.description}
+                            />
+                          )
+                        })}
                       </RadioGroup>
                     </FormControl>
                   </FormGroup>
