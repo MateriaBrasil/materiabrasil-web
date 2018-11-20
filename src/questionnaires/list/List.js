@@ -1,6 +1,5 @@
 import React from 'react'
 import map from 'lodash/map'
-import find from 'lodash/find'
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
 import FormGroup from '@material-ui/core/FormGroup'
@@ -11,6 +10,8 @@ import FormControlLabel from '@material-ui/core/FormControlLabel'
 import Typography from '@material-ui/core/Typography'
 import Dialog from 'materials/Dialog'
 import createWithParams from './createWithParams'
+import findAnswer from './findAnswer'
+import findOption from './findOption'
 
 export default props => {
   const { questionnaires, questionnairesAnswers, create } = props
@@ -34,14 +35,8 @@ export default props => {
               {map(questions, question => {
                 const { options, description } = question
 
-                const answer = find(
-                  questionnairesAnswers,
-                  ({ questionId }) => questionId === question.id,
-                )
-
-                const answerOption =
-                  answer &&
-                  find(question.options, ({ id }) => id === answer.optionId)
+                const answer = findAnswer(questionnairesAnswers, question)
+                const answerOption = findOption(answer, question)
 
                 return (
                   <FormGroup key={description}>
