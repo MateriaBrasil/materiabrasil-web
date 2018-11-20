@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  name="answers"
+  path="/answers"
+  render={[Function]}
+  renderCreated={[Function]}
+>
+  New - 
+  <div
+    questionnairesAnswers={
+      Array [
+        "foo-question",
+        "foo-question2",
+      ]
+    }
+  >
+    renderNew
+  </div>
+</div>
+`;

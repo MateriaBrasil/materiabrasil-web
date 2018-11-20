@@ -12,9 +12,10 @@ export default class extends Component {
       ({ questionId }) => questionId === created.questionId,
     )
 
-    answer.optionId = created.optionId
-
-    setAnswers(questionnairesAnswers)
+    if (created && answer) {
+      answer.optionId = created.optionId
+      setAnswers(questionnairesAnswers)
+    }
   }
 
   render() {
