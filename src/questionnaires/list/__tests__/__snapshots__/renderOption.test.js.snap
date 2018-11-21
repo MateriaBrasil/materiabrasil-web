@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly 1`] = `
+<label
+  className="MuiFormControlLabel-root-1"
+>
+  <span
+    className="MuiButtonBase-root-20 MuiIconButton-root-14 MuiSwitchBase-root-10 MuiRadio-root-5 MuiRadio-colorSecondary-9"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role={undefined}
+    tabIndex={null}
+  >
+    <span
+      className="MuiIconButton-label-19"
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root-23"
+        color={undefined}
+        focusable="false"
+        role="presentation"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+        />
+      </svg>
+      <input
+        autoFocus={undefined}
+        checked={false}
+        className="MuiSwitchBase-input-13"
+        disabled={undefined}
+        id={undefined}
+        name={undefined}
+        onChange={[Function]}
+        readOnly={undefined}
+        required={undefined}
+        tabIndex={undefined}
+        type="radio"
+        value={undefined}
+      />
+    </span>
+    <span
+      className="MuiTouchRipple-root-67"
+    />
+  </span>
+  <span
+    className="MuiTypography-root-32 MuiTypography-body1-41 MuiFormControlLabel-label-4"
+  />
+</label>
+`;

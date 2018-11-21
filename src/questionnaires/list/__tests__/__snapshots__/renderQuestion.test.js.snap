@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly 1`] = `
+<div
+  className="MuiFormGroup-root-1"
+>
+  <h6
+    className="MuiTypography-root-3 MuiTypography-subtitle1-21"
+  />
+  <fieldset
+    className="MuiFormControl-root-38"
+  >
+    <div
+      aria-label="Questionnarie Options"
+      className="MuiFormGroup-root-1"
+      role="radiogroup"
+    />
+  </fieldset>
+</div>
+`;

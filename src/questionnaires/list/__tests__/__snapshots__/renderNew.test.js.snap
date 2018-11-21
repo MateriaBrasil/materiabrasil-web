@@ -2,8 +2,10 @@
 
 exports[`renders correctly 1`] = `
 <div
-  name="answers"
-  path="/suppliers/123/answers"
-  render={[Function]}
-/>
+  create={undefined}
+  foo="bar"
+  list={undefined}
+>
+  List
+</div>
 `;

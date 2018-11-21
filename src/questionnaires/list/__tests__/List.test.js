@@ -6,6 +6,10 @@ jest.mock('@material-ui/core/Dialog', () => props => (
   <div {...props}>Dialog - {props.children}</div>
 ))
 
+jest.mock('../renderQuestionnaire', () => props => (
+  <div {...props}>Questionnaire</div>
+))
+
 const list = [
   {
     questions: [

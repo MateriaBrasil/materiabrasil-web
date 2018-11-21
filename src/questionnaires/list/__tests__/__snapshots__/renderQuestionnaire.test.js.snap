@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly 1`] = `
+<li
+  className="MuiListItem-root-1 MuiListItem-default-4 MuiListItem-gutters-8"
+  disabled={false}
+  style={
+    Object {
+      "alignItems": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+    }
+  }
+>
+  <h5
+    className="MuiTypography-root-12 MuiTypography-h5-28"
+  />
+</li>
+`;
