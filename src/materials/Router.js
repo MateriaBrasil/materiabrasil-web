@@ -7,6 +7,7 @@ import renderInfo from './renderInfo'
 import renderEdit from './renderEdit'
 import renderCategories from '../categories/render'
 import renderImageUpload from './renderImageUpload'
+import renderQuestionnaires from '../questionnaires/renderList'
 
 export default props => (
   <div>
@@ -48,6 +49,11 @@ export default props => (
         height: 720,
         attributeName: 'highlightImageUrl',
       })}
+    />
+    <Route
+      exact
+      path="/materials/:id/questionnaires"
+      render={renderQuestionnaires({ ...props, aboutType: 'Material' })}
     />
   </div>
 )
