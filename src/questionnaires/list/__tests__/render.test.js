@@ -8,7 +8,7 @@ jest.mock('croods', () => ({
 }))
 
 it('renders correctly', () => {
-  const routeProps = { match: { params: { id: 123 } } }
+  const routeProps = { aboutType: 'Supplier', match: { params: { id: 123 } } }
   const Component = render({ foo: 'bar', ...routeProps })
 
   const tree = renderer.create(<Component bar="foo" />).toJSON()

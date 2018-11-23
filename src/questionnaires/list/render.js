@@ -6,7 +6,9 @@ export default props => questionnaires => {
   return (
     <List
       name="answers"
-      path={`/suppliers/${props.match.params.id}/answers`}
+      path={`/${props.aboutType.toLowerCase()}s/${
+        props.match.params.id
+      }/answers`}
       render={renderList({ ...props, questionnaires })}
     />
   )
