@@ -7,12 +7,13 @@ export default (props, question) => option => (
   <FormControlLabel
     value={option.value}
     key={option.value}
-    onChange={createWithParams(
-      props.create,
-      props.match.params.id,
-      option.id,
-      question.id,
-    )}
+    onChange={createWithParams({
+      create: props.create,
+      aboutId: props.match.params.id,
+      aboutType: props.aboutType,
+      optionId: option.id,
+      questionId: question.id,
+    })}
     control={<Radio />}
     label={option.description}
   />
