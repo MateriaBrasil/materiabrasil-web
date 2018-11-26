@@ -34,7 +34,11 @@ class Info extends Component {
             <Avatar name={name} editPath={editPath} imageUrl={imageUrl} />
             <Name text={name} />
             <EditProfile currentUser={currentUser} supplier={current} />
-            <AnswerQuestionnaire id={id} />
+            <AnswerQuestionnaire
+              currentUser={currentUser}
+              supplier={current}
+              id={id}
+            />
           </Grid>
           <InfoCard {...this.props} />
           <Materials {...this.props} />
