@@ -17,6 +17,15 @@ class Info extends Component {
     checkReloadAndFetch(this.props)
   }
 
+  renderHelmet(name, imageUrl) {
+    return (
+      <Helmet>
+        <title>{name}</title>
+        <meta property="og:image" content={imageUrl} />
+      </Helmet>
+    )
+  }
+
   render() {
     const { current, currentUser } = this.props
     const { userId, id, name, imageUrl } = current
@@ -25,10 +34,7 @@ class Info extends Component {
 
     return (
       <Fragment>
-        <Helmet>
-          <title>{name}</title>
-          <meta property="og:image" content={imageUrl} />
-        </Helmet>
+        {this.renderHelmet(name, imageUrl)}
         <Grid container spacing={32}>
           <Grid item xs={12} sm={4} md={4} lg={3} xl={2}>
             <Avatar name={name} editPath={editPath} imageUrl={imageUrl} />
