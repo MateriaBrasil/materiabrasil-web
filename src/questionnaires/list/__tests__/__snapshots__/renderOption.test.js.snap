@@ -46,7 +46,7 @@ exports[`render correctly 1`] = `
         required={undefined}
         tabIndex={undefined}
         type="radio"
-        value={undefined}
+        value=""
       />
     </span>
     <span
