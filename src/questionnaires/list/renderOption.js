@@ -10,6 +10,7 @@ export default (props, question) => option => (
     onChange={createWithParams(
       props.create,
       props.match.params.id,
+      props.aboutType,
       option.id,
       question.id,
     )}

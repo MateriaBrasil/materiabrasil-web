@@ -1,7 +1,7 @@
-export default (create, aboutId, optionId, questionId) => () =>
+export default (create, aboutId, aboutType, optionId, questionId) => () =>
   create({
     aboutId: parseInt(aboutId, 10),
-    aboutType: 'Supplier',
+    aboutType,
     optionId,
     questionId,
   })
