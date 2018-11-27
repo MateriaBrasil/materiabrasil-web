@@ -39,13 +39,13 @@ export default props => {
             />
             <TechnicalSpecificationUpload {...props} />
             <CertificationsUpload {...props} />
-            <EditButton
-              {...props}
-              path="questionnaires"
-              label="Responder questionário"
-            />
           </Fragment>
         )}
+        <EditButton
+          {...props}
+          path="questionnaires"
+          label={editable ? 'Responder questionário' : 'Ver questionário'}
+        />
         <Typography variant="subtitle1" style={{ marginBottom: 24 }}>
           {description}
         </Typography>

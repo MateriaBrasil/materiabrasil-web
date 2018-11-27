@@ -7,14 +7,14 @@ export default props => {
   const editable =
     currentUser && currentUser.id.toString() === supplier.userId.toString()
 
-  return editable ? (
+  return (
     <Link
       style={{ textDecoration: 'none' }}
       to={`/suppliers/${id}/questionnaires`}
     >
       <Button variant="contained" color="primary" style={{ marginTop: 10 }}>
-        Responder questionários
+        {editable ? 'Responder questionários' : 'Ver questionários'}
       </Button>
     </Link>
-  ) : null
+  )
 }

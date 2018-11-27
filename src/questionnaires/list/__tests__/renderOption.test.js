@@ -11,6 +11,13 @@ it('render correctly', () => {
         {
           foo: 'bar',
           match: { params: { id: 123 } },
+          currentUser: {
+            suppliers: [
+              {
+                id: 6,
+              },
+            ],
+          },
         },
         { id: 123 },
       )({
