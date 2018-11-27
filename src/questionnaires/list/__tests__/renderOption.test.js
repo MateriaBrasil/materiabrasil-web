@@ -4,7 +4,7 @@ import renderOption from '../renderOption'
 
 jest.mock('../createWithParams', () => () => {})
 
-it('render correctly with aboutType Supplier', () => {
+it('renders correctly with aboutType Supplier', () => {
   const tree = renderer
     .create(
       renderOption(
@@ -29,7 +29,7 @@ it('render correctly with aboutType Supplier', () => {
   expect(tree).toMatchSnapshot()
 })
 
-it('render correctly with aboutType Material', () => {
+it('renders correctly with aboutType Material', () => {
   const tree = renderer
     .create(
       renderOption(
