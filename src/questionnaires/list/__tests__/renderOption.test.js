@@ -41,9 +41,11 @@ it('render correctly with aboutType Material', () => {
             suppliers: [
               {
                 id: 6,
-                materials: {
-                  id: 9,
-                },
+                materials: [
+                  {
+                    id: 9,
+                  },
+                ],
               },
             ],
           },
