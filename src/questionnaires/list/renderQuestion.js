@@ -22,7 +22,7 @@ export default props => question => {
           key={description}
           aria-label="Questionnarie Options"
           name="questionnaire-options"
-          value={answerOption ? answerOption.value : undefined}
+          value={answerOption ? answerOption.value.toString() : undefined}
         >
           {map(options, renderOption(props, question))}
         </RadioGroup>

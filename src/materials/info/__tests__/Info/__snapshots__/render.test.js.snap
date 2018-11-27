@@ -566,6 +566,46 @@ exports[`renders correctly 1`] = `
             type="file"
           />
         </div>
+        <div
+          style={
+            Object {
+              "marginRight": 24,
+              "textDecoration": "none",
+            }
+          }
+          to="/materials/undefined/questionnaires"
+        >
+          <button
+            className="MuiButtonBase-root-188 MuiButton-root-162 MuiButton-contained-173 MuiButton-containedPrimary-174 MuiButton-raised-176 MuiButton-raisedPrimary-177"
+            disabled={false}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            style={
+              Object {
+                "marginBottom": 24,
+              }
+            }
+            tabIndex="0"
+            type="button"
+          >
+            <span
+              className="MuiButton-label-163"
+            >
+              Responder questionário
+            </span>
+            <span
+              className="MuiTouchRipple-root-192"
+            />
+          </button>
+        </div>
         <h6
           className="MuiTypography-root-127 MuiTypography-subtitle1-145"
           style={

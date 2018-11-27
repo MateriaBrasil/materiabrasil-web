@@ -2,7 +2,6 @@ import React, { Fragment } from 'react'
 import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 import Typography from '@material-ui/core/Typography'
-import Hidden from '@material-ui/core/Hidden'
 
 import NewFavorite from '../../favorites/New'
 import Reviews from './Reviews'
@@ -40,13 +39,11 @@ export default props => {
             />
             <TechnicalSpecificationUpload {...props} />
             <CertificationsUpload {...props} />
-            <Hidden xsUp>
-              <EditButton
-                {...props}
-                path="indicators"
-                label="Responder questionário"
-              />
-            </Hidden>
+            <EditButton
+              {...props}
+              path="questionnaires"
+              label="Responder questionário"
+            />
           </Fragment>
         )}
         <Typography variant="subtitle1" style={{ marginBottom: 24 }}>
