@@ -64,28 +64,6 @@ exports[`renders correctly 1`] = `
           className="MuiTouchRipple-root-73"
         />
       </button>
-      <button
-        className="MuiButtonBase-root-70 MuiButtonBase-disabled-71 MuiButton-root-44 MuiButton-text-46 MuiButton-textPrimary-47 MuiButton-flat-49 MuiButton-flatPrimary-50 MuiButton-disabled-64 MuiDialogActions-action-43"
-        disabled={true}
-        onBlur={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        onTouchStart={[Function]}
-        tabIndex="-1"
-        type="submit"
-      >
-        <span
-          className="MuiButton-label-45"
-        >
-          Salvar
-        </span>
-      </button>
     </div>
   </form>
 </div>
