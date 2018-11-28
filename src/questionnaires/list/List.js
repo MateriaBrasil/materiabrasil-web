@@ -8,7 +8,7 @@ export default props => {
   const { questionnaires } = props
 
   return (
-    <Dialog {...props} title="Responder questionários" callToAction="Salvar">
+    <Dialog {...props} title="Responder questionários">
       <List style={{ width: '100%' }}>
         {map(questionnaires, renderQuestionnaire(props))}
       </List>
