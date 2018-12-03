@@ -37,9 +37,11 @@ export default props => {
       )}
       {materials && (
         <Grid container spacing={8} cellheight={360}>
-          {materials.map((material, index) => (
-            <Card key={index} ignoreHighlights material={material} />
-          ))}
+          {materials.map((material, index) => {
+            if (isOwner || material.published) {
+              return <Card key={index} ignoreHighlights material={material} />
+            }
+          })}
         </Grid>
       )}
     </Grid>
