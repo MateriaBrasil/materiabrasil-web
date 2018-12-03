@@ -2,6 +2,8 @@ import React, { Fragment } from 'react'
 import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 import Typography from '@material-ui/core/Typography'
+import Switch from '@material-ui/core/Switch'
+import { Edit } from 'croods'
 
 import NewFavorite from '../../favorites/New'
 import Reviews from './Reviews'
@@ -29,6 +31,22 @@ export default props => {
           {code}
         </Typography>
         <Supplier {...props} />
+        <Edit
+          id={props.match.params.id}
+          name="materials"
+          render={({ info, update, updating, error }) => (
+            <Switch
+              checked={info.published}
+              onChange={() => {
+                update({
+                  id: props.match.params.id,
+                  published: !info.published,
+                })
+              }}
+            />
+          )}
+          renderUpdated={() => null}
+        />
         {editable && (
           <Fragment>
             <EditButton {...props} label="Editar informações gerais" />
