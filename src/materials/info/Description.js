@@ -17,6 +17,7 @@ import Supplier from './Supplier'
 export default props => {
   const { code, description, name, technicalSpecificationUrl } = props
   const { certificationsUrl, editable } = props
+  const notCompleted = true
 
   return (
     <Card style={{ marginBottom: 16 }}>
@@ -33,11 +34,14 @@ export default props => {
         <Supplier {...props} />
         {editable && (
           <Fragment>
+            {notCompleted &&
+              'Você precisa preencher as informações gerais, as informações técnicas e responder ao questionário para tornar seu material visível.'}
             <Edit
               id={props.match.params.id}
               name="materials"
               render={({ info, update, updating, error }) => (
                 <Switch
+                  disabled={notCompleted}
                   checked={info.published}
                   onChange={() => {
                     update({
