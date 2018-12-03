@@ -31,24 +31,24 @@ export default props => {
           {code}
         </Typography>
         <Supplier {...props} />
-        <Edit
-          id={props.match.params.id}
-          name="materials"
-          render={({ info, update, updating, error }) => (
-            <Switch
-              checked={info.published}
-              onChange={() => {
-                update({
-                  id: props.match.params.id,
-                  published: !info.published,
-                })
-              }}
-            />
-          )}
-          renderUpdated={() => null}
-        />
         {editable && (
           <Fragment>
+            <Edit
+              id={props.match.params.id}
+              name="materials"
+              render={({ info, update, updating, error }) => (
+                <Switch
+                  checked={info.published}
+                  onChange={() => {
+                    update({
+                      id: props.match.params.id,
+                      published: !info.published,
+                    })
+                  }}
+                />
+              )}
+              renderUpdated={() => null}
+            />
             <EditButton {...props} label="Editar informações gerais" />
             <EditButton
               {...props}
