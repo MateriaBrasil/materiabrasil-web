@@ -11,6 +11,13 @@ jest.mock('croods', () => ({
   },
 }))
 
+jest.mock('@material-ui/core/Switch', () =>
+  jest.fn(props => {
+    props.onChange()
+    return <div {...props}>CircularProgress</div>
+  }),
+)
+
 it('renders correctly', () => {
   const current = {
     name: 'foo',
