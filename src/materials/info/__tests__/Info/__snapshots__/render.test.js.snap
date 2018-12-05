@@ -646,7 +646,7 @@ exports[`renders correctly 1`] = `
             render={[Function]}
             renderUpdated={[Function]}
           >
-            Info - 
+            Edit - 
           </div>
         </h6>
         <h6

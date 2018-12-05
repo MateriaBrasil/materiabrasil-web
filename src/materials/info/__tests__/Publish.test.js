@@ -1,21 +1,14 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-import Info from '../../Info'
-
-jest.mock('react-router-dom/Link', () => props => (
-  <div {...props}>{props.children}</div>
-))
-jest.mock('../../../../comments/Comments', () => props => (
-  <div {...props}>Comments</div>
-))
-jest.mock('../../../../favorites/New', () => props => (
-  <div {...props}>Favorites</div>
-))
-jest.mock('../../Supplier', () => props => <div {...props}>Supplier</div>)
+import Publish from '../Publish'
 
 jest.mock('croods', () => ({
-  Edit: ({ children, ...props }) => <div {...props}>Edit - {children}</div>,
+  Edit: ({ ...props }) => {
+    props.render({ info: { published: false } })
+    props.renderUpdated()
+    return <div {...props}>Edit</div>
+  },
 }))
 
 it('renders correctly', () => {
@@ -39,6 +32,6 @@ it('renders correctly', () => {
     location: {},
     match: { params: { id: 1 } },
   }
-  const tree = renderer.create(<Info {...props} />).toJSON()
+  const tree = renderer.create(<Publish {...props} />).toJSON()
   expect(tree).toMatchSnapshot()
 })
