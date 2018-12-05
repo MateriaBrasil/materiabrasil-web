@@ -11,7 +11,10 @@ jest.mock('../../../materials/list/Card', () => props => (
   <div {...props}>Card</div>
 ))
 
-const materials = [{ id: 11111 }, { id: 22222 }]
+const materials = [
+  { id: 11111, published: true },
+  { id: 22222, published: false },
+]
 
 it('renders correctly', () => {
   const props = { current: { materials } }
