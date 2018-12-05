@@ -14,6 +14,10 @@ jest.mock('../../../../favorites/New', () => props => (
 ))
 jest.mock('../../Supplier', () => props => <div {...props}>Supplier</div>)
 
+jest.mock('croods', () => ({
+  Edit: ({ children, ...props }) => <div {...props}>Info - {children}</div>,
+}))
+
 it('renders correctly', () => {
   const current = {
     name: 'foo',
@@ -33,6 +37,7 @@ it('renders correctly', () => {
     current,
     currentUser: { suppliers: [{ id: 1234 }] },
     location: {},
+    match: { params: { id: 1 } },
   }
   const tree = renderer.create(<Info {...props} />).toJSON()
   expect(tree).toMatchSnapshot()

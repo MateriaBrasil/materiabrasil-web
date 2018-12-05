@@ -313,6 +313,13 @@ exports[`renders correctly 1`] = `
             imageUrl="bar"
             location={Object {}}
             manufacturingLocation="Foo City/FO"
+            match={
+              Object {
+                "params": Object {
+                  "id": 1,
+                },
+              }
+            }
             name="foo"
             properties="Foo properties"
             salesLocation="Bar City/BR"
@@ -376,6 +383,13 @@ exports[`renders correctly 1`] = `
           imageUrl="bar"
           location={Object {}}
           manufacturingLocation="Foo City/FO"
+          match={
+            Object {
+              "params": Object {
+                "id": 1,
+              },
+            }
+          }
           name="foo"
           properties="Foo properties"
           salesLocation="Bar City/BR"
@@ -385,6 +399,15 @@ exports[`renders correctly 1`] = `
           technicalSpecification_url="http://foo"
         >
           Supplier
+        </div>
+        Você precisa preencher as informações gerais, as informações técnicas e responder ao questionário para tornar seu material visível.
+        <div
+          id={1}
+          name="materials"
+          render={[Function]}
+          renderUpdated={[Function]}
+        >
+          Info - 
         </div>
         <div
           style={
@@ -701,6 +724,13 @@ exports[`renders correctly 1`] = `
       }
       id={undefined}
       location={Object {}}
+      match={
+        Object {
+          "params": Object {
+            "id": 1,
+          },
+        }
+      }
       type="materials"
     >
       Comments

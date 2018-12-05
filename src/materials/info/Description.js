@@ -17,7 +17,25 @@ import Supplier from './Supplier'
 export default props => {
   const { code, description, name, technicalSpecificationUrl } = props
   const { certificationsUrl, editable } = props
-  const notCompleted = true
+  const images =
+    props.coverImageUrl && props.highlightImageUrl && props.listImageUrl
+  const generalInfo =
+    props.name &&
+    props.code &&
+    props.description &&
+    props.availability &&
+    props.unitOfSale &&
+    props.averagePrice &&
+    props.maximumPurchaseQuantity &&
+    props.minimumPurchaseQuantity &&
+    props.ncmCode &&
+    props.shCode &&
+    props.certifications &&
+    props.prizes &&
+    props.density &&
+    props.dimensions
+  const completed =
+    images && generalInfo && props.category && props.questionnairesCompleted
 
   return (
     <Card style={{ marginBottom: 16 }}>
@@ -34,14 +52,14 @@ export default props => {
         <Supplier {...props} />
         {editable && (
           <Fragment>
-            {notCompleted &&
+            {!completed &&
               'Você precisa preencher as informações gerais, as informações técnicas e responder ao questionário para tornar seu material visível.'}
             <Edit
               id={props.match.params.id}
               name="materials"
               render={({ info, update, updating, error }) => (
                 <Switch
-                  disabled={notCompleted}
+                  disabled={!completed}
                   checked={info.published}
                   onChange={() => {
                     update({

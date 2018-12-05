@@ -8,6 +8,9 @@ jest.mock('../Info', () => props => <div {...props}>Info</div>)
 it('renders correctly', () => {
   const props = {
     bar: 'foo',
+    match: {
+      params: { id: 3 },
+    },
   }
   const infoProps = {
     info: {
