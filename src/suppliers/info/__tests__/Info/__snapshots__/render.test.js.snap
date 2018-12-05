@@ -462,38 +462,7 @@ exports[`with materials renders correctly 1`] = `
     <div
       cellheight={360}
       className="MuiGrid-container-1 MuiGrid-spacing-xs-8-23"
-    >
-      <div
-        ignoreHighlights={true}
-        material={
-          Object {
-            "id": 1,
-          }
-        }
-      >
-        Card
-      </div>
-      <div
-        ignoreHighlights={true}
-        material={
-          Object {
-            "id": 2,
-          }
-        }
-      >
-        Card
-      </div>
-      <div
-        ignoreHighlights={true}
-        material={
-          Object {
-            "id": 3,
-          }
-        }
-      >
-        Card
-      </div>
-    </div>
+    />
   </div>
   <div
     current={
