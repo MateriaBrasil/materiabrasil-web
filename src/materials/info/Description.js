@@ -2,8 +2,6 @@ import React, { Fragment } from 'react'
 import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 import Typography from '@material-ui/core/Typography'
-import Switch from '@material-ui/core/Switch'
-import { Edit } from 'croods'
 
 import NewFavorite from '../../favorites/New'
 import Reviews from './Reviews'
@@ -13,29 +11,11 @@ import CertificationsUpload from './CertificationsUpload'
 import CertificationsIcon from './CertificationsIcon'
 import EditButton from './EditButton'
 import Supplier from './Supplier'
+import Publish from './Publish'
 
 export default props => {
   const { code, description, name, technicalSpecificationUrl } = props
   const { certificationsUrl, editable } = props
-  const images =
-    props.coverImageUrl && props.highlightImageUrl && props.listImageUrl
-  const generalInfo =
-    props.name &&
-    props.code &&
-    props.description &&
-    props.availability &&
-    props.unitOfSale &&
-    props.averagePrice &&
-    props.maximumPurchaseQuantity &&
-    props.minimumPurchaseQuantity &&
-    props.ncmCode &&
-    props.shCode &&
-    props.certifications &&
-    props.prizes &&
-    props.density &&
-    props.dimensions
-  const completed =
-    images && generalInfo && props.category && props.questionnairesCompleted
 
   return (
     <Card style={{ marginBottom: 16 }}>
@@ -52,25 +32,7 @@ export default props => {
         <Supplier {...props} />
         {editable && (
           <Fragment>
-            {!completed &&
-              'Você precisa preencher as informações gerais, as informações técnicas e responder ao questionário para tornar seu material visível.'}
-            <Edit
-              id={props.match.params.id}
-              name="materials"
-              render={({ info, update, updating, error }) => (
-                <Switch
-                  disabled={!completed}
-                  checked={info.published}
-                  onChange={() => {
-                    update({
-                      id: props.match.params.id,
-                      published: !info.published,
-                    })
-                  }}
-                />
-              )}
-              renderUpdated={() => null}
-            />
+            <Publish {...props} />
             <EditButton {...props} label="Editar informações gerais" />
             <EditButton
               {...props}
