@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import Typography from '@material-ui/core/Typography'
 import Switch from '@material-ui/core/Switch'
 import { Edit } from 'croods'
 
@@ -43,28 +44,33 @@ export default props => {
     notCompletedMessage += 'o questionário, '
   }
 
-  notCompletedMessage += 'para tornar seu material visível.'
+  notCompletedMessage += 'para poder tornar seu material visível.'
 
   return (
     <Fragment>
-      {!completed && notCompletedMessage}
-      <Edit
-        id={props.match.params.id}
-        name="materials"
-        render={({ info, update, updating, error }) => (
-          <Switch
-            disabled={!completed}
-            checked={info.published}
-            onChange={() => {
-              update({
-                id: props.match.params.id,
-                published: !info.published,
-              })
-            }}
-          />
-        )}
-        renderUpdated={() => null}
-      />
+      <Typography variant="body1" style={{ marginBottom: 5 }}>
+        {!completed && notCompletedMessage}
+      </Typography>
+      <Typography variant="subtitle1" style={{ marginBottom: 5 }}>
+        Publicar Material
+        <Edit
+          id={props.match.params.id}
+          name="materials"
+          render={({ info, update, updating, error }) => (
+            <Switch
+              disabled={!completed}
+              checked={info.published}
+              onChange={() => {
+                update({
+                  id: props.match.params.id,
+                  published: !info.published,
+                })
+              }}
+            />
+          )}
+          renderUpdated={() => null}
+        />
+      </Typography>
     </Fragment>
   )
 }

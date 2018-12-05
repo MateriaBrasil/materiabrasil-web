@@ -32,7 +32,6 @@ export default props => {
         <Supplier {...props} />
         {editable && (
           <Fragment>
-            <Publish {...props} />
             <EditButton {...props} label="Editar informações gerais" />
             <EditButton
               {...props}
@@ -48,6 +47,8 @@ export default props => {
           path="questionnaires"
           label={editable ? 'Responder questionário' : 'Ver questionário'}
         />
+        <br />
+        <Publish {...props} />
         <Typography variant="subtitle1" style={{ marginBottom: 24 }}>
           {description}
         </Typography>

@@ -400,15 +400,6 @@ exports[`renders correctly 1`] = `
         >
           Supplier
         </div>
-        Você precisa preencher as informações gerais, as informações técnicas e responder ao questionário para tornar seu material visível.
-        <div
-          id={1}
-          name="materials"
-          render={[Function]}
-          renderUpdated={[Function]}
-        >
-          Info - 
-        </div>
         <div
           style={
             Object {
@@ -629,6 +620,35 @@ exports[`renders correctly 1`] = `
             />
           </button>
         </div>
+        <br />
+        <p
+          className="MuiTypography-root-127 MuiTypography-body1-136"
+          style={
+            Object {
+              "marginBottom": 5,
+            }
+          }
+        >
+          Você precisar preencher as imagens, as informações gerais, as informações técnicas, o questionário, para poder tornar seu material visível.
+        </p>
+        <h6
+          className="MuiTypography-root-127 MuiTypography-subtitle1-145"
+          style={
+            Object {
+              "marginBottom": 5,
+            }
+          }
+        >
+          Publicar Material
+          <div
+            id={1}
+            name="materials"
+            render={[Function]}
+            renderUpdated={[Function]}
+          >
+            Info - 
+          </div>
+        </h6>
         <h6
           className="MuiTypography-root-127 MuiTypography-subtitle1-145"
           style={
