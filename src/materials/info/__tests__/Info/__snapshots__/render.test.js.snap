@@ -629,7 +629,7 @@ exports[`renders correctly 1`] = `
             }
           }
         >
-          Você precisar preencher as imagens, as informações gerais, as informações técnicas, o questionário, para poder tornar seu material visível.
+          Você precisa preencher as imagens, as informações gerais, as informações técnicas, o questionário, para poder tornar seu material visível.
         </p>
         <h6
           className="MuiTypography-root-127 MuiTypography-subtitle1-145"

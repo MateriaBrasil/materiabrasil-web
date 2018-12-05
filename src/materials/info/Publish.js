@@ -26,7 +26,7 @@ export default props => {
   const completed =
     images && generalInfo && props.category && props.questionnairesCompleted
 
-  let notCompletedMessage = 'Você precisar preencher '
+  let notCompletedMessage = 'Você precisa preencher '
 
   if (!images) {
     notCompletedMessage += 'as imagens, '
