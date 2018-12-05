@@ -22,12 +22,11 @@ Array [
 >
     Publicar Material
     <div
-        id={1}
-        name="materials"
-        render={[Function]}
-        renderUpdated={[Function]}
+        checked={false}
+        disabled={true}
+        onChange={[Function]}
     >
-        Edit
+        CircularProgress
     </div>
 </h6>,
 ]

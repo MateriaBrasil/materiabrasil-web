@@ -5,18 +5,15 @@ import Publish from '../Publish'
 
 jest.mock('croods', () => ({
   Edit: ({ ...props }) => {
-    props.render({ info: { published: false } })
     props.renderUpdated()
-    return <div {...props}>Edit</div>
+    return props.render({ info: { published: false }, update: () => {} })
   },
 }))
 
-jest.mock('@material-ui/core/Switch', () =>
-  jest.fn(props => {
-    props.onChange()
-    return <div {...props}>CircularProgress</div>
-  }),
-)
+jest.mock('@material-ui/core/Switch', () => props => {
+  props.onChange()
+  return <div {...props}>CircularProgress</div>
+})
 
 it('renders correctly', () => {
   const current = {
