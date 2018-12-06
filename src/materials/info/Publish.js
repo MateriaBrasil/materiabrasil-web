@@ -23,7 +23,7 @@ export default props => {
     props.density &&
     props.dimensions
 
-  const completed =
+  const publishable =
     images && generalInfo && props.category && props.questionnairesCompleted
 
   let notCompletedMessage = 'Você precisa preencher '
@@ -48,9 +48,11 @@ export default props => {
 
   return (
     <Fragment>
-      <Typography variant="body1" style={{ marginBottom: 5 }}>
-        {!completed && notCompletedMessage}
-      </Typography>
+      {!publishable && (
+        <Typography variant="body1" style={{ marginBottom: 5 }}>
+          {notCompletedMessage}
+        </Typography>
+      )}
       <Typography variant="subtitle1" style={{ marginBottom: 5 }}>
         Publicar Material
         <Edit
@@ -58,7 +60,7 @@ export default props => {
           name="materials"
           render={({ info, update, updating, error }) => (
             <Switch
-              disabled={!completed}
+              disabled={!publishable}
               checked={info.published}
               onChange={() => {
                 update({
