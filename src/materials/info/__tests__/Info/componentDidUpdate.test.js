@@ -14,6 +14,8 @@ jest.mock('../../../../favorites/New', () => props => (
 ))
 jest.mock('../../Supplier', () => props => <div {...props}>Supplier</div>)
 
+jest.mock('../../Publish', () => props => <div {...props}>Publish</div>)
+
 jest.mock('query-string', () => ({
   parse: search => ({ reload: search }),
 }))

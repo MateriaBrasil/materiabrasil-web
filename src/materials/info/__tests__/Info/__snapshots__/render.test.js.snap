@@ -313,6 +313,13 @@ exports[`renders correctly 1`] = `
             imageUrl="bar"
             location={Object {}}
             manufacturingLocation="Foo City/FO"
+            match={
+              Object {
+                "params": Object {
+                  "id": 1,
+                },
+              }
+            }
             name="foo"
             properties="Foo properties"
             salesLocation="Bar City/BR"
@@ -376,6 +383,13 @@ exports[`renders correctly 1`] = `
           imageUrl="bar"
           location={Object {}}
           manufacturingLocation="Foo City/FO"
+          match={
+            Object {
+              "params": Object {
+                "id": 1,
+              },
+            }
+          }
           name="foo"
           properties="Foo properties"
           salesLocation="Bar City/BR"
@@ -606,6 +620,35 @@ exports[`renders correctly 1`] = `
             />
           </button>
         </div>
+        <br />
+        <p
+          className="MuiTypography-root-127 MuiTypography-body1-136"
+          style={
+            Object {
+              "marginBottom": 5,
+            }
+          }
+        >
+          Você precisa preencher as imagens, as informações gerais, as informações técnicas, o questionário, para poder tornar seu material visível.
+        </p>
+        <h6
+          className="MuiTypography-root-127 MuiTypography-subtitle1-145"
+          style={
+            Object {
+              "marginBottom": 5,
+            }
+          }
+        >
+          Publicar Material
+          <div
+            id={1}
+            name="materials"
+            render={[Function]}
+            renderUpdated={[Function]}
+          >
+            Edit - 
+          </div>
+        </h6>
         <h6
           className="MuiTypography-root-127 MuiTypography-subtitle1-145"
           style={
@@ -701,6 +744,13 @@ exports[`renders correctly 1`] = `
       }
       id={undefined}
       location={Object {}}
+      match={
+        Object {
+          "params": Object {
+            "id": 1,
+          },
+        }
+      }
       type="materials"
     >
       Comments

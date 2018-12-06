@@ -24,16 +24,7 @@ exports[`renders correctly 1`] = `
       material={
         Object {
           "id": 11111,
-        }
-      }
-    >
-      Card
-    </div>
-    <div
-      ignoreHighlights={true}
-      material={
-        Object {
-          "id": 22222,
+          "published": true,
         }
       }
     >

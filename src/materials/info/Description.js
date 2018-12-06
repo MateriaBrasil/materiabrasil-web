@@ -11,6 +11,7 @@ import CertificationsUpload from './CertificationsUpload'
 import CertificationsIcon from './CertificationsIcon'
 import EditButton from './EditButton'
 import Supplier from './Supplier'
+import Publish from './Publish'
 
 export default props => {
   const { code, description, name, technicalSpecificationUrl } = props
@@ -46,6 +47,8 @@ export default props => {
           path="questionnaires"
           label={editable ? 'Responder questionário' : 'Ver questionário'}
         />
+        <br />
+        <Publish {...props} />
         <Typography variant="subtitle1" style={{ marginBottom: 24 }}>
           {description}
         </Typography>
