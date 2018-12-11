@@ -48,7 +48,7 @@ export default props => {
           label={editable ? 'Responder questionário' : 'Ver questionário'}
         />
         <br />
-        <Publish {...props} />
+        {editable && <Publish {...props} />}
         <Typography variant="subtitle1" style={{ marginBottom: 24 }}>
           {description}
         </Typography>
