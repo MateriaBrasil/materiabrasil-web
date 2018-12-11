@@ -25,6 +25,7 @@ describe('when calling onDialogSubmit', () => {
       title: 'foo-title',
       onSubmit: 'foo-submit',
       handleSubmit,
+      snackbar: { actions: { setMessage: () => {} } },
     }
     const tree = renderer.create(<Dialog {...props}>Foo</Dialog>).toJSON()
     tree.children[1].props.onSubmit(event)

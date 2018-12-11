@@ -11,6 +11,7 @@ it('calls function correctly', () => {
     update,
     id: 1234,
     attributeName: 'foo-attr',
+    snackbar: { actions: { setMessage: () => {} } },
   })
   expect(s3HandleUpload).toHaveBeenCalledWith({
     Key: `uploads//materials/1234/foo-name`,

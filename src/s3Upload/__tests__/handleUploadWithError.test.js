@@ -16,7 +16,12 @@ describe('when there is an upload error', () => {
   it('does not update', async () => {
     const update = jest.fn()
 
-    await handleUpload({ foo: 'bar', update, id: 'bar' })
+    await handleUpload({
+      foo: 'bar',
+      update,
+      id: 'bar',
+      snackbar: { actions: { setMessage: () => {} } },
+    })
     expect(update).not.toHaveBeenCalled()
   })
 })

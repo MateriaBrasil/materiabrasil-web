@@ -22,10 +22,8 @@ it('sets loading and calls handleUpload', () => {
 
   instance.handleUpload = jest.fn()
   instance.editor = editor
-  expect(instance.state.uploading).toBe(false)
   instance.onUpload()
 
-  expect(instance.state.uploading).toBe(true)
   expect(editor.getImage).toHaveBeenCalledWith()
   expect(instance.handleUpload).toHaveBeenCalledWith({
     editorImage: 'foo',
