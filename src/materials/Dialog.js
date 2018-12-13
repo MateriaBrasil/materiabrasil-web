@@ -17,11 +17,8 @@ export default withMobileDialog()(
 
     onDialogSubmit(event) {
       const { handleSubmit, onSubmit } = this.props
-      if (isFunction(handleSubmit)) {
-        this.props.snackbar.actions.setMessage(
-          'Material atualizado com sucesso',
-        )
 
+      if (isFunction(handleSubmit)) {
         return handleSubmit(onSubmit)(event)
       }
     }
