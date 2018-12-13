@@ -17,7 +17,6 @@ export default withMobileDialog()(
 
     onDialogSubmit(event) {
       const { handleSubmit, onSubmit } = this.props
-
       if (isFunction(handleSubmit)) {
         return handleSubmit(onSubmit)(event)
       }

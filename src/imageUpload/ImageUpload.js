@@ -31,14 +31,14 @@ export default class extends Component {
   }
 
   onUpload() {
-    const { update, id, attributeName, snackbar } = this.props
+    const { update, id, attributeName } = this.props
 
+    this.setState({ uploading: true })
     this.handleUpload({
       editorImage: this.editor.getImage(),
       update,
       id,
       attributeName,
-      snackbar,
     })
   }
 

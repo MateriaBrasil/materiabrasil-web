@@ -21,7 +21,6 @@ it('calls function correctly', async () => {
     foo: 'bar',
     update,
     id: 'bar',
-    snackbar: { actions: { setMessage: () => {} } },
   })
   expect(update).toHaveBeenCalledWith({ id: 'bar', imageUrl: 'foobar' })
 })

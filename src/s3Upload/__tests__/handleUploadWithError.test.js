@@ -20,7 +20,6 @@ describe('when there is an upload error', () => {
       foo: 'bar',
       update,
       id: 'bar',
-      snackbar: { actions: { setMessage: () => {} } },
     })
     expect(update).not.toHaveBeenCalled()
   })

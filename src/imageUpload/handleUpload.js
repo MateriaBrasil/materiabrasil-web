@@ -1,7 +1,7 @@
 import parseCanvas from './parseCanvas'
 import handleUpload from '../s3Upload/handleUpload'
 
-export default async ({ editorImage, update, id, attributeName, snackbar }) => {
+export default async ({ editorImage, update, id, attributeName }) => {
   const image = await parseCanvas(editorImage)
 
   handleUpload({
@@ -10,6 +10,5 @@ export default async ({ editorImage, update, id, attributeName, snackbar }) => {
     update,
     id,
     attributeName,
-    snackbar,
   })
 }
