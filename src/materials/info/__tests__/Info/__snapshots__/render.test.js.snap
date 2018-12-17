@@ -642,7 +642,8 @@ exports[`renders correctly 1`] = `
           Publicar Material
           <div
             id={1}
-            name="materials"
+            name="publishMaterials"
+            path="/materials/1"
             render={[Function]}
             renderUpdated={[Function]}
           >

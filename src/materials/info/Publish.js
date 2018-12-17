@@ -57,7 +57,8 @@ export default props => {
         Publicar Material
         <Edit
           id={props.match.params.id}
-          name="materials"
+          name="publishMaterials"
+          path={`/materials/${props.match.params.id}`}
           render={({ info, update, updating, error }) => (
             <Switch
               disabled={!publishable}

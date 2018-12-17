@@ -17,6 +17,10 @@ jest.mock('../updateAWSConfig')
 it('calls function correctly', async () => {
   const update = jest.fn()
 
-  await handleUpload({ foo: 'bar', update, id: 'bar' })
+  await handleUpload({
+    foo: 'bar',
+    update,
+    id: 'bar',
+  })
   expect(update).toHaveBeenCalledWith({ id: 'bar', imageUrl: 'foobar' })
 })

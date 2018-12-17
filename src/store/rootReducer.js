@@ -10,6 +10,7 @@ const reducers = {
   form,
   currentUser: createReducer('currentUser'),
   materials: createReducer('materials'),
+  publishMaterials: createReducer('publishMaterials'),
   comments: createReducer('comments', { addCreatedToTop: true }),
   favorites: createReducer('favorites'),
   signUp: createReducer('signUp'),
