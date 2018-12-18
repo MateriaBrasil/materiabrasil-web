@@ -9,6 +9,8 @@ beforeEach(() => {
 
 const props = {
   created: { categoryId: 1234 },
+  match: { params: { id: 1234 } },
+  categoryFilled: { actions: { setCategory: jest.fn() } },
   setMaterialCategories: jest.fn(),
   materialCategories: [
     { id: 12, categoryId: 1234 },
@@ -30,6 +32,7 @@ describe('without children', () => {
         categoryId: 1234,
       },
     ])
+    expect(props.categoryFilled.actions.setCategory).toHaveBeenCalledWith(1234)
   })
 })
 

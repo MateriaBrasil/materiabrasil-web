@@ -10,6 +10,14 @@ exports[`renders correctly 1`] = `
 >
   Provider - 
   <div
+    categoryFilled={
+      Object {
+        "actions": Object {
+          "setCategory": [Function],
+        },
+        "categoryFilled": Object {},
+      }
+    }
     comparison={
       Object {
         "actions": Object {

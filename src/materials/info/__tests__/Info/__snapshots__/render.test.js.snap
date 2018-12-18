@@ -278,6 +278,7 @@ exports[`renders correctly 1`] = `
         >
           <div
             averagePrice="100"
+            categoryFilled={Object {}}
             code="999"
             current={
               Object {
@@ -348,6 +349,7 @@ exports[`renders correctly 1`] = `
         </span>
         <div
           averagePrice="100"
+          categoryFilled={Object {}}
           code="999"
           current={
             Object {
@@ -718,6 +720,7 @@ exports[`renders correctly 1`] = `
       </div>
     </div>
     <div
+      categoryFilled={Object {}}
       current={
         Object {
           "averagePrice": "100",
