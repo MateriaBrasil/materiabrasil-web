@@ -36,7 +36,7 @@ export default props => {
     notCompletedMessage += 'as informações gerais, '
   }
 
-  if (!props.category) {
+  if (!props.category && !props.categoryFilled[props.match.params.id]) {
     notCompletedMessage += 'as informações técnicas, '
   }
 

@@ -35,6 +35,7 @@ it('renders correctly', () => {
     currentUser: { suppliers: [{ id: 1234 }] },
     location: {},
     match: { params: { id: 1 } },
+    categoryFilled: {},
   }
   const tree = renderer.create(<Publish {...props} />).toJSON()
   expect(tree).toMatchSnapshot()
