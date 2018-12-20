@@ -3,6 +3,7 @@ import map from 'lodash/map'
 import List from '@material-ui/core/List'
 import Dialog from 'materials/Dialog'
 import renderQuestionnaire from './renderQuestionnaire'
+import onCloseModel from './onCloseModel'
 
 export default props => {
   const { questionnaires } = props
@@ -10,9 +11,7 @@ export default props => {
   return (
     <Dialog
       {...props}
-      onCloseModel={() => {
-        props.history.push(`/materials/${props.match.params.id}?reload=true`)
-      }}
+      onCloseModel={onCloseModel(props)}
       title="Responder questionários"
     >
       <List style={{ width: '100%' }}>
