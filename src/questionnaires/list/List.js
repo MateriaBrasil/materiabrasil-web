@@ -8,7 +8,13 @@ export default props => {
   const { questionnaires } = props
 
   return (
-    <Dialog {...props} title="Responder questionários">
+    <Dialog
+      {...props}
+      onCloseModel={() => {
+        props.history.push(`/materials/${props.match.params.id}?reload=true`)
+      }}
+      title="Responder questionários"
+    >
       <List style={{ width: '100%' }}>
         {map(questionnaires, renderQuestionnaire(props))}
       </List>
