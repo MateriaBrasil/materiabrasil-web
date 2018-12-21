@@ -24,8 +24,9 @@ export default withMobileDialog()(
 
     render() {
       const { title, children, fullScreen, match, history } = this.props
+      const { onCloseModel } = this.props
       const { id } = match.params
-      const handleCloseModal = closeModal({ history, id })
+      const handleCloseModal = onCloseModel || closeModal({ history, id })
 
       return (
         <Dialog

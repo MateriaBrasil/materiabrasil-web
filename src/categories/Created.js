@@ -13,6 +13,7 @@ export default class extends Component {
 
     const createdCategory = findCategory(categories, created.categoryId)
     const root = rootCategory(categories, createdCategory)
+    props.categoryFilled.actions.setCategory(props.match.params.id)
 
     if (root.multipleChoice) {
       return

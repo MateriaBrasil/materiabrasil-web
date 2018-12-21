@@ -5,6 +5,7 @@ import { createReducer } from 'croods'
 import filters from 'filters/reducer'
 import comparison from 'comparison/reducer'
 import snackbar from 'snackbar/reducer'
+import categoryFilled from 'categories/reducer'
 
 const reducers = {
   form,
@@ -32,6 +33,7 @@ const reducers = {
   filters,
   comparison,
   snackbar,
+  categoryFilled,
 }
 
 const rootReducer = combineReducers(reducers)
