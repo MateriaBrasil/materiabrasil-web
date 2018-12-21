@@ -9,10 +9,20 @@ jest.mock('react-router-dom/Redirect', () => props => (
 
 it('renders correctly', () => {
   const snackbar = { actions: { setMessage: jest.fn() } }
-  const Component = renderCreated({ foo: 'bar', snackbar })
+  const setCurrentUser = jest.fn()
+  const Component = renderCreated({
+    foo: 'bar',
+    snackbar,
+    setCurrentUser,
+    currentUser: { suppliers: [{ id: 123, materials: [] }] },
+  })
   const tree = renderer.create(<Component bar="foo" id={1234} />).toJSON()
   expect(tree).toMatchSnapshot()
   expect(snackbar.actions.setMessage).toHaveBeenCalledWith(
     'Material cadastrado com sucesso',
   )
+
+  expect(setCurrentUser).toHaveBeenCalledWith({
+    suppliers: [{ id: 123, materials: [{ id: 1234, bar: 'foo' }] }],
+  })
 })

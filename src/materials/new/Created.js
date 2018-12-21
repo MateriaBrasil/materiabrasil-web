@@ -7,6 +7,14 @@ export default class extends Component {
   }
 
   render() {
+    let supplier = this.props.currentUser.suppliers[0]
+    supplier.materials = [...supplier.materials, this.props.material]
+
+    this.props.setCurrentUser({
+      ...this.props.currentUser,
+      suppliers: [supplier],
+    })
+
     return <Redirect to={`/materials/${this.props.material.id}`} />
   }
 }
