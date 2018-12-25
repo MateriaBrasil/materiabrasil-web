@@ -8,6 +8,7 @@ import renderEdit from './renderEdit'
 import renderCategories from '../categories/render'
 import renderImageUpload from './renderImageUpload'
 import renderQuestionnaires from '../questionnaires/renderList'
+import renderAlbums from '../albums/renderList'
 
 export default props => (
   <div>
@@ -20,6 +21,7 @@ export default props => (
     />
     <Route path="/materials/:id" render={renderInfo(props)} />
     <Route path="/materials/:id/reviews" render={renderReviews(props)} />
+    <Route exact path="/materials/:id/albums" render={renderAlbums(props)} />
     <Route
       exact
       path="/materials/:id/coverImage"
