@@ -4,6 +4,7 @@ exports[`renders correctly 1`] = `
 <div
   creating={false}
   foo="bar"
+  id={1234}
   onClick={[Function]}
 >
   Button - 
