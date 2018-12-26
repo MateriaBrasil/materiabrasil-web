@@ -7,11 +7,8 @@ import renderAlbums from './renderAlbums'
 export default props => routeProps => {
   const { id } = routeProps.match.params
 
-  console.log(props)
-  console.log(routeProps)
-
   return (
-    <Dialog {...props} title="Adicionar a um álbum">
+    <Dialog {...props} {...routeProps} title="Adicionar a um álbum">
       <List style={{ width: '100%' }}>
         {map(
           props.currentUser && props.currentUser.albums,
