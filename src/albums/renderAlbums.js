@@ -1,5 +1,7 @@
 import React from 'react'
 import ListItem from '@material-ui/core/ListItem'
+import Button from '@material-ui/core/Button'
+import NewFavorite from '../favorites/New'
 
 export default props => album => {
   return (
@@ -11,7 +13,8 @@ export default props => album => {
         alignItems: 'flex-start',
       }}
     >
-      {album.name}
+      <Button>{album.name}</Button>
+      <NewFavorite id={parseInt(props.match.params.id, 10)} {...props} />
     </ListItem>
   )
 }
