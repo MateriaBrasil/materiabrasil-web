@@ -14,7 +14,11 @@ export default props => album => {
       }}
     >
       <Button>{album.name}</Button>
-      <NewFavorite id={parseInt(props.match.params.id, 10)} {...props} />
+      <NewFavorite
+        albumId={album.id}
+        materialId={parseInt(props.match.params.id, 10)}
+        {...props}
+      />
     </ListItem>
   )
 }

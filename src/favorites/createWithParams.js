@@ -1,7 +1,7 @@
-export default (create, id) => () => {
+export default (create, materialId, albumId) => () => {
   create({
-    album_id: 0,
-    favoritable_id: id,
+    album_id: albumId,
+    favoritable_id: materialId,
     favoritable_type: 'Material',
   })
 }
