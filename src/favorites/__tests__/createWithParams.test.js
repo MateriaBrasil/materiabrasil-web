@@ -3,7 +3,7 @@ import createWithParams from '../createWithParams'
 it('executes create with merged params', () => {
   const create = jest.fn()
 
-  createWithParams(create, 123)()
+  createWithParams(create, 123, 0)()
 
   expect(create).toHaveBeenCalledWith({
     album_id: 0,

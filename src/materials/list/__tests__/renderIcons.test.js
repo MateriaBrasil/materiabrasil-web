@@ -4,6 +4,7 @@ import renderer from 'react-test-renderer'
 import renderIcons from '../renderIcons'
 
 jest.mock('../../../favorites/New', () => props => <div {...props}>New</div>)
+jest.mock('../../../albums/Link', () => props => <div {...props}>Link</div>)
 
 jest.mock('../TechnicalSpecification', () => props => (
   <div {...props}>TechnicalSpecification</div>
