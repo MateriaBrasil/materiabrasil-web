@@ -13,9 +13,9 @@ export default props => album => {
         alignItems: 'flex-start',
       }}
     >
-      <Button>{album.name}</Button>
       <NewFavorite
         albumId={album.id}
+        albumName={album.name}
         materialId={parseInt(props.match.params.id, 10)}
         {...props}
       />
