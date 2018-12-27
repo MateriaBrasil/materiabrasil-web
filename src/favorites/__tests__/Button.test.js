@@ -8,14 +8,14 @@ jest.mock('@material-ui/core/Tooltip', () => props => (
 ))
 
 it('renders correctly', () => {
-  const props = { onClick: jest.fn() }
+  const props = { onClick: jest.fn(), albumName: 'test' }
   const tree = renderer.create(<Button {...props} />).toJSON()
   expect(tree).toMatchSnapshot()
 })
 
 describe('when creating', () => {
   it('renders correctly', () => {
-    const props = { onClick: jest.fn() }
+    const props = { onClick: jest.fn(), albumName: 'test' }
     const tree = renderer.create(<Button {...props} creating />).toJSON()
     expect(tree).toMatchSnapshot()
   })

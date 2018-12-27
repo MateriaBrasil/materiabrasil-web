@@ -292,7 +292,7 @@ exports[`renders correctly 1`] = `
                 "verticalAlign": "bottom",
               }
             }
-            title="Adicionar á um álbum"
+            title="Adicionar a um album"
             to="/materials/undefined/albums"
           >
             <svg

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+    }
+  }
+>
+  ListItem - 
+  <div
+    albumId={11111}
+    albumName="name-1"
+    match={
+      Object {
+        "params": Object {
+          "id": 123,
+        },
+      }
+    }
+    materialId={123}
+  >
+    New - 
+  </div>
+</div>
+`;

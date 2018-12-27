@@ -2,7 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <div
-  title="Adicionar a undefined"
+  title="Adicionar á test"
 >
   Tooltip - 
   <button
@@ -25,7 +25,9 @@ exports[`renders correctly 1`] = `
   >
     <span
       className="MuiButton-label-2"
-    />
+    >
+      test
+    </span>
     <span
       className="MuiTouchRipple-root-30"
     />

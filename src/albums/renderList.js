@@ -5,7 +5,7 @@ import Button from '@material-ui/core/Button'
 import Link from 'react-router-dom/Link'
 
 import Dialog from 'materials/Dialog'
-import renderAlbums from './renderAlbums'
+import renderAlbum from './renderAlbum'
 
 export default props => routeProps => {
   return (
@@ -13,7 +13,7 @@ export default props => routeProps => {
       <List style={{ width: '100%' }}>
         {map(
           props.currentUser && props.currentUser.albums,
-          renderAlbums({ ...props, ...routeProps }),
+          renderAlbum({ ...props, ...routeProps }),
         )}
       </List>
       <Link
