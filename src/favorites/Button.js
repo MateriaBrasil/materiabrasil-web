@@ -7,7 +7,7 @@ export default ({ onClick, creating, style, albumName }) =>
   creating ? (
     <Loading />
   ) : (
-    <Tooltip title={'Adicionar a ' + albumName}>
+    <Tooltip title={'Adicionar á ' + albumName}>
       <Button onClick={onClick} style={style}>
         {albumName}
       </Button>
