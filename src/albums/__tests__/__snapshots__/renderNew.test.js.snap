@@ -25,7 +25,46 @@ exports[`render renders correctly 1`] = `
     </div>
     <div
       className="MuiDialogContent-root-37"
-    />
+    >
+      <div
+        name="albums"
+        render={[Function]}
+        renderCreated={[Function]}
+      >
+        New - 
+        <div
+          initialValues={
+            Object {
+              "name": "",
+            }
+          }
+          onSubmit={[Function]}
+          render={[Function]}
+          validate={[Function]}
+        >
+          New - 
+          <form
+            onSubmit={undefined}
+          >
+            <input
+              id="name"
+              name="name"
+              onBlur={undefined}
+              onChange={undefined}
+              value="123"
+            />
+            <p />
+            <button
+              type="submit"
+            >
+              Submit
+            </button>
+          </form>
+           
+          - 
+        </div>
+      </div>
+    </div>
     <div
       className="MuiDialogActions-root-38"
     >

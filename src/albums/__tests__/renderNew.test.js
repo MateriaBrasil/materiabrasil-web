@@ -8,13 +8,18 @@ jest.mock('@material-ui/core/Dialog', () => props => (
 ))
 
 jest.mock('croods', () => ({
-  New: () => props => (
-    <div {...props}>New - {props.render({ create: jest.mock() })}</div>
+  New: props => (
+    <div {...props}>New - {props.render({ create: () => {} })}</div>
   ),
 }))
 
 jest.mock('formik', () => ({
-  Formik: () => props => <div {...props}>Formik - {props.children}</div>,
+  Formik: props => (
+    <div {...props}>
+      New - {props.render({ values: { name: '123' }, touched: {}, errors: {} })}{' '}
+      - {props.onSubmit({ name: '123' })}
+    </div>
+  ),
 }))
 
 const routeProps = { match: { params: { id: 123 } } }
