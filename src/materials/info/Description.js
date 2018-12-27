@@ -2,8 +2,8 @@ import React, { Fragment } from 'react'
 import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 import Typography from '@material-ui/core/Typography'
+import Link from 'albums/Link'
 
-import NewFavorite from '../../favorites/New'
 import Reviews from './Reviews'
 import TechnicalSpecification from '../list/TechnicalSpecification'
 import TechnicalSpecificationUpload from './TechnicalSpecificationUpload'
@@ -14,14 +14,14 @@ import Supplier from './Supplier'
 import Publish from './Publish'
 
 export default props => {
-  const { code, description, name, technicalSpecificationUrl } = props
+  const { code, description, name, technicalSpecificationUrl, id } = props
   const { certificationsUrl, editable } = props
 
   return (
     <Card style={{ marginBottom: 16 }}>
       <CardContent>
         <div style={{ float: 'right' }}>
-          <NewFavorite {...props} />
+          <Link id={id} />
           {technicalSpecificationUrl && <TechnicalSpecification {...props} />}
           {certificationsUrl && <CertificationsIcon {...props} />}
         </div>
