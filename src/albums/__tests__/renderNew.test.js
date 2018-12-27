@@ -9,20 +9,31 @@ jest.mock('@material-ui/core/Dialog', () => props => (
 
 jest.mock('croods', () => ({
   New: props => (
-    <div {...props}>New - {props.render({ create: () => {} })}</div>
-  ),
-}))
-
-jest.mock('formik', () => ({
-  Formik: props => (
     <div {...props}>
-      New - {props.render({ values: { name: '123' }, touched: {}, errors: {} })}{' '}
-      - {props.onSubmit({ name: '123' })}
+      New - {props.render({ create: () => {} })}- {props.renderCreated()}
     </div>
   ),
 }))
 
-const routeProps = { match: { params: { id: 123 } } }
+jest.mock('formik', () => ({
+  Formik: props => {
+    props.validate({})
+    props.validate({ name: '123' })
+    props.onSubmit({ name: '123' })
+
+    return (
+      <div {...props}>
+        New -{' '}
+        {props.render({ values: { name: '123' }, touched: {}, errors: {} })}
+      </div>
+    )
+  },
+}))
+
+const routeProps = {
+  match: { params: { id: 123 } },
+  history: { push: () => {} },
+}
 const props = {
   currentUser: { albums: [{ id: 1, name: '123' }, { id: 2, name: '345' }] },
 }

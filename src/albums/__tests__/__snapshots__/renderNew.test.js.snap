@@ -42,7 +42,8 @@ exports[`render renders correctly 1`] = `
           render={[Function]}
           validate={[Function]}
         >
-          New - 
+          New -
+           
           <form
             onSubmit={undefined}
           >
@@ -60,9 +61,8 @@ exports[`render renders correctly 1`] = `
               Submit
             </button>
           </form>
-           
-          - 
         </div>
+        - 
       </div>
     </div>
     <div

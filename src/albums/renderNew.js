@@ -52,7 +52,7 @@ export default props => routeProps => {
           />
         )}
         renderCreated={() =>
-          history.push(`/materials/${props.match.params.id}/albums`)
+          history.push(`/materials/${routeProps.match.params.id}/albums`)
         }
       />
     </Dialog>
