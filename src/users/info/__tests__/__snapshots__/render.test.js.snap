@@ -171,19 +171,19 @@ exports[`when user looks at another user profile renders correctly 1`] = `
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
   >
     <div
-      parentId={4321}
+      parentId={undefined}
       showDestroy={false}
     >
       Album
     </div>
     <div
-      parentId={4321}
+      parentId={undefined}
       showDestroy={false}
     >
       Album
     </div>
     <div
-      parentId={4321}
+      parentId={undefined}
       showDestroy={false}
     >
       Album
@@ -408,19 +408,19 @@ exports[`when user looks at her own profile renders correctly 1`] = `
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
   >
     <div
-      parentId={1234}
+      parentId={undefined}
       showDestroy={true}
     >
       Album
     </div>
     <div
-      parentId={1234}
+      parentId={undefined}
       showDestroy={true}
     >
       Album
     </div>
     <div
-      parentId={1234}
+      parentId={undefined}
       showDestroy={true}
     >
       Album

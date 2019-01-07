@@ -303,7 +303,7 @@ exports[`renders correctly 1`] = `
               role="presentation"
               style={
                 Object {
-                  "color": "black",
+                  "color": "#757575",
                   "verticalAlign": "bottom",
                 }
               }
