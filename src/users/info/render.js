@@ -103,7 +103,7 @@ export default props => infoProps => {
         </Grid>
         <Grid item xs={12}>
           {map(albums, album => (
-            <Album {...album} parentId={id} showDestroy={!!editPath} />
+            <Album {...album} parentId={album.id} showDestroy={!!editPath} />
           ))}
         </Grid>
       </Grid>
