@@ -7,4 +7,5 @@ export default {
   cinnabar: '#E3411E',
   alto: '#ddd',
   grayNurse: '#E5E6E5',
+  grey: '#757575',
 }

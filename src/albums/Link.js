@@ -17,7 +17,7 @@ export default props => (
     >
       <BookmarkIcon
         style={{
-          color: props.white ? Colors.white : Colors.black,
+          color: props.white ? Colors.white : Colors.grey,
           verticalAlign: 'bottom',
         }}
       />
