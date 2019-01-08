@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with /albums/:id route renders correctly 1`] = `
+<div>
+  <div>
+    renderInfo
+  </div>
+</div>
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div
+    foo="bar"
+>
+    NavBar
+</div>,
+  <div
+    className="Component-navbarPadding-1 content"
+>
+    <div
+        foo="bar"
+    >
+        Router
+    </div>
+</div>,
+]
+`;
