@@ -10,12 +10,6 @@ import renderAlbum from './renderAlbum'
 export default props => routeProps => {
   return (
     <Dialog {...props} {...routeProps} title="Adicionar á um álbum">
-      <List style={{ width: '100%' }}>
-        {map(
-          props.currentUser && props.currentUser.albums,
-          renderAlbum({ ...props, ...routeProps }),
-        )}
-      </List>
       {props.currentUser && (
         <Link
           to={`/materials/${routeProps.match.params.id}/albums/new`}
@@ -29,6 +23,12 @@ export default props => routeProps => {
           <Button>Criar novo album</Button>
         </Link>
       )}
+      <List style={{ width: '100%' }}>
+        {map(
+          props.currentUser && props.currentUser.albums,
+          renderAlbum({ ...props, ...routeProps }),
+        )}
+      </List>
       {!props.currentUser && (
         <Typography color="inherit">
           Você não está logado, se logue para continuar
