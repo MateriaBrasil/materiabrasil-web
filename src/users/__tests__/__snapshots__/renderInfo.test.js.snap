@@ -2,6 +2,7 @@
 
 exports[`with id renders correctly 1`] = `
 <div
+  disableCache={true}
   id="123"
   name="users"
   render={[Function]}

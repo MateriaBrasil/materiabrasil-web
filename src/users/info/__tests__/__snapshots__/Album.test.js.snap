@@ -1,7 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<div>
+<div
+  style={
+    Object {
+      "marginTop": 20,
+    }
+  }
+>
   <h5
     className="MuiTypography-root-1 MuiTypography-h5-17 MuiTypography-colorTextSecondary-34"
     style={

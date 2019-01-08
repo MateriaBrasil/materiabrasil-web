@@ -5,7 +5,7 @@ import List from '../../favorites/List'
 
 export default ({ name, ...props }) => {
   return (
-    <div>
+    <div style={{ marginTop: 20 }}>
       <Typography
         variant="h5"
         color="textSecondary"
