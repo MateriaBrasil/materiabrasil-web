@@ -8,6 +8,6 @@ it('renders correctly', () => {
   const tree = renderer.create(renderCreated(props)()).toJSON()
   expect(tree).toMatchSnapshot()
   expect(snackbar.actions.setMessage).toHaveBeenCalledWith(
-    'Favorito adicionado com sucesso',
+    'Material adicionado com sucesso',
   )
 })

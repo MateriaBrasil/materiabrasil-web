@@ -277,59 +277,46 @@ exports[`renders correctly 1`] = `
           }
         >
           <div
-            averagePrice="100"
-            categoryFilled={Object {}}
-            code="999"
-            current={
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            style={
               Object {
-                "averagePrice": "100",
-                "code": "999",
-                "description": "info",
-                "imageUrl": "bar",
-                "manufacturingLocation": "Foo City/FO",
-                "name": "foo",
-                "properties": "Foo properties",
-                "salesLocation": "Bar City/BR",
-                "supplierContact": "foo@bar.com",
-                "supplierId": 1234,
-                "supplierName": "Foo Supplier",
-                "technicalSpecification_url": "http://foo",
+                "display": "inline-block",
+                "padding": 12,
+                "textDecoration": "none",
+                "verticalAlign": "bottom",
               }
             }
-            currentUser={
-              Object {
-                "suppliers": Array [
-                  Object {
-                    "id": 1234,
-                  },
-                ],
-              }
-            }
-            description="info"
-            editable={
-              Object {
-                "id": 1234,
-              }
-            }
-            imageUrl="bar"
-            location={Object {}}
-            manufacturingLocation="Foo City/FO"
-            match={
-              Object {
-                "params": Object {
-                  "id": 1,
-                },
-              }
-            }
-            name="foo"
-            properties="Foo properties"
-            salesLocation="Bar City/BR"
-            supplierContact="foo@bar.com"
-            supplierId={1234}
-            supplierName="Foo Supplier"
-            technicalSpecification_url="http://foo"
+            title="Adicionar a um album"
+            to="/materials/undefined/albums"
           >
-            Favorites
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root-169"
+              color={undefined}
+              focusable="false"
+              role="presentation"
+              style={
+                Object {
+                  "color": "#757575",
+                  "verticalAlign": "bottom",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"
+              />
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+            </svg>
           </div>
         </div>
         <h4
@@ -412,7 +399,7 @@ exports[`renders correctly 1`] = `
           to="/materials/undefined/edit"
         >
           <button
-            className="MuiButtonBase-root-188 MuiButton-root-162 MuiButton-contained-173 MuiButton-containedPrimary-174 MuiButton-raised-176 MuiButton-raisedPrimary-177"
+            className="MuiButtonBase-root-204 MuiButton-root-178 MuiButton-contained-189 MuiButton-containedPrimary-190 MuiButton-raised-192 MuiButton-raisedPrimary-193"
             disabled={false}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -433,12 +420,12 @@ exports[`renders correctly 1`] = `
             type="button"
           >
             <span
-              className="MuiButton-label-163"
+              className="MuiButton-label-179"
             >
               Editar informações gerais
             </span>
             <span
-              className="MuiTouchRipple-root-192"
+              className="MuiTouchRipple-root-208"
             />
           </button>
         </div>
@@ -452,7 +439,7 @@ exports[`renders correctly 1`] = `
           to="/materials/undefined/categories"
         >
           <button
-            className="MuiButtonBase-root-188 MuiButton-root-162 MuiButton-contained-173 MuiButton-containedPrimary-174 MuiButton-raised-176 MuiButton-raisedPrimary-177"
+            className="MuiButtonBase-root-204 MuiButton-root-178 MuiButton-contained-189 MuiButton-containedPrimary-190 MuiButton-raised-192 MuiButton-raisedPrimary-193"
             disabled={false}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -473,12 +460,12 @@ exports[`renders correctly 1`] = `
             type="button"
           >
             <span
-              className="MuiButton-label-163"
+              className="MuiButton-label-179"
             >
               Editar informações técnicas
             </span>
             <span
-              className="MuiTouchRipple-root-192"
+              className="MuiTouchRipple-root-208"
             />
           </button>
         </div>
@@ -490,7 +477,7 @@ exports[`renders correctly 1`] = `
           }
         >
           <button
-            className="MuiButtonBase-root-188 MuiButton-root-162 MuiButton-contained-173 MuiButton-containedPrimary-174 MuiButton-raised-176 MuiButton-raisedPrimary-177"
+            className="MuiButtonBase-root-204 MuiButton-root-178 MuiButton-contained-189 MuiButton-containedPrimary-190 MuiButton-raised-192 MuiButton-raisedPrimary-193"
             disabled={false}
             onBlur={[Function]}
             onClick={[Function]}
@@ -513,14 +500,14 @@ exports[`renders correctly 1`] = `
             type="button"
           >
             <span
-              className="MuiButton-label-163"
+              className="MuiButton-label-179"
             >
               Enviar
               
                ficha técnica
             </span>
             <span
-              className="MuiTouchRipple-root-192"
+              className="MuiTouchRipple-root-208"
             />
           </button>
           <input
@@ -541,7 +528,7 @@ exports[`renders correctly 1`] = `
           }
         >
           <button
-            className="MuiButtonBase-root-188 MuiButton-root-162 MuiButton-contained-173 MuiButton-containedPrimary-174 MuiButton-raised-176 MuiButton-raisedPrimary-177"
+            className="MuiButtonBase-root-204 MuiButton-root-178 MuiButton-contained-189 MuiButton-containedPrimary-190 MuiButton-raised-192 MuiButton-raisedPrimary-193"
             disabled={false}
             onBlur={[Function]}
             onClick={[Function]}
@@ -564,12 +551,12 @@ exports[`renders correctly 1`] = `
             type="button"
           >
             <span
-              className="MuiButton-label-163"
+              className="MuiButton-label-179"
             >
               Enviar Certificações
             </span>
             <span
-              className="MuiTouchRipple-root-192"
+              className="MuiTouchRipple-root-208"
             />
           </button>
           <input
@@ -592,7 +579,7 @@ exports[`renders correctly 1`] = `
           to="/materials/undefined/questionnaires"
         >
           <button
-            className="MuiButtonBase-root-188 MuiButton-root-162 MuiButton-contained-173 MuiButton-containedPrimary-174 MuiButton-raised-176 MuiButton-raisedPrimary-177"
+            className="MuiButtonBase-root-204 MuiButton-root-178 MuiButton-contained-189 MuiButton-containedPrimary-190 MuiButton-raised-192 MuiButton-raisedPrimary-193"
             disabled={false}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -613,12 +600,12 @@ exports[`renders correctly 1`] = `
             type="button"
           >
             <span
-              className="MuiButton-label-163"
+              className="MuiButton-label-179"
             >
               Responder questionário
             </span>
             <span
-              className="MuiTouchRipple-root-192"
+              className="MuiTouchRipple-root-208"
             />
           </button>
         </div>
@@ -686,7 +673,7 @@ exports[`renders correctly 1`] = `
             to="/materials/undefined/reviews/new"
           >
             <button
-              className="MuiButtonBase-root-188 MuiButton-root-162 MuiButton-text-164 MuiButton-flat-167"
+              className="MuiButtonBase-root-204 MuiButton-root-178 MuiButton-text-180 MuiButton-flat-183"
               disabled={false}
               onBlur={[Function]}
               onFocus={[Function]}
@@ -707,12 +694,12 @@ exports[`renders correctly 1`] = `
               type="button"
             >
               <span
-                className="MuiButton-label-163"
+                className="MuiButton-label-179"
               >
                 Avaliar
               </span>
               <span
-                className="MuiTouchRipple-root-192"
+                className="MuiTouchRipple-root-208"
               />
             </button>
           </div>

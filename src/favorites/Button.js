@@ -1,16 +1,15 @@
 import React from 'react'
-import BookmarkIcon from '@material-ui/icons/Bookmark'
-import IconButton from '@material-ui/core/IconButton'
+import Button from '@material-ui/core/Button'
 import Tooltip from '@material-ui/core/Tooltip'
 import Loading from './Loading'
 
-export default ({ onClick, creating, style }) =>
+export default ({ onClick, creating, style, albumName }) =>
   creating ? (
     <Loading />
   ) : (
-    <Tooltip title="Adicionar aos favoritos">
-      <IconButton onClick={onClick} style={style}>
-        <BookmarkIcon />
-      </IconButton>
+    <Tooltip title={'Adicionar á ' + albumName}>
+      <Button onClick={onClick} style={style}>
+        {albumName}
+      </Button>
     </Tooltip>
   )

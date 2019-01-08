@@ -4,13 +4,9 @@ exports[`renders correctly 1`] = `
 Array [
   <div
     id={1122}
-    style={
-        Object {
-            "color": "white",
-          }
-    }
+    white={true}
 >
-    New
+    Link
 </div>,
   <div
     highlightedImageUrl="foo-url"

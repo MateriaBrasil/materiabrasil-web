@@ -1,14 +1,12 @@
 import React, { Fragment } from 'react'
 
-import NewFavorite from '../../favorites/New'
+import Link from 'albums/Link'
 import TechnicalSpecification from './TechnicalSpecification'
 import Colors from '../../Colors'
 
 export default ({ currentUser, id, material, ...props }) => () => (
   <Fragment>
-    {currentUser && (
-      <NewFavorite id={id} style={{ color: Colors.white }} {...props} />
-    )}
+    {currentUser && <Link white id={id} />}
     <TechnicalSpecification
       {...material}
       style={{ color: Colors.white, marginRight: 16 }}

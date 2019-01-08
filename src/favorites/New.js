@@ -6,7 +6,7 @@ import renderCreated from './renderCreated'
 
 export default props => (
   <New
-    parentId={props.id}
+    parentId={props.materialId}
     name="favorites"
     render={renderNew(props)}
     renderCreated={renderCreated(props)}
