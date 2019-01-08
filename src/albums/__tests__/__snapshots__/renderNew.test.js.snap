@@ -47,18 +47,72 @@ exports[`render renders correctly 1`] = `
           <form
             onSubmit={undefined}
           >
-            <input
-              id="name"
-              name="name"
-              onBlur={undefined}
-              onChange={undefined}
-              value="123"
-            />
-            <p />
+            <div
+              aria-describedby="name-error-text"
+              className="MuiFormControl-root-38 MuiFormControl-fullWidth-41"
+            >
+              <label
+                className="MuiFormLabel-root-49 MuiFormLabel-filled-53 MuiInputLabel-root-42 MuiInputLabel-formControl-43 MuiInputLabel-animated-46 MuiInputLabel-shrink-45"
+                data-shrink={true}
+                htmlFor="name-error"
+              >
+                Nome do album
+              </label>
+              <div
+                className="MuiInputBase-root-69 MuiInput-root-56 MuiInput-underline-60 MuiInputBase-formControl-70 MuiInput-formControl-57"
+                onClick={[Function]}
+              >
+                <input
+                  aria-invalid={false}
+                  autoComplete={undefined}
+                  autoFocus={undefined}
+                  className="MuiInputBase-input-79 MuiInput-input-64"
+                  defaultValue={undefined}
+                  disabled={false}
+                  id="name"
+                  name="name"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={undefined}
+                  onKeyUp={undefined}
+                  placeholder={undefined}
+                  readOnly={undefined}
+                  required={false}
+                  rows={undefined}
+                  type="text"
+                  value="123"
+                />
+              </div>
+              <p
+                className="MuiFormHelperText-root-86 MuiFormHelperText-filled-92"
+                id="name-error-text"
+              />
+            </div>
             <button
+              className="MuiButtonBase-root-120 MuiButton-root-94 MuiButton-text-96 MuiButton-flat-99"
+              disabled={false}
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex="0"
               type="submit"
             >
-              Submit
+              <span
+                className="MuiButton-label-95"
+              >
+                Adicionar
+              </span>
+              <span
+                className="MuiTouchRipple-root-125"
+              />
             </button>
           </form>
         </div>
@@ -66,10 +120,10 @@ exports[`render renders correctly 1`] = `
       </div>
     </div>
     <div
-      className="MuiDialogActions-root-38"
+      className="MuiDialogActions-root-123"
     >
       <button
-        className="MuiButtonBase-root-66 MuiButton-root-40 MuiButton-text-42 MuiButton-textPrimary-43 MuiButton-flat-45 MuiButton-flatPrimary-46 MuiDialogActions-action-39"
+        className="MuiButtonBase-root-120 MuiButton-root-94 MuiButton-text-96 MuiButton-textPrimary-97 MuiButton-flat-99 MuiButton-flatPrimary-100 MuiDialogActions-action-124"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -86,12 +140,12 @@ exports[`render renders correctly 1`] = `
         type="button"
       >
         <span
-          className="MuiButton-label-41"
+          className="MuiButton-label-95"
         >
           Fechar
         </span>
         <span
-          className="MuiTouchRipple-root-69"
+          className="MuiTouchRipple-root-125"
         />
       </button>
     </div>

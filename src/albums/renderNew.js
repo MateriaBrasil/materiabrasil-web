@@ -1,8 +1,12 @@
 import React from 'react'
 import { New } from 'croods'
 import { Formik } from 'formik'
-
+import Button from '@material-ui/core/Button'
 import Dialog from 'materials/Dialog'
+import Input from '@material-ui/core/Input'
+import InputLabel from '@material-ui/core/InputLabel'
+import FormHelperText from '@material-ui/core/FormHelperText'
+import FormControl from '@material-ui/core/FormControl'
 
 export default props => routeProps => {
   const validate = values => {
@@ -38,22 +42,31 @@ export default props => routeProps => {
               handleSubmit,
             }) => (
               <form onSubmit={handleSubmit}>
-                <input
-                  id="name"
-                  name="name"
-                  onChange={handleChange}
-                  onBlur={handleBlur}
-                  value={values.name}
-                />
-                <p>{errors.name && touched.name && errors.name}</p>
-                <button type="submit">Submit</button>
+                <FormControl
+                  error={touched['name'] && !!errors['name']}
+                  aria-describedby="name-error-text"
+                  fullWidth
+                >
+                  <InputLabel htmlFor="name-error">Nome do album</InputLabel>
+                  <Input
+                    id="name"
+                    name="name"
+                    onChange={handleChange}
+                    onBlur={handleBlur}
+                    value={values.name}
+                  />
+                  <FormHelperText id="name-error-text">
+                    {touched['name'] && errors['name']}
+                  </FormHelperText>
+                </FormControl>
+                <Button type="submit">Adicionar</Button>
               </form>
             )}
           />
         )}
-        renderCreated={() =>
+        renderCreated={() => {
           history.push(`/materials/${routeProps.match.params.id}/albums`)
-        }
+        }}
       />
     </Dialog>
   )
