@@ -18,6 +18,7 @@ const reducers = {
   signIn: createReducer('signIn'),
   signOut: createReducer('signOut'),
   users: createReducer('users'),
+  albums: createReducer('albums'),
   reviews: createReducer('reviews'),
   searches: createReducer('searches'),
   suppliers: createReducer('suppliers'),

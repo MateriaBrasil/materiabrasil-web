@@ -36,6 +36,7 @@ const routeProps = {
 }
 const props = {
   currentUser: { albums: [{ id: 1, name: '123' }, { id: 2, name: '345' }] },
+  setCurrentUser: jest.fn(),
 }
 
 describe('render', () => {
