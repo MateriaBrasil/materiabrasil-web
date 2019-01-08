@@ -3,7 +3,7 @@ import map from 'lodash/map'
 import List from '@material-ui/core/List'
 import Button from '@material-ui/core/Button'
 import Link from 'react-router-dom/Link'
-
+import Typography from '@material-ui/core/Typography'
 import Dialog from 'materials/Dialog'
 import renderAlbum from './renderAlbum'
 
@@ -16,17 +16,24 @@ export default props => routeProps => {
           renderAlbum({ ...props, ...routeProps }),
         )}
       </List>
-      <Link
-        to={`/materials/${routeProps.match.params.id}/albums/new`}
-        style={{
-          textDecoration: 'none',
-          padding: 12,
-          verticalAlign: 'bottom',
-          display: 'inline-block',
-        }}
-      >
-        <Button>Criar novo album</Button>
-      </Link>
+      {props.currentUser && (
+        <Link
+          to={`/materials/${routeProps.match.params.id}/albums/new`}
+          style={{
+            textDecoration: 'none',
+            padding: 12,
+            verticalAlign: 'bottom',
+            display: 'inline-block',
+          }}
+        >
+          <Button>Criar novo album</Button>
+        </Link>
+      )}
+      {!props.currentUser && (
+        <Typography variant="subtitle1" color="inherit">
+          Você não está logado, se logue para continuar
+        </Typography>
+      )}
     </Dialog>
   )
 }
