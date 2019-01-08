@@ -3,8 +3,15 @@ import renderer from 'react-test-renderer'
 
 import renderInfo from '../renderInfo'
 
+jest.mock('../../users/info/Album', () => props => <div {...props}>Album</div>)
+
 jest.mock('croods', () => ({
-  Info: props => <div {...props}>{props.children}</div>,
+  Info: props => (
+    <div>
+      {props.children}
+      {props.render({})}
+    </div>
+  ),
 }))
 
 jest.mock('../render', () => props => info => <div>Info</div>)
