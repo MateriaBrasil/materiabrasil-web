@@ -30,7 +30,7 @@ export default props => routeProps => {
         </Link>
       )}
       {!props.currentUser && (
-        <Typography variant="subtitle1" color="inherit">
+        <Typography color="inherit">
           Você não está logado, se logue para continuar
         </Typography>
       )}
