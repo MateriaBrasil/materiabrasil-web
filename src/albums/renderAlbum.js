@@ -5,7 +5,7 @@ import NewFavorite from '../favorites/New'
 export default props => album => {
   return (
     <ListItem
-      key={album.name}
+      key={album.id}
       style={{
         display: 'flex',
         flexDirection: 'column',

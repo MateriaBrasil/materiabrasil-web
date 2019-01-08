@@ -19,6 +19,7 @@ export default props => routeProps => {
     return errors
   }
   const { history } = routeProps
+  const { setCurrentUser, currentUser } = props
 
   return (
     <Dialog {...props} {...routeProps} title="Adicionar novo álbum">
@@ -64,7 +65,11 @@ export default props => routeProps => {
             )}
           />
         )}
-        renderCreated={() => {
+        renderCreated={album => {
+          setCurrentUser({
+            ...currentUser,
+            albums: [...currentUser.albums, album],
+          })
           history.push(`/materials/${routeProps.match.params.id}/albums`)
         }}
       />
