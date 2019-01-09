@@ -15,7 +15,8 @@ import MessageButton from '../../messages/new/Button'
 
 export default props => infoProps => {
   const { currentUser } = props
-  const { id, firstName, lastName, albums, email, website } = infoProps
+  const { albums } = currentUser
+  const { id, firstName, lastName, email, website } = infoProps
   const { city, state, country, company, workTitle, bio } = infoProps
   const { imageUrl } = infoProps
   const name = `${firstName} ${lastName}`
