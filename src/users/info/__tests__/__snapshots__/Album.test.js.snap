@@ -8,16 +8,25 @@ exports[`renders correctly 1`] = `
     }
   }
 >
-  <h5
-    className="MuiTypography-root-1 MuiTypography-h5-17 MuiTypography-colorTextSecondary-34"
+  <div
     style={
       Object {
-        "marginBottom": 16,
+        "textDecoration": "none",
       }
     }
+    to="/albums/undefined"
   >
-    foo-name
-  </h5>
+    <h5
+      className="MuiTypography-root-1 MuiTypography-h5-17 MuiTypography-colorTextSecondary-34"
+      style={
+        Object {
+          "marginBottom": 16,
+        }
+      }
+    >
+      foo-name
+    </h5>
+  </div>
   <div
     bar="foo"
   >
