@@ -3,6 +3,61 @@
 exports[`renders correctly 1`] = `
 <div>
   <div>
+    <label
+      className="MuiFormControlLabel-root-1 MuiFormControlLabel-disabled-3"
+    >
+      <span
+        className="MuiSwitch-root-5"
+      >
+        <span
+          className="MuiButtonBase-root-24 MuiButtonBase-disabled-25 MuiIconButton-root-18 MuiIconButton-disabled-22 MuiSwitchBase-root-14 MuiSwitch-switchBase-8 MuiSwitch-colorSecondary-11 MuiSwitchBase-disabled-16 MuiSwitch-disabled-12"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role={undefined}
+          tabIndex="-1"
+        >
+          <span
+            className="MuiIconButton-label-23"
+          >
+            <span
+              className="MuiSwitch-icon-6"
+            />
+            <input
+              autoFocus={undefined}
+              checked={false}
+              className="MuiSwitchBase-input-17"
+              disabled={true}
+              id={undefined}
+              name={undefined}
+              onChange={[Function]}
+              readOnly={undefined}
+              required={undefined}
+              tabIndex={undefined}
+              type="checkbox"
+              value={undefined}
+            />
+          </span>
+        </span>
+        <span
+          className="MuiSwitch-bar-13"
+        />
+      </span>
+      <span
+        className="MuiTypography-root-27 MuiTypography-body1-36 MuiFormControlLabel-label-4 MuiFormControlLabel-disabled-3"
+      >
+        Tornar album privado
+      </span>
+    </label>
+  </div>
+  <div>
     Album
   </div>
 </div>
@@ -10,6 +65,61 @@ exports[`renders correctly 1`] = `
 
 exports[`renders correctly with id 1`] = `
 <div>
+  <div>
+    <label
+      className="MuiFormControlLabel-root-1 MuiFormControlLabel-disabled-3"
+    >
+      <span
+        className="MuiSwitch-root-5"
+      >
+        <span
+          className="MuiButtonBase-root-24 MuiButtonBase-disabled-25 MuiIconButton-root-18 MuiIconButton-disabled-22 MuiSwitchBase-root-14 MuiSwitch-switchBase-8 MuiSwitch-colorSecondary-11 MuiSwitchBase-disabled-16 MuiSwitch-disabled-12"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role={undefined}
+          tabIndex="-1"
+        >
+          <span
+            className="MuiIconButton-label-23"
+          >
+            <span
+              className="MuiSwitch-icon-6"
+            />
+            <input
+              autoFocus={undefined}
+              checked={false}
+              className="MuiSwitchBase-input-17"
+              disabled={true}
+              id={undefined}
+              name={undefined}
+              onChange={[Function]}
+              readOnly={undefined}
+              required={undefined}
+              tabIndex={undefined}
+              type="checkbox"
+              value={undefined}
+            />
+          </span>
+        </span>
+        <span
+          className="MuiSwitch-bar-13"
+        />
+      </span>
+      <span
+        className="MuiTypography-root-27 MuiTypography-body1-36 MuiFormControlLabel-label-4 MuiFormControlLabel-disabled-3"
+      >
+        Tornar album privado
+      </span>
+    </label>
+  </div>
   <div>
     Album
   </div>

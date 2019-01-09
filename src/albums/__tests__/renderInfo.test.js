@@ -12,6 +12,12 @@ jest.mock('croods', () => ({
       {props.render({})}
     </div>
   ),
+  Edit: props => (
+    <div>
+      {props.children}
+      {props.render({ info: { id: 1, user_id: 1, private: false } })}
+    </div>
+  ),
 }))
 
 jest.mock('../render', () => props => info => <div>Info</div>)
