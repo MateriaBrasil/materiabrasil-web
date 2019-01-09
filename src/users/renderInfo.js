@@ -7,6 +7,11 @@ export default props => routeProps => {
   const id = props.id || routeProps.match.params.id
 
   return id ? (
-    <Info id={id} name="users" render={render({ ...props, ...routeProps })} />
+    <Info
+      id={id}
+      name="users"
+      disableCache={true}
+      render={render({ ...props, ...routeProps })}
+    />
   ) : null
 }
