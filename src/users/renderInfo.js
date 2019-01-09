@@ -10,7 +10,7 @@ export default props => routeProps => {
     <Info
       id={id}
       name="users"
-      disableCache={true}
+      disableCache
       render={render({ ...props, ...routeProps })}
     />
   ) : null
