@@ -2,24 +2,39 @@
 
 exports[`renders correctly 1`] = `
 <div>
-  <div>
-    <label
-      className="MuiFormControlLabel-root-1"
-    >
-      <div
-        checked={false}
-        disabled={undefined}
-        onChange={[Function]}
+  <div
+    style={
+      Object {
+        "textDecoration": "none",
+      }
+    }
+    to="/albums/undefined/premium"
+  >
+    Link - 
+    <div>
+      <label
+        className="MuiFormControlLabel-root-1"
       >
-        Dialog - 
-         - 
-      </div>
-      <span
-        className="MuiTypography-root-5 MuiTypography-body1-14 MuiFormControlLabel-label-4"
-      >
-        Tornar álbum privado
-      </span>
-    </label>
+        <div
+          checked={false}
+          disabled={undefined}
+          onChange={[Function]}
+          style={
+            Object {
+              "pointerEvents": "none",
+            }
+          }
+        >
+          Dialog - 
+           - 
+        </div>
+        <span
+          className="MuiTypography-root-5 MuiTypography-body1-14 MuiFormControlLabel-label-4"
+        >
+          Tornar álbum privado
+        </span>
+      </label>
+    </div>
   </div>
   <div>
     Album
@@ -29,24 +44,39 @@ exports[`renders correctly 1`] = `
 
 exports[`renders correctly with id 1`] = `
 <div>
-  <div>
-    <label
-      className="MuiFormControlLabel-root-1"
-    >
-      <div
-        checked={false}
-        disabled={undefined}
-        onChange={[Function]}
+  <div
+    style={
+      Object {
+        "textDecoration": "none",
+      }
+    }
+    to="/albums/123/premium"
+  >
+    Link - 
+    <div>
+      <label
+        className="MuiFormControlLabel-root-1"
       >
-        Dialog - 
-         - 
-      </div>
-      <span
-        className="MuiTypography-root-5 MuiTypography-body1-14 MuiFormControlLabel-label-4"
-      >
-        Tornar álbum privado
-      </span>
-    </label>
+        <div
+          checked={false}
+          disabled={undefined}
+          onChange={[Function]}
+          style={
+            Object {
+              "pointerEvents": "none",
+            }
+          }
+        >
+          Dialog - 
+           - 
+        </div>
+        <span
+          className="MuiTypography-root-5 MuiTypography-body1-14 MuiFormControlLabel-label-4"
+        >
+          Tornar álbum privado
+        </span>
+      </label>
+    </div>
   </div>
   <div>
     Album
