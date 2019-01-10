@@ -3,6 +3,25 @@
 exports[`renders correctly 1`] = `
 <div>
   <div>
+    <label
+      className="MuiFormControlLabel-root-1"
+    >
+      <div
+        checked={false}
+        disabled={undefined}
+        onChange={[Function]}
+      >
+        Dialog - 
+         - 
+      </div>
+      <span
+        className="MuiTypography-root-5 MuiTypography-body1-14 MuiFormControlLabel-label-4"
+      >
+        Tornar álbum privado
+      </span>
+    </label>
+  </div>
+  <div>
     Album
   </div>
 </div>
@@ -10,6 +29,25 @@ exports[`renders correctly 1`] = `
 
 exports[`renders correctly with id 1`] = `
 <div>
+  <div>
+    <label
+      className="MuiFormControlLabel-root-1"
+    >
+      <div
+        checked={false}
+        disabled={undefined}
+        onChange={[Function]}
+      >
+        Dialog - 
+         - 
+      </div>
+      <span
+        className="MuiTypography-root-5 MuiTypography-body1-14 MuiFormControlLabel-label-4"
+      >
+        Tornar álbum privado
+      </span>
+    </label>
+  </div>
   <div>
     Album
   </div>
