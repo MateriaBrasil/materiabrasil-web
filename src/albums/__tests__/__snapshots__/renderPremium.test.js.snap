@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render renders correctly 1`] = `
+<div
+  aria-labelledby="responsive-dialog-title"
+  fullScreen={false}
+  fullWidth={true}
+  onBackdropClick={[Function]}
+  onEscapeKeyDown={[Function]}
+  open={true}
+>
+  Dialog - 
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="MuiDialogTitle-root-1"
+      id="responsive-dialog-title"
+    >
+      <h2
+        className="MuiTypography-root-2 MuiTypography-title-8"
+      >
+        Torne-se premium
+      </h2>
+    </div>
+    <div
+      className="MuiDialogContent-root-37"
+    >
+      <p
+        className="MuiTypography-root-2 MuiTypography-body1-11 MuiTypography-colorInherit-31"
+      >
+        Para usar esta opção, torne-se premium!
+      </p>
+      <button
+        className="MuiButtonBase-root-64 MuiButton-root-38 MuiButton-text-40 MuiButton-flat-43"
+        disabled={false}
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-39"
+        >
+          Quero ser premium
+        </span>
+        <span
+          className="MuiTouchRipple-root-69"
+        />
+      </button>
+    </div>
+    <div
+      className="MuiDialogActions-root-67"
+    >
+      <button
+        className="MuiButtonBase-root-64 MuiButton-root-38 MuiButton-text-40 MuiButton-textPrimary-41 MuiButton-flat-43 MuiButton-flatPrimary-44 MuiDialogActions-action-68"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-39"
+        >
+          Fechar
+        </span>
+        <span
+          className="MuiTouchRipple-root-69"
+        />
+      </button>
+    </div>
+  </form>
+</div>
+`;

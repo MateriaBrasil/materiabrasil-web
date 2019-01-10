@@ -9,7 +9,7 @@ export default props => routeProps => {
       <Typography color="inherit">
         Para usar esta opção, torne-se premium!
       </Typography>
-      <Button>Veja os benefícios</Button>
+      <Button>Quero ser premium</Button>
     </Dialog>
   )
 }
