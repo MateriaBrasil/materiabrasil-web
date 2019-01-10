@@ -32,7 +32,7 @@ jest.mock('formik', () => ({
 
 const routeProps = {
   match: { params: { id: 123 } },
-  history: { push: () => {} },
+  history: { replace: () => {} },
 }
 const props = {
   currentUser: { albums: [{ id: 1, name: '123' }, { id: 2, name: '345' }] },
