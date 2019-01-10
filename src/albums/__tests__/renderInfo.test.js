@@ -33,20 +33,22 @@ jest.mock('@material-ui/core/Switch', () => props => (
 ))
 
 it('renders correctly', () => {
-  const props = {}
+  const props = {
+    currentUser: { albums: [{ id: 1, name: '123' }, { id: 2, name: '345' }] },
+  }
   const routerProps = {
     match: { params: {} },
-    currentUser: { albums: [{ id: 1, name: '123' }, { id: 2, name: '345' }] },
   }
   const tree = renderer.create(renderInfo(props)(routerProps)).toJSON()
   expect(tree).toMatchSnapshot()
 })
 
 it('renders correctly with id', () => {
-  const props = {}
+  const props = {
+    currentUser: { albums: [{ id: 1, name: '123' }, { id: 2, name: '345' }] },
+  }
   const routerProps = {
     match: { params: { id: '123' } },
-    currentUser: { albums: [{ id: 1, name: '123' }, { id: 2, name: '345' }] },
   }
   const tree = renderer.create(renderInfo(props)(routerProps)).toJSON()
   expect(tree).toMatchSnapshot()
