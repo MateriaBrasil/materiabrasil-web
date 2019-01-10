@@ -19,29 +19,30 @@ export default props => routeProps => {
 
           return (
             <Fragment>
-              <Edit
-                id={match.params.id}
-                name="editAlbum"
-                path={`/albums/${match.params.id}`}
-                render={({ info, update, updating, error }) => (
-                  <FormControlLabel
-                    control={
-                      <Switch
-                        disabled={!isOwner}
-                        checked={info.private}
-                        onChange={() => {
-                          update({
-                            id: match.params.id,
-                            private: !info.private,
-                          })
-                        }}
-                      />
-                    }
-                    label="Tornar álbum privado"
-                  />
-                )}
-                renderUpdated={() => null}
-              />
+              {isOwner && (
+                <Edit
+                  id={match.params.id}
+                  name="editAlbum"
+                  path={`/albums/${match.params.id}`}
+                  render={({ info, update, updating, error }) => (
+                    <FormControlLabel
+                      control={
+                        <Switch
+                          checked={info.private}
+                          onChange={() => {
+                            update({
+                              id: match.params.id,
+                              private: !info.private,
+                            })
+                          }}
+                        />
+                      }
+                      label="Tornar álbum privado"
+                    />
+                  )}
+                  renderUpdated={() => null}
+                />
+              )}
               <Album {...album} />
             </Fragment>
           )
