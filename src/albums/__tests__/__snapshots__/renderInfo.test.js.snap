@@ -17,7 +17,7 @@ exports[`renders correctly 1`] = `
       <span
         className="MuiTypography-root-5 MuiTypography-body1-14 MuiFormControlLabel-label-4 MuiFormControlLabel-disabled-3"
       >
-        Tornar album privado
+        Tornar álbum privado
       </span>
     </label>
   </div>
@@ -44,7 +44,7 @@ exports[`renders correctly with id 1`] = `
       <span
         className="MuiTypography-root-5 MuiTypography-body1-14 MuiFormControlLabel-label-4 MuiFormControlLabel-disabled-3"
       >
-        Tornar album privado
+        Tornar álbum privado
       </span>
     </label>
   </div>

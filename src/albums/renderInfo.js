@@ -37,7 +37,7 @@ export default props => routeProps => {
                         }}
                       />
                     }
-                    label="Tornar album privado"
+                    label="Tornar álbum privado"
                   />
                 )}
                 renderUpdated={() => null}
