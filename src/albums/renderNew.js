@@ -72,7 +72,7 @@ export default props => routeProps => {
               ...currentUser,
               albums: [...currentUser.albums, album],
             })
-            history.replace(`/materials/${routeProps.match.params.id}/albums`)
+            history.push(`/materials/${routeProps.match.params.id}/albums`)
           }}
         />
       )}

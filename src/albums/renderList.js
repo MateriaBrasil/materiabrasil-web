@@ -9,7 +9,14 @@ import renderAlbum from './renderAlbum'
 
 export default props => routeProps => {
   return (
-    <Dialog {...props} {...routeProps} title="Adicionar á um álbum">
+    <Dialog
+      {...props}
+      {...routeProps}
+      onCloseModel={() => {
+        routeProps.history.push(`/materials/${routeProps.match.params.id}`)
+      }}
+      title="Adicionar á um álbum"
+    >
       {props.currentUser && (
         <Link
           to={`/materials/${routeProps.match.params.id}/albums/new`}
