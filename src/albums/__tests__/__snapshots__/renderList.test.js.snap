@@ -57,7 +57,7 @@ exports[`render renders correctly 1`] = `
           <span
             className="MuiButton-label-39"
           >
-            Criar novo album
+            Criar novo álbum
           </span>
           <span
             className="MuiTouchRipple-root-69"

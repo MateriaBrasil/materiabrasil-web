@@ -12,6 +12,7 @@ const reducers = {
   currentUser: createReducer('currentUser'),
   materials: createReducer('materials'),
   publishMaterials: createReducer('publishMaterials'),
+  editAlbum: createReducer('editAlbum'),
   comments: createReducer('comments', { addCreatedToTop: true }),
   favorites: createReducer('favorites'),
   signUp: createReducer('signUp'),

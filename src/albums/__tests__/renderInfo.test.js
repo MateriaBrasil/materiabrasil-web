@@ -12,20 +12,44 @@ jest.mock('croods', () => ({
       {props.render({})}
     </div>
   ),
+  Edit: props => (
+    <div>
+      {props.children}
+      {props.render({
+        info: { id: 1, user_id: 1, private: false },
+        update: () => {},
+      })}
+      {props.renderUpdated()}
+    </div>
+  ),
 }))
 
 jest.mock('../render', () => props => info => <div>Info</div>)
 
+jest.mock('@material-ui/core/Switch', () => props => (
+  <div {...props}>
+    Dialog - {props.children} - {props.onChange()}
+  </div>
+))
+
 it('renders correctly', () => {
-  const props = {}
-  const routerProps = { match: { params: {} } }
+  const props = {
+    currentUser: { albums: [{ id: 1, name: '123' }, { id: 2, name: '345' }] },
+  }
+  const routerProps = {
+    match: { params: {} },
+  }
   const tree = renderer.create(renderInfo(props)(routerProps)).toJSON()
   expect(tree).toMatchSnapshot()
 })
 
 it('renders correctly with id', () => {
-  const props = {}
-  const routerProps = { match: { params: { id: '123' } } }
+  const props = {
+    currentUser: { albums: [{ id: 1, name: '123' }, { id: 2, name: '345' }] },
+  }
+  const routerProps = {
+    match: { params: { id: '123' } },
+  }
   const tree = renderer.create(renderInfo(props)(routerProps)).toJSON()
   expect(tree).toMatchSnapshot()
 })
