@@ -20,7 +20,7 @@ export default props => routeProps => {
             display: 'inline-block',
           }}
         >
-          <Button>Criar novo album</Button>
+          <Button>Criar novo álbum</Button>
         </Link>
       )}
       <List style={{ width: '100%' }}>
