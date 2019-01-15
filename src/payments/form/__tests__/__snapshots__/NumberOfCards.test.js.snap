@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  aria-label="Number of cards"
+  className="MuiFormGroup-root-1"
+  role="radiogroup"
+  style={
+    Object {
+      "display": "block",
+      "marginBottom": 10,
+      "textAlign": "left",
+    }
+  }
+>
+  <label
+    className="MuiFormControlLabel-root-3"
+  >
+    <span
+      className="MuiButtonBase-root-22 MuiIconButton-root-16 MuiSwitchBase-root-12 MuiRadio-root-7 MuiRadio-colorSecondary-11"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role={undefined}
+      tabIndex={null}
+    >
+      <span
+        className="MuiIconButton-label-21"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-25"
+          color={undefined}
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+          />
+        </svg>
+        <input
+          autoFocus={undefined}
+          checked={false}
+          className="MuiSwitchBase-input-15"
+          disabled={undefined}
+          id={undefined}
+          name="numberOfCards"
+          onChange={[Function]}
+          readOnly={undefined}
+          required={undefined}
+          tabIndex={undefined}
+          type="radio"
+          value="one"
+        />
+      </span>
+      <span
+        className="MuiTouchRipple-root-69"
+      />
+    </span>
+    <span
+      className="MuiTypography-root-34 MuiTypography-body1-43 MuiFormControlLabel-label-6"
+    >
+      Pagar com um cartão
+    </span>
+  </label>
+  <label
+    className="MuiFormControlLabel-root-3"
+  >
+    <span
+      className="MuiButtonBase-root-22 MuiIconButton-root-16 MuiSwitchBase-root-12 MuiRadio-root-7 MuiRadio-colorSecondary-11"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role={undefined}
+      tabIndex={null}
+    >
+      <span
+        className="MuiIconButton-label-21"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-25"
+          color={undefined}
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+          />
+        </svg>
+        <input
+          autoFocus={undefined}
+          checked={false}
+          className="MuiSwitchBase-input-15"
+          disabled={undefined}
+          id={undefined}
+          name="numberOfCards"
+          onChange={[Function]}
+          readOnly={undefined}
+          required={undefined}
+          tabIndex={undefined}
+          type="radio"
+          value="many"
+        />
+      </span>
+      <span
+        className="MuiTouchRipple-root-69"
+      />
+    </span>
+    <span
+      className="MuiTypography-root-34 MuiTypography-body1-43 MuiFormControlLabel-label-6"
+    >
+      Pagar com mais de um cartão
+    </span>
+  </label>
+</div>
+`;
