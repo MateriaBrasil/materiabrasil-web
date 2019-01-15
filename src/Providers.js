@@ -4,7 +4,7 @@ import { Provider as CroodsProvider } from 'croods'
 import { MuiThemeProvider } from '@material-ui/core/styles'
 
 import headers from 'auth/headers'
-import afterSuccess from 'auth/afterSuccess'
+import afterResponse from 'auth/afterResponse'
 import store from 'store/store'
 
 import renderLoading from './renderLoading'
@@ -17,7 +17,7 @@ export default props => (
     <CroodsProvider
       baseUrl={process.env.REACT_APP_API_URL}
       headers={headers}
-      afterSuccess={afterSuccess}
+      afterResponse={afterResponse}
       renderLoading={renderLoading}
       renderError={renderError}
     >

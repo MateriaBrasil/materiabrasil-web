@@ -1,14 +1,27 @@
+/* globals Iugu */
+
 export default (create, props) => params => {
-  const { name, number, expiry, cvc, value } = params
+  const { name, number, expiry, cvc } = params
 
-  //create token IUGU
+  const creditCard = Iugu.CreditCard(
+    number,
+    expiry.split('/')[0],
+    expiry.split('/')[1],
+    name.split(' ')[0],
+    name.split(' ')[1],
+    cvc,
+  )
 
-  create({
-    holderName: name,
-    cardNumber: number,
-    expirationMonth: expiry.split('/')[0],
-    expirationYear: expiry.split('/')[1],
-    securityCode: cvc,
-    expiry,
+  Iugu.setAccountID('E03990E8194944CE85C60CD3424381E7')
+  Iugu.setTestMode(true)
+
+  Iugu.createPaymentToken(creditCard, function(response) {
+    if (response.errors) {
+      alert('Erro salvando cartão')
+    } else {
+      create({
+        token: response.id,
+      })
+    }
   })
 }

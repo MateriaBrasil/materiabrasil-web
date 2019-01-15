@@ -1985,9 +1985,9 @@ create-react-context@^0.2.2:
     fbjs "^0.8.0"
     gud "^1.0.0"
 
-croods@0.11.2:
-  version "0.11.2"
-  resolved "https://registry.yarnpkg.com/croods/-/croods-0.11.2.tgz#3c43b0bd037257707be1aff0868aaea8b5c95749"
+croods@0.12.1:
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/croods/-/croods-0.12.1.tgz#17dc66f514fff30b763102700d0a6bcb1a4809b3"
   dependencies:
     lodash "^4.17.10"
     lodash-humps "^3.1.2"

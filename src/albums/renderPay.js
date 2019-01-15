@@ -10,7 +10,7 @@ export default props => routeProps => {
   return (
     <Dialog {...props} {...routeProps} title="Torne-se premium">
       <New
-        name="payments"
+        name="subscriptions"
         render={({ create, creating }) => {
           return (
             <Formik

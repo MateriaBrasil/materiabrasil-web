@@ -30,6 +30,7 @@ const reducers = {
   materialCategories: createReducer('materialCategories'),
   messages: createReducer('messages'),
   password: createReducer('password'),
+  subscriptions: createReducer('subscriptions'),
   resetPassword: createReducer('resetPassword'),
   topics: createReducer('topics', { addCreatedToTop: true }),
   filters,

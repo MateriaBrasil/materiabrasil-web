@@ -1,4 +1,4 @@
-import afterSuccess from '../afterSuccess'
+import afterResponse from '../afterResponse'
 
 describe('with accessToken', () => {
   it('stores credentials', () => {
@@ -7,7 +7,7 @@ describe('with accessToken', () => {
     }
     const response = { headers }
 
-    afterSuccess(response)
+    afterResponse(response)
     expect(global.localStorage.setItem).toHaveBeenCalledWith(
       'authCredentials',
       JSON.stringify({
@@ -27,7 +27,7 @@ describe('without accessToken', () => {
     const response = { headers }
     global.localStorage.setItem.mockClear()
 
-    afterSuccess(response)
+    afterResponse(response)
     expect(global.localStorage.setItem).not.toHaveBeenCalled()
   })
 })
