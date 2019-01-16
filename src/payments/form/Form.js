@@ -50,8 +50,6 @@ export default class extends Component {
   }
 
   render() {
-    const { numberOfCards } = this.props
-
     return (
       <Form className="distance-fields">
         <div className="credit-card">
