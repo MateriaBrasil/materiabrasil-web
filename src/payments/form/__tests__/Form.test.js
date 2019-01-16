@@ -10,12 +10,6 @@ jest.mock('formik', () => ({
   Field: props => <div {...props}>{props.children}</div>,
 }))
 
-jest.mock('@reach/router', () => ({
-  Link: props => <div>{props.children}</div>,
-}))
-
-jest.mock('../../Installments', () => props => <div {...props}>Field</div>)
-
 const values = {
   name: '',
   number: '',
@@ -72,18 +66,4 @@ it('binded onFocus change his state', () => {
   expect(instance.state.focused).toEqual('')
   instance.commonProperties().onFocus({ target })
   expect(instance.state.focused).toEqual(target.id)
-})
-
-it('binded setNumberOfCards when called, calls action and setValues', () => {
-  let instance = tree.getInstance()
-  instance.setNumberOfCards({ target: { value: 'one' } })
-  expect(props.actions.setNumberOfCards).toBeCalled()
-  expect(props.setValues).toBeCalledWith({ ...values, value: '149,80' })
-})
-
-it('binded setNumberOfCards when called, calls action and setValues as "" when isnt only one card', () => {
-  let instance = tree.getInstance()
-  instance.setNumberOfCards({ target: { value: 'many' } })
-  expect(props.actions.setNumberOfCards).toBeCalled()
-  expect(props.setValues).toBeCalledWith({ ...values, value: '' })
 })

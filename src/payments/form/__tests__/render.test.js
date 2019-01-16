@@ -5,10 +5,6 @@ import render from '../render'
 
 jest.mock('../Field', () => props => <div {...props}>Field</div>)
 
-jest.mock('@reach/router', () => ({
-  Link: props => <div>{props.children}</div>,
-}))
-
 jest.mock('formik', () => ({
   Form: props => <div {...props}>Form</div>,
   Field: props => <div {...props}>Field</div>,

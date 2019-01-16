@@ -79,11 +79,6 @@ exports[`renders correctly with many cards 1`] = `
       </div>
     </div>
   </div>
-  <p
-    className="MuiTypography-root-37 MuiTypography-body1-46"
-  >
-    De R$ 149,80 a pagar
-  </p>
   <div
     autoFocus={true}
     errors={undefined}
@@ -270,45 +265,6 @@ exports[`renders correctly with one card 1`] = `
         </div>
       </div>
     </div>
-  </div>
-  <div
-    actions={
-      Object {
-        "setNumberOfCards": [Function],
-      }
-    }
-    channel="whatsapp"
-    id={1}
-    list={Array []}
-    numberOfCards="one"
-    offer={
-      Object {
-        "consumer": Object {
-          "fullName": "foo",
-        },
-        "contractNumber": "123",
-        "discount": 50,
-        "maxInstallments": 12,
-        "originalValue": 250,
-        "valueToPay": 200,
-        "valueWithInterest": 350,
-      }
-    }
-    setValues={[Function]}
-    text="paga nois"
-    token="abababa"
-    total={50.2}
-    values={
-      Object {
-        "cvc": "",
-        "expiry": "",
-        "installments": "3",
-        "name": "",
-        "number": "",
-      }
-    }
-  >
-    Field
   </div>
   <div
     autoFocus={true}

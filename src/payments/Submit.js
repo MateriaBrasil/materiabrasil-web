@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import Button from '../components/Button'
+import Button from '@material-ui/core/Button'
 
 export default ({ messageToken, offer: { valueToPay }, total }) => {
   return (

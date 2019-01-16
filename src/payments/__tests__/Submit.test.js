@@ -2,9 +2,6 @@ import React from 'react'
 import renderer from 'react-test-renderer'
 
 import Submit from '../Submit'
-jest.mock('@reach/router', () => ({
-  Link: props => <div>{props.children}</div>,
-}))
 
 it('renders correctly when there is no card on the list', () => {
   const messageToken = 'saiduhu2321'
