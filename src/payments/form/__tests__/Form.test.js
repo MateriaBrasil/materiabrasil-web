@@ -15,31 +15,11 @@ const values = {
   number: '',
   expiry: '',
   cvc: '',
-  installments: '3',
 }
 
 const props = {
   id: 1,
   token: 'abababa',
-  channel: 'whatsapp',
-  text: 'paga nois',
-  list: [],
-  offer: {
-    consumer: {
-      fullName: 'foo',
-    },
-    discount: 50,
-    valueToPay: 200.0,
-    originalValue: 250,
-    valueWithInterest: 350,
-    contractNumber: '123',
-    maxInstallments: 12,
-  },
-  actions: {
-    setNumberOfCards: jest.fn(),
-  },
-  setValues: jest.fn(),
-  total: 50.2,
 }
 
 const tree = renderer.create(

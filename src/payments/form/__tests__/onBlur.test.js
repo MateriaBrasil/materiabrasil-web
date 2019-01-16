@@ -14,5 +14,5 @@ it('call onBlur', () => {
   onBlur(props)(event)
 
   expect(props.handleBlur).toHaveBeenCalled()
-  expect(event.target.name).toEqual('installments')
+  expect(event.target.name).toEqual('123')
 })

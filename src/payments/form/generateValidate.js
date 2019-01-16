@@ -5,7 +5,7 @@ export default (
 ) => props => values => {
   const errors = {}
   const validations = createValidations(props)
-  const translations = createTranslations(props)
+  const translations = createTranslations()
 
   for (let field in validations) {
     const value = normalizeField ? normalizeField(values[field]) : values[field]
