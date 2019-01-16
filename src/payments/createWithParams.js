@@ -17,7 +17,7 @@ export default (create, props) => params => {
 
   Iugu.createPaymentToken(creditCard, function(response) {
     if (response.errors) {
-      alert('Erro salvando cartão')
+      console.log(response.errors)
     } else {
       create({
         token: response.id,
