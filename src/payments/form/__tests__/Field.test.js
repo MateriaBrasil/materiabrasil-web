@@ -2,7 +2,6 @@ import React from 'react'
 import renderer from 'react-test-renderer'
 import Field from '../Field'
 
-jest.mock('../../Router', () => props => <div>Router</div>)
 jest.mock('react-media', () => props => <div>{props.children}</div>)
 jest.mock('formik', () => ({
   Field: props => <div {...props}>Field</div>,

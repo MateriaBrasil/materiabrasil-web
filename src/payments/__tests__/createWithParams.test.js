@@ -11,16 +11,20 @@ it('executes create with merged params', () => {
     value: 123.45,
   }
 
+  global.Iugu = {
+    CreditCard: () => {},
+    setAccountID: () => {},
+    setTestMode: () => {},
+    createPaymentToken: (creditCard, callBack) => {
+      callBack({ id: '123123' })
+    },
+  }
+
   const actions = { setCurrent: jest.fn() }
 
   createWithParams(create, { actions })(params)
 
   expect(create).toHaveBeenCalledWith({
-    cardNumber: '378282246310005',
-    expirationMonth: '03',
-    expirationYear: '19',
-    holderName: 'test test',
-    securityCode: '123',
-    expiry: '03/19',
+    token: '123123',
   })
 })
