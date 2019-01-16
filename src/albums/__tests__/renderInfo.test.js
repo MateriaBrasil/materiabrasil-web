@@ -26,6 +26,10 @@ jest.mock('croods', () => ({
 
 jest.mock('../render', () => props => info => <div>Info</div>)
 
+jest.mock('react-router-dom/Link', () => props => (
+  <div {...props}>Link - {props.children}</div>
+))
+
 jest.mock('@material-ui/core/Switch', () => props => (
   <div {...props}>
     Dialog - {props.children} - {props.onChange()}
