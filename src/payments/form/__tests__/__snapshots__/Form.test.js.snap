@@ -178,7 +178,7 @@ exports[`renders correctly with many cards 1`] = `
     <span
       className="MuiButton-label-2"
     >
-      Adicionar cartão
+      Finalizar
     </span>
     <span
       className="MuiTouchRipple-root-30"
@@ -350,7 +350,7 @@ exports[`renders correctly with one card 1`] = `
     <span
       className="MuiButton-label-2"
     >
-      Continue agora!
+      Finalizar
     </span>
     <span
       className="MuiTouchRipple-root-30"

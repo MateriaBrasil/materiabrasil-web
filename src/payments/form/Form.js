@@ -71,7 +71,7 @@ export default class extends Component {
           type="submit"
           disabled={this.props.isSubmitting}
         >
-          {numberOfCards === 'many' ? 'Adicionar cartão' : 'Continue agora!'}
+          Finalizar
         </Button>
       </Form>
     )
