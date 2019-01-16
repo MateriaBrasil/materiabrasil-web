@@ -19,7 +19,5 @@ export default (
     if (errorsValue) errors[field] = errorsValue
   }
 
-  console.log(errors)
-
   return errors
 }

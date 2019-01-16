@@ -12,8 +12,8 @@ export default (create, props) => params => {
     cvc,
   )
 
-  Iugu.setAccountID('E03990E8194944CE85C60CD3424381E7')
-  Iugu.setTestMode(true)
+  Iugu.setAccountID(process.env.REACT_APP_IUGU_API_TOKEN)
+  Iugu.setTestMode(process.env.NODE_ENV === 'development')
 
   Iugu.createPaymentToken(creditCard, function(response) {
     if (response.errors) {
