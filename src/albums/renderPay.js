@@ -19,7 +19,7 @@ export default props => routeProps => {
                 number: '',
                 expiry: '',
                 cvc: '',
-                value: process.env.REACT_APP_SUB_PRICE + ',00',
+                value: `${process.env.REACT_APP_SUB_PRICE},00`,
               }}
               validate={validate(props)}
               onSubmit={createWithParams(create, props)}
