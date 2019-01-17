@@ -31,29 +31,6 @@ exports[`render renders correctly 1`] = `
       >
         Para usar esta opção, torne-se premium!
       </p>
-<<<<<<< HEAD
-      <button
-        className="MuiButtonBase-root-64 MuiButton-root-38 MuiButton-contained-49 MuiButton-containedPrimary-50 MuiButton-raised-52 MuiButton-raisedPrimary-53"
-        disabled={false}
-        onBlur={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        onTouchStart={[Function]}
-        style={
-          Object {
-            "display": "block",
-            "margin": "40px auto 0px",
-          }
-        }
-        tabIndex="0"
-        type="button"
-=======
       <div
         style={
           Object {
@@ -61,11 +38,10 @@ exports[`render renders correctly 1`] = `
           }
         }
         to="/albums/123/premium/pay"
->>>>>>> 107469b... Fix tests
       >
         Link - 
         <button
-          className="MuiButtonBase-root-64 MuiButton-root-38 MuiButton-text-40 MuiButton-flat-43"
+          className="MuiButtonBase-root-64 MuiButton-root-38 MuiButton-contained-49 MuiButton-containedPrimary-50 MuiButton-raised-52 MuiButton-raisedPrimary-53"
           disabled={false}
           onBlur={[Function]}
           onFocus={[Function]}
@@ -77,6 +53,12 @@ exports[`render renders correctly 1`] = `
           onTouchEnd={[Function]}
           onTouchMove={[Function]}
           onTouchStart={[Function]}
+          style={
+            Object {
+              "display": "block",
+              "margin": "40px auto 0px",
+            }
+          }
           tabIndex="0"
           type="button"
         >
