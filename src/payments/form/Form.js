@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import filter from 'lodash/filter'
+import Error from 'Error'
 import { Form } from 'formik'
 import { Button } from '@material-ui/core'
 import Cards from 'react-credit-cards'
@@ -31,10 +32,7 @@ export default class extends Component {
   }
 
   renderFields() {
-    const { numberOfCards } = this.props
-
-    const predicate = ({ name }) =>
-      numberOfCards === 'one' ? name !== 'value' : true
+    const predicate = ({ name }) => name !== 'value'
 
     return filter(fields(this.props), predicate).map(element => (
       <Field
@@ -50,6 +48,8 @@ export default class extends Component {
   }
 
   render() {
+    const { error } = this.props
+
     return (
       <Form className="distance-fields">
         <div className="credit-card">
@@ -63,6 +63,7 @@ export default class extends Component {
           />
         </div>
         {this.renderFields()}
+        {error && <Error>{error}</Error>}
         <Button
           variant="contained"
           color="primary"

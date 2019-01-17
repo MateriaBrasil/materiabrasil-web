@@ -47,6 +47,7 @@ exports[`render renders correctly 1`] = `
           ],
         }
       }
+      error={undefined}
     >
       render
     </div>

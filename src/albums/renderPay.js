@@ -12,7 +12,7 @@ export default props => routeProps => {
     <Dialog {...props} {...routeProps} title="Torne-se premium">
       <New
         name="subscriptions"
-        render={({ create, creating }) => {
+        render={({ create, creating, error }) => {
           return (
             <Formik
               initialValues={{
@@ -24,7 +24,7 @@ export default props => routeProps => {
               }}
               validate={validate(props)}
               onSubmit={createWithParams(create, props)}
-              render={renderForm(props)}
+              render={renderForm({ ...props, error })}
             />
           )
         }}
