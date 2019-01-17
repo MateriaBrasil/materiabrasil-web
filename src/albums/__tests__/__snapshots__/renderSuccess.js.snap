@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render renders correctly 1`] = `
+<div
+  aria-labelledby="responsive-dialog-title"
+  fullScreen={false}
+  fullWidth={true}
+  onBackdropClick={[Function]}
+  onEscapeKeyDown={[Function]}
+  open={true}
+>
+  Dialog - 
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="MuiDialogTitle-root-1"
+      id="responsive-dialog-title"
+    >
+      <h2
+        className="MuiTypography-root-2 MuiTypography-title-8"
+      >
+        Assinatura criada
+      </h2>
+    </div>
+    <div
+      className="MuiDialogContent-root-37"
+    >
+      <h5
+        className="MuiTypography-root-2 MuiTypography-h5-18 MuiTypography-colorInherit-31"
+      >
+        Parabéns! Estamos processando sua assinatura, volte em breve.
+      </h5>
+    </div>
+    <div
+      className="MuiDialogActions-root-38"
+    >
+      <button
+        className="MuiButtonBase-root-66 MuiButton-root-40 MuiButton-text-42 MuiButton-textPrimary-43 MuiButton-flat-45 MuiButton-flatPrimary-46 MuiDialogActions-action-39"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-41"
+        >
+          Fechar
+        </span>
+        <span
+          className="MuiTouchRipple-root-69"
+        />
+      </button>
+    </div>
+  </form>
+</div>
+`;

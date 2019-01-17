@@ -2,6 +2,7 @@ import React from 'react'
 import Dialog from 'materials/Dialog'
 import { Formik } from 'formik'
 import { New } from 'croods'
+import Redirect from 'react-router-dom/Redirect'
 import renderForm from '../payments/form/render'
 import validate from '../payments/form/validate'
 import createWithParams from '../payments/createWithParams'
@@ -27,7 +28,13 @@ export default props => routeProps => {
             />
           )
         }}
-        renderCreated={props => <div>Pagou</div>}
+        renderCreated={info => {
+          return (
+            <Redirect
+              to={`/albums/${routeProps.match.params.id}/premium/success`}
+            />
+          )
+        }}
       />
     </Dialog>
   )

@@ -51,8 +51,10 @@ exports[`render renders correctly 1`] = `
       render
     </div>
      - 
-    <div>
-      Pagou
+    <div
+      to="/albums/123/premium/success"
+    >
+      Redirect
     </div>
   </div>
 </div>

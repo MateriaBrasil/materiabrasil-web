@@ -19,6 +19,10 @@ jest.mock('../../payments/form/render', () =>
   jest.fn(props => routeProps => <div {...props}>render</div>),
 )
 
+jest.mock('react-router-dom/Redirect', () => props => (
+  <div {...props}>Redirect</div>
+))
+
 const routeProps = { match: { params: { id: 123 } } }
 const props = {
   currentUser: { albums: [{ id: 1, name: '123' }, { id: 2, name: '345' }] },
