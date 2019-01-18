@@ -144,6 +144,22 @@ exports[`renders correctly with many cards 1`] = `
   >
     Field
   </div>
+  <div
+    disabled={true}
+    errors={undefined}
+    fullWidth={true}
+    handleBlur={undefined}
+    handleChange={undefined}
+    label="Valor a pagar"
+    name="value"
+    onFocus={[Function]}
+    setFieldValue={undefined}
+    touched={undefined}
+    type="text"
+    value={undefined}
+  >
+    Field
+  </div>
   <button
     className="MuiButtonBase-root-27 MuiButton-root-1 MuiButton-contained-12 MuiButton-containedPrimary-13 MuiButton-raised-15 MuiButton-raisedPrimary-16"
     disabled={false}
@@ -313,6 +329,22 @@ exports[`renders correctly with one card 1`] = `
     touched={undefined}
     type="text"
     value=""
+  >
+    Field
+  </div>
+  <div
+    disabled={true}
+    errors={undefined}
+    fullWidth={true}
+    handleBlur={undefined}
+    handleChange={undefined}
+    label="Valor a pagar"
+    name="value"
+    onFocus={[Function]}
+    setFieldValue={undefined}
+    touched={undefined}
+    type="text"
+    value={undefined}
   >
     Field
   </div>

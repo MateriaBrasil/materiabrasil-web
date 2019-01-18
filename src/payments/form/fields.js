@@ -42,6 +42,7 @@ const cvc = {
 const value = {
   label: 'Valor a pagar',
   name: 'value',
+  disabled: true,
   fullWidth: true,
 }
 
