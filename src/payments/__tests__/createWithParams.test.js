@@ -22,7 +22,7 @@ it('executes create with merged params', () => {
 
   const actions = { setCurrent: jest.fn() }
 
-  createWithParams(create, { actions })(params)
+  createWithParams(create, { actions })(params, { setSubmitting: jest.fn() })
 
   expect(create).toHaveBeenCalledWith({
     token: '123123',
@@ -51,7 +51,7 @@ it('with errors', () => {
 
   const actions = { setCurrent: jest.fn() }
 
-  createWithParams(create, { actions })(params)
+  createWithParams(create, { actions })(params, { setSubmitting: jest.fn() })
 
   expect(create).not.toHaveBeenCalled()
 })
