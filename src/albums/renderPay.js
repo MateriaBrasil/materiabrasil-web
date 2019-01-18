@@ -28,7 +28,7 @@ export default props => routeProps => {
             />
           )
         }}
-        renderCreated={info => {
+        renderCreated={() => {
           return (
             <Redirect
               to={`/albums/${routeProps.match.params.id}/premium/success`}
