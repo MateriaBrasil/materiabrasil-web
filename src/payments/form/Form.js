@@ -45,6 +45,19 @@ export default class extends Component {
     ))
   }
 
+  renderButton(creating) {
+    return (
+      <Button
+        variant="contained"
+        color="primary"
+        type="submit"
+        disabled={this.props.isSubmitting || creating}
+      >
+        Finalizar
+      </Button>
+    )
+  }
+
   render() {
     const { error, creating } = this.props
 
@@ -62,14 +75,7 @@ export default class extends Component {
         </div>
         {this.renderFields()}
         {error && <Error>{error}</Error>}
-        <Button
-          variant="contained"
-          color="primary"
-          type="submit"
-          disabled={this.props.isSubmitting || creating}
-        >
-          Finalizar
-        </Button>
+        {this.renderButton(creating)}
         {(this.props.isSubmitting || creating) && (
           <CircularProgress style={{ alignSelf: 'flex-end' }} />
         )}
