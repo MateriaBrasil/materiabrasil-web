@@ -32,9 +32,7 @@ export default class extends Component {
   }
 
   renderFields() {
-    const predicate = ({ name }) => name !== 'value'
-
-    return filter(fields(this.props), predicate).map(element => (
+    return filter(fields(this.props)).map(element => (
       <Field
         key={element.name}
         touched={this.props.touched}

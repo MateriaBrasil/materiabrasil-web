@@ -27,6 +27,7 @@
   left: 0;
   position: absolute;
   top: 20px;
+  font-family: 'Open Sans';
 }
 
 @media (max-width: 425px) {
