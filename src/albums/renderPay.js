@@ -24,7 +24,7 @@ export default props => routeProps => {
               }}
               validate={validate(props)}
               onSubmit={createWithParams(create, props)}
-              render={renderForm({ ...props, error })}
+              render={renderForm({ ...props, creating, error })}
             />
           )
         }}

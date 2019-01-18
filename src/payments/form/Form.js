@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import filter from 'lodash/filter'
 import Error from 'Error'
 import { Form } from 'formik'
-import { Button } from '@material-ui/core'
+import { Button, CircularProgress } from '@material-ui/core'
 import Cards from 'react-credit-cards'
 import 'react-credit-cards/es/styles-compiled.css'
 
@@ -46,7 +46,7 @@ export default class extends Component {
   }
 
   render() {
-    const { error } = this.props
+    const { error, creating } = this.props
 
     return (
       <Form className="distance-fields">
@@ -66,10 +66,13 @@ export default class extends Component {
           variant="contained"
           color="primary"
           type="submit"
-          disabled={this.props.isSubmitting}
+          disabled={this.props.isSubmitting || creating}
         >
           Finalizar
         </Button>
+        {(this.props.isSubmitting || creating) && (
+          <CircularProgress style={{ alignSelf: 'flex-end' }} />
+        )}
       </Form>
     )
   }
