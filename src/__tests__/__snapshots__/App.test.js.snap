@@ -2,7 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <div
-  afterSuccess={[Function]}
+  afterResponse={[Function]}
   baseUrl="http://foo.bar"
   headers={[Function]}
   renderError={[Function]}

@@ -31,37 +31,47 @@ exports[`render renders correctly 1`] = `
       >
         Para usar esta opção, torne-se premium!
       </p>
-      <button
-        className="MuiButtonBase-root-64 MuiButton-root-38 MuiButton-contained-49 MuiButton-containedPrimary-50 MuiButton-raised-52 MuiButton-raisedPrimary-53"
-        disabled={false}
-        onBlur={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        onTouchStart={[Function]}
+      <div
         style={
           Object {
-            "display": "block",
-            "margin": "40px auto 0px",
+            "textDecoration": "none",
           }
         }
-        tabIndex="0"
-        type="button"
+        to="/albums/123/premium/pay"
       >
-        <span
-          className="MuiButton-label-39"
+        Link - 
+        <button
+          className="MuiButtonBase-root-64 MuiButton-root-38 MuiButton-contained-49 MuiButton-containedPrimary-50 MuiButton-raised-52 MuiButton-raisedPrimary-53"
+          disabled={false}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "display": "block",
+              "margin": "40px auto 0px",
+            }
+          }
+          tabIndex="0"
+          type="button"
         >
-          Quero ser premium
-        </span>
-        <span
-          className="MuiTouchRipple-root-69"
-        />
-      </button>
+          <span
+            className="MuiButton-label-39"
+          >
+            Quero ser premium
+          </span>
+          <span
+            className="MuiTouchRipple-root-69"
+          />
+        </button>
+      </div>
     </div>
     <div
       className="MuiDialogActions-root-67"
