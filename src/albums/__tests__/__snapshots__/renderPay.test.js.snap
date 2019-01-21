@@ -23,6 +23,7 @@ exports[`render renders correctly 1`] = `
       },
     }
   }
+  setCurrentUser={[Function]}
   title="Torne-se premium"
 >
   Dialog - 
@@ -49,6 +50,7 @@ exports[`render renders correctly 1`] = `
         }
       }
       error={undefined}
+      setCurrentUser={[Function]}
     >
       render
     </div>

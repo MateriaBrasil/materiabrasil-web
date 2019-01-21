@@ -8,6 +8,8 @@ import validate from '../payments/form/validate'
 import createWithParams from '../payments/createWithParams'
 
 export default props => routeProps => {
+  const { setCurrentUser, currentUser } = props
+
   return (
     <Dialog {...props} {...routeProps} title="Torne-se premium">
       <New
@@ -29,6 +31,11 @@ export default props => routeProps => {
           )
         }}
         renderCreated={() => {
+          setCurrentUser({
+            ...currentUser,
+            pendingSubscription: true,
+          })
+
           return (
             <Redirect
               to={`/albums/${routeProps.match.params.id}/premium/success`}
