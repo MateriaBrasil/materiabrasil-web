@@ -2,10 +2,11 @@ import React, { Component } from 'react'
 import filter from 'lodash/filter'
 import Error from 'Error'
 import { Form } from 'formik'
-import { Button, CircularProgress } from '@material-ui/core'
 import Cards from 'react-credit-cards'
 import 'react-credit-cards/es/styles-compiled.css'
+import Loading from 'Loading'
 
+import Button from './Button'
 import Field from './Field'
 import fields from './fields'
 import onFocus from './onFocus'
@@ -45,19 +46,6 @@ export default class extends Component {
     ))
   }
 
-  renderButton(creating) {
-    return (
-      <Button
-        variant="contained"
-        color="primary"
-        type="submit"
-        disabled={this.props.isSubmitting || creating}
-      >
-        Finalizar
-      </Button>
-    )
-  }
-
   render() {
     const { error, creating } = this.props
 
@@ -75,9 +63,9 @@ export default class extends Component {
         </div>
         {this.renderFields()}
         {error && <Error>{error}</Error>}
-        {this.renderButton(creating)}
+        <Button isSubmitting={this.props.isSubmitting} creating={creating} />
         {(this.props.isSubmitting || creating) && (
-          <CircularProgress style={{ alignSelf: 'flex-end' }} />
+          <Loading style={{ alignSelf: 'flex-end' }} />
         )}
       </Form>
     )
