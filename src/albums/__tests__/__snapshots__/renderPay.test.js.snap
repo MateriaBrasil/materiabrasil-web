@@ -33,6 +33,7 @@ exports[`render renders correctly 1`] = `
   >
     New - 
     <div
+      creating={undefined}
       currentUser={
         Object {
           "albums": Array [

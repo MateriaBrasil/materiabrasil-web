@@ -9,6 +9,7 @@ exports[`renders correctly with errors 1`] = `
     <div
       autoFocus={undefined}
       component={[Function]}
+      disabled={undefined}
       error={true}
       id="abc"
       inputComponent={undefined}
@@ -70,6 +71,7 @@ exports[`renders correctly without errors 1`] = `
     <div
       autoFocus={undefined}
       component={[Function]}
+      disabled={undefined}
       error={false}
       id={undefined}
       inputComponent={undefined}

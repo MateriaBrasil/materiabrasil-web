@@ -2,10 +2,11 @@ import React, { Component } from 'react'
 import filter from 'lodash/filter'
 import Error from 'Error'
 import { Form } from 'formik'
-import { Button } from '@material-ui/core'
 import Cards from 'react-credit-cards'
 import 'react-credit-cards/es/styles-compiled.css'
+import Loading from 'Loading'
 
+import Button from './Button'
 import Field from './Field'
 import fields from './fields'
 import onFocus from './onFocus'
@@ -32,9 +33,7 @@ export default class extends Component {
   }
 
   renderFields() {
-    const predicate = ({ name }) => name !== 'value'
-
-    return filter(fields(this.props), predicate).map(element => (
+    return filter(fields(this.props)).map(element => (
       <Field
         key={element.name}
         touched={this.props.touched}
@@ -48,7 +47,7 @@ export default class extends Component {
   }
 
   render() {
-    const { error } = this.props
+    const { error, creating } = this.props
 
     return (
       <Form className="distance-fields">
@@ -64,14 +63,10 @@ export default class extends Component {
         </div>
         {this.renderFields()}
         {error && <Error>{error}</Error>}
-        <Button
-          variant="contained"
-          color="primary"
-          type="submit"
-          disabled={this.props.isSubmitting}
-        >
-          Finalizar
-        </Button>
+        <Button isSubmitting={this.props.isSubmitting} creating={creating} />
+        {(this.props.isSubmitting || creating) && (
+          <Loading style={{ alignSelf: 'flex-end' }} />
+        )}
       </Form>
     )
   }

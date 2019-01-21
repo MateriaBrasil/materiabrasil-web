@@ -20,6 +20,7 @@ export default props => {
     <FormControl
       component="fieldset"
       id={name + '-fieldset'}
+      disabled={props.disabled}
       error={!!error}
       fullWidth={props.fullWidth}
     >
@@ -31,6 +32,7 @@ export default props => {
             onChange={onChange(props)}
             onBlur={props.handleBlur}
             onFocus={props.onFocus}
+            disabled={props.disabled}
             id={name}
             value={props.value}
             component={Input}
