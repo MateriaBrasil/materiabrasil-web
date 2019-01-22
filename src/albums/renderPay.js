@@ -33,7 +33,7 @@ export default props => routeProps => {
         renderCreated={() => {
           setCurrentUser({
             ...currentUser,
-            pendingSubscription: true,
+            subscribed: true,
           })
 
           return (

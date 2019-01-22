@@ -35,7 +35,7 @@ exports[`render renders correctly 1`] = `
   <h5
     className="MuiTypography-root-1 MuiTypography-h5-17 MuiTypography-colorInherit-30"
   >
-    Parabéns! Estamos processando sua assinatura, volte em breve.
+    Parabéns! Você ativou sua assinatura com sucesso.
   </h5>
   - 
 </div>

@@ -1,9 +1,8 @@
 import React, { Fragment } from 'react'
-import { Info, Edit } from 'croods'
-import Switch from '@material-ui/core/Switch'
+import { Info } from 'croods'
 import Link from 'react-router-dom/Link'
-import FormControlLabel from '@material-ui/core/FormControlLabel'
 import Album from '../users/info/Album'
+import Private from './Private'
 
 export default props => routeProps => {
   const { match } = routeProps
@@ -20,40 +19,19 @@ export default props => routeProps => {
 
           return (
             <Fragment>
-              {isOwner && (
-                <Link
-                  to={`/albums/${match.params.id}/premium`}
-                  style={{
-                    textDecoration: 'none',
-                  }}
-                >
-                  <Edit
-                    id={match.params.id}
-                    name="editAlbum"
-                    path={`/albums/${match.params.id}`}
-                    render={({ info, update, updating, error }) => (
-                      <FormControlLabel
-                        control={
-                          <Switch
-                            style={{
-                              pointerEvents: 'none',
-                            }}
-                            checked={info.private}
-                            onChange={() => {
-                              update({
-                                id: match.params.id,
-                                private: !info.private,
-                              })
-                            }}
-                          />
-                        }
-                        label="Tornar álbum privado"
-                      />
-                    )}
-                    renderUpdated={() => null}
-                  />
-                </Link>
-              )}
+              {isOwner &&
+                (currentUser.subscribed ? (
+                  <Private {...props} {...routeProps} />
+                ) : (
+                  <Link
+                    to={`/albums/${match.params.id}/premium`}
+                    style={{
+                      textDecoration: 'none',
+                    }}
+                  >
+                    <Private {...props} {...routeProps} />
+                  </Link>
+                ))}
               <Album {...album} />
             </Fragment>
           )

@@ -35,7 +35,7 @@ describe('render', () => {
     expect(tree).toMatchSnapshot()
     expect(props.setCurrentUser).toHaveBeenCalledWith({
       ...props.currentUser,
-      pendingSubscription: true,
+      subscribed: true,
     })
   })
 })
