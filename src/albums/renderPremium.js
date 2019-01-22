@@ -7,28 +7,37 @@ import Dialog from 'materials/Dialog'
 export default props => routeProps => {
   return (
     <Dialog {...props} {...routeProps} title="Torne-se premium">
-      {props.currentUser && props.currentUser.pendingSubscription ? (
-        <Typography color="inherit" variant="h5">
-          Estamos processando sua assinatura! Volte mais tarde.
-        </Typography>
-      ) : (
-        <Fragment>
-          <Typography color="inherit">
-            Para usar esta opção, torne-se premium!
+      {props.currentUser &&
+        props.currentUser.pendingSubscription && (
+          <Typography color="inherit" variant="h5">
+            Estamos processando sua assinatura! Volte mais tarde.
           </Typography>
-          <Link
-            to={`/albums/${routeProps.match.params.id}/premium/pay`}
-            style={{ textDecoration: 'none' }}
-          >
-            <Button
-              variant="contained"
-              color="primary"
-              style={{ margin: '40px auto 0px', display: 'block' }}
+        )}
+      {props.currentUser &&
+        !props.currentUser.pendingSubscription &&
+        !props.currentUser.subscribed && (
+          <Fragment>
+            <Typography color="inherit">
+              Para usar esta opção, torne-se premium!
+            </Typography>
+            <Link
+              to={`/albums/${routeProps.match.params.id}/premium/pay`}
+              style={{ textDecoration: 'none' }}
             >
-              Quero ser premium
-            </Button>
-          </Link>
-        </Fragment>
+              <Button
+                variant="contained"
+                color="primary"
+                style={{ margin: '40px auto 0px', display: 'block' }}
+              >
+                Quero ser premium
+              </Button>
+            </Link>
+          </Fragment>
+        )}
+      {!props.currentUser && (
+        <Typography color="inherit">
+          Você não está logado, se logue para continuar
+        </Typography>
       )}
     </Dialog>
   )
