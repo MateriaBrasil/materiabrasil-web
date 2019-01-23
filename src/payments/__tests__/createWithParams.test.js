@@ -45,13 +45,19 @@ it('with errors', () => {
     setAccountID: () => {},
     setTestMode: () => {},
     createPaymentToken: (creditCard, callBack) => {
-      callBack({ id: '123123', errors: {} })
+      callBack({
+        id: '123123',
+        errors: { number: 'is_invalid', verification_value: 'is_invalid' },
+      })
     },
   }
 
   const actions = { setCurrent: jest.fn() }
 
-  createWithParams(create, { actions })(params, { setSubmitting: jest.fn() })
+  createWithParams(create, { actions })(params, {
+    setSubmitting: jest.fn(),
+    setErrors: jest.fn(),
+  })
 
   expect(create).not.toHaveBeenCalled()
 })

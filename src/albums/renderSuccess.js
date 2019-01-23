@@ -13,7 +13,7 @@ export default props => routeProps => {
       }}
     >
       <Typography variant="h5" color="inherit">
-        Parabéns! Estamos processando sua assinatura, volte em breve.
+        Parabéns! Você ativou sua assinatura com sucesso.
       </Typography>
     </Dialog>
   )
