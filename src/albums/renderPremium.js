@@ -14,6 +14,12 @@ export default props => routeProps => {
           </Typography>
         )}
       {props.currentUser &&
+        props.currentUser.subscribed && (
+          <Typography color="inherit" variant="h5">
+            Parabéns! Você ativou sua assinatura com sucesso.
+          </Typography>
+        )}
+      {props.currentUser &&
         !props.currentUser.pendingSubscription &&
         !props.currentUser.subscribed && (
           <Fragment>

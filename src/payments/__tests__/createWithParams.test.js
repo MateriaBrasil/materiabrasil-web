@@ -51,7 +51,10 @@ it('with errors', () => {
 
   const actions = { setCurrent: jest.fn() }
 
-  createWithParams(create, { actions })(params, { setSubmitting: jest.fn() })
+  createWithParams(create, { actions })(params, {
+    setSubmitting: jest.fn(),
+    setErrors: jest.fn(),
+  })
 
   expect(create).not.toHaveBeenCalled()
 })
