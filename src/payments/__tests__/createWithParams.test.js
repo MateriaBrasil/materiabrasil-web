@@ -45,7 +45,10 @@ it('with errors', () => {
     setAccountID: () => {},
     setTestMode: () => {},
     createPaymentToken: (creditCard, callBack) => {
-      callBack({ id: '123123', errors: {} })
+      callBack({
+        id: '123123',
+        errors: { number: 'is_invalid', verification_value: 'is_invalid' },
+      })
     },
   }
 
