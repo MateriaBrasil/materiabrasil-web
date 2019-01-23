@@ -3,22 +3,12 @@ import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'
 import Link from 'react-router-dom/Link'
 import Dialog from 'materials/Dialog'
+import UserMessages from './UserMessages'
 
 export default props => routeProps => {
   return (
     <Dialog {...props} {...routeProps} title="Torne-se premium">
-      {props.currentUser &&
-        props.currentUser.pendingSubscription && (
-          <Typography color="inherit" variant="h5">
-            Estamos processando sua assinatura! Volte mais tarde.
-          </Typography>
-        )}
-      {props.currentUser &&
-        props.currentUser.subscribed && (
-          <Typography color="inherit" variant="h5">
-            Parabéns! Você ativou sua assinatura com sucesso.
-          </Typography>
-        )}
+      <UserMessages {...props} />
       {props.currentUser &&
         !props.currentUser.pendingSubscription &&
         !props.currentUser.subscribed && (
@@ -40,11 +30,6 @@ export default props => routeProps => {
             </Link>
           </Fragment>
         )}
-      {!props.currentUser && (
-        <Typography color="inherit">
-          Você não está logado, se logue para continuar
-        </Typography>
-      )}
     </Dialog>
   )
 }
