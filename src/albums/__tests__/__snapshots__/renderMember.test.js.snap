@@ -47,7 +47,15 @@ exports[`render renders correctly 1`] = `
     </div>
      - 
     <div
-      to="/albums/123/member/success"
+      to={
+        Object {
+          "pathname": "/albums/123/success",
+          "state": Object {
+            "message": "Parabéns! Você adicionou o usuário com sucesso.",
+            "title": "Usuário adicionado",
+          },
+        }
+      }
     >
       Redirect
     </div>

@@ -76,7 +76,13 @@ export default props => routeProps => {
           }}
           renderCreated={() => (
             <Redirect
-              to={`/albums/${routeProps.match.params.id}/member/success`}
+              to={{
+                pathname: `/albums/${routeProps.match.params.id}/success`,
+                state: {
+                  title: 'Usuário adicionado',
+                  message: 'Parabéns! Você adicionou o usuário com sucesso.',
+                },
+              }}
             />
           )}
         />

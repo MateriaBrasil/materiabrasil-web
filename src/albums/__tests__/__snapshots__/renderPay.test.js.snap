@@ -56,7 +56,15 @@ exports[`render renders correctly 1`] = `
     </div>
      - 
     <div
-      to="/albums/123/premium/success"
+      to={
+        Object {
+          "pathname": "/albums/123/success",
+          "state": Object {
+            "message": "Parabéns! Você ativou sua assinatura com sucesso.",
+            "title": "Assinatura criada",
+          },
+        }
+      }
     >
       Redirect
     </div>

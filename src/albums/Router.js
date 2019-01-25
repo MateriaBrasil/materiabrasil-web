@@ -5,7 +5,6 @@ import renderInfo from './renderInfo'
 import renderPremium from './renderPremium'
 import renderPay from './renderPay'
 import renderSuccess from './renderSuccess'
-import renderMemberSuccess from './renderMemberSuccess'
 import renderMember from './renderMember'
 
 export default props => (
@@ -13,16 +12,7 @@ export default props => (
     <Route path="/albums/:id" render={renderInfo(props)} />
     <Route exact path="/albums/:id/premium" render={renderPremium(props)} />
     <Route exact path="/albums/:id/premium/pay" render={renderPay(props)} />
-    <Route
-      exact
-      path="/albums/:id/premium/success"
-      render={renderSuccess(props)}
-    />
+    <Route exact path="/albums/:id/success" render={renderSuccess(props)} />
     <Route exact path="/albums/:id/member" render={renderMember(props)} />
-    <Route
-      exact
-      path="/albums/:id/member/success"
-      render={renderMemberSuccess(props)}
-    />
   </div>
 )
