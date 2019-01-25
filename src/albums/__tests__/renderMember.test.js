@@ -3,6 +3,10 @@ import renderer from 'react-test-renderer'
 
 import renderMember from '../renderMember'
 
+jest.mock('materials/Dialog', () => props => (
+  <div {...props}>Dialog - {props.children}</div>
+))
+
 jest.mock('croods', () => ({
   New: props => (
     <div {...props}>
@@ -17,13 +21,14 @@ jest.mock('formik', () => ({
     props.validate({ email: '' })
     props.onSubmit({ email: 'fesg' })
 
-    return <div {...props}>New</div>
+    return (
+      <div {...props}>
+        New -{' '}
+        {props.render({ values: { email: '123' }, touched: {}, errors: {} })}
+      </div>
+    )
   },
 }))
-
-jest.mock('materials/Dialog', () => props => (
-  <div {...props}>Dialog - {props.children}</div>
-))
 
 jest.mock('../../payments/form/render', () =>
   jest.fn(props => routeProps => <div {...props}>render</div>),
