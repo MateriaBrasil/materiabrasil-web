@@ -6,6 +6,7 @@ import Button from '@material-ui/core/Button'
 import Input from '@material-ui/core/Input'
 import InputLabel from '@material-ui/core/InputLabel'
 import FormHelperText from '@material-ui/core/FormHelperText'
+import Redirect from 'react-router-dom/Redirect'
 import { New } from 'croods'
 import Error from 'Error'
 
@@ -73,7 +74,11 @@ export default props => routeProps => {
               />
             )
           }}
-          renderCreated={() => window.location.reload()}
+          renderCreated={() => (
+            <Redirect
+              to={`/albums/${routeProps.match.params.id}/member/success`}
+            />
+          )}
         />
       )}
     </Dialog>

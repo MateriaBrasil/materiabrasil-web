@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render renders correctly 1`] = `
+<div
+  currentUser={
+    Object {
+      "albums": Array [
+        Object {
+          "id": 1,
+          "name": "123",
+        },
+        Object {
+          "id": 2,
+          "name": "345",
+        },
+      ],
+    }
+  }
+  history={
+    Object {
+      "push": [Function],
+    }
+  }
+  match={
+    Object {
+      "params": Object {
+        "id": 123,
+      },
+    }
+  }
+  onCloseModel={[Function]}
+  title="Membro adicionado"
+>
+  Dialog - 
+  <h5
+    className="MuiTypography-root-1 MuiTypography-h5-17 MuiTypography-colorInherit-30"
+  >
+    Parabéns! Você adicionou o membro com sucesso.
+  </h5>
+  - 
+</div>
+`;

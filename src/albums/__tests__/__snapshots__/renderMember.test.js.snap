@@ -46,6 +46,11 @@ exports[`render renders correctly 1`] = `
       New
     </div>
      - 
+    <div
+      to="/albums/123/member/success"
+    >
+      Redirect
+    </div>
   </div>
 </div>
 `;
