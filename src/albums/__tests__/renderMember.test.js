@@ -6,8 +6,14 @@ import renderMember from '../renderMember'
 jest.mock('croods', () => ({
   New: props => (
     <div {...props}>
-      New - {props.render(() => {})} - {props.renderCreated()}
+      New - {props.render({ create: () => {} })} - {props.renderCreated()}
     </div>
+  ),
+}))
+
+jest.mock('formik', () => ({
+  Formik: props => (
+    <div {...props}>New - {props.onSubmit({ email: 'fesg' })}</div>
   ),
 }))
 

@@ -33,23 +33,18 @@ exports[`render renders correctly 1`] = `
     renderCreated={[Function]}
   >
     New - 
-    <form
+    <div
+      initialValues={
+        Object {
+          "email": "",
+        }
+      }
       onSubmit={[Function]}
+      render={[Function]}
+      validate={[Function]}
     >
-      <input
-        id="email"
-        name="email"
-        onBlur={[Function]}
-        onChange={[Function]}
-        value=""
-      />
-      <p />
-      <button
-        type="submit"
-      >
-        Submit
-      </button>
-    </form>
+      New - 
+    </div>
      - 
   </div>
 </div>

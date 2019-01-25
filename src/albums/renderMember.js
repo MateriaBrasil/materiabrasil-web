@@ -1,7 +1,13 @@
 import React from 'react'
 import Dialog from 'materials/Dialog'
 import { Formik } from 'formik'
+import FormControl from '@material-ui/core/FormControl'
+import Button from '@material-ui/core/Button'
+import Input from '@material-ui/core/Input'
+import InputLabel from '@material-ui/core/InputLabel'
+import FormHelperText from '@material-ui/core/FormHelperText'
 import { New } from 'croods'
+import Error from 'Error'
 
 export default props => routeProps => {
   const validate = values => {
@@ -40,15 +46,28 @@ export default props => routeProps => {
                   handleSubmit,
                 }) => (
                   <form onSubmit={handleSubmit}>
-                    <input
-                      id="email"
-                      name="email"
-                      onChange={handleChange}
-                      onBlur={handleBlur}
-                      value={values.email}
-                    />
-                    <p>{errors.email && touched.email && errors.email}</p>
-                    <button type="submit">Submit</button>
+                    <FormControl
+                      error={touched['email'] && !!errors['email']}
+                      aria-describedby="email-error-text"
+                      fullWidth
+                    >
+                      <InputLabel htmlFor="email-error">
+                        Email do membro
+                      </InputLabel>
+                      <Input
+                        id="email"
+                        name="email"
+                        type="email"
+                        onChange={handleChange}
+                        onBlur={handleBlur}
+                        value={values.email}
+                      />
+                      <FormHelperText id="email-error-text">
+                        {touched['email'] && errors['email']}
+                      </FormHelperText>
+                    </FormControl>
+                    {error && <Error>{error}</Error>}
+                    <Button type="submit">Adicionar</Button>
                   </form>
                 )}
               />
