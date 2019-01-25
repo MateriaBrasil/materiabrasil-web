@@ -12,9 +12,13 @@ jest.mock('croods', () => ({
 }))
 
 jest.mock('formik', () => ({
-  Formik: props => (
-    <div {...props}>New - {props.onSubmit({ email: 'fesg' })}</div>
-  ),
+  Formik: props => {
+    props.validate({ email: 'fesg' })
+    props.validate({ email: '' })
+    props.onSubmit({ email: 'fesg' })
+
+    return <div {...props}>New</div>
+  },
 }))
 
 jest.mock('materials/Dialog', () => props => (
