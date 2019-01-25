@@ -29,13 +29,13 @@ exports[`render renders correctly 1`] = `
     }
   }
   onCloseModel={[Function]}
-  title="Membro adicionado"
+  title="Usuário adicionado"
 >
   Dialog - 
   <h5
     className="MuiTypography-root-1 MuiTypography-h5-17 MuiTypography-colorInherit-30"
   >
-    Parabéns! Você adicionou o membro com sucesso.
+    Parabéns! Você adicionou o usuário com sucesso.
   </h5>
   - 
 </div>

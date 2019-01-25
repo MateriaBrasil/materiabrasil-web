@@ -7,13 +7,13 @@ export default props => routeProps => {
     <Dialog
       {...props}
       {...routeProps}
-      title="Membro adicionado"
+      title="Usuário adicionado"
       onCloseModel={() => {
         routeProps.history.push(`/albums/${routeProps.match.params.id}`)
       }}
     >
       <Typography variant="h5" color="inherit">
-        Parabéns! Você adicionou o membro com sucesso.
+        Parabéns! Você adicionou o usuário com sucesso.
       </Typography>
     </Dialog>
   )
