@@ -19,6 +19,7 @@ export default props => routeProps => {
       {props.currentUser && (
         <New
           name="albumUsers"
+          path="/album_users"
           render={({ create, creating, error }) => {
             return (
               <Formik
@@ -27,7 +28,7 @@ export default props => routeProps => {
                 onSubmit={values => {
                   create({
                     user_email: values.email,
-                    album_id: props.match.params.id,
+                    album_id: parseInt(routeProps.match.params.id, 10),
                   })
                 }}
                 render={({
