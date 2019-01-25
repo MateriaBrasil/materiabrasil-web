@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render renders correctly 1`] = `
+<div
+  currentUser={
+    Object {
+      "albums": Array [
+        Object {
+          "id": 1,
+          "name": "123",
+        },
+        Object {
+          "id": 2,
+          "name": "345",
+        },
+      ],
+    }
+  }
+  match={
+    Object {
+      "params": Object {
+        "id": 123,
+      },
+    }
+  }
+  title="Adicione um membro ao álbum"
+>
+  Dialog - 
+  <div
+    name="albumUsers"
+    path="/album_users"
+    render={[Function]}
+    renderCreated={[Function]}
+  >
+    New - 
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        id="email"
+        name="email"
+        onBlur={[Function]}
+        onChange={[Function]}
+        value=""
+      />
+      <p />
+      <button
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
+     - 
+  </div>
+</div>
+`;
