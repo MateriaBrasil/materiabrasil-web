@@ -202,7 +202,26 @@ exports[`when user looks at another user profile renders correctly 1`] = `
   </h4>
   <div
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
-  />
+  >
+    <div
+      parentId={undefined}
+      showDestroy={false}
+    >
+      Album
+    </div>
+    <div
+      parentId={undefined}
+      showDestroy={false}
+    >
+      Album
+    </div>
+    <div
+      parentId={undefined}
+      showDestroy={false}
+    >
+      Album
+    </div>
+  </div>
 </div>
 `;
 
@@ -453,6 +472,25 @@ exports[`when user looks at her own profile renders correctly 1`] = `
   </h4>
   <div
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
-  />
+  >
+    <div
+      parentId={undefined}
+      showDestroy={false}
+    >
+      Album
+    </div>
+    <div
+      parentId={undefined}
+      showDestroy={false}
+    >
+      Album
+    </div>
+    <div
+      parentId={undefined}
+      showDestroy={false}
+    >
+      Album
+    </div>
+  </div>
 </div>
 `;
