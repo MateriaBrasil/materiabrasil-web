@@ -23,6 +23,7 @@ describe('when user looks at her own profile', () => {
       firstName: 'foo-name',
       lastName: 'foo-last',
       albums: [1, 2, 3],
+      sharedAlbuns: [1, 2, 3],
     }
     const tree = renderer.create(render(props)(infoProps)).toJSON()
     expect(tree).toMatchSnapshot()
@@ -37,6 +38,7 @@ describe('when user looks at another user profile', () => {
       firstName: 'foo-name',
       lastName: 'foo-last',
       albums: [1, 2, 3],
+      sharedAlbuns: [1, 2, 3],
     }
     const tree = renderer.create(render(props)(infoProps)).toJSON()
     expect(tree).toMatchSnapshot()
