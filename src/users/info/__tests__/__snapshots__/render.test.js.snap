@@ -189,6 +189,20 @@ exports[`when user looks at another user profile renders correctly 1`] = `
       Album
     </div>
   </div>
+  <h4
+    className="MuiTypography-root-98 MuiTypography-h4-113"
+    style={
+      Object {
+        "marginBottom": 16,
+        "marginTop": 16,
+      }
+    }
+  >
+    Álbuns compartilhados comigo
+  </h4>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+  />
 </div>
 `;
 
@@ -426,5 +440,19 @@ exports[`when user looks at her own profile renders correctly 1`] = `
       Album
     </div>
   </div>
+  <h4
+    className="MuiTypography-root-98 MuiTypography-h4-113"
+    style={
+      Object {
+        "marginBottom": 16,
+        "marginTop": 16,
+      }
+    }
+  >
+    Álbuns compartilhados comigo
+  </h4>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+  />
 </div>
 `;
