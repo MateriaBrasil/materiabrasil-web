@@ -9,7 +9,7 @@ exports[`renders correctly 1`] = `
         "textDecoration": "none",
       }
     }
-    to="/albums/undefined/member"
+    to="/albums/undefined/premium"
   >
     Link - 
     <button
@@ -87,7 +87,7 @@ exports[`renders correctly with id 1`] = `
         "textDecoration": "none",
       }
     }
-    to="/albums/123/member"
+    to="/albums/123/premium"
   >
     Link - 
     <button
