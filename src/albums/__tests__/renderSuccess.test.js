@@ -12,6 +12,12 @@ jest.mock('materials/Dialog', () => props => (
 const routeProps = {
   match: { params: { id: 123 } },
   history: { push: jest.fn() },
+  location: {
+    state: {
+      title: 'test',
+      message: 'foo',
+    },
+  },
 }
 const props = {
   currentUser: { albums: [{ id: 1, name: '123' }, { id: 2, name: '345' }] },

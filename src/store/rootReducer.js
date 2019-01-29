@@ -31,6 +31,7 @@ const reducers = {
   messages: createReducer('messages'),
   password: createReducer('password'),
   subscriptions: createReducer('subscriptions'),
+  albumUsers: createReducer('albumUsers'),
   resetPassword: createReducer('resetPassword'),
   topics: createReducer('topics', { addCreatedToTop: true }),
   filters,

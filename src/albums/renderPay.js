@@ -43,7 +43,14 @@ export default props => routeProps => {
 
               return (
                 <Redirect
-                  to={`/albums/${routeProps.match.params.id}/premium/success`}
+                  to={{
+                    pathname: `/albums/${routeProps.match.params.id}/success`,
+                    state: {
+                      title: 'Assinatura criada',
+                      message:
+                        'Parabéns! Você ativou sua assinatura com sucesso.',
+                    },
+                  }}
                 />
               )
             }}

@@ -7,13 +7,13 @@ export default props => routeProps => {
     <Dialog
       {...props}
       {...routeProps}
-      title="Assinatura criada"
+      title={routeProps.location.state.title}
       onCloseModel={() => {
         routeProps.history.push(`/albums/${routeProps.match.params.id}`)
       }}
     >
       <Typography variant="h5" color="inherit">
-        Parabéns! Você ativou sua assinatura com sucesso.
+        {routeProps.location.state.message}
       </Typography>
     </Dialog>
   )

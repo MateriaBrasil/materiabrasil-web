@@ -21,6 +21,14 @@ exports[`render renders correctly 1`] = `
       "push": [Function],
     }
   }
+  location={
+    Object {
+      "state": Object {
+        "message": "foo",
+        "title": "test",
+      },
+    }
+  }
   match={
     Object {
       "params": Object {
@@ -29,13 +37,13 @@ exports[`render renders correctly 1`] = `
     }
   }
   onCloseModel={[Function]}
-  title="Assinatura criada"
+  title="test"
 >
   Dialog - 
   <h5
     className="MuiTypography-root-1 MuiTypography-h5-17 MuiTypography-colorInherit-30"
   >
-    Parabéns! Você ativou sua assinatura com sucesso.
+    foo
   </h5>
   - 
 </div>

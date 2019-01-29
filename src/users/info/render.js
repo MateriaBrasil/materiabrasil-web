@@ -15,7 +15,15 @@ import MessageButton from '../../messages/new/Button'
 
 export default props => infoProps => {
   const { currentUser } = props
-  const { id, firstName, lastName, albums, email, website } = infoProps
+  const {
+    id,
+    firstName,
+    lastName,
+    albums,
+    sharedAlbums,
+    email,
+    website,
+  } = infoProps
   const { city, state, country, company, workTitle, bio } = infoProps
   const { imageUrl } = infoProps
   const name = `${firstName} ${lastName}`
@@ -104,6 +112,14 @@ export default props => infoProps => {
         <Grid item xs={12}>
           {map(albums, album => (
             <Album {...album} parentId={album.id} showDestroy={!!editPath} />
+          ))}
+        </Grid>
+        <Typography style={{ marginTop: 16, marginBottom: 16 }} variant="h4">
+          Álbuns compartilhados comigo
+        </Typography>
+        <Grid item xs={12}>
+          {map(sharedAlbums, album => (
+            <Album {...album} parentId={album.id} showDestroy={false} />
           ))}
         </Grid>
       </Grid>
