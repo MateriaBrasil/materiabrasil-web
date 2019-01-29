@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import { Info } from 'croods'
 import Link from 'react-router-dom/Link'
+import Button from '@material-ui/core/Button'
 import Album from '../users/info/Album'
 import Private from './Private'
 
@@ -19,6 +20,19 @@ export default props => routeProps => {
 
           return (
             <Fragment>
+              {isOwner && (
+                <Link
+                  to={`/albums/${match.params.id}/member`}
+                  style={{
+                    textDecoration: 'none',
+                    marginRight: 20,
+                  }}
+                >
+                  <Button variant="contained" color="primary">
+                    Compartilhar álbum
+                  </Button>
+                </Link>
+              )}
               {isOwner &&
                 (currentUser.subscribed ? (
                   <Private {...props} {...routeProps} />

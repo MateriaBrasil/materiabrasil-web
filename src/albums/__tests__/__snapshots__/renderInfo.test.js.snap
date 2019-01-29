@@ -5,6 +5,42 @@ exports[`renders correctly 1`] = `
   <div
     style={
       Object {
+        "marginRight": 20,
+        "textDecoration": "none",
+      }
+    }
+    to="/albums/undefined/member"
+  >
+    Link - 
+    <button
+      className="MuiButtonBase-root-27 MuiButton-root-1 MuiButton-contained-12 MuiButton-containedPrimary-13 MuiButton-raised-15 MuiButton-raisedPrimary-16"
+      disabled={false}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-2"
+      >
+        Compartilhar álbum
+      </span>
+      <span
+        className="MuiTouchRipple-root-69"
+      />
+    </button>
+  </div>
+  <div
+    style={
+      Object {
         "textDecoration": "none",
       }
     }
@@ -13,7 +49,7 @@ exports[`renders correctly 1`] = `
     Link - 
     <div>
       <label
-        className="MuiFormControlLabel-root-1"
+        className="MuiFormControlLabel-root-30"
       >
         <div
           checked={false}
@@ -29,7 +65,7 @@ exports[`renders correctly 1`] = `
            - 
         </div>
         <span
-          className="MuiTypography-root-5 MuiTypography-body1-14 MuiFormControlLabel-label-4"
+          className="MuiTypography-root-34 MuiTypography-body1-43 MuiFormControlLabel-label-33"
         >
           Tornar álbum privado
         </span>
@@ -47,6 +83,42 @@ exports[`renders correctly with id 1`] = `
   <div
     style={
       Object {
+        "marginRight": 20,
+        "textDecoration": "none",
+      }
+    }
+    to="/albums/123/member"
+  >
+    Link - 
+    <button
+      className="MuiButtonBase-root-27 MuiButton-root-1 MuiButton-contained-12 MuiButton-containedPrimary-13 MuiButton-raised-15 MuiButton-raisedPrimary-16"
+      disabled={false}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-2"
+      >
+        Compartilhar álbum
+      </span>
+      <span
+        className="MuiTouchRipple-root-69"
+      />
+    </button>
+  </div>
+  <div
+    style={
+      Object {
         "textDecoration": "none",
       }
     }
@@ -55,7 +127,7 @@ exports[`renders correctly with id 1`] = `
     Link - 
     <div>
       <label
-        className="MuiFormControlLabel-root-1"
+        className="MuiFormControlLabel-root-30"
       >
         <div
           checked={false}
@@ -71,7 +143,7 @@ exports[`renders correctly with id 1`] = `
            - 
         </div>
         <span
-          className="MuiTypography-root-5 MuiTypography-body1-14 MuiFormControlLabel-label-4"
+          className="MuiTypography-root-34 MuiTypography-body1-43 MuiFormControlLabel-label-33"
         >
           Tornar álbum privado
         </span>
