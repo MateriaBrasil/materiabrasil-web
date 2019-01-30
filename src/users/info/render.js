@@ -10,6 +10,7 @@ import map from 'lodash/map'
 
 import Avatar from '../../imageUpload/Avatar'
 import Album from './Album'
+import Private from './Private'
 import PropertyWithValue from '../../PropertyWithValue'
 import MessageButton from '../../messages/new/Button'
 
@@ -51,11 +52,14 @@ export default props => infoProps => {
               {name}
             </Typography>
             {editPath && (
-              <Link style={{ textDecoration: 'none' }} to="/profile/edit">
-                <Button variant="contained" color="primary">
-                  Editar perfil
-                </Button>
-              </Link>
+              <Fragment>
+                <Link style={{ textDecoration: 'none' }} to="/profile/edit">
+                  <Button variant="contained" color="primary">
+                    Editar perfil
+                  </Button>
+                </Link>
+                <Private {...props} {...infoProps} />
+              </Fragment>
             )}
           </div>
         </Grid>

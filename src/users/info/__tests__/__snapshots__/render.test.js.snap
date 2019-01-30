@@ -296,6 +296,30 @@ exports[`when user looks at her own profile renders correctly 1`] = `
           />
         </button>
       </div>
+      <div
+        albums={
+          Array [
+            1,
+            2,
+            3,
+          ]
+        }
+        currentUser={
+          Object {
+            "id": 1234,
+          }
+        }
+        firstName="foo-name"
+        id={1234}
+        lastName="foo-last"
+        sharedAlbums={
+          Array [
+            1,
+            2,
+            3,
+          ]
+        }
+      />
     </div>
   </div>
   <div

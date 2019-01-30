@@ -7,6 +7,8 @@ jest.mock('react-router-dom/Link', () => props => (
   <div {...props}>{props.children}</div>
 ))
 
+jest.mock('../Private', () => props => <div {...props}>{props.children}</div>)
+
 jest.mock('../../../imageUpload/Avatar', () => props => (
   <div {...props}>Avatar</div>
 ))
