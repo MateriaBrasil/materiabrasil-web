@@ -17,7 +17,12 @@ export default props => routeProps => {
               Para usar esta opção, torne-se premium!
             </Typography>
             <Link
-              to={`/albums/${routeProps.match.params.id}/premium/pay`}
+              to={{
+                pathname: `${routeProps.location.state.url}/pay`,
+                state: {
+                  url: routeProps.location.state.url,
+                },
+              }}
               style={{ textDecoration: 'none' }}
             >
               <Button

@@ -6,6 +6,9 @@ import renderSuccessMessage from '../messages/renderSuccess'
 import renderInfo from './renderInfo'
 import renderEdit from './renderEdit'
 import renderAvatarUpload from './renderAvatarUpload'
+import renderPremium from '../payments/renderPremium'
+import renderPay from '../payments/renderPay'
+import renderSuccess from '../payments/renderSuccess'
 
 export default props => {
   const { currentUser } = props
@@ -32,6 +35,9 @@ export default props => {
         render={renderAvatarUpload({ ...idProps, redirectUrl: '/profile' })}
       />
       <Route path="/profile" render={renderInfo(idProps)} />
+      <Route path="/profile/premium" render={renderPremium(idProps)} />
+      <Route path="/profile/pay" render={renderPay(idProps)} />
+      <Route path="/profile/success" render={renderSuccess(idProps)} />
     </Fragment>
   )
 }

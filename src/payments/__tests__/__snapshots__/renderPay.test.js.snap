@@ -16,6 +16,13 @@ exports[`render renders correctly 1`] = `
       ],
     }
   }
+  location={
+    Object {
+      "state": Object {
+        "url": "/test",
+      },
+    }
+  }
   match={
     Object {
       "params": Object {
@@ -58,10 +65,11 @@ exports[`render renders correctly 1`] = `
     <div
       to={
         Object {
-          "pathname": "/albums/123/success",
+          "pathname": "/test/success",
           "state": Object {
             "message": "Parabéns! Você ativou sua assinatura com sucesso.",
             "title": "Assinatura criada",
+            "url": "/test",
           },
         }
       }
