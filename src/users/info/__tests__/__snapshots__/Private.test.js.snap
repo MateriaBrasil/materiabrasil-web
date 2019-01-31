@@ -5,60 +5,21 @@ exports[`renders correctly 1`] = `
   <label
     className="MuiFormControlLabel-root-1"
   >
-    <span
-      className="MuiSwitch-root-5"
-    >
-      <span
-        className="MuiButtonBase-root-24 MuiIconButton-root-18 MuiSwitchBase-root-14 MuiSwitch-switchBase-8 MuiSwitch-colorSecondary-11"
-        onBlur={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        onTouchStart={[Function]}
-        role={undefined}
-        style={
-          Object {
-            "pointerEvents": "none",
-          }
+    <div
+      checked={undefined}
+      disabled={undefined}
+      onChange={[Function]}
+      style={
+        Object {
+          "pointerEvents": "none",
         }
-        tabIndex={null}
-      >
-        <span
-          className="MuiIconButton-label-23"
-        >
-          <span
-            className="MuiSwitch-icon-6"
-          />
-          <input
-            autoFocus={undefined}
-            checked={false}
-            className="MuiSwitchBase-input-17"
-            disabled={undefined}
-            id={undefined}
-            name={undefined}
-            onChange={[Function]}
-            readOnly={undefined}
-            required={undefined}
-            tabIndex={undefined}
-            type="checkbox"
-            value={undefined}
-          />
-        </span>
-        <span
-          className="MuiTouchRipple-root-62"
-        />
-      </span>
-      <span
-        className="MuiSwitch-bar-13"
-      />
-    </span>
+      }
+    >
+      Dialog - 
+       - 
+    </div>
     <span
-      className="MuiTypography-root-27 MuiTypography-body1-36 MuiFormControlLabel-label-4"
+      className="MuiTypography-root-5 MuiTypography-body1-14 MuiFormControlLabel-label-4"
     >
       Tornar perfil privado
     </span>

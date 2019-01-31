@@ -16,6 +16,12 @@ jest.mock('croods', () => ({
   ),
 }))
 
+jest.mock('@material-ui/core/Switch', () => props => (
+  <div {...props}>
+    Dialog - {props.children} - {props.onChange()}
+  </div>
+))
+
 it('renders correctly', () => {
   const props = { name: 'foo-name', bar: 'foo' }
   const tree = renderer.create(<Private {...props} />).toJSON()
