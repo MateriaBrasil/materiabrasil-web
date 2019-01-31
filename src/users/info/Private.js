@@ -10,18 +10,17 @@ export default class extends Component {
         style={{
           pointerEvents: 'none',
         }}
-        checked={this.props.publicProfile}
+        checked={info.publicProfile}
         onChange={() => {
           update({
             id: this.props.id,
-            publicProfile: !this.props.publicProfile,
+            publicProfile: !info.publicProfile,
           })
         }}
       />
     )
   }
   render() {
-    console.log(this.props)
     return (
       <Edit
         id={this.props.id}
