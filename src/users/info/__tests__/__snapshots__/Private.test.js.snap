@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <label
+    className="MuiFormControlLabel-root-1"
+  >
+    <div
+      checked={true}
+      disabled={undefined}
+      onChange={[Function]}
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+    >
+      Dialog - 
+       - 
+    </div>
+    <span
+      className="MuiTypography-root-5 MuiTypography-body1-14 MuiFormControlLabel-label-4"
+    >
+      Tornar privado
+    </span>
+  </label>
+</div>
+`;
