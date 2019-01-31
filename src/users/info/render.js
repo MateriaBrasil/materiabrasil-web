@@ -53,7 +53,10 @@ export default props => infoProps => {
             </Typography>
             {editPath && (
               <Fragment>
-                <Link style={{ textDecoration: 'none' }} to="/profile/edit">
+                <Link
+                  style={{ textDecoration: 'none', marginRight: 10 }}
+                  to="/profile/edit"
+                >
                   <Button variant="contained" color="primary">
                     Editar perfil
                   </Button>

@@ -29,7 +29,7 @@ export default class extends Component {
         render={({ info, update, updating, error }) => (
           <FormControlLabel
             control={this.switch(info, update)}
-            label="Tornar perfil privado"
+            label="Tornar privado"
           />
         )}
         renderUpdated={() => null}

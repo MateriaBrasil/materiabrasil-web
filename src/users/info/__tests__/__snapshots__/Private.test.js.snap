@@ -21,7 +21,7 @@ exports[`renders correctly 1`] = `
     <span
       className="MuiTypography-root-5 MuiTypography-body1-14 MuiFormControlLabel-label-4"
     >
-      Tornar perfil privado
+      Tornar privado
     </span>
   </label>
 </div>

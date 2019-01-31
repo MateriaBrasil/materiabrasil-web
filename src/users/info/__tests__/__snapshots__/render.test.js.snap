@@ -265,6 +265,7 @@ exports[`when user looks at her own profile renders correctly 1`] = `
       <div
         style={
           Object {
+            "marginRight": 10,
             "textDecoration": "none",
           }
         }
