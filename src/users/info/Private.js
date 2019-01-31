@@ -10,7 +10,7 @@ export default class extends Component {
         style={{
           pointerEvents: 'none',
         }}
-        checked={info.publicProfile}
+        checked={!info.publicProfile}
         onChange={() => {
           update({
             id: this.props.id,

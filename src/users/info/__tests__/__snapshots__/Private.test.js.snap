@@ -6,7 +6,7 @@ exports[`renders correctly 1`] = `
     className="MuiFormControlLabel-root-1"
   >
     <div
-      checked={undefined}
+      checked={true}
       disabled={undefined}
       onChange={[Function]}
       style={
