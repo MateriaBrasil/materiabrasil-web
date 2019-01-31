@@ -37,7 +37,14 @@ exports[`render renders correctly 1`] = `
             "textDecoration": "none",
           }
         }
-        to="/albums/123/premium/pay"
+        to={
+          Object {
+            "pathname": "/test/pay",
+            "state": Object {
+              "url": "/test",
+            },
+          }
+        }
       >
         Link - 
         <button

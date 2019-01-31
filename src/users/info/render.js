@@ -61,7 +61,27 @@ export default props => infoProps => {
                     Editar perfil
                   </Button>
                 </Link>
-                <Private {...props} {...infoProps} />
+                {currentUser.subscribed ? (
+                  <Fragment>
+                    <Private {...props} {...infoProps} />
+                  </Fragment>
+                ) : (
+                  <Fragment>
+                    <Link
+                      to={{
+                        pathname: `/profile/premium`,
+                        state: {
+                          url: `/profile`,
+                        },
+                      }}
+                      style={{
+                        textDecoration: 'none',
+                      }}
+                    >
+                      <Private {...props} {...infoProps} />
+                    </Link>
+                  </Fragment>
+                )}
               </Fragment>
             )}
           </div>

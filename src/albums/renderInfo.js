@@ -30,7 +30,12 @@ export default props => routeProps => {
                   <Fragment>
                     <Share {...props} {...routeProps} subscribed={false} />
                     <Link
-                      to={`/albums/${match.params.id}/premium`}
+                      to={{
+                        pathname: `/albums/${match.params.id}/premium`,
+                        state: {
+                          url: `/albums/${match.params.id}`,
+                        },
+                      }}
                       style={{
                         textDecoration: 'none',
                       }}

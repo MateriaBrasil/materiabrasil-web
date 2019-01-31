@@ -44,11 +44,12 @@ export default props => routeProps => {
               return (
                 <Redirect
                   to={{
-                    pathname: `/albums/${routeProps.match.params.id}/success`,
+                    pathname: `${routeProps.location.state.url}/success`,
                     state: {
                       title: 'Assinatura criada',
                       message:
                         'Parabéns! Você ativou sua assinatura com sucesso.',
+                      url: routeProps.location.state.url,
                     },
                   }}
                 />

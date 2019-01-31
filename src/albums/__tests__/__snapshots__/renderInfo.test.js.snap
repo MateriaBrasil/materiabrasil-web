@@ -44,7 +44,14 @@ exports[`renders correctly 1`] = `
         "textDecoration": "none",
       }
     }
-    to="/albums/undefined/premium"
+    to={
+      Object {
+        "pathname": "/albums/undefined/premium",
+        "state": Object {
+          "url": "/albums/undefined",
+        },
+      }
+    }
   >
     Link - 
     <div>
@@ -122,7 +129,14 @@ exports[`renders correctly with id 1`] = `
         "textDecoration": "none",
       }
     }
-    to="/albums/123/premium"
+    to={
+      Object {
+        "pathname": "/albums/123/premium",
+        "state": Object {
+          "url": "/albums/123",
+        },
+      }
+    }
   >
     Link - 
     <div>

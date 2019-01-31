@@ -9,7 +9,7 @@ export default props => routeProps => {
       {...routeProps}
       title={routeProps.location.state.title}
       onCloseModel={() => {
-        routeProps.history.push(`/albums/${routeProps.match.params.id}`)
+        routeProps.history.push(routeProps.location.state.url)
       }}
     >
       <Typography variant="h5" color="inherit">

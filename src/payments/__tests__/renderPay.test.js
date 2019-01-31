@@ -23,7 +23,10 @@ jest.mock('react-router-dom/Redirect', () => props => (
   <div {...props}>Redirect</div>
 ))
 
-const routeProps = { match: { params: { id: 123 } } }
+const routeProps = {
+  match: { params: { id: 123 } },
+  location: { state: { url: '/test' } },
+}
 const props = {
   currentUser: { albums: [{ id: 1, name: '123' }, { id: 2, name: '345' }] },
   setCurrentUser: jest.fn(),
