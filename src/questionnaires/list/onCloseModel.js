@@ -1,3 +1,5 @@
 export default props => () => {
-  props.history.push(`/materials/${props.match.params.id}?reload=true`)
+  props.history.push(
+    `/${props.aboutType.toLowerCase()}s/${props.match.params.id}?reload=true`,
+  )
 }
