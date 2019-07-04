@@ -1,16 +1,15 @@
 import React from 'react'
+import FormControlLabel from '@material-ui/core/FormControlLabel'
 import Radio from '@material-ui/core/Radio'
 import find from 'lodash/find'
-import FormControlLabel from '@material-ui/core/FormControlLabel'
+import get from 'lodash/get'
+
 import createWithParams from './createWithParams'
 
 export default (props, question) => option => {
   const value = option.value ? option.value.toString() : ''
   const aboutId = props.match.params.id.toString()
-  const supplier =
-    props.currentUser && props.currentUser.suppliers
-      ? props.currentUser.suppliers[0]
-      : {}
+  const supplier = get(props, 'currentUser.suppliers[0]', {})
 
   let editable = false
 
