@@ -7,9 +7,10 @@ import createWithParams from './createWithParams'
 export default (props, question) => option => {
   const value = option.value ? option.value.toString() : ''
   const aboutId = props.match.params.id.toString()
-  const supplier = props.currentUser.suppliers
-    ? props.currentUser.suppliers[0]
-    : {}
+  const supplier =
+    props.currentUser && props.currentUser.suppliers
+      ? props.currentUser.suppliers[0]
+      : {}
 
   let editable = false
 
