@@ -3,7 +3,7 @@
 exports[`renders correctly 1`] = `
 <div
   afterResponse={[Function]}
-  baseUrl="https://materiamundi-production.herokuapp.com"
+  baseUrl="https://foobar.com"
   headers={[Function]}
   renderError={[Function]}
   renderLoading={[Function]}
