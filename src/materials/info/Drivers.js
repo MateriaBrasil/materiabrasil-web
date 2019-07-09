@@ -27,18 +27,24 @@ export default withStyles(chartsStyle)(props => {
   const DRIVER_MIN_NUMBER = 0
   const DRIVER_MAX_NUMBER = 4
 
-  const normalizedNumber = number =>
-    number > DRIVER_MAX_NUMBER ? DRIVER_MAX_NUMBER : number
-
-  const isValidNumber = number =>
-    normalizedNumber(number) >= DRIVER_MIN_NUMBER &&
-    normalizedNumber(number) <= DRIVER_MAX_NUMBER
+  const normalizedNumber = number => {
+    if (number < DRIVER_MIN_NUMBER) {
+      return DRIVER_MIN_NUMBER
+    }
+    if (number > DRIVER_MAX_NUMBER) {
+      return DRIVER_MAX_NUMBER
+    }
+    return number
+  }
 
   const hasDrivers =
-    isValidNumber(materialityDriver) &&
-    isValidNumber(manufactureDriver) &&
-    isValidNumber(managementDriver) &&
-    isValidNumber(socialDriver)
+    normalizedNumber(materialityDriver) ||
+    normalizedNumber(manufactureDriver) ||
+    normalizedNumber(managementDriver) ||
+    normalizedNumber(socialDriver)
+
+  const hasAllDrivers =
+    materialityDriver && manufactureDriver && managementDriver && socialDriver
 
   const data = [
     { subject: drivers[0].name, value: normalizedNumber(materialityDriver) },
@@ -57,7 +63,7 @@ export default withStyles(chartsStyle)(props => {
         >
           Características
         </Typography>
-        {hasDrivers && (
+        {hasAllDrivers && (
           <Button
             color="primary"
             style={{ float: 'right' }}

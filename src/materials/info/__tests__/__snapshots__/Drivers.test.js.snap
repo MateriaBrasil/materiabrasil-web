@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`when the material has all indicator renders correctly 1`] = `
 Array [
   <div
     style={
@@ -97,6 +97,119 @@ Array [
                 Object {
                   "subject": "Humano social",
                   "value": 4,
+                },
+              ]
+        }
+        outerRadius="50%"
+    >
+        RadarChart - 
+        <div>
+            PolarGrid - 
+        </div>
+        <div
+            dataKey="subject"
+        >
+            PolarAngleAxis - 
+        </div>
+        <div
+            domain={
+                Array [
+                    0,
+                    4,
+                  ]
+            }
+            tick={false}
+        >
+            PolarAngleAxis - 
+        </div>
+        <div
+            dataKey="value"
+            fill="#239eb1"
+            fillOpacity={0.6}
+            name="Mike"
+            stroke="#239eb1"
+        >
+            Radar - 
+        </div>
+    </div>
+</div>,
+]
+`;
+
+exports[`when the material has no indicators renders correctly 1`] = `
+Array [
+  <div
+    style={
+        Object {
+            "overflow": "auto",
+          }
+    }
+>
+    <h6
+        className="MuiTypography-root-2 MuiTypography-h6-19 MuiTypography-colorTextSecondary-35"
+        style={
+            Object {
+                "float": "left",
+                "marginTop": 8,
+              }
+        }
+    >
+        Características
+    </h6>
+</div>,
+  <p
+    className="MuiTypography-root-2 MuiTypography-body1-11"
+>
+    Este material ainda não possui indicadores
+</p>,
+]
+`;
+
+exports[`when the material has only 1 indicator at least renders correctly 1`] = `
+Array [
+  <div
+    style={
+        Object {
+            "overflow": "auto",
+          }
+    }
+>
+    <h6
+        className="MuiTypography-root-2 MuiTypography-h6-19 MuiTypography-colorTextSecondary-35"
+        style={
+            Object {
+                "float": "left",
+                "marginTop": 8,
+              }
+        }
+    >
+        Características
+    </h6>
+</div>,
+  <div
+    height={320}
+    width="100%"
+>
+    ResponsiveContainer - 
+    <div
+        className="Component-radar-1"
+        data={
+            Array [
+                Object {
+                  "subject": "Materialidade",
+                  "value": 4,
+                },
+                Object {
+                  "subject": "Manufatura",
+                  "value": 0,
+                },
+                Object {
+                  "subject": "Gestão e governança",
+                  "value": null,
+                },
+                Object {
+                  "subject": "Humano social",
+                  "value": null,
                 },
               ]
         }
