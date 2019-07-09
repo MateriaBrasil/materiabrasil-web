@@ -23,13 +23,41 @@ jest.mock('recharts', () => ({
   Legend: ({ children, ...props }) => <div {...props}>Legend - {children}</div>,
 }))
 
-it('renders correctly', () => {
-  const props = {
-    materialityDriver: 50,
-    manufactureDriver: 50,
-    managementDriver: 50,
-    socialDriver: 50,
-  }
-  const tree = renderer.create(<Drivers {...props} />).toJSON()
-  expect(tree).toMatchSnapshot()
+describe('when the material has all indicator', () => {
+  it('renders correctly', () => {
+    const props = {
+      materialityDriver: 50,
+      manufactureDriver: 50,
+      managementDriver: 50,
+      socialDriver: 50,
+    }
+    const tree = renderer.create(<Drivers {...props} />).toJSON()
+    expect(tree).toMatchSnapshot()
+  })
+})
+
+describe('when the material has only 1 indicator at least', () => {
+  it('renders correctly', () => {
+    const props = {
+      materialityDriver: 50,
+      manufactureDriver: null,
+      managementDriver: null,
+      socialDriver: null,
+    }
+    const tree = renderer.create(<Drivers {...props} />).toJSON()
+    expect(tree).toMatchSnapshot()
+  })
+})
+
+describe('when the material has no indicators', () => {
+  it('renders correctly', () => {
+    const props = {
+      materialityDriver: null,
+      manufactureDriver: null,
+      managementDriver: null,
+      socialDriver: null,
+    }
+    const tree = renderer.create(<Drivers {...props} />).toJSON()
+    expect(tree).toMatchSnapshot()
+  })
 })
