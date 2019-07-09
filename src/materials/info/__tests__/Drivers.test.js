@@ -40,7 +40,7 @@ describe('when the material has only 1 indicator at least', () => {
   it('renders correctly', () => {
     const props = {
       materialityDriver: 50,
-      manufactureDriver: null,
+      manufactureDriver: -3,
       managementDriver: null,
       socialDriver: null,
     }
