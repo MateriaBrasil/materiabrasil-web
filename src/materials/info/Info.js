@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react'
 import find from 'lodash/find'
 import Grid from '@material-ui/core/Grid'
 import { Helmet } from 'react-helmet'
+import get from 'lodash/get'
 
 import Comments from '../../comments/Comments'
 
@@ -22,7 +23,7 @@ export default class extends Component {
     const { suppliers } = currentUser || {}
     const editable =
       find(suppliers, supplier => supplier.id === supplierId) ||
-      currentUser.admin
+      get(currentUser, 'admin', false)
 
     return (
       <Fragment>
