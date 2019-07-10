@@ -9,10 +9,13 @@ import AnswerQuestionnaire from './AnswerQuestionnaire'
 export default props => {
   const { current, currentUser } = props
   const { userId, id, name, imageUrl } = current
-  const editPath =
-    (get(currentUser, 'admin', false) ||
-      (currentUser && userId === currentUser.id)) &&
-    `/suppliers/${id}/avatar`
+  let editPath = ''
+  if (
+    get(currentUser, 'admin', false) ||
+    get(currentUser, 'id', 0) === userId
+  ) {
+    editPath = `/suppliers/${id}/avatar`
+  }
 
   return (
     <Grid item xs={12} sm={4} md={4} lg={3} xl={2}>

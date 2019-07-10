@@ -7,7 +7,8 @@ export default props => {
   const { id, currentUser, supplier } = props
   const editable =
     get(currentUser, 'admin', false) ||
-    (currentUser && currentUser.id.toString() === supplier.userId.toString())
+    get(supplier, 'userId', 'supplierNoExist').toString() ===
+      get(currentUser, 'id', 'currentUserNoExist').toString()
 
   return (
     <Link

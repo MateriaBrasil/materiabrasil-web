@@ -7,7 +7,8 @@ export default props => {
   const { currentUser, supplier } = props
   const editProfile =
     get(currentUser, 'admin', false) ||
-    (currentUser && currentUser.id.toString() === supplier.userId.toString())
+    get(currentUser, 'id', 'currentUserNoExist').toString() ===
+      get(supplier, 'userId', 'supplierNoExist').toString()
 
   return editProfile ? (
     <Link

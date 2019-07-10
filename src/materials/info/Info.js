@@ -1,14 +1,13 @@
 import React, { Component, Fragment } from 'react'
-import find from 'lodash/find'
 import Grid from '@material-ui/core/Grid'
 import { Helmet } from 'react-helmet'
+import find from 'lodash/find'
 import get from 'lodash/get'
 
-import Comments from '../../comments/Comments'
-
 import checkReloadAndFetch from '../../checkReloadAndFetch'
-import CoverImage from './CoverImage'
+import Comments from '../../comments/Comments'
 import Description from './Description'
+import CoverImage from './CoverImage'
 import Sidebar from './Sidebar'
 import Images from './Images'
 
