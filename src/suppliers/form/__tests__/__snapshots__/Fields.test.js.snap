@@ -120,13 +120,35 @@ Array [
     TextField
 </div>,
   <div
-    format={[Function]}
-    label="Quantidade de funcionários"
-    name="numberOfEmployees"
-    parse={[Function]}
-    type="number"
+    label="Tipo de empresa"
+    name="typeOfCompany"
+    options={
+        Array [
+            Object {
+              "label": "P (1-99 Funcionários)",
+              "value": "1",
+            },
+            Object {
+              "label": "M (100-499 Funcionários)",
+              "value": "2",
+            },
+            Object {
+              "label": "G (500+ Funcionários)",
+              "value": "3",
+            },
+            Object {
+              "label": "Serviços",
+              "value": "4",
+            },
+          ]
+    }
+    validate={
+        Array [
+            [Function],
+          ]
+    }
 >
-    TextField
+    SelectField
 </div>,
   <div
     label="Qual é o alcance de sua empresa?"
