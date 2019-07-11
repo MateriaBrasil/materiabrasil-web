@@ -14,12 +14,15 @@ export default (props, question) => option => {
   let editable = false
 
   if (props.aboutType === 'Supplier') {
-    editable = supplier.id.toString() === aboutId
+    editable =
+      get(supplier, 'id', '0').toString() === aboutId ||
+      get(props, 'currentUser.admin', false)
   } else if (props.aboutType === 'Material') {
-    editable = find(
-      supplier.materials,
-      material => material.id.toString() === aboutId,
-    )
+    editable =
+      find(
+        supplier.materials,
+        material => get(material, 'id', '0').toString() === aboutId,
+      ) || get(props, 'currentUser.admin', false)
   }
 
   return (
