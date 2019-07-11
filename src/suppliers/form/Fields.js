@@ -3,8 +3,6 @@ import { required, email } from 'redux-form-validators'
 
 import TextField from '../../form/TextField'
 import SelectField from '../../form/SelectField'
-import parseValue from './parseValue'
-import formatValue from './formatValue'
 
 export default () => (
   <Fragment>
