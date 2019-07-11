@@ -313,7 +313,7 @@ exports[`with materials renders correctly 1`] = `
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-4-47 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-2-87"
   >
     <div
-      editPath={undefined}
+      editPath=""
       imageUrl="/foo/url"
       name="foo-name"
     >
@@ -527,7 +527,7 @@ exports[`without currentUser renders correctly 1`] = `
     className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-4-47 MuiGrid-grid-md-4-61 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-2-87"
   >
     <div
-      editPath={undefined}
+      editPath=""
       imageUrl="/foo/url"
       name="foo-name"
     >
