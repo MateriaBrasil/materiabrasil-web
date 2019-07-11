@@ -63,12 +63,16 @@ export default () => (
       label="Faturamento aproximado do último exercício"
       type="text"
     />
-    <TextField
-      name="numberOfEmployees"
-      label="Quantidade de funcionários"
-      type="number"
-      parse={parseValue}
-      format={formatValue}
+    <SelectField
+      name="typeOfCompany"
+      label="Tipo de empresa"
+      options={[
+        { value: '1', label: 'P (1-99 Funcionários)' },
+        { value: '2', label: 'M (100-499 Funcionários)' },
+        { value: '3', label: 'G (500+ Funcionários)' },
+        { value: '4', label: 'Serviços' },
+      ]}
+      validate={[required()]}
     />
     <SelectField
       name="reach"
