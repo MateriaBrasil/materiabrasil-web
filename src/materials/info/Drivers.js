@@ -63,7 +63,7 @@ export default withStyles(chartsStyle)(props => {
         >
           Características
         </Typography>
-        {hasAllDrivers && (
+        {!!hasAllDrivers && (
           <Button
             color="primary"
             style={{ float: 'right' }}
