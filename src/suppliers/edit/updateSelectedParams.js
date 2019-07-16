@@ -12,7 +12,7 @@ const whitelist = [
   'stateSubscription',
   'phone',
   'companyRevenue',
-  'numberOfEmployees',
+  'typeOfCompany',
   'reach',
 ]
 

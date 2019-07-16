@@ -126,19 +126,19 @@ Array [
         Array [
             Object {
               "label": "P (1-99 Funcionários)",
-              "value": "1",
+              "value": 1,
             },
             Object {
               "label": "M (100-499 Funcionários)",
-              "value": "2",
+              "value": 2,
             },
             Object {
               "label": "G (500+ Funcionários)",
-              "value": "3",
+              "value": 3,
             },
             Object {
               "label": "Serviços",
-              "value": "4",
+              "value": 4,
             },
           ]
     }
