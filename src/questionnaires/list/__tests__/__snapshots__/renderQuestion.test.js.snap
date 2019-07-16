@@ -3,6 +3,11 @@
 exports[`render correctly 1`] = `
 <div
   className="MuiFormGroup-root-1"
+  style={
+    Object {
+      "marginBottom": "40px",
+    }
+  }
 >
   <h6
     className="MuiTypography-root-3 MuiTypography-subtitle1-21"
