@@ -13,7 +13,7 @@ const params = {
   stateSubscription: 'foo-subs',
   phone: '(00) 0000 0000',
   companyRevenue: 'foo-revenue',
-  numberOfEmployees: null,
+  typeOfCompany: null,
   reach: 'Country',
 }
 
