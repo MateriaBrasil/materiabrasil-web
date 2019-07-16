@@ -15,7 +15,7 @@ export default props => question => {
   const answerOption = findOption(answer, question)
 
   return (
-    <FormGroup key={description}>
+    <FormGroup key={description} style={{ marginBottom: '40px' }}>
       <Typography variant="subtitle1">{description}</Typography>
       <FormControl component="fieldset">
         <RadioGroup
