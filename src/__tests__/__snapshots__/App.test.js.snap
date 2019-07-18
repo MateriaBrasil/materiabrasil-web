@@ -3,7 +3,7 @@
 exports[`renders correctly 1`] = `
 <div
   afterResponse={[Function]}
-  baseUrl="https://foobar.com"
+  baseUrl="https://foo-api.com"
   headers={[Function]}
   renderError={[Function]}
   renderLoading={[Function]}

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`render correctly 1`] = `
+exports[`when it page are displayed on a desktop screen renders correctly 1`] = `
 <div
   className="MuiFormGroup-root-1"
   style={
@@ -11,9 +11,77 @@ exports[`render correctly 1`] = `
 >
   <h6
     className="MuiTypography-root-3 MuiTypography-subtitle1-21"
-  />
+  >
+    FooBar foo bar
+    <svg
+      aria-describedby={null}
+      aria-hidden="true"
+      className="MuiSvgIcon-root-45 MuiSvgIcon-colorPrimary-46"
+      color={undefined}
+      focusable="false"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOver={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      role="presentation"
+      style={
+        Object {
+          "fontSize": "18px",
+          "margin": "0px 0 -3px 6px",
+        }
+      }
+      title="helper foo bar"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"
+      />
+    </svg>
+  </h6>
   <fieldset
-    className="MuiFormControl-root-38"
+    className="MuiFormControl-root-54"
+  >
+    <div
+      aria-label="Questionnarie Options"
+      className="MuiFormGroup-root-1"
+      role="radiogroup"
+    />
+  </fieldset>
+</div>
+`;
+
+exports[`when it page are displayed on a mobile screen renders correctly 1`] = `
+<div
+  className="MuiFormGroup-root-1"
+  style={
+    Object {
+      "marginBottom": "40px",
+    }
+  }
+>
+  <h6
+    className="MuiTypography-root-3 MuiTypography-subtitle1-21"
+  >
+    FooBar foo bar
+    <span
+      className="MuiTypography-root-3 MuiTypography-caption-13"
+      style={
+        Object {
+          "color": "#757575",
+        }
+      }
+    >
+      helper foo bar
+    </span>
+  </h6>
+  <fieldset
+    className="MuiFormControl-root-54"
   >
     <div
       aria-label="Questionnarie Options"
