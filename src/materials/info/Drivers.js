@@ -25,7 +25,7 @@ export default withStyles(chartsStyle)(props => {
   } = props
 
   const DRIVER_MIN_NUMBER = 0
-  const DRIVER_MAX_NUMBER = 4
+  const DRIVER_MAX_NUMBER = 100
 
   const normalizedNumber = number => {
     if (number < DRIVER_MIN_NUMBER) {
@@ -82,7 +82,10 @@ export default withStyles(chartsStyle)(props => {
           >
             <PolarGrid />
             <PolarAngleAxis dataKey="subject" />
-            <PolarRadiusAxis domain={[0, 4]} tick={false} />
+            <PolarRadiusAxis
+              domain={[DRIVER_MIN_NUMBER, DRIVER_MAX_NUMBER]}
+              tick={false}
+            />
             <Radar
               name="Mike"
               dataKey="value"
