@@ -84,19 +84,19 @@ Array [
             Array [
                 Object {
                   "subject": "Materialidade",
-                  "value": 4,
+                  "value": 32,
                 },
                 Object {
                   "subject": "Manufatura",
-                  "value": 4,
+                  "value": 42,
                 },
                 Object {
                   "subject": "Gestão e governança",
-                  "value": 4,
+                  "value": 57,
                 },
                 Object {
                   "subject": "Humano social",
-                  "value": 4,
+                  "value": 93,
                 },
               ]
         }
@@ -115,7 +115,7 @@ Array [
             domain={
                 Array [
                     0,
-                    4,
+                    100,
                   ]
             }
             tick={false}
@@ -197,7 +197,7 @@ Array [
             Array [
                 Object {
                   "subject": "Materialidade",
-                  "value": 4,
+                  "value": 45,
                 },
                 Object {
                   "subject": "Manufatura",
@@ -228,7 +228,7 @@ Array [
             domain={
                 Array [
                     0,
-                    4,
+                    100,
                   ]
             }
             tick={false}
