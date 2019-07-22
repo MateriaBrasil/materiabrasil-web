@@ -10,7 +10,7 @@ import TextField from '../../form/TextField'
 import createWithParams from './createWithParams'
 
 export default reduxForm({ form: 'forgotPassword' })(props => {
-  const { title, handleSubmit, create, creating, error } = props
+  const { title, handleSubmit, create, creating, error, apiError } = props
 
   return (
     <SingleColumn>
@@ -23,6 +23,7 @@ export default reduxForm({ form: 'forgotPassword' })(props => {
           validate={[required(), email()]}
         />
         {error && <Error>{error}</Error>}
+        {apiError && <Error>{apiError}</Error>}
         <Button
           variant="contained"
           color="primary"
