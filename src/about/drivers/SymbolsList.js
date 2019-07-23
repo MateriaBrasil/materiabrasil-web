@@ -1,15 +1,15 @@
 import React, { Fragment } from 'react'
-import { withStyles } from '@material-ui/core/styles'
 
-import gridStyle from '../gridStyle'
 import Symbol from './Symbol'
 import Questionnaire from './Questionnaire'
-import socialHumanQuestions from './socialHumanQuestions'
-import managementAndGovernanceQuestions from './managementAndGovernanceQuestions'
-import manufacturingQuestions from './manufacturingQuestions'
-import materialiteQuestions from './materialiteQuestions'
+import withDriversQuestions from './withDriversQuestions'
 
-export default withStyles(gridStyle)(() => (
+const SymbolList = ({
+  materialiteQuestions,
+  manufacturingQuestions,
+  managementAndGovernanceQuestions,
+  socialHumanQuestions,
+}) => (
   <Fragment>
     <Symbol
       imageUrl="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-02.png"
@@ -47,4 +47,6 @@ export default withStyles(gridStyle)(() => (
       <Questionnaire title="Humano Social" list={socialHumanQuestions} />
     </Symbol>
   </Fragment>
-))
+)
+
+export default withDriversQuestions(SymbolList)
