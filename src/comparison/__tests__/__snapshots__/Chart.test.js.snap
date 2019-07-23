@@ -122,7 +122,7 @@ exports[`renders correctly 1`] = `
               domain={
                 Array [
                   0,
-                  4,
+                  100,
                 ]
               }
               tick={false}
