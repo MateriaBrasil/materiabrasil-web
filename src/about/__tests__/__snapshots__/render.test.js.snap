@@ -1029,7 +1029,7 @@ Array [
                         }
                     >
                         <button
-                            className="MuiButtonBase-root-174 MuiButton-root-148 MuiButton-text-150 MuiButton-flat-153 Component-button-147"
+                            className="MuiButtonBase-root-173 MuiButton-root-147 MuiButton-text-149 MuiButton-flat-152 Component-button-146"
                             disabled={false}
                             onBlur={[Function]}
                             onFocus={[Function]}
@@ -1045,7 +1045,7 @@ Array [
                             type="button"
                         >
                             <span
-                                className="MuiButton-label-149"
+                                className="MuiButton-label-148"
                             >
                                 <img
                                     alt="Materialidade"
@@ -1054,17 +1054,17 @@ Array [
                                 />
                             </span>
                             <span
-                                className="MuiTouchRipple-root-192"
+                                className="MuiTouchRipple-root-191"
                             />
                         </button>
                     </div>
                     <h6
-                        className="MuiTypography-root-102 MuiTypography-h6-119 Component-style-177"
+                        className="MuiTypography-root-102 MuiTypography-h6-119 Component-style-176"
                     >
                         Materialidade
                     </h6>
                     <p
-                        className="MuiTypography-root-102 MuiTypography-body1-111 Component-style-177"
+                        className="MuiTypography-root-102 MuiTypography-body1-111 Component-style-176"
                     >
                         Neste direcionador analisamos o processo de fabricação utilizado pela empresa e seus impactos.
                     </p>
@@ -1085,7 +1085,7 @@ Array [
                         }
                     >
                         <button
-                            className="MuiButtonBase-root-174 MuiButton-root-148 MuiButton-text-150 MuiButton-flat-153 Component-button-147"
+                            className="MuiButtonBase-root-173 MuiButton-root-147 MuiButton-text-149 MuiButton-flat-152 Component-button-146"
                             disabled={false}
                             onBlur={[Function]}
                             onFocus={[Function]}
@@ -1101,7 +1101,7 @@ Array [
                             type="button"
                         >
                             <span
-                                className="MuiButton-label-149"
+                                className="MuiButton-label-148"
                             >
                                 <img
                                     alt="Manufatura"
@@ -1110,17 +1110,17 @@ Array [
                                 />
                             </span>
                             <span
-                                className="MuiTouchRipple-root-192"
+                                className="MuiTouchRipple-root-191"
                             />
                         </button>
                     </div>
                     <h6
-                        className="MuiTypography-root-102 MuiTypography-h6-119 Component-style-177"
+                        className="MuiTypography-root-102 MuiTypography-h6-119 Component-style-176"
                     >
                         Manufatura
                     </h6>
                     <p
-                        className="MuiTypography-root-102 MuiTypography-body1-111 Component-style-177"
+                        className="MuiTypography-root-102 MuiTypography-body1-111 Component-style-176"
                     >
                         Neste direcionador analisamos a composição do produto e a forma como foi projetado.
                     </p>
@@ -1141,7 +1141,7 @@ Array [
                         }
                     >
                         <button
-                            className="MuiButtonBase-root-174 MuiButton-root-148 MuiButton-text-150 MuiButton-flat-153 Component-button-147"
+                            className="MuiButtonBase-root-173 MuiButton-root-147 MuiButton-text-149 MuiButton-flat-152 Component-button-146"
                             disabled={false}
                             onBlur={[Function]}
                             onFocus={[Function]}
@@ -1157,7 +1157,7 @@ Array [
                             type="button"
                         >
                             <span
-                                className="MuiButton-label-149"
+                                className="MuiButton-label-148"
                             >
                                 <img
                                     alt="Gestão e governança"
@@ -1166,17 +1166,17 @@ Array [
                                 />
                             </span>
                             <span
-                                className="MuiTouchRipple-root-192"
+                                className="MuiTouchRipple-root-191"
                             />
                         </button>
                     </div>
                     <h6
-                        className="MuiTypography-root-102 MuiTypography-h6-119 Component-style-177"
+                        className="MuiTypography-root-102 MuiTypography-h6-119 Component-style-176"
                     >
                         Gestão e governança
                     </h6>
                     <p
-                        className="MuiTypography-root-102 MuiTypography-body1-111 Component-style-177"
+                        className="MuiTypography-root-102 MuiTypography-body1-111 Component-style-176"
                     >
                         Neste direcionador analisamos como a empresa está estruturada e como se relaciona com seus colaboradores.
                     </p>
@@ -1197,7 +1197,7 @@ Array [
                         }
                     >
                         <button
-                            className="MuiButtonBase-root-174 MuiButton-root-148 MuiButton-text-150 MuiButton-flat-153 Component-button-147"
+                            className="MuiButtonBase-root-173 MuiButton-root-147 MuiButton-text-149 MuiButton-flat-152 Component-button-146"
                             disabled={false}
                             onBlur={[Function]}
                             onFocus={[Function]}
@@ -1213,7 +1213,7 @@ Array [
                             type="button"
                         >
                             <span
-                                className="MuiButton-label-149"
+                                className="MuiButton-label-148"
                             >
                                 <img
                                     alt="Humano Social"
@@ -1222,17 +1222,17 @@ Array [
                                 />
                             </span>
                             <span
-                                className="MuiTouchRipple-root-192"
+                                className="MuiTouchRipple-root-191"
                             />
                         </button>
                     </div>
                     <h6
-                        className="MuiTypography-root-102 MuiTypography-h6-119 Component-style-177"
+                        className="MuiTypography-root-102 MuiTypography-h6-119 Component-style-176"
                     >
                         Humano Social
                     </h6>
                     <p
-                        className="MuiTypography-root-102 MuiTypography-body1-111 Component-style-177"
+                        className="MuiTypography-root-102 MuiTypography-body1-111 Component-style-176"
                     >
                         Neste direcionador analisamos como a empresa contribui para melhor a sociedade na qual está inserida.
                     </p>
