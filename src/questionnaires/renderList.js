@@ -9,7 +9,7 @@ export default props => routeProps => {
     <List
       id={id}
       name="questionnaires"
-      path={`/questionnaires?about_type=${props.aboutType}`}
+      path={`/questionnaires?about_type=${props.aboutType}&about_id=${id}`}
       render={renderList({ ...props, ...routeProps })}
     />
   )
