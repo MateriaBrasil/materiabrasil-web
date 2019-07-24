@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  disableCache={true}
+  name="questionnaires"
+  path="/questionnaires"
+  render={[Function]}
+>
+  List -
+   
+  <div
+    foo="bar"
+    managementAndGovernanceQuestions={
+      Array [
+        Object {
+          "description": "question description",
+          "id": 2,
+        },
+      ]
+    }
+    manufacturingQuestions={
+      Array [
+        Object {
+          "description": "question description",
+          "id": 3,
+        },
+      ]
+    }
+    materialiteQuestions={
+      Array [
+        Object {
+          "description": "question description",
+          "id": 4,
+        },
+      ]
+    }
+    socialHumanQuestions={
+      Array [
+        Object {
+          "description": "question description",
+          "id": 1,
+        },
+      ]
+    }
+  >
+    React Component
+  </div>
+</div>
+`;

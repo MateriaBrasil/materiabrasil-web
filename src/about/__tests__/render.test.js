@@ -6,7 +6,7 @@ import render from '../render'
 jest.mock('react-router-dom/Link', () => props => (
   <div {...props}>Link - {props.children}</div>
 ))
-
+jest.mock('../drivers/withDriversQuestions', () => Component => Component)
 jest.mock('../../navBar/NavBar', () => props => <div {...props}>NavBar</div>)
 
 it('renders correctly', () => {

@@ -11,11 +11,11 @@ it('renders correctly', () => {
   const list = [
     {
       id: 1,
-      question: 'Foo',
+      description: 'Foo',
     },
     {
       id: 2,
-      question: 'Bar',
+      description: 'Bar',
     },
   ]
   const tree = renderer
