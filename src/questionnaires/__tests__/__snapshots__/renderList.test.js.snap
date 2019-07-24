@@ -4,7 +4,7 @@ exports[`renders correctly 1`] = `
 <div
   id={123}
   name="questionnaires"
-  path="/questionnaires?about_type=foo"
+  path="/questionnaires?about_type=foo&about_id=123"
   render={[Function]}
 />
 `;
