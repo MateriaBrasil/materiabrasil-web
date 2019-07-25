@@ -8,6 +8,7 @@ import Error from 'Error'
 import SingleColumn from '../../SingleColumn'
 import TextField from '../../form/TextField'
 import createWithParams from './createWithParams'
+import Loading from '../../Loading'
 
 export default reduxForm({ form: 'forgotPassword' })(props => {
   const { title, handleSubmit, create, creating, error, apiError } = props
@@ -24,15 +25,19 @@ export default reduxForm({ form: 'forgotPassword' })(props => {
         />
         {error && <Error>{error}</Error>}
         {apiError && <Error>{apiError}</Error>}
-        <Button
-          variant="contained"
-          color="primary"
-          type="submit"
-          disabled={creating}
-          style={{ width: '100%', marginTop: '20px' }}
-        >
-          Enviar
-        </Button>
+        {creating ? (
+          <Loading style={{ width: '100%' }} />
+        ) : (
+          <Button
+            variant="contained"
+            color="primary"
+            type="submit"
+            disabled={creating}
+            style={{ width: '100%', marginTop: '20px' }}
+          >
+            Enviar
+          </Button>
+        )}
       </form>
     </SingleColumn>
   )
