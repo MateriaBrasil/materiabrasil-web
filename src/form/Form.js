@@ -6,6 +6,7 @@ import CardActions from '@material-ui/core/CardActions'
 import Button from '@material-ui/core/Button'
 
 import Error from 'Error'
+import Loading from '../Loading'
 
 import './errorMessages'
 
@@ -18,15 +19,18 @@ export default props => {
         {title && <CardHeader title={title} />}
         <CardContent>{children}</CardContent>
         <CardActions style={{ paddingBottom: 16 }}>
-          <Button
-            variant="contained"
-            color="primary"
-            type="submit"
-            disabled={submitting}
-            style={{ width: '100%' }}
-          >
-            {callToAction}
-          </Button>
+          {submitting ? (
+            <Loading style={{ width: '100%' }} />
+          ) : (
+            <Button
+              type="submit"
+              style={{ width: '100%' }}
+              color="primary"
+              variant="contained"
+            >
+              {callToAction}
+            </Button>
+          )}
         </CardActions>
         <Error>{error}</Error>
       </form>
