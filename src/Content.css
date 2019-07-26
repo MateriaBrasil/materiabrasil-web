@@ -1,10 +1,10 @@
 .content {
   padding: 20px;
   width: 100%;
+  min-height: 800px;
 }
 
-@media (min-width: 960px)
-{
+@media (min-width: 960px) {
   .content {
     padding: 40px;
   }
