@@ -27,7 +27,7 @@ exports[`renders correctly 1`] = `
     <span
       className="MuiButton-label-2"
     >
-      Recalcular
+      Recalcular drivers
     </span>
     <span
       className="MuiTouchRipple-root-70"
@@ -47,7 +47,7 @@ exports[`renders correctly 1`] = `
       <h2
         className="MuiTypography-root-31 MuiTypography-title-37"
       >
-        Recalcular ?
+        Tem certeza?
       </h2>
     </div>
     <div
@@ -91,7 +91,6 @@ exports[`renders correctly 1`] = `
       </button>
       <div
         className="MuiDialogActions-action-69"
-        debugRequests={true}
         name="recalculate"
         path="/recalculate_topsis"
         render={[Function]}

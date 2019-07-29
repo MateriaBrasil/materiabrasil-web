@@ -45,7 +45,7 @@ Array [
 ]
 `;
 
-exports[`when is loading renders correctly 1`] = `
+exports[`when it is loading renders correctly 1`] = `
 <div
   style={
     Object {
