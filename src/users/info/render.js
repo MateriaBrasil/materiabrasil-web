@@ -64,7 +64,6 @@ export default props => infoProps => {
                     Editar perfil
                   </Button>
                 </Link>
-                {isAdminProfile && <RecalculateTopsis {...props} />}
                 {currentUser.subscribed ? (
                   <Fragment>
                     <Private {...props} {...infoProps} />
@@ -137,6 +136,7 @@ export default props => infoProps => {
                 style={{ marginTop: 16 }}
               />
               <MessageButton id={id} type="users" />
+              {isAdminProfile && <RecalculateTopsis {...props} />}
             </CardContent>
           </Card>
         </Grid>
