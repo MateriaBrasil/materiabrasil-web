@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <button
+    className="MuiButtonBase-root-27 MuiButton-root-1 MuiButton-outlined-9 MuiButton-outlinedPrimary-10"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    style={
+      Object {
+        "marginTop": "15px",
+      }
+    }
+    tabIndex="0"
+    type="button"
+  >
+    <span
+      className="MuiButton-label-2"
+    >
+      Recalcular
+    </span>
+    <span
+      className="MuiTouchRipple-root-70"
+    />
+  </button>
+  <div
+    aria-describedby="alert-dialog-description"
+    aria-labelledby="alert-dialog-title"
+    onClose={[Function]}
+    open={false}
+  >
+    Dialog - 
+    <div
+      className="MuiDialogTitle-root-30"
+      id="alert-dialog-title"
+    >
+      <h2
+        className="MuiTypography-root-31 MuiTypography-title-37"
+      >
+        Recalcular ?
+      </h2>
+    </div>
+    <div
+      className="MuiDialogContent-root-66"
+    >
+      <p
+        className="MuiTypography-root-31 MuiDialogContentText-root-67 MuiTypography-subheading-38 MuiTypography-colorTextSecondary-64"
+        id="alert-dialog-description"
+      >
+        Todos os drivers de todos fornecedores e materiais serão recalculados. Isso pode levar alguns minutos. Essa ação não pode ser desfeita.
+      </p>
+    </div>
+    <div
+      className="MuiDialogActions-root-68"
+    >
+      <button
+        className="MuiButtonBase-root-27 MuiButton-root-1 MuiButton-text-3 MuiButton-textPrimary-4 MuiButton-flat-6 MuiButton-flatPrimary-7 MuiDialogActions-action-69"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-2"
+        >
+          Cancelar
+        </span>
+        <span
+          className="MuiTouchRipple-root-70"
+        />
+      </button>
+      <div
+        className="MuiDialogActions-action-69"
+        debugRequests={true}
+        name="recalculate"
+        path="/recalculate_topsis"
+        render={[Function]}
+        renderCreated={[Function]}
+      >
+        New - 
+        <div>
+          render - 
+          <button
+            className="MuiButtonBase-root-27 MuiButton-root-1 MuiButton-text-3 MuiButton-textPrimary-4 MuiButton-flat-6 MuiButton-flatPrimary-7"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex="0"
+            type="button"
+          >
+            <span
+              className="MuiButton-label-2"
+            >
+              Confirmar
+            </span>
+            <span
+              className="MuiTouchRipple-root-70"
+            />
+          </button>
+        </div>
+        <div>
+          renderCreated - 
+          <div
+            closeDialog={[Function]}
+          >
+            recalculateRenderCreate - 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
