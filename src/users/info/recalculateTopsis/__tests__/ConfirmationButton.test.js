@@ -13,7 +13,7 @@ it('renders correctly', () => {
   expect(tree).toMatchSnapshot()
 })
 
-describe('when is loading', () => {
+describe('when it is loading', () => {
   it('renders correctly', () => {
     const props = {
       create: jest.fn(),
