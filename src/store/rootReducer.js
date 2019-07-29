@@ -33,6 +33,7 @@ const reducers = {
   subscriptions: createReducer('subscriptions'),
   albumUsers: createReducer('albumUsers'),
   resetPassword: createReducer('resetPassword'),
+  recalculate: createReducer('recalculate'),
   topics: createReducer('topics', { addCreatedToTop: true }),
   filters,
   comparison,
