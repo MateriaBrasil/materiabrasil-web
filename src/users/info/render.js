@@ -11,6 +11,7 @@ import map from 'lodash/map'
 import Avatar from '../../imageUpload/Avatar'
 import Album from './Album'
 import Private from './Private'
+import RecalculateTopsis from './recalculateTopsis'
 import PropertyWithValue from '../../PropertyWithValue'
 import MessageButton from '../../messages/new/Button'
 
@@ -29,6 +30,8 @@ export default props => infoProps => {
   const { imageUrl } = infoProps
   const name = `${firstName} ${lastName}`
   const editPath = currentUser && currentUser.id === id && '/profile/avatar'
+  const isAdminProfile =
+    currentUser && currentUser.admin && currentUser.id === id
 
   return (
     <Fragment>
@@ -133,6 +136,7 @@ export default props => infoProps => {
                 style={{ marginTop: 16 }}
               />
               <MessageButton id={id} type="users" />
+              {isAdminProfile && <RecalculateTopsis {...props} />}
             </CardContent>
           </Card>
         </Grid>
