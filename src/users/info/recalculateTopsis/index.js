@@ -37,7 +37,7 @@ export default class extends React.Component {
           onClick={this.openDialog}
           style={{ marginTop: '15px' }}
         >
-          Recalcular
+          Recalcular drivers
         </Button>
         <Dialog
           open={this.state.open}
@@ -59,7 +59,6 @@ export default class extends React.Component {
             </Button>
 
             <New
-              debugRequests
               name="recalculate"
               path="/recalculate_topsis"
               render={ConfirmationButton}
