@@ -10,7 +10,7 @@
 
 #### Clone the repository
 ```
-$ git clone git@github.com:SeasonedSoftware/materiabrasil-web.git
+$ git clone git@github.com:MateriaBrasil/materiabrasil-web.git
 $ cd materiabrasil-web
 ```
 
