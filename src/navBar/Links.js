@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 
 import SignOut from '../auth/signOut/SignOut'
 import SignIn from './SignIn'
+import SignUp from './SignUp'
 import Link from './Link'
 import SupplierLink from './SupplierLink'
 
@@ -24,18 +25,14 @@ export default props => {
         <Fragment>
           <SupplierLink suppliers={suppliers} {...props} />
           <Link to="/profile" text={name} {...props} />
+          <SignOut {...props} />
         </Fragment>
       ) : (
-        <Link
-          to={{
-            pathname: '/auth/sign-up',
-            state: { referrer: '/suppliers/new' },
-          }}
-          text="Cadastrar fornecedor"
-          {...props}
-        />
+        <Fragment>
+          <SignIn {...props} />
+          <SignUp {...props} />
+        </Fragment>
       )}
-      {currentUser ? <SignOut {...props} /> : <SignIn {...props} />}
     </div>
   )
 }
