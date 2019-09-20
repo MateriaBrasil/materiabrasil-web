@@ -61,7 +61,7 @@ export default props => {
           path={`/materials/${props.match.params.id}`}
           render={({ info, update, updating, error }) => (
             <Switch
-              disabled={!publishable}
+              // disabled={!publishable}
               checked={info.published}
               onChange={() => {
                 update({
