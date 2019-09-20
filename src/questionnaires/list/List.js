@@ -11,8 +11,9 @@ export default props => {
   return (
     <Dialog
       {...props}
-      onCloseModel={onCloseModel(props)}
       title="Responder questionários"
+      onCloseModel={onCloseModel(props)}
+      closeButtonName={true}
     >
       <List style={{ width: '100%' }}>
         {map(questionnaires, renderQuestionnaire(props))}
