@@ -65,9 +65,9 @@ export default () => (
       name="typeOfCompany"
       label="Tipo de empresa"
       options={[
-        { value: 1, label: 'P (1-99 Funcionários)' },
-        { value: 2, label: 'M (100-499 Funcionários)' },
-        { value: 3, label: 'G (500+ Funcionários)' },
+        { value: 1, label: 'PP (Produção Artesanal ou Semi Artesanal com até 20 Funcionários)' },
+        { value: 2, label: 'P (20-99 Funcionários)' },
+        { value: 3, label: 'M e G (100+ Funcionários)' },
         { value: 4, label: 'Serviços' },
       ]}
       validate={[required()]}
