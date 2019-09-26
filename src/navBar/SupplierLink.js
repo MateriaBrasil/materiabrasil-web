@@ -11,6 +11,6 @@ export default props => {
       {...props}
     />
   ) : (
-    <Link to={`/suppliers/new`} text="Cadastrar fornecedorrrrr" {...props} />
+    <Link to={`/suppliers/new`} text="Cadastrar fornecedor" {...props} />
   )
 }

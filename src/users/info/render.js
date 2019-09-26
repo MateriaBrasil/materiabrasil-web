@@ -14,6 +14,8 @@ import Private from './Private'
 import RecalculateTopsis from './recalculateTopsis'
 import PropertyWithValue from '../../PropertyWithValue'
 import MessageButton from '../../messages/new/Button'
+import Supplier from '../../materials/info/Supplier'
+
 
 export default props => infoProps => {
   const { currentUser } = props
@@ -32,6 +34,8 @@ export default props => infoProps => {
   const editPath = currentUser && currentUser.id === id && '/profile/avatar'
   const isAdminProfile =
     currentUser && currentUser.admin && currentUser.id === id
+  const { suppliers } = currentUser || {}
+  const suppliers_props = {'supplierId': suppliers.length > 0 ? suppliers[0].id : {}, 'supplierName': suppliers.length > 0 ? suppliers[0].name : {}, 'currentUser':currentUser, 'location':window.location}
 
   return (
     <Fragment>
@@ -87,6 +91,19 @@ export default props => infoProps => {
                 )}
               </Fragment>
             )}
+            <div>
+            {suppliers.length > 0 && (
+              <Fragment>
+                <Typography
+                  style={{ marginTop: 16, marginBottom: 5 }}
+                  variant="h4"
+                >
+                  Fornecedor
+                </Typography>
+                <Supplier {...suppliers_props} />
+              </Fragment>
+            )}
+            </div>
           </div>
         </Grid>
         <Grid item xs={12} sm={8} md={8} lg={9} xl={10}>
