@@ -15,8 +15,8 @@ export default props => {
       style={{ textDecoration: 'none' }}
       to={`/suppliers/${id}/questionnaires`}
     >
-      <Button variant="contained" color="primary" style={{ marginTop: 10 }}>
-        {editable ? 'Responder questionários' : 'Ver questionários'}
+      <Button variant="contained" color="primary" style={{ marginTop: 10, fontSize: 12 }}>
+        {editable ? 'Responder questionários do fornecedor' : 'Ver questionários do fornecedor'}
       </Button>
     </Link>
   )

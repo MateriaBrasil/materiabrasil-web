@@ -37,7 +37,7 @@ export default class extends Component {
             <Description {...this.props} {...current} editable={editable} />
             <Comments id={id} type="materials" {...this.props} />
           </Grid>
-          <Sidebar {...this.props} {...current} />
+          <Sidebar {...this.props} {...current} editable={editable} />
         </Grid>
       </Fragment>
     )

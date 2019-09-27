@@ -16,7 +16,6 @@ import Publish from './Publish'
 export default props => {
   const { code, description, name, technicalSpecificationUrl, id } = props
   const { certificationsUrl, editable } = props
-
   return (
     <Card style={{ marginBottom: 16 }}>
       <CardContent>
@@ -42,11 +41,6 @@ export default props => {
             <CertificationsUpload {...props} />
           </Fragment>
         )}
-        <EditButton
-          {...props}
-          path="questionnaires"
-          label={editable ? 'Responder questionário' : 'Ver questionário'}
-        />
         <br />
         {editable && <Publish {...props} />}
         <Typography variant="subtitle1" style={{ marginBottom: 24 }}>
