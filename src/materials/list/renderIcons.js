@@ -7,9 +7,11 @@ import Colors from '../../Colors'
 export default ({ currentUser, id, material, ...props }) => () => (
   <Fragment>
     {currentUser && <Link white id={id} />}
-    <TechnicalSpecification
-      {...material}
-      style={{ color: Colors.white, marginRight: 16 }}
-    />
+    {material.technicalSpecificationUrl != null &&
+	    <TechnicalSpecification
+	      {...material}
+	      style={{ color: Colors.white, marginRight: 16 }}
+	    />
+	}
   </Fragment>
 )
