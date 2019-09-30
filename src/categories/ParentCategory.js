@@ -8,6 +8,8 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import Typography from '@material-ui/core/Typography'
 import Paper from '@material-ui/core/Paper'
 
+import './ParentCategory.css'
+
 import renderCategory, { isPresent } from './renderCategory'
 
 export default props => {
