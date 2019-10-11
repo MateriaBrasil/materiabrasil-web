@@ -112,30 +112,28 @@ export default withStyles(chartsStyle)(props => {
       ) : (
         <Typography>Este material ainda não possui indicadores</Typography>
       )}
-      {editable && (
-        <Fragment>
-          <div style={{ marginTop: 10 }}>
-            <AnswerQuestionnaire
-              // currentUser={currentUser}
-              currentUser={currentUser ? currentUser : ''}
-              // supplier={supplier}
-              supplier={supplier ? supplier : ''}
-              id={id}
-            />
-          </div>
-          <div style={{ marginTop: 20 }}>
-            <EditButton
-              {...props}
-              path="questionnaires"
-              label={
-                editable
-                  ? 'Responder questionário do Material'
-                  : 'Ver questionário do Material'
-              }
-            />
-          </div>
-        </Fragment>
-      )}
+      <Fragment>
+        <div style={{ marginTop: 10 }}>
+          <AnswerQuestionnaire
+            // currentUser={currentUser}
+            currentUser={currentUser ? currentUser : ''}
+            // supplier={supplier}
+            supplier={supplier ? supplier : ''}
+            id={id}
+          />
+        </div>
+        <div style={{ marginTop: 20 }}>
+          <EditButton
+            {...props}
+            path="questionnaires"
+            label={
+              editable
+                ? 'Responder questionário do Material'
+                : 'Ver questionário do Material'
+            }
+          />
+        </div>
+      </Fragment>
     </Fragment>
   )
 })
