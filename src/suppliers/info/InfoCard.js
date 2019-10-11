@@ -8,10 +8,12 @@ import PropertyWithValue from '../../PropertyWithValue'
 import translateReach from './translateReach'
 import MessageButton from '../../messages/new/Button'
 
+import { addhttp } from '../../helpers/index'
+
 export default props => {
   const { current, currentUser, location } = props
   const { pathname } = location
-  const { id, description, email, phone, reach } = current
+  const { id, description, email, phone, reach, website } = current
 
   return (
     <Grid item xs={12} sm={8} md={8} lg={9} xl={10}>
@@ -22,6 +24,13 @@ export default props => {
             value={description}
             style={{ marginTop: 16 }}
           />
+          <PropertyWithValue
+            title="Site"
+            value={addhttp(website)}
+            style={{ marginTop: 16 }}
+            link
+          />
+
           <PropertyWithValue
             title="Alcance"
             value={translateReach(reach)}
