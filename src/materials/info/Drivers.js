@@ -62,7 +62,7 @@ export default withStyles(chartsStyle)(props => {
   let id
   // só set essas vars se o usuario estiver logado :)
   if (currentUser) {
-    supplier = currentUser.supplier
+    suppliers = currentUser.suppliers
     supplier = suppliers[0]
     id = currentUser.id
   }
