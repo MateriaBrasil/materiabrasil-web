@@ -16,7 +16,6 @@ export default props => (
   <Provider store={store}>
     <CroodsProvider
       baseUrl={process.env.REACT_APP_API_URL}
-      // baseUrl={'https://materiamundi-staging.herokuapp.com'}
       headers={headers}
       afterResponse={afterResponse}
       renderLoading={renderLoading}
