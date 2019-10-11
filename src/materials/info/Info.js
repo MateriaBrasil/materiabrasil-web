@@ -18,6 +18,7 @@ export default class extends Component {
 
   render() {
     const { current, currentUser } = this.props
+
     const { id, supplierId, name, listImageUrl } = current
     const { suppliers } = currentUser || {}
     const editable =
@@ -31,7 +32,8 @@ export default class extends Component {
           <meta property="og:image" content={listImageUrl} />
         </Helmet>
         <Grid container spacing={16}>
-          <CoverImage {...current} editable={editable} />
+          {listImageUrl ||
+            (editable && <CoverImage {...current} editable={editable} />)}
           {editable && <Images {...this.props} {...current} />}
           <Grid item xs={12} lg={7} style={{ marginBottom: 16 }}>
             <Description {...this.props} {...current} editable={editable} />
