@@ -56,13 +56,17 @@ export default withStyles(chartsStyle)(props => {
   ]
 
   const { editable, currentUser } = props
-  if (!currentUser) {
-    window.location.href = '/auth/sign-in'
+
+  let suppliers
+  let supplier
+  let id
+  // só set essas vars se o usuario estiver logado :)
+  if (currentUser) {
+    supplier = currentUser.supplier
+    supplier = suppliers[0]
+    id = currentUser.id
   }
 
-  const { suppliers } = currentUser
-  const supplier = suppliers[0]
-  const { id } = currentUser
   return (
     <Fragment>
       <div style={{ overflow: 'auto' }}>
@@ -112,8 +116,10 @@ export default withStyles(chartsStyle)(props => {
         <Fragment>
           <div style={{ marginTop: 10 }}>
             <AnswerQuestionnaire
-              currentUser={currentUser}
-              supplier={supplier}
+              // currentUser={currentUser}
+              currentUser={currentUser ? currentUser : ''}
+              // supplier={supplier}
+              supplier={supplier ? supplier : ''}
               id={id}
             />
           </div>
