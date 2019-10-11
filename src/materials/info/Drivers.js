@@ -55,12 +55,14 @@ export default withStyles(chartsStyle)(props => {
     { subject: drivers[3].name, value: normalizedNumber(socialDriver) },
   ]
 
-
   const { editable, currentUser } = props
+  if (!currentUser) {
+    window.location.href = '/auth/sign-in'
+  }
+
   const { suppliers } = currentUser
   const supplier = suppliers[0]
   const { id } = currentUser
-
   return (
     <Fragment>
       <div style={{ overflow: 'auto' }}>
@@ -106,24 +108,28 @@ export default withStyles(chartsStyle)(props => {
       ) : (
         <Typography>Este material ainda não possui indicadores</Typography>
       )}
-      {editable && 
-      <Fragment>
-      <div style={{ marginTop: 10 }}>
-        <AnswerQuestionnaire
-          currentUser={currentUser}
-          supplier={supplier}
-          id={id}
-        />
-      </div>
-      <div style={{ marginTop: 20 }}>
-        <EditButton
-          {...props}
-          path="questionnaires"
-          label={editable ? 'Responder questionário do Material' : 'Ver questionário do Material'}
-        />
-      </div>
-      </Fragment>
-      }
+      {editable && (
+        <Fragment>
+          <div style={{ marginTop: 10 }}>
+            <AnswerQuestionnaire
+              currentUser={currentUser}
+              supplier={supplier}
+              id={id}
+            />
+          </div>
+          <div style={{ marginTop: 20 }}>
+            <EditButton
+              {...props}
+              path="questionnaires"
+              label={
+                editable
+                  ? 'Responder questionário do Material'
+                  : 'Ver questionário do Material'
+              }
+            />
+          </div>
+        </Fragment>
+      )}
     </Fragment>
   )
 })
