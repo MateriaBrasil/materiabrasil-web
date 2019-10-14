@@ -55,7 +55,7 @@ export default withStyles(chartsStyle)(props => {
     { subject: drivers[3].name, value: normalizedNumber(socialDriver) },
   ]
 
-  const { editable, currentUser } = props
+  const { editable, currentUser, current } = props
 
   let suppliers
   let supplier
@@ -66,6 +66,9 @@ export default withStyles(chartsStyle)(props => {
     supplier = suppliers[0]
     id = currentUser.id
   }
+
+  const { supplierId } = current
+
 
   return (
     <Fragment>
@@ -119,7 +122,7 @@ export default withStyles(chartsStyle)(props => {
             currentUser={currentUser ? currentUser : ''}
             // supplier={supplier}
             supplier={supplier ? supplier : ''}
-            id={id}
+            id={supplierId}
           />
         </div>
         <div style={{ marginTop: 20 }}>
