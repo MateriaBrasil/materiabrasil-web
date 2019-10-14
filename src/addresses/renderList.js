@@ -6,11 +6,13 @@ import ListItem from '@material-ui/core/ListItem'
 import ListItemText from '@material-ui/core/ListItemText'
 import Avatar from '@material-ui/core/Avatar'
 import BuildIcon from '@material-ui/icons/Build'
+import PhoneIcon from '@material-ui/icons/Phone'
 import EmailIcon from '@material-ui/icons/Email'
 
 import Card from './Card'
 
 export default props => list => {
+  const { phone } = props.current
   return (
     <Fragment>
       {(list && list.length) > 0 ? (
@@ -25,7 +27,7 @@ export default props => list => {
                 zipCode,
                 city,
                 state,
-                country,
+                country
               }) => {
                 const fullAddress = `${streetAddress}${
                   zipCode ? ` - ${zipCode}` : ''
@@ -45,6 +47,14 @@ export default props => list => {
                   </ListItem>
                 )
               },
+            )}
+            { phone && (
+              <ListItem>
+                <Avatar>
+                  <PhoneIcon />
+                </Avatar>
+                <ListItemText primary={phone} />
+              </ListItem>
             )}
           </List>
         </Card>
