@@ -1,13 +1,15 @@
-import React from 'react'
-import map from 'lodash/map'
-import List from '@material-ui/core/List'
-import Dialog from 'materials/Dialog'
-import renderQuestionnaire from './renderQuestionnaire'
-import onCloseModel from './onCloseModel'
+import React from 'react';
+import map from 'lodash/map';
+import List from '@material-ui/core/List';
+import Dialog from 'materials/Dialog';
+import renderQuestionnaire from './renderQuestionnaire';
+import onCloseModel from './onCloseModel';
 
 export default props => {
-  const { questionnaires } = props
-
+  const { questionnaires } = props;
+  console.log('-----------------');
+  console.log(questionnaires);
+  console.log('-----------------');
   return (
     <Dialog
       {...props}
@@ -19,5 +21,5 @@ export default props => {
         {map(questionnaires, renderQuestionnaire(props))}
       </List>
     </Dialog>
-  )
-}
+  );
+};

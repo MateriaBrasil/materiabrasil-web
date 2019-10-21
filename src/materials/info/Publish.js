@@ -1,50 +1,49 @@
-import React, { Fragment } from 'react'
-import Typography from '@material-ui/core/Typography'
-import Switch from '@material-ui/core/Switch'
-import { Edit } from 'croods'
+import React, { Fragment } from 'react';
+import Typography from '@material-ui/core/Typography';
+import Switch from '@material-ui/core/Switch';
+import { Edit } from 'croods';
 
 export default props => {
-  const images =
-    props.coverImageUrl && props.highlightImageUrl && props.listImageUrl
+  const has_img = props.listImageUrl;
 
-  const generalInfo =
-    props.name &&
-    props.code &&
-    props.description &&
-    props.availability &&
-    props.unitOfSale &&
-    props.averagePrice &&
-    props.maximumPurchaseQuantity &&
-    props.minimumPurchaseQuantity &&
-    props.ncmCode &&
-    props.shCode &&
-    props.certifications &&
-    props.prizes &&
-    props.density &&
-    props.dimensions
+  let generalInfo;
+  if (
+    props.name !== null ||
+    props.name !== false ||
+    props.code !== null ||
+    props.code !== false ||
+    props.description !== null ||
+    props.description !== false ||
+    props.average_price !== null ||
+    props.average_price !== false
+  ) {
+    generalInfo = true;
+  } else {
+    generalInfo = false;
+  }
 
   const publishable =
-    images && generalInfo && props.category && props.questionnairesCompleted
+    has_img && generalInfo && props.category && props.questionnairesCompleted;
 
-  let notCompletedMessage = 'Você precisa preencher '
+  let notCompletedMessage = 'Você precisa preencher ';
 
-  if (!images) {
-    notCompletedMessage += 'as imagens, '
+  if (!has_img) {
+    notCompletedMessage += 'as imagens, ';
   }
 
   if (!generalInfo) {
-    notCompletedMessage += 'as informações gerais, '
+    notCompletedMessage += 'as informações gerais, ';
   }
 
   if (!props.category && !props.categoryFilled[props.match.params.id]) {
-    notCompletedMessage += 'as informações técnicas, '
+    notCompletedMessage += 'as informações técnicas, ';
   }
 
   if (!props.questionnairesCompleted) {
-    notCompletedMessage += 'o questionário, '
+    notCompletedMessage += 'o questionário, ';
   }
 
-  notCompletedMessage += 'para poder tornar seu material visível.'
+  notCompletedMessage += 'para poder tornar seu material visível.';
 
   return (
     <Fragment>
@@ -67,7 +66,7 @@ export default props => {
                 update({
                   id: props.match.params.id,
                   published: !info.published,
-                })
+                });
               }}
             />
           )}
@@ -75,5 +74,5 @@ export default props => {
         />
       </Typography>
     </Fragment>
-  )
-}
+  );
+};

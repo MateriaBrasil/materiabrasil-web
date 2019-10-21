@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default props => (
   <iframe
@@ -8,7 +8,7 @@ export default props => (
     height="100%"
     webkitallowfullscreen="true"
     mozallowfullscreen="true"
-    allowFullScreen="true"
+    allowFullScreen={true}
     title="Vídeo de introdução ao Materia Brasil"
     style={{
       maxWidth: '960',
@@ -21,4 +21,4 @@ export default props => (
       height: '100%',
     }}
   />
-)
+);
