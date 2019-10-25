@@ -1,6 +1,6 @@
-import React from 'react'
-import { List } from 'croods'
-import renderList from './renderQuestionnairesAnswers'
+import React from 'react';
+import { List } from 'croods';
+import renderList from './renderQuestionnairesAnswers';
 
 export default props => questionnaires => {
   return (
@@ -11,5 +11,5 @@ export default props => questionnaires => {
       }/answers`}
       render={renderList({ ...props, questionnaires })}
     />
-  )
-}
+  );
+};

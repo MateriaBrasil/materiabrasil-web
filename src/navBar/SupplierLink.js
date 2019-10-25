@@ -3,22 +3,8 @@ import React, { Fragment } from 'react';
 import { Typography } from '@material-ui/core';
 import Link from './Link';
 
-import { toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-
 export default props => {
   const { suppliers } = props;
-
-  toast.configure();
-  const notify = () =>
-    toast.warn(
-      'Você deve responder os questionários do fornecedor para poder cadastrar um Material',
-      {
-        hideProgressBar: true,
-        autoClose: 3000,
-        position: 'bottom-right',
-      },
-    );
 
   return (
     <Fragment>
@@ -28,7 +14,12 @@ export default props => {
         <a
           className="navbar-link"
           style={{ cursor: 'pointer' }}
-          onClick={notify}
+          onClick={e => {
+            e.preventDefault;
+            props.snackbar.actions.setMessage(
+              'Você deve responder os questionários do fornecedor antes de cadastrar um material',
+            );
+          }}
         >
           <Typography
             variant="subtitle1"

@@ -1,28 +1,28 @@
-import React, { Component, Fragment } from 'react'
-import Grid from '@material-ui/core/Grid'
-import { Helmet } from 'react-helmet'
-import find from 'lodash/find'
-import get from 'lodash/get'
+import React, { Component, Fragment } from 'react';
+import Grid from '@material-ui/core/Grid';
+import { Helmet } from 'react-helmet';
+import find from 'lodash/find';
+import get from 'lodash/get';
 
-import checkReloadAndFetch from '../../checkReloadAndFetch'
-import Comments from '../../comments/Comments'
-import Description from './Description'
-import CoverImage from './CoverImage'
-import Sidebar from './Sidebar'
-import Images from './Images'
+import checkReloadAndFetch from '../../checkReloadAndFetch';
+import Comments from '../../comments/Comments';
+import Description from './Description';
+import CoverImage from './CoverImage';
+import Sidebar from './Sidebar';
+import Images from './Images';
 
 export default class extends Component {
   componentDidUpdate(prevProps) {
-    checkReloadAndFetch(this.props)
+    checkReloadAndFetch(this.props);
   }
 
   render() {
-    const { current, currentUser } = this.props
-    const { id, supplierId, name, listImageUrl, coverImageUrl } = current
-    const { suppliers } = currentUser || {}
+    const { current, currentUser } = this.props;
+    const { id, supplierId, name, listImageUrl, coverImageUrl } = current;
+    const { suppliers } = currentUser || {};
     const editable =
       find(suppliers, supplier => supplier.id === supplierId) ||
-      get(currentUser, 'admin', false)
+      get(currentUser, 'admin', false);
 
     return (
       <Fragment>
@@ -42,6 +42,6 @@ export default class extends Component {
           <Sidebar {...this.props} {...current} editable={editable} />
         </Grid>
       </Fragment>
-    )
+    );
   }
 }

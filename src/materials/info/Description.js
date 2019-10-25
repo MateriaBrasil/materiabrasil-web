@@ -1,21 +1,22 @@
-import React, { Fragment } from 'react'
-import Card from '@material-ui/core/Card'
-import CardContent from '@material-ui/core/CardContent'
-import Typography from '@material-ui/core/Typography'
-import Link from 'albums/Link'
+import React, { Fragment } from 'react';
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
+import Typography from '@material-ui/core/Typography';
+import Link from 'albums/Link';
 
-import Reviews from './Reviews'
-import TechnicalSpecification from '../list/TechnicalSpecification'
-import TechnicalSpecificationUpload from './TechnicalSpecificationUpload'
-import CertificationsUpload from './CertificationsUpload'
-import CertificationsIcon from './CertificationsIcon'
-import EditButton from './EditButton'
-import Supplier from './Supplier'
-import Publish from './Publish'
+import Reviews from './Reviews';
+import TechnicalSpecification from '../list/TechnicalSpecification';
+import TechnicalSpecificationUpload from './TechnicalSpecificationUpload';
+import CertificationsUpload from './CertificationsUpload';
+import CertificationsIcon from './CertificationsIcon';
+import EditButton from './EditButton';
+import Supplier from './Supplier';
+import Publish from './Publish';
+import DeleteButton from './DeleteButton';
 
 export default props => {
-  const { code, description, name, technicalSpecificationUrl, id } = props
-  const { certificationsUrl, editable } = props
+  const { code, description, name, technicalSpecificationUrl, id } = props;
+  const { certificationsUrl, editable } = props;
   return (
     <Card style={{ marginBottom: 16 }}>
       <CardContent>
@@ -39,6 +40,7 @@ export default props => {
             />
             <TechnicalSpecificationUpload {...props} />
             <CertificationsUpload {...props} />
+            <DeleteButton {...props} label="Deletar Material" />
           </Fragment>
         )}
         <br />
@@ -49,5 +51,5 @@ export default props => {
         <Reviews {...props} />
       </CardContent>
     </Card>
-  )
-}
+  );
+};

@@ -5,24 +5,10 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Card from '../../materials/list/Card';
 
-import { toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-
 export default props => {
   const { current, currentUser } = props;
   const { userId, materials, id, questionnairesCompleted } = current;
   const isOwner = currentUser && currentUser.id === userId;
-
-  toast.configure();
-  const notify = () =>
-    toast.warn(
-      'Você deve responder os questionários do fornecedor para poder cadastrar um Material',
-      {
-        hideProgressBar: true,
-        autoClose: 3000,
-        position: 'bottom-right',
-      },
-    );
 
   return (
     <Grid item xs={12}>
@@ -60,7 +46,12 @@ export default props => {
             variant="contained"
             color="primary"
             className="btn-disabled"
-            onClick={notify}
+            onClick={e => {
+              e.preventDefault;
+              props.snackbar.actions.setMessage(
+                'Você deve responder os questionários do fornecedor antes de cadastrar um material',
+              );
+            }}
           >
             Cadastrar material
           </Button>
