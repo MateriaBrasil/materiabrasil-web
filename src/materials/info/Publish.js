@@ -6,6 +6,10 @@ import { Edit } from 'croods';
 export default props => {
   const has_img = props.listImageUrl;
 
+  console.log('----------');
+  console.log(props.info);
+  console.log('----------');
+
   let generalInfo;
   if (
     props.name !== null ||
@@ -61,11 +65,11 @@ export default props => {
           render={({ info, update, updating, error }) => (
             <Switch
               disabled={!publishable}
-              checked={info.published}
+              checked={info.prePublished}
               onChange={() => {
                 update({
                   id: props.match.params.id,
-                  published: !info.published,
+                  prePublished: !info.prePublished,
                 });
               }}
             />
