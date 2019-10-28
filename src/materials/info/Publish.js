@@ -57,7 +57,11 @@ export default props => {
         </Typography>
       )}
       <Typography variant="subtitle1" style={{ marginBottom: 5 }}>
-        Publicar Material
+        {props.info.published === true
+          ? 'Material Publicado'
+          : props.info.prePublished === true && props.info.published === false
+            ? 'Material aguardando aprovação'
+            : 'Enviar material para aprovação'}
         <Edit
           id={props.match.params.id}
           name="publishMaterials"
@@ -65,7 +69,7 @@ export default props => {
           render={({ info, update, updating, error }) => (
             <Switch
               disabled={!publishable}
-              checked={info.prePublished}
+              checked={info.prePublished || info.published}
               onChange={() => {
                 update({
                   id: props.match.params.id,
