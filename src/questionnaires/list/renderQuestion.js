@@ -1,50 +1,49 @@
-import React from 'react'
-import map from 'lodash/map'
-import Media from 'react-media'
-import FormGroup from '@material-ui/core/FormGroup'
-import FormControl from '@material-ui/core/FormControl'
-import RadioGroup from '@material-ui/core/RadioGroup'
-import Typography from '@material-ui/core/Typography'
-import Button from '@material-ui/core/Button'
-import HelperIcon from '@material-ui/icons/Help'
-import Tooltip from '@material-ui/core/Tooltip'
-import ClickAwayListener from '@material-ui/core/ClickAwayListener'
+import React from 'react';
+import map from 'lodash/map';
+import Media from 'react-media';
+import FormGroup from '@material-ui/core/FormGroup';
+import FormControl from '@material-ui/core/FormControl';
+import RadioGroup from '@material-ui/core/RadioGroup';
+import Typography from '@material-ui/core/Typography';
+import Button from '@material-ui/core/Button';
+import HelperIcon from '@material-ui/icons/Help';
+import Tooltip from '@material-ui/core/Tooltip';
+import ClickAwayListener from '@material-ui/core/ClickAwayListener';
 
-import renderOption from './renderOption'
-import findAnswer from './findAnswer'
-import findOption from './findOption'
+import renderOption from './renderOption';
+import findAnswer from './findAnswer';
+import findOption from './findOption';
 
 const HelperText = ({ helperText }) => {
-  const [open, setOpen] = React.useState(false)
-  const [title, setTitle] = React.useState(null)
+  const [open, setOpen] = React.useState(false);
+  const [title, setTitle] = React.useState(null);
 
   const handleTooltipClose = () => {
-    setOpen(false)
-  }
+    setOpen(false);
+  };
 
   const handleTooltipOpen = () => {
     if (open) {
-      setOpen(false)
+      setOpen(false);
       setTimeout(() => {
-        setTitle(null)
-      }, 100)
+        setTitle(null);
+      }, 100);
     } else {
-      setTitle(helperText)
-      setOpen(true)
+      setTitle(helperText);
+      setOpen(true);
     }
-  }
+  };
 
   return (
     !!helperText && (
       <Media query="(min-width: 991px)">
         {matches =>
           matches ? (
-            <ClickAwayListener onClickAway={handleTooltipClose}>
+            <ClickAwayListener>
               <Tooltip
                 PopperProps={{
                   disablePortal: true,
                 }}
-                onClose={handleTooltipClose}
                 open={open}
                 disableFocusListener
                 disableHoverListener
@@ -70,14 +69,14 @@ const HelperText = ({ helperText }) => {
         }
       </Media>
     )
-  )
-}
+  );
+};
 
 export default props => question => {
-  const { options, description, helperText } = question
+  const { options, description, helperText } = question;
 
-  const answer = findAnswer(props.questionnairesAnswers, question)
-  const answerOption = findOption(answer, question)
+  const answer = findAnswer(props.questionnairesAnswers, question);
+  const answerOption = findOption(answer, question);
 
   return (
     <FormGroup key={description} style={{ marginBottom: '40px' }}>
@@ -96,5 +95,5 @@ export default props => question => {
         </RadioGroup>
       </FormControl>
     </FormGroup>
-  )
-}
+  );
+};
