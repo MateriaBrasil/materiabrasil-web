@@ -18,10 +18,6 @@ const HelperText = ({ helperText }) => {
   const [open, setOpen] = React.useState(false);
   const [title, setTitle] = React.useState(null);
 
-  const handleTooltipClose = () => {
-    setOpen(false);
-  };
-
   const handleTooltipOpen = () => {
     if (open) {
       setOpen(false);
