@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from 'react';
+import React, { Fragment, useState, useEffect, useRef } from 'react';
 import Typography from '@material-ui/core/Typography';
 import Switch from '@material-ui/core/Switch';
 import { Edit } from 'croods';
@@ -6,21 +6,18 @@ import { Edit } from 'croods';
 export default props => {
   const has_img = props.listImageUrl;
 
-  const [publishMessage, setPublishMessage] = useState(null);
-
-  useEffect(() => {
-    alert(publishMessage);
+  function handlePublishMessage() {
     if (props.info.published === true) {
-      setPublishMessage('Material Publicado');
+      return 'Material Publicado';
     } else if (
       props.info.prePublished === true &&
       props.info.published === false
     ) {
-      setPublishMessage('Material aguardando aprovação');
+      return 'Material aguardando aprovação';
     } else {
-      setPublishMessage('Enviar material para aprovação');
+      return 'Enviar material para aprovação';
     }
-  }, props.info);
+  }
 
   console.log('----------');
   console.log(props.info);
@@ -73,7 +70,7 @@ export default props => {
         </Typography>
       )}
       <Typography variant="subtitle1" style={{ marginBottom: 5 }}>
-        {publishMessage}
+        {handlePublishMessage()}
         <Edit
           id={props.match.params.id}
           name="publishMaterials"
@@ -87,6 +84,7 @@ export default props => {
                   id: props.match.params.id,
                   prePublished: !info.prePublished,
                 });
+                window.location.reload();
               }}
             />
           )}
