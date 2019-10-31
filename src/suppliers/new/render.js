@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-import Form from '../form/Form'
+import Form from '../form/Form';
 
 export default props => ({ create, creating, error }) => {
   return (
@@ -11,5 +11,5 @@ export default props => ({ create, creating, error }) => {
       buttonText="Registrar fornecedor"
       {...props}
     />
-  )
-}
+  );
+};

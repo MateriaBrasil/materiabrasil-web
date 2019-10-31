@@ -1,16 +1,16 @@
-import React, { Fragment } from 'react'
-import Route from 'react-router-dom/Route'
+import React, { Fragment } from 'react';
+import Route from 'react-router-dom/Route';
 
-import renderNewMaterial from '../materials/renderNew'
-import renderNewMessage from '../messages/renderNew'
-import renderSuccessMessage from '../messages/renderSuccess'
+import renderNewMaterial from '../materials/renderNew';
+import renderNewMessage from '../messages/renderNew';
+import renderSuccessMessage from '../messages/renderSuccess';
 
-import renderNew from './renderNew'
-import renderEdit from './renderEdit'
-import renderInfo from './renderInfo'
-import renderImageUpload from './renderImageUpload'
-import renderNewAddress from '../addresses/New'
-import renderQuestionnaires from '../questionnaires/renderList'
+import renderNew from './renderNew';
+import renderEdit from './renderEdit';
+import renderInfo from './renderInfo';
+import renderImageUpload from './renderImageUpload';
+import renderNewAddress from '../addresses/New';
+import renderQuestionnaires from '../questionnaires/renderList';
 
 export default props => {
   return (
@@ -49,5 +49,5 @@ export default props => {
       />
       <Route exact path="/suppliers/:id/edit" render={renderEdit(props)} />
     </Fragment>
-  )
-}
+  );
+};

@@ -1,1 +1,1 @@
-export default value => (value ? value.toString() : null)
+export default value => (value ? value.toString() : null);

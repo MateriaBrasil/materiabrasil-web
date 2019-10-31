@@ -1,8 +1,8 @@
-import React, { Fragment } from 'react'
-import { required, email } from 'redux-form-validators'
+import React, { Fragment } from 'react';
+import { required, email } from 'redux-form-validators';
 
-import TextField from '../../form/TextField'
-import SelectField from '../../form/SelectField'
+import TextField from '../../form/TextField';
+import SelectField from '../../form/SelectField';
 
 export default () => (
   <Fragment>
@@ -65,7 +65,11 @@ export default () => (
       name="typeOfCompany"
       label="Tipo de empresa"
       options={[
-        { value: 1, label: 'PP (Produção Artesanal ou Semi Artesanal com até 20 Funcionários)' },
+        {
+          value: 1,
+          label:
+            'PP (Produção Artesanal ou Semi Artesanal com até 20 Funcionários)',
+        },
         { value: 2, label: 'P (20-99 Funcionários)' },
         { value: 3, label: 'M e G (100+ Funcionários)' },
         { value: 4, label: 'Serviços' },
@@ -84,5 +88,46 @@ export default () => (
       ]}
       validate={[required()]}
     />
+
+    <SelectField
+      name="addresses.state"
+      label="Estado"
+      options={[
+        { value: 'AC', label: 'Acre' },
+        { value: 'AL', label: 'Alagoas' },
+        { value: 'AP', label: 'Amapá' },
+        { value: 'AM', label: 'Amazonas' },
+        { value: 'BA', label: 'Bahia' },
+        { value: 'CE', label: 'Ceará' },
+        { value: 'DF', label: 'Distrito Federal' },
+        { value: 'ES', label: 'Espírito Santo' },
+        { value: 'GO', label: 'Goías' },
+        { value: 'MA', label: 'Maranhão' },
+        { value: 'MT', label: 'Mato Grosso' },
+        { value: 'MS', label: 'Mato Grosso do Sul' },
+        { value: 'MG', label: 'Minas Gerais' },
+        { value: 'PA', label: 'Pará' },
+        { value: 'PB', label: 'Paraíba' },
+        { value: 'PR', label: 'Paraná' },
+        { value: 'PE', label: 'Pernambuco' },
+        { value: 'PI', label: 'Piauí' },
+        { value: 'RJ', label: 'Rio de Janeiro' },
+        { value: 'RN', label: 'Rio Grande do Norte' },
+        { value: 'RS', label: 'Rio Grande do Sul' },
+        { value: 'RO', label: 'Rondônia' },
+        { value: 'RR', label: 'Roraíma' },
+        { value: 'SC', label: 'Santa Catarina' },
+        { value: 'SP', label: 'São Paulo' },
+        { value: 'SE', label: 'Sergipe' },
+        { value: 'TO', label: 'Tocantins' },
+      ]}
+      validate={[required()]}
+    />
+    <TextField
+      name="addresses.city"
+      label="Cidade"
+      type="text"
+      validate={[required()]}
+    />
   </Fragment>
-)
+);
