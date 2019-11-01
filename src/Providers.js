@@ -1,16 +1,18 @@
-import React from 'react'
-import { Provider } from 'react-redux'
-import { Provider as CroodsProvider } from 'croods'
-import { MuiThemeProvider } from '@material-ui/core/styles'
+import React from 'react';
+import { Provider } from 'react-redux';
+import { Provider as CroodsProvider } from 'croods';
+import { MuiThemeProvider } from '@material-ui/core/styles';
 
-import headers from 'auth/headers'
-import afterResponse from 'auth/afterResponse'
-import store from 'store/store'
+import './config/ReactotronConfig';
 
-import renderLoading from './renderLoading'
-import renderError from './renderError'
+import headers from 'auth/headers';
+import afterResponse from 'auth/afterResponse';
+import store from 'store/store';
 
-import theme from './theme'
+import renderLoading from './renderLoading';
+import renderError from './renderError';
+
+import theme from './theme';
 
 export default props => (
   <Provider store={store}>
@@ -24,4 +26,4 @@ export default props => (
       <MuiThemeProvider theme={theme}>{props.children}</MuiThemeProvider>
     </CroodsProvider>
   </Provider>
-)
+);
