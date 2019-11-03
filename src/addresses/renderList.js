@@ -33,7 +33,7 @@ export default props => list => {
                 const fullAddress = `${streetAddress}${
                   zipCode ? ` - ${zipCode}` : ''
                 }`;
-                const fullCity = `${city}, ${state}, ${country}`;
+                let fullCity = `${city}, ${state}, ${country}`;
 
                 return (
                   <div>
@@ -46,8 +46,14 @@ export default props => list => {
                         )}
                       </Avatar>
                       <ListItemText
-                        primary={fullAddress}
-                        secondary={fullCity}
+                        primary={
+                          fullAddress.includes('null') ? null : fullAddress
+                        }
+                        secondary={
+                          fullCity.includes('null')
+                            ? `${city}, ${state}`
+                            : fullCity
+                        }
                       />
                     </ListItem>
 
