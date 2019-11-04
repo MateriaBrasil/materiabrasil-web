@@ -5,7 +5,7 @@ import Typography from '@material-ui/core/Typography'
 import renderQuestion from './renderQuestion'
 
 export default props => questionnaire => {
-  const { name, questions } = questionnaire
+  const { label, name, questions } = questionnaire
 
   return (
     <ListItem
@@ -17,6 +17,9 @@ export default props => questionnaire => {
       }}
     >
       <Typography variant="h5">{name}</Typography>
+      {label &&
+        <Typography variant="caption">{label}</Typography>
+      }
       {map(questions, renderQuestion(props))}
     </ListItem>
   )
