@@ -1,8 +1,8 @@
-import React, { Fragment } from 'react'
+import React, { Fragment } from 'react';
 
-import Symbol from './Symbol'
-import Questionnaire from './Questionnaire'
-import withDriversQuestions from './withDriversQuestions'
+import Symbol from './Symbol';
+import Questionnaire from './Questionnaire';
+import withDriversQuestions from './withDriversQuestions';
 
 const SymbolList = ({
   materialiteQuestions,
@@ -13,19 +13,19 @@ const SymbolList = ({
   <Fragment>
     <Symbol
       imageUrl="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-02.png"
-      title="Materialidade"
+      title="Manufatura"
       description="Neste direcionador analisamos o processo de fabricação utilizado pela
       empresa e seus impactos."
     >
-      <Questionnaire title="Materialidade" list={materialiteQuestions} />
+      <Questionnaire title="Manufatura" list={manufacturingQuestions} />
     </Symbol>
     <Symbol
       imageUrl="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-03.png"
-      title="Manufatura"
+      title="Materialidade"
       description="Neste direcionador analisamos a composição do produto e a forma como foi
       projetado."
     >
-      <Questionnaire title="Manufatura" list={manufacturingQuestions} />
+      <Questionnaire title="Materialidade" list={materialiteQuestions} />
     </Symbol>
     <Symbol
       imageUrl="https://s3.amazonaws.com/materiamundi-us/static/icones/indicadores-04.png"
@@ -47,6 +47,6 @@ const SymbolList = ({
       <Questionnaire title="Humano Social" list={socialHumanQuestions} />
     </Symbol>
   </Fragment>
-)
+);
 
-export default withDriversQuestions(SymbolList)
+export default withDriversQuestions(SymbolList);
