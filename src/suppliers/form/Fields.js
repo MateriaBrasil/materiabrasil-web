@@ -92,7 +92,7 @@ export default () => {
 
       <SelectField
         name="addresses_attributes.addressType"
-        label="Tipo"
+        label="Tipo de endereço"
         options={[
           { value: 'manufacture', label: 'Endereço de fabricação' },
           { value: 'postal', label: 'Endereço para correspondência' },
