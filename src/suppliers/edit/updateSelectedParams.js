@@ -17,7 +17,7 @@ export default update => params => {
         id: params.addresses.id,
         state: params.addresses.state,
         city: params.addresses.city,
-        address_type: params.addresses.addressType,
+        address_type: 'postal',
         street_address: params.addresses.streetAddress,
         country: params.addresses.country,
         zip_code: params.addresses.zipCode,

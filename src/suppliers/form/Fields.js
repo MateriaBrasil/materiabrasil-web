@@ -90,16 +90,6 @@ export default () => {
         validate={[required()]}
       />
 
-      <SelectField
-        name="addresses.addressType"
-        label="Tipo de endereço"
-        options={[
-          { value: 'manufacture', label: 'Endereço de fabricação' },
-          { value: 'postal', label: 'Endereço para correspondência' },
-        ]}
-        validate={[required()]}
-        style={{ marginBottom: 10 }}
-      />
       <TextField
         name="addresses.streetAddress"
         label="Endereço com rua, número e complemento"

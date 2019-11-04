@@ -21,7 +21,7 @@ export default props => ({ create, creating, error }) => {
         {
           state: e.addresses.state,
           city: e.addresses.city,
-          address_type: e.addresses.addressType,
+          address_type: 'postal',
           street_address: e.addresses.streetAddress,
           country: e.addresses.country,
           zip_code: e.addresses.zipCode,
