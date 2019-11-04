@@ -19,13 +19,13 @@ export default props => ({ create, creating, error }) => {
       reach: e.reach,
       addresses_attributes: [
         {
-          state: e.addresses_attributes.state,
-          city: e.addresses_attributes.city,
-          address_type: e.addresses_attributes.addressType,
-          street_address: e.addresses_attributes.streetAddress,
-          country: e.addresses_attributes.country,
-          zip_code: e.addresses_attributes.zipCode,
-          phone_number: e.addresses_attributes.phoneNumber,
+          state: e.addresses.state,
+          city: e.addresses.city,
+          address_type: e.addresses.addressType,
+          street_address: e.addresses.streetAddress,
+          country: e.addresses.country,
+          zip_code: e.addresses.zipCode,
+          phone_number: e.addresses.phoneNumber,
         },
       ],
     };

@@ -13,7 +13,7 @@ export default reduxForm({ form: 'suppliers' })(props => {
   return (
     <Dialog {...props} title="Editar perfil" callToAction={buttonText}>
       <form onSubmit={handleSubmit(onSubmit)}>
-        <Fields />
+        <Fields {...props} />
         <Error>{error}</Error>
       </form>
     </Dialog>
