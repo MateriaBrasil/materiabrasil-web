@@ -21,11 +21,11 @@ export default props => ({ create, creating, error }) => {
         {
           state: e.addresses_attributes.state,
           city: e.addresses_attributes.city,
-          // address_type: e.addresses_attributes.addressType,
-          // street_address: e.addresses_attributes.streetAddress,
-          // country: e.addresses_attributes.country,
-          // zip_code: e.addresses_attributes.zipCode,
-          // phone_number: e.addresses_attributes.phoneNumber,
+          address_type: e.addresses_attributes.addressType,
+          street_address: e.addresses_attributes.streetAddress,
+          country: e.addresses_attributes.country,
+          zip_code: e.addresses_attributes.zipCode,
+          phone_number: e.addresses_attributes.phoneNumber,
         },
       ],
     };

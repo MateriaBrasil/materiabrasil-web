@@ -91,6 +91,28 @@ export default () => {
       />
 
       <SelectField
+        name="addresses_attributes.addressType"
+        label="Tipo"
+        options={[
+          { value: 'manufacture', label: 'Endereço de fabricação' },
+          { value: 'postal', label: 'Endereço para correspondência' },
+        ]}
+        validate={[required()]}
+        style={{ marginBottom: 10 }}
+      />
+      <TextField
+        name="addresses_attributes.streetAddress"
+        label="Endereço com rua, número e complemento"
+        type="text"
+        validate={[required()]}
+      />
+      <TextField
+        name="addresses_attributes.city"
+        label="Cidade"
+        type="text"
+        validate={[required()]}
+      />
+      <SelectField
         name="addresses_attributes.state"
         label="Estado"
         options={[
@@ -125,18 +147,12 @@ export default () => {
         validate={[required()]}
       />
       <TextField
-        name="addresses_attributes.city"
-        label="Cidade"
-        type="text"
-        validate={[required()]}
-      />
-
-      {/* <TextField
-        name="country"
+        name="addresses_attributes.country"
         label="País"
         type="text"
         validate={[required()]}
-      /> */}
+      />
+      <TextField name="addresses_attributes.zipCode" label="CEP" type="text" />
     </Fragment>
   );
 };
