@@ -95,7 +95,7 @@ export default () => (
     />
     <SelectField
       name="state"
-      label="Estado"
+      label="Local da fabricação"
       options={[
         { value: 'AC', label: 'Acre' },
         { value: 'AL', label: 'Alagoas' },

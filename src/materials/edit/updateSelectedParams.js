@@ -1,4 +1,4 @@
-import pick from 'lodash/pick'
+import pick from 'lodash/pick';
 
 const whitelist = [
   'id',
@@ -21,9 +21,10 @@ const whitelist = [
   'prizes',
   'density',
   'dimensions',
-]
+  'state',
+];
 
 export default update => params => {
-  const paramsToUpdate = pick(params, whitelist)
-  update(paramsToUpdate)
-}
+  const paramsToUpdate = pick(params, whitelist);
+  update(paramsToUpdate);
+};
