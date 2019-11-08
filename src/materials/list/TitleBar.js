@@ -1,20 +1,20 @@
-import React from 'react'
-import Typography from '@material-ui/core/Typography'
-import Link from 'react-router-dom/Link'
+import React from 'react';
+import Typography from '@material-ui/core/Typography';
+import Link from 'react-router-dom/Link';
 
-import Rating from './Rating'
-import Colors from '../../Colors'
-import './TitleBar.css'
+import Rating from './Rating';
+import Colors from '../../Colors';
+import './TitleBar.css';
 
 export default props => {
-  const { material, renderIcons } = props
-  const { id, name, averageRating } = material
+  const { material, renderIcons } = props;
+  const { slug, name, averageRating } = material;
 
   return (
     <div className="title-bar">
       <div className="title-bar-text">
         <Link
-          to={`/materials/${id}`}
+          to={`/materials/${slug}`}
           style={{
             textDecoration: 'none',
             color: Colors.white,
@@ -33,5 +33,5 @@ export default props => {
       )}
       {renderIcons && <div className="title-bar-icons">{renderIcons()}</div>}
     </div>
-  )
-}
+  );
+};

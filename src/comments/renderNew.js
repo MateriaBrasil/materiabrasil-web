@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-import Form from './Form'
-import createWithParams from './createWithParams'
+import Form from './Form';
+import createWithParams from './createWithParams';
 
 export default props => ({ create, creating, error }) => (
   <Form
@@ -10,4 +10,4 @@ export default props => ({ create, creating, error }) => (
     createError={error}
     {...props}
   />
-)
+);
