@@ -15,7 +15,7 @@ const style = {
 };
 
 export default withStyles(style)(props => {
-  const { supplierId, supplierName } = props;
+  const { supplierName, supplierSlug } = props;
   const { currentUser, location } = props;
   const { pathname } = location;
 
@@ -24,7 +24,7 @@ export default withStyles(style)(props => {
       {currentUser ? (
         <Fragment>
           <Link
-            to={`/suppliers/${supplierId}`}
+            to={`/suppliers/${supplierSlug}`}
             className={props.classes.underlineOnHover}
           >
             <Typography color="primary">{supplierName}</Typography>

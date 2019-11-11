@@ -15,7 +15,7 @@ import renderQuestionnaires from '../questionnaires/renderList';
 export default props => {
   return (
     <Fragment>
-      <Route path="/suppliers/:id(\d+)" render={renderInfo(props)} />
+      <Route path="/suppliers/:id" render={renderInfo(props)} />
       <Route exact path="/suppliers/new" render={renderNew(props)} />
       <Route
         exact

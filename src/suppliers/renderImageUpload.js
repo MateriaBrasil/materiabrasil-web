@@ -1,9 +1,10 @@
-import render from 'imageUpload/render'
+import render from 'imageUpload/render';
 
 export default props => routeProps => {
-  const { id } = routeProps.match.params
-  const name = 'suppliers'
-  const redirectUrl = `/suppliers/${id}`
+  console.log(props);
+  const { id } = routeProps.match.params;
+  const name = 'suppliers';
+  const redirectUrl = `/suppliers/${props.currentUser.suppliers[0].slug}`;
 
   return render({
     ...props,
@@ -11,5 +12,5 @@ export default props => routeProps => {
     id,
     name,
     redirectUrl,
-  })
-}
+  });
+};

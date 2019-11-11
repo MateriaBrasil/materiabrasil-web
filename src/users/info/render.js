@@ -36,6 +36,7 @@ export default props => infoProps => {
   const { suppliers } = currentUser || {};
   const suppliers_props = {
     supplierId: suppliers.length > 0 ? suppliers[0].id : {},
+    supplierSlug: suppliers.length > 0 ? suppliers[0].slug : {},
     supplierName: suppliers.length > 0 ? suppliers[0].name : {},
     currentUser: currentUser,
     location: window.location,
