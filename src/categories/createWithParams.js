@@ -1,5 +1,5 @@
 export default (create, { match, category }) => () =>
   create({
-    materialId: parseInt(match.params.id, 10),
+    materialId: match.params.id,
     categoryId: category.id,
-  })
+  });
