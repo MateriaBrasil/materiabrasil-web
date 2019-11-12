@@ -11,6 +11,7 @@ export default update => params => {
     state_subscription: params.stateSubscription,
     phone: params.phone,
     company_revenue: params.companyRevenue,
+    type_of_company: params.typeOfCompany,
     reach: params.reach,
     addresses_attributes: [
       {
