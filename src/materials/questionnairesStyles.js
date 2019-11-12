@@ -28,7 +28,7 @@ export const DialogContentExtend = styled(DialogContent)`
       text-align: left;
 
       font-weight: bold;
-      font-size: 30px;
+      font-size: 24px;
       padding-left: 40px;
       padding-right: 40px;
       color: #fff !important;
@@ -84,13 +84,15 @@ export const DialogContentExtend = styled(DialogContent)`
     }
     /* estilos do titulo de cada questão */
     font-weight: bolder;
-    font-size: 19px;
+    font-size: 16px;
+    line-height: 20px;
   }
 
   ul li div fieldset div {
     /* estilos de cada opição */
     label span:last-child {
-      font-size: 16px;
+      font-size: 14px;
+      line-height: 17px;
       font-weight: lighter;
       padding: 10px 0;
     }

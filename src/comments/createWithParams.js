@@ -3,11 +3,16 @@ const types = {
   topics: 'Topic',
 };
 
-export default (create, { info, type }) => params => {
-  const { id } = info;
+export default (create, { info, id, type }) => params => {
+  let nid;
+  if (!info) {
+    nid = id;
+  } else {
+    nid = info.id;
+  }
 
   create({
-    commentable_id: parseInt(id, 10),
+    commentable_id: parseInt(nid, 10),
     commentable_type: types[type],
     ...params,
   });

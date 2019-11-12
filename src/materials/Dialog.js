@@ -33,10 +33,6 @@ export default withMobileDialog()(
       const { id } = match.params;
       const handleCloseModal = onCloseModel || closeModal({ history, id });
 
-      console.log('------------------------------------');
-      console.log(children);
-      console.log('------------------------------------');
-
       return (
         <Dialog
           fullScreen={fullScreen}
