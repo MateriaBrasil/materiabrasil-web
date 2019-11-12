@@ -15,6 +15,7 @@ export default props => ({ create, creating, error }) => {
       state_subscription: e.stateSubscription,
       phone: e.phone,
       company_revenue: e.companyRevenue,
+      type_of_company: e.typeOfCompany,
       reach: e.reach,
       addresses_attributes: [
         {
