@@ -89,6 +89,9 @@ export const DialogContentExtend = styled(DialogContent)`
   }
 
   ul li div fieldset div {
+    label span:first-child {
+      max-height: 48px;
+    }
     /* estilos de cada opição */
     label span:last-child {
       font-size: 14px;
