@@ -6,10 +6,6 @@ import axios from 'axios';
 export default props => {
   const { id, label, headers, baseUrl, history } = props;
 
-  console.log('---------');
-  console.log(headers);
-  console.log('---------');
-
   const destroy = async function() {
     if (window.confirm('Tem certeza que deseja deletar esse Material?')) {
       try {
