@@ -1,12 +1,12 @@
-import React from 'react'
-import Grid from '@material-ui/core/Grid'
-import Card from '@material-ui/core/Card'
-import CardContent from '@material-ui/core/CardContent'
-import Typography from '@material-ui/core/Typography'
+import React from 'react';
+import Grid from '@material-ui/core/Grid';
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
+import Typography from '@material-ui/core/Typography';
 
-import Image from './Image'
+import Image from './Image';
 
-export default ({ id, name, listImageUrl, highlightImageUrl }) => {
+export default ({ id, slug, name, listImageUrl, highlightImageUrl }) => {
   return (
     <Grid item xs={12} style={{ marginBottom: 16 }}>
       <Card>
@@ -18,14 +18,14 @@ export default ({ id, name, listImageUrl, highlightImageUrl }) => {
             <Image
               width={720}
               height={540}
-              editPath={`/materials/${id}/listImage`}
+              editPath={`/materials/${slug}/listImage`}
               name={name}
               lg={4}
               imageUrl={listImageUrl}
               text="Imagem para a lista"
             />
             <Image
-              editPath={`/materials/${id}/highlightImage`}
+              editPath={`/materials/${slug}/highlightImage`}
               name={name}
               lg={8}
               imageUrl={highlightImageUrl}
@@ -37,5 +37,5 @@ export default ({ id, name, listImageUrl, highlightImageUrl }) => {
         </CardContent>
       </Card>
     </Grid>
-  )
-}
+  );
+};

@@ -1,15 +1,15 @@
-import React from 'react'
-import { reduxForm } from 'redux-form'
-import { required } from 'redux-form-validators'
+import React from 'react';
+import { reduxForm } from 'redux-form';
+import { required } from 'redux-form-validators';
 
-import Error from 'Error'
-import TextField from '../form/TextField'
-import Submit from '../form/Submit'
+import Error from 'Error';
+import TextField from '../form/TextField';
+import Submit from '../form/Submit';
 
 export default reduxForm({ form: 'comments' })(props => {
-  const { handleSubmit, onSubmit, error: reduxFormError, createError } = props
-  const { submitting, term = 'comentário' } = props
-  const error = reduxFormError || createError
+  const { handleSubmit, onSubmit, error: reduxFormError, createError } = props;
+  const { submitting, term = 'comentário' } = props;
+  const error = reduxFormError || createError;
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
@@ -23,5 +23,5 @@ export default reduxForm({ form: 'comments' })(props => {
       <Submit callToAction={`Enviar ${term}`} disabled={submitting} />
       <Error>{error}</Error>
     </form>
-  )
-})
+  );
+});

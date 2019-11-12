@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect, useRef } from 'react';
+import React, { Fragment } from 'react';
 import Typography from '@material-ui/core/Typography';
 import Switch from '@material-ui/core/Switch';
 import { Edit } from 'croods';
@@ -18,10 +18,6 @@ export default props => {
       return 'Enviar material para aprovação';
     }
   }
-
-  console.log('----------');
-  console.log(props.info);
-  console.log('----------');
 
   let generalInfo;
   if (

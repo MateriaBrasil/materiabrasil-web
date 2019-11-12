@@ -1,15 +1,15 @@
-import React from 'react'
-import Grid from '@material-ui/core/Grid'
-import Media from 'react-media'
+import React from 'react';
+import Grid from '@material-ui/core/Grid';
+import Media from 'react-media';
 
-import Ratio from './Ratio'
+import Ratio from './Ratio';
 
 export default props => {
-  const { material } = props
-  const { id, highlighted, highlightImageUrl, listImageUrl } = material
-  const { ignoreHighlights } = props
-  const cols = ignoreHighlights ? 1 : highlighted ? 2 : 1
-  const imageUrl = highlighted ? highlightImageUrl : listImageUrl
+  const { material } = props;
+  const { id, highlighted, highlightImageUrl, listImageUrl } = material;
+  const { ignoreHighlights } = props;
+  const cols = ignoreHighlights ? 1 : highlighted ? 2 : 1;
+  const imageUrl = highlighted ? highlightImageUrl : listImageUrl;
 
   return (
     <Grid key={id} item xs={12} lg={6 * cols}>
@@ -23,5 +23,5 @@ export default props => {
         }
       </Media>
     </Grid>
-  )
-}
+  );
+};

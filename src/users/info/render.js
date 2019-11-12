@@ -1,24 +1,23 @@
-import React, { Fragment } from 'react'
-import Link from 'react-router-dom/Link'
-import Grid from '@material-ui/core/Grid'
-import Typography from '@material-ui/core/Typography'
-import Card from '@material-ui/core/Card'
-import CardContent from '@material-ui/core/CardContent'
-import Button from '@material-ui/core/Button'
-import { Helmet } from 'react-helmet'
-import map from 'lodash/map'
+import React, { Fragment } from 'react';
+import Link from 'react-router-dom/Link';
+import Grid from '@material-ui/core/Grid';
+import Typography from '@material-ui/core/Typography';
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
+import Button from '@material-ui/core/Button';
+import { Helmet } from 'react-helmet';
+import map from 'lodash/map';
 
-import Avatar from '../../imageUpload/Avatar'
-import Album from './Album'
-import Private from './Private'
-import RecalculateTopsis from './recalculateTopsis'
-import PropertyWithValue from '../../PropertyWithValue'
-import MessageButton from '../../messages/new/Button'
-import Supplier from '../../materials/info/Supplier'
-
+import Avatar from '../../imageUpload/Avatar';
+import Album from './Album';
+import Private from './Private';
+import RecalculateTopsis from './recalculateTopsis';
+import PropertyWithValue from '../../PropertyWithValue';
+import MessageButton from '../../messages/new/Button';
+import Supplier from '../../materials/info/Supplier';
 
 export default props => infoProps => {
-  const { currentUser } = props
+  const { currentUser } = props;
   const {
     id,
     firstName,
@@ -27,15 +26,21 @@ export default props => infoProps => {
     sharedAlbums,
     email,
     website,
-  } = infoProps
-  const { city, state, country, company, workTitle, bio } = infoProps
-  const { imageUrl } = infoProps
-  const name = `${firstName} ${lastName}`
-  const editPath = currentUser && currentUser.id === id && '/profile/avatar'
+  } = infoProps;
+  const { city, state, country, company, workTitle, bio } = infoProps;
+  const { imageUrl } = infoProps;
+  const name = `${firstName} ${lastName}`;
+  const editPath = currentUser && currentUser.id === id && '/profile/avatar';
   const isAdminProfile =
-    currentUser && currentUser.admin && currentUser.id === id
-  const { suppliers } = currentUser || {}
-  const suppliers_props = {'supplierId': suppliers.length > 0 ? suppliers[0].id : {}, 'supplierName': suppliers.length > 0 ? suppliers[0].name : {}, 'currentUser':currentUser, 'location':window.location}
+    currentUser && currentUser.admin && currentUser.id === id;
+  const { suppliers } = currentUser || {};
+  const suppliers_props = {
+    supplierId: suppliers.length > 0 ? suppliers[0].id : {},
+    supplierSlug: suppliers.length > 0 ? suppliers[0].slug : {},
+    supplierName: suppliers.length > 0 ? suppliers[0].name : {},
+    currentUser: currentUser,
+    location: window.location,
+  };
 
   return (
     <Fragment>
@@ -92,17 +97,17 @@ export default props => infoProps => {
               </Fragment>
             )}
             <div>
-            {suppliers.length > 0 && (
-              <Fragment>
-                <Typography
-                  style={{ marginTop: 16, marginBottom: 5 }}
-                  variant="h4"
-                >
-                  Fornecedor
-                </Typography>
-                <Supplier {...suppliers_props} />
-              </Fragment>
-            )}
+              {suppliers.length > 0 && (
+                <Fragment>
+                  <Typography
+                    style={{ marginTop: 16, marginBottom: 5 }}
+                    variant="h4"
+                  >
+                    Fornecedor
+                  </Typography>
+                  <Supplier {...suppliers_props} />
+                </Fragment>
+              )}
             </div>
           </div>
         </Grid>
@@ -172,5 +177,5 @@ export default props => infoProps => {
         </Grid>
       </Grid>
     </Fragment>
-  )
-}
+  );
+};

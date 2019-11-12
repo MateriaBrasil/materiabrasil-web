@@ -1,13 +1,13 @@
-import React from 'react'
-import Button from '@material-ui/core/Button'
-import DialogActions from '@material-ui/core/DialogActions'
+import React from 'react';
+import Button from '@material-ui/core/Button';
+import DialogActions from '@material-ui/core/DialogActions';
 
 export default props => {
-  console.log(props)
+  console.log(props);
 
-  const { callToAction, actionsChildren, closeButton = true } = props
-  const { onCloseModal, valid, submitting, closeButtonName } = props
-  const showActions = actionsChildren || closeButton || callToAction
+  const { callToAction, actionsChildren, closeButton = true } = props;
+  const { onCloseModal, valid, submitting, closeButtonName } = props;
+  const showActions = actionsChildren || closeButton || callToAction;
 
   return showActions ? (
     <DialogActions>
@@ -23,5 +23,5 @@ export default props => {
       )}
       {actionsChildren}
     </DialogActions>
-  ) : null
-}
+  ) : null;
+};

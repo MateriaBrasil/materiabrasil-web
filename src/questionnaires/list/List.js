@@ -7,7 +7,6 @@ import onCloseModel from './onCloseModel';
 
 export default props => {
   const { questionnaires } = props;
-
   return (
     <Dialog
       {...props}

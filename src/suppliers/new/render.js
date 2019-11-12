@@ -4,7 +4,6 @@ import Form from '../form/Form';
 
 export default props => ({ create, creating, error }) => {
   const handleSubmit = async function(e) {
-    console.log(e);
     const response = {
       name: e.name,
       website: e.website,

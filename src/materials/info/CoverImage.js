@@ -1,10 +1,10 @@
-import React from 'react'
-import Grid from '@material-ui/core/Grid'
+import React from 'react';
+import Grid from '@material-ui/core/Grid';
 
-import Avatar from '../../imageUpload/Avatar'
+import Avatar from '../../imageUpload/Avatar';
 
-export default ({ id, name, coverImageUrl, editable }) => {
-  const editPath = editable && `/materials/${id}/coverImage`
+export default ({ id, slug, name, coverImageUrl, editable }) => {
+  const editPath = editable && `/materials/${slug}/coverImage`;
 
   return (
     <Grid item xs={12} style={{ marginBottom: 16 }}>
@@ -17,5 +17,5 @@ export default ({ id, name, coverImageUrl, editable }) => {
         preserveRatio
       />
     </Grid>
-  )
-}
+  );
+};

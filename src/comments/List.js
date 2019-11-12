@@ -1,10 +1,10 @@
-import React from 'react'
-import { List } from 'croods'
+import React from 'react';
+import { List } from 'croods';
 
-import renderList from './renderList'
+import renderList from './renderList';
 
 export default props => {
-  const { id, type } = props
+  const { id, type } = props;
 
   return (
     <List
@@ -13,5 +13,5 @@ export default props => {
       path={`/${type}/${id}/comments`}
       render={renderList(props)}
     />
-  )
-}
+  );
+};
