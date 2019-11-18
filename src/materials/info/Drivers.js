@@ -24,6 +24,7 @@ export default withStyles(chartsStyle)(props => {
     manufactureDriver,
     managementDriver,
     socialDriver,
+    supplierSlug,
   } = props;
 
   const DRIVER_MIN_NUMBER = 0;
@@ -117,11 +118,10 @@ export default withStyles(chartsStyle)(props => {
       <Fragment>
         <div style={{ marginTop: 10 }}>
           <AnswerQuestionnaire
-            // currentUser={currentUser}
             currentUser={currentUser ? currentUser : ''}
-            // supplier={supplier}
             supplier={supplier ? supplier : ''}
             id={supplierId}
+            supplierSlug={supplierSlug}
           />
         </div>
         <div style={{ marginTop: 20 }}>

@@ -4,7 +4,10 @@ import Button from '@material-ui/core/Button';
 import get from 'lodash/get';
 
 export default props => {
-  const { id, currentUser, supplier } = props;
+  const { id, currentUser, supplier, supplierSlug } = props;
+
+  console.log(props);
+
   const editable =
     get(currentUser, 'admin', false) ||
     get(supplier, 'userId', 'supplierNoExist').toString() ===
@@ -13,7 +16,7 @@ export default props => {
   return (
     <Link
       style={{ textDecoration: 'none' }}
-      to={`/suppliers/${supplier.slug}/questionnaires`}
+      to={`/suppliers/${supplierSlug}/questionnaires`}
     >
       <Button
         variant="contained"
