@@ -28,7 +28,7 @@ export default props => {
         currentUser={currentUser}
         supplier={current}
         id={id}
-        supplierSlug={supplierSlug}
+        supplierSlug={current.slug}
       />
     </Grid>
   );
