@@ -26,14 +26,17 @@ export const InfoIntroContainer = styled.div`
     background-position: center;
 
     .wrapper {
-      max-width: 600px;
+      max-width: 1000px;
       margin: 0 auto;
       p {
         font-size: 22px;
         font-family: 'Open Sans', sans-serif;
+        color: #fff;
       }
 
       .brand-imgs {
+        max-width: 600px;
+        margin: 0 auto;
         display: flex;
         align-items: baseline;
         justify-content: space-around;

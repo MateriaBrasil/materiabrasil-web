@@ -1,8 +1,8 @@
-import React from 'react'
-import Typography from '@material-ui/core/Typography'
+import React from 'react';
+import Typography from '@material-ui/core/Typography';
 
-import onClick from '../../onClick'
-import Colors from '../../Colors'
+import onClick from '../../onClick';
+import Colors from '../../Colors';
 
 export default ({ destroy, isInstitutionalPage }) => (
   <a
@@ -10,7 +10,7 @@ export default ({ destroy, isInstitutionalPage }) => (
     href="#destroy"
     onClick={onClick(destroy)}
     style={{
-      color: isInstitutionalPage ? Colors.white : Colors.black,
+      color: Colors.white,
       marginLeft: 20,
     }}
   >
@@ -22,4 +22,4 @@ export default ({ destroy, isInstitutionalPage }) => (
       Sair
     </Typography>
   </a>
-)
+);

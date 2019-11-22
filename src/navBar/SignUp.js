@@ -1,7 +1,7 @@
-import React from 'react'
-import Link from 'react-router-dom/Link'
-import Typography from '@material-ui/core/Typography'
-import Colors from '../Colors'
+import React from 'react';
+import Link from 'react-router-dom/Link';
+import Typography from '@material-ui/core/Typography';
+import Colors from '../Colors';
 
 export default ({ location: { pathname }, isInstitutionalPage }) => (
   <Link
@@ -12,7 +12,7 @@ export default ({ location: { pathname }, isInstitutionalPage }) => (
     }}
     style={{
       textDecoration: 'none',
-      color: isInstitutionalPage ? Colors.white : Colors.black,
+      color: Colors.white,
     }}
   >
     <Typography
@@ -23,4 +23,4 @@ export default ({ location: { pathname }, isInstitutionalPage }) => (
       Criar Conta
     </Typography>
   </Link>
-)
+);

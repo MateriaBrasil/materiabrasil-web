@@ -1,5 +1,8 @@
 import React from 'react';
 
+import MateriaBrasil from './MateriaBrasilLogo.png';
+import MateriaMundi from './MateriaMundiLogo.png';
+
 import { InfoIntroContainer } from './styles';
 
 export default function() {
@@ -12,8 +15,8 @@ export default function() {
           volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
         </p>
         <div className="brand-imgs">
-          <img src="https://materiamundi.cc/images/logo.png" alt="" />
-          <img src="https://materiamundi.cc/images/logo.png" alt="" />
+          <img src={MateriaMundi} alt="Materia Mundi Logo" />
+          <img src={MateriaBrasil} alt="Materia Brasil Logo" />
         </div>
       </div>
     </InfoIntroContainer>
