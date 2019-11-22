@@ -1,11 +1,11 @@
-import React from 'react'
-import Typography from '@material-ui/core/Typography'
-import { withStyles } from '@material-ui/core/styles'
+import React from 'react';
+import { withStyles } from '@material-ui/core/styles';
 
-import Grid from './Grid'
-import Colors from '../Colors'
+import Colors from '../Colors';
 
-const polygon = 'polygon(0 0, 100% 0%, 100% 91%, 0% 100%)'
+import { StyledTypography } from './styles';
+import InfoIntro from './InfoIntro';
+import Grid from './Grid';
 
 const styles = theme => ({
   text: {
@@ -17,18 +17,11 @@ const styles = theme => ({
       fontSize: 36,
     },
   },
-})
+});
 
 export default withStyles(styles)(({ classes }) => (
-  <Grid
-    id="introduction"
-    backgroundImage="url('https://s3.amazonaws.com/materiamundi-us/static/backgrounds/material-7.jpg')"
-    style={{ WebkitClipPath: polygon, clipPath: polygon }}
-  >
-    <Typography variant="h4" className={classes.text}>
-      Na Materia
-      <span style={{ fontWeight: 'bold' }}>Mundi</span>, nós ajudamos indústrias
-      e consumidores a implementar ações para uma economia circular aplicada.
-    </Typography>
+  <Grid id="introduction" backgroundImage={Colors.bondiBlue}>
+    <StyledTypography variant="h1">Materioteca</StyledTypography>
+    <InfoIntro />
   </Grid>
-))
+));

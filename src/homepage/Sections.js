@@ -1,21 +1,18 @@
-import React from 'react'
+import React from 'react';
 
-import Colors from '../Colors'
-import Explore from './Explore'
-import WhatItIs from './WhatItIs'
-import Introduction from './Introduction'
-import Section from './Section'
+import Colors from '../Colors';
+
+import Introduction from './Introduction';
+import Section from './Section';
+import Materials from '../explorer/render';
 
 export default props => (
-  <div style={{ backgroundColor: Colors.grayNurse }}>
+  <div style={{ backgroundColor: Colors.white }}>
     <Section handleScroll={props.handleScroll(0)}>
       <Introduction />
     </Section>
-    <Section handleScroll={props.handleScroll(1)}>
-      <WhatItIs />
-    </Section>
-    <Section handleScroll={props.handleScroll(2)}>
-      <Explore />
+    <Section handleScroll={props.handleScroll(0)}>
+      <Materials {...props} />
     </Section>
   </div>
-)
+);

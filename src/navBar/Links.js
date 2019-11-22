@@ -1,15 +1,15 @@
-import React, { Fragment } from 'react'
+import React, { Fragment } from 'react';
 
-import SignOut from '../auth/signOut/SignOut'
-import SignIn from './SignIn'
-import SignUp from './SignUp'
-import Link from './Link'
-import SupplierLink from './SupplierLink'
+import SignOut from '../auth/signOut/SignOut';
+import SignIn from './SignIn';
+import SignUp from './SignUp';
+import Link from './Link';
+import SupplierLink from './SupplierLink';
 
 export default props => {
-  const { currentUser } = props
-  const { firstName, lastName, suppliers } = currentUser || {}
-  const name = `${firstName} ${lastName}`
+  const { currentUser } = props;
+  const { firstName, lastName, suppliers } = currentUser || {};
+  const name = `${firstName} ${lastName}`;
 
   return (
     <div className="navbar-links">
@@ -34,5 +34,5 @@ export default props => {
         </Fragment>
       )}
     </div>
-  )
-}
+  );
+};

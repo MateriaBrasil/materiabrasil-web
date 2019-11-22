@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-import Home from './Home'
-import NavbarAndContent from '../NavBarAndContent'
+import Home from './Home';
+import NavbarAndContent from '../NavBarAndContent';
 
 export default props => routeProps => (
   <NavbarAndContent institutional {...props}>
-    <Home />
+    <Home {...props} />
   </NavbarAndContent>
-)
+);

@@ -1,8 +1,8 @@
-import React from 'react'
-import Link from 'react-router-dom/Link'
-import Typography from '@material-ui/core/Typography'
-import Colors from '../Colors'
-import './Link.css'
+import React from 'react';
+import Link from 'react-router-dom/Link';
+import Typography from '@material-ui/core/Typography';
+import Colors from '../Colors';
+import './Link.css';
 
 export default ({ to, text, isInstitutionalPage, targetBlank }) => (
   <Link
@@ -11,7 +11,8 @@ export default ({ to, text, isInstitutionalPage, targetBlank }) => (
     target={targetBlank ? '_blank' : undefined}
     style={{
       textDecoration: 'none',
-      color: isInstitutionalPage ? Colors.white : Colors.black,
+      // color: isInstitutionalPage ? Colors.white : Colors.black,
+      color: Colors.white,
     }}
   >
     <Typography
@@ -22,4 +23,4 @@ export default ({ to, text, isInstitutionalPage, targetBlank }) => (
       {text}
     </Typography>
   </Link>
-)
+);

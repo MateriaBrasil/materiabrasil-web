@@ -1,18 +1,20 @@
-import React from 'react'
-import { withRouter } from 'react-router'
-import AppBar from '@material-ui/core/AppBar'
-import Toolbar from '@material-ui/core/Toolbar'
+import React from 'react';
+import { withRouter } from 'react-router';
 
-import LinksOrMenu from './LinksOrMenu'
-import Logo from './Logo'
+import { StyledToolbar, StyledAppBar } from './styles';
+
+import LinksOrMenu from './LinksOrMenu';
 
 export default withRouter(props => {
   return (
-    <AppBar position={'absolute'} color="inherit" elevation={0}>
-      <Toolbar>
-        <Logo {...props} />
+    <StyledAppBar
+      position={'absolute'}
+      styles={{ backgroundColor: 'transparent' }}
+      elevation={0}
+    >
+      <StyledToolbar>
         <LinksOrMenu {...props} />
-      </Toolbar>
-    </AppBar>
-  )
-})
+      </StyledToolbar>
+    </StyledAppBar>
+  );
+});

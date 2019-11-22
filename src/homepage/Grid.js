@@ -1,8 +1,9 @@
-import React from 'react'
-import Grid from '@material-ui/core/Grid'
-import { withStyles } from '@material-ui/core/styles'
+import React from 'react';
+import Grid from '@material-ui/core/Grid';
+import { withStyles } from '@material-ui/core/styles';
 
-import Colors from '../Colors'
+import './grid.css';
+import Colors from '../Colors';
 
 const styles = theme => ({
   grid: {
@@ -18,7 +19,7 @@ const styles = theme => ({
       padding: '100px 0',
     },
   },
-})
+});
 
 export default withStyles(styles)(props => {
   return (
@@ -26,24 +27,14 @@ export default withStyles(styles)(props => {
       id={props.id}
       container
       style={{
-        background: props.backgroundImage || Colors.grayNurse,
+        background: props.backgroundImage || Colors.white,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
+        height: '100vh',
         ...props.style,
       }}
     >
-      <Grid
-        item
-        xs={12}
-        sm={8}
-        md={6}
-        className={props.classes.grid}
-        style={{
-          position: 'relative',
-        }}
-      >
-        {props.children}
-      </Grid>
+      <Grid className="grid-home">{props.children}</Grid>
     </Grid>
-  )
-})
+  );
+});
