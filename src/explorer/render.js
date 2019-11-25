@@ -26,16 +26,17 @@ export default function(props) {
           render={({ categories }) => (
             <List
               name="materials"
-              path={`/materials`}
-              // path={`/materials?${categories}`}
+              // path={`/materials`}
+              path={`/materials?${categories}`}
               render={list => (
                 <MaterialsList>
                   {list.map((item, index) => (
                     <MaterialSingle to={`/materials/${item.slug}`} key={index}>
                       <div className="borda" bg-index={border_string}>
                         <img
-                          src="https://materiamundi-us.s3.amazonaws.com/uploads//9a278f531c0ac1453f97e0f459c0d544.jpg"
-                          alt=""
+                          // src="https://materiamundi-us.s3.amazonaws.com/uploads//9a278f531c0ac1453f97e0f459c0d544.jpg"
+                          src={item.highlightImagerl}
+                          alt={item.name}
                         />
                       </div>
                       <StyledTypography variant="h4">

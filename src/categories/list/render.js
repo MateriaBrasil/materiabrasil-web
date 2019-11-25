@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-import Filters from 'filters/Filters'
-import List from './List'
+import { StyledFilters } from '../styles';
+import List from './List';
 
 export default props => list => (
-  <Filters
+  <StyledFilters
     render={filters => <List {...props} filters={filters} list={list} />}
   />
-)
+);

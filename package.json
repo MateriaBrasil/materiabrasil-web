@@ -40,7 +40,8 @@
     "redux-form": "^7.4.2",
     "redux-form-validators": "^2.7.1",
     "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^4.4.1"
   },
   "scripts": {
     "lint": "node_modules/.bin/eslint --max-warnings 0 .",

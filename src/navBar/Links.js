@@ -13,14 +13,15 @@ export default props => {
 
   return (
     <div className="navbar-links">
+      <Link to="/" exact text="Home" {...props} />
       <Link to="/about" text="Sobre" {...props} />
-      <Link
+      {/* <Link
         to={'http://materiabrasil.com.br/'}
         text="Escritórios"
         targetBlank="true"
-      />
-      <Link to="/materials" text="Explore" {...props} />
-      <Link to="/forum" text="Fórum" {...props} />
+      /> */}
+      {/* <Link to="/materials" text="Explore" {...props} /> */}
+      {/* <Link to="/forum" text="Fórum" {...props} /> */}
       {currentUser ? (
         <Fragment>
           <SupplierLink suppliers={suppliers} {...props} />

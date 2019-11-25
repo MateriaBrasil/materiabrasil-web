@@ -1,11 +1,11 @@
-import React from 'react'
-import FormGroup from '@material-ui/core/FormGroup'
+import React from 'react';
+import FormGroup from '@material-ui/core/FormGroup';
 
-import renderCategory from './renderCategory'
+import renderCategory from './renderCategory';
 
 export default parentProps => ({ create, creating }) => {
-  const props = { ...parentProps, create, creating }
-  const { categories } = props
+  const props = { ...parentProps, create, creating };
+  const { categories } = props;
 
   return (
     <FormGroup>
@@ -13,5 +13,5 @@ export default parentProps => ({ create, creating }) => {
         renderCategory({ ...props, rootCategory: category })(category),
       )}
     </FormGroup>
-  )
-}
+  );
+};
