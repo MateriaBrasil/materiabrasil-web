@@ -7,6 +7,8 @@ import { StyledTypography } from './styles';
 import InfoIntro from './InfoIntro';
 import Grid from './Grid';
 
+import bg from './texturas.jpg';
+
 const styles = theme => ({
   text: {
     color: Colors.white,
@@ -20,7 +22,7 @@ const styles = theme => ({
 });
 
 export default withStyles(styles)(({ classes }) => (
-  <Grid id="introduction" backgroundImage={Colors.bondiBlue}>
+  <Grid id="introduction" backgroundImage={`url(${bg})`}>
     <StyledTypography variant="h1">Materioteca</StyledTypography>
     <InfoIntro />
   </Grid>
