@@ -35,7 +35,7 @@ export default function(props) {
                       <div className="borda" bg-index={border_string}>
                         <img
                           // src="https://materiamundi-us.s3.amazonaws.com/uploads//9a278f531c0ac1453f97e0f459c0d544.jpg"
-                          src={item.highlightImagerl}
+                          src={item.listImageUrl}
                           alt={item.name}
                         />
                       </div>
