@@ -1,6 +1,6 @@
-import React from 'react'
-import ListItem from '@material-ui/core/ListItem'
-import NewFavorite from '../favorites/New'
+import React from 'react';
+import ListItem from '@material-ui/core/ListItem';
+import NewFavorite from '../favorites/New';
 
 export default props => album => {
   return (
@@ -15,9 +15,9 @@ export default props => album => {
       <NewFavorite
         albumId={album.id}
         albumName={album.name}
-        materialId={parseInt(props.match.params.id, 10)}
+        materialId={props.match.params.id}
         {...props}
       />
     </ListItem>
-  )
-}
+  );
+};
