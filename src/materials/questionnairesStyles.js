@@ -65,11 +65,11 @@ export const DialogContentExtend = styled(DialogContent)`
       width: 100%;
     }
     /* estilo das labels de cada questionario */
-    > span {
+    /* > span {
       text-transform: uppercase;
       font-weight: lighter;
       font-size: 16px;
-    }
+    } */
   }
 
   ul li div h6 {
