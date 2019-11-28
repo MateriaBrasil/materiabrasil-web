@@ -28,7 +28,7 @@ export const DialogContentExtend = styled(DialogContent)`
       text-align: left;
 
       font-weight: bold;
-      font-size: 24px;
+      font-size: 23px;
       padding-left: 40px;
       padding-right: 40px;
       color: #fff !important;
