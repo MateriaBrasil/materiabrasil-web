@@ -1,15 +1,15 @@
-import React from 'react'
-import { New } from 'croods'
+import React from 'react';
+import { New } from 'croods';
 
-import renderNew from './renderNew'
-import renderCreated from './renderCreated'
+import renderNew from './renderNew';
+import renderCreated from './renderCreated';
 
 export default parentProps => (materialCategories, { actions }) => {
   const props = {
     ...parentProps,
     setMaterialCategories: actions.setList,
     materialCategories,
-  }
+  };
 
   return (
     <New
@@ -18,5 +18,5 @@ export default parentProps => (materialCategories, { actions }) => {
       render={renderNew(props)}
       renderCreated={renderCreated(props)}
     />
-  )
-}
+  );
+};

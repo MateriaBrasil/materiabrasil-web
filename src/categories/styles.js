@@ -8,15 +8,14 @@ export const StyledFormControlLabel = styled(FormControlLabel)`
   && {
     width: 80%;
     margin-left: 10%;
-    margin-bottom: 20px;
-
+    margin-bottom: 10px;
     background-image: linear-gradient(
       to right,
-      #333 40%,
+      #333 70%,
       rgba(255, 255, 255, 0) 20%
     );
     background-position: left bottom;
-    background-size: 25px 1px;
+    background-size: 40px 1px;
     background-repeat: repeat-x;
   }
 

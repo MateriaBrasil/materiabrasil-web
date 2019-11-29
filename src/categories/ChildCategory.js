@@ -7,6 +7,8 @@ import Create from './Create';
 import Checkbox from './Checkbox';
 import Destroy from './Destroy';
 
+import './ChildCategory.css';
+
 export default props => {
   const { materialCategories, parent, category, filters = {} } = props;
   const { selectCategory, unselectCategory } = filters.actions || {};
@@ -34,6 +36,6 @@ export default props => {
   return filters.selectedCategories ? (
     <Checkbox {...childProps} action={action} checked={checked} />
   ) : (
-    <Component {...childProps} />
+    <Component class="no-margin" {...childProps} />
   );
 };

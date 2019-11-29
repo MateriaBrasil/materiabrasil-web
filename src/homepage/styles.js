@@ -1,14 +1,41 @@
 import styled from 'styled-components';
 import Typography from '@material-ui/core/Typography';
+import { Input } from '@rocketseat/unform';
 
 import bg_info_intro from './bg-info-intro.png';
+import search_icon from './search.png';
 
 export const StyledTypography = styled(Typography)`
   && {
     font-family: 'Open Sans', sans-serif;
     color: #fff;
     font-weight: 900;
-    font-size: 160px;
+    font-size: 80px;
+
+    margin-bottom: 25px;
+  }
+`;
+
+export const StyledField = styled(Input)`
+  && {
+    font-size: 16px;
+    border: 0;
+    border-radius: 100px;
+    padding-left: 20px;
+    background: #efefef;
+    height: 50px;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto 40px;
+
+    background-image: url(${search_icon});
+    background-position: 95% 50%;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+
+    &:focus {
+      outline: none;
+    }
   }
 `;
 

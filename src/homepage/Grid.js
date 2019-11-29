@@ -30,7 +30,7 @@ export default withStyles(styles)(props => {
         background: props.backgroundImage || Colors.white,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        height: '100vh',
+        height: '45vh',
         ...props.style,
       }}
     >

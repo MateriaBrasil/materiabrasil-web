@@ -13,8 +13,6 @@ import borda_7 from './bordas/borda_7.png';
 import borda_8 from './bordas/borda_8.png';
 import borda_9 from './bordas/borda_9.png';
 
-import search_icon from './search.png';
-
 export const Container = styled.div`
   margin: 40px auto;
   display: flex;
@@ -143,30 +141,7 @@ export const StyledTypography = styled(Typography)`
     margin: 20px 0;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif !important;
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-`;
-
-export const StyledField = styled.input`
-  && {
     font-size: 16px;
-    border: 0;
-    border-radius: 100px;
-    padding-left: 20px;
-    background: #efefef;
-    height: 50px;
-    width: 100%;
-    max-width: 300px;
-    margin: 0 auto 40px;
-
-    background-image: url(${search_icon});
-    background-position: 95% 50%;
-    background-size: 25px 25px;
-    background-repeat: no-repeat;
-
-    &:focus {
-      outline: none;
-    }
+    margin-bottom: 10px;
   }
 `;

@@ -7,10 +7,10 @@ import Grid from '@material-ui/core/Grid';
 
 import renderCategoriesList from 'categories/list/render';
 import Search from 'search/Search';
-import Filters from 'filters/Filters';
+import { StyledFilters } from './styles';
 
 export default props => (
-  <Filters
+  <StyledFilters
     render={({ selectedCategories }) => {
       const categories = isEmpty(selectedCategories)
         ? ''

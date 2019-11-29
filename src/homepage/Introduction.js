@@ -1,29 +1,27 @@
 import React from 'react';
-import { withStyles } from '@material-ui/core/styles';
+import { Form } from '@rocketseat/unform';
 
-import Colors from '../Colors';
-
-import { StyledTypography } from './styles';
-import InfoIntro from './InfoIntro';
+import { StyledTypography, StyledField } from './styles';
 import Grid from './Grid';
 
-import bg from './texturas.jpg';
+import bg from './bg_banner.png';
 
-const styles = theme => ({
-  text: {
-    color: Colors.white,
-    padding: '0 20px',
-    fontSize: 20,
-    paddingTop: 50,
-    [theme.breakpoints.up('lg')]: {
-      fontSize: 36,
-    },
-  },
-});
+export default function() {
+  function handleSubmit(data) {
+    console.log(data);
+  }
 
-export default withStyles(styles)(({ classes }) => (
-  <Grid id="introduction" backgroundImage={`url(${bg})`}>
-    <StyledTypography variant="h1">Materioteca</StyledTypography>
-    <InfoIntro />
-  </Grid>
-));
+  return (
+    <Grid id="introduction" backgroundImage={`url(${bg})`}>
+      <StyledTypography variant="h1">Materioteca</StyledTypography>
+      <Form onSubmit={handleSubmit}>
+        <StyledField
+          name="material"
+          type="text"
+          placeholder="Pesquisar materials"
+        />
+        <button type="submit">Pesquisar</button>
+      </Form>
+    </Grid>
+  );
+}

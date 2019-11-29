@@ -1,8 +1,8 @@
-@media (min-width: 960px){
-	.materials-list-grid {
-	    overflow: auto;
-	    height: 87vh;
-	    top: 40px !important;
-	    position: relative;
-	}
+@media (min-width: 960px) {
+  .materials-list-grid {
+    overflow: auto;
+    /* height: 87vh; */
+    top: 40px !important;
+    position: relative;
+  }
 }
