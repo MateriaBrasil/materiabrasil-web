@@ -22,25 +22,28 @@ export default function(props) {
           render={list => (
             <MaterialsList>
               {list.map((item, index) => (
-                <MaterialSingle to={`/materials/${item.slug}`} key={index}>
-                  <div className="borda" bg-index={border_string}>
-                    <img src={item.listImageUrl} alt={item.name} />
+                <MaterialSingle to={`/materials/${item.slug}`} key={index} item={item}>
+                  <div className="content_img_borda">
+                    <div className="borda" bg-index={border_string}></div>
+                    <div className="img_loop"></div>
                   </div>
-                  <StyledTypography variant="h4">{item.name}</StyledTypography>
-                  <div className="content-material-single">
-                    <div className="categories-wrapper">
-                      <span>Tecido</span>
-                      <span>Tecido</span>
-                    </div>
-                    <div className="icons">
-                      {currentUser && (
-                        <Link to={`/materials/${props.currentUser.id}/albums`}>
-                          <img src={favorites} alt="" />
+                  <div className="content_loop">
+                    <StyledTypography variant="h4">{item.name}</StyledTypography>
+                    <div className="content-material-single">
+                      <div className="categories-wrapper">
+                        <span>Tecido</span>
+                        <span>Tecido</span>
+                      </div>
+                      <div className="icons">
+                        {currentUser && (
+                          <Link to={`/materials/${props.currentUser.id}/albums`}>
+                            <img src={favorites} alt="" />
+                          </Link>
+                        )}
+                        <Link target="_blank" to={item.technicalSpecificationUrl}>
+                          <img src={download} alt="" />
                         </Link>
-                      )}
-                      <Link target="_blank" to={item.technicalSpecificationUrl}>
-                        <img src={download} alt="" />
-                      </Link>
+                      </div>
                     </div>
                   </div>
                 </MaterialSingle>

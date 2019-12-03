@@ -35,93 +35,140 @@ export const MaterialSingle = styled(Link)`
   width: 33.3%;
   text-decoration: none;
 
-  padding: 25px;
+  padding: 25px 5px;
 
-  &:first-child > .borda {
-    background: url(${borda_1});
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
+    &:first-child > .content_img_borda .borda {
+      background: url(${borda_1});
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 88%;
+      height:87%;
+    }
 
-  &:nth-of-type(2) > .borda {
-    background: url(${borda_2});
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
+    &:nth-of-type(2) > .content_img_borda .borda {
+      background: url(${borda_2});
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 87%;
+      height: 76%;
+    }
 
-  &:nth-of-type(3) > .borda {
-    background: url(${borda_3});
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
+    &:nth-of-type(3) > .content_img_borda .borda {
+      background: url(${borda_3});
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 88%;
+      height: 80%;
+      bottom: 40px;
+    }
 
-  &:nth-of-type(4) > .borda {
-    background: url(${borda_4});
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
+    &:nth-of-type(4) > .content_img_borda .borda {
+      background: url(${borda_4});
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 86%;
+      height: 100%;
+    }
 
-  &:nth-of-type(5) > .borda {
-    background: url(${borda_5});
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
+    &:nth-of-type(5) > .content_img_borda .borda {
+      background: url(${borda_5});
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 90%;
+      height: 100%;
+      right: 21px;
+    }
 
-  &:nth-of-type(6) > .borda {
-    background: url(${borda_6});
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
+    &:nth-of-type(6) > .content_img_borda .borda {
+      background: url(${borda_6});
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 86%;
+      right: 13px;
+    }
 
-  &:nth-of-type(7) > .borda {
-    background: url(${borda_7});
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
+    &:nth-of-type(7) > .content_img_borda .borda {
+      background: url(${borda_7});
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 90%;
+      left: 10px;
+      height: 86%;
+    }
 
-  &:nth-of-type(8) > .borda {
-    background: url(${borda_8});
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
+    &:nth-of-type(8) > .content_img_borda .borda {
+      background: url(${borda_8});
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 86%;
+      height: 100%;
+    }
 
-  &:nth-of-type(9) > .borda {
-    background: url(${borda_9});
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
+    &:nth-of-type(9) > .content_img_borda .borda {
+      background: url(${borda_9});
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 86%;
+      height: 82%;
+      left: 17px;
+    }
 
-  .borda {
+  .content_img_borda {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 40px;
+    position: relative;
+    width: 100%;
+    height:245px;
+  }
 
-    & > img {
-      width: 100%;
-      transform: scale(1.3);
-      border-radius: 5px;
-    }
+
+  .borda {
+    position: absolute;
+    z-index: 1;
+  }
+
+  .img_loop {
+    position:relative;
+    z-index: 2;
+    border-radius: 12px;
+    background-image: url(${props => props.item.listImageUrl});
+    background-size: cover;
+    width: 80%;
+    height: 180px;
+  }
+
+  .content_loop {
+    padding: 0 10px;
+    width: 90%;
+    margin: 0 auto;
   }
 
   .content-material-single {
+    
+
     .categories-wrapper {
+      
+
       span {
         display: inline-block;
-        margin-right: 20px;
+        margin-right: 10px;
         background: ${Colors.bondiBlue};
         padding: 5px;
         border-radius: 5px;
         color: ${Colors.white};
+        font-size: 12px;
+        font-weight: bolder;
       }
     }
 
@@ -138,7 +185,7 @@ export const MaterialSingle = styled(Link)`
 
 export const StyledTypography = styled(Typography)`
   && {
-    margin: 20px 0;
+    margin: 0px 0 20px;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif !important;
     font-size: 16px;
