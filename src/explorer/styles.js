@@ -159,10 +159,14 @@ export const MaterialSingle = styled(Link)`
 
     .categories-wrapper {
       
+      &:last-child {
+        margin-right: 0px;
+      }
 
-      span {
+      .span_category {
         display: inline-block;
         margin-right: 10px;
+        margin-bottom: 10px;
         background: ${Colors.bondiBlue};
         padding: 5px;
         border-radius: 5px;

@@ -31,8 +31,9 @@ export default function(props) {
                     <StyledTypography variant="h4">{item.name}</StyledTypography>
                     <div className="content-material-single">
                       <div className="categories-wrapper">
-                        <span>Tecido</span>
-                        <span>Tecido</span>
+                        {item.categoriesHasPage.map((categoriesHasPage, i) => (
+                          <span className="span_category" key={i}>{categoriesHasPage.name}</span>
+                        ))}
                       </div>
                       <div className="icons">
                         {currentUser && (
