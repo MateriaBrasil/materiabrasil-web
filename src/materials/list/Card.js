@@ -1,6 +1,7 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Media from 'react-media';
+import './Card.css'
 
 import Ratio from './Ratio';
 
@@ -12,7 +13,7 @@ export default props => {
   const imageUrl = highlighted ? highlightImageUrl : listImageUrl;
 
   return (
-    <Grid key={id} item xs={12} lg={6 * cols}>
+    <Grid className="material-card-loop" key={id} item xs={12} lg={6 * cols}>
       <Media query="(min-width: 1280px)">
         {matches =>
           matches ? (
