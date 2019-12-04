@@ -1,14 +1,14 @@
-import React, { Fragment } from 'react'
-import Grid from '@material-ui/core/Grid'
-import Button from '@material-ui/core/Button'
-import Link from 'react-router-dom/Link'
+import React, { Fragment } from 'react';
+import Grid from '@material-ui/core/Grid';
+import Button from '@material-ui/core/Button';
+import Link from 'react-router-dom/Link';
 
-import List from './List'
-import SignUpLink from '../auth/SignUpLink'
+import List from './List';
+import SignUpLink from '../auth/SignUpLink';
 
 export default props => {
-  const { currentUser, supplier, location } = props
-  const { pathname } = location
+  const { currentUser, supplier, location } = props;
+  const { pathname } = location;
 
   return (
     <Fragment>
@@ -35,5 +35,5 @@ export default props => {
         </Grid>
       )}
     </Fragment>
-  )
-}
+  );
+};

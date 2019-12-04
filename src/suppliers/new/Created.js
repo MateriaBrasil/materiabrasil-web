@@ -16,6 +16,6 @@ export default class extends Component {
 
   render() {
     const { supplier } = this.props;
-    return <Redirect to={`/suppliers/${supplier.id}?reload=true`} />;
+    return <Redirect to={`/suppliers/${supplier.slug}?reload=true`} />;
   }
 }

@@ -1,15 +1,15 @@
-import React from 'react'
-import Route from 'react-router-dom/Route'
+import React from 'react';
+import Route from 'react-router-dom/Route';
 
-import renderReviews from '../reviews/render'
-import renderList from './renderList'
-import renderInfo from './renderInfo'
-import renderEdit from './renderEdit'
-import renderCategories from '../categories/render'
-import renderImageUpload from './renderImageUpload'
-import renderQuestionnaires from '../questionnaires/renderList'
-import renderAlbums from '../albums/renderList'
-import renderNew from '../albums/renderNew'
+import renderReviews from '../reviews/render';
+import renderList from './renderList';
+import renderInfo from './renderInfo';
+import renderEdit from './renderEdit';
+import renderCategories from '../categories/render';
+import renderImageUpload from './renderImageUpload';
+import renderQuestionnaires from '../questionnaires/renderList';
+import renderAlbums from '../albums/renderList';
+import renderNew from '../albums/renderNew';
 
 export default props => (
   <div>
@@ -60,4 +60,4 @@ export default props => (
       render={renderQuestionnaires({ ...props, aboutType: 'Material' })}
     />
   </div>
-)
+);

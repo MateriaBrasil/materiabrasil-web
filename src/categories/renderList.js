@@ -1,7 +1,7 @@
-import React from 'react'
-import { List } from 'croods'
+import React from 'react';
+import { List } from 'croods';
 
-import renderList from './renderMaterialCategoriesList'
+import renderList from './renderMaterialCategoriesList';
 
 export default props => categories => (
   <List
@@ -9,4 +9,4 @@ export default props => categories => (
     path={`/materials/${props.match.params.id}/categories`}
     render={renderList({ ...props, categories })}
   />
-)
+);

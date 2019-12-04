@@ -1,9 +1,9 @@
-import React, { Fragment } from 'react'
-import Link from 'react-router-dom/Link'
-import { withStyles } from '@material-ui/core/styles'
-import Typography from '@material-ui/core/Typography'
+import React, { Fragment } from 'react';
+import Link from 'react-router-dom/Link';
+import { withStyles } from '@material-ui/core/styles';
+import Typography from '@material-ui/core/Typography';
 
-import SignUpLink from '../../auth/SignUpLink'
+import SignUpLink from '../../auth/SignUpLink';
 
 const style = {
   underlineOnHover: {
@@ -12,19 +12,19 @@ const style = {
       textDecoration: 'underline',
     },
   },
-}
+};
 
 export default withStyles(style)(props => {
-  const { supplierId, supplierName } = props
-  const { currentUser, location } = props
-  const { pathname } = location
+  const { supplierName, supplierSlug } = props;
+  const { currentUser, location } = props;
+  const { pathname } = location;
 
   return (
     <div style={{ marginBottom: 22 }}>
       {currentUser ? (
         <Fragment>
           <Link
-            to={`/suppliers/${supplierId}`}
+            to={`/suppliers/${supplierSlug}`}
             className={props.classes.underlineOnHover}
           >
             <Typography color="primary">{supplierName}</Typography>
@@ -37,5 +37,5 @@ export default withStyles(style)(props => {
         />
       )}
     </div>
-  )
-})
+  );
+});

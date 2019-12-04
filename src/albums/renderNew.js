@@ -1,26 +1,28 @@
-import React from 'react'
-import { New } from 'croods'
-import { Formik } from 'formik'
-import Button from '@material-ui/core/Button'
-import Dialog from 'materials/Dialog'
-import Input from '@material-ui/core/Input'
-import InputLabel from '@material-ui/core/InputLabel'
-import FormHelperText from '@material-ui/core/FormHelperText'
-import Typography from '@material-ui/core/Typography'
-import FormControl from '@material-ui/core/FormControl'
+import React from 'react';
+import { New } from 'croods';
+import { Formik } from 'formik';
+import Button from '@material-ui/core/Button';
+import Dialog from 'materials/Dialog';
+import Input from '@material-ui/core/Input';
+import InputLabel from '@material-ui/core/InputLabel';
+import FormHelperText from '@material-ui/core/FormHelperText';
+import Typography from '@material-ui/core/Typography';
+import FormControl from '@material-ui/core/FormControl';
 
 export default props => routeProps => {
+  console.log(props);
+
   const validate = values => {
-    let errors = {}
+    let errors = {};
 
     if (!values.name) {
-      errors.name = 'Required'
+      errors.name = 'Required';
     }
 
-    return errors
-  }
-  const { history } = routeProps
-  const { setCurrentUser, currentUser } = props
+    return errors;
+  };
+  const { history } = routeProps;
+  const { setCurrentUser, currentUser } = props;
 
   return (
     <Dialog {...props} {...routeProps} title="Adicionar novo álbum">
@@ -34,7 +36,7 @@ export default props => routeProps => {
               onSubmit={values => {
                 create({
                   name: values.name,
-                })
+                });
               }}
               render={({
                 values,
@@ -71,8 +73,8 @@ export default props => routeProps => {
             setCurrentUser({
               ...currentUser,
               albums: [...currentUser.albums, album],
-            })
-            history.push(`/materials/${routeProps.match.params.id}/albums`)
+            });
+            history.push(`/materials/${routeProps.match.params.id}/albums`);
           }}
         />
       )}
@@ -82,5 +84,5 @@ export default props => routeProps => {
         </Typography>
       )}
     </Dialog>
-  )
-}
+  );
+};

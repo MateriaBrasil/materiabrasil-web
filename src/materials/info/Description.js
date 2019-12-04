@@ -21,7 +21,7 @@ export default props => {
     <Card style={{ marginBottom: 16 }}>
       <CardContent>
         <div style={{ float: 'right' }}>
-          <Link id={id} />
+          <Link id={props.slug} />
           {technicalSpecificationUrl && <TechnicalSpecification {...props} />}
           {certificationsUrl && <CertificationsIcon {...props} />}
         </div>
