@@ -1,12 +1,12 @@
-import React from 'react';
-import Checkbox from '@material-ui/core/Checkbox';
-import Radio from '@material-ui/core/Radio';
+import React from 'react'
+import Checkbox from '@material-ui/core/Checkbox'
+import Radio from '@material-ui/core/Radio'
 
-import { StyledFormControlLabel } from './styles';
+import { StyledFormControlLabel } from './styles'
 
 export default ({ rootCategory = {}, category, checked, action }) => {
-  const { multipleChoice = true } = rootCategory;
-  const Control = multipleChoice ? Checkbox : Radio;
+  const { multipleChoice = true } = rootCategory
+  const Control = multipleChoice ? Checkbox : Radio
 
   return (
     <StyledFormControlLabel
@@ -21,5 +21,5 @@ export default ({ rootCategory = {}, category, checked, action }) => {
       }
       label={category.name}
     />
-  );
-};
+  )
+}

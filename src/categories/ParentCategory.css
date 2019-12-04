@@ -6,3 +6,13 @@
     position: relative;
   }
 }
+
+.home_page_explore .sidebar-custom-wrapper{
+	border: 1px solid #002713;
+	border-radius: 12px;
+	padding: 0px !important;
+}
+
+.home_page_explore .sidebar-custom-category > h5{
+	display:none;
+}
