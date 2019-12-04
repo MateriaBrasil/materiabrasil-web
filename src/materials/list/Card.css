@@ -1,4 +1,4 @@
-@media (max-width: 1279px)
+@media (max-width: 959px)
 {
   .material-card-loop{
   	flex-grow: 0;
@@ -7,7 +7,7 @@
   }
 }
 
-@media (min-width: 1280px)
+@media (min-width: 960px)
 {
   .material-card-loop{
   	flex-grow: 0;
