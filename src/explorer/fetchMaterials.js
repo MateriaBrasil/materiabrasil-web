@@ -42,9 +42,11 @@ export default function(props) {
                               <img src={favorites} alt="" />
                             </Link>
                           )}
+                          {item.technicalSpecificationUrl && (
                           <Link target="_blank" to={item.technicalSpecificationUrl}>
                             <img src={download} alt="" />
                           </Link>
+                          )}
                         </div>
                       </div>
                     </div>
