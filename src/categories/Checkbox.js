@@ -10,7 +10,6 @@ export default ({ rootCategory = {}, category, checked, action }) => {
 
   return (
     <StyledFormControlLabel
-      // style={{ margin: 0 }}
       control={
         <Control
           name={`category-root-${rootCategory.id}`}

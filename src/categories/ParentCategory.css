@@ -7,12 +7,17 @@
   }
 }
 
-.home_page_explore .sidebar-custom-wrapper{
-	border: 1px solid #002713;
-	border-radius: 12px;
-	padding: 0px !important;
+.home_page_explore .sidebar-custom-wrapper {
+  border: 1px solid #002713;
+  border-radius: 12px;
+  padding: 20px;
 }
 
-.home_page_explore .sidebar-custom-category > h5{
-	display:none;
+.home_page_explore .sidebar-custom-wrapper * {
+  box-shadow: none !important;
+}
+
+
+.home_page_explore .sidebar-custom-category > h5 {
+  display: none;
 }
