@@ -6,7 +6,11 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Typography from '@material-ui/core/Typography';
 
 import './ParentCategory.css';
-import { StyledExpansionPanelDetails, StyledPaper, StyledExpansionPanel } from './styles';
+import {
+  StyledExpansionPanelDetails,
+  StyledPaper,
+  StyledExpansionPanel,
+} from './styles';
 
 import renderCategory, { isPresent } from './renderCategory';
 
@@ -22,11 +26,12 @@ export default props => {
       onChange={onChangeExpanded(id)}
     >
       <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-        <Typography>{name}</Typography>
+        <Typography>
+          <strong>{name}</strong>
+        </Typography>
       </ExpansionPanelSummary>
       <StyledExpansionPanelDetails
         style={{
-          display: deepNested ? 'block' : 'inline',
           padding: 0,
         }}
       >
