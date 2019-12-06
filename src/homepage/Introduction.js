@@ -20,7 +20,7 @@ export default function() {
           type="text"
           placeholder="Pesquisar materials"
         />
-        <button type="submit">Pesquisar</button>
+        {/* <button type="submit">Pesquisar</button> */}
       </Form>
     </Grid>
   );

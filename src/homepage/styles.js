@@ -22,7 +22,8 @@ export const StyledField = styled(Input)`
     border: 0;
     border-radius: 100px;
     padding-left: 20px;
-    background: #efefef;
+    background: rgba(239, 239, 239, 0.68) 0% 0% no-repeat padding-box;
+    font-weight: bold;
     height: 50px;
     width: 100%;
     max-width: 300px;
@@ -32,6 +33,8 @@ export const StyledField = styled(Input)`
     background-position: 95% 50%;
     background-size: 25px 25px;
     background-repeat: no-repeat;
+
+    color: #ffffff !important;
 
     &:focus {
       outline: none;

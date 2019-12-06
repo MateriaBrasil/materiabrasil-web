@@ -1,20 +1,24 @@
-import React from 'react'
-import Typography from '@material-ui/core/Typography'
-import { withStyles } from '@material-ui/core/styles'
+import React from 'react';
+import Typography from '@material-ui/core/Typography';
+import { withStyles } from '@material-ui/core/styles';
 
-import Colors from './Colors'
-import FooterImage from './FooterImage'
+import Colors from './Colors';
+import FooterImage from './FooterImage';
 
 const styles = theme => ({
-  container: {
+  section_footer: {
     backgroundColor: Colors.white,
     padding: '40px 0',
+  },
+  container: {
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'center',
     [theme.breakpoints.up('sm')]: {
       justifyContent: 'space-between',
     },
+    maxWidth: '1280px',
+    margin: '0 auto',
   },
   title: {
     height: 70,
@@ -26,40 +30,42 @@ const styles = theme => ({
       textAlign: 'left',
     },
   },
-})
+});
 
 export default withStyles(styles)(({ classes }) => (
-  <div className={classes.container}>
-    <div>
-      <Typography variant="h4" className={classes.title}>
-        Apoio
-      </Typography>
-      <FooterImage title="Instituto C&A" src="/images/partners/ic&a.png" />
-    </div>
-    <div>
-      <Typography variant="h4" className={classes.title}>
-        Parceiros
-      </Typography>
-      <FooterImage title="Good Tech Lab" src="/images/partners/gtl.png" />
-      <FooterImage
-        title="Fab City Global"
-        src="/images/partners/fab-city.png"
-      />
-      <FooterImage title="Materiom" src="/images/partners/materiom.png" />
-      <FooterImage title="IED" src="/images/partners/ied.png" />
-    </div>
-    <div>
-      <Typography variant="h4" className={classes.title}>
-        Membro
-      </Typography>
-      <FooterImage
-        title="Sistema B Brasil"
-        src="/images/partners/sistema-b.png"
-      />
-      <FooterImage
-        title="CE100 Global Ellen MacArthur"
-        src="/images/partners/ce100.png"
-      />
+  <div className={classes.section_footer}>
+    <div className={classes.container}>
+      <div>
+        <Typography variant="h4" className={classes.title}>
+          Apoio
+        </Typography>
+        <FooterImage title="Instituto C&A" src="/images/partners/ic&a.png" />
+      </div>
+      <div>
+        <Typography variant="h4" className={classes.title}>
+          Parceiros
+        </Typography>
+        <FooterImage title="Good Tech Lab" src="/images/partners/gtl.png" />
+        <FooterImage
+          title="Fab City Global"
+          src="/images/partners/fab-city.png"
+        />
+        <FooterImage title="Materiom" src="/images/partners/materiom.png" />
+        <FooterImage title="IED" src="/images/partners/ied.png" />
+      </div>
+      <div>
+        <Typography variant="h4" className={classes.title}>
+          Membro
+        </Typography>
+        <FooterImage
+          title="Sistema B Brasil"
+          src="/images/partners/sistema-b.png"
+        />
+        <FooterImage
+          title="CE100 Global Ellen MacArthur"
+          src="/images/partners/ce100.png"
+        />
+      </div>
     </div>
   </div>
-))
+));
