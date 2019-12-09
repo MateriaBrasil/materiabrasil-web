@@ -7,10 +7,23 @@
   }
 }
 
+.MuiExpansionPanelSummary-expandIcon-394 {
+  right: 0px !important;
+  padding: 0 !important;
+}
+
+.MuiFormControlLabel-root-418 {
+  margin: 0 !important;
+}
+
+.MuiIconButton-root-398 {
+  padding-left: 0 !important;
+}
+
 .home_page_explore .sidebar-custom-wrapper {
   border: 1px solid #002713;
   border-radius: 12px;
-  padding: 20px;
+  padding: 10px 20px !important;
 }
 
 .home_page_explore .sidebar-custom-wrapper * {

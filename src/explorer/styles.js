@@ -33,95 +33,96 @@ export const MaterialsList = styled.div`
 
 export const MaterialSingle = styled(Link)`
   width: 33.3%;
+  min-width: 295px;
   text-decoration: none;
 
   padding: 25px 5px;
 
-    &:first-child > .content_img_borda .borda {
-      background: url(${borda_1});
-      background-position: center;
-      background-size: contain;
-      background-repeat: no-repeat;
-      width: 88%;
-      height:87%;
-    }
+  &:first-child > .content_img_borda .borda {
+    background: url(${borda_1});
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 88%;
+    height: 87%;
+  }
 
-    &:nth-of-type(2) > .content_img_borda .borda {
-      background: url(${borda_2});
-      background-position: center;
-      background-size: contain;
-      background-repeat: no-repeat;
-      width: 87%;
-      height: 76%;
-    }
+  &:nth-of-type(2) > .content_img_borda .borda {
+    background: url(${borda_2});
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 87%;
+    height: 76%;
+  }
 
-    &:nth-of-type(3) > .content_img_borda .borda {
-      background: url(${borda_3});
-      background-position: center;
-      background-size: contain;
-      background-repeat: no-repeat;
-      width: 88%;
-      height: 80%;
-      bottom: 40px;
-    }
+  &:nth-of-type(3) > .content_img_borda .borda {
+    background: url(${borda_3});
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 88%;
+    height: 80%;
+    bottom: 40px;
+  }
 
-    &:nth-of-type(4) > .content_img_borda .borda {
-      background: url(${borda_4});
-      background-position: center;
-      background-size: contain;
-      background-repeat: no-repeat;
-      width: 86%;
-      height: 100%;
-    }
+  &:nth-of-type(4) > .content_img_borda .borda {
+    background: url(${borda_4});
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 86%;
+    height: 100%;
+  }
 
-    &:nth-of-type(5) > .content_img_borda .borda {
-      background: url(${borda_5});
-      background-position: center;
-      background-size: contain;
-      background-repeat: no-repeat;
-      width: 90%;
-      height: 100%;
-      right: 21px;
-    }
+  &:nth-of-type(5) > .content_img_borda .borda {
+    background: url(${borda_5});
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 100%;
+    right: 21px;
+  }
 
-    &:nth-of-type(6) > .content_img_borda .borda {
-      background: url(${borda_6});
-      background-position: center;
-      background-size: contain;
-      background-repeat: no-repeat;
-      width: 100%;
-      height: 86%;
-      right: 13px;
-    }
+  &:nth-of-type(6) > .content_img_borda .borda {
+    background: url(${borda_6});
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 86%;
+    right: 13px;
+  }
 
-    &:nth-of-type(7) > .content_img_borda .borda {
-      background: url(${borda_7});
-      background-position: center;
-      background-size: contain;
-      background-repeat: no-repeat;
-      width: 90%;
-      left: 10px;
-      height: 86%;
-    }
+  &:nth-of-type(7) > .content_img_borda .borda {
+    background: url(${borda_7});
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90%;
+    left: 10px;
+    height: 86%;
+  }
 
-    &:nth-of-type(8) > .content_img_borda .borda {
-      background: url(${borda_8});
-      background-position: center;
-      background-size: contain;
-      background-repeat: no-repeat;
-      width: 86%;
-      height: 100%;
-    }
+  &:nth-of-type(8) > .content_img_borda .borda {
+    background: url(${borda_8});
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 86%;
+    height: 100%;
+  }
 
-    &:nth-of-type(9) > .content_img_borda .borda {
-      background: url(${borda_9});
-      background-position: center;
-      background-size: contain;
-      background-repeat: no-repeat;
-      width: 86%;
-      height: 82%;
-      left: 17px;
-    }
+  &:nth-of-type(9) > .content_img_borda .borda {
+    background: url(${borda_9});
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 86%;
+    height: 82%;
+    left: 17px;
+  }
 
   .content_img_borda {
     display: flex;
@@ -129,9 +130,8 @@ export const MaterialSingle = styled(Link)`
     justify-content: center;
     position: relative;
     width: 100%;
-    height:245px;
+    height: 245px;
   }
-
 
   .borda {
     position: absolute;
@@ -139,7 +139,7 @@ export const MaterialSingle = styled(Link)`
   }
 
   .img_loop {
-    position:relative;
+    position: relative;
     z-index: 2;
     border-radius: 12px;
     background-image: url(${props => props.item.listImageUrl});
@@ -155,10 +155,7 @@ export const MaterialSingle = styled(Link)`
   }
 
   .content-material-single {
-    
-
     .categories-wrapper {
-      
       &:last-child {
         margin-right: 0px;
       }

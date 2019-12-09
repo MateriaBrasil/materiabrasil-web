@@ -25,7 +25,10 @@ export default props => {
       expanded={expanded}
       onChange={onChangeExpanded(id)}
     >
-      <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+      <ExpansionPanelSummary
+        style={{ padding: '0' }}
+        expandIcon={<ExpandMoreIcon />}
+      >
         <Typography>
           <strong>{name}</strong>
         </Typography>

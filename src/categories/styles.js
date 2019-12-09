@@ -60,17 +60,18 @@ export const StyledExpansionPanel = styled(ExpansionPanel)`
     & .MuiIconButton-label-401 {
       color: #000 !important;
     }
+    & > div:first-child {
+      background-image: linear-gradient(
+        to right,
+        #333 70%,
+        rgba(255, 255, 255, 0) 20%
+      );
+      background-position: left bottom;
+      background-size: 40px 1px;
+      background-repeat: repeat-x;
+    }
 
     width: 100%;
-
-    background-image: linear-gradient(
-      to right,
-      #333 70%,
-      rgba(255, 255, 255, 0) 20%
-    );
-    background-position: left bottom;
-    background-size: 40px 1px;
-    background-repeat: repeat-x;
 
     &:last-child {
       background: none;
