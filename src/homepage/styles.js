@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import Typography from '@material-ui/core/Typography';
 import { Input } from '@rocketseat/unform';
 
-import bg_info_intro from './bg-info-intro.png';
 import search_icon from './search.png';
 
 export const StyledTypography = styled(Typography)`
@@ -51,7 +50,6 @@ export const InfoIntroContainer = styled.div`
     left: 0;
     right: 0;
     width: 100%;
-    background-image: url(${bg_info_intro});
     background-size: cover;
     background-position: center;
 

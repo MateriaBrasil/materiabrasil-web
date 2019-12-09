@@ -1,10 +1,10 @@
-import React from 'react'
-import { BrowserRouter } from 'react-router-dom'
-import CssBaseline from '@material-ui/core/CssBaseline'
-import { Helmet } from 'react-helmet'
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import { Helmet } from 'react-helmet';
 
-import Router from './Router'
-import Footer from './Footer'
+import Router from './Router';
+import Footer from './Footer/render';
 
 export default props => (
   <BrowserRouter>
@@ -30,4 +30,4 @@ export default props => (
       <Footer />
     </div>
   </BrowserRouter>
-)
+);

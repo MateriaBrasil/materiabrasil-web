@@ -29,7 +29,7 @@ export default withStyles(styles)(props => {
       style={{
         background: props.backgroundImage || Colors.white,
         backgroundSize: 'cover',
-        backgroundPosition: 'center',
+        backgroundPosition: 'bottom center',
         height: '45vh',
         ...props.style,
       }}

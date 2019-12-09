@@ -5,3 +5,17 @@
   margin: 100px auto;
   text-align: center;
 }
+
+::-webkit-input-placeholder {
+  /* Edge */
+  color: #fff !important;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff !important;
+}
+
+::placeholder {
+  color: #fff !important;
+}

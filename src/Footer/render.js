@@ -1,8 +1,12 @@
 import React from 'react';
-import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
+import { StyledTitle } from './styles';
 
-import Colors from './Colors';
+import borda1 from './borda1.png';
+import borda2 from './borda2.png';
+import borda3 from './borda3.png';
+
+import Colors from '../Colors';
 import FooterImage from './FooterImage';
 
 const styles = theme => ({
@@ -36,15 +40,23 @@ export default withStyles(styles)(({ classes }) => (
   <div className={classes.section_footer}>
     <div className={classes.container}>
       <div>
-        <Typography variant="h4" className={classes.title}>
-          Apoio
-        </Typography>
-        <FooterImage title="Instituto C&A" src="/images/partners/ic&a.png" />
+        <StyledTitle
+          style={{
+            backgroundImage: `url(${borda1})`,
+            marginRight: 'auto',
+            marginBottom: '50px',
+          }}
+        >
+          <span>Apoio</span>
+        </StyledTitle>
+        <FooterImage title="Instituto C&A" src="/images/partners/ica.png" />
       </div>
       <div>
-        <Typography variant="h4" className={classes.title}>
-          Parceiros
-        </Typography>
+        <StyledTitle
+          style={{ backgroundImage: `url(${borda2})`, margin: '0 auto' }}
+        >
+          <span>Parceiros</span>
+        </StyledTitle>
         <FooterImage title="Good Tech Lab" src="/images/partners/gtl.png" />
         <FooterImage
           title="Fab City Global"
@@ -54,9 +66,15 @@ export default withStyles(styles)(({ classes }) => (
         <FooterImage title="IED" src="/images/partners/ied.png" />
       </div>
       <div>
-        <Typography variant="h4" className={classes.title}>
-          Membro
-        </Typography>
+        <StyledTitle
+          style={{
+            backgroundImage: `url(${borda3})`,
+            paddingBottom: '0',
+            marginLeft: 'auto',
+          }}
+        >
+          <span>Membro</span>
+        </StyledTitle>
         <FooterImage
           title="Sistema B Brasil"
           src="/images/partners/sistema-b.png"
