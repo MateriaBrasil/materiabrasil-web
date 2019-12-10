@@ -12,7 +12,10 @@ export default function(props) {
   let border_string;
   const { currentUser } = props;
 
-  const fetchData = function() {};
+  const fetchData = function(list) {
+    console.log('list');
+    console.log(list);
+  };
 
   return (
     <div className="home_page_explore">
@@ -21,14 +24,9 @@ export default function(props) {
         render={({ categories }) => (
           <List
             name="materials"
-            path={`/materials?${categories}`}
+            path={`/materials?${categories}?per_page=5`}
             render={list => (
-              <MaterialsList
-                dataLength={list.length}
-                next={fetchData}
-                hasMore={true}
-                loading={<p>Carregando...</p>}
-              >
+              <MaterialsList>
                 {list.map((item, index) => (
                   <MaterialSingle
                     to={`/materials/${item.slug}`}

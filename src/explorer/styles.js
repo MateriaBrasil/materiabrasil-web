@@ -3,8 +3,6 @@ import Colors from '../Colors';
 import Typography from '@material-ui/core/Typography';
 import Link from 'react-router-dom/Link';
 
-import InfiniteScroll from 'react-infinite-scroll-component';
-
 import borda_1 from './bordas/borda_1.png';
 import borda_2 from './bordas/borda_2.png';
 import borda_3 from './bordas/borda_3.png';
@@ -23,14 +21,17 @@ export const Container = styled.div`
 `;
 
 export const MaterialsList = styled.div`
-  font-family: 'Open Sans', sans-serif !important;
-  margin: 0 auto;
-  max-width: 70%;
-  align-content: baseline;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: center;
+  && {
+    font-family: 'Open Sans', sans-serif !important;
+    margin: 0 auto;
+    max-width: 70%;
+    width: 70%;
+    align-content: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
 `;
 
 export const MaterialSingle = styled(Link)`
