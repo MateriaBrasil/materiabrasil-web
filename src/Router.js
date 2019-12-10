@@ -1,17 +1,17 @@
-import React from 'react'
-import Route from 'react-router-dom/Route'
-import Switch from 'react-router-dom/Switch'
+import React from 'react';
+import Route from 'react-router-dom/Route';
+import Switch from 'react-router-dom/Switch';
 
-import renderMaterials from './materials/render'
-import renderAlbums from './albums/render'
-import renderAuth from './auth/render'
-import renderUsers from './users/render'
-import renderSearch from './search/render'
-import renderSuppliers from './suppliers/render'
-import renderTopics from './topics/render'
-import renderAbout from './about/render'
-import renderHomepage from './homepage/render'
-import ScrollToTop from './ScrollToTop'
+import renderMaterials from './materials/render';
+import renderAlbums from './albums/render';
+import renderAuth from './auth/render';
+import renderUsers from './users/render';
+import renderSearch from './search/render';
+import renderSuppliers from './suppliers/render';
+import renderTopics from './topics/render';
+import renderAbout from './about/render';
+import renderHomepage from './homepage/render';
+import ScrollToTop from './ScrollToTop';
 
 export default props => (
   <ScrollToTop>
@@ -28,4 +28,4 @@ export default props => (
       <Route path="/" render={renderHomepage(props)} />
     </Switch>
   </ScrollToTop>
-)
+);

@@ -12,9 +12,14 @@ export default function(props) {
   let border_string;
   const { currentUser } = props;
 
-  const fetchData = function(list) {
-    console.log('list');
-    console.log(list);
+  const setData = function(props, categories) {
+    const term = encodeURI(props.term);
+
+    if (props.term) {
+      return `/search?term=${term}&${categories}`;
+    } else {
+      return `/materials?${categories}`;
+    }
   };
 
   return (
@@ -24,7 +29,7 @@ export default function(props) {
         render={({ categories }) => (
           <List
             name="materials"
-            path={`/materials?${categories}?per_page=5`}
+            path={setData(props, categories)}
             render={list => (
               <MaterialsList>
                 {list.map((item, index) => (
