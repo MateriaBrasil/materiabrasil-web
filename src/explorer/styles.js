@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import Colors from '../Colors';
 import Typography from '@material-ui/core/Typography';
 import Link from 'react-router-dom/Link';
+import InfiniteScroll from 'react-infinite-scroll-component';
 
 import borda_1 from './bordas/borda_1.png';
 import borda_2 from './bordas/borda_2.png';
@@ -20,12 +21,12 @@ export const Container = styled.div`
   max-width: 1280px;
 `;
 
-export const MaterialsList = styled.div`
+export const MaterialsList = styled(InfiniteScroll)`
   && {
     font-family: 'Open Sans', sans-serif !important;
     margin: 0 auto;
-    max-width: 70%;
-    width: 70%;
+    max-width: 100%;
+    width: 100%;
     align-content: baseline;
     display: flex;
     flex-wrap: wrap;

@@ -20,7 +20,13 @@
   padding-left: 0 !important;
 }
 
+.home_page_explore > div {
+  align-items: flex-start;
+}
+
 .home_page_explore .sidebar-custom-wrapper {
+  max-height: 600px;
+  overflow: auto;
   border: 1px solid #002713;
   border-radius: 12px;
   padding: 10px 20px !important;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import { List } from 'croods';
 import Link from 'react-router-dom/Link';
@@ -8,17 +8,23 @@ import { MaterialsList, MaterialSingle, StyledTypography } from './styles';
 import download from './download.png';
 import favorites from './favorites.png';
 
+import './reset.css';
+
 export default function(props) {
   let border_string;
   const { currentUser } = props;
+  const [per, setPer] = useState(9);
+  const fetchMoreData = function() {
+    setPer(per + 9);
+  };
 
   const setData = function(props, categories) {
     const term = encodeURI(props.term);
 
     if (props.term) {
-      return `/search?term=${term}&${categories}`;
+      return `/search?term=${term}&${categories}&per_page=${per}`;
     } else {
-      return `/materials?${categories}`;
+      return `/materials?${categories}&per_page=${per}`;
     }
   };
 
@@ -31,7 +37,12 @@ export default function(props) {
             name="materials"
             path={setData(props, categories)}
             render={list => (
-              <MaterialsList>
+              <MaterialsList
+                dataLength={list.length}
+                next={fetchMoreData}
+                hasMore={true}
+                loader={<h4>Carregando...</h4>}
+              >
                 {list.map((item, index) => (
                   <MaterialSingle
                     to={`/materials/${item.slug}`}
