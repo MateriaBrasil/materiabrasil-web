@@ -3,6 +3,8 @@ import Colors from '../Colors';
 import Typography from '@material-ui/core/Typography';
 import Link from 'react-router-dom/Link';
 
+import InfiniteScroll from 'react-infinite-scroll-component';
+
 import borda_1 from './bordas/borda_1.png';
 import borda_2 from './bordas/borda_2.png';
 import borda_3 from './bordas/borda_3.png';

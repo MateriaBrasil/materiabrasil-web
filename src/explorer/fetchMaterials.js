@@ -12,6 +12,8 @@ export default function(props) {
   let border_string;
   const { currentUser } = props;
 
+  const fetchData = function() {};
+
   return (
     <div className="home_page_explore">
       <Filters
@@ -21,7 +23,12 @@ export default function(props) {
             name="materials"
             path={`/materials?${categories}`}
             render={list => (
-              <MaterialsList>
+              <MaterialsList
+                dataLength={list.length}
+                next={fetchData}
+                hasMore={true}
+                loading={<p>Carregando...</p>}
+              >
                 {list.map((item, index) => (
                   <MaterialSingle
                     to={`/materials/${item.slug}`}

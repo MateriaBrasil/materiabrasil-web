@@ -25,6 +25,7 @@
     "react-dom": "^16.7.0",
     "react-dropzone": "^4.2.13",
     "react-helmet": "^5.2.0",
+    "react-infinite-scroll-component": "^5.0.4",
     "react-input-mask": "^2.0.4",
     "react-media": "^1.8.0",
     "react-ratio": "^0.1.5",
