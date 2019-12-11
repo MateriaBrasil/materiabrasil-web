@@ -2,16 +2,15 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 
 import onClick from '../../onClick';
-import Colors from '../../Colors';
 
-export default ({ destroy, isInstitutionalPage }) => (
+export default ({ destroy, isInstitutionalPage, white }) => (
   <a
     className="navbar-link"
     href="#destroy"
     onClick={onClick(destroy)}
     style={{
-      color: Colors.white,
       marginLeft: 20,
+      color: white && window.outerWidth > 768 ? '#FFF' : '#000',
     }}
   >
     <Typography

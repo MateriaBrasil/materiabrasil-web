@@ -2,6 +2,7 @@
   padding: 10px;
   margin-left: 20px;
   margin-right: 20px;
+  color: #000;
 }
 
 .navbar-links .navbar-link:hover {
@@ -12,4 +13,10 @@
   padding: 0px;
   width: 100%;
   margin: 0 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-link {
+    color: #000;
+  }
 }

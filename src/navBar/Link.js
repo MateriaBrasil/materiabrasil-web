@@ -4,7 +4,7 @@ import Typography from '@material-ui/core/Typography';
 import Colors from '../Colors';
 import './Link.css';
 
-export default ({ to, text, isInstitutionalPage, targetBlank }) => (
+export default ({ to, text, isInstitutionalPage, targetBlank, white }) => (
   <Link
     className="navbar-link"
     to={to}
@@ -12,7 +12,7 @@ export default ({ to, text, isInstitutionalPage, targetBlank }) => (
     style={{
       textDecoration: 'none',
       // color: isInstitutionalPage ? Colors.white : Colors.black,
-      color: Colors.white,
+      color: white ? '#fff' : Colors.black,
     }}
   >
     <Typography

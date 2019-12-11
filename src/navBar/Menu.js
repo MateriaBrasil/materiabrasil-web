@@ -1,20 +1,20 @@
-import React from 'react'
-import Menu from '@material-ui/core/Menu'
-import MenuList from '@material-ui/core/MenuList'
-import MenuItem from '@material-ui/core/MenuItem'
+import React from 'react';
+import Menu from '@material-ui/core/Menu';
+import MenuList from '@material-ui/core/MenuList';
+import MenuItem from '@material-ui/core/MenuItem';
 
-import SignOut from '../auth/signOut/SignOut'
+import SignOut from '../auth/signOut/SignOut';
 
-import Link from './Link'
-import SignIn from './SignIn'
-import SupplierLink from './SupplierLink'
-import './Link.css'
+import Link from './Link';
+import SignIn from './SignIn';
+import SupplierLink from './SupplierLink';
+import './Link.css';
 
 export default props => {
-  const { anchorEl, open, handleClose } = props
-  const { currentUser } = props
-  const { firstName, lastName, suppliers } = currentUser || {}
-  const name = `${firstName} ${lastName}`
+  const { anchorEl, open, handleClose } = props;
+  const { currentUser } = props;
+  const { firstName, lastName, suppliers } = currentUser || {};
+  const name = `${firstName} ${lastName}`;
 
   return (
     <Menu
@@ -25,21 +25,24 @@ export default props => {
       onClose={handleClose}
     >
       <MenuItem onClick={handleClose}>
-        <Link to="/about" text="Sobre" />
+        <Link to="/" text="Home" />
       </MenuItem>
       <MenuItem onClick={handleClose}>
+        <Link to="/about" text="Sobre" />
+      </MenuItem>
+      {/* <MenuItem onClick={handleClose}>
         <Link
           to={'http://materiabrasil.com.br/'}
           text="Escritórios"
           targetBlank="true"
         />
-      </MenuItem>
-      <MenuItem onClick={handleClose}>
+      </MenuItem> */}
+      {/* <MenuItem onClick={handleClose}>
         <Link to="/materials" text="Explore" />
-      </MenuItem>
-      <MenuItem onClick={handleClose}>
+      </MenuItem> */}
+      {/* <MenuItem onClick={handleClose}>
         <Link to="/forum" text="Fórum" />
-      </MenuItem>
+      </MenuItem> */}
       {currentUser ? (
         <MenuList>
           <MenuItem onClick={handleClose}>
@@ -69,5 +72,5 @@ export default props => {
         </MenuList>
       )}
     </Menu>
-  )
-}
+  );
+};
