@@ -7,16 +7,25 @@
   }
 }
 
-.MuiExpansionPanelSummary-expandIcon-394 {
+.sidebar-custom-category {
+  max-width: 100%;
+}
+
+.home_page_explore .MuiButtonBase-root-395 {
+  padding: 0 !important;
+}
+
+.home_page_explore .MuiExpansionPanelSummary-expandIcon-394 {
   right: 0px !important;
   padding: 0 !important;
 }
 
-.MuiFormControlLabel-root-418 {
+.home_page_explore .MuiFormControlLabel-root-418 {
   margin: 0 !important;
+  padding: 10px 0;
 }
 
-.MuiIconButton-root-398 {
+.home_page_explore .MuiIconButton-root-398 {
   padding-left: 0 !important;
 }
 

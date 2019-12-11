@@ -8,6 +8,9 @@ import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 export const Container = styled.div``;
 
 export const StyledFormControlLabel = styled(FormControlLabel)`
+  && {
+    margin-left: 0 !important;
+  }
   .home_page_explore && {
     width: 100%;
     /* margin-left: 5%; */
@@ -56,7 +59,7 @@ export const StyledPaper = styled(Paper)`
   }
 `;
 export const StyledExpansionPanel = styled(ExpansionPanel)`
-  && {
+  .home_page_explore && {
     & .MuiIconButton-label-401 {
       color: #000 !important;
     }

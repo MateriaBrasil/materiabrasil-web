@@ -27,7 +27,7 @@ export default withStyles(styles)(props => {
       id={props.id}
       container
       style={{
-        background: props.backgroundImage || Colors.white,
+        background: props.backgroundImage || Colors.red,
         backgroundSize: 'cover',
         backgroundPosition: 'bottom center',
         height: '45vh',

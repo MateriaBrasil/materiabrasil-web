@@ -21,12 +21,12 @@ export default props => {
   const expanded = includes(expandedCategories, id);
   return category.parentId ? (
     <StyledExpansionPanel
-      style={{ width: '100%', flex: 1 }}
+      style={{ width: '100%', flex: 1, maxWitdh: '100%' }}
       expanded={expanded}
       onChange={onChangeExpanded(id)}
     >
       <ExpansionPanelSummary
-        style={{ padding: '0' }}
+        // style={{ padding: '0', background: 'red' }}
         expandIcon={<ExpandMoreIcon />}
       >
         <Typography>
