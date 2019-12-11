@@ -30,7 +30,7 @@ export default class extends Component {
             <Fragment>
               <IconButton onClick={this.handleClick}>
                 <MenuIcon
-                  color={Colors.white}
+                  color={this.props.transparent && Colors.white}
                   // color={this.props.isInstitutionalPage && Colors.white}
                 />
               </IconButton>

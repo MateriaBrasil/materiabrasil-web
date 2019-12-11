@@ -10,7 +10,7 @@ export const StyledToolbar = styled(Toolbar)`
 
 export const StyledAppBar = styled(AppBar)`
   && {
-    background-color: transparent;
+    background-color: #fff;
     box-shadow: none;
   }
 `;

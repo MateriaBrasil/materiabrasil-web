@@ -4,7 +4,7 @@ import Home from './Home';
 import NavbarAndContent from '../NavBarAndContent';
 
 export default props => routeProps => (
-  <NavbarAndContent white={true} institutional {...props}>
+  <NavbarAndContent transparent institutional {...props}>
     <Home {...props} />
   </NavbarAndContent>
 );
