@@ -40,6 +40,10 @@ export const MaterialSingle = styled(Link)`
   min-width: 295px;
   text-decoration: none;
 
+  @media (max-width: 768px) {
+    margin: 0 auto;
+  }
+
   padding: 25px 5px;
 
   &:first-child > .content_img_borda .borda {

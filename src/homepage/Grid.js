@@ -24,13 +24,13 @@ const styles = theme => ({
 export default withStyles(styles)(props => {
   return (
     <Grid
+      className="grid-parent"
       id={props.id}
       container
       style={{
-        background: props.backgroundImage || Colors.red,
+        background: props.backgroundImage || Colors.white,
         backgroundSize: 'cover',
         backgroundPosition: 'bottom center',
-        height: '45vh',
         ...props.style,
       }}
     >

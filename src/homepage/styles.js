@@ -12,6 +12,10 @@ export const StyledTypography = styled(Typography)`
     font-size: 80px;
 
     margin-bottom: 25px;
+
+    @media (max-width: 768px) {
+      font-size: 40px;
+    }
   }
 `;
 

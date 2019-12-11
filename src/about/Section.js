@@ -1,7 +1,7 @@
-import React from 'react'
-import Grid from '@material-ui/core/Grid'
+import React from 'react';
+import Grid from '@material-ui/core/Grid';
 
-import Colors from '../Colors'
+import Colors from '../Colors';
 
 export default ({ backgroundImage, style, ...props }) => {
   return (
@@ -20,5 +20,5 @@ export default ({ backgroundImage, style, ...props }) => {
         ...style,
       }}
     />
-  )
-}
+  );
+};

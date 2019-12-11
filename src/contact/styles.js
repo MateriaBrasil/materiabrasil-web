@@ -20,6 +20,16 @@ export const Container = styled.div`
     width: 46%;
     margin: 0 auto;
   }
+
+  @media (max-width: 768px) {
+    & {
+      flex-direction: column;
+      padding: 40px 15px;
+    }
+    & > div {
+      width: 100%;
+    }
+  }
 `;
 
 export const Content = styled.div`

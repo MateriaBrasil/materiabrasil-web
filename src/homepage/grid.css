@@ -1,9 +1,16 @@
 .grid-home {
-  height: 100vh;
+  height: 20vh;
   align-items: center;
   justify-content: center;
   margin: 100px auto;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .grid-home {
+    height: 40vh !important;
+    padding: 20px;
+  }
 }
 
 ::-webkit-input-placeholder {

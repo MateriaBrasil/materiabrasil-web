@@ -1,12 +1,12 @@
-import { createMuiTheme } from '@material-ui/core/styles'
-import fill from 'lodash/fill'
+import { createMuiTheme } from '@material-ui/core/styles';
+import fill from 'lodash/fill';
 
-import Colors from './Colors'
-import './fonts.css'
+import Colors from './Colors';
+import './fonts.css';
 
 const titleStyle = {
   fontFamily: 'Gotham Rounded',
-}
+};
 
 export default createMuiTheme({
   typography: {
@@ -57,4 +57,4 @@ export default createMuiTheme({
       },
     },
   },
-})
+});
