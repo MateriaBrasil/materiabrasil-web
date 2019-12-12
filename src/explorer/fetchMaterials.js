@@ -53,7 +53,7 @@ export default function(props) {
                       <div className="borda" bg-index={border_string} />
                       <div
                         className="img_loop"
-                        style={{ backgroundImage: `url(${item.imageUrl})` }}
+                        style={{ backgroundImage: `url(${item.highlighted ? item.highlightImageUrl : item.listImageUrl})` }}
                       />
                     </div>
                     <div className="content_loop">
