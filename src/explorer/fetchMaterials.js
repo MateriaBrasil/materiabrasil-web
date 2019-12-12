@@ -3,7 +3,12 @@ import React, { useState } from 'react';
 import { List } from 'croods';
 import Link from 'react-router-dom/Link';
 import Filters from 'categories/Filters';
-import { MaterialsList, MaterialSingle, StyledTypography } from './styles';
+import {
+  MaterialsList,
+  MaterialSingle,
+  StyledTypography,
+  StyledButton,
+} from './styles';
 
 import download from './download.png';
 import favorites from './favorites.png';
@@ -37,12 +42,7 @@ export default function(props) {
             name="materials"
             path={setData(props, categories)}
             render={list => (
-              <MaterialsList
-                dataLength={list.length}
-                next={fetchMoreData}
-                hasMore={true}
-                loader={<h4>Carregando...</h4>}
-              >
+              <MaterialsList>
                 {list.map((item, index) => (
                   <MaterialSingle
                     to={`/materials/${item.slug}`}
@@ -91,6 +91,9 @@ export default function(props) {
                     </div>
                   </MaterialSingle>
                 ))}
+                <StyledButton onClick={fetchMoreData}>
+                  mais materiais
+                </StyledButton>
               </MaterialsList>
             )}
           />

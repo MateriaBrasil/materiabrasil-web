@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import Colors from '../Colors';
 import Typography from '@material-ui/core/Typography';
 import Link from 'react-router-dom/Link';
-import InfiniteScroll from 'react-infinite-scroll-component';
 
 import borda_1 from './bordas/borda_1.png';
 import borda_2 from './bordas/borda_2.png';
@@ -21,12 +20,12 @@ export const Container = styled.div`
   max-width: 1280px;
 `;
 
-export const MaterialsList = styled(InfiniteScroll)`
+export const MaterialsList = styled.div`
   && {
     font-family: 'Open Sans', sans-serif !important;
     margin: 0 auto;
-    max-width: 100%;
-    width: 100%;
+    max-width: 70%;
+    width: 70%;
     align-content: baseline;
     display: flex;
     flex-wrap: wrap;
@@ -46,7 +45,7 @@ export const MaterialSingle = styled(Link)`
 
   padding: 25px 5px;
 
-  &:first-child > .content_img_borda .borda {
+  &:nth-of-type(1n) > .content_img_borda .borda {
     background: url(${borda_1});
     background-position: center;
     background-size: contain;
@@ -55,7 +54,7 @@ export const MaterialSingle = styled(Link)`
     height: 87%;
   }
 
-  &:nth-of-type(2) > .content_img_borda .borda {
+  &:nth-of-type(2n) > .content_img_borda .borda {
     background: url(${borda_2});
     background-position: center;
     background-size: contain;
@@ -64,7 +63,7 @@ export const MaterialSingle = styled(Link)`
     height: 76%;
   }
 
-  &:nth-of-type(3) > .content_img_borda .borda {
+  &:nth-of-type(3n) > .content_img_borda .borda {
     background: url(${borda_3});
     background-position: center;
     background-size: contain;
@@ -74,7 +73,7 @@ export const MaterialSingle = styled(Link)`
     bottom: 40px;
   }
 
-  &:nth-of-type(4) > .content_img_borda .borda {
+  &:nth-of-type(4n) > .content_img_borda .borda {
     background: url(${borda_4});
     background-position: center;
     background-size: contain;
@@ -83,7 +82,7 @@ export const MaterialSingle = styled(Link)`
     height: 100%;
   }
 
-  &:nth-of-type(5) > .content_img_borda .borda {
+  &:nth-of-type(5n) > .content_img_borda .borda {
     background: url(${borda_5});
     background-position: center;
     background-size: contain;
@@ -93,7 +92,7 @@ export const MaterialSingle = styled(Link)`
     right: 21px;
   }
 
-  &:nth-of-type(6) > .content_img_borda .borda {
+  &:nth-of-type(6n) > .content_img_borda .borda {
     background: url(${borda_6});
     background-position: center;
     background-size: contain;
@@ -103,7 +102,7 @@ export const MaterialSingle = styled(Link)`
     right: 13px;
   }
 
-  &:nth-of-type(7) > .content_img_borda .borda {
+  &:nth-of-type(7n) > .content_img_borda .borda {
     background: url(${borda_7});
     background-position: center;
     background-size: contain;
@@ -113,7 +112,7 @@ export const MaterialSingle = styled(Link)`
     height: 86%;
   }
 
-  &:nth-of-type(8) > .content_img_borda .borda {
+  &:nth-of-type(8n) > .content_img_borda .borda {
     background: url(${borda_8});
     background-position: center;
     background-size: contain;
@@ -122,7 +121,7 @@ export const MaterialSingle = styled(Link)`
     height: 100%;
   }
 
-  &:nth-of-type(9) > .content_img_borda .borda {
+  &:nth-of-type(9n) > .content_img_borda .borda {
     background: url(${borda_9});
     background-position: center;
     background-size: contain;
@@ -200,4 +199,17 @@ export const StyledTypography = styled(Typography)`
     font-size: 16px;
     margin-bottom: 10px;
   }
+`;
+
+export const StyledButton = styled.button`
+  margin: 0 auto;
+  background: #eb8000;
+  border-radius: 26px;
+  height: 45px;
+  width: 150px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
 `;
