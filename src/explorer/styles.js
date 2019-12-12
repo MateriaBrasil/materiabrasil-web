@@ -32,6 +32,12 @@ export const MaterialsList = styled.div`
     justify-content: flex-start;
     align-items: center;
   }
+
+  .load_more_wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
 `;
 
 export const MaterialSingle = styled(Link)`
@@ -201,8 +207,8 @@ export const StyledTypography = styled(Typography)`
   }
 `;
 
+
 export const StyledButton = styled.button`
-  margin: 0 auto;
   background: #eb8000;
   border-radius: 26px;
   height: 45px;

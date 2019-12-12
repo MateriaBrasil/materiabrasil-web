@@ -91,9 +91,11 @@ export default function(props) {
                     </div>
                   </MaterialSingle>
                 ))}
-                <StyledButton onClick={fetchMoreData}>
-                  mais materiais
-                </StyledButton>
+                <div className="load_more_wrapper">
+                  <StyledButton onClick={fetchMoreData}>
+                    mais materiais
+                  </StyledButton>
+                </div>
               </MaterialsList>
             )}
           />
