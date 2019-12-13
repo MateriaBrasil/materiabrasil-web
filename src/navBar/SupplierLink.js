@@ -23,8 +23,12 @@ export default props => {
         >
           <Typography
             variant="subtitle1"
-            color="inherit"
-            style={{ display: 'inline-block', alignSelf: 'center' }}
+            style={{
+              display: 'inline-block',
+              alignSelf: 'center',
+              color:
+                props.transparent && window.outerWidth > 768 ? '#FFF' : '#000',
+            }}
           >
             Cadastrar Material
           </Typography>
