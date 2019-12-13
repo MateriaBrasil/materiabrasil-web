@@ -5,14 +5,9 @@ export function addhttp(url) {
   return url;
 }
 
-export function isInViewport(elem) {
-  var distance = elem.getBoundingClientRect();
-  return (
-    distance.top >= 0 &&
-    distance.left >= 0 &&
-    distance.bottom <=
-      (window.innerHeight || document.documentElement.clientHeight) &&
-    distance.right <=
-      (window.innerWidth || document.documentElement.clientWidth)
-  );
+export function phoneMask(v) {
+  v = v.replace(/\D/g, ''); //Remove tudo o que não é dígito
+  v = v.replace(/^(\d\d)(\d)/g, '($1) $2'); //Coloca parênteses em volta dos dois primeiros dígitos
+  v = v.replace(/(\d{4})(\d)/, '$1-$2'); //Coloca hífen entre o quarto e o quinto dígitos
+  return v;
 }

@@ -1,5 +1,6 @@
-import React from 'react';
-
+import React, { useState } from 'react';
+import { Form, Input } from '@rocketseat/unform';
+import { api } from '../services/axios';
 import {
   Section,
   Container,
@@ -9,6 +10,19 @@ import {
 } from './styles';
 
 export default function(props) {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+
+  const handleSubmit = function(data) {
+    console.log(data);
+    api.post('/leads', data);
+    setName('');
+    setEmail('');
+    setPhone('');
+    props.snackbar.actions.setMessage('Mensagem envida com sucesso!');
+  };
+
   return (
     <Section>
       <Container>
@@ -22,24 +36,40 @@ export default function(props) {
         </Content>
 
         <StyledForm className="form">
-          <form action="">
+          <Form onSubmit={handleSubmit}>
             <div>
-              <label htmlFor="">Nome*</label>
-              <input type="text" />
+              <label htmlFor="name">Nome*</label>
+              <Input
+                name="name"
+                type="text"
+                value={name}
+                onChange={e => setName(e.target.value)}
+              />
             </div>
 
             <div>
-              <label htmlFor="">Email*</label>
-              <input type="text" />
+              <label htmlFor="email">Email*</label>
+              <Input
+                name="email"
+                type="text"
+                value={email}
+                onChange={e => setEmail(e.target.value)}
+              />
             </div>
 
             <div>
-              <label htmlFor="">Telefone*</label>
-              <input type="text" />
+              <label htmlFor="phone">Telefone*</label>
+              <Input
+                name="phone"
+                type="text"
+                maxLength="11"
+                value={phone}
+                onChange={e => setPhone(e.target.value)}
+              />
             </div>
 
             <button type="submit">Enviar</button>
-          </form>
+          </Form>
         </StyledForm>
       </Container>
     </Section>
