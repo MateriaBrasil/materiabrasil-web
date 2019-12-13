@@ -33,10 +33,22 @@ export default props => {
         <Link
           to={`/suppliers/${suppliers[0].id}/materials/new`}
           text="Cadastrar Material"
+          style={{
+            color:
+              props.transparent && window.outerWidth > 768 ? '#FFF' : '#000',
+          }}
           {...props}
         />
       ) : (
-        <Link to={`/suppliers/new`} text="Cadastrar fornecedor" {...props} />
+        <Link
+          to={`/suppliers/new`}
+          style={{
+            color:
+              props.transparent && window.outerWidth > 768 ? '#FFF' : '#000',
+          }}
+          text="Cadastrar fornecedor"
+          {...props}
+        />
       )}
     </Fragment>
   );

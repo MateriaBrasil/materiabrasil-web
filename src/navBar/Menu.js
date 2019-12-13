@@ -46,7 +46,7 @@ export default props => {
       {currentUser ? (
         <MenuList>
           <MenuItem onClick={handleClose}>
-            <SupplierLink suppliers={suppliers} />
+            <SupplierLink suppliers={suppliers} {...props} />
           </MenuItem>
           <MenuItem onClick={handleClose}>
             <Link to="/profile" text={name} />
