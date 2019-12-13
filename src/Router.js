@@ -1,12 +1,11 @@
 import React from 'react';
+import Redirect from 'react-router-dom/Redirect';
 import Route from 'react-router-dom/Route';
 import Switch from 'react-router-dom/Switch';
 
-import renderMaterials from './materials/render';
 import renderAlbums from './albums/render';
 import renderAuth from './auth/render';
 import renderUsers from './users/render';
-import renderSearch from './search/render';
 import renderSuppliers from './suppliers/render';
 import renderTopics from './topics/render';
 import renderAbout from './about/render';
@@ -19,10 +18,14 @@ export default props => (
       <Route path="/auth" render={renderAuth(props)} />
       <Route path="/users" render={renderUsers(props)} />
       <Route path="/profile" render={renderUsers(props)} />
-      <Route path="/search" render={renderSearch(props)} />
+      <Route path="/search">
+        <Redirect to="/" />
+      </Route>
+      <Route path="/materials">
+        <Redirect to="/" />
+      </Route>
       <Route path="/suppliers" render={renderSuppliers(props)} />
       <Route path="/forum" render={renderTopics(props)} />
-      <Route path="/materials" render={renderMaterials(props)} />
       <Route path="/albums" render={renderAlbums(props)} />
       <Route path="/about" render={renderAbout(props)} />
       <Route path="/" render={renderHomepage(props)} />
