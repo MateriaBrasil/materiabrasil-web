@@ -6,6 +6,7 @@ import Switch from 'react-router-dom/Switch';
 import renderAlbums from './albums/render';
 import renderAuth from './auth/render';
 import renderUsers from './users/render';
+import renderMaterials from './materials/render';
 import renderSuppliers from './suppliers/render';
 import renderTopics from './topics/render';
 import renderAbout from './about/render';
@@ -21,10 +22,11 @@ export default props => (
       <Route path="/search">
         <Redirect to="/" />
       </Route>
-      <Route path="/materials">
+      <Route path="/explorer">
         <Redirect to="/" />
       </Route>
       <Route path="/suppliers" render={renderSuppliers(props)} />
+      <Route path="/materials" render={renderMaterials(props)} />
       <Route path="/forum" render={renderTopics(props)} />
       <Route path="/albums" render={renderAlbums(props)} />
       <Route path="/about" render={renderAbout(props)} />
