@@ -12,6 +12,7 @@ import {
   ResponsiveContainer,
 } from 'recharts';
 
+import { Container, ButtonsContainer } from './DriversStyles';
 import drivers from '../../drivers';
 import addComparison from './addComparison';
 import chartsStyle from '../../chartsStyle';
@@ -73,13 +74,6 @@ export default withStyles(chartsStyle)(props => {
   return (
     <Fragment>
       <div style={{ overflow: 'auto' }}>
-        <Typography
-          variant="h6"
-          color="textSecondary"
-          style={{ float: 'left', marginTop: 8 }}
-        >
-          Características
-        </Typography>
         {!!hasAllDrivers && (
           <Button
             color="primary"
@@ -93,7 +87,7 @@ export default withStyles(chartsStyle)(props => {
       {hasDrivers ? (
         <ResponsiveContainer width="100%" height={320}>
           <RadarChart
-            outerRadius="50%"
+            outerRadius="70%"
             data={data}
             className={props.classes.radar}
           >
@@ -115,7 +109,7 @@ export default withStyles(chartsStyle)(props => {
       ) : (
         <Typography>Este material ainda não possui indicadores</Typography>
       )}
-      <Fragment>
+      <ButtonsContainer>
         <div style={{ marginTop: 10 }}>
           <AnswerQuestionnaire
             currentUser={currentUser ? currentUser : ''}
@@ -135,7 +129,7 @@ export default withStyles(chartsStyle)(props => {
             }
           />
         </div>
-      </Fragment>
+      </ButtonsContainer>
     </Fragment>
   );
 });

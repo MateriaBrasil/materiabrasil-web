@@ -1,9 +1,15 @@
-import React from 'react'
-import Router from './Router'
-import NaveBarAndContent from '../NavBarAndContent'
+import React, { Fragment } from 'react';
+import Router from './Router';
+import NavBarAndContent from '../NavBarAndContent';
+import Header from './info/header/index';
 
-export default props => routeProps => (
-  <NaveBarAndContent {...props}>
-    <Router {...props} />
-  </NaveBarAndContent>
-)
+export default props => routeProps => {
+  return (
+    <Fragment>
+      <Header>
+        <NavBarAndContent style={{ zIndex: '10' }} transparent {...props} />
+      </Header>
+      <Router {...props} />
+    </Fragment>
+  );
+};

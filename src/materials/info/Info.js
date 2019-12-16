@@ -1,4 +1,6 @@
 import React, { Component, Fragment } from 'react';
+import { Form, Input } from '@rocketseat/unform';
+import { Link } from 'react-router-dom';
 import Grid from '@material-ui/core/Grid';
 import { Helmet } from 'react-helmet';
 import find from 'lodash/find';
@@ -11,10 +13,23 @@ import CoverImage from './CoverImage';
 import Sidebar from './Sidebar';
 import Images from './Images';
 
+import { Container, MainContent, Categories, SubContent } from './styles';
+
+import Breadcrumb from './breadcrumb';
+import Drivers from './Drivers';
+
 export default class extends Component {
   componentDidUpdate(prevProps) {
     checkReloadAndFetch(this.props);
+    console.log(this.props);
   }
+
+  items = [
+    { to: '/', label: 'Explore' },
+    { to: '', label: 'Categorias' },
+    { to: '/contact', label: 'Reclicados' },
+    { to: this.props.location, label: this.props.current.name },
+  ];
 
   render() {
     const { current, currentUser } = this.props;
@@ -30,7 +45,92 @@ export default class extends Component {
           <title>{name}</title>
           <meta property="og:image" content={listImageUrl} />
         </Helmet>
-        <Grid container spacing={16}>
+        <Container>
+          <Breadcrumb>
+            {this.items.map(({ to, label }) => (
+              <Link key={to} to={to}>
+                {label}
+              </Link>
+            ))}
+          </Breadcrumb>
+
+          <MainContent>
+            <div className="block-img">
+              <h1>{current.name}</h1>
+              <img
+                src={
+                  current.highlighted
+                    ? current.highlightImageUrl
+                    : current.listImageUrl
+                }
+                alt={current.name}
+              />
+
+              <Categories>
+                {current.categoriesHasPage.map((categoriesHasPage, i) => (
+                  <Link to="#" className="primary-button" key={i}>
+                    {categoriesHasPage.name}
+                  </Link>
+                ))}
+              </Categories>
+            </div>
+            <div className="grafico-content">
+              <h2>Gráfico de Impacto</h2>
+              <p>
+                O gráfico de impacto mostra o resultado quantitativo dos
+                questionários, respondidos pelos fornecedores cadastrados. Para
+                entender melhor a respeito dos questionários, clique para vê-los
+                na íntegra e entenda melhor o assunto abordado em cada um dos
+                direcionadores.
+              </p>
+
+              <div className="grafico">
+                <Drivers {...this.props} {...current} />
+              </div>
+
+              <div className="grafico-help">
+                <p>
+                  Com este gráfico, é possível comparar diversos materiais,
+                  basta clicar no botão ao lado.
+                </p>
+                <Link className="primary-button" to="#">
+                  Comparar Materiais
+                </Link>
+              </div>
+            </div>
+          </MainContent>
+          <SubContent>
+            <div>
+              <h2>something</h2>
+              <p>{current.description}</p>
+            </div>
+            <div>
+              <h3>Disponibilidade</h3>
+              <p>{current.availability}</p>
+
+              {current.state && (
+                <Fragment>
+                  <h3>Local de produção</h3>
+                  <p>{current.state}</p>
+                </Fragment>
+              )}
+
+              <form>
+                <h4>Mais informações do fornecedor:</h4>
+                <Link to="#">{current.name}</Link>
+
+                <h4>Escreva sua mensagem</h4>
+
+                <input type="text" name="name" placeholder="Nome*" />
+                <input type="text" name="phone" placeholder="Nome*" />
+                <input type="text" name="email" placeholder="Nome*" />
+                <textarea name="message" placeholder="Sua mensagem" />
+                <button>Enviar</button>
+              </form>
+            </div>
+          </SubContent>
+        </Container>
+        {/* <Grid container spacing={16}>
           {(coverImageUrl || editable) && (
             <CoverImage {...current} editable={editable} />
           )}
@@ -40,7 +140,7 @@ export default class extends Component {
             <Comments id={id} type="materials" {...this.props} />
           </Grid>
           <Sidebar {...this.props} {...current} editable={editable} />
-        </Grid>
+        </Grid> */}
       </Fragment>
     );
   }
