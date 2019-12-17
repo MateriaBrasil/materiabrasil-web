@@ -33,7 +33,10 @@ export default props => (
       <Route path="/forum" render={renderTopics(props)} />
       <Route path="/albums" render={renderAlbums(props)} />
       <Route path="/about" render={renderAbout(props)} />
-      <Route path="/" render={renderHomepage(props)} />
+      <Route exact path="/" render={renderHomepage(props)} />
+      <Route path="/">
+        <Redirect to="/" />
+      </Route>
     </Switch>
   </ScrollToTop>
 );
