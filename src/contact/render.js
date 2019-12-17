@@ -31,9 +31,18 @@ export default function(props) {
   };
 
   const options = [
-    { id: 'Sou Fornecedor e quero cadastrar meu material', title: 'Sou Fornecedor e quero cadastrar meu material' },
-    { id: 'Dúvidas e sugestões na biblioteca de materiais', title: 'Dúvidas e sugestões na biblioteca de materiais' },
-    { id: 'Interesse na compra de um produto', title: 'Interesse na compra de um produto' },
+    {
+      id: 'Sou Fornecedor e quero cadastrar meu material',
+      title: 'Sou Fornecedor e quero cadastrar meu material',
+    },
+    {
+      id: 'Dúvidas e sugestões na biblioteca de materiais',
+      title: 'Dúvidas e sugestões na biblioteca de materiais',
+    },
+    {
+      id: 'Interesse na compra de um produto',
+      title: 'Interesse na compra de um produto',
+    },
     { id: 'Outros assuntos', title: 'Outros assuntos' },
   ];
 
@@ -43,11 +52,11 @@ export default function(props) {
         <Content>
           {/*<StyledTypography variant="h4">Fale com a gente!</StyledTypography>*/}
           <p>
-            Precisa de ajuda para encontrar o material sustentável que necessita? Quer conhecer melhor o nosso projeto e orientar melhor suas escolhas?
+            Precisa de ajuda para encontrar o material sustentável que
+            necessita? Quer conhecer melhor o nosso projeto e orientar melhor
+            suas escolhas?
           </p>
-          <p>
-            Envie o seu contato, estamos sempre prontos a ajudar!
-          </p>
+          <p>Envie o seu contato, estamos sempre prontos a ajudar!</p>
         </Content>
 
         <StyledForm className="form">
@@ -88,6 +97,7 @@ export default function(props) {
               <Select
                 name="interesse"
                 options={options}
+                placeholder="Selecione um interesse"
                 onChange={e => setInteresse(e.target.value)}
               />
             </div>
