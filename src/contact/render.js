@@ -32,7 +32,7 @@ export default function(props) {
     <Section>
       <Container>
         <Content>
-          <StyledTypography variant="h4">Fale com a gente!</StyledTypography>
+          {/*<StyledTypography variant="h4">Fale com a gente!</StyledTypography>*/}
           <p>
             Precisa de ajuda para encontrar o material sustentável que necessita? Quer conhecer melhor o nosso projeto e orientar melhor suas escolhas?
           </p>
