@@ -29,9 +29,10 @@ export default function(props) {
         <Content>
           <StyledTypography variant="h4">Fale com a gente!</StyledTypography>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse
-            tempora a nobis velit delectus id rerum, architecto reprehenderit
-            necessitatibus eaque consequuntur, nulla pariatur vitae dolorem.
+            Precisa de ajuda para encontrar o material sustentável que necessita? Quer conhecer melhor o nosso projeto e orientar melhor suas escolhas?
+          </p>
+          <p>
+            Envie o seu contato, estamos sempre prontos a ajudar!
           </p>
         </Content>
 
