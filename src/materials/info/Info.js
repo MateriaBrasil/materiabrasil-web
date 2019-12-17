@@ -17,6 +17,7 @@ import { Container, MainContent, Categories, SubContent } from './styles';
 
 import Breadcrumb from './breadcrumb';
 import Drivers from './Drivers';
+import { StyledForm } from './styles';
 
 export default class extends Component {
   componentDidUpdate(prevProps) {
@@ -114,19 +115,20 @@ export default class extends Component {
                   <p>{current.state}</p>
                 </Fragment>
               )}
+              <StyledForm>
+                <form>
+                  <h4>Mais informações do fornecedor:</h4>
+                  <Link to="#">{current.name}</Link>
 
-              <form>
-                <h4>Mais informações do fornecedor:</h4>
-                <Link to="#">{current.name}</Link>
+                  <h4>Escreva sua mensagem</h4>
 
-                <h4>Escreva sua mensagem</h4>
-
-                <input type="text" name="name" placeholder="Nome*" />
-                <input type="text" name="phone" placeholder="Nome*" />
-                <input type="text" name="email" placeholder="Nome*" />
-                <textarea name="message" placeholder="Sua mensagem" />
-                <button>Enviar</button>
-              </form>
+                  <input type="text" name="name" placeholder="Nome*" />
+                  <input type="text" name="phone" placeholder="Nome*" />
+                  <input type="text" name="email" placeholder="Nome*" />
+                  <textarea name="message" placeholder="Sua mensagem" />
+                  <button>Enviar</button>
+                </form>
+              </StyledForm>
             </div>
           </SubContent>
         </Container>

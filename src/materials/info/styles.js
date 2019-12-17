@@ -54,3 +54,8 @@ export const Categories = styled.div`
     margin-right: 10px;
   }
 `;
+
+export const StyledForm = styled.div`
+  background: #eaeaea;
+  border-radius: 42px;
+`;
