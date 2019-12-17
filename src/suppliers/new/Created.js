@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Redirect from 'react-router-dom/Redirect';
+import ReactGA from 'react-ga';
 
 export default class extends Component {
   constructor(props) {
@@ -10,6 +11,11 @@ export default class extends Component {
       ...currentUser,
       suppliers: [...currentUser.suppliers, supplier],
     });
+
+    // ReactGA.event({
+    //   category: 'Cadastro Fornecedor',
+    //   action: 'Submit',
+    // });
 
     snackbar.actions.setMessage('Fornecedor cadastrado com sucesso');
   }

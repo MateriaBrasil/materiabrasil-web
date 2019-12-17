@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Form, Input } from '@rocketseat/unform';
 import { api } from '../services/axios';
+import ReactGA from 'react-ga';
+
 import {
   Section,
   Container,
@@ -15,7 +17,10 @@ export default function(props) {
   const [phone, setPhone] = useState('');
 
   const handleSubmit = function(data) {
-    console.log(data);
+    ReactGA.event({
+      category: 'Formulário',
+      action: 'Submit',
+    });
     api.post('/leads', data);
     setName('');
     setEmail('');
