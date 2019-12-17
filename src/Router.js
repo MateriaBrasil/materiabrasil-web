@@ -26,6 +26,9 @@ export default props => (
         <Redirect to="/" />
       </Route>
       <Route path="/suppliers" render={renderSuppliers(props)} />
+      <Route exact path="/materials">
+        <Redirect to="/" />
+      </Route>
       <Route path="/materials" render={renderMaterials(props)} />
       <Route path="/forum" render={renderTopics(props)} />
       <Route path="/albums" render={renderAlbums(props)} />
