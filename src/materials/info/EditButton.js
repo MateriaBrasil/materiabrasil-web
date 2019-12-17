@@ -6,15 +6,11 @@ import ReactGA from 'react-ga';
 export default props => {
   const { id, slug, path = 'edit', label } = props;
 
-  console.log(props);
   const gaMaterialEvent = function() {
-    alert();
     ReactGA.event({
-      category: `Ver Questionário Material`,
-      action: `Click`,
-      label: `Fornecedor: ${props.current.supplierName} Material: ${
-        props.current.name
-      }`,
+      category: 'Ver Questionário Material',
+      action: `${props.current.supplierName} ${props.current.name}`,
+      label: props.current.name,
     });
   };
 

@@ -7,15 +7,10 @@ export default props => {
   const { id, currentUser, supplier, supplierSlug } = props;
 
   const gaFornecedorEvent = function() {
-    alert();
-    console.log(props);
-
     ReactGA.event({
       category: 'Ver Questionário Fornecedor',
-      action: 'Click',
-      label: `Fornecedor: ${props.current.supplierName} Material: ${
-        props.current.name
-      }`,
+      action: `${props.current.supplierName} ${props.current.name}`,
+      label: props.current.name,
     });
   };
 
