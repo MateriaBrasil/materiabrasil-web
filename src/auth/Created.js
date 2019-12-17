@@ -7,10 +7,17 @@ export default class extends Component {
     super(props);
     const { created, setCurrentUser } = props;
 
-    // ReactGA.event({
-    //   category: 'Cadastro Usuário',
-    //   action: 'Submit',
-    // });
+    if (this.props.location.pathname === '/auth/sign-in') {
+      ReactGA.event({
+        category: 'Login',
+        action: 'Submit',
+      });
+    } else if (this.props.location.pathname === '/auth/sign-up') {
+      ReactGA.event({
+        category: 'Cadastro Usuário',
+        action: 'Submit',
+      });
+    }
 
     setCurrentUser(created);
   }

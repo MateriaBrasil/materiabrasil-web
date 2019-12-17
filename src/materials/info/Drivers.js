@@ -3,6 +3,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import AddIcon from '@material-ui/icons/Add';
 import { withStyles } from '@material-ui/core/styles';
+
 import {
   Radar,
   RadarChart,
@@ -119,6 +120,7 @@ export default withStyles(chartsStyle)(props => {
         <div style={{ marginTop: 10 }}>
           <AnswerQuestionnaire
             currentUser={currentUser ? currentUser : ''}
+            {...props}
             supplier={supplier ? supplier : ''}
             id={supplierId}
             supplierSlug={supplierSlug}
