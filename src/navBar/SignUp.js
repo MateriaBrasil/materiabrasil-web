@@ -3,7 +3,11 @@ import Link from 'react-router-dom/Link';
 import Typography from '@material-ui/core/Typography';
 import Colors from '../Colors';
 
-export default ({ location: { pathname }, isInstitutionalPage }) => (
+export default ({
+  location: { pathname },
+  isInstitutionalPage,
+  transparent,
+}) => (
   <Link
     className="navbar-link"
     to={{
@@ -12,7 +16,7 @@ export default ({ location: { pathname }, isInstitutionalPage }) => (
     }}
     style={{
       textDecoration: 'none',
-      color: Colors.white,
+      color: transparent && window.outerWidth > 768 ? '#FFF' : '#000',
     }}
   >
     <Typography
