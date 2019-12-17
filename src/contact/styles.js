@@ -83,7 +83,7 @@ export const StyledForm = styled.div`
         margin-bottom: 20px;
         width: 100%;
 
-        input {
+        input, select {
           border: 1px solid #707070;
           background: transparent;
           padding-left: 25px;
