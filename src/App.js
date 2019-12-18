@@ -12,7 +12,6 @@ import Providers from './Providers';
 export default class extends Component {
   componentDidMount() {
     ReactGA.initialize(process.env.REACT_APP_UA_GOOGLE_ANALYTICS);
-    console.log(process.env.REACT_APP_UA_GOOGLE_ANALYTICS);
     ReactGA.pageview(window.location.pathname + window.location.search);
   }
   render() {
