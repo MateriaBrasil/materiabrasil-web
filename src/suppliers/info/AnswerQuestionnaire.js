@@ -6,7 +6,7 @@ import ReactGA from 'react-ga';
 export default props => {
   const { id, currentUser, supplier, supplierSlug } = props;
   let editable;
-  if (props.current) {
+  if (props.current && currentUser) {
     if (
       currentUser.admin === true ||
       props.current.supplierId === currentUser.suppliers[0].id
