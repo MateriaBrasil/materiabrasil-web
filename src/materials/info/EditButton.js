@@ -4,14 +4,16 @@ import Button from '@material-ui/core/Button';
 import ReactGA from 'react-ga';
 
 export default props => {
-  const { id, slug, path = 'edit', label } = props;
+  const { id, slug, path = 'edit', label, editable } = props;
 
   const gaMaterialEvent = function() {
-    ReactGA.event({
-      category: 'Ver Questionário Material',
-      action: `${props.current.supplierName} ${props.current.name}`,
-      label: props.current.name,
-    });
+    if (!editable) {
+      ReactGA.event({
+        category: 'Ver Questionário Material',
+        action: `${props.current.supplierName} ${props.current.name}`,
+        label: props.current.name,
+      });
+    }
   };
 
   return (
