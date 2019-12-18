@@ -1,19 +1,19 @@
-import React, { Fragment } from 'react'
-import Grid from '@material-ui/core/Grid'
-import Card from '@material-ui/core/Card'
-import CardContent from '@material-ui/core/CardContent'
+import React, { Fragment } from 'react';
+import Grid from '@material-ui/core/Grid';
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
 
-import SignUpLink from '../../auth/SignUpLink'
-import PropertyWithValue from '../../PropertyWithValue'
-import translateReach from './translateReach'
-import MessageButton from '../../messages/new/Button'
+import SignUpLink from '../../auth/SignUpLink';
+import PropertyWithValue from '../../PropertyWithValue';
+import translateReach from './translateReach';
+import MessageButton from '../../messages/new/Button';
 
-import { addhttp } from '../../helpers/index'
+import { addhttp } from '../../helpers/index';
 
 export default props => {
-  const { current, currentUser, location } = props
-  const { pathname } = location
-  const { id, description, email, phone, reach, website } = current
+  const { current, currentUser, location } = props;
+  const { pathname } = location;
+  const { id, description, email, phone, reach, website } = current;
 
   return (
     <Grid item xs={12} sm={8} md={8} lg={9} xl={10}>
@@ -61,5 +61,5 @@ export default props => {
         </CardContent>
       </Card>
     </Grid>
-  )
-}
+  );
+};

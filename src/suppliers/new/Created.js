@@ -12,10 +12,10 @@ export default class extends Component {
       suppliers: [...currentUser.suppliers, supplier],
     });
 
-    // ReactGA.event({
-    //   category: 'Cadastro Fornecedor',
-    //   action: 'Submit',
-    // });
+    ReactGA.event({
+      category: 'Cadastro Fornecedor',
+      action: 'Submit',
+    });
 
     snackbar.actions.setMessage('Fornecedor cadastrado com sucesso');
   }

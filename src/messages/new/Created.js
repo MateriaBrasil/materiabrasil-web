@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import Redirect from 'react-router-dom/Redirect'
+import React, { Component } from 'react';
+import Redirect from 'react-router-dom/Redirect';
 
 export default class extends Component {
   render() {
@@ -9,6 +9,6 @@ export default class extends Component {
           this.props.match.params.id
         }/messages/success`}
       />
-    )
+    );
   }
 }
