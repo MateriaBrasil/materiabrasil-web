@@ -1,6 +1,6 @@
-import React from 'react'
-import Link from 'react-router-dom/Link'
-import Button from '@material-ui/core/Button'
+import React from 'react';
+import Link from 'react-router-dom/Link';
+import Button from '@material-ui/core/Button';
 
 export default props => (
   <Link
@@ -11,4 +11,4 @@ export default props => (
       Enviar mensagem
     </Button>
   </Link>
-)
+);

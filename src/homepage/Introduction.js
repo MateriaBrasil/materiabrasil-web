@@ -15,7 +15,7 @@ export default function(props) {
         <StyledField
           name="material"
           type="text"
-          placeholder="Pesquisar materials"
+          placeholder="Pesquisar materiais"
         />
         {/* <button type="submit">Pesquisar</button> */}
       </Form>

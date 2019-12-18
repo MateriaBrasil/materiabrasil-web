@@ -25,10 +25,7 @@ export default props => {
       expanded={expanded}
       onChange={onChangeExpanded(id)}
     >
-      <ExpansionPanelSummary
-        // style={{ padding: '0', background: 'red' }}
-        expandIcon={<ExpandMoreIcon />}
-      >
+      <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
         <Typography>
           <strong>{name}</strong>
         </Typography>
@@ -36,6 +33,7 @@ export default props => {
       <StyledExpansionPanelDetails
         style={{
           padding: 0,
+          flexWrap: 'wrap',
         }}
       >
         {children.map(renderCategory({ ...props, parent: category }))}

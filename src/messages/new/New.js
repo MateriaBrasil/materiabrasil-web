@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-import Form from './Form'
-import createWithParams from './createWithParams'
+import Form from './Form';
+import createWithParams from './createWithParams';
 
 export default props => {
-  const { create, creating, error, match } = props
-  const { id } = match.params
+  const { create, creating, error, match } = props;
+  const { id } = match.params;
+
+  console.log(props);
 
   return (
     <Form
@@ -16,5 +18,5 @@ export default props => {
       submitting={creating}
       createError={error}
     />
-  )
-}
+  );
+};

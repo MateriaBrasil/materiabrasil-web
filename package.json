@@ -24,6 +24,7 @@
     "react-credit-cards": "^0.7.0",
     "react-dom": "^16.7.0",
     "react-dropzone": "^4.2.13",
+    "react-ga": "^2.7.0",
     "react-helmet": "^5.2.0",
     "react-infinite-scroll-component": "^5.0.4",
     "react-input-mask": "^2.0.4",
