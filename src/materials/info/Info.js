@@ -12,12 +12,19 @@ import Description from './Description';
 import CoverImage from './CoverImage';
 import Sidebar from './Sidebar';
 import Images from './Images';
+import Avatar from '../../imageUpload/Avatar';
 
-import { Container, MainContent, Categories, SubContent } from './styles';
+import {
+  Container,
+  MainContent,
+  Categories,
+  StyledGrafico,
+  SubContent,
+  StyledForm,
+} from './styles';
 
 import Breadcrumb from './breadcrumb';
 import Drivers from './Drivers';
-import { StyledForm } from './styles';
 
 export default class extends Component {
   componentDidUpdate(prevProps) {
@@ -34,11 +41,14 @@ export default class extends Component {
 
   render() {
     const { current, currentUser } = this.props;
-    const { id, supplierId, name, listImageUrl, coverImageUrl } = current;
+    const { id, supplierId, name, listImageUrl, slug } = current;
     const { suppliers } = currentUser || {};
+
     const editable =
       find(suppliers, supplier => supplier.id === supplierId) ||
       get(currentUser, 'admin', false);
+
+    const editPath = editable && `/materials/${slug}/listImage`;
 
     return (
       <Fragment>
@@ -58,14 +68,18 @@ export default class extends Component {
           <MainContent>
             <div className="block-img">
               <h1>{current.name}</h1>
-              <img
-                src={
-                  current.highlighted
-                    ? current.highlightImageUrl
-                    : current.listImageUrl
-                }
-                alt={current.name}
-              />
+              {(listImageUrl || editable) && (
+                <Grid item xs={12} style={{ marginBottom: 16 }}>
+                  <Avatar
+                    name={name}
+                    editPath={editPath}
+                    imageUrl={listImageUrl}
+                    width={500}
+                    height={365}
+                    preserveRatio
+                  />
+                </Grid>
+              )}
 
               <Categories>
                 {current.categoriesHasPage.map((categoriesHasPage, i) => (
@@ -85,9 +99,9 @@ export default class extends Component {
                 direcionadores.
               </p>
 
-              <div className="grafico">
+              <StyledGrafico className="grafico">
                 <Drivers {...this.props} {...current} />
-              </div>
+              </StyledGrafico>
 
               <div className="grafico-help">
                 <p>
@@ -126,7 +140,7 @@ export default class extends Component {
                   <input type="text" name="phone" placeholder="Nome*" />
                   <input type="text" name="email" placeholder="Nome*" />
                   <textarea name="message" placeholder="Sua mensagem" />
-                  <button>Enviar</button>
+                  <button type="submit">Enviar</button>
                 </form>
               </StyledForm>
             </div>

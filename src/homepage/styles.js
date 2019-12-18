@@ -21,6 +21,20 @@ export const StyledTypography = styled(Typography)`
 
 export const StyledField = styled(Input)`
   && {
+    ::-webkit-input-placeholder {
+      /* Edge */
+      color: #fff !important;
+    }
+
+    :-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: #fff !important;
+    }
+
+    ::placeholder {
+      color: #fff !important;
+    }
+
     font-size: 16px;
     border: 0;
     border-radius: 100px;

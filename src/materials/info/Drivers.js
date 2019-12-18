@@ -93,7 +93,7 @@ export default withStyles(chartsStyle)(props => {
             className={props.classes.radar}
           >
             <PolarGrid />
-            <PolarAngleAxis dataKey="subject" />
+            <PolarAngleAxis className="text-char" dataKey="subject" />
             <PolarRadiusAxis
               domain={[DRIVER_MIN_NUMBER, DRIVER_MAX_NUMBER]}
               tick={false}
