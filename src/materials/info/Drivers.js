@@ -3,7 +3,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import AddIcon from '@material-ui/icons/Add';
 import { withStyles } from '@material-ui/core/styles';
-
+import './drivers.css';
 import ButtonsContainer from './ButtonsContainer';
 import {
   Radar,
@@ -14,7 +14,6 @@ import {
   ResponsiveContainer,
 } from 'recharts';
 
-import { Container } from './DriversStyles';
 import drivers from '../../drivers';
 import addComparison from './addComparison';
 import chartsStyle from '../../chartsStyle';
@@ -94,7 +93,12 @@ export default withStyles(chartsStyle)(props => {
             className={props.classes.radar}
           >
             <PolarGrid />
-            <PolarAngleAxis className="text-char" dataKey="subject" />
+            <PolarAngleAxis
+              // tick={{ fill: 'red' }}
+              style={{ fontSize: '18px' }}
+              className="text-char"
+              dataKey="subject"
+            />
             <PolarRadiusAxis
               domain={[DRIVER_MIN_NUMBER, DRIVER_MAX_NUMBER]}
               tick={false}

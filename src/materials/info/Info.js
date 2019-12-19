@@ -21,6 +21,7 @@ import {
   StyledGrafico,
   SubContent,
   Location,
+  StyledTable,
 } from './styles';
 
 import Contact from './contact';
@@ -94,9 +95,54 @@ export default class extends Component {
               <SubContent>
                 <div>
                   <h2>something</h2>
+                  <p>{current.code}</p>
                   <p>{current.description}</p>
                 </div>
               </SubContent>
+              <div>
+                <h3>Características</h3>
+                <StyledTable>
+                  <div>
+                    <span>Uso</span>
+                    <span>Têxtil</span>
+                  </div>
+
+                  <div>
+                    <span>Forma</span>
+                    <span>Têxtil</span>
+                  </div>
+
+                  <div>
+                    <span>Visuais</span>
+                    <span>Têxtil</span>
+                  </div>
+
+                  <div>
+                    <span>Tátei</span>
+                    <span>Têxtil</span>
+                  </div>
+
+                  <div>
+                    <span>Resistente a</span>
+                    <span>Têxtil</span>
+                  </div>
+
+                  <div>
+                    <span>Processabilidade</span>
+                    <span>Têxtil</span>
+                  </div>
+
+                  <div>
+                    <span>Densidade/gramatura</span>
+                    <span>{current.density}</span>
+                  </div>
+
+                  <div>
+                    <span>Anexo 1</span>
+                    <span>Têxtil</span>
+                  </div>
+                </StyledTable>
+              </div>
             </div>
             <Grafico>
               <h2>Gráfico de Impacto</h2>

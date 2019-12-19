@@ -22,6 +22,7 @@ export const Container = styled.div`
 `;
 export const MainContent = styled.div`
   display: flex;
+  padding-bottom: 40px;
   margin-top: 20px;
   div.block-img {
     width: 50%;
@@ -78,6 +79,24 @@ export const StyledGrafico = styled.div`
   && {
     .text-char {
       color: #cb1e4b !important;
+    }
+  }
+`;
+
+export const StyledTable = styled.div`
+  width: 100%;
+
+  div {
+    padding: 10px;
+    display: flex;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid #cbe5e9;
+    }
+
+    span {
+      width: 50%;
+      font-size: 20px;
     }
   }
 `;
