@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from 'react';
-import { Form, Input } from '@rocketseat/unform';
 import { Link } from 'react-router-dom';
 import Grid from '@material-ui/core/Grid';
 import { Helmet } from 'react-helmet';
@@ -18,10 +17,13 @@ import {
   Container,
   MainContent,
   Categories,
+  Grafico,
   StyledGrafico,
   SubContent,
-  StyledForm,
+  Location,
 } from './styles';
+
+import Contact from './contact';
 
 import Breadcrumb from './breadcrumb';
 import Drivers from './Drivers';
@@ -29,7 +31,7 @@ import Drivers from './Drivers';
 export default class extends Component {
   componentDidUpdate(prevProps) {
     checkReloadAndFetch(this.props);
-    console.log(this.props);
+    console.log(this.props.history);
   }
 
   items = [
@@ -88,8 +90,15 @@ export default class extends Component {
                   </Link>
                 ))}
               </Categories>
+
+              <SubContent>
+                <div>
+                  <h2>something</h2>
+                  <p>{current.description}</p>
+                </div>
+              </SubContent>
             </div>
-            <div className="grafico-content">
+            <Grafico>
               <h2>Gráfico de Impacto</h2>
               <p>
                 O gráfico de impacto mostra o resultado quantitativo dos
@@ -108,43 +117,22 @@ export default class extends Component {
                   Com este gráfico, é possível comparar diversos materiais,
                   basta clicar no botão ao lado.
                 </p>
-                <Link className="primary-button" to="#">
-                  Comparar Materiais
-                </Link>
+                <Link to="#">Comparar Materiais</Link>
               </div>
-            </div>
+              <Location>
+                <h3>Disponibilidade</h3>
+                <p>{current.availability}</p>
+
+                {current.state && (
+                  <Fragment>
+                    <h3>Local de produção</h3>
+                    <p>{current.state}</p>
+                  </Fragment>
+                )}
+              </Location>
+              <Contact {...this.props} />
+            </Grafico>
           </MainContent>
-          <SubContent>
-            <div>
-              <h2>something</h2>
-              <p>{current.description}</p>
-            </div>
-            <div>
-              <h3>Disponibilidade</h3>
-              <p>{current.availability}</p>
-
-              {current.state && (
-                <Fragment>
-                  <h3>Local de produção</h3>
-                  <p>{current.state}</p>
-                </Fragment>
-              )}
-              <StyledForm>
-                <form>
-                  <h4>Mais informações do fornecedor:</h4>
-                  <Link to="#">{current.name}</Link>
-
-                  <h4>Escreva sua mensagem</h4>
-
-                  <input type="text" name="name" placeholder="Nome*" />
-                  <input type="text" name="phone" placeholder="Nome*" />
-                  <input type="text" name="email" placeholder="Nome*" />
-                  <textarea name="message" placeholder="Sua mensagem" />
-                  <button type="submit">Enviar</button>
-                </form>
-              </StyledForm>
-            </div>
-          </SubContent>
         </Container>
         {/* <Grid container spacing={16}>
           {(coverImageUrl || editable) && (

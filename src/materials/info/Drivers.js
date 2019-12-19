@@ -4,6 +4,7 @@ import Button from '@material-ui/core/Button';
 import AddIcon from '@material-ui/icons/Add';
 import { withStyles } from '@material-ui/core/styles';
 
+import ButtonsContainer from './ButtonsContainer';
 import {
   Radar,
   RadarChart,
@@ -13,7 +14,7 @@ import {
   ResponsiveContainer,
 } from 'recharts';
 
-import { Container, ButtonsContainer } from './DriversStyles';
+import { Container } from './DriversStyles';
 import drivers from '../../drivers';
 import addComparison from './addComparison';
 import chartsStyle from '../../chartsStyle';
@@ -110,28 +111,7 @@ export default withStyles(chartsStyle)(props => {
       ) : (
         <Typography>Este material ainda não possui indicadores</Typography>
       )}
-      <ButtonsContainer>
-        <div style={{ marginTop: 10 }}>
-          <AnswerQuestionnaire
-            currentUser={currentUser ? currentUser : ''}
-            {...props}
-            supplier={supplier ? supplier : ''}
-            id={supplierId}
-            supplierSlug={supplierSlug}
-          />
-        </div>
-        <div style={{ marginTop: 20 }}>
-          <EditButton
-            {...props}
-            path="questionnaires"
-            label={
-              editable
-                ? 'Responder questionário do Material'
-                : 'Ver questionário do Material'
-            }
-          />
-        </div>
-      </ButtonsContainer>
+      <ButtonsContainer {...props} />
     </Fragment>
   );
 });

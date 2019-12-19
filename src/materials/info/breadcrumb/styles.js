@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  max-width: 600px;
+  max-width: 1000px;
   margin: 0 auto;
-
+  text-align: center;
   a {
     text-decoration: none;
     color: #414141;
