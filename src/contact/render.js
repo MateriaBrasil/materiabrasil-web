@@ -22,6 +22,7 @@ export default function(props) {
       category: 'Formulário',
       action: 'Submit',
     });
+
     api.post('/leads', data);
     setName('');
     setEmail('');
@@ -61,6 +62,7 @@ export default function(props) {
 
         <StyledForm className="form">
           <Form onSubmit={handleSubmit}>
+            <Input type="hidden" value="admin" name="mail_type" />
             <div>
               <label htmlFor="name">Nome*</label>
               <Input
@@ -97,6 +99,7 @@ export default function(props) {
               <Select
                 name="interesse"
                 options={options}
+                value={interesse}
                 placeholder="Selecione um interesse"
                 onChange={e => setInteresse(e.target.value)}
               />
