@@ -40,9 +40,9 @@ export default props => {
       {/* <MenuItem onClick={handleClose}>
         <Link to="/materials" text="Explore" />
       </MenuItem> */}
-      {/* <MenuItem onClick={handleClose}>
+      <MenuItem onClick={handleClose}>
         <Link to="/forum" text="Fórum" />
-      </MenuItem> */}
+      </MenuItem>
       {currentUser ? (
         <MenuList>
           <MenuItem onClick={handleClose}>

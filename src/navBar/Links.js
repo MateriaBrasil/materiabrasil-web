@@ -21,7 +21,7 @@ export default props => {
         targetBlank="true"
       /> */}
       {/* <Link to="/materials" text="Explore" {...props} /> */}
-      {/* <Link to="/forum" text="Fórum" {...props} /> */}
+      <Link to="/forum" text="Fórum" {...props} />
       {currentUser ? (
         <Fragment>
           <SupplierLink suppliers={suppliers} {...props} />
