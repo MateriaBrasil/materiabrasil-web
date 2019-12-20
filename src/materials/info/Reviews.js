@@ -9,8 +9,6 @@ export default props => {
   const { id, averageRating, currentUser } = props;
   const newReviewPath = `/materials/${props.slug}/reviews/new`;
 
-  console.log(props);
-
   return (
     <div style={{ marginBottom: 20 }}>
       <Rating rating={averageRating} />

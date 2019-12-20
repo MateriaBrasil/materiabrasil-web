@@ -10,8 +10,6 @@ import Typography from '@material-ui/core/Typography';
 import FormControl from '@material-ui/core/FormControl';
 
 export default props => routeProps => {
-  console.log(props);
-
   const validate = values => {
     let errors = {};
 

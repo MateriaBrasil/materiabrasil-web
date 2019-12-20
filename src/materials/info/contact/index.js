@@ -14,7 +14,6 @@ import {
 
 export default function(props) {
   const { current, currentUser } = props;
-  console.log(current);
   const [buttonLabel, setButtonLabel] = useState('Enviar');
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
@@ -22,7 +21,6 @@ export default function(props) {
   const [message, setMessage] = useState('');
 
   const handleSubmit = async function(data) {
-    console.log(data);
     setButtonLabel('Enviando');
     await api.post('/leads', data);
     setButtonLabel('Enviar');

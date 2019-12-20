@@ -37,7 +37,6 @@ export default function(props) {
     }
   };
 
-  console.log(props);
   const material_questionnaire_path = `/materials/${
     current.slug
   }/questionnaires`;

@@ -19,7 +19,6 @@ export default function(props) {
   const [interesse, setInteresse] = useState('');
 
   const handleSubmit = async function(data) {
-    console.log(data);
     setButtonLabel('Enviando');
     await api.post('/leads', data);
     setButtonLabel('Enviar');

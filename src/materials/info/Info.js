@@ -32,13 +32,12 @@ import Drivers from './Drivers';
 export default class extends Component {
   componentDidUpdate(prevProps) {
     checkReloadAndFetch(this.props);
-    console.log(this.props.history);
   }
 
   items = [
     { to: '/', label: 'Explore' },
-    { to: '', label: 'Categorias' },
-    { to: '/contact', label: 'Reclicados' },
+    // { to: '', label: 'Categorias' },
+    // { to: '/contact', label: 'Reclicados' },
     { to: this.props.location, label: this.props.current.name },
   ];
 
@@ -61,9 +60,12 @@ export default class extends Component {
         </Helmet>
         <Container>
           <Breadcrumb>
-            {this.items.map(({ to, label }) => (
+            {this.items.map(({ to, label }, index) => (
               <Link key={to} to={to}>
-                {label}
+                {label}{' '}
+                {this.items.length - 1 !== index && (
+                  <span style={{ marginLeft: '10px' }}>></span>
+                )}
               </Link>
             ))}
           </Breadcrumb>
