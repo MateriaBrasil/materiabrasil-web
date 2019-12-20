@@ -23,7 +23,7 @@ export default props => {
   const gaFornecedorEvent = function() {
     if (!editable && currentUser && props.current) {
       ReactGA.event({
-        category: 'Ver Questionário Fornecedor',
+        category: 'Ver Questionário Material',
         action: `${props.current.supplierName} ${props.current.name}`,
         label: props.current.name,
       });

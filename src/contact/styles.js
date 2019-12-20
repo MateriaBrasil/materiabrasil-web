@@ -83,13 +83,24 @@ export const StyledForm = styled.div`
         margin-bottom: 20px;
         width: 100%;
 
-        input, select {
+        select {
+          -webkit-appearance: none !important;
+          -moz-appearance: none !important;
+          -webkit-border-radius: 0px !important;
+          background-image: url('https://image.flaticon.com/icons/svg/60/60781.svg') !important;
+          background-position: 95% 50% !important;
+          background-repeat: no-repeat !important;
+          background-size: 14px !important;
+        }
+
+        input,
+        select {
           border: 1px solid #707070;
           background: transparent;
           padding-left: 25px;
 
           height: 40px;
-          border-radius: 100px;
+          border-radius: 100px !important;
           width: 100%;
 
           &:focus {

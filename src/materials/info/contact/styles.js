@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 export const StyledForm = styled.div`
   && {
     background: #eaeaea;
-    color: #414141;
     border-radius: 42px;
     padding: 25px;
 

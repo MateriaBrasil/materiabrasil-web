@@ -3,6 +3,7 @@ export const Container = styled.div`
   max-width: 1280px;
   margin: 20px auto 0;
   font-family: 'Open Sans', sans-serif;
+  color: #414141;
 
   input,
   textarea {
@@ -25,10 +26,20 @@ export const MainContent = styled.div`
   padding-bottom: 40px;
   margin-top: 20px;
   div.block-img {
-    width: 50%;
+    width: 46%;
     img {
       width: 500px;
       margin-bottom: 20px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    flex-wrap: wrap;
+
+    & > div,
+    & > div.block-img {
+      width: 100%;
+      padding: 0 20px;
     }
   }
 `;

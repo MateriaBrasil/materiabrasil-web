@@ -12,18 +12,22 @@ import {
 } from './styles';
 
 export default function(props) {
+  const [buttonLabel, setButtonLabel] = useState('Enviar');
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
   const [interesse, setInteresse] = useState('');
 
-  const handleSubmit = function(data) {
+  const handleSubmit = async function(data) {
+    console.log(data);
+    setButtonLabel('Enviando');
+    await api.post('/leads', data);
+    setButtonLabel('Enviar');
+
     ReactGA.event({
       category: 'Formulário',
       action: 'Submit',
     });
-
-    api.post('/leads', data);
     setName('');
     setEmail('');
     setPhone('');
@@ -105,7 +109,7 @@ export default function(props) {
               />
             </div>
 
-            <button type="submit">Enviar</button>
+            <button type="submit">{buttonLabel}</button>
           </Form>
         </StyledForm>
       </Container>

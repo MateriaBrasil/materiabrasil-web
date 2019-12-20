@@ -3,6 +3,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import AddIcon from '@material-ui/icons/Add';
 import { withStyles } from '@material-ui/core/styles';
+import { Link } from 'react-router-dom';
 import './drivers.css';
 import ButtonsContainer from './ButtonsContainer';
 import {
@@ -74,7 +75,7 @@ export default withStyles(chartsStyle)(props => {
 
   return (
     <Fragment>
-      <div style={{ overflow: 'auto' }}>
+      {/* <div style={{ overflow: 'auto' }}>
         {!!hasAllDrivers && (
           <Button
             color="primary"
@@ -84,7 +85,7 @@ export default withStyles(chartsStyle)(props => {
             <AddIcon style={{ marginRight: 10 }} /> Comparar
           </Button>
         )}
-      </div>
+      </div> */}
       {hasDrivers ? (
         <ResponsiveContainer width="100%" height={320}>
           <RadarChart
@@ -116,6 +117,17 @@ export default withStyles(chartsStyle)(props => {
         <Typography>Este material ainda não possui indicadores</Typography>
       )}
       <ButtonsContainer {...props} />
+      {!!hasAllDrivers && (
+        <div className="grafico-help">
+          <p>
+            Com este gráfico, é possível comparar diversos materiais, basta
+            clicar no botão ao lado.
+          </p>
+          <Link onClick={addComparison(props)} to="#">
+            Comparar Materiais
+          </Link>
+        </div>
+      )}
     </Fragment>
   );
 });

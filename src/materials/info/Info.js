@@ -94,7 +94,7 @@ export default class extends Component {
 
               <SubContent>
                 <div>
-                  <h2>something</h2>
+                  <h2>Something</h2>
                   <p>{current.code}</p>
                   <p>{current.description}</p>
                 </div>
@@ -142,6 +142,15 @@ export default class extends Component {
                     <span>Têxtil</span>
                   </div>
                 </StyledTable>
+                <div>
+                  <h3>Observações técnicas</h3>
+                  <p>
+                    Produto não solta tinta e não desbota. Para limpeza deve ser
+                    utilizado um pano levemente umedecido. Produto indicado para
+                    confecção de calçados, inclusive vulcanizados, bolsas,
+                    mochilas, cintos e acessórios em geral.
+                  </p>
+                </div>
               </div>
             </div>
             <Grafico>
@@ -157,17 +166,13 @@ export default class extends Component {
               <StyledGrafico className="grafico">
                 <Drivers {...this.props} {...current} />
               </StyledGrafico>
-
-              <div className="grafico-help">
-                <p>
-                  Com este gráfico, é possível comparar diversos materiais,
-                  basta clicar no botão ao lado.
-                </p>
-                <Link to="#">Comparar Materiais</Link>
-              </div>
               <Location>
-                <h3>Disponibilidade</h3>
-                <p>{current.availability}</p>
+                {current.availability && (
+                  <Fragment>
+                    <h3>Disponibilidade</h3>
+                    <p>{current.availability}</p>
+                  </Fragment>
+                )}
 
                 {current.state && (
                   <Fragment>
