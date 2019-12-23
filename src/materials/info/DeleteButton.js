@@ -1,15 +1,15 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
 
-import axios from 'axios';
+import { api } from '../../services/axios';
 
 export default props => {
-  const { id, label, headers, baseUrl, history } = props;
+  const { id, label, headers, history } = props;
 
   const destroy = async function() {
     if (window.confirm('Tem certeza que deseja deletar esse Material?')) {
       try {
-        await axios.delete(`${baseUrl}/materials/${id}`, {
+        await api.delete(`/materials/${id}`, {
           headers: headers(),
         });
       } catch (err) {
@@ -26,7 +26,7 @@ export default props => {
       onClick={destroy}
       variant="contained"
       color="primary"
-      style={{ marginBottom: 24 }}
+      // style={{ marginBottom: 24 }}
     >
       {label}
     </Button>

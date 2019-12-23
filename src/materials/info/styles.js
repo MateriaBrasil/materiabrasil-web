@@ -109,5 +109,11 @@ export const StyledTable = styled.div`
       width: 50%;
       font-size: 20px;
     }
+
+    @media screen and (max-width: 768px) {
+      span {
+        font-size: 14px;
+      }
+    }
   }
 `;

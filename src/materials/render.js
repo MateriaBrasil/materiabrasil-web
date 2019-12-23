@@ -5,12 +5,20 @@ import NavBarAndContent from '../NavBarAndContent';
 import Header from './info/header/index';
 
 export default props => routeProps => {
-  return (
-    <Grid style={{ backgroundColor: '#fff' }}>
-      <Header>
-        <NavBarAndContent style={{ zIndex: '10' }} transparent {...props} />
-      </Header>
-      <Router {...props} />
-    </Grid>
-  );
+  if (false) {
+    return (
+      <Grid style={{ backgroundColor: '#fff' }}>
+        <Header>
+          <NavBarAndContent style={{ zIndex: '10' }} transparent {...props} />
+        </Header>
+        <Router {...props} />
+      </Grid>
+    );
+  } else {
+    return (
+      <Grid style={{ backgroundColor: '#fff' }}>
+        <Router {...props} />
+      </Grid>
+    );
+  }
 };

@@ -69,9 +69,9 @@ export default class extends Component {
               </Link>
             ))}
           </Breadcrumb>
-
           <MainContent>
             <div className="block-img">
+              {editable && <CoverImage {...current} editable={editable} />}
               <h1>{current.name}</h1>
               {(listImageUrl || editable) && (
                 <Grid item xs={12} style={{ marginBottom: 16 }}>
@@ -183,7 +183,7 @@ export default class extends Component {
                   </Fragment>
                 )}
               </Location>
-              <Contact {...this.props} />
+              <Contact editable={editable} {...this.props} />
             </Grafico>
           </MainContent>
         </Container>

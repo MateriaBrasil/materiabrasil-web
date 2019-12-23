@@ -4,7 +4,12 @@ import { Link } from 'react-router-dom';
 import { api } from '../../../services/axios';
 import ReactGA from 'react-ga';
 
+import TechnicalSpecificationUpload from '../TechnicalSpecificationUpload';
+import CertificationsUpload from '../CertificationsUpload';
+import DeleteButton from '../DeleteButton';
+
 import {
+  Editable,
   StyledForm,
   Title4,
   Title5,
@@ -13,12 +18,15 @@ import {
 } from './styles';
 
 export default function(props) {
-  const { current, currentUser } = props;
+  const { current, editable, currentUser } = props;
+  const { slug } = props.info;
   const [buttonLabel, setButtonLabel] = useState('Enviar');
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+
+  console.log(props);
 
   const handleSubmit = async function(data) {
     setButtonLabel('Enviando');
@@ -38,7 +46,20 @@ export default function(props) {
     props.snackbar.actions.setMessage('Mensagem envida com sucesso!');
   };
 
-  if (currentUser) {
+  if (editable) {
+    return (
+      <Editable>
+        <br />
+        <Link to={`/materials/${slug}/edit`}>Editar informações gerais</Link>
+        <Link to={`/materials/${slug}/categories`}>
+          Editar informações técnicas
+        </Link>
+        <TechnicalSpecificationUpload {...props} />
+        <CertificationsUpload {...props} />
+        <DeleteButton {...props} label="Deletar Material" />
+      </Editable>
+    );
+  } else if (currentUser) {
     return (
       <Fragment>
         <Title4>Contato com o fornecedor deste material</Title4>

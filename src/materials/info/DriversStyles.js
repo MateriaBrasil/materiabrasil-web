@@ -24,4 +24,15 @@ export const ButtonsContainer = styled.div`
       background: #cb1e4b;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+
+    a {
+      margin-top: 10px;
+      font-size: 17px;
+      text-align: center;
+      width: 100%;
+    }
+  }
 `;

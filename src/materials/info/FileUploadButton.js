@@ -1,38 +1,39 @@
-import React, { Component } from 'react'
-import Button from '@material-ui/core/Button'
-import handleUpload from './handleUpload'
-import Loading from '../../Loading'
+import React, { Component, Fragment } from 'react';
+import Button from '@material-ui/core/Button';
+import handleUpload from './handleUpload';
+import Loading from '../../Loading';
 
 export default class extends Component {
   constructor(props) {
-    super(props)
+    super(props);
 
-    this.state = { uploading: false }
-    this.handleFileChange = this.handleFileChange.bind(this)
+    this.state = { uploading: false };
+    this.handleFileChange = this.handleFileChange.bind(this);
   }
 
   handleFileChange(event) {
-    this.setState({ uploading: true })
+    this.setState({ uploading: true });
 
-    event.stopPropagation()
-    event.preventDefault()
-    const file = event.target.files[0]
+    event.stopPropagation();
+    event.preventDefault();
+    const file = event.target.files[0];
 
-    const { id, actions, attributeName } = this.props
+    const { id, actions, attributeName } = this.props;
     handleUpload({
       file,
       id,
       attributeName,
       update: attributes => {
-        this.setState({ uploading: false })
-        actions.update(attributes)
+        this.setState({ uploading: false });
+        actions.update(attributes);
       },
-    })
+    });
   }
 
   render() {
     return (
-      <div style={{ display: 'inline-block' }}>
+      <Fragment>
+        {' '}
         {this.state.uploading ? (
           <Loading
             size={32}
@@ -42,7 +43,7 @@ export default class extends Component {
           <Button
             variant="contained"
             color="primary"
-            style={{ marginBottom: 24, marginRight: 24 }}
+            // style={{ marginBottom: 24, marginRight: 24 }}
             onClick={() => this.fileInput.click()}
           >
             {this.props.children}
@@ -54,7 +55,7 @@ export default class extends Component {
           style={{ display: 'none' }}
           onChange={this.handleFileChange}
         />
-      </div>
-    )
+      </Fragment>
+    );
   }
 }

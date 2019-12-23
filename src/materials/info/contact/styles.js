@@ -94,3 +94,29 @@ export const Title5 = styled.h5`
   font-size: 22px;
   font-weight: bold;
 `;
+
+export const Editable = styled.div`
+  && {
+    display: flex;
+    flex-wrap: wrap;
+
+    a,
+    button {
+      background: #178e9d;
+      font-size: 16px;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 10px;
+      text-decoration: none;
+      padding: 10px 25px;
+      margin-bottom: 10px;
+      margin-right: 10px;
+      text-transform: none;
+
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+`;
