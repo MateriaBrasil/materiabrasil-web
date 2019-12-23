@@ -26,7 +26,7 @@ import {
 
 import Contact from './contact';
 
-import Breadcrumb from './breadcrumb';
+import Breadcrumb from '../../breadcrumb';
 import Drivers from './Drivers';
 
 export default class extends Component {
