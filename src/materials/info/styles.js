@@ -5,6 +5,12 @@ export const Container = styled.div`
   font-family: 'Open Sans', sans-serif;
   color: #414141;
 
+  p,
+  h2,
+  h3 {
+    margin: 0;
+  }
+
   input,
   textarea {
     font-family: 'Open Sans', sans-serif;
@@ -75,9 +81,17 @@ export const Location = styled.div`
 `;
 
 export const SubContent = styled.div`
-  display: flex;
-  align-content: center;
-  justify-content: space-between;
+  && {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+    h2 {
+      margin: 10px 0;
+      font-size: 22px;
+    }
+  }
 `;
 
 export const Categories = styled.div`

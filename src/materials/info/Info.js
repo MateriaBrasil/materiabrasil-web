@@ -71,7 +71,6 @@ export default class extends Component {
           </Breadcrumb>
           <MainContent>
             <div className="block-img">
-              {editable && <CoverImage {...current} editable={editable} />}
               <h1>{current.name}</h1>
               {(listImageUrl || editable) && (
                 <Grid item xs={12} style={{ marginBottom: 16 }}>
