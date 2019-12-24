@@ -72,6 +72,8 @@ export const StyledForm = styled.div`
 export const ContainerLogout = styled.div``;
 
 export const StyledLink = styled(Link)`
+  display: inline-block;
+
   background: #178e9d;
   color: #fff;
   font-weight: bold;
@@ -79,6 +81,7 @@ export const StyledLink = styled(Link)`
   border-radius: 10px;
   text-decoration: none;
   padding: 10px 25px;
+  margin-bottom: 20px;
 
   &:last-child {
     background: #eb8000;
@@ -86,13 +89,19 @@ export const StyledLink = styled(Link)`
 `;
 
 export const Title4 = styled.h4`
-  font-size: 24px;
-  font-weight: bold;
+  && {
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: bold;
+  }
 `;
 
 export const Title5 = styled.h5`
-  font-size: 22px;
-  font-weight: bold;
+  && {
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: bold;
+  }
 `;
 
 export const Editable = styled.div`

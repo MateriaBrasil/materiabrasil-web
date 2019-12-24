@@ -169,17 +169,17 @@ export default class extends Component {
               </StyledGrafico>
               <Location>
                 {current.availability && (
-                  <Fragment>
+                  <div>
                     <h3>Disponibilidade</h3>
                     <p>{current.availability}</p>
-                  </Fragment>
+                  </div>
                 )}
 
                 {current.state && (
-                  <Fragment>
+                  <div>
                     <h3>Local de produção</h3>
                     <p>{current.state}</p>
-                  </Fragment>
+                  </div>
                 )}
               </Location>
               <Contact editable={editable} {...this.props} />

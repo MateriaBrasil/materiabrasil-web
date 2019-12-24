@@ -96,7 +96,7 @@ export default withStyles(chartsStyle)(props => {
             <PolarGrid />
             <PolarAngleAxis
               // tick={{ fill: 'red' }}
-              style={{ fontSize: '18px' }}
+              style={{ fontSize: '18px', overflow: 'auto' }}
               className="text-char"
               dataKey="subject"
             />
@@ -114,7 +114,9 @@ export default withStyles(chartsStyle)(props => {
           </RadarChart>
         </ResponsiveContainer>
       ) : (
-        <Typography>Este material ainda não possui indicadores</Typography>
+        <div style={{ margin: '20px 0' }}>
+          <Typography>Este material ainda não possui indicadores</Typography>
+        </div>
       )}
       <ButtonsContainer {...props} />
       {!!hasAllDrivers && (
