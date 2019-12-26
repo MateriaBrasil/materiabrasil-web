@@ -12,17 +12,21 @@ import {
 } from './styles';
 
 export default function(props) {
+  const [buttonLabel, setButtonLabel] = useState('Enviar');
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
   const [interesse, setInteresse] = useState('');
 
-  const handleSubmit = function(data) {
+  const handleSubmit = async function(data) {
+    setButtonLabel('Enviando');
+    await api.post('/leads', data);
+    setButtonLabel('Enviar');
+
     ReactGA.event({
       category: 'Formulário',
       action: 'Submit',
     });
-    api.post('/leads', data);
     setName('');
     setEmail('');
     setPhone('');
@@ -60,6 +64,7 @@ export default function(props) {
 
         <StyledForm className="form">
           <Form onSubmit={handleSubmit}>
+            <Input type="hidden" value="admin" name="mail_type" />
             <div>
               <label htmlFor="name">Nome*</label>
               <Input
@@ -96,12 +101,13 @@ export default function(props) {
               <Select
                 name="interesse"
                 options={options}
+                value={interesse}
                 placeholder="Selecione um interesse"
                 onChange={e => setInteresse(e.target.value)}
               />
             </div>
 
-            <button type="submit">Enviar</button>
+            <button type="submit">{buttonLabel}</button>
           </Form>
         </StyledForm>
       </Container>

@@ -11,9 +11,7 @@ export default props => {
   const [term, setTerm] = useState(null);
 
   function handleSubmit(data) {
-    console.log(data);
     setTerm(data.material);
-    console.log(term);
   }
 
   return (

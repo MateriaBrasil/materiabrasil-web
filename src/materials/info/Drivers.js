@@ -3,7 +3,9 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import AddIcon from '@material-ui/icons/Add';
 import { withStyles } from '@material-ui/core/styles';
-
+import { Link } from 'react-router-dom';
+import './drivers.css';
+import ButtonsContainer from './ButtonsContainer';
 import {
   Radar,
   RadarChart,
@@ -73,14 +75,7 @@ export default withStyles(chartsStyle)(props => {
 
   return (
     <Fragment>
-      <div style={{ overflow: 'auto' }}>
-        <Typography
-          variant="h6"
-          color="textSecondary"
-          style={{ float: 'left', marginTop: 8 }}
-        >
-          Características
-        </Typography>
+      {/* <div style={{ overflow: 'auto' }}>
         {!!hasAllDrivers && (
           <Button
             color="primary"
@@ -90,16 +85,21 @@ export default withStyles(chartsStyle)(props => {
             <AddIcon style={{ marginRight: 10 }} /> Comparar
           </Button>
         )}
-      </div>
+      </div> */}
       {hasDrivers ? (
         <ResponsiveContainer width="100%" height={320}>
           <RadarChart
-            outerRadius="50%"
+            outerRadius="70%"
             data={data}
             className={props.classes.radar}
           >
             <PolarGrid />
-            <PolarAngleAxis dataKey="subject" />
+            <PolarAngleAxis
+              // tick={{ fill: 'red' }}
+              style={{ fontSize: '18px' }}
+              className="text-char"
+              dataKey="subject"
+            />
             <PolarRadiusAxis
               domain={[DRIVER_MIN_NUMBER, DRIVER_MAX_NUMBER]}
               tick={false}
@@ -116,28 +116,18 @@ export default withStyles(chartsStyle)(props => {
       ) : (
         <Typography>Este material ainda não possui indicadores</Typography>
       )}
-      <Fragment>
-        <div style={{ marginTop: 10 }}>
-          <AnswerQuestionnaire
-            currentUser={currentUser ? currentUser : ''}
-            {...props}
-            supplier={supplier ? supplier : ''}
-            id={supplierId}
-            supplierSlug={supplierSlug}
-          />
+      <ButtonsContainer {...props} />
+      {!!hasAllDrivers && (
+        <div className="grafico-help">
+          <p>
+            Com este gráfico, é possível comparar diversos materiais, basta
+            clicar no botão ao lado.
+          </p>
+          <Link onClick={addComparison(props)} to="#">
+            Comparar Materiais
+          </Link>
         </div>
-        <div style={{ marginTop: 20 }}>
-          <EditButton
-            {...props}
-            path="questionnaires"
-            label={
-              editable
-                ? 'Responder questionário do Material'
-                : 'Ver questionário do Material'
-            }
-          />
-        </div>
-      </Fragment>
+      )}
     </Fragment>
   );
 });

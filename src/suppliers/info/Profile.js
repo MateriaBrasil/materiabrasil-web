@@ -17,8 +17,6 @@ export default props => {
     editPath = `/suppliers/${id}/avatar`;
   }
 
-  console.log(props);
-
   return (
     <Grid item xs={12} sm={4} md={4} lg={3} xl={2}>
       <Avatar name={name} editPath={editPath} imageUrl={imageUrl} />

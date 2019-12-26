@@ -7,8 +7,6 @@ export default props => {
   const { create, creating, error, match } = props;
   const { id } = match.params;
 
-  console.log(props);
-
   return (
     <Form
       {...props}

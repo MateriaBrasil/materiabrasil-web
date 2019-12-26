@@ -12,17 +12,3 @@
     padding: 20px;
   }
 }
-
-::-webkit-input-placeholder {
-  /* Edge */
-  color: #fff !important;
-}
-
-:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: #fff !important;
-}
-
-::placeholder {
-  color: #fff !important;
-}

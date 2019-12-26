@@ -3,4 +3,4 @@ export default [
   { key: 'manufactureDriver', name: 'Manufatura' },
   { key: 'managementDriver', name: 'Gestão e governança' },
   { key: 'socialDriver', name: 'Humano social' },
-]
+];

@@ -1,7 +1,18 @@
-import React from 'react'
-
-import Info from './Info'
-
+import React, { Fragment } from 'react';
+import Info from './Info';
+import NavBarAndContent from '../../NavBarAndContent';
+import Header from '../info/header/index';
 export default props => (info, infoProps) => {
-  return <Info current={info} {...props} {...infoProps} />
-}
+  return (
+    <Fragment>
+      <Header>
+        <NavBarAndContent
+          background={info.coverImageUrl}
+          transparent
+          {...props}
+        />
+      </Header>
+      <Info current={info} {...props} {...infoProps} />
+    </Fragment>
+  );
+};

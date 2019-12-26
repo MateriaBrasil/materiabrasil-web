@@ -1,0 +1,13 @@
+.recharts-layer.recharts-polar-angle-axis-tick
+  .recharts-text.recharts-polar-angle-axis-tick-value:nth-child(1n),
+.recharts-layer.recharts-polar-angle-axis-tick:nth-child(2n)
+  .recharts-text.recharts-polar-angle-axis-tick-value {
+  fill: #cb1e4b;
+}
+
+.recharts-layer.recharts-polar-angle-axis-tick:nth-child(3n)
+  .recharts-text.recharts-polar-angle-axis-tick-value,
+.recharts-layer.recharts-polar-angle-axis-tick:nth-child(4n)
+  .recharts-text.recharts-polar-angle-axis-tick-value {
+  fill: #eb8000;
+}

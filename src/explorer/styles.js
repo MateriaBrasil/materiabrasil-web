@@ -20,20 +20,24 @@ export const Container = styled.div`
   max-width: 1280px;
 `;
 
+export const MaterialsContainer = styled.div`
+  max-width: 70%;
+  width: 70%;
+  margin: 0 auto;
+`;
+
 export const MaterialsList = styled.div`
   && {
     font-family: 'Open Sans', sans-serif !important;
-    margin: 0 auto;
-    max-width: 70%;
-    width: 70%;
     align-content: baseline;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
+    width: 100%;
   }
 
-  .load_more_wrapper{
+  .load_more_wrapper {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -206,7 +210,6 @@ export const StyledTypography = styled(Typography)`
     margin-bottom: 10px;
   }
 `;
-
 
 export const StyledButton = styled.button`
   background: #eb8000;
