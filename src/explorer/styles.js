@@ -44,7 +44,7 @@ export const MaterialsList = styled.div`
   }
 `;
 
-export const MaterialSingle = styled(Link)`
+export const MaterialSingle = styled.div`
   width: 33.3%;
   min-width: 295px;
   text-decoration: none;
@@ -178,6 +178,7 @@ export const MaterialSingle = styled(Link)`
       }
 
       .span_category {
+        text-decoration: none;
         display: inline-block;
         margin-right: 10px;
         margin-bottom: 10px;

@@ -14,13 +14,11 @@ export default function(props) {
   let border_string;
   const { currentUser, categories } = props;
 
-  console.log(categories);
-
   const [per, setPer] = useState(9);
   const fetchMoreData = function() {
     setPer(per + 9);
   };
-
+  console.log(categories);
   const setData = function(props, categories) {
     const term = encodeURI(props.term);
 
@@ -38,12 +36,11 @@ export default function(props) {
       render={list => (
         <MaterialsList>
           {list.map((item, index) => (
-            <MaterialSingle
-              to={`/materials/${item.slug}`}
-              key={index}
-              item={item}
-            >
-              <div className="content_img_borda">
+            <MaterialSingle key={index} item={item}>
+              <Link
+                to={`/materials/${item.slug}`}
+                className="content_img_borda"
+              >
                 <div className="borda" bg-index={border_string} />
                 <div
                   className="img_loop"
@@ -55,15 +52,19 @@ export default function(props) {
                     })`,
                   }}
                 />
-              </div>
+              </Link>
               <div className="content_loop">
                 <StyledTypography variant="h4">{item.name}</StyledTypography>
                 <div className="content-material-single">
                   <div className="categories-wrapper">
                     {item.categoriesHasPage.map((categoriesHasPage, i) => (
-                      <span className="span_category" key={i}>
+                      <Link
+                        to={`/categories/${categoriesHasPage.slug}`}
+                        className="span_category"
+                        key={i}
+                      >
                         {categoriesHasPage.name}
-                      </span>
+                      </Link>
                     ))}
                   </div>
                   <div className="icons">
