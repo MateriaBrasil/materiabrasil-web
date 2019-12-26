@@ -1,14 +1,17 @@
 import React, { Fragment } from 'react';
 
 import { Container } from './styles';
+import Header from './header';
 import MaterialsLoop from '../explorer/materialsLoop';
 import Contact from '../contact/render';
 
 export default props => routeProps => {
-  console.log(props);
-  const categories = null;
+  const category = routeProps.match.params.id;
+  const categories = `categories%5B%5D=${category}`;
+
   return (
     <Fragment>
+      <Header {...props} category={category} />
       <Container>
         <MaterialsLoop {...props} categories={categories} />
       </Container>
