@@ -14,11 +14,14 @@ export default function(props) {
   let border_string;
   const { currentUser, categories } = props;
 
+  const { data } = props;
+  console.log(data);
+
   const [per, setPer] = useState(9);
   const fetchMoreData = function() {
     setPer(per + 9);
   };
-  console.log(categories);
+
   const setData = function(props, categories) {
     const term = encodeURI(props.term);
 
@@ -38,7 +41,14 @@ export default function(props) {
           {list.map((item, index) => (
             <MaterialSingle key={index} item={item}>
               <Link
-                to={`/materials/${item.slug}`}
+                to={{
+                  pathname: `/materials/${item.slug}`,
+                  state: {
+                    category_name: data ? data.name : null,
+                    category_slug: data ? data.slug : null,
+                    category_img: data ? data.image_url : null,
+                  },
+                }}
                 className="content_img_borda"
               >
                 <div className="borda" bg-index={border_string} />

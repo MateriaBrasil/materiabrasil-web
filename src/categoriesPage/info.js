@@ -11,7 +11,7 @@ export default function renderCategorySingle(props) {
   const [data, setData] = useState({});
   const category = props.id;
   const categories = `categories%5B%5D=${category}`;
-
+  let category_data;
   console.log(props);
 
   useEffect(
@@ -19,7 +19,7 @@ export default function renderCategorySingle(props) {
       api.get(`/categories/${category}`).then(response => {
         const data = response.data;
         setData(data);
-        console.log(data);
+        category_data = data;
       });
     },
     [category],
@@ -48,7 +48,7 @@ export default function renderCategorySingle(props) {
         </Breadcrumb>
 
         <Container>
-          <MaterialsLoop {...props} categories={categories} />
+          <MaterialsLoop {...props} categories={categories} data={data} />
         </Container>
       </div>
 

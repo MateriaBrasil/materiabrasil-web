@@ -34,17 +34,25 @@ export default class extends Component {
     checkReloadAndFetch(this.props);
   }
 
-  items = [
-    { to: '/', label: 'Explore' },
-    // { to: '', label: 'Categorias' },
-    // { to: '/contact', label: 'Reclicados' },
-    { to: this.props.location, label: this.props.current.name },
-  ];
-
   render() {
     const { current, currentUser } = this.props;
+    const { category_name, category_slug } = this.props.location.state;
     const { id, supplierId, name, listImageUrl, slug } = current;
     const { suppliers } = currentUser || {};
+    let items;
+
+    if (category_slug) {
+      items = [
+        { to: '/', label: 'Explore' },
+        { to: `/categories/${category_slug}`, label: `${category_name}` },
+        { to: this.props.location, label: this.props.current.name },
+      ];
+    } else {
+      items = [
+        { to: '/', label: 'Explore' },
+        { to: this.props.location, label: this.props.current.name },
+      ];
+    }
 
     const editable =
       find(suppliers, supplier => supplier.id === supplierId) ||
@@ -60,10 +68,10 @@ export default class extends Component {
         </Helmet>
         <Container>
           <Breadcrumb>
-            {this.items.map(({ to, label }, index) => (
+            {items.map(({ to, label }, index) => (
               <Link key={to} to={to}>
                 {label}{' '}
-                {this.items.length - 1 !== index && (
+                {items.length - 1 !== index && (
                   <span style={{ marginLeft: '10px' }}>></span>
                 )}
               </Link>
@@ -87,7 +95,11 @@ export default class extends Component {
 
               <Categories>
                 {current.categoriesHasPage.map((categoriesHasPage, i) => (
-                  <Link to="#" className="primary-button" key={i}>
+                  <Link
+                    to={`/categories/${categoriesHasPage.slug}`}
+                    className="primary-button"
+                    key={i}
+                  >
                     {categoriesHasPage.name}
                   </Link>
                 ))}
