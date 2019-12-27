@@ -1,7 +1,7 @@
 import React from 'react';
 import Route from 'react-router-dom/Route';
 
-import renderCategorySingle from './info';
+import renderCategorySingle from './renderInfo';
 
 export default props => (
   <div>

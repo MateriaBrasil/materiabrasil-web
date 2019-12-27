@@ -20,7 +20,7 @@ export const Title = styled.h1`
 export const Header = styled.div`
   margin-top: -20px;
   padding-top: 100px;
-  margin: 0 auto;
+  margin: 0 auto 40px;
 
   font-family: 'Open Sans', sans-serif;
   color: #fff;

@@ -1,23 +1,20 @@
-import React, { useEffect, useState } from 'react';
-import { api } from '../services/axios';
+import React from 'react';
 import Navbar from '../navBar/NavBar';
 
-import { Header, Container, Title } from './styles';
+import { Header, Title } from './styles';
 
 export default function(props) {
-  const { category } = props;
-  const [data, setData] = useState('');
-
-  useEffect(() => {
-    api.get(`/categories/${category}`).then(response => {
-      const data = response.data;
-      setData(data);
-      console.log(data);
-    });
-  }, []);
+  const { data } = props;
 
   return (
-    <Header data={data} style={{ backgroundImage: `url(${data.image_url})` }}>
+    <Header
+      data={data}
+      style={
+        data.image_url
+          ? { backgroundImage: `url(${data.image_url})` }
+          : { background: '#313131' }
+      }
+    >
       <Navbar transparent {...props} />
       <Title>{data.name}</Title>
       <div className="description">
