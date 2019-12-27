@@ -89,7 +89,7 @@ export default withStyles(chartsStyle)(props => {
       {hasDrivers ? (
         <ResponsiveContainer width="100%" height={320}>
           <RadarChart
-            outerRadius="70%"
+            outerRadius="50%"
             data={data}
             className={props.classes.radar}
           >
