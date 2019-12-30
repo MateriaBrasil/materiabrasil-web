@@ -11,15 +11,12 @@ export default function renderCategorySingle(props) {
   const [data, setData] = useState({});
   const category = props.id;
   const categories = `categories%5B%5D=${category}`;
-  let category_data;
-  console.log(props);
 
   useEffect(
     () => {
       api.get(`/categories/${category}`).then(response => {
         const data = response.data;
         setData(data);
-        category_data = data;
       });
     },
     [category],

@@ -13,6 +13,8 @@ import Sidebar from './Sidebar';
 import Images from './Images';
 import Avatar from '../../imageUpload/Avatar';
 
+import { insert } from '../../helpers/index';
+
 import {
   Container,
   MainContent,
@@ -36,22 +38,26 @@ export default class extends Component {
 
   render() {
     const { current, currentUser } = this.props;
-    const { category_name, category_slug } = this.props.location.state;
+    const {
+      category_name,
+      category_slug,
+      category_img,
+    } = this.props.location.state;
+
     const { id, supplierId, name, listImageUrl, slug } = current;
     const { suppliers } = currentUser || {};
     let items;
 
-    if (category_slug) {
-      items = [
-        { to: '/', label: 'Explore' },
-        { to: `/categories/${category_slug}`, label: `${category_name}` },
-        { to: this.props.location, label: this.props.current.name },
-      ];
-    } else {
-      items = [
-        { to: '/', label: 'Explore' },
-        { to: this.props.location, label: this.props.current.name },
-      ];
+    items = [
+      { to: '/', label: 'Explore' },
+      { to: this.props.location.pathname, label: this.props.current.name },
+    ];
+
+    if (this.props.location.state.category_name !== null) {
+      insert(items, 1, {
+        to: `/categories/${category_slug}`,
+        label: category_name,
+      });
     }
 
     const editable =

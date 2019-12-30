@@ -15,7 +15,6 @@ export default function(props) {
   const { currentUser, categories } = props;
 
   const { data } = props;
-  console.log(data);
 
   const [per, setPer] = useState(9);
   const fetchMoreData = function() {
