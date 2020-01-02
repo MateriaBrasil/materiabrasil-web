@@ -38,11 +38,6 @@ export default class extends Component {
 
   render() {
     const { current, currentUser } = this.props;
-    const {
-      category_name,
-      category_slug,
-      category_img,
-    } = this.props.location.state;
 
     const { id, supplierId, name, listImageUrl, slug } = current;
     const { suppliers } = currentUser || {};
@@ -52,12 +47,14 @@ export default class extends Component {
       { to: '/', label: 'Explore' },
       { to: this.props.location.pathname, label: this.props.current.name },
     ];
-
-    if (this.props.location.state.category_name !== null) {
-      insert(items, 1, {
-        to: `/categories/${category_slug}`,
-        label: category_name,
-      });
+    if (this.props.location.state !== undefined) {
+      if (this.props.location.state.category_name !== null) {
+        const { category_name, category_slug } = this.props.location.state;
+        insert(items, 1, {
+          to: `/categories/${category_slug}`,
+          label: category_name,
+        });
+      }
     }
 
     const editable =
@@ -87,15 +84,17 @@ export default class extends Component {
             <div className="block-img">
               <h1>{current.name}</h1>
               {(listImageUrl || editable) && (
-                <Grid item xs={12} style={{ marginBottom: 16 }}>
-                  <Avatar
-                    name={name}
-                    editPath={editPath}
-                    imageUrl={listImageUrl}
-                    width={500}
-                    height={365}
-                    preserveRatio
-                  />
+                <Grid item xs={12} style={{ marginBottom: 40 }}>
+                  <div className="img-wrapper">
+                    <Avatar
+                      name={name}
+                      editPath={editPath}
+                      imageUrl={listImageUrl}
+                      width={500}
+                      height={365}
+                      preserveRatio
+                    />
+                  </div>
                 </Grid>
               )}
 

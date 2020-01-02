@@ -31,28 +31,34 @@ export const Container = styled.div`
   }
 `;
 export const MainContent = styled.div`
-  display: flex;
-  padding-bottom: 40px;
-  margin-top: 20px;
-  div.block-img {
-    h1 {
-      margin-bottom: 10px;
+  && {
+    display: flex;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    div.block-img {
+      h1 {
+        margin-bottom: 10px;
+      }
+
+      div.img-wrapper {
+        margin-left: 20px;
+        transform: rotate(-2deg) skew(1deg, 0deg);
+        img {
+          border-radius: 20px !important;
+          width: 500px;
+        }
+      }
+      width: 46%;
     }
 
-    width: 46%;
-    img {
-      width: 500px;
-      margin-bottom: 20px;
-    }
-  }
+    @media screen and (max-width: 768px) {
+      flex-wrap: wrap;
 
-  @media screen and (max-width: 768px) {
-    flex-wrap: wrap;
-
-    & > div,
-    & > div.block-img {
-      width: 100%;
-      padding: 0 20px;
+      & > div,
+      & > div.block-img {
+        width: 100%;
+        padding: 0 20px;
+      }
     }
   }
 `;

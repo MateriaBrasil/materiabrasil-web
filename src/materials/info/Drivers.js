@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect, useState } from 'react';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import AddIcon from '@material-ui/icons/Add';
@@ -22,6 +22,14 @@ import EditButton from './EditButton';
 import AnswerQuestionnaire from '../../suppliers/info/AnswerQuestionnaire';
 
 export default withStyles(chartsStyle)(props => {
+  const [tabWidth, setTabWidth] = useState(window.outerWidth);
+
+  useEffect(() => {
+    window.addEventListener('resize', () => {
+      setTabWidth(window.outerWidth);
+    });
+  }, []);
+
   const {
     materialityDriver,
     manufactureDriver,
@@ -86,10 +94,10 @@ export default withStyles(chartsStyle)(props => {
           </Button>
         )}
       </div> */}
-      {hasDrivers ? (
+      {hasDrivers && tabWidth > 768 ? (
         <ResponsiveContainer width="100%" height={320}>
           <RadarChart
-            outerRadius="50%"
+            outerRadius="70%"
             data={data}
             className={props.classes.radar}
           >
@@ -97,6 +105,33 @@ export default withStyles(chartsStyle)(props => {
             <PolarAngleAxis
               // tick={{ fill: 'red' }}
               style={{ fontSize: '18px', overflow: 'auto' }}
+              className="text-char"
+              dataKey="subject"
+            />
+            <PolarRadiusAxis
+              domain={[DRIVER_MIN_NUMBER, DRIVER_MAX_NUMBER]}
+              tick={false}
+            />
+            <Radar
+              name="Mike"
+              dataKey="value"
+              stroke="#239eb1"
+              fill="#239eb1"
+              fillOpacity={0.6}
+            />
+          </RadarChart>
+        </ResponsiveContainer>
+      ) : hasDrivers && tabWidth < 768 ? (
+        <ResponsiveContainer width="100%" height={320}>
+          <RadarChart
+            outerRadius="40%"
+            data={data}
+            className={props.classes.radar}
+          >
+            <PolarGrid />
+            <PolarAngleAxis
+              // tick={{ fill: 'red' }}
+              style={{ fontSize: '12px', overflow: 'auto' }}
               className="text-char"
               dataKey="subject"
             />
