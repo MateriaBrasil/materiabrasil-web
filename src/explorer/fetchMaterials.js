@@ -12,7 +12,8 @@ import {
 
 import download from './download.png';
 import favorites from './favorites.png';
-
+import MaterialsLoop from './materialsLoop';
+import { MaterialsContainer } from './styles';
 import './reset.css';
 
 export default function(props) {
@@ -38,67 +39,9 @@ export default function(props) {
       <Filters
         {...props}
         render={({ categories }) => (
-          <List
-            name="materials"
-            path={setData(props, categories)}
-            render={list => (
-              <MaterialsList>
-                {list.map((item, index) => (
-                  <MaterialSingle
-                    to={`/materials/${item.slug}`}
-                    key={index}
-                    item={item}
-                  >
-                    <div className="content_img_borda">
-                      <div className="borda" bg-index={border_string} />
-                      <div
-                        className="img_loop"
-                        style={{ backgroundImage: `url(${item.highlighted ? item.highlightImageUrl : item.listImageUrl})` }}
-                      />
-                    </div>
-                    <div className="content_loop">
-                      <StyledTypography variant="h4">
-                        {item.name}
-                      </StyledTypography>
-                      <div className="content-material-single">
-                        <div className="categories-wrapper">
-                          {item.categoriesHasPage.map(
-                            (categoriesHasPage, i) => (
-                              <span className="span_category" key={i}>
-                                {categoriesHasPage.name}
-                              </span>
-                            ),
-                          )}
-                        </div>
-                        <div className="icons">
-                          {currentUser && (
-                            <Link
-                              to={`/materials/${props.currentUser.id}/albums`}
-                            >
-                              <img src={favorites} alt="" />
-                            </Link>
-                          )}
-                          {item.technicalSpecificationUrl && (
-                            <Link
-                              target="_blank"
-                              to={item.technicalSpecificationUrl}
-                            >
-                              <img src={download} alt="" />
-                            </Link>
-                          )}
-                        </div>
-                      </div>
-                    </div>
-                  </MaterialSingle>
-                ))}
-                <div className="load_more_wrapper">
-                  <StyledButton onClick={fetchMoreData}>
-                    mais materiais
-                  </StyledButton>
-                </div>
-              </MaterialsList>
-            )}
-          />
+          <MaterialsContainer>
+            <MaterialsLoop categories={categories} />{' '}
+          </MaterialsContainer>
         )}
       />
     </div>

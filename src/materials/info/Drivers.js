@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect, useState } from 'react';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import AddIcon from '@material-ui/icons/Add';
@@ -6,6 +6,7 @@ import { withStyles } from '@material-ui/core/styles';
 import { Link } from 'react-router-dom';
 import './drivers.css';
 import ButtonsContainer from './ButtonsContainer';
+import { useWindowSize } from '../../helpers/hooks';
 import {
   Radar,
   RadarChart,
@@ -22,6 +23,16 @@ import EditButton from './EditButton';
 import AnswerQuestionnaire from '../../suppliers/info/AnswerQuestionnaire';
 
 export default withStyles(chartsStyle)(props => {
+  function ShowWindowDimensions(props) {
+    const [width, height] = useWindowSize();
+    return {
+      width: width,
+      height: height,
+    };
+  }
+
+  let windowSize = ShowWindowDimensions(props);
+
   const {
     materialityDriver,
     manufactureDriver,
@@ -86,7 +97,7 @@ export default withStyles(chartsStyle)(props => {
           </Button>
         )}
       </div> */}
-      {hasDrivers ? (
+      {hasDrivers && windowSize.width > 768 ? (
         <ResponsiveContainer width="100%" height={320}>
           <RadarChart
             outerRadius="70%"
@@ -96,7 +107,34 @@ export default withStyles(chartsStyle)(props => {
             <PolarGrid />
             <PolarAngleAxis
               // tick={{ fill: 'red' }}
-              style={{ fontSize: '18px' }}
+              style={{ fontSize: '18px', overflow: 'auto' }}
+              className="text-char"
+              dataKey="subject"
+            />
+            <PolarRadiusAxis
+              domain={[DRIVER_MIN_NUMBER, DRIVER_MAX_NUMBER]}
+              tick={false}
+            />
+            <Radar
+              name="Mike"
+              dataKey="value"
+              stroke="#239eb1"
+              fill="#239eb1"
+              fillOpacity={0.6}
+            />
+          </RadarChart>
+        </ResponsiveContainer>
+      ) : hasDrivers && windowSize.width < 768 ? (
+        <ResponsiveContainer width="100%" height={320}>
+          <RadarChart
+            outerRadius="40%"
+            data={data}
+            className={props.classes.radar}
+          >
+            <PolarGrid />
+            <PolarAngleAxis
+              // tick={{ fill: 'red' }}
+              style={{ fontSize: '12px', overflow: 'auto' }}
               className="text-char"
               dataKey="subject"
             />
@@ -114,7 +152,9 @@ export default withStyles(chartsStyle)(props => {
           </RadarChart>
         </ResponsiveContainer>
       ) : (
-        <Typography>Este material ainda não possui indicadores</Typography>
+        <div style={{ margin: '20px 0' }}>
+          <Typography>Este material ainda não possui indicadores</Typography>
+        </div>
       )}
       <ButtonsContainer {...props} />
       {!!hasAllDrivers && (

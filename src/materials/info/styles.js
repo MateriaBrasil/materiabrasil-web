@@ -5,6 +5,15 @@ export const Container = styled.div`
   font-family: 'Open Sans', sans-serif;
   color: #414141;
 
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    margin: 0;
+  }
+
   input,
   textarea {
     font-family: 'Open Sans', sans-serif;
@@ -22,24 +31,34 @@ export const Container = styled.div`
   }
 `;
 export const MainContent = styled.div`
-  display: flex;
-  padding-bottom: 40px;
-  margin-top: 20px;
-  div.block-img {
-    width: 46%;
-    img {
-      width: 500px;
-      margin-bottom: 20px;
+  && {
+    display: flex;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    div.block-img {
+      h1 {
+        margin-bottom: 10px;
+      }
+
+      div.img-wrapper {
+        margin-left: 20px;
+        transform: rotate(-2deg) skew(1deg, 0deg);
+        img {
+          border-radius: 20px !important;
+          width: 500px;
+        }
+      }
+      width: 46%;
     }
-  }
 
-  @media screen and (max-width: 768px) {
-    flex-wrap: wrap;
+    @media screen and (max-width: 768px) {
+      flex-wrap: wrap;
 
-    & > div,
-    & > div.block-img {
-      width: 100%;
-      padding: 0 20px;
+      & > div,
+      & > div.block-img {
+        width: 100%;
+        padding: 0 20px;
+      }
     }
   }
 `;
@@ -47,6 +66,15 @@ export const MainContent = styled.div`
 export const Grafico = styled.div`
   width: 48%;
   margin-left: auto;
+
+  h2 {
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  p {
+    text-align: justify;
+  }
 
   .grafico-help {
     display: flex;
@@ -72,17 +100,30 @@ export const Location = styled.div`
   p {
     font-size: 20px;
   }
+
+  & > div {
+    margin-bottom: 20px;
+  }
 `;
 
 export const SubContent = styled.div`
-  display: flex;
-  align-content: center;
-  justify-content: space-between;
+  && {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+    h2 {
+      margin: 10px 0;
+      font-size: 22px;
+    }
+  }
 `;
 
 export const Categories = styled.div`
   a.primary-button {
     margin-right: 10px;
+    margin-bottom: 10px;
   }
 `;
 
@@ -96,9 +137,10 @@ export const StyledGrafico = styled.div`
 
 export const StyledTable = styled.div`
   width: 100%;
+  margin-bottom: 40px;
 
   div {
-    padding: 10px;
+    padding: 10px 0;
     display: flex;
 
     &:not(:last-child) {

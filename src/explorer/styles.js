@@ -20,33 +20,41 @@ export const Container = styled.div`
   max-width: 1280px;
 `;
 
+export const MaterialsContainer = styled.div`
+  max-width: 70%;
+  width: 70%;
+  margin: 0 auto;
+`;
+
 export const MaterialsList = styled.div`
   && {
     font-family: 'Open Sans', sans-serif !important;
-    margin: 0 auto;
-    max-width: 70%;
-    width: 70%;
     align-content: baseline;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
+    width: 100%;
   }
 
-  .load_more_wrapper{
+  .load_more_wrapper {
     display: flex;
     justify-content: center;
     width: 100%;
   }
 `;
 
-export const MaterialSingle = styled(Link)`
+export const MaterialSingle = styled.div`
   width: 33.3%;
   min-width: 295px;
   text-decoration: none;
 
   @media (max-width: 768px) {
     margin: 0 auto;
+  }
+
+  @media (min-width: 1024px) {
+    min-height: 397px;
   }
 
   padding: 25px 5px;
@@ -174,6 +182,7 @@ export const MaterialSingle = styled(Link)`
       }
 
       .span_category {
+        text-decoration: none;
         display: inline-block;
         margin-right: 10px;
         margin-bottom: 10px;
@@ -206,7 +215,6 @@ export const StyledTypography = styled(Typography)`
     margin-bottom: 10px;
   }
 `;
-
 
 export const StyledButton = styled.button`
   background: #eb8000;

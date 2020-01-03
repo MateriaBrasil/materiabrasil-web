@@ -26,8 +26,6 @@ export default function(props) {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
-  console.log(props);
-
   const handleSubmit = async function(data) {
     setButtonLabel('Enviando');
     await api.post('/leads', data);

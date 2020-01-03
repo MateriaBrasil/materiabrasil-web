@@ -13,6 +13,8 @@ import Sidebar from './Sidebar';
 import Images from './Images';
 import Avatar from '../../imageUpload/Avatar';
 
+import { insert } from '../../helpers/index';
+
 import {
   Container,
   MainContent,
@@ -34,17 +36,26 @@ export default class extends Component {
     checkReloadAndFetch(this.props);
   }
 
-  items = [
-    { to: '/', label: 'Explore' },
-    // { to: '', label: 'Categorias' },
-    // { to: '/contact', label: 'Reclicados' },
-    { to: this.props.location, label: this.props.current.name },
-  ];
-
   render() {
     const { current, currentUser } = this.props;
+
     const { id, supplierId, name, listImageUrl, slug } = current;
     const { suppliers } = currentUser || {};
+    let items;
+
+    items = [
+      { to: '/', label: 'Explore' },
+      { to: this.props.location.pathname, label: this.props.current.name },
+    ];
+    if (this.props.location.state !== undefined) {
+      if (this.props.location.state.category_name !== null) {
+        const { category_name, category_slug } = this.props.location.state;
+        insert(items, 1, {
+          to: `/categories/${category_slug}`,
+          label: category_name,
+        });
+      }
+    }
 
     const editable =
       find(suppliers, supplier => supplier.id === supplierId) ||
@@ -60,10 +71,10 @@ export default class extends Component {
         </Helmet>
         <Container>
           <Breadcrumb>
-            {this.items.map(({ to, label }, index) => (
+            {items.map(({ to, label }, index) => (
               <Link key={to} to={to}>
                 {label}{' '}
-                {this.items.length - 1 !== index && (
+                {items.length - 1 !== index && (
                   <span style={{ marginLeft: '10px' }}>></span>
                 )}
               </Link>
@@ -71,24 +82,29 @@ export default class extends Component {
           </Breadcrumb>
           <MainContent>
             <div className="block-img">
-              {editable && <CoverImage {...current} editable={editable} />}
               <h1>{current.name}</h1>
               {(listImageUrl || editable) && (
-                <Grid item xs={12} style={{ marginBottom: 16 }}>
-                  <Avatar
-                    name={name}
-                    editPath={editPath}
-                    imageUrl={listImageUrl}
-                    width={500}
-                    height={365}
-                    preserveRatio
-                  />
+                <Grid item xs={12} style={{ marginBottom: 40 }}>
+                  <div className="img-wrapper">
+                    <Avatar
+                      name={name}
+                      editPath={editPath}
+                      imageUrl={listImageUrl}
+                      width={500}
+                      height={365}
+                      preserveRatio
+                    />
+                  </div>
                 </Grid>
               )}
 
               <Categories>
                 {current.categoriesHasPage.map((categoriesHasPage, i) => (
-                  <Link to="#" className="primary-button" key={i}>
+                  <Link
+                    to={`/categories/${categoriesHasPage.slug}`}
+                    className="primary-button"
+                    key={i}
+                  >
                     {categoriesHasPage.name}
                   </Link>
                 ))}
@@ -96,7 +112,7 @@ export default class extends Component {
 
               <SubContent>
                 <div>
-                  <h2>Something</h2>
+                  {/* <h2>Something</h2> */}
                   <p>{current.code}</p>
                   <p>{current.description}</p>
                 </div>
@@ -104,7 +120,7 @@ export default class extends Component {
               <div>
                 <h3>Características</h3>
                 <StyledTable>
-                  <div>
+                  {/* <div>
                     <span>Uso</span>
                     <span>Têxtil</span>
                   </div>
@@ -132,19 +148,19 @@ export default class extends Component {
                   <div>
                     <span>Processabilidade</span>
                     <span>Têxtil</span>
-                  </div>
+                  </div> */}
 
                   <div>
                     <span>Densidade/gramatura</span>
-                    <span>{current.density}</span>
+                    <span>{current.density ? current.density : `N/A`}</span>
                   </div>
 
                   <div>
                     <span>Anexo 1</span>
-                    <span>Têxtil</span>
+                    <span>N/A</span>
                   </div>
                 </StyledTable>
-                <div>
+                {/* <div>
                   <h3>Observações técnicas</h3>
                   <p>
                     Produto não solta tinta e não desbota. Para limpeza deve ser
@@ -152,7 +168,7 @@ export default class extends Component {
                     confecção de calçados, inclusive vulcanizados, bolsas,
                     mochilas, cintos e acessórios em geral.
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
             <Grafico>
@@ -170,17 +186,17 @@ export default class extends Component {
               </StyledGrafico>
               <Location>
                 {current.availability && (
-                  <Fragment>
+                  <div>
                     <h3>Disponibilidade</h3>
                     <p>{current.availability}</p>
-                  </Fragment>
+                  </div>
                 )}
 
                 {current.state && (
-                  <Fragment>
+                  <div>
                     <h3>Local de produção</h3>
                     <p>{current.state}</p>
-                  </Fragment>
+                  </div>
                 )}
               </Location>
               <Contact editable={editable} {...this.props} />

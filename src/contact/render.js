@@ -56,9 +56,8 @@ export default function(props) {
         <Content>
           {/*<StyledTypography variant="h4">Fale com a gente!</StyledTypography>*/}
           <p>
-            Precisa de ajuda para encontrar o material sustentável que
-            necessita? Quer conhecer melhor o nosso projeto e orientar melhor
-            suas escolhas?
+            Precisa de ajuda para encontrar a solução que necessita? Quer
+            conhecer melhor o nosso projeto e orientar melhor suas escolhas?
           </p>
           <p>Envie o seu contato, estamos sempre prontos a ajudar!</p>
         </Content>

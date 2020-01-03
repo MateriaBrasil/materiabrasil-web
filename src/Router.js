@@ -7,6 +7,7 @@ import renderAlbums from './albums/render';
 import renderAuth from './auth/render';
 import renderUsers from './users/render';
 import renderMaterials from './materials/render';
+import renderCategories from './categoriesPage/render';
 import renderSuppliers from './suppliers/render';
 import renderTopics from './topics/render';
 import renderAbout from './about/render';
@@ -30,6 +31,7 @@ export default props => (
         <Redirect to="/" />
       </Route>
       <Route path="/materials" render={renderMaterials(props)} />
+      <Route path="/categories" render={renderCategories(props)} />
       <Route path="/forum" render={renderTopics(props)} />
       <Route path="/albums" render={renderAlbums(props)} />
       <Route path="/about" render={renderAbout(props)} />

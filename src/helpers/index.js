@@ -11,3 +11,7 @@ export function phoneMask(v) {
   v = v.replace(/(\d{4})(\d)/, '$1-$2'); //Coloca hífen entre o quarto e o quinto dígitos
   return v;
 }
+
+export function insert(arr, index, item) {
+  arr.splice(index, 0, item);
+}

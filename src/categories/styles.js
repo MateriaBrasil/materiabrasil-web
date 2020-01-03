@@ -16,14 +16,14 @@ export const StyledFormControlLabel = styled(FormControlLabel)`
     /* margin-left: 5%; */
     /* margin-right: 5%; */
     /* margin-bottom: 10px; */
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
       to right,
       #333 70%,
       rgba(255, 255, 255, 0) 20%
     );
     background-position: left bottom;
     background-size: 40px 1px;
-    background-repeat: repeat-x;
+    background-repeat: repeat-x; */
 
     &:last-child {
       background: none;
