@@ -49,7 +49,7 @@ export default function renderCategorySingle(props) {
         </Container>
       </div>
 
-      <Contact />
+      <Contact {...props} />
     </Fragment>
   );
 }
