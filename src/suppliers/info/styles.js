@@ -25,6 +25,10 @@ export const Container = styled.div`
 
   && > div {
     display: flex;
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
   }
 `;
 
@@ -92,10 +96,19 @@ export const MainContent = styled.div`
     font-size: 38px;
     margin-bottom: 20px;
   }
+
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    margin: 0 auto;
+  }
 `;
 
 export const Description = styled.div`
   width: 55%;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    margin: 0 auto;
+  }
 `;
 
 export const Materials = styled.div`
@@ -104,6 +117,11 @@ export const Materials = styled.div`
 
   h1 {
     margin-bottom: 30px;
+
+    @media screen and (max-width: 768px) {
+      margin-left: 30px;
+      margin-bottom: 20px;
+    }
   }
 `;
 
@@ -166,5 +184,13 @@ export const MaterialSingle = styled(Link)`
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    margin: 0 auto;
+    .content_img_borda {
+      max-width: 100%;
+    }
   }
 `;
