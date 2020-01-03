@@ -75,10 +75,10 @@ export default withStyles(styles)(({ classes }) => (
         >
           <span>Membro</span>
         </StyledTitle>
-        <FooterImage
+        {/* <FooterImage
           title="Sistema B Brasil"
           src="/images/partners/sistema-b.png"
-        />
+        /> */}
         <FooterImage
           title="CE100 Global Ellen MacArthur"
           src="/images/partners/ce100.png"
