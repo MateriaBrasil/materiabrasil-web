@@ -6,6 +6,7 @@ import { withStyles } from '@material-ui/core/styles';
 import { Link } from 'react-router-dom';
 import './drivers.css';
 import ButtonsContainer from './ButtonsContainer';
+import { useWindowSize } from '../../helpers/hooks';
 import {
   Radar,
   RadarChart,
@@ -22,13 +23,15 @@ import EditButton from './EditButton';
 import AnswerQuestionnaire from '../../suppliers/info/AnswerQuestionnaire';
 
 export default withStyles(chartsStyle)(props => {
-  const [tabWidth, setTabWidth] = useState(window.outerWidth);
+  function ShowWindowDimensions(props) {
+    const [width, height] = useWindowSize();
+    return {
+      width: width,
+      height: height,
+    };
+  }
 
-  useEffect(() => {
-    window.addEventListener('resize', () => {
-      setTabWidth(window.outerWidth);
-    });
-  }, []);
+  let windowSize = ShowWindowDimensions(props);
 
   const {
     materialityDriver,
@@ -94,7 +97,7 @@ export default withStyles(chartsStyle)(props => {
           </Button>
         )}
       </div> */}
-      {hasDrivers && tabWidth > 768 ? (
+      {hasDrivers && windowSize.width > 768 ? (
         <ResponsiveContainer width="100%" height={320}>
           <RadarChart
             outerRadius="70%"
@@ -121,7 +124,7 @@ export default withStyles(chartsStyle)(props => {
             />
           </RadarChart>
         </ResponsiveContainer>
-      ) : hasDrivers && tabWidth < 768 ? (
+      ) : hasDrivers && windowSize.width < 768 ? (
         <ResponsiveContainer width="100%" height={320}>
           <RadarChart
             outerRadius="40%"

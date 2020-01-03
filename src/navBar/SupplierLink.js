@@ -2,9 +2,20 @@ import React, { Fragment } from 'react';
 
 import { Typography } from '@material-ui/core';
 import Link from './Link';
+import { useWindowSize } from '../helpers/hooks';
 
 export default props => {
   const { suppliers } = props;
+
+  function ShowWindowDimensions(props) {
+    const [width, height] = useWindowSize();
+    return {
+      width: width,
+      height: height,
+    };
+  }
+
+  let windowSize = ShowWindowDimensions(props);
 
   return (
     <Fragment>
@@ -27,7 +38,7 @@ export default props => {
               display: 'inline-block',
               alignSelf: 'center',
               color:
-                props.transparent && window.outerWidth > 768 ? '#FFF' : '#000',
+                props.transparent && windowSize.width > 768 ? '#FFF' : '#000',
             }}
           >
             Cadastrar Material
@@ -39,7 +50,7 @@ export default props => {
           text="Cadastrar Material"
           style={{
             color:
-              props.transparent && window.outerWidth > 768 ? '#FFF' : '#000',
+              props.transparent && windowSize.width > 768 ? '#FFF' : '#000',
           }}
           {...props}
         />
@@ -48,7 +59,7 @@ export default props => {
           to={`/suppliers/new`}
           style={{
             color:
-              props.transparent && window.outerWidth > 768 ? '#FFF' : '#000',
+              props.transparent && windowSize.width > 768 ? '#FFF' : '#000',
           }}
           text="Cadastrar fornecedor"
           {...props}

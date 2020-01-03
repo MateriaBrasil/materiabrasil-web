@@ -47,6 +47,7 @@ export const MaterialsList = styled.div`
 export const MaterialSingle = styled.div`
   width: 33.3%;
   min-width: 295px;
+  min-height: 397px;
   text-decoration: none;
 
   @media (max-width: 768px) {

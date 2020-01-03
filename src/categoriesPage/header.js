@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../navBar/NavBar';
 
 import { Header, Title } from './styles';
+import bg from '../homepage/bg_banner.png';
 
 export default function(props) {
   const { data } = props;
@@ -12,7 +13,7 @@ export default function(props) {
       style={
         data.image_url
           ? { backgroundImage: `url(${data.image_url})` }
-          : { background: '#313131' }
+          : { backgroundImage: `url(${bg})` }
       }
     >
       <Navbar transparent {...props} />
