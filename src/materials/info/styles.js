@@ -140,7 +140,7 @@ export const StyledTable = styled.div`
   margin-bottom: 40px;
 
   div {
-    padding: 10px;
+    padding: 10px 0;
     display: flex;
 
     &:not(:last-child) {

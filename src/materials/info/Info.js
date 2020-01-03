@@ -112,7 +112,7 @@ export default class extends Component {
 
               <SubContent>
                 <div>
-                  <h2>Something</h2>
+                  {/* <h2>Something</h2> */}
                   <p>{current.code}</p>
                   <p>{current.description}</p>
                 </div>
@@ -120,7 +120,7 @@ export default class extends Component {
               <div>
                 <h3>Características</h3>
                 <StyledTable>
-                  <div>
+                  {/* <div>
                     <span>Uso</span>
                     <span>Têxtil</span>
                   </div>
@@ -148,19 +148,19 @@ export default class extends Component {
                   <div>
                     <span>Processabilidade</span>
                     <span>Têxtil</span>
-                  </div>
+                  </div> */}
 
                   <div>
                     <span>Densidade/gramatura</span>
-                    <span>{current.density}</span>
+                    <span>{current.density ? current.density : `N/A`}</span>
                   </div>
 
                   <div>
                     <span>Anexo 1</span>
-                    <span>Têxtil</span>
+                    <span>N/A</span>
                   </div>
                 </StyledTable>
-                <div>
+                {/* <div>
                   <h3>Observações técnicas</h3>
                   <p>
                     Produto não solta tinta e não desbota. Para limpeza deve ser
@@ -168,7 +168,7 @@ export default class extends Component {
                     confecção de calçados, inclusive vulcanizados, bolsas,
                     mochilas, cintos e acessórios em geral.
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
             <Grafico>
