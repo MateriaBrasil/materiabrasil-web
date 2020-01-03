@@ -1,23 +1,33 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 // import Grid from '@material-ui/core/Grid';
+import Link from 'react-router-dom/Link';
 import { Helmet } from 'react-helmet';
 import checkReloadAndFetch from '../../checkReloadAndFetch';
-import { Link } from 'react-router-dom';
 // import Addresses from '../../addresses/Addresses';
 import InfoCard from './InfoCard';
 import Profile from './Profile';
 import Avatar from '../../imageUpload/Avatar';
+import Breadcrumb from '../../breadcrumb';
+import MaterialsLoop from './MaterialsLoop';
 
 // import Materials from './Materials';
-import { Container, MainContent, Description, Materials } from './style';
+import { Container, MainContent, Materials } from './styles';
+
+import Contact from './Contact';
+import Description from './Description';
 
 class Info extends Component {
   componentDidUpdate(prevProps) {
     checkReloadAndFetch(this.props);
   }
 
+  items = [
+    { to: '/', label: 'Explore' },
+    { to: this.props.location, label: this.props.current.name },
+  ];
+
   render() {
-    const { current } = this.props;
+    const { current, currentUser } = this.props;
     const { id, name, imageUrl } = current;
 
     return (
@@ -26,57 +36,31 @@ class Info extends Component {
           <title>{name}</title>
           <meta property="og:image" content={imageUrl} />
         </Helmet>
+        <div class="breadcrumb-wrapper">
+          <Breadcrumb>
+            {this.items.map(({ to, label }, index) => (
+              <Link key={to} to={to}>
+                {label}{' '}
+                {this.items.length - 1 !== index && (
+                  <span style={{ marginLeft: '10px' }}>></span>
+                )}
+              </Link>
+            ))}
+          </Breadcrumb>
+        </div>
         <div>
           <MainContent>
             <h1>{current.name}</h1>
-            <Avatar
-              name={name}
-              imageUrl="https://image.ibb.co/bPMTky/tecido.jpg"
-            />
-            <div>
-              <Link to="#">Questionários do Fornecedor</Link>
-              <Link to="#">Enviar Mensagem</Link>
-            </div>
+            <Avatar name={name} imageUrl={current.imageUrl} />
+            <Contact current={current} currentUser={currentUser} />
           </MainContent>
 
-          <Description>
-            <div>
-              <h3>Descrição</h3>
-              <p>{current.description}</p>
-            </div>
-
-            <div>
-              <h3>Alcance</h3>
-              <p>{current.reach}</p>
-            </div>
-
-            <div>
-              <h3>Site</h3>
-              <a href={current.website}>{current.website}</a>
-            </div>
-
-            <div>
-              <h3>Email</h3>
-              <p>{current.email}</p>
-            </div>
-
-            <div>
-              <h3>Telefone</h3>
-              <p>{current.phone}</p>
-            </div>
-
-            <div>
-              <h3>Endereço</h3>
-              <p>
-                BR 153, Km 430, Loteamento Jardim Guanabara - 75053-640
-                Anápolis, GO, brasil
-              </p>
-            </div>
-          </Description>
+          <Description {...this.props} />
         </div>
 
         <Materials>
-          <h1>Materials</h1>
+          <h1>Materiais</h1>
+          <MaterialsLoop current={current} />
         </Materials>
 
         {/* <Grid container spacing={32}>

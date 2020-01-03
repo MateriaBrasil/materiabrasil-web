@@ -45,7 +45,6 @@ export default function(props) {
                   state: {
                     category_name: data ? data.name : null,
                     category_slug: data ? data.slug : null,
-                    category_img: data ? data.image_url : null,
                   },
                 }}
                 className="content_img_borda"

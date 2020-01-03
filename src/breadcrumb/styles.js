@@ -4,6 +4,7 @@ export const Container = styled.div`
   max-width: 1000px;
   margin: 0 auto;
   text-align: center;
+  justify-content: center;
   a {
     text-decoration: none;
     color: #414141;
