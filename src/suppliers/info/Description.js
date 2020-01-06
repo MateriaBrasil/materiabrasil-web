@@ -52,8 +52,6 @@ export default function(props) {
 
       <DescriptionItem>
         <h3>Endereço</h3>
-        {console.log(current.addresses)}
-        {console.log(typeof addresses)}
         {typeof addresses === 'object'
           ? addresses && (
               <p>
