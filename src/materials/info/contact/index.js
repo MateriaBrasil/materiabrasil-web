@@ -14,6 +14,7 @@ import {
   Title4,
   Title5,
   StyledLink,
+  StyledButton,
   ContainerLogout,
 } from './styles';
 
@@ -41,6 +42,21 @@ export default function(props) {
     setEmail('');
     setPhone('');
     setMessage('');
+    props.snackbar.actions.setMessage('Mensagem envida com sucesso!');
+  };
+
+  const sendMessage = async function() {
+    const url = window.location.href;
+    const name = currentUser.firstName;
+    const email = currentUser.email;
+    const mail_type = 'automatic_message';
+    const data = {
+      url,
+      name,
+      email,
+      mail_type,
+    };
+    await api.post('/leads', data);
     props.snackbar.actions.setMessage('Mensagem envida com sucesso!');
   };
 
@@ -108,6 +124,9 @@ export default function(props) {
             <button type="submit">{buttonLabel}</button>
           </Form>
         </StyledForm>
+
+        <Title5>Quer suporte para comprar esse material?</Title5>
+        <StyledButton onClick={sendMessage}>Enviar Mensagem</StyledButton>
       </Fragment>
     );
   } else {
@@ -115,9 +134,6 @@ export default function(props) {
       <ContainerLogout>
         <Title5>Contato com o fornecedor deste material</Title5>
         <StyledLink to="/auth/sign-in">Login</StyledLink>
-
-        <Title5>Quer suporte para comprar esse material?</Title5>
-        <StyledLink to="#">Enviar Mensagem</StyledLink>
       </ContainerLogout>
     );
   }

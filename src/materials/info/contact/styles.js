@@ -6,6 +6,7 @@ export const StyledForm = styled.div`
     background: #eaeaea;
     border-radius: 42px;
     padding: 25px;
+    margin-bottom: 40px;
 
     form {
       flex-direction: column;
@@ -73,6 +74,25 @@ export const ContainerLogout = styled.div``;
 
 export const StyledLink = styled(Link)`
   display: inline-block;
+
+  background: #178e9d;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 10px 25px;
+  margin-bottom: 20px;
+
+  &:last-child {
+    background: #eb8000;
+  }
+`;
+
+export const StyledButton = styled.button`
+  display: inline-block;
+  border: none;
+  cursor: pointer;
 
   background: #178e9d;
   color: #fff;
