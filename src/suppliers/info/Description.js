@@ -6,12 +6,20 @@ import { Description, DescriptionItem } from './styles';
 export default function(props) {
   const { current, currentUser } = props;
   const { addresses } = current;
-  const { streetAddress, zipCode, city, state, country } = addresses;
-  const fullAddress =
-    addresses &&
-    `${streetAddress && streetAddress} ${zipCode ? ` - ${zipCode}` : ''}`;
-  let fullCity =
-    addresses && ` ${city && city}, ${state && state}, ${country && country}`;
+  let streetAddress, zipCode, city, state, country;
+  if (addresses) {
+    streetAddress = addresses.streetAddress;
+    zipCode = addresses.zipCode;
+    city = addresses.city;
+    state = addresses.state;
+    country = addresses.country;
+  }
+  const fullAddress = addresses
+    ? `${streetAddress && streetAddress} ${zipCode ? ` - ${zipCode}` : ''}`
+    : null;
+  let fullCity = addresses
+    ? ` ${city && city}, ${state && state}, ${country && country}`
+    : null;
 
   return currentUser ? (
     <Description>
@@ -59,16 +67,14 @@ export default function(props) {
             addresses &&
             current.addresses.map((item, index) => {
               const { streetAddress, zipCode, city, state, country } = item;
-              const fullAddress =
-                addresses &&
-                `${streetAddress}${zipCode ? ` - ${zipCode}` : ''}`;
-              let fullCity = addresses && `${city}, ${state}, ${country}`;
+              const fullAddress = `${streetAddress}${
+                zipCode ? ` - ${zipCode}` : ''
+              }`;
+              let fullCity = `${city}, ${state}, ${country}`;
 
               <p>
                 {fullAddress.includes('null') ? '' : fullAddress}
                 {fullCity.includes('null') ? `${city}, ${state}` : fullCity}
-                {/* BR 153, Km 430, Loteamento Jardim Guanabara - 75053-640 Anápolis,
-            GO, brasil */}
               </p>;
             })}
       </DescriptionItem>
