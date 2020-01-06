@@ -14,9 +14,13 @@ export default function(props) {
   let border_string;
   const { currentUser, categories } = props;
 
-  const { data, fetchMoreData } = props;
+  const { data } = props;
 
   const [per, setPer] = useState(9);
+
+  const fetchMoreData = function() {
+    setPer(per + 9);
+  };
 
   const setData = function(props, categories) {
     const term = encodeURI(props.term);
