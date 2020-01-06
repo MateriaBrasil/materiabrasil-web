@@ -25,7 +25,7 @@ export default props => {
     <Button
       onClick={destroy}
       variant="contained"
-      color="primary"
+      style={{ backgroundColor: '#cb1e4b' }}
       // style={{ marginBottom: 24 }}
     >
       {label}
