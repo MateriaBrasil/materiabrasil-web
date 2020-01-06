@@ -157,7 +157,7 @@ export default withStyles(chartsStyle)(props => {
         </div>
       )}
       <ButtonsContainer {...props} />
-      {true && (
+      {hasAllDrivers && (
         <div className="grafico-help">
           <p>
             Com este gráfico, é possível comparar diversos materiais, basta
