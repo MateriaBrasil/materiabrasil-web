@@ -22,10 +22,8 @@ export default function(props) {
     const term = encodeURI(props.term);
     console.log(term);
     if (term === '') {
-      console.log('a');
       return `/materials?${categories}&per_page=${per}`;
     } else {
-      console.log('b');
       return `/search?term=${term}&${categories}&per_page=${per}`;
     }
   };
