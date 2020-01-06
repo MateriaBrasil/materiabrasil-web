@@ -5,6 +5,10 @@ import { Description, DescriptionItem } from './styles';
 
 export default function(props) {
   const { current, currentUser } = props;
+  const { addresses } = current;
+  const { streetAddress, zipCode, city, state, country } = addresses;
+  const fullAddress = `${streetAddress} ${zipCode ? ` - ${zipCode}` : ''}`;
+  let fullCity = ` ${city}, ${state}, ${country}`;
 
   return currentUser ? (
     <Description>
@@ -37,10 +41,33 @@ export default function(props) {
 
       <DescriptionItem>
         <h3>Endereço</h3>
-        <p>
-          BR 153, Km 430, Loteamento Jardim Guanabara - 75053-640 Anápolis, GO,
-          brasil
-        </p>
+        {console.log(current.addresses)}
+        {console.log(typeof addresses)}
+        {typeof addresses === 'object'
+          ? addresses && (
+              <p>
+                {fullAddress.includes('null') ? '' : fullAddress}
+                {fullCity.includes('null') ? `${city}, ${state}` : fullCity}
+                {/* BR 153, Km 430, Loteamento Jardim Guanabara - 75053-640 Anápolis,
+        GO, brasil */}
+              </p>
+            )
+          : typeof addresses === 'array' &&
+            addresses &&
+            current.addresses.map((item, index) => {
+              const { streetAddress, zipCode, city, state, country } = item;
+              const fullAddress = `${streetAddress}${
+                zipCode ? ` - ${zipCode}` : ''
+              }`;
+              let fullCity = `${city}, ${state}, ${country}`;
+
+              <p>
+                {fullAddress.includes('null') ? '' : fullAddress}
+                {fullCity.includes('null') ? `${city}, ${state}` : fullCity}
+                {/* BR 153, Km 430, Loteamento Jardim Guanabara - 75053-640 Anápolis,
+            GO, brasil */}
+              </p>;
+            })}
       </DescriptionItem>
     </Description>
   ) : (
