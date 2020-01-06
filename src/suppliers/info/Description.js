@@ -7,8 +7,10 @@ export default function(props) {
   const { current, currentUser } = props;
   const { addresses } = current;
   const { streetAddress, zipCode, city, state, country } = addresses;
-  const fullAddress = `${streetAddress} ${zipCode ? ` - ${zipCode}` : ''}`;
-  let fullCity = ` ${city}, ${state}, ${country}`;
+  const fullAddress = `${streetAddress && streetAddress} ${
+    zipCode ? ` - ${zipCode}` : ''
+  }`;
+  let fullCity = ` ${city && city}, ${state && state}, ${country && country}`;
 
   return currentUser ? (
     <Description>
