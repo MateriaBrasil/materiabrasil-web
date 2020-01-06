@@ -73,7 +73,7 @@ export const Grafico = styled.div`
   }
 
   p {
-    text-align: justify;
+    text-align: left;
   }
 
   .grafico-help {

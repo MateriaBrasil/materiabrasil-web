@@ -34,7 +34,7 @@ export const Header = styled.div`
     text-align: center;
     p {
       margin: 0 auto;
-      max-width: 1280px;
+      max-width: 1000px;
     }
   }
 
