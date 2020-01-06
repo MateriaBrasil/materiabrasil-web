@@ -79,6 +79,7 @@ export const Grafico = styled.div`
   .grafico-help {
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 
     a {
       font-size: 20px;
