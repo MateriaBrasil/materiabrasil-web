@@ -54,7 +54,7 @@ export const MaterialSingle = styled.div`
   }
 
   @media (min-width: 1024px) {
-    min-height: 397px;
+    min-height: 420px;
   }
 
   padding: 25px 5px;
