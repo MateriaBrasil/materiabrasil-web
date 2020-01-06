@@ -7,10 +7,11 @@ export default function(props) {
   const { current, currentUser } = props;
   const { addresses } = current;
   const { streetAddress, zipCode, city, state, country } = addresses;
-  const fullAddress = `${streetAddress && streetAddress} ${
-    zipCode ? ` - ${zipCode}` : ''
-  }`;
-  let fullCity = ` ${city && city}, ${state && state}, ${country && country}`;
+  const fullAddress =
+    addresses &&
+    `${streetAddress && streetAddress} ${zipCode ? ` - ${zipCode}` : ''}`;
+  let fullCity =
+    addresses && ` ${city && city}, ${state && state}, ${country && country}`;
 
   return currentUser ? (
     <Description>
@@ -58,10 +59,10 @@ export default function(props) {
             addresses &&
             current.addresses.map((item, index) => {
               const { streetAddress, zipCode, city, state, country } = item;
-              const fullAddress = `${streetAddress}${
-                zipCode ? ` - ${zipCode}` : ''
-              }`;
-              let fullCity = `${city}, ${state}, ${country}`;
+              const fullAddress =
+                addresses &&
+                `${streetAddress}${zipCode ? ` - ${zipCode}` : ''}`;
+              let fullCity = addresses && `${city}, ${state}, ${country}`;
 
               <p>
                 {fullAddress.includes('null') ? '' : fullAddress}
