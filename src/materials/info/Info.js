@@ -43,6 +43,13 @@ export default class extends Component {
     const { suppliers } = currentUser || {};
     let items;
 
+    const available_on_mkt = current.categories.find(
+      x => x.name === 'Disponível no mercado',
+    );
+    const development = current.categories.find(
+      x => x.name === 'Em desenvolvimento',
+    );
+
     items = [
       { to: '/', label: 'Explore' },
       { to: this.props.location.pathname, label: this.props.current.name },
@@ -188,7 +195,9 @@ export default class extends Component {
                 {current.availability && (
                   <div>
                     <h3>Disponibilidade</h3>
-                    <p>{current.availability}</p>
+                    {console.log(this.props)}
+                    <p>{available_on_mkt && available_on_mkt.name}</p>
+                    <p>{development && development.name}</p>
                   </div>
                 )}
 
