@@ -45,7 +45,12 @@ export default function renderCategorySingle(props) {
         </Breadcrumb>
 
         <Container>
-          <MaterialsLoop {...props} categories={categories} data={data} />
+          <MaterialsLoop
+            term={''}
+            {...props}
+            categories={categories}
+            data={data}
+          />
         </Container>
       </div>
 

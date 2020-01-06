@@ -14,20 +14,19 @@ export default function(props) {
   let border_string;
   const { currentUser, categories } = props;
 
-  const { data } = props;
+  const { data, fetchMoreData } = props;
 
   const [per, setPer] = useState(9);
-  const fetchMoreData = function() {
-    setPer(per + 9);
-  };
 
   const setData = function(props, categories) {
     const term = encodeURI(props.term);
-
-    if (props.term) {
-      return `/search?term=${term}&${categories}&per_page=${per}`;
-    } else {
+    console.log(term);
+    if (term === '') {
+      console.log('a');
       return `/materials?${categories}&per_page=${per}`;
+    } else {
+      console.log('b');
+      return `/search?term=${term}&${categories}&per_page=${per}`;
     }
   };
 

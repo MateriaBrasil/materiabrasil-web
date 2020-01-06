@@ -8,7 +8,7 @@ import Materials from '../explorer/render';
 import Contact from '../contact/render';
 
 export default props => {
-  const [term, setTerm] = useState(null);
+  const [term, setTerm] = useState('');
 
   function handleSubmit(data) {
     setTerm(data.material);
