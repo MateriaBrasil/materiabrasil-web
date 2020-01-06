@@ -88,10 +88,25 @@ export const Grafico = styled.div`
       color: #fff;
       font-weight: bold;
       text-decoration: none;
+      @media screen and (max-width: 768px) {
+        margin-right: auto;
+      }
     }
 
     p {
       width: 60%;
+      margin-right: 20px;
+
+      @media screen and (max-width: 768px) {
+        text-align: left;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
     }
   }
 `;
