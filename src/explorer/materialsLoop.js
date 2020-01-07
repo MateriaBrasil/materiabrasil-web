@@ -24,7 +24,6 @@ export default function(props) {
 
   const setData = function(props, categories) {
     const term = encodeURI(props.term);
-    console.log(term);
     if (term === '') {
       return `/materials?${categories}&per_page=${per}`;
     } else {

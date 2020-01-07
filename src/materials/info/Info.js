@@ -51,7 +51,6 @@ export default class extends Component {
     );
 
     const disponivel = available_on_mkt || development ? true : false;
-    console.log(disponivel);
 
     items = [
       { to: '/', label: 'Explore' },
@@ -198,7 +197,6 @@ export default class extends Component {
                 {disponivel && (
                   <div>
                     <h3>Disponibilidade</h3>
-                    {console.log(this.props)}
                     <p>{available_on_mkt && available_on_mkt.name}</p>
                     <p>{development && development.name}</p>
                   </div>
