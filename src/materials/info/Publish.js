@@ -4,7 +4,7 @@ import Switch from '@material-ui/core/Switch';
 import { Edit } from 'croods';
 
 export default props => {
-  const has_img = props.listImageUrl;
+  const has_img = props.current.listImageUrl;
 
   function handlePublishMessage() {
     if (props.info.published === true) {
