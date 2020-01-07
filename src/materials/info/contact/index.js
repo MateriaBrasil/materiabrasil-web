@@ -7,6 +7,7 @@ import ReactGA from 'react-ga';
 import TechnicalSpecificationUpload from '../TechnicalSpecificationUpload';
 import CertificationsUpload from '../CertificationsUpload';
 import DeleteButton from '../DeleteButton';
+import Publish from '../Publish';
 
 import {
   Editable,
@@ -64,6 +65,7 @@ export default function(props) {
     return (
       <Editable>
         <br />
+        <Publish {...props} />
         <Link to={`/materials/${slug}/edit`}>Editar informações gerais</Link>
         <Link to={`/materials/${slug}/categories`}>
           Editar informações técnicas

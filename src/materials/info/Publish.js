@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Switch from '@material-ui/core/Switch';
 import { Edit } from 'croods';
@@ -59,7 +59,7 @@ export default props => {
   notCompletedMessage += 'para poder tornar seu material visível.';
 
   return (
-    <Fragment>
+    <div>
       {!publishable && (
         <Typography variant="body1" style={{ marginBottom: 5 }}>
           {notCompletedMessage}
@@ -87,6 +87,6 @@ export default props => {
           renderUpdated={() => null}
         />
       </Typography>
-    </Fragment>
+    </div>
   );
 };
