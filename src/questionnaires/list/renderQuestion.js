@@ -35,7 +35,7 @@ const HelperText = ({ helperText }) => {
       <Media query="(min-width: 991px)">
         {matches =>
           matches ? (
-            <ClickAwayListener>
+            <ClickAwayListener onClickAway={() => {}}>
               <Tooltip
                 PopperProps={{
                   disablePortal: true,

@@ -1,9 +1,9 @@
-import React from 'react'
-import { List } from 'croods'
-import renderList from './list/render'
+import React from 'react';
+import { List } from 'croods';
+import renderList from './list/render';
 
 export default props => routeProps => {
-  const { id } = routeProps.match.params
+  const { id } = routeProps.match.params;
 
   return (
     <List
@@ -12,5 +12,5 @@ export default props => routeProps => {
       path={`/questionnaires?about_type=${props.aboutType}&about_id=${id}`}
       render={renderList({ ...props, ...routeProps })}
     />
-  )
-}
+  );
+};

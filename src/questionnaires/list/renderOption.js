@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Radio from '@material-ui/core/Radio';
 import find from 'lodash/find';
@@ -11,7 +11,6 @@ export default (props, question) => option => {
   const aboutId = props.match.params.id.toString();
   const supplier = get(props, 'currentUser.suppliers[0]', {});
   const id = get(supplier, 'id', '0').toString();
-
   let editable = false;
 
   if (props.aboutType === 'Supplier') {
@@ -36,7 +35,7 @@ export default (props, question) => option => {
       disabled={!editable}
       onChange={createWithParams({
         create: props.create,
-        aboutId: id,
+        aboutId: aboutId,
         aboutType: props.aboutType,
         optionId: option.id,
         questionId: question.id,
