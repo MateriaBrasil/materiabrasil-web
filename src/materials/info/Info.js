@@ -50,6 +50,9 @@ export default class extends Component {
       x => x.name === 'Em desenvolvimento',
     );
 
+    const disponivel = available_on_mkt || development ? true : false;
+    console.log(disponivel);
+
     items = [
       { to: '/', label: 'Explore' },
       { to: this.props.location.pathname, label: this.props.current.name },
@@ -192,7 +195,7 @@ export default class extends Component {
                 <Drivers {...this.props} {...current} />
               </StyledGrafico>
               <Location>
-                {current.availability && (
+                {disponivel && (
                   <div>
                     <h3>Disponibilidade</h3>
                     {console.log(this.props)}
