@@ -36,7 +36,10 @@ export default props => {
   }
 
   const publishable =
-    has_img && generalInfo && props.category && props.questionnairesCompleted;
+    has_img &&
+    generalInfo &&
+    props.current.category &&
+    props.current.questionnairesCompleted;
 
   let notCompletedMessage = 'Você precisa preencher ';
 
@@ -47,19 +50,20 @@ export default props => {
   if (!generalInfo) {
     notCompletedMessage += 'as informações gerais, ';
   }
-
-  if (!props.category && !props.categoryFilled[props.match.params.id]) {
+  console.log(props);
+  console.log(props.category);
+  if (!props.current.category && !props.current.categories[props.current.id]) {
     notCompletedMessage += 'as informações técnicas, ';
   }
 
-  if (!props.questionnairesCompleted) {
+  if (!props.current.questionnairesCompleted) {
     notCompletedMessage += 'o questionário, ';
   }
 
   notCompletedMessage += 'para poder tornar seu material visível.';
 
   return (
-    <div>
+    <div style={{ width: '100%' }}>
       {!publishable && (
         <Typography variant="body1" style={{ marginBottom: 5 }}>
           {notCompletedMessage}
