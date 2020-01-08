@@ -23,10 +23,10 @@ import {
   StyledGrafico,
   SubContent,
   Location,
-  StyledTable,
 } from './styles';
 
 import Contact from './contact';
+import Table from './table';
 
 import Breadcrumb from '../../breadcrumb';
 import Drivers from './Drivers';
@@ -128,47 +128,7 @@ export default class extends Component {
               </SubContent>
               <div>
                 <h3>Características</h3>
-                <StyledTable>
-                  {/* <div>
-                    <span>Uso</span>
-                    <span>Têxtil</span>
-                  </div>
-
-                  <div>
-                    <span>Forma</span>
-                    <span>Têxtil</span>
-                  </div>
-
-                  <div>
-                    <span>Visuais</span>
-                    <span>Têxtil</span>
-                  </div>
-
-                  <div>
-                    <span>Tátei</span>
-                    <span>Têxtil</span>
-                  </div>
-
-                  <div>
-                    <span>Resistente a</span>
-                    <span>Têxtil</span>
-                  </div>
-
-                  <div>
-                    <span>Processabilidade</span>
-                    <span>Têxtil</span>
-                  </div> */}
-
-                  <div>
-                    <span>Densidade/gramatura</span>
-                    <span>{current.density ? current.density : `N/A`}</span>
-                  </div>
-
-                  <div>
-                    <span>Anexo 1</span>
-                    <span>N/A</span>
-                  </div>
-                </StyledTable>
+                <Table {...this.props} />
                 {/* <div>
                   <h3>Observações técnicas</h3>
                   <p>

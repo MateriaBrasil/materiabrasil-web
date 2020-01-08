@@ -36,7 +36,7 @@ class Info extends Component {
           <title>{name}</title>
           <meta property="og:image" content={imageUrl} />
         </Helmet>
-        <div class="breadcrumb-wrapper">
+        <div className="breadcrumb-wrapper">
           <Breadcrumb>
             {this.items.map(({ to, label }, index) => (
               <Link key={to} to={to}>
