@@ -50,8 +50,7 @@ export default props => {
   if (!generalInfo) {
     notCompletedMessage += 'as informações gerais, ';
   }
-  console.log(props);
-  console.log(props.category);
+
   if (!props.current.category && !props.current.categories[props.current.id]) {
     notCompletedMessage += 'as informações técnicas, ';
   }
