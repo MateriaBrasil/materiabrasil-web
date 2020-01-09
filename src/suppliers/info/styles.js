@@ -29,12 +29,20 @@ export const Container = styled.div`
     @media screen and (max-width: 768px) {
       flex-direction: column;
     }
+
+    @media screen and (min-width: 1024px) {
+      margin-top: 60px;
+    }
   }
 `;
 
 export const DescriptionItem = styled.div`
   h3 {
     font-size: 24px;
+  }
+
+  p {
+    line-height: 24px;
   }
 
   margin-bottom: 20px;
@@ -97,6 +105,10 @@ export const MainContent = styled.div`
     margin-bottom: 20px;
   }
 
+  & > img {
+    max-width: 80% !important;
+  }
+
   @media screen and (max-width: 768px) {
     width: 90%;
     margin: 0 auto;
@@ -105,6 +117,7 @@ export const MainContent = styled.div`
 
 export const Description = styled.div`
   width: 55%;
+  margin-top: 40px;
   @media screen and (max-width: 768px) {
     width: 90%;
     margin: 0 auto;

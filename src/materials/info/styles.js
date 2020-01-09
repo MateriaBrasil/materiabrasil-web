@@ -2,6 +2,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   max-width: 1280px;
   margin: 20px auto 0;
+
   font-family: 'Open Sans', sans-serif;
   color: #414141;
 
@@ -29,14 +30,19 @@ export const Container = styled.div`
     display: inline-block;
     text-decoration: none;
   }
+
+  @media screen and (min-width: 1024px) and (max-width: 1366px) {
+    padding: 0 10vh;
+  }
 `;
 export const MainContent = styled.div`
   && {
     display: flex;
     padding-bottom: 40px;
-    margin-top: 20px;
+    margin-top: 60px;
     div.block-img {
       h1 {
+        font-size: 36px;
         margin-bottom: 10px;
       }
 
@@ -69,11 +75,12 @@ export const Grafico = styled.div`
 
   h2 {
     font-weight: 600;
-    font-size: 30px;
+    font-size: 28px;
   }
 
   p {
     text-align: left;
+    line-height: 24px;
   }
 
   .grafico-help {
@@ -82,7 +89,7 @@ export const Grafico = styled.div`
     margin-bottom: 20px;
 
     a {
-      font-size: 20px;
+      font-size: 18px;
       background: #178e9d;
       padding: 10px 20px;
       border-radius: 10px;

@@ -14,7 +14,7 @@ import borda_8 from './bordas/borda_8.png';
 import borda_9 from './bordas/borda_9.png';
 
 export const Container = styled.div`
-  margin: 40px auto;
+  margin: 80px auto;
   display: flex;
   flex-direction: column;
   max-width: 1280px;
@@ -57,15 +57,15 @@ export const MaterialSingle = styled.div`
     min-height: 420px;
   }
 
-  padding: 25px 5px;
+  /* padding: 0 5px 15px; */
 
   &:nth-of-type(1n) > .content_img_borda .borda {
     background: url(${borda_1});
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 88%;
-    height: 87%;
+    width: 92%;
+    height: 90%;
   }
 
   &:nth-of-type(2n) > .content_img_borda .borda {
@@ -73,8 +73,8 @@ export const MaterialSingle = styled.div`
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 87%;
-    height: 76%;
+    width: 90%;
+    height: 80%;
   }
 
   &:nth-of-type(3n) > .content_img_borda .borda {
@@ -82,8 +82,8 @@ export const MaterialSingle = styled.div`
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 88%;
-    height: 80%;
+    width: 92%;
+    height: 84%;
     bottom: 40px;
   }
 
@@ -92,7 +92,7 @@ export const MaterialSingle = styled.div`
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 86%;
+    width: 90%;
     height: 100%;
   }
 
@@ -101,7 +101,7 @@ export const MaterialSingle = styled.div`
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 90%;
+    width: 94%;
     height: 100%;
     right: 21px;
   }
@@ -112,7 +112,7 @@ export const MaterialSingle = styled.div`
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-    height: 86%;
+    height: 90%;
     right: 13px;
   }
 
@@ -121,9 +121,9 @@ export const MaterialSingle = styled.div`
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 90%;
+    width: 94%;
     left: 10px;
-    height: 86%;
+    height: 90%;
   }
 
   &:nth-of-type(8n) > .content_img_borda .borda {
@@ -131,7 +131,7 @@ export const MaterialSingle = styled.div`
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 86%;
+    width: 90%;
     height: 100%;
   }
 
@@ -140,8 +140,8 @@ export const MaterialSingle = styled.div`
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 86%;
-    height: 82%;
+    width: 90%;
+    height: 86%;
     left: 17px;
   }
 
@@ -165,7 +165,7 @@ export const MaterialSingle = styled.div`
     border-radius: 12px;
     background-image: url(${props => props.item.listImageUrl});
     background-size: cover;
-    width: 80%;
+    width: 90%;
     height: 180px;
   }
 
