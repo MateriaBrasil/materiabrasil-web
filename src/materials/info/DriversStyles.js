@@ -34,6 +34,7 @@ export const ButtonsContainer = styled.div`
       font-size: 17px;
       text-align: center;
       width: 100%;
+      margin-right: 0;
     }
   }
 `;
