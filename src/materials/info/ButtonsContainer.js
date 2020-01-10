@@ -46,7 +46,7 @@ export default function(props) {
   return (
     <ButtonsContainer>
       <Link onClick={gaFornecedorEvent} to={supplier_questionnaire_path}>
-        questionario fornecedor
+        Questionários do fornecedor
       </Link>
       {/* <AnswerQuestionnaire
         currentUser={currentUser ? currentUser : ''}
@@ -57,7 +57,7 @@ export default function(props) {
         style={{}}
       /> */}
       <Link onClick={gaFornecedorEvent} to={material_questionnaire_path}>
-        questionario material
+        Questionários do material
       </Link>
       {/* <EditButton
         {...props}
