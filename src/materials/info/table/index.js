@@ -65,7 +65,7 @@ export default function(props) {
         <span>Têxtil</span>
       </StyledRow> */}
 
-      <StyledRow expanded={false}>
+      {/* <StyledRow expanded={false}>
         <span>Forma</span>
         <span className="row-content">
           {forma &&
@@ -104,7 +104,7 @@ export default function(props) {
                 index === resistente.length - 1 ? `${r}` : `${r}, `,
             )}
         </span>
-      </StyledRow>
+      </StyledRow> */}
 
       {/* <StyledRow>
         <span>Processabilidade</span>
@@ -116,10 +116,10 @@ export default function(props) {
         <span>{current.density ? current.density : `N/A`}</span>
       </StyledRow>
 
-      {/* <StyledRow>
+      <StyledRow>
         <span>Anexo 1</span>
         <span>N/A</span>
-      </StyledRow> */}
+      </StyledRow>
     </StyledTable>
   );
 }
