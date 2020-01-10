@@ -9,7 +9,6 @@ import { api } from '../../../services/axios';
 export default function(props) {
   const { current } = props;
   const { categories } = current;
-  console.log(props);
 
   useEffect(() => {
     getAllCategories();
