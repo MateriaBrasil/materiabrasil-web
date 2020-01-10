@@ -75,7 +75,7 @@ export const Grafico = styled.div`
 
   h2 {
     font-weight: 600;
-    font-size: 28px;
+    font-size: 25px;
   }
 
   p {
