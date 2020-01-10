@@ -21,7 +21,7 @@ const whitelist = [
   'prizes',
   'density',
   'dimensions',
-  'state',
+  // 'state',
 ];
 
 export default update => params => {

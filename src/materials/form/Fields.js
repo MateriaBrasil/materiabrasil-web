@@ -93,7 +93,7 @@ export default () => (
       placeholder="Dimensões"
       type="text"
     />
-    <SelectField
+    {/* <SelectField
       name="state"
       label="Local da fabricação"
       options={[
@@ -126,6 +126,6 @@ export default () => (
         { value: 'TO', label: 'Tocantins' },
       ]}
       validate={[required()]}
-    />
+    /> */}
   </Fragment>
 );

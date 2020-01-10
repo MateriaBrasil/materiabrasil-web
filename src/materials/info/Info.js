@@ -43,14 +43,8 @@ export default class extends Component {
     const { suppliers } = currentUser || {};
     let items;
 
-    const available_on_mkt = current.categories.find(
-      x => x.name === 'Disponível no mercado',
-    );
-    const development = current.categories.find(
-      x => x.name === 'Em desenvolvimento',
-    );
-
-    const disponivel = available_on_mkt || development ? true : false;
+    const disponvivel_mkt = current.categories.find(x => x.parentId === 315);
+    const local_de_producao = current.categories.find(x => x.parentId === 286);
 
     items = [
       { to: '/', label: 'Explore' },
@@ -154,18 +148,17 @@ export default class extends Component {
                 <Drivers {...this.props} {...current} />
               </StyledGrafico>
               <Location>
-                {disponivel && (
+                {disponvivel_mkt && (
                   <div>
                     <h3>Disponibilidade</h3>
-                    <p>{available_on_mkt && available_on_mkt.name}</p>
-                    <p>{development && development.name}</p>
+                    <p>{disponvivel_mkt.name}</p>
                   </div>
                 )}
 
-                {current.state && (
+                {local_de_producao && (
                   <div>
                     <h3>Local de produção</h3>
-                    <p>{current.state}</p>
+                    <p>{local_de_producao.name}</p>
                   </div>
                 )}
               </Location>
