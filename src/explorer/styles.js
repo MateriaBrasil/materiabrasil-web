@@ -18,6 +18,10 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   max-width: 1280px;
+
+  @media screen and (max-width: 1281px) and (min-width: 1279px) {
+    width: 94%;
+  }
 `;
 
 export const MaterialsContainer = styled.div`
@@ -55,6 +59,10 @@ export const MaterialSingle = styled.div`
 
   @media (min-width: 1024px) {
     min-height: 420px;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1281px) {
+    min-width: 275px;
   }
 
   /* padding: 0 5px 15px; */
