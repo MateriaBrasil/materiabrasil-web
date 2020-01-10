@@ -26,8 +26,8 @@ export const StyledTable = styled.div`
 `;
 
 export const StyledRow = styled.div`
-  .row-content {
+  /* .row-content {
     max-height: 80px;
     overflow-y: auto;
-  }
+  } */
 `;
