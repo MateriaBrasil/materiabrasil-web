@@ -10,11 +10,6 @@ export default function(props) {
   const resistente = current.categories.filter(x => x.parentId === 257);
   const forma = current.categories.filter(x => x.parentId === 265);
 
-  console.log(visuais);
-  console.log(tateis);
-  console.log(resistente);
-  console.log(forma);
-
   return (
     <StyledTable>
       {/* <StyledRow>
