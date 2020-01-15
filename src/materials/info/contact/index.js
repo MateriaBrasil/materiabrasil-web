@@ -30,7 +30,23 @@ export default function(props) {
 
   const handleSubmit = async function(data) {
     setButtonLabel('Enviando');
-    await api.post('/leads', data);
+    const { name, phone, email, message } = data;
+    const text = `mensagem: ${message}, email: ${email}, telefone: ${phone}`;
+    const formatted_data = {
+      name,
+      phone,
+      email,
+      text,
+      msg: message,
+      mail_type: 'supplier',
+      supplier_id: current.supplierId,
+      from_type: 'User',
+      to_type: 'Supplier',
+      from_id: currentUser.id,
+      to_id: current.supplierId,
+    };
+
+    await api.post('/leads', formatted_data);
     setButtonLabel('Enviar');
 
     ReactGA.event({
@@ -87,12 +103,6 @@ export default function(props) {
             </Link>
 
             <Title4>Escreva sua mensagem</Title4>
-            <Input
-              type="hidden"
-              value={current.supplierId}
-              name="supplier_id"
-            />
-            <Input type="hidden" value="supplier" name="mail_type" />
             <Input
               type="text"
               name="name"
