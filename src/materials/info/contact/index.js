@@ -113,6 +113,7 @@ export default function(props) {
             <Input
               type="text"
               name="phone"
+              maxLength="11"
               placeholder="Telefone*"
               value={phone}
               onChange={e => setPhone(e.target.value)}
@@ -128,7 +129,6 @@ export default function(props) {
               type="text"
               multiline
               name="message"
-              maxLength="11"
               placeholder="Sua Mensagem"
               value={message}
               onChange={e => setMessage(e.target.value)}
