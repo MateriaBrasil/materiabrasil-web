@@ -17,6 +17,11 @@ export default class extends Component {
       action: 'Submit',
     });
 
+    // Event snippet for Cadastro Fornecedor | Ads conversion page
+    window.gtag('event', 'conversion', {
+      send_to: 'AW-673796549/czMCCKqOuroBEMWjpcEC',
+    });
+
     snackbar.actions.setMessage('Fornecedor cadastrado com sucesso');
   }
 
