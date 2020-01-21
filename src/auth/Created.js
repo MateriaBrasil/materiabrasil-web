@@ -17,6 +17,11 @@ export default class extends Component {
         category: 'Cadastro Usuário',
         action: 'Submit',
       });
+
+      // Event snippet for Cadastro Usuário | Ads conversion page
+      window.gtag('event', 'conversion', {
+        send_to: 'AW-673796549/uz0DCLOkyboBEMWjpcEC',
+      });
     }
 
     setCurrentUser(created);
