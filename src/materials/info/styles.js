@@ -74,7 +74,7 @@ export const Grafico = styled.div`
   margin-left: auto;
 
   h2 {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 25px;
   }
 
@@ -147,8 +147,10 @@ export const Categories = styled.div`
   a.primary-button {
     margin-right: 10px;
     margin-bottom: 10px;
-    font-weight: lighter;
     font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 10px;
   }
 `;
 

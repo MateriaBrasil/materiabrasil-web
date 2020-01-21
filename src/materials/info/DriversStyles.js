@@ -17,8 +17,8 @@ export const ButtonsContainer = styled.div`
     text-decoration: none;
 
     background: #eb8000;
-    padding: 10px 24px;
-    border-radius: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
 
     &:last-child {
       background: #cb1e4b;
