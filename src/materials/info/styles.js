@@ -21,6 +21,7 @@ export const Container = styled.div`
   }
 
   .primary-button {
+    font-family: 'Gotham Rounded', sans-serif !important;
     background: #1791a0;
     padding: 8.5px;
     color: #fff;
