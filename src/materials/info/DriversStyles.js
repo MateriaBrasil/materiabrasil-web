@@ -11,13 +11,13 @@ export const ButtonsContainer = styled.div`
     margin-right: 20px;
     cursor: pointer;
     font-family: 'Gotham Rounded', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
     color: #fff;
     text-decoration: none;
 
     background: #eb8000;
-    padding: 10px 20px;
+    padding: 10px 24px;
     border-radius: 15px;
 
     &:last-child {

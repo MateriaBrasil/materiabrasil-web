@@ -54,7 +54,7 @@ export const MainContent = styled.div`
           width: 500px;
         }
       }
-      width: 46%;
+      width: 42%;
     }
 
     @media screen and (max-width: 768px) {
@@ -70,7 +70,7 @@ export const MainContent = styled.div`
 `;
 
 export const Grafico = styled.div`
-  width: 48%;
+  width: 52%;
   margin-left: auto;
 
   h2 {
@@ -147,6 +147,8 @@ export const Categories = styled.div`
   a.primary-button {
     margin-right: 10px;
     margin-bottom: 10px;
+    font-weight: lighter;
+    font-size: 18px;
   }
 `;
 
