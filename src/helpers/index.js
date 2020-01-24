@@ -15,3 +15,12 @@ export function phoneMask(v) {
 export function insert(arr, index, item) {
   arr.splice(index, 0, item);
 }
+
+// export function removeDups(array) {
+//   return array.reduce((result, elem) => {
+//     if (!result.some(e => e.abc_buildingid === element.abc_buildingid)) {
+//       result.push(elem);
+//     }
+//     return result;
+//   }, []);
+// }
