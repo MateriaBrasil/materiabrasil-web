@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
-
+import { addhttp, validURL } from '../../helpers/index';
 import { Description, DescriptionItem } from './styles';
 
 export default function(props) {
@@ -34,10 +34,14 @@ export default function(props) {
       </DescriptionItem>
 
       <DescriptionItem>
-        <h3>Site</h3>
-        <a target="_blank" href={current.website}>
-          {current.website}
-        </a>
+        {validURL(current.website) && (
+          <Fragment>
+            <h3>Site</h3>
+            <a target="_blank" href={addhttp(current.website)}>
+              {current.website}
+            </a>
+          </Fragment>
+        )}
       </DescriptionItem>
 
       <DescriptionItem>
