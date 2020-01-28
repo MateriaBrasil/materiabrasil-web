@@ -38,17 +38,22 @@ export default function(props) {
   useEffect(
     () => {
       async function loadMaterials() {
-        setLoadingCat(true);
-        setPage(1);
-        const response = await api.get(filterCategories(), {
-          params: { page },
-        });
-        setMaterials(response.data);
-        setLoadingMore(false);
-        setLoadingCat(false);
+        try {
+          console.log('trigged cat term');
+          setLoadingMore(true);
+          setPage(1);
+          const response = await api.get(filterCategories());
+
+          setMaterials(response.data);
+          setLoadingMore(false);
+          setLoadingCat(false);
+        } catch (err) {
+          // toast.error('Nenhum aluno foi encontrado');
+        }
       }
 
-      loadMaterials();
+      setTimeout(loadMaterials, 100);
+      console.log(materials);
     },
     [categories, term],
   );
@@ -57,13 +62,15 @@ export default function(props) {
     () => {
       async function loadMaterials() {
         try {
+          console.log('trigged page');
           setLoadingMore(true);
-          const response = await api.get(filterCategories(), {
-            params: { page },
-          });
+          const response = await api.get(filterCategories());
+
+          console.log(response.data);
 
           const newMaterials = [...materials, ...response.data];
           setMaterials(newMaterials);
+          console.log(materials);
           setLoadingMore(false);
           setLoadingCat(false);
         } catch (err) {
@@ -71,7 +78,7 @@ export default function(props) {
         }
       }
 
-      loadMaterials();
+      setTimeout(loadMaterials, 100);
       console.log(materials);
     },
     [page],
