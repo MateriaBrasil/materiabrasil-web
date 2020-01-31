@@ -61,10 +61,8 @@ export default function(props) {
           setLoadingMore(false);
         }
       }
-      console.log(categories);
-      console.log(term);
       loadMaterials();
-      console.log('pagination effect');
+      // console.log('pagination effect');
     },
     [page],
   );
@@ -97,7 +95,7 @@ export default function(props) {
           setLoadingMore(false);
         }
       }
-      console.log(`>>>> ${categories}`);
+      // console.log(`>>>> ${categories}`);
       if (categories !== '' && firstLoad) {
         return;
       } else {
@@ -192,13 +190,13 @@ export default function(props) {
               <div className="content-material-single">
                 <div className="categories-wrapper">
                   {material.categories_has_page.map((categoriesHasPage, i) => (
-                    <Link
-                      to={`/categories/${categoriesHasPage.slug}`}
+                    <a
+                      href={`/categories/${categoriesHasPage.slug}`}
                       className="span_category"
                       key={i}
                     >
                       {categoriesHasPage.name}
-                    </Link>
+                    </a>
                   ))}
                 </div>
                 <div className="icons">
