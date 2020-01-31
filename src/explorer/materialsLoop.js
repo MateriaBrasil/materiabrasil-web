@@ -30,6 +30,8 @@ export default function(props) {
   // pagination
   useEffect(
     () => {
+      setError(null);
+
       async function loadMaterials() {
         try {
           setLoadingMore(true);
@@ -71,6 +73,7 @@ export default function(props) {
   useEffect(
     () => {
       setMaterialsPassed(null);
+      setError(null);
 
       async function loadMaterials() {
         try {
@@ -110,6 +113,7 @@ export default function(props) {
   useEffect(
     () => {
       setMaterialsPassed(null);
+      setError(null);
 
       async function loadMaterials() {
         try {
