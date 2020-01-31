@@ -19,6 +19,7 @@ export default function(props) {
   const { term } = props;
 
   const [materials, setMaterials] = useState([]);
+  const [materialsPassed, setMaterialsPassed] = useState(null);
   const [loadingMore, setLoadingMore] = useState(true);
   const [loadingCat, setLoadingCat] = useState(true);
   const [error, setError] = useState(null);
@@ -29,9 +30,9 @@ export default function(props) {
   function filterCategories() {
     const endcoded_term = encodeURI(props.term);
     if (endcoded_term === '') {
-      return `/materials?${categories}&page=${page}&per_page=9`;
+      return `/materials?${categories}`;
     } else {
-      return `/search?term=${endcoded_term}&${categories}&page=${page}&per_page=9`;
+      return `/search?term=${endcoded_term}&${categories}`;
     }
   }
 
@@ -39,23 +40,41 @@ export default function(props) {
     () => {
       async function loadMaterials() {
         try {
-          console.log('trigged cat term');
+          console.log('triggeg cat term');
+          console.log(filterCategories());
           setLoadingMore(true);
           setPage(1);
-          const response = await api.get(filterCategories());
+          const response = await api.get(filterCategories(), {
+            params: {
+              materials_passed: encodeURI(materialsPassed),
+            },
+          });
 
           setMaterials(response.data);
           setLoadingMore(false);
           setLoadingCat(false);
         } catch (err) {
-          // toast.error('Nenhum aluno foi encontrado');
+          // toast.error('Nenhum material foi encontrado');
         }
       }
 
+      setMaterialsPassed(null);
       setTimeout(loadMaterials, 100);
-      console.log(materials);
     },
     [categories, term],
+  );
+
+  useEffect(
+    () => {
+      const materialsPassedDraft = [];
+
+      materials.forEach(material => {
+        materialsPassedDraft.push(material.id);
+      });
+
+      setMaterialsPassed(materialsPassedDraft);
+    },
+    [materials],
   );
 
   useEffect(
@@ -64,13 +83,14 @@ export default function(props) {
         try {
           console.log('trigged page');
           setLoadingMore(true);
-          const response = await api.get(filterCategories());
-
-          console.log(response.data);
+          const response = await api.get(filterCategories(), {
+            params: {
+              materials_passed: encodeURI(materialsPassed),
+            },
+          });
 
           const newMaterials = [...materials, ...response.data];
           setMaterials(newMaterials);
-          console.log(materials);
           setLoadingMore(false);
           setLoadingCat(false);
         } catch (err) {
@@ -79,7 +99,6 @@ export default function(props) {
       }
 
       setTimeout(loadMaterials, 100);
-      console.log(materials);
     },
     [page],
   );
