@@ -36,6 +36,10 @@ export default class extends Component {
     checkReloadAndFetch(this.props);
   }
 
+  componentDidMount() {
+    console.log(this.props);
+  }
+
   render() {
     const { current, currentUser } = this.props;
 

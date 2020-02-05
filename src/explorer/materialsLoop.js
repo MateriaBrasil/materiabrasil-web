@@ -10,6 +10,8 @@ import download from './download.png';
 import favorites from './favorites.png';
 import Loading from '../Loading';
 
+import Drivers from '../materials/info/Drivers';
+
 import { api } from '../services/axios';
 
 export default function(props) {
@@ -112,6 +114,7 @@ export default function(props) {
   // search
   useEffect(
     () => {
+      console.log(props);
       setMaterialsPassed(null);
       setError(null);
 
@@ -187,7 +190,11 @@ export default function(props) {
                       : material.list_image_url
                   })`,
                 }}
-              />
+              >
+                {material.questionnaires_completed && (
+                  <Drivers current={material} loop />
+                )}
+              </div>
             </Link>
             <div className="content_loop">
               <StyledTypography variant="h4">{material.name}</StyledTypography>
