@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import get from 'lodash/get';
+
 // import Grid from '@material-ui/core/Grid';
 import Link from 'react-router-dom/Link';
 import { Helmet } from 'react-helmet';
@@ -28,7 +30,15 @@ class Info extends Component {
 
   render() {
     const { current, currentUser } = this.props;
-    const { id, name, imageUrl } = current;
+    const { userId, id, name, imageUrl } = current;
+
+    let editPath = '';
+    if (
+      get(currentUser, 'admin', false) ||
+      get(currentUser, 'id', 0) === userId
+    ) {
+      editPath = `/suppliers/${id}/avatar`;
+    }
 
     return (
       <Container>
@@ -51,7 +61,11 @@ class Info extends Component {
         <div>
           <MainContent>
             <h1>{current.name}</h1>
-            <Avatar name={name} imageUrl={current.imageUrl} />
+            <Avatar
+              name={name}
+              editPath={editPath}
+              imageUrl={current.imageUrl}
+            />
             <Contact current={current} currentUser={currentUser} />
           </MainContent>
 
