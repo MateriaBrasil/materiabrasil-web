@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import Redirect from 'react-router-dom/Redirect';
+
 import Link from 'react-router-dom/Link';
 import {
   MaterialsList,
@@ -10,7 +12,7 @@ import download from './download.png';
 import favorites from './favorites.png';
 import Loading from '../Loading';
 
-import Drivers from '../materials/info/Drivers';
+import addComparison from '../materials/info/addComparison';
 
 import { api } from '../services/axios';
 
@@ -66,6 +68,10 @@ export default function(props) {
         }
       }
       loadMaterials();
+
+      console.log('ccccc');
+      console.log(props);
+      console.log('aaaaa');
       // console.log('pagination effect');
     },
     [page],
@@ -192,7 +198,17 @@ export default function(props) {
                 }}
               >
                 {material.questionnaires_completed && (
-                  <Drivers current={material} loop />
+                  <button
+                    onClick={e => {
+                      e.preventDefault();
+                      props.comparison.actions.add(props.current);
+                      <Redirect to={`/materials/${material.slug}`} />;
+
+                      console.log('chegou aq');
+                    }}
+                  >
+                    comparar
+                  </button>
                 )}
               </div>
             </Link>

@@ -37,7 +37,9 @@ export default class extends Component {
   }
 
   componentDidMount() {
+    console.log('ccccc');
     console.log(this.props);
+    console.log('aaaaa');
   }
 
   render() {

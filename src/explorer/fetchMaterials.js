@@ -6,13 +6,18 @@ import { MaterialsContainer } from './styles';
 import './reset.css';
 
 export default function(props) {
+  const { comparison } = props;
   return (
     <div className="home_page_explore">
       <Filters
         {...props}
         render={({ categories }) => (
           <MaterialsContainer>
-            <MaterialsLoop term={props.term} categories={categories} />{' '}
+            <MaterialsLoop
+              term={props.term}
+              categories={categories}
+              comparison={comparison}
+            />{' '}
           </MaterialsContainer>
         )}
       />
