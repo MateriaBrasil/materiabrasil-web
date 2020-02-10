@@ -1,13 +1,13 @@
-import React from 'react'
-import Button from '@material-ui/core/Button'
-import Icon from '@material-ui/icons/ExpandMore'
-import Drawer from '@material-ui/core/Drawer'
-import Paper from '@material-ui/core/Paper'
-import Grid from '@material-ui/core/Grid'
-import map from 'lodash/map'
-import reduce from 'lodash/reduce'
-import get from 'lodash/get'
-import { withStyles } from '@material-ui/core/styles'
+import React from 'react';
+import Button from '@material-ui/core/Button';
+import Icon from '@material-ui/icons/ExpandMore';
+import Drawer from '@material-ui/core/Drawer';
+import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
+import map from 'lodash/map';
+import reduce from 'lodash/reduce';
+import get from 'lodash/get';
+import { withStyles } from '@material-ui/core/styles';
 import {
   Radar,
   RadarChart,
@@ -16,15 +16,15 @@ import {
   PolarRadiusAxis,
   Legend,
   ResponsiveContainer,
-} from 'recharts'
+} from 'recharts';
 
-import ChipsContainer from './ChipsContainer'
-import Colors from './Colors'
-import drivers from '../drivers'
-import chartsStyle from '../chartsStyle'
+import ChipsContainer from './ChipsContainer';
+import Colors from './Colors';
+import drivers from '../drivers';
+import chartsStyle from '../chartsStyle';
 
 export default withStyles(chartsStyle)(
-  ({ list, classes, actions: { close, remove } }) => {
+  ({ goHome, list, classes, actions: { close, remove } }) => {
     const data = map(drivers, (driver, index) =>
       reduce(
         list,
@@ -34,7 +34,7 @@ export default withStyles(chartsStyle)(
         }),
         { subject: driver.name },
       ),
-    )
+    );
 
     return (
       <Drawer open anchor="bottom" onClose={close}>
@@ -82,10 +82,10 @@ export default withStyles(chartsStyle)(
                 </RadarChart>
               </ResponsiveContainer>
             </Grid>
-            <ChipsContainer list={list} remove={remove} />
+            <ChipsContainer goHome={goHome} list={list} remove={remove} />
           </Grid>
         </Paper>
       </Drawer>
-    )
+    );
   },
-)
+);

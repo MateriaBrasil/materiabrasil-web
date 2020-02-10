@@ -1,10 +1,18 @@
-import React from 'react'
-
-import Chart from './Chart'
-import OpenButton from './OpenButton'
+import React from 'react';
+import { useHistory } from 'react-router-dom';
+import Chart from './Chart';
+import OpenButton from './OpenButton';
 
 export default props => {
-  const { open, actions } = props
+  let history = useHistory();
+  const { open, actions } = props;
+  console.log(props);
+  function goHome() {
+    history.push('/');
+  }
+
+  console.log(props);
+  console.log('widget');
 
   return (
     <div
@@ -15,7 +23,11 @@ export default props => {
         zIndex: 1000,
       }}
     >
-      {open ? <Chart {...props} /> : <OpenButton onClick={actions.open} />}
+      {open ? (
+        <Chart {...props} goHome={goHome} />
+      ) : (
+        <OpenButton onClick={actions.open} />
+      )}
     </div>
-  )
-}
+  );
+};

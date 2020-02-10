@@ -1,24 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import Redirect from 'react-router-dom/Redirect';
 
-import Link from 'react-router-dom/Link';
-import {
-  MaterialsList,
-  MaterialSingle,
-  StyledTypography,
-  StyledButton,
-} from './styles';
-import download from './download.png';
-import favorites from './favorites.png';
+import { MaterialsList, StyledButton } from './styles';
+import MaterialSingle from './MaterialSingle';
+
 import Loading from '../Loading';
-
-import addComparison from '../materials/info/addComparison';
 
 import { api } from '../services/axios';
 
 export default function(props) {
   const { data } = props;
-  let border_string;
   const { currentUser, categories } = props;
   const { term } = props;
 
@@ -175,75 +165,13 @@ export default function(props) {
     <div>
       <MaterialsList>
         {materials.map((material, index) => (
-          <MaterialSingle key={String(index)} item={material}>
-            <Link
-              to={{
-                pathname: `/materials/${material.slug}`,
-                state: {
-                  category_name: data ? data.name : null,
-                  category_slug: data ? data.slug : null,
-                },
-              }}
-              className="content_img_borda"
-            >
-              <div className="borda" bg-index={border_string} />
-              <div
-                className="img_loop"
-                style={{
-                  backgroundImage: `url(${
-                    material.highlighted
-                      ? material.highlight_image_url
-                      : material.list_image_url
-                  })`,
-                }}
-              >
-                {material.questionnaires_completed && (
-                  <button
-                    onClick={e => {
-                      e.preventDefault();
-                      props.comparison.actions.add(props.current);
-                      <Redirect to={`/materials/${material.slug}`} />;
-
-                      console.log('chegou aq');
-                    }}
-                  >
-                    comparar
-                  </button>
-                )}
-              </div>
-            </Link>
-            <div className="content_loop">
-              <StyledTypography variant="h4">{material.name}</StyledTypography>
-              <div className="content-material-single">
-                <div className="categories-wrapper">
-                  {material.categories_has_page.map((categoriesHasPage, i) => (
-                    <a
-                      href={`/categories/${categoriesHasPage.slug}`}
-                      className="span_category"
-                      key={i}
-                    >
-                      {categoriesHasPage.name}
-                    </a>
-                  ))}
-                </div>
-                <div className="icons">
-                  {currentUser && (
-                    <Link to={`/materials/${props.currentUser.id}/albums`}>
-                      <img src={favorites} alt="" />
-                    </Link>
-                  )}
-                  {material.technicalSpecificationUrl && (
-                    <Link
-                      target="_blank"
-                      to={material.technicalSpecificationUrl}
-                    >
-                      <img src={download} alt="" />
-                    </Link>
-                  )}
-                </div>
-              </div>
-            </div>
-          </MaterialSingle>
+          <MaterialSingle
+            key={String(index)}
+            {...props}
+            current={material}
+            material={material}
+            index={index}
+          />
         ))}
       </MaterialsList>
 

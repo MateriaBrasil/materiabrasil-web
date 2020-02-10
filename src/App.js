@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { BrowserRouter } from 'react-router-dom';
 import Auth from 'auth/Auth';
 import Comparison from 'comparison/Comparison';
 import Snackbar from 'snackbar/Snackbar';
@@ -17,28 +17,31 @@ export default class extends Component {
   render() {
     return (
       <Providers>
-        <Auth
-          render={authProps => (
-            <Comparison
-              render={comparisonProps => (
-                <Snackbar
-                  render={snackbarProps => (
-                    <CategoryFilled
-                      render={categoryFilledProps => (
-                        <Screen
-                          {...authProps}
-                          comparison={comparisonProps}
-                          snackbar={snackbarProps}
-                          categoryFilled={categoryFilledProps}
-                        />
-                      )}
-                    />
-                  )}
-                />
-              )}
-            />
-          )}
-        />
+        <BrowserRouter>
+          <Auth
+            render={authProps => (
+              <Comparison
+                {...this.props}
+                render={comparisonProps => (
+                  <Snackbar
+                    render={snackbarProps => (
+                      <CategoryFilled
+                        render={categoryFilledProps => (
+                          <Screen
+                            {...authProps}
+                            comparison={comparisonProps}
+                            snackbar={snackbarProps}
+                            categoryFilled={categoryFilledProps}
+                          />
+                        )}
+                      />
+                    )}
+                  />
+                )}
+              />
+            )}
+          />
+        </BrowserRouter>
       </Providers>
     );
   }
