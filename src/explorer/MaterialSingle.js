@@ -37,10 +37,7 @@ export default function(props) {
           }}
         >
           {material.questionnaires_completed && (
-            <button onClick={addComparison(props)}>
-              {console.log(props)}
-              comparar
-            </button>
+            <button onClick={addComparison(props)}>comparar</button>
           )}
         </div>
       </Link>

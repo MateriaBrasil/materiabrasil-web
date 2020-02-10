@@ -164,7 +164,6 @@ export default withStyles(chartsStyle)(props => {
             clicar no botão ao lado.
           </p>
           <Link onClick={addComparison(props)} to="#">
-            {console.log(props)}
             Comparar Materiais
           </Link>
         </div>

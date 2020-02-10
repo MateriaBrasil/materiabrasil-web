@@ -11,9 +11,6 @@ export default props => {
   let history = useHistory();
   const { list, alignItems, remove, close } = props;
 
-  console.log(props);
-  console.log('aakakaakakakakakakkakakaakakkakakakak');
-
   return (
     <Grid
       item

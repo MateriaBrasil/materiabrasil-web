@@ -36,12 +36,6 @@ export default class extends Component {
     checkReloadAndFetch(this.props);
   }
 
-  componentDidMount() {
-    console.log('ccccc');
-    console.log(this.props);
-    console.log('aaaaa');
-  }
-
   render() {
     const { current, currentUser } = this.props;
 
@@ -151,6 +145,7 @@ export default class extends Component {
               </p>
 
               <StyledGrafico className="grafico">
+                {console.log(this.props)}
                 <Drivers {...this.props} {...current} />
               </StyledGrafico>
               <Location>

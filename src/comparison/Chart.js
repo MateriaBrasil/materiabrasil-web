@@ -36,6 +36,9 @@ export default withStyles(chartsStyle)(
       ),
     );
 
+    console.log(data);
+    console.log('aaaaa');
+
     return (
       <Drawer open anchor="bottom" onClose={close}>
         <Button variant="contained" color="primary" onClick={close}>

@@ -59,9 +59,6 @@ export default function(props) {
       }
       loadMaterials();
 
-      console.log('ccccc');
-      console.log(props);
-      console.log('aaaaa');
       // console.log('pagination effect');
     },
     [page],
@@ -110,7 +107,6 @@ export default function(props) {
   // search
   useEffect(
     () => {
-      console.log(props);
       setMaterialsPassed(null);
       setError(null);
 
