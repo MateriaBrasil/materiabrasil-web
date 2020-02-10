@@ -24,7 +24,7 @@ import drivers from '../drivers';
 import chartsStyle from '../chartsStyle';
 
 export default withStyles(chartsStyle)(
-  ({ goHome, list, classes, actions: { close, remove } }) => {
+  ({ list, classes, actions: { close, remove } }) => {
     const data = map(drivers, (driver, index) =>
       reduce(
         list,
@@ -82,7 +82,7 @@ export default withStyles(chartsStyle)(
                 </RadarChart>
               </ResponsiveContainer>
             </Grid>
-            <ChipsContainer goHome={goHome} list={list} remove={remove} />
+            <ChipsContainer close={close} list={list} remove={remove} />
           </Grid>
         </Paper>
       </Drawer>

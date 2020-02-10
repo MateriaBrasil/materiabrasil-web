@@ -3,23 +3,18 @@ import Media from 'react-media';
 
 import Chips from './Chips';
 
-export default ({ goHome, list, remove }) => (
+export default ({ close, list, remove }) => (
   <Media query="(min-width: 991px)">
     {matches =>
       matches ? (
         <Chips
-          goHome={goHome}
+          close={close}
           list={list}
           alignItems="flex-start"
           remove={remove}
         />
       ) : (
-        <Chips
-          goHome={goHome}
-          list={list}
-          alignItems="center"
-          remove={remove}
-        />
+        <Chips close={close} list={list} alignItems="center" remove={remove} />
       )
     }
   </Media>

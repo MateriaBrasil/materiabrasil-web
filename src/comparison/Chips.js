@@ -1,4 +1,5 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 import Chip from '@material-ui/core/Chip';
 import Grid from '@material-ui/core/Grid';
 import map from 'lodash/map';
@@ -7,7 +8,11 @@ import removeItem from './removeItem';
 import Colors from './Colors';
 
 export default props => {
-  const { list, alignItems, remove, goHome } = props;
+  let history = useHistory();
+  const { list, alignItems, remove, close } = props;
+
+  console.log(props);
+  console.log('aakakaakakakakakakkakakaakakkakakakak');
 
   return (
     <Grid
@@ -23,7 +28,10 @@ export default props => {
       }}
     >
       <Chip
-        onClick={goHome()}
+        onClick={e => {
+          history.push('/');
+          close();
+        }}
         label={'INCLUIR MATERIAL'}
         style={{ marginBottom: 10 }}
       />
