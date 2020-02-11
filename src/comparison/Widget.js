@@ -2,8 +2,11 @@ import React from 'react';
 import Chart from './Chart';
 import OpenButton from './OpenButton';
 
+import { camelizeKeys } from 'humps';
+
 export default props => {
   const { open, actions } = props;
+  const formatedList = camelizeKeys(props.list);
 
   return (
     <div
@@ -14,7 +17,11 @@ export default props => {
         zIndex: 1000,
       }}
     >
-      {open ? <Chart {...props} /> : <OpenButton onClick={actions.open} />}
+      {open ? (
+        <Chart open={open} actions={actions} list={formatedList} />
+      ) : (
+        <OpenButton onClick={actions.open} />
+      )}
     </div>
   );
 };

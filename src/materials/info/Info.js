@@ -146,6 +146,7 @@ export default class extends Component {
 
               <StyledGrafico className="grafico">
                 {console.log(this.props)}
+                {console.log(`drivers`)}
                 <Drivers {...this.props} {...current} />
               </StyledGrafico>
               <Location>
